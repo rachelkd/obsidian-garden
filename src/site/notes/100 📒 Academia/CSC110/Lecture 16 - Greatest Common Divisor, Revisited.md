@@ -18,8 +18,22 @@ $$\exists p \in Z, Prime(p) \iff (p > 1 \wedge (\forall d \in \mathbb{N}, 2 \leq
 	- Let $x, y ,d \in \mathbb{Z}$. We say that $d$ is the *greatest common divisor* of $x$ and $y$ when it is the largest number that is a common divisor of $x$ and $y$, or 0 when $x$ and $y$ are both 0. $$\text{gcd} : \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{N}$$
 	- e.g., `gcd(100, 72) = 4` and `gcd(0, 0) = 0` 
 
-# Naive algorithm
-
+# Naive Algorithm
+Check every possible divisor of `m` and `n` and return the largest common one.
+```Python
+def naive_gcd(m: int, n: int) -> int:
+	"""Return the gcd of m and n."""
+	if m == 0:
+		return abs(n)
+	elif n == 0:
+		return abs(m)
+	else:
+		possible_divisors = range(1, min(abs(m), abs(n)) + 1)
+		return max({d for d in possible_divisors
+					if divides(d, m) and divides(d, n)})
+```
+We can do one better...
+# The Euclidean Algorithm
 # Euclidean Algorithm
 *Given* non-negative integers `a` and `b` 
 *Returns* `gcd(a, b)`
