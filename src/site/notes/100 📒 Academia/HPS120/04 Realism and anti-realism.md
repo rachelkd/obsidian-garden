@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T01:53:28.073-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T12:21:19.445-04:00"}
 ---
 
 # Philosophy of science
@@ -13,9 +13,9 @@
 - Is the job of a scientific theory to be true?
 - Do electrons exist?
 
-Science captures something true about the world — why it works really well
+Science captures something true about the world $\rightarrow$ why it works really well
 
-Anti-realism is not talking about people who think that science does not work (making good predictions, enabling us to make good technology)
+Anti-realism is *not* talking about people who think that science does not work (making good predictions, enabling us to make good technology)
 
 # Empirical adequacy
 
@@ -41,12 +41,12 @@ Is the job of science is to be more than empirical adequacy?
 Anti-realists don’t want to commit to more than they need to.
 
 - Anti-realists say: our theories make good predictions
-- “Why did you have to say the second part about being true?”
+	- “Why did you have to say the second part about being true?”
 - “You’re committing too much. Our theories make good predictions.”
-- The observations are your only access to the truth and falsity of these theories
+- <mark style="background: #776F33A6;">The observations are your only access to the truth and falsity of these theories</mark>
 - Anti-realist thinks realists are ***over-committing***
 
-Some call themselves instrumentalists; the point of science is to be useful. That’s all it does, and that is all you can prove it does.
+Some call themselves *instrumentalists*; the point of science is to be useful. That’s all it does, and that is all you can prove it does.
 
 The truth bit? I don’t know about that. Are there really electrons? I don’t know, but the theory seems to be doing well right now.
 
@@ -66,7 +66,7 @@ Realists say:
 This rejects believing in metaphysical truths beyond what our senses can tell us
 
 - Philosophers had long believed in things like essences, purposes, causes, and so on
-- Hume thought these ideas were only worthwhile insofar as you could cache them out in ************observations************
+- Hume thought these ideas were only worthwhile insofar as you could cache them out in *observations*
 
 # Idealized Models
 
@@ -91,21 +91,18 @@ true enough $\rightarrow$ approximate truth
 
 # No Miracles Argument
 
-An important response from the realist is the No Miracles argument, usually attributed to Hilary Putnam. 
+An important response from the realist is the No Miracles argument, usually attributed to **Hilary Putnam**. 
 
-- If science just happened to keep getting the right answers, over and over again, but was mostly false, it would be a *******miracle*******
+- If science just happened to keep getting the right answers, over and over again, but was mostly false, it would be a *miracle*.
 - It is so unlikely that this would happen:
     - The best explanation for the success of science is that it is at least approximately true.
 
-<aside>
-💡 Newton was not proven wrong and his theory was then useless after.
+> [!note] Newton was not proven wrong and his theory was then useless after.
+> - Newton’s theory turns out to be structrually speaking wrong, but it is an approximation to truth.
+> - As far as anybody can tell, it can be recovered as a limited case of relativity and quantum mechanics
+> 
+> Newton gave us an approximate truth about reality.
 
-- Newton’s theory turns out to be structrually speaking wrong, but it is an approximation to truth.
-- As far as anybody can tell, it can be recovered as a limited case of relativity and quantum mechanics
-
-Newton gave us an approximate truth about reality.
-
-</aside>
 
 The basic outlines of modern science is that it is unlikely that the theories are going to be flatly and obviously wrong; they are going to have some piece of truth in them.
 
@@ -134,7 +131,7 @@ So, what is observable?
 It is tempting to say that we can observe some sub-atomic particles
 
 - In a cloud chamber, you can see little traces of radioactive particles zipping around
-    - But is this really *********observing********* the particles?
+    - But is this really *observing* the particles?
 
 Maybe, we should say we detect these particles, but we do not observe them.
 
@@ -144,11 +141,8 @@ Maybe, we should say we detect these particles, but we do not observe them.
 
 Where is the cut-off for what counts as observable?
 
-<aside>
-💡 Anti-realism is skepticism about unobservable entities in scientific theories.
-
-- Everyone in this discussion believes that science makes good predictions.
-</aside>
+> [!note] Anti-realism is skepticism about unobservable entities in scientific theories.
+> - Everyone in this discussion believes that science makes good predictions.
 
 # Vague Terms
 
@@ -168,7 +162,7 @@ One last argument from the anti-realists:
 - They are scientific theories are ***underdetermined*** by their evidence
     - Many different theories could account for the same evidence
         - e.g., several different lines of best-fit for data
-- Given that you cannot decide between those theories based on the observations or assumption that they all account for the observations, that means you shouldn’t believe that the theoretical observation of any of those theories because they’re undetermined by the evidence
+- Given that you cannot decide between those theories based on the observations or assumption that they all account for the observations, that means you shouldn’t believe the theoretical observation of any of those theories because they’re undetermined by the evidence
 
 # Examples of Underdetermination
 
@@ -183,7 +177,7 @@ One last argument from the anti-realists:
         - When it bounces off (and somebody sees it), it collapses into a particle
     - “Many worlds” interpretation
         - Everything starts off as a particle moving around
-        - When you observe something, the outcomes are sort of random. Everything that could happen in that distribution ****does**** happen in separate universes.
+        - When you observe something, the outcomes are sort of random. Everything that could happen in that distribution *does* happen in separate universes.
         - Wave function never collapses, just constantly branching
     - Theres a third: Bohemian mechanics
         - Particles always have a definite position and momentum
@@ -193,11 +187,9 @@ One last argument from the anti-realists:
         - All three of these interpretations make the exact same predictions about the particles.
         - There is no observation to distinguish these.
     
-    <aside>
-    💡 All of them make the same predictions. All of them predict the same observations.
-    
-    </aside>
-    
+	> [!note]
+	> All of them make the same predictions. All of them predict the same observations.
+
 
 # Realism and Anti-Realism about X
 
@@ -213,7 +205,7 @@ One last argument from the anti-realists:
 # Post-modern anti-realism
 
 - A strain of anti-realism about science is the kind of cultural critique levelled (mostly in the 1990s) by post-modernists
-    - What is science only looks like it works because it is judged by the standards set by hegemonic western power structures?
+    - What if science only looks like it works because it is judged by the standards set by hegemonic western power structures?
 - That is wrong (according to Prof.)
     - Science is not a product of the west. It is a product of the whole world.
 
@@ -224,5 +216,3 @@ Which is why next time we will be talking about [05 Global history of science](0
 - Realism
 - No Miracles Argument
 - Underdetermination
-
-# Tutorial 3
