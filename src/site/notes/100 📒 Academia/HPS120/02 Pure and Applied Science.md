@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T02:02:26.081-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T11:26:44.339-04:00"}
 ---
 
 # What constitutes a person as a scientist?
@@ -29,10 +29,10 @@ But, some people out of that community could still be performing what we call �
 
 ## Flat Earthers
 
-- They ARE scientists.
+- They **ARE** scientists.
     - perform experiments
-- They ARE NOT scientists.
-    - Not engaged with the scientific community “in the right way” — they are *******hostile******* to it
+- They **ARE NOT** scientists.
+    - Not engaged with the scientific community “in the right way” — they are *hostile* to it
         - Believe there is a vast global conspiracy, including the scientific community, to keep the truth from us
     - The way you have to defend this is to believe that there is enormous coordinated conspiracy to hide the truth from people
         - in some sense, cut yourself off from the scientific community
@@ -48,7 +48,7 @@ But, some people out of that community could still be performing what we call �
 
 How do we determine who belongs in the scientific community?
 
-1. Scientists try to come up with truths about the world
+- Scientists try to come up with truths about the world:
     1. predict models
     2. uses their senses
 
@@ -103,16 +103,12 @@ But, what else?
     - Companies make a lot of money by making this technology
         - vs. a research job
 
-<aside>
-💡 Rowland is largely arguing for salaried research positions that aren’t tied to producing useful products
-
-- Excludes people doing research for product development
-    - There’s research done in companies for product development
-- also excludes most university jobs which involve teaching
-
-Rowland wants guaranteed salaries for just doing pure scientific research
-
-</aside>
+> [!important] Rowland is largely arguing for salaried research positions that aren’t tied to producing useful products
+> - Excludes people doing research for product development
+> 	- There’s research done in companies for product development
+> - also excludes most university jobs which involve teaching
+> 
+> Rowland wants guaranteed salaries for just doing pure scientific research
 
 ## Applied Scientist
 
@@ -136,14 +132,11 @@ Applied science contrasts (but is not the opposite of) pure science
 
 # Pure Scientists and Mertonian Norms
 
-<aside>
-💡 **The “pure” scientist matches with Mertonian norms.**
-
-- No interest in controlling the knowledge they produce
-    - Communism
-- Aren’t looking for any particular result
-    - Disinterestedness
-</aside>
+> [!note] The “pure” scientist matches with Mertonian norms.
+> - No interest in controlling the knowledge they produce
+> 	- Communism
+> - Aren’t looking for any particular result
+> 	- Disinterestedness
 
 But is this how people actually like that?
 
@@ -176,16 +169,16 @@ Is science doomed?
         - if the community is structured just right, objectivity emerges as a property of the whole
             - you don’t need individuals to be objective; objectivity is a GROUP effort
 
-> “A method of inquiry is objective to the degree that it permits ***************transformative*************** criticism. […] Scientific communities are objective to the degree that they satisfy four criteria necessary for achieving the transformative dimension of critical discourse;”
+> “A method of inquiry is objective to the degree that it permits *transformative* criticism. […] Scientific communities are objective to the degree that they satisfy four criteria necessary for achieving the transformative dimension of critical discourse;”
 > 
 1. There must be recognized avenues for the criticism of evidence, methods, and of assumptions and reasoning
-    1. You got to have some recognized, formalized way of critiquing every scientific paradigm, method, etc.
-        1. hasn’t been true in all cases; e.g., scientist in the USSR: you could be sent to the Gulag for saying the wrong thing! Not an open avenue for criticism
+	- You got to have some recognized, formalized way of critiquing every scientific paradigm, method, etc.
+	- hasn’t been true in all cases; e.g., scientist in the USSR: you could be sent to the Gulag for saying the wrong thing! Not an open avenue for criticism
 2. There must exist shared standards that critics can invoke
 3. The community as a whole must be responsive to such criticism
-    1. So, you’ve got a shared set of standards to make a good point, and people have to be listening
+	- So, you’ve got a shared set of standards to make a good point, and people have to be listening
 4. Intellectual authority must be shared equally among qualified practitioners
-    1. If you’ve shown yourself to be an apt member of the community, they have to be listening to you
+	- If you’ve shown yourself to be an apt member of the community, they have to be listening to you
 
 ## Failure of Shared Standards
 
@@ -208,11 +201,11 @@ Is science doomed?
 ## Paradigms help make transformative criticism possible
 
 - paradigms
-    - set of shared assumptions, standards of evidence, experimental methods, etc., that help communities critique each others ideas in **********meaningful********** ways
+    - set of shared assumptions, standards of evidence, experimental methods, etc., that help communities critique each others ideas in *meaningful* ways
         - also applies to shared standards of evaluation for ideas
     - shared set of assumptions so people can talk to each other!
 - If the community is structured well, the overall view shifts
-    - Any individual cannot be counted on to be object
+    - Any individual cannot be counted on to be objective
     - We want the community to be structured, so the individual doesn’t need to be
 - Community can converge on truth
     - e.g., look at any paradigm shift
