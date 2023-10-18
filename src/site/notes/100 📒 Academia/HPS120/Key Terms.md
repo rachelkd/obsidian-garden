@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-18T01:47:58.308-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-18T17:11:56.910-04:00"}
 ---
 
 ```table-of-contents
@@ -27,16 +27,16 @@
 	- Structure in this definition refers to the innate structure; there must be some sort of knowledge that one is born with to arrive at a theory. Immanuel Kant argued that one has to start with ideas of space and time to make sense of one’s senses, otherwise one could not know where to begin. For example, babies seem to start an understanding of distance; they know what they can reach and what they cannot reach.
 	- Coherence means that the data and observations have to align with the theory.
 - **Where**
-	- This term was introduced in the “Baby Scientists” lecture, but has shown up in topics in “Anomalies” and “Realism and Anti-Realism.” In Baby Scientists, Gopnik argues that children make hypotheses and theories just like scientists. 
+	- This term was introduced in the “Baby Scientists” lecture, but has shown up in topics in “Anomalies” and “Realism and Anti-Realism.” In Baby Scientists, Gopnik argues that children test hypotheses and make theories just like scientists. 
 - **Why**
-	- This argument is significant because it questions the ways people often think of science: who is a scientist? If a baby can test hypotheses, does that make them a scientist? Is science simply making good predictions?
-	- This ties into the discussion about realism and anti-realism — specifically, abstraction.
+	- This argument is significant because it questions the ways people often think of science: who is a scientist? If a baby can test hypotheses, does that make them a scientist? Is science simply making good predictions, like children predicting if a person likes the colour green?
+	- The term ties into the discussion about realism and anti-realism.
 		- Since scientific theories are abstract, anti-realists argue that theories can only make good predictions, but cannot be true as it cannot be observed.
-		- The search for absolute truth is not necessary, and arguably not possible according to the anti-realists and empiricists (see causation).
+		- The search for absolute truth is not necessary, and arguably not possible according to the anti-realists and empiricists.
 ### Causation
 - **What**
 	- Causation in science is the idea that one “cause” or variable leads to an effect or change in another variable.
-	- Causation in science is a controversial topic: empiricists believe that all knowledge grounded in sense experience. However, causation cannot be translated into a sense experience.
+	- Causation in science is a controversial topic: empiricists believe that all knowledge is grounded in sense experience. However, causation cannot be translated into a sense experience.
 		- For example, if a cue ball hits other pool balls, it cannot be claimed that the cue ball caused the other balls to move, because there is no explicable difference between the cue ball causing the pool balls to move and the cue ball stopping and the other balls spontaneously moving. 
 	- Causation is an invisible metaphysical entity with no correlate in the sense experience.
 - **Where**
@@ -45,7 +45,7 @@
 	- The theory was run backwards to think about science: is there an explicit way to describe that one thing causes another thing? 
 ### Paradigms
 - **What**
-	- Paradigms are a set of beliefs about what is relevant, interesting, important, and expectations on how to study something. They help decide what is worth studying. For example, it would not be worth studying whether a person wearing a blue sweater would affect their response to heart medication — in the current medical paradigm, the prior probability (chances of the colour blue affecting a person’s response to medication before studying it) would be incredibly low. In a way, paradigms are like binoculars; they enormously allow you to narrow a field of vision. Certain things are likely to be important, and the rest is ignored, allowing one to make developments in science easier.
+	- Paradigms are a set of beliefs about what is relevant, interesting, and important, and they provide expectations on how to study something. They help decide what is worth studying. For example, it would not be worth studying whether a person wearing a blue sweater would affect their response to heart medication — in the current medical paradigm, the prior probability (chances of the colour blue affecting a person’s response to medication before studying it) would be incredibly low. In a way, paradigms are like binoculars; they enormously allow you to narrow a field of vision. Certain things are likely to be important, and the rest is ignored, allowing one to make developments in science easier.
 - **Where**
 	- This term first appeared in the “Baby Scientists” lecture. Gopnik argued that children update their beliefs using Bayesian statistical models. To do this, babies need a prior probability that is rooted in paradigms. Paradigms in this context are societal or innate.
 - **Why** #todo
@@ -54,20 +54,14 @@
 
 # Week 3 - [[02 Pure and Applied Science \| Pure and applied science]]
 
-[Pure and Applied Science](https://www.notion.so/Pure-and-Applied-Science-1ed38fd309594a059a28d1f6b3140ed8?pvs=21)
-
 ### Pure and applied science #todo
-
-### Pure science
 - **What**
-	- Pure science is defined as science for the love of knowledge and truth. This is in contrast to — but not opposite to — applied science. The distinction between pure and applied science occurred during the Gilded Age when people started to become more obsessed with money despite massive inequality. It was argued that pure science had to be done for its own sake, rather than for any material benefit.
+	- Pure and applied science are the two types science that scientists engage in. Pure science is defined as science for the love of knowledge and truth. This is in contrast to — but not opposite to — applied science. This distinction occurred during the Gilded Age when people became more obsessed with the pursuit of wealth despite massive inequality. Pure science was done for the sake of science, rather than for any material benefit. Johns Hopkins professor Henry Rowland argued for pure science: he wanted guaranteed salaries for research that was not tied to producing useful products. He condemned the applied scientists who "steal the ideas" of "great minds" for money, positioning pure scientists as greater than applied scientists. Applied science in its simplest form is defined as technology, which generates profit. 
 - **Where**
-	- This term appeared in the “Pure and Applied Science” lecture. The “pure scientist” connects with the Mertonian norms; a pure scientist is disinterested, meaning they are only interested in finding the truth and not being correct, and have no interest in profiting or restricting the knowledge they produce (communism in Mertonian norms).
-- **Why** #todo
-	- However, it is unlikely that scientists fall into Rowland and Merton’s respective ideas of a “pure scientist.” People are self-interested and want money; Longino presents a more realistic definition of a scientist in “transformative criticism.”
-	- Perhaps, Mertonian norms did not even have to grounds to exist during the Gilded Age.
-### Applied science
-Applied science in its most simplest form is defined as technology. Applied science contrasts — but is not the opposite of — pure science. Technology often makes profit, which violates Rowland’s understanding of pure science. This term appeared in the lecture about pure and applied science. This term is important because applied science cannot exist without the pre-existing models and discoveries from pure science. Contrary to physicist Henry Rowland’s view of applied science, the editors of Science argue that “impure” science is no less genuine and beneficial to society: a person who can use science to create something for the good of humankind is better than just the pure science.
+	- This term appeared in the "Pure and applied science" lecture.
+- **Why**
+	- Pure science generates the models that is used in applied science; applied science cannot exist without the pure. Both pure and applied need to co-exist together to the benefit of society. Rowland's argument that the models discovered by pure scientists is pillaged for wealth by the applied scientists removes a lot of complexity, especially in the modern world. Applied science, though capitalistic, can not only help people, but make its own scientific discoveries (space discovery corporations).
+
 ### Mertonian Norms
 - **What**
 	- The Mertonian Norms are a set of ideals produced by sociologist Robert Merton in the 1940s. The ideals describe how scientists should behave. The four norms are: communism, universalism, disinterestedness, and organized skepticism. Communism means that scientific discoveries should be shared freely and widely. Universalism means that a scientific claim should not be evaluated based on the scientist’s identity. Disinterestedness means that a scientist should not care about anything but the truth — they should not care about being correct, rather about the truth. Organized skepticism is the refusal to accept any claim or theory without proper evidence.
@@ -77,7 +71,7 @@ Applied science in its most simplest form is defined as technology. Applied scie
 	The Mertonian Norms were discussed during the lecture on “Pure and Applied Science.” These set of ideals reflected the idea of a “scientist” during the Gilded Age — a period where the obsession with money was growing, but with massive inequality. The Mertonian Norms is significant because they describe an image of science that may be too ideal to exist in the real world. It overlooks the fact that individuals are often biased, hate being wrong, and love having money. Longino’s “transformative criticism” might paint a more realistic picture of science and a scientific community.
 ### Transformative criticism
 - **What**
-	- Transformative criticism defines a more achievable way of defining science versus Rowland and Merton’s standards related to disinterestedness and communism.
+	- Transformative criticism defines a more achievable way of defining science versus Rowland and Merton’s standards about disinterestedness and communism.
 - **Where**
 	- This appears in the lecture about “pure and applied science.” Helen Longino suggests that humans are biased, self-interested, and flawed. However, that is okay if there is a structured scientific community: objectivity is a group effort rather than individual. Longino states that there must be (1) recognized, formalized ways of critiquing every scientific paradigm, method, etc., (2) a shared set of standards that critics can invoke, (3) the community must be responsive to such standards, so the community must be listening if an individual makes a good point adhering to the shared set of standards, and (4) intellectual authority must be shared equally among qualified practitioners (i.e., if an individual has shown themself to be an apt member of the community, people need to be listening to them).
 - **Why**
@@ -113,15 +107,13 @@ Applied science in its most simplest form is defined as technology. Applied scie
 
 # Week 5 - [[100 📒 Academia/HPS120/04 Realism and anti-realism\|Realism and anti-realism]]
 
-[Realism and anti-realism](https://www.notion.so/Realism-and-anti-realism-70a6dcf916bc4d36aa11309914a191cc?pvs=21)
-
 ### Realism
-Realism is the idea that scientific theories are true or approximately true. This contrasts with anti-realism, that is agnostic about the reality of unobservable entities in scientific theories. Realists rely on the No Miracles Argument, which says that scientific theories making as many true predictions as they do would be a miracle if they weren't at least approximately true.
-
-- Scientists are not questioning realism. Realism is questioned by the philosophers of science.
-- Antirealists
-    - Significance of question? whether scientific theory is true or not
-
+- **What**
+	- Realism is a position apart of the debate about scientific truth: it takes the perspective that scientific theories are, at the very least, approximately true. This contrasts with anti-realism – the other stance – that is skeptical about unobservable entities in scientific theories. Anti-realists argue that scientific theories cannot be true as they are unobservable. However, if the theory can make good predictions, then it is empirically adequate (i.e., good enough). Both sides agree that if a scientific concept is observable (we can see plants), then we can claim truth (plants exist). The distinction between the two positions is on the unobservable.
+- **Where**
+	- This term appeared in the "Realism and anti-realism" lecture. 
+- **Why**
+	- This debate questions the goals of science. Is it enough to just be able to make good predictions, or should science expose truths about the natural world? In addition to the goals of science, the term "unobservable" that is essential to the anti-realist argument is ambiguous: electrons can be used in experiments (e.g., Millikan oil drop experiment), and we can determine their charge. This hints at their existence, but according to the anti-realists, there is no visual sense experience directly related to electrons. Perhaps, a solution to go about this debate is to be a realist or anti-realist case-by-case.
 ### No Miracles Argument
 
 - **Where**
