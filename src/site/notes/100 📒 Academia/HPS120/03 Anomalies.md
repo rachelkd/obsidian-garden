@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T01:52:59.585-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T11:42:47.423-04:00"}
 ---
 
 # Anomalies
@@ -54,7 +54,7 @@
     - Meant to rule out theories like “invisible gremlins who do nothing are everywhere”
     - There’s no observation to prove you wrong; it’s not a study-able subject
 
-This relates to the **[[100 📒 Academia/HPS120/02 Pure and Applied Science#Mertonian Norms \| Mertonian Norms]]**: disinterestedness.
+This relates to the **[[100 📒 Academia/HPS120/02 Pure and Applied Science#Mertonian Norms \|Mertonian Norms]]**: disinterestedness.
 
 We have this image of the noble scientist:
 
@@ -215,25 +215,20 @@ Once a model exists to explain it, people go: “We should’ve seen it all alon
 
 # Scientific conservatism
 
-<aside>
-💡 Lightman and Gingerich attribute the phenomenon of retrocognition large to ***scientific conservatism***
-
-</aside>
-
+> [!note]
+> Lightman and Gingerich attribute the phenomenon of retrocognition large to *scientific conservatism*
 - Scientists tend not to want to give up ideas that have worked pretty well
     - You’ve spent your career within a certain way of seeing the world; you got a bunch of awards for your work on that idea; you have a grant currently under review — you might not be too excited to give it up
         - Does not fit well with our “heroic” picture from the “disinterested scientist” that we get from our [[100 📒 Academia/HPS120/02 Pure and Applied Science#Mertonian Norms\|Mertonian Norms]], following the truth wherever it leads
 
 ---
 
-Galileo was okay with some anomalies re: stellar parallax
+**Galileo was okay with some anomalies**, re: stellar parallax
 
-- Even produced ******ad hoc****** hypotheses if his critics insisted on an explanation
+- Even produced *ad hoc* hypotheses if his critics insisted on an explanation
+> [!note]
+> *Ad hoc* means "for this particular purpose", suggesting that confirmation bias provides an explanation tailored to the specific situation rather than a broader scientific principle.
 
-<aside>
-💡 *Ad hoc* means "for this particular purpose", suggesting that confirmation bias provides an explanation tailored to the specific situation rather than a broader scientific principle.
-
-</aside>
 
 - He did not look at any anomaly and say “Time for a new theory!”
 - You cannot just give up the minute an anomaly shows up
