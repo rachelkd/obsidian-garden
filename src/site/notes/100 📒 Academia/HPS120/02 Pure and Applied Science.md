@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T01:59:34.668-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T02:02:26.081-04:00"}
 ---
 
 # What constitutes a person as a scientist?
@@ -83,7 +83,6 @@ But, what else?
 > “…it is not an uncommon thing, especially in American newspapers, to have the applications of science confounded with pure science; and some obscure American who steals the ideas of some great mind of the past, and enriches himself by the application of the same to domestic uses, is often lauded above the great originator of the idea, who might have worked out hundreds of such applications had his mind possessed the necessary element of vulgarity.”
 
 — Henry Rowland, 1883
-> 
 
 ### The Gilded Age
 
