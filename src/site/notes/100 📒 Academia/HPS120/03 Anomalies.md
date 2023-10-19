@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T11:42:47.423-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/03 Anomalies.md","permalink":"/academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T11:42:47.423-04:00"}
 ---
 
 # Anomalies
