@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T11:26:44.339-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/02 Pure and Applied Science.md","permalink":"/academia/hps-120/02-pure-and-applied-science/","created":"2023-10-17T23:18:19.296-04:00","updated":"2023-10-18T11:26:44.339-04:00"}
 ---
 
 # What constitutes a person as a scientist?
