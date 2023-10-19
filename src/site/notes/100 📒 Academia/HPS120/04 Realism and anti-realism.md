@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T12:21:19.445-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T19:28:08.838-04:00"}
 ---
 
 # Philosophy of science
@@ -209,7 +209,7 @@ One last argument from the anti-realists:
 - That is wrong (according to Prof.)
     - Science is not a product of the west. It is a product of the whole world.
 
-Which is why next time we will be talking about [05 Global history of science](05%20Global%20history%20of%20science.md) 
+Which is why next time we will be talking about [[100 📒 Academia/HPS120/05 Global history of science\|Global history of science]]. 
 
 # Key Terms
 
