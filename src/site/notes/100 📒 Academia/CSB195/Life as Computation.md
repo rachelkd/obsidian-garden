@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-10-18T18:23:50.099-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-10-18T23:34:04.665-04:00"}
 ---
 
 # What is life
