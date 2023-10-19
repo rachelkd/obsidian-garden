@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/obsidian-garden/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-10-18T18:24:54.732-04:00"}
+{"dg-publish":true,"permalink":"/200-personal/obsidian-garden/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-10-18T23:07:00.326-04:00"}
 ---
 
 
@@ -17,4 +17,3 @@
 # CSB195
 **Life as Computation**
 [[100 📒 Academia/CSB195/Life as Computation\|Life as Computation]]
-[[100 📒 Academia/CSB195/Life as Computation#Modelling local knowledge\|Modelling local knowledge]]
