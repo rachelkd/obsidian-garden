@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/05-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-10-18T01:52:51.313-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/05 Global history of science.md","permalink":"/academia/hps-120/05-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-10-18T01:52:51.313-04:00"}
 ---
 
 # Science Wars
