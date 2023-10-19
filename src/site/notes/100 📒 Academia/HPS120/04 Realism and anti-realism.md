@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T19:28:08.838-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/04 Realism and anti-realism.md","permalink":"/academia/hps-120/04-realism-and-anti-realism/","created":"2023-10-17T23:18:19.456-04:00","updated":"2023-10-18T19:28:08.838-04:00"}
 ---
 
 # Philosophy of science
