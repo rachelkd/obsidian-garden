@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms.md","permalink":"/academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-18T19:32:33.558-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms.md","permalink":"/academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-19T00:51:40.900-04:00"}
 ---
 
 ```table-of-contents
@@ -48,16 +48,15 @@ See [[100 📒 Academia/HPS120/01 Baby Scientists\|Baby scientists]].
 	- Causation is an invisible metaphysical entity with no correlate in the sense experience.
 - **Where**
 	- This term appeared in the lecture about “Baby Scientists,” where we discussed Gopnik’s argument that children are like baby scientists. Children learn and update inferences by performing science-like experiments to determine causation.
-- **Why** #todo
-	- The theory was run backwards to think about science: is there an explicit way to describe that one thing causes another thing? 
+- **Why**
+	- Gopnik's thesis is run backwards to think about science: is there an explicit way to describe that one thing causes another thing? Are scientific conclusions strictly based on sense experience? If they are like the empiricists say so, then it cannot be certain that gravity makes objects on Earth fall, as force is not translated into sense experience. This suggests that the way to go about science may not be to find objective truth in the natural world.
 ### Paradigms
 - **What**
 	- Paradigms are a set of beliefs about what is relevant, interesting, and important, and they provide expectations on how to study something. They help decide what is worth studying. For example, it would not be worth studying whether a person wearing a blue sweater would affect their response to heart medication — in the current medical paradigm, the prior probability (chances of the colour blue affecting a person’s response to medication before studying it) would be incredibly low. In a way, paradigms are like binoculars; they enormously allow you to narrow a field of vision. Certain things are likely to be important, and the rest is ignored, allowing one to make developments in science easier.
 - **Where**
 	- This term first appeared in the “Baby Scientists” lecture. Gopnik argued that children update their beliefs using Bayesian statistical models. To do this, babies need a prior probability that is rooted in paradigms. Paradigms in this context are societal or innate.
-- **Why** #todo
-	- Paradigms also appear in the “Anomalies” discussion. Our scientific paradigms shift when we are presented with data or observations that do not align with current paradigms. When an explanation arrives for a strange piece of data, the paradigms shift. Paradigms also help rule out pseudoscience: people who believe the Earth is flat have to reject current scientific paradigms that the Earth is in fact round. There is no expectation on how to study this conspiracy theory because there is no evidence to support it.
-
+- **Why**
+	- These innate paradigms tie into Immanuel Kant's argument that one has to start off with some ideas of space and time in order to make sense of one's senses. There must be some paradigmatic *structure* that the baby follows that help them make predictions (prior probability).
 
 # Week 3 - Pure and applied science
 See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied science]].
@@ -73,10 +72,11 @@ See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied sci
 ### Mertonian Norms
 - **What**
 	- The Mertonian Norms are a set of ideals produced by sociologist Robert Merton in the 1940s. The ideals describe how scientists should behave. The four norms are: communism, universalism, disinterestedness, and organized skepticism. Communism means that scientific discoveries should be shared freely and widely. Universalism means that a scientific claim should not be evaluated based on the scientist’s identity. Disinterestedness means that a scientist should not care about anything but the truth — they should not care about being correct, rather about the truth. Organized skepticism is the refusal to accept any claim or theory without proper evidence.
-- **Where** #todo
-- **Why** #todo
-- Tutorial brainstorm
-	The Mertonian Norms were discussed during the lecture on “Pure and Applied Science.” These set of ideals reflected the idea of a “scientist” during the Gilded Age — a period where the obsession with money was growing, but with massive inequality. The Mertonian Norms is significant because they describe an image of science that may be too ideal to exist in the real world. It overlooks the fact that individuals are often biased, hate being wrong, and love having money. Longino’s “transformative criticism” might paint a more realistic picture of science and a scientific community.
+- **Where**
+	- This appeared in the "pure and applied science" lecture.
+- **Why**
+	- The Mertonian Norms align nicely with the ideal "pure" scientist (see [[100 📒 Academia/HPS120/Key Terms#Pure and applied science\|pure and applied science]]). Both agree that science should be shared freely; thus, science is non-pecuniary. Both are not looking for any particular result, except the truth (disinterestedness in research).
+	- However, Mertonian Norms describe an image that is too ideal to exist in the real world. It overlooks the fact that individuals are often biased, hate being wrong, and love having money. The latter was especially true during the Gilded Age, when Rowland clarifies the distinction between pure and impure science. Helen Longino proposes "transformative criticism," which paints a more realistic picture of science in the scientific community.
 ### Transformative criticism
 - **What**
 	- Transformative criticism defines a more achievable way of defining science versus Rowland and Merton’s standards about disinterestedness and communism.
