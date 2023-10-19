@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-18T17:11:56.910-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-18T19:32:33.558-04:00"}
 ---
 
 ```table-of-contents
 ```
 
-> [!tip] Exams and Tests
+> [!note] Exams and Tests
 > - There will be a list of terms and a booklet
 > - Pick 4 out of the list and explain them
 > - 150 - 300 words per term
@@ -18,7 +18,14 @@
 > - Don’t need critical thinking — that is for the essays
 > - Be clear in your writing to make sure the TA will see you know what is going on
 
-# Week 2 - [[100 📒 Academia/HPS120/01 Baby Scientists\|Baby scientists]]
+
+> [!note] Be very specific
+> - What are the steps?
+> - Explain what the argument is, and then the impact of the argument.
+
+---
+# Week 2 - Baby Scientists
+See [[100 📒 Academia/HPS120/01 Baby Scientists\|Baby scientists]].
 
 ### Scientific theories
 - **What**
@@ -52,9 +59,10 @@
 	- Paradigms also appear in the “Anomalies” discussion. Our scientific paradigms shift when we are presented with data or observations that do not align with current paradigms. When an explanation arrives for a strange piece of data, the paradigms shift. Paradigms also help rule out pseudoscience: people who believe the Earth is flat have to reject current scientific paradigms that the Earth is in fact round. There is no expectation on how to study this conspiracy theory because there is no evidence to support it.
 
 
-# Week 3 - [[02 Pure and Applied Science \| Pure and applied science]]
+# Week 3 - Pure and applied science
+See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied science]].
 
-### Pure and applied science #todo
+### Pure and applied science
 - **What**
 	- Pure and applied science are the two types science that scientists engage in. Pure science is defined as science for the love of knowledge and truth. This is in contrast to — but not opposite to — applied science. This distinction occurred during the Gilded Age when people became more obsessed with the pursuit of wealth despite massive inequality. Pure science was done for the sake of science, rather than for any material benefit. Johns Hopkins professor Henry Rowland argued for pure science: he wanted guaranteed salaries for research that was not tied to producing useful products. He condemned the applied scientists who "steal the ideas" of "great minds" for money, positioning pure scientists as greater than applied scientists. Applied science in its simplest form is defined as technology, which generates profit. 
 - **Where**
@@ -76,7 +84,8 @@
 	- This appears in the lecture about “pure and applied science.” Helen Longino suggests that humans are biased, self-interested, and flawed. However, that is okay if there is a structured scientific community: objectivity is a group effort rather than individual. Longino states that there must be (1) recognized, formalized ways of critiquing every scientific paradigm, method, etc., (2) a shared set of standards that critics can invoke, (3) the community must be responsive to such standards, so the community must be listening if an individual makes a good point adhering to the shared set of standards, and (4) intellectual authority must be shared equally among qualified practitioners (i.e., if an individual has shown themself to be an apt member of the community, people need to be listening to them).
 - **Why**
 	- Longino’s definition of science is important because it can help discern what groups that claim as a part of science, is in fact, not science. For example, “Flat Earthers” are conspiracy theorists that believe the Earth is flat. In order to believe that, they need to ignore all forms of criticism and scientific evidence that the Earth is round. They fail to be responsive to scientific standards and fail to share intellectual authority. As such, it can be said that Flat Earthers are not scientists by transformative criticism.
-# Week 4 - [[100 📒 Academia/HPS120/03 Anomalies\|Anomalies]]
+# Week 4 - Anomalies
+See [[100 📒 Academia/HPS120/03 Anomalies\|Anomalies]].
 ### Anomaly
 - **What**
 	- An anomaly is a piece of data or information that does not align with a set of expectations or paradigms. In other words, an anomaly exists relative to some scientific framework. This is similar to an “outlier,” which is a data point — often in raw data — that does not fit the trend line; however, unlike outliers which can typically be removed in a data set, anomalies are reproducible and often cause scientists to spend some time figuring out the anomaly.
@@ -84,7 +93,7 @@
 	- This term came up in the discussion about anomalies.
 - **Why**
 	- As science self-promises itself to change the deep structure of its theories over time, anomalies play an important role in doing so. Anomalies actively challenge scientific paradigms and expectations: it is an achievement to be an anomaly. For example, the Flatness Problem discusses whether the universe is doomed to crunch (because of more gravitational than kinetic energy) or infinitely expand (because of more kinetic than gravitational energy). Scientists found that the ratio of gravitational to kinetic energy was close to 1, which was an uncanny optimistic observation. The ratio could not be explained until the inflationary period theory was proposed. 
-### Retrocognition #todo 
+### Retrocognition
 - **What**
 	- Retrocognition describes the case where an anomaly was not recognized as important until after a reasonable explanation was developed for it.
 	- It has three rough stages: 1) a fact of nature is observed in the context of an existing explanatory framework, 2) the fact does not have a logical explanation in the existing framework, and 3) a new theory or model is advanced in which the observed fact now has a compelling and reasoned explanation. Simultaneously, the fact is *retroactively* recognized as an anomaly in the content of the old theory or model.
@@ -105,7 +114,8 @@
 
 > A new scientific truth does not triumph by converting its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.
 
-# Week 5 - [[100 📒 Academia/HPS120/04 Realism and anti-realism\|Realism and anti-realism]]
+# Week 5 - Realism and anti-realism
+See [[100 📒 Academia/HPS120/04 Realism and anti-realism\|Realism and anti-realism]].
 
 ### Realism
 - **What**
@@ -135,7 +145,3 @@
 
 - **Why**
 	- This is part of the debate about what exactly the goals of science are: is science about making useful theories and accurate predictions, or does it give us access to the basic machinery of the universe?
-
-> [!important] 
-> **Be very specific** — what are the steps?
-> Explain what the argument is, and then the impact of the argument.
