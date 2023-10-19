@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/03 Anomalies.md","permalink":"/academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T11:42:47.423-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/03 Anomalies.md","permalink":"/academia/hps-120/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T23:53:00.339-04:00"}
 ---
 
 # Anomalies
@@ -41,10 +41,9 @@
 - This is why we have paradigms to massively narrow down the number of things to investigate
     - to make it even possible to being investigation
 
-<aside>
-💡 Anomalies are going to be the thing where we say: “Oh, there’s something interesting going on here. I’m going to spend some time on it”
 
-</aside>
+> [!note] 
+> Anomalies are going to be the thing where we say: “Oh, there’s something interesting going on here. I’m going to spend some time on it”
 
 # Falsifications
 
@@ -57,7 +56,6 @@
 This relates to the **[[100 📒 Academia/HPS120/02 Pure and Applied Science#Mertonian Norms \|Mertonian Norms]]**: disinterestedness.
 
 We have this image of the noble scientist:
-
 - “This data point cannot be squared with my theory. I guess I must be wrong.”
     - Popper does not say to act like that.
     - People do not act like that at the first sign of trouble and give up their theories.
