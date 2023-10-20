@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/05 Global history of science.md","permalink":"/academia/hps-120/05-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-10-18T01:52:51.313-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/05 Global history of science.md","permalink":"/academia/hps-120/05-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-10-19T12:09:39.634-04:00"}
 ---
 
 # Science Wars
 
-In the 1990s, there was a wave of criticism that science was solely objective
+In the 1990s, there was a wave of criticism that science was solely objective:
 
 - **Critics**
     - Science is a social activity, performed by people, who live in a culture
@@ -44,7 +44,7 @@ Schiebinger, L. (2000). Has feminism changed science?.
 - Cultural critic of science
     - What we need to start looking at is the cultural, sociological factors that go into producing scientific knowledge
 
-> “This is not to say that science “makes up” its results of research, or that science is “nothing but politics by other means,” of course, as a familiar internalist epistemological approaches invariably interpret such findings” (Harding 1998, p.126)
+> “This is not to say that science 'makes up' its results of research, or that science is 'nothing but politics by other means,' of course, as a familiar internalist epistemological approaches invariably interpret such findings” (Harding 1998, p.126)
 > 
 - Harding is NOT saying science is all made up or that science is just politics by other means
     - She IS saying that there is an important social story to be told in science
@@ -61,17 +61,15 @@ Schiebinger, L. (2000). Has feminism changed science?.
 
 **Bala wants to reject both of these ways of thinking.**
 
-- If you read modern historians of science, they largely agree that science emerges from huge, centuries/millenia-long multi-cultural conversations (rather than Europe)
+- If you read modern historians of science, they largely agree that science emerges from huge, centuries/millennia-long multi-cultural conversations (rather than Europe)
     - Scientific revolution largely happens in Europe, BUT the stuff that goes into that revolution comes from all over the world
 
-<aside>
-💡 This is called the ***dialogical view of the history of science***
+> [!note]
+> This is called the ***dialogical view of the history of science***.
 
-</aside>
+He wants to replace the Eurocentric view with the *dialogical view*.
 
-He wants to replace the Eurocentric view with the ******************************dialogical view******************************.
-
-Eurocentric view:
+**Eurocentric view:**
 
 - Ancient Greece $\rightarrow$ ??? $\rightarrow$ Renaissance Europe $\rightarrow$ Now
     - This version of the story is actually an invention from Renaissance Europe to cover their tracks:
@@ -86,14 +84,11 @@ In the 90s, some people said that science is not completely objective
 
 Other people said, the fact that it has got Euro. origins does not matter that much
 
-<aside>
-💡 **Bala argues that the origins are not all that European.**
-
-- Pieces that go into modern science come from all over the world
-- Developing knowledge is a long, slow process that took many years
-    - came from multiple people
-    - happened all over the place
-</aside>
+> [!note] **Bala argues that the origins are not all that European.**
+> - Pieces that go into modern science come from all over the world
+> - Developing knowledge is a long, slow process that took many years:
+>     - came from multiple people
+>     - happened all over the place
 
 So, there are three arguments:
 
@@ -147,7 +142,49 @@ This trigonometry came from India. To get a flavour for what higher education lo
         - At least suggested that the Earth spins on its axis (not orbits, though)
     - Calculated the size of the Earth
         - like Eratosthenes
-        - Aryabhata’s figure was off by 2% vs. Eratosthenes’
+        - Aryabhata’s figure was off by 2% vs. Eratosthenes
+    - Provided the first recorded recorded use of the $\sin$ function
+	    - although, precursors to trig. can be found in other cultures as well.
+
+# Brahmagupta (598 - 668 CE)
+
+- Contributed massive advances in trig.
+	- how to find intermediate values given a trig. table
+- Provided the first clear rules for working with <u>zero</u> as a number
+	- Zero had been a placeholder before this:
+		- Ancient Mesopotamia: `101` had a mark for the tens column, but you could not multiply it or treat it as a number
+
+# Bhaskara II (1114 - 1185 CE)
+
+- Developed a version of differential calculus
+	- hundreds of years before it was produced in the West
+- Worked out how to apply differential calculus to trigonometric functions
+
+> [!note]
+> Indian mathematics is proceeding along very well.
+> - making massive innovations that then
+> - get moved around the world; exported
+
+# An Improved Numeral System
+
+From the Indian subcontinent:
+- We get a very handy system of numerals
+	- Developed over centuries
+- By the time of Brahmagupta, we got *similar numerals representing 0 to 9, with a place system and decimals*.
+
+Europe was using roman numerals.
+- Not very easy to do trigonometry with roman numerals
+
+# Sylvester II (c. 946 - 12 May 1003)
+
+- Sylvester II is credited with *bringing* what we call **Arabic numerals** to Europe from Spain
+	- It is referred as the *Arabic* numeral system and not Hindu numeral system because <u>it was imported to Europe from the Arabic world</u>.
+- Sylvester II grew up poor and got shipped to Spain to study
+	- Why Spain?
+
+# Islamic Caliphates
+
+- Sylvester
 
 # Tutorial
 
