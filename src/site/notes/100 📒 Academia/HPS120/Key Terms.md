@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms.md","permalink":"/academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-19T00:51:40.900-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms.md","permalink":"/academia/hps-120/key-terms/","created":"2023-10-17T14:54:43.201-04:00","updated":"2023-10-19T22:43:30.022-04:00"}
 ---
 
 ```table-of-contents
@@ -88,7 +88,7 @@ See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied sci
 See [[100 📒 Academia/HPS120/03 Anomalies\|Anomalies]].
 ### Anomaly
 - **What**
-	- An anomaly is a piece of data or information that does not align with a set of expectations or paradigms. In other words, an anomaly exists relative to some scientific framework. This is similar to an “outlier,” which is a data point — often in raw data — that does not fit the trend line; however, unlike outliers which can typically be removed in a data set, anomalies are reproducible and often cause scientists to spend some time figuring out the anomaly.
+	- An anomaly is a piece of data or information that does not align with a set of expectations or paradigms. An anomaly exists relative to some scientific framework. This is similar to an “outlier,” which is a data point — often in raw data — that does not fit the trend line; however, unlike outliers which can typically be removed in a data set, anomalies are reproducible and often cause scientists to spend some time figuring out the anomaly.
 - **Where**
 	- This term came up in the discussion about anomalies.
 - **Why**
