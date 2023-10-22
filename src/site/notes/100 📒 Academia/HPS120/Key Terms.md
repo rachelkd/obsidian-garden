@@ -25,7 +25,7 @@
 
 ---
 # Week 2 - Baby Scientists
-See [[100 📒 Academia/HPS120/01 Baby Scientists\|Baby scientists]].
+See [[100 📒 Academia/HPS120/01 Lecture Notes/01 Baby Scientists\|Baby scientists]].
 
 ### Scientific theories
 - **What**
@@ -59,7 +59,7 @@ See [[100 📒 Academia/HPS120/01 Baby Scientists\|Baby scientists]].
 	- These innate paradigms tie into Immanuel Kant's argument that one has to start off with some ideas of space and time in order to make sense of one's senses. There must be some paradigmatic *structure* that the baby follows that help them make predictions (prior probability).
 
 # Week 3 - Pure and applied science
-See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied science]].
+See [[100 📒 Academia/HPS120/01 Lecture Notes/02 Pure and Applied Science\|Pure and applied science]].
 
 ### Pure and applied science
 - **What**
@@ -85,7 +85,7 @@ See [[100 📒 Academia/HPS120/02 Pure and Applied Science\|Pure and applied sci
 - **Why**
 	- Longino’s definition of science is important because it can help discern what groups that claim as a part of science, is in fact, not science. For example, “Flat Earthers” are conspiracy theorists that believe the Earth is flat. In order to believe that, they need to ignore all forms of criticism and scientific evidence that the Earth is round. They fail to be responsive to scientific standards and fail to share intellectual authority. As such, it can be said that Flat Earthers are not scientists by transformative criticism.
 # Week 4 - Anomalies
-See [[100 📒 Academia/HPS120/03 Anomalies\|Anomalies]].
+See [[100 📒 Academia/HPS120/01 Lecture Notes/03 Anomalies\|Anomalies]].
 ### Anomaly
 - **What**
 	- An anomaly is a piece of data or information that does not align with a set of expectations or paradigms. An anomaly exists relative to some scientific framework. This is similar to an “outlier,” which is a data point — often in raw data — that does not fit the trend line; however, unlike outliers which can typically be removed in a data set, anomalies are reproducible and often cause scientists to spend some time figuring out the anomaly.
@@ -115,7 +115,7 @@ See [[100 📒 Academia/HPS120/03 Anomalies\|Anomalies]].
 > A new scientific truth does not triumph by converting its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.
 
 # Week 5 - Realism and anti-realism
-See [[100 📒 Academia/HPS120/04 Realism and anti-realism\|Realism and anti-realism]].
+See [[100 📒 Academia/HPS120/01 Lecture Notes/04 Realism and anti-realism\|Realism and anti-realism]].
 
 ### Realism
 - **What**
