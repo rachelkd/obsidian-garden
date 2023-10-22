@@ -66,12 +66,12 @@ The numbers on the bottom are replacement values for the middle.
 ```
 Naming of rule comes from `16 + 2 = 18` based on binary output.
 
-![Rule18.png|500](/img/user/Files/Rule18.png)
+![Rule18.png|500](/img/user/Files/02%20CSB195/Rule18.png)
 
 So, here is an example of evolving a random sequence.
 
-![Evolve18.png|400](/img/user/Files/Evolve18.png)
+![Evolve18.png|400](/img/user/Files/02%20CSB195/Evolve18.png)
 
 The end values wrap around to get the cellular neighbours.
 
-![Bounds18.png|400](/img/user/Files/Bounds18.png)
+![Bounds18.png|400](/img/user/Files/02%20CSB195/Bounds18.png)
