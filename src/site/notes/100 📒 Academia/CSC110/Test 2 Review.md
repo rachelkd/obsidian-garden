@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Test 2 Review.md","permalink":"/academia/csc-110/test-2-review/","created":"2023-10-28T16:34:27.881-04:00","updated":"2023-10-28T18:02:38.675-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Test 2 Review.md","permalink":"/academia/csc-110/test-2-review/","created":"2023-10-28T16:34:27.881-04:00","updated":"2023-10-28T18:48:40.692-04:00"}
 ---
 
 
@@ -74,7 +74,7 @@ class Person:
 
 - `@dataclass`
 	- Tells Python that the data type we're defining is a data class
-- `class Person:
+- `class Person`:
 	- Syntax for the start of a *class definition*
 	- Name of data class is `Person`
 - `given_name: str ...`
@@ -171,3 +171,194 @@ Consider `Person` data class from [[100 📒 Academia/CSC110/Test 2 Review#^12e7
 		    age: int
 		    address: str
 		```
+
+## For Loops
+
+- ***For loop***
+	- compound statement that repeats a block of code once for element in a collection
+	- 
+	    ```Python
+		for <loop_variable> in <collection>:
+		    <body>
+		```
+- There are three parts:
+	- `<collection>`
+		- expression for Python collection (e.g., `list`, `set`)
+	- `<loop_variable>`
+		- name for the *loop variable* that will refer to an element in the collection
+	- `<body>`
+		- sequence of one or more statements
+- ***Loop iteration***
+	- Each individual execution of the loop body
+
+Consider the following function:
+```Python
+def my_sum(numbers: list[int]) -> int:
+    """Return the sum of the given numbers.
+
+    >>> my_sum([10, 20, 30])
+    60
+    """
+    sum_so_far = 0
+
+    for number in numbers:
+        sum_so_far = sum_so_far + number
+
+    return sum_so_far
+```
+
+- What is the accumulator variable?
+	- `sum_so_far`
+
+### Existential search
+
+**Early Returns**
+
+```Python
+def starts_with_v4(strings: Iterable[str], char: str) -> bool:
+    """Return whether one of the given strings starts with the character char.
+
+    Precondition:
+        - all({s != '' for s in strings})
+        - len(char) == 1
+	
+	>>> starts_with(['Hello', 'Goodbye', 'David', 'Dario'], 'D')
+    True
+    >>> starts_with(['Hello', 'Goodbye', 'David', 'Dario'], 'A')
+    False
+	"""
+    for s in strings:
+        if s[0] == char:
+            return True  # Returns True when one exists and 
+				         # no more code is executed after this point
+
+    return False
+```
+
+> [!note]
+> The type annotation `Iterable` means that `strings` can be any iterable object.
+
+### Universal search
+
+```Python
+def all_starts_with_v3(strings: Iterable[str], char: str) -> bool:
+    """Return whether all of the given strings starts with the character char.
+
+    Precondition:
+        - all({s != '' for s in strings})
+        - len(char) == 1
+
+    >>> all_starts_with(['Hello', 'Goodbye', 'David', 'Dario'], 'D')
+    False
+    >>> all_starts_with(['Drip', 'Drop', 'Dangle'], 'D')
+    True
+    """
+    for s in words:
+        if s[0] != char:
+            return False  # Return False when ONE element does not
+					      # fit condition
+
+    return True
+```
+
+## Index-Based For Loops
+
+```Python
+def count_adjacent_repeats(string: str) -> int:
+	"""Return the number of repeated adjacent characters in string.
+	
+    >>> count_adjacent_repeats('look')
+	1
+    >>> count_adjacent_repeats('David')
+	0
+    >>> count_adjacent_repeats('canal')
+	0
+	"""
+	# ACCUMULATOR repeats_so_far: keep track of the number of adjacent
+	# characters that are identical
+	repeats_so_far = 0
+
+	for i in range(0, len(string) - 1):
+		if string[i] == string[i + 1]:
+			repeats_so_far = repeats_so_far + 1
+
+	return repeats_so_far
+```
+
+- Notice how the range goes to `len(string) - 1` exclusive
+	- Next line checks index `i + 1`
+
+```Python
+def count_money(counts: list[int], values: list[float]) -> float:
+    """Return the total amount of money for the given coin counts and 
+    denominations.
+
+    counts stores the number of coins of each type, 
+    and denominations stores the value of each coin type.
+    Each element in counts corresponds to the element at
+    the same index in denoms.
+
+    Preconditions:
+      - len(counts) == len(denoms)
+
+    >>> count_money([2, 4, 3], [0.05, 0.10, 0.25])
+    1.25
+    """
+    # ACCUMULATOR money_so_far: keep track of the total money so far.
+    money_so_far = 0.0
+
+    for i in range(0, len(counts)):
+        money_so_far = money_so_far + counts[i] * values[i]
+
+    return money_so_far
+```
+
+### When to use Index-Based Loops
+
+1. When *location* of elements in the collection matters
+	1. `count_adjacent_repeats`
+2. When looping through *more than one list* at a time
+	1. `count_money`
+
+## Nested For Loops
+
+```Python
+def sum_all(lists_of_numbers: list[list[int]]) -> int:
+    """Return the sum of all the numbers in the given lists_of_numbers.
+
+    >>> sum_all([[1, 2, 3], [10, -5], [100]])
+    111
+    """
+    sum_so_far = 0
+
+    for numbers in lists_of_numbers:  # numbers is a list of numbers,
+								      # not a single number!
+        for number in numbers:        # number is a single number
+            sum_so_far = sum_so_far + number
+
+    return sum_so_far
+
+print(sum_all([[1, 2, 3], [10, -5], [100]]))
+```
+
+```Python
+def cartesian_product(set1: set, set2: set) -> set[tuple]:
+    """Return the Cartesian product of set1 and set2.
+
+    >>> result = cartesian_product({10, 11}, {5, 6, 7})
+    >>> result == {(10, 5), (10, 6), (10, 7), (11, 5), (11, 6), (11, 7)}
+    True
+    """
+    # ACCUMULATOR product_so_far: keep track of the tuples from the pairs
+    # of elements visited so far.
+    product_so_far = set()
+
+    for x in set1:
+        for y in set2:
+            product_so_far = set.union(product_so_far, {(x, y)})
+
+    return product_so_far
+
+result = cartesian_product({10, 11}, {5, 6, 7})
+print(result == {(10, 5), (10, 6), (10, 7), (11, 5), (11, 6), (11, 7)})
+```
