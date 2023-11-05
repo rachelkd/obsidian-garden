@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Test 2 Review.md","permalink":"/academia/csc-110/test-2-review/","created":"2023-10-28T16:34:27.881-04:00","updated":"2023-10-28T18:48:40.692-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Test 2 Review.md","permalink":"/academia/csc-110/test-2-review/","created":"2023-10-28T13:34:27.881-07:00","updated":"2023-10-29T13:49:47.207-07:00"}
 ---
 
 
@@ -23,7 +23,7 @@
 ```
 
 1. **Accessing elements inside of each row**
-	1. 
+	- 
 	    ```Python
 	    >>> marriage_data[0][0]
 		1657
@@ -36,13 +36,13 @@
 		```
 
 2. **Filter rows corresponding to a specific civic centre**
-	1. 
+	- 
 		```Python
 		>>> [row for row in marriage_data if row[1] == 'TO']
         [[1660, 'TO', 367, datetime.date(2011, 1, 1)], [1664, 'TO', 383, datetime.date(2011, 2, 1)]]
 		```
 1. **Filter rows based on a threshold for number of marriage licenses**
-	1. 
+	- 
 	    ```Python
 	    >>> [row for row in marriage_data if row[2] > 380]
         [[1664, 'TO', 383, datetime.date(2011, 2, 1)]]
@@ -140,7 +140,7 @@ Person(given_name='David', family_name='Liu', age=100, address='40 St. George St
 ```
 
 ### Variable memory model
-![PythonMemoryModel1.png|400](/img/user/Files/PythonMemoryModel1.png)
+![value_memory_model.png|400](/img/user/Files/01%20CSC110/value_memory_model.png)
 
 
 ### Representation Invariants
@@ -362,3 +362,285 @@ def cartesian_product(set1: set, set2: set) -> set[tuple]:
 result = cartesian_product({10, 11}, {5, 6, 7})
 print(result == {(10, 5), (10, 6), (10, 7), (11, 5), (11, 6), (11, 7)})
 ```
+
+# 6. Modifying Values and Variables
+
+**Variable reassignment never affects other variables**
+
+```Python
+x = 1
+y = x + 2
+x = 7
+
+print((x, y))
+```
+
+- Variable reassignment only changes the immediate variable being reassigned
+	- Does not change any other variables or values
+		- Even ones that were defined using variable being reassigned
+<br>
+- ***augmented assignment statement***
+	- `<variable> += <expression>`
+	- also works with `-=`, `*=`, `//=`, `%=`, `/=`, `**=`
+	- <mark style="background: #FEFAD0A6;">Augmented assignment operators behave differently for different data types</mark>
+
+## Objects and Object Mutation
+
+- Every piece of data is stored in an entity called an **object**
+	- Three fundamental components:
+		- id
+		- data type
+		- value
+- What is the id of an object?
+	- Unique `int` representation of the memory address of the object
+- Once an object is created...
+	- id and type can **never change**
+	- Depending on the data type, its **value may change**
+
+### Object Mutation
+
+- object mutation
+	- form of "value change" in a Python program
+	- operation that changes the value of an existing object
+	- e.g., `list` data type contains several *methods* that *mutate* the given `list` object
+
+**Implementing `squares` function by using `list.append`**
+```Python
+def squares(nums: list[int]) -> list[int]:
+    """Return a list of the squares of the given numbers.
+
+    >>> squares([1, 2, 3])
+    [1, 4, 9]
+    """
+    squares_so_far = []
+
+    for num in nums:
+        list.append(squares_so_far, num * num)  # MUTATES list
+    return squares_so_far
+    
+print(squares([1, 2, 3]))
+```
+
+- `squares_so_far` is *not* reassigned
+	- The object it refers to gets *mutated*.
+
+## Variable reassignment vs. object mutation
+
+**Suppose we have `squares_so_far = [1, 4, 9]`**
+How do we add `16` to the end of it?
+
+- Variable reassignment
+	- 
+	    ```Python
+	    # Create the variable
+	    >>> squares_so_far = [1, 4, 9]
+	    >>> squares_so_far
+		[1, 4, 9]
+		
+		>>> id(squares_so_far)
+		1920480441344
+		
+		# Reassign the variable
+		>>> squares_so_far = squares_so_far + [16]
+		>>> squares_so_far
+		[1, 4, 9, 16]
+		
+		>>> id(squares_so_far)
+		1920484788736
+		```
+	- id changes
+		- Reassignment creates a *new list object* and assigns that to `squares_so_far`
+
+- Object mutation
+	- 
+		```Python
+		# Create the variable
+		>>> squares_so_far = [1, 4, 9]
+		>>> squares_so_far
+		[1, 4, 9]
+		
+		>>> id(squares_so_far)
+		1920480441344
+		
+		# Reassign the variable
+		>>> list.append(squares_so_far, 16)
+		>>> squares_so_far
+		[1, 4, 9, 16]
+		
+		>>> id(squares_so_far)
+		1920480441344
+		```
+	- id is the same
+		- value of the object that `squares_so_far` refers to the same list object
+
+
+| |Object id|Object type|Object value|
+|---|---|---|---|
+|Description|A unique identifier for the object.|The data type of the object.|The value of the object.|
+|How to see it|Built-in `id` function|Built-in `type` function|Evaluate it|
+|Example|```python | ```python | ```python \
+|| >>> id([1, 4, 9]) | >>> type([1, 4, 9]) | >>> [1, 4, 9 \
+|| 1920480441344 | <class 'list'> | [1, 4, 9] \
+|| ``` | ``` | ```|
+|Can change?|No|No|Yes, for some data types|
+|Unique among all objects|Yes|No|No|
+
+## Mutable Data Types
+
+> [!note]
+> An object's data type determines whether any mutating operations can be performed on the object
+> - determines whether it can be mutated or not
+
+- A Python data type is **mutable** when...
+	- it supports one kind of mutating operation
+	-  `set`, `list`, `dict`
+	- Data classes are *mutable* by default
+- **immutable** when
+	- does not support any mutating operations
+	- `int`, `float`, `bool`, `str`
+- Instances of an immutable data type cannot change their value
+	- But a variable that refers to this object might be reassigned to a different object
+<br>
+- tuples
+	- Similar to lists, but tuples are *immutable*
+		- No `tuple.append` method
+
+### Mutating `list`s
+
+- `list.append`
+- `list.insert`
+	- Takes a list, an index, and an object
+	- Inserts object at given object into the list
+	- 
+	    ```python
+	    >>> strings = ['a', 'b', 'c', 'd']
+        >>> list.insert(strings, 2, 'hello')  # Insert 'hello'
+										      # into strings at index 2
+        >>> strings
+		['a', 'b', 'hello', 'c', 'd']
+		```
+- `list.extend`
+	- Takes two lists and adds all elements from the second list at the end of the first list
+	- As if `append` were called once per element of the second list
+	- 
+		```python
+		>>> strings = ['a', 'b', 'c', 'd']
+		>>> list.extend(strings, ['CSC110', 'CSC111'])
+		>>> strings
+		['a', 'b', 'c', 'd', 'CSC110', 'CSC111']
+		```
+- List index assignment
+	- 
+	    ```python
+	    >>> strings = ['a', 'b', 'c', 'd']
+	    >>> strings[2] = 'Hello'
+	    >>> strings
+		['a', 'b', 'Hello', 'd']
+		```
+- List augmented assignment
+	- 
+	    ```python
+		>>> strings = ['a', 'b', 'c', 'd']
+
+		>>> id(strings)
+		1920488009536
+		
+		>>> strings += ['Hello', 'Goodbye']
+		>>> strings
+		['a', 'b', 'c', 'd', 'Hello', 'Goodbye']
+		
+		>>> id(strings)
+		1920488009536  # SAME ID
+		```
+	- The id of the object that `strings` refers to has not changed
+	- Behaves like `list.extend`
+
+### Mutating `set`s
+
+- `set.add`
+- `set.remove`
+
+### Mutating dictionaries
+
+```python
+>>> items = {'a': 1, 'b': 2}
+>>> items['c'] = 3  # Adds new key-value pair to items
+>>> items
+{'a': 1, 'b': 2, 'c': 3}
+
+>>> items['a'] = 100  # Replaces existing key-value pair value
+>>> items
+{'a': 100, 'b': 2, 'c': 3}
+```
+
+### Mutating data classes
+
+Consider `Person` class:
+```python
+@dataclass
+class Person:
+    """A person with some basic demographic information.
+
+    Representation Invariants:
+      - self.age >= 0
+    """
+    given_name: str
+    family_name: str
+    age: int
+    address: str
+```
+
+- Mutate instances of data classes by *modifying their attributes*
+	- 
+	    ```python
+	    >>> p = Person('David', 'Liu', 100, '40 St. George Street')
+	    >>> p.age = 200
+	    >>> p
+		Person(given_name='David', family_name='Liu', age=200, 
+				address='40 St. George Street')
+		```
+
+## Memory models
+
+```python
+>>> x = 3
+>>> word = 'bonjour'
+```
+
+`__main__`
+
+|Variable|Value|
+|---|---|
+|`x`|`3`|
+|`word`|`'bonjour'`|
+
+![memory_model_simple.png|500](/img/user/Files/01%20CSC110/memory_model_simple.png)
+
+**Representing a list**
+
+```python
+>>> lst = [1, 2, 3]
+```
+
+![memory_model_list.png|600](/img/user/Files/01%20CSC110/memory_model_list.png)
+
+**Representing a set**
+
+```python
+>>> my_set = {1, 2, 3}
+```
+
+![memory_model_set.png|500](/img/user/Files/01%20CSC110/memory_model_set.png)
+
+**Representing a dictionary**
+
+```python
+>>> my_dict = {'a': 1, 'b': 2}
+```
+
+![memory_model_dict.png|500](/img/user/Files/01%20CSC110/memory_model_dict.png)
+
+**Representing a data class**
+
+![memory_model_dataclass.png|500](/img/user/Files/01%20CSC110/memory_model_dataclass.png)
+
