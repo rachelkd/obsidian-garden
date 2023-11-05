@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-10-22T00:56:51.431-04:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2023-10-21T21:56:51.431-07:00"}
 ---
 
 # CSC110
