@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-10-23T14:45:59.650-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T13:22:02.399-07:00","updated":"2023-10-30T11:19:20.000-07:00"}
 ---
 
 # What is life
@@ -158,3 +158,20 @@ Is a virus alive?
 
 Does this ever freeze? Does it ever stop? Does it ever exhaust its states?
 - `Glider-gun` eventually stops
+
+
+# Computational Neural Networks
+
+--- 
+
+#report2
+
+## Computational Neurons
+
+- What is a biological neuron?
+	- are connected to other neurons
+	- they collect information
+	- they perform "some" computation to send a signal
+	- pass on information
+
+
