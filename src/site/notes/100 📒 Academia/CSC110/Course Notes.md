@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2023-11-04T12:35:01.024-07:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2023-11-05T14:17:35.699-08:00"}
 ---
 
 
@@ -15,5 +15,11 @@
 - [[100 📒 Academia/CSC110/01 Course Notes/8.2 The One-Time Pad and Perfect Secrecy\|8.2 The One-Time Pad and Perfect Secrecy]]
 - [[100 📒 Academia/CSC110/01 Course Notes/8.3 Computing Shared Secret Keys\|8.3 Computing Shared Secret Keys]]
 - [[100 📒 Academia/CSC110/01 Course Notes/8.4 The RSA Cryptosystem\|8.4 The RSA Cryptosystem]]
-- [[8.5 Implementing RSA in Python\|8.5 Implementing RSA in Python]] (unfinished)
-- [[8.6 Application: Securing Online Communications\|8.6 Application: Securing Online Communications]] (unfinished)
+- [[000 Zettlekasten/8.5-6 Implementing RSA in Python, Application Securing Online Communications\|8.5-6 Implementing RSA in Python, Application: Securing Online Communications]]
+
+# 9. Analyzing Algorithm Running Time
+- [[100 📒 Academia/CSC110/01 Course Notes/9.1 Introduction to Running Time Analysis\|9.1 Introduction to Running Time Analysis]]
+- [[000 Zettlekasten/9.2 Comparing Asymptotic Function Growth - Big-O Notation\|9.2 Comparing Asymptotic Function Growth: Big-O Notation]] (unfinished)
+- [[000 Zettlekasten/9.3 Big-O, Omega, Theta\|9.3 Big-O, Omega, Theta]] (unfinished)
+- [[000 Zettlekasten/9.4 Asymptotic Growth and Limits\|9.4 Asymptotic Growth and Limits]] (unfinished)
+- [[9.5 Analyzing Algorithm Running Time\|9.5 Analyzing Algorithm Running Time]] (unfinished)
