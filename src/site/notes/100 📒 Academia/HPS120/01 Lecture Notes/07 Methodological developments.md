@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/07 Methodological developments.md","permalink":"/academia/hps-120/01-lecture-notes/07-methodological-developments/","created":"2023-10-19T13:14:43.082-04:00","updated":"2023-10-23T00:42:21.709-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/07 Methodological developments.md","permalink":"/academia/hps-120/01-lecture-notes/07-methodological-developments/","created":"2023-10-19T10:14:43.082-07:00","updated":"2023-10-22T21:42:21.709-07:00"}
 ---
 
 # Why do you trust your doctor?
