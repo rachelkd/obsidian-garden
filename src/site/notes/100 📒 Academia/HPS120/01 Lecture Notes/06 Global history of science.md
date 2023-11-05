@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/06 Global history of science.md","permalink":"/academia/hps-120/01-lecture-notes/06-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-10-22T01:03:21.814-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/06 Global history of science.md","permalink":"/academia/hps-120/01-lecture-notes/06-global-history-of-science/","created":"2023-10-17T20:18:19.791-07:00","updated":"2023-10-21T22:03:21.814-07:00"}
 ---
 
 # Science Wars
