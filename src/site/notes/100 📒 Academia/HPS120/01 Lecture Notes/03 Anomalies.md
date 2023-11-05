@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/03 Anomalies.md","permalink":"/academia/hps-120/01-lecture-notes/03-anomalies/","created":"2023-10-17T23:18:19.486-04:00","updated":"2023-10-18T23:53:00.339-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/03 Anomalies.md","permalink":"/academia/hps-120/01-lecture-notes/03-anomalies/","created":"2023-10-17T20:18:19.486-07:00","updated":"2023-10-18T20:53:00.339-07:00"}
 ---
 
 # Anomalies
