@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T12:22:40.197-08:00","updated":"2023-11-07T14:46:54.019-08:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T12:22:40.197-08:00","updated":"2023-11-07T14:49:35.354-08:00"}
 ---
 
 ```table-of-contents
