@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/08 Peer Review.md","permalink":"/academia/hps-120/01-lecture-notes/08-peer-review/","created":"2023-11-06T22:30:35.344-08:00","updated":"2023-11-07T00:44:12.578-08:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/08 Peer Review.md","permalink":"/academia/hps-120/01-lecture-notes/08-peer-review/","created":"2023-11-06T22:30:35.344-08:00","updated":"2023-11-07T14:29:53.412-08:00"}
 ---
 
 # The Classic View of Peer Review
@@ -231,6 +231,8 @@ From: Kravitz, R. L., Franks, P., Feldman, M. D., Gerrity, M., Byrne, C., & Tier
 ## Some suggestions
 
 - One broad collection of suggestions is called Open Science
+{ #8955e8}
+
 	- Open access (no library card to read journal articles)
 	- Being less gate-keeping about who you are going to have conversations with
 		- Open dialogue with other knowledge systems
@@ -293,5 +295,7 @@ Along with the Internet grew pre-print archives:
 # Key Terms
 
 - Peer review
+{ #f08ec5}
+
 - Preprint archive
 - Open Commentary
