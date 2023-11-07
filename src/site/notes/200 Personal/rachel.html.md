@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2023-11-06T22:31:21.295-08:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2023-11-07T12:22:31.281-08:00"}
 ---
 
 # CSC110
@@ -8,7 +8,7 @@
 
 # HPS120
 **Key Terms**
-- [[100 📒 Academia/HPS120/Key Terms\|Key Terms]]
+- [[100 📒 Academia/HPS120/Key Terms 1\|Key Terms 1]]
 
 **Lecture Notes**
 - [[100 📒 Academia/HPS120/01 Lecture Notes/01 Baby Scientists\|01 Baby Scientists]] (unfinished)
