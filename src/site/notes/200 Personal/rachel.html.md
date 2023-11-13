@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2023-11-07T12:22:31.281-08:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-11-07T17:55:47.961-05:00"}
 ---
 
 # CSC110
@@ -18,7 +18,3 @@
 - [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|06 Global history of science]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/07 Methodological developments\|07 Methodological developments]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|08 Peer Review]]
-
-# CSB195
-**Life as Computation**
-[[100 📒 Academia/CSB195/Life as Computation\|Life as Computation]]
