@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/01 Baby Scientists.md","permalink":"/academia/hps-120/01-lecture-notes/01-baby-scientists/","created":"2023-10-17T20:18:19.366-07:00","updated":"2023-10-17T22:53:14.947-07:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/01 Baby Scientists.md","permalink":"/academia/hps-120/01-lecture-notes/01-baby-scientists/","created":"2023-10-17T23:18:19.366-04:00","updated":"2023-10-18T01:53:14.947-04:00"}
 ---
 
 # Baby Scientists
