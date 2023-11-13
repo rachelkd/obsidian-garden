@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T13:22:02.399-07:00","updated":"2023-10-30T11:19:20.000-07:00"}
+{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-11-09T22:10:37.506-05:00"}
 ---
 
 # What is life
@@ -118,7 +118,7 @@ Is a virus alive?
 2. Computation at the Edge of Chaos
 	- Systems operating at edge of chaos:
 		- believes to have max. computational power
-	- Neither too ordered #todo
+	- Neither too ordered
 
 # Why is "Universal Computation" Important?
 
