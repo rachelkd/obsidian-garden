@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/03 Test Review/Test 2 Review.md","permalink":"/academia/csc-110/03-test-review/test-2-review/","created":"2023-10-28T13:34:27.881-07:00","updated":"2023-11-05T21:18:55.004-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/03 Test Review/Test 2 Review.md","permalink":"/academia/csc-110/03-test-review/test-2-review/","created":"2023-10-28T16:34:27.881-04:00","updated":"2023-11-06T00:18:55.004-05:00"}
 ---
 
 #CSC110 
