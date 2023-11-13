@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/08 Peer Review.md","permalink":"/academia/hps-120/01-lecture-notes/08-peer-review/","created":"2023-11-06T22:30:35.344-08:00","updated":"2023-11-07T14:29:53.412-08:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/08 Peer Review.md","permalink":"/academia/hps-120/01-lecture-notes/08-peer-review/","created":"2023-11-07T01:30:35.344-05:00","updated":"2023-11-07T17:29:53.412-05:00"}
 ---
 
 # The Classic View of Peer Review
