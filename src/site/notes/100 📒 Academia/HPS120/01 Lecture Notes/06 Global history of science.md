@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/06 Global history of science.md","permalink":"/academia/hps-120/01-lecture-notes/06-global-history-of-science/","created":"2023-10-17T20:18:19.791-07:00","updated":"2023-10-21T22:03:21.814-07:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/06 Global history of science.md","permalink":"/academia/hps-120/01-lecture-notes/06-global-history-of-science/","created":"2023-10-17T23:18:19.791-04:00","updated":"2023-11-08T22:50:03.998-05:00"}
 ---
 
 # Science Wars
@@ -188,7 +188,7 @@ Sylvester II grew up poor and got shipped to Spain to study.
 
 # Islamic Caliphates
 
-![Islamic_Caliphates.png|400](/img/user/Files/03%20HPS120/Islamic_Caliphates.png)
+![[islamic_caliphates.png\|400]]
 By 750 CE, everything except the purple bits are under the rule of a Caliphs.
 - One of these regions that the Islamic Caliphates took over was Spain
 - This gives serious problems as a *conquering* quasi-nation state
