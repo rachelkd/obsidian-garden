@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T12:22:40.197-08:00","updated":"2023-11-07T14:53:49.416-08:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-09T22:09:50.068-05:00"}
 ---
 
 ```table-of-contents
@@ -21,6 +21,42 @@
 > - Explain what the argument is, and then the impact of the argument.
 
 ---
+
+# Week 6 - Global history of science
+#todo
+
+See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|global history of science]].
+
+### Science wars
+- **What**
+	- In the 1990s, there was a wave of criticism towards the idea that science was solely objective. Critics argued that science is a social activity performed by people who live in a culture. Social factors shape the kinds of questions science asks and what kind of evidence is required to answer such questions. Counter-critics argued that science is an objective process; however, cultural factors do play a role when things go wrong.
+- **Where**
+	- This term appeared in the lecture about global history of science.
+- **Why**
+	- Cultural critic of science Sandra Harding highlights the importance of observing cultural and sociological factors that go into producing scientific knowledge. This does not mean that science is made up, but that there is an important social story to be told in science – for example, from a feminist or post-colonial perspective. 
+	- One might critique science as being a product of Europe and the West, thus, neglecting other cultural perspectives. This Eurocentric view is incorrect. Rather, scientific revolution is the product of multicultural conversations (see [[100 📒 Academia/HPS120/Key Terms 2#^d9da96\|dialogical view of the history of science]]).
+
+### Dialogical view
+{ #d9da96}
+
+
+- **What**
+	- The dialogical view is a perspective that rejects both the post-modern critics and modernists in the science wars debate. Post-modern critics argue that social factors affect science, whereas modernists argue that science is objective. Therefore, there are three arguments: science is European, science is European and that is okay, and the third points to the dialogical view. The dialogical view argues that the science is not fundamentally European; pieces that go into modern science come from all over the world.
+- **Where**
+	- This term appeared in the lecture about the global history of science.
+- **Why**
+	- The scientific revolution under the dialogical view mirrors the Islamic Caliphates' methods of conquering and synthesizing knowledge from everywhere they interacted with. Modern science was made possible by millennia of conversations between various civilizations – the scientific revolution was a global synthetic project. To minimize science as fundamentally European is to misunderstand what the scientific revolution is.
+
+### Translation movement
+- **What**
+	- The Translation Movement was a massive project organized and funded by the Islamic Caliphs who conquered numerous regions. This occurred around the time of 750 CE. Conquerers collected and translated as much knowledge as possible into Arabic, making it a language of learning. They synthesized knowledge from the people they conquered and studied such knowledge in their language.
+- **Where**
+	- This term appeared in the lecture about the global history of science.
+- **Why**
+	- The Translation Movement laid the intellectual foundations for later scientific advances during the European Renaissance by spreading knowledge of ideas, methods and technologies from other cultures, which European scientists like Copernicus later built upon.
+	- Additionally, the scientific revolution is another example of acquiring then synthesizing information in their own language. This comparison depicts science as a global project rather than a product of Europe and the West as presented in the Eurocentric view.
+
+
 # Week 7 - Methodological developments
 
 See [[100 📒 Academia/HPS120/01 Lecture Notes/07 Methodological developments\|methodological developments]].
@@ -81,3 +117,19 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|peer review]].
 	- Additionally, open commentary works with preprint archives to help provide context, caveats, and suggestions for authors and readers without making an overall determination on the paper. That is the job of peer review in traditional publishing.
 	- Open commentary also points out scientific fraud in papers, which is more prevalent in the field than some may assume. Open comments can highlight areas of photo manipulation, which could potentially nullify the paper's interpretation(s).
 
+# Week 9 - Fraud #todo
+
+See [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|Fraud]].
+
+### Image manipulation
+- **What**
+- **Where**
+- **Why**
+### Scientific misconduct
+- **What**
+- **Where**
+- **Why**
+### Institutional narratives of misconduct
+- **What**
+- **Where**
+- **Why**
