@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/02 Lectures/Lecture 21 Asymptotic Notation for Function Growth.md","permalink":"/academia/csc-110/02-lectures/lecture-21-asymptotic-notation-for-function-growth/","created":"2023-10-31T12:16:52.747-07:00","updated":"2023-11-06T12:55:25.549-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/02 Lectures/Lecture 21 Asymptotic Notation for Function Growth.md","permalink":"/academia/csc-110/02-lectures/lecture-21-asymptotic-notation-for-function-growth/","created":"2023-10-31T15:16:52.747-04:00","updated":"2023-11-06T15:55:25.549-05:00"}
 ---
 
 **Covers:**
