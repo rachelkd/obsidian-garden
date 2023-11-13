@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/07 Methodological developments.md","permalink":"/academia/hps-120/01-lecture-notes/07-methodological-developments/","created":"2023-10-19T10:14:43.082-07:00","updated":"2023-10-22T21:42:21.709-07:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/01 Lecture Notes/07 Methodological developments.md","permalink":"/academia/hps-120/01-lecture-notes/07-methodological-developments/","created":"2023-10-19T13:14:43.082-04:00","updated":"2023-11-08T22:50:18.510-05:00"}
 ---
 
 # Why do you trust your doctor?
@@ -203,7 +203,7 @@ Purposes of the three arms:
 
 # Increasing Effective Placebos
 
-![Pasted image 20231019142244.png|500](/img/user/Files/03%20HPS120/Pasted%20image%2020231019142244.png)
+![placebo_response_data.png|500](/img/user/Files/03%20HPS120/placebo_response_data.png)
 Tuttle, A. H., Tohyama, S., Ramsay, T., Kimmelman, J., Schweinhardt, P., Bennett, G. J., & Mogil, J. S. (2015). Increasing placebo responses over time in US clinical trials of neuropathic pain. _Pain_, _156_(12), 2616-2626.
 
 - Oddly, the size of placebo effects in some categories seems to be increasing over time
@@ -268,7 +268,7 @@ Some meta-analyses have found only modest placebo effects across studies that co
 
 # The medical significance of being nice
 
-![Pasted image 20231019143544.png|300](/img/user/Files/03%20HPS120/Pasted%20image%2020231019143544.png)
+![doctors.png|300](/img/user/Files/03%20HPS120/doctors.png)
 
 Howe, L. C., Goyer, J. P., & Crum, A. J. (2017). Harnessing the placebo effect: Exploring the influence of physician characteristics on placebo response.Health Psychology,36(11), 1074.
 
