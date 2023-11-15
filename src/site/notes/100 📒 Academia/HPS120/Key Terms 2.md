@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-09T22:09:50.068-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-15T13:10:28.936-05:00"}
 ---
 
 ```table-of-contents
@@ -23,7 +23,6 @@
 ---
 
 # Week 6 - Global history of science
-#todo
 
 See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|global history of science]].
 
@@ -123,13 +122,23 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|Fraud]].
 
 ### Image manipulation
 - **What**
+	- Image manipulation is the purposeful altering of data and observations that are then used in manuscripts or scientific publications. Examples of image manipulation in scientific papers include duplicate images — either exact, rotated, or flipped — and duplicate blots across different experimental conditions. Image manipulation misrepresents the actual data or results; it is a form of scientific fraud. 
 - **Where**
+	- Thus, this term appeared in the lecture about scientific fraud.
 - **Why**
+	- Although image manipulation deceives and distorts, the response from publishers is not as dramatic as one may expect. This suggests that some may not consider image manipulation to be a serious form of scientific misconduct. Perhaps, this perspective is systemic: the scientific paper convention is to depict a linear and straight-forward narrative, which saves readers’ time. Readers want to know the facts. An experiment is messy, but each trial reveals more about the experimental method. An argument for image manipulation is that it is done for clarity, just like editing writing; it does not affect the underlying science in the conclusion. To consider image manipulation as a serious form of scientific misconduct, there must be some systemic change to scientific publication.
 ### Scientific misconduct
 - **What**
+	- Scientific misconduct is behaviour that intentionally compromises the integrity of the scientific process. This includes, but is not limited to, falsifying or fabricating data, results, or methodology. An example of scientific misconduct is Hwang Woo-Suk’s stem cell research, where Hwang not only fabricated data, but committed several ethics violations to obtain embryos.
 - **Where**
+	- This term appeared in the lecture about scientific fraud.
 - **Why**
+	- Although scientific misconduct is serious, it is hard to discern and measure. Scientists who commit scientific misconduct want to hide it. The severity of scientific misconduct changes if it is done purposefully, knowingly, and/or recklessly. Sovacool describes three narratives to explain scientific misconduct. The individual narrative portrays scientific misconduct as an individual problem: a particular scientist fails to adhere to the Mertonian norms (disinterestedness). The institutional narrative argues that scientific misconduct is the product of an institution’s values. Institutions employ the scientist(s) who commit misconduct and have incentives to commit misconduct (e.g., funding, recognition, and prestige). The structural narrative views misconduct as a systemic issue. Scientific reform depends on which narrative is correct.
 ### Institutional narratives of misconduct
 - **What**
+	- The institutional narrative of scientific misconduct views misconduct as the failure of an institution. In this narrative, scientists are influenced by the institutions that support them. Rather than a “bad” scientist who breaks the monolithic Mertonian norms, this narrative suggests that the values of a scientist reflect the values of an institution (i.e., professors, students, research assistants, and deans). These values differ within disciplines and laboratories.
 - **Where**
+	- This term appeared in the lecture about scientific fraud.
 - **Why**
+	- The institutional narrative of misconduct suggests that neither scientists nor institutions can be trusted to stop misconduct. Sovacool explains in his article that universities have incentives to commit misconduct: undetected falsification or fabrication of data can lead to greater funding and prestige. If scientists are motivated by their institution to publish high-impact studies, then they have incentives to commit misconduct. Institutions drive scientists to embellish findings, and unnoticed misconduct benefits the institution.
+	- If the problem is institutional, one way of reform is to employ whistleblower protections. Whistleblower protections prevent informers from losing their status, which could make researchers more inclined to report scientific misconduct. This changes the incentives of an institution. Institutions want to penalize misconduct as its publicizing reflects poorly on the institution.
