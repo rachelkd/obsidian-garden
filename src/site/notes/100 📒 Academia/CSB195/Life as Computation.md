@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-11-09T22:10:37.506-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSB195/Life as Computation.md","permalink":"/academia/csb-195/life-as-computation/","created":"2023-10-18T16:22:02.399-04:00","updated":"2023-11-16T23:16:14.512-05:00"}
 ---
 
 # What is life
@@ -164,7 +164,6 @@ Does this ever freeze? Does it ever stop? Does it ever exhaust its states?
 
 --- 
 
-#report2
 
 ## Computational Neurons
 
