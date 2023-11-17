@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-11-07T17:55:47.961-05:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-11-15T13:11:05.292-05:00"}
 ---
 
 # CSC110
@@ -9,6 +9,7 @@
 # HPS120
 **Key Terms**
 - [[100 📒 Academia/HPS120/Key Terms 1\|Key Terms 1]]
+- [[100 📒 Academia/HPS120/Key Terms 2\|Key Terms 2]]
 
 **Lecture Notes**
 - [[100 📒 Academia/HPS120/01 Lecture Notes/01 Baby Scientists\|01 Baby Scientists]] (unfinished)
@@ -18,3 +19,4 @@
 - [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|06 Global history of science]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/07 Methodological developments\|07 Methodological developments]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|08 Peer Review]]
+- [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|09 Fraud]]
