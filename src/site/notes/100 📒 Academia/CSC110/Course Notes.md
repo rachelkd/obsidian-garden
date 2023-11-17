@@ -23,4 +23,4 @@
 - [[100 📒 Academia/CSC110/01 Course Notes/9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits\|9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9.5 Analyzing Algorithm Running Time\|9.5 Analyzing Algorithm Running Time]]
 - [[000 Zettlekasten/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
-- [[000 Zettlekasten/9.7 Analyzing Built-In Data Type Operations\|9.7 Analyzing Built-In Data Type Operations]] #unfinished
+- [[100 📒 Academia/CSC110/01 Course Notes/9.7 Analyzing Built-In Data Type Operations\|9.7 Analyzing Built-In Data Type Operations]] #unfinished
