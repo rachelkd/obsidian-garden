@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-11-12T22:05:03.405-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-11-18T21:36:09.376-05:00"}
 ---
 
 
@@ -22,5 +22,11 @@
 - [[100 📒 Academia/CSC110/01 Course Notes/9.2 Comparing Asymptotic Function Growth - Big-O Notation\|9.2 Comparing Asymptotic Function Growth: Big-O Notation]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits\|9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9.5 Analyzing Algorithm Running Time\|9.5 Analyzing Algorithm Running Time]]
-- [[000 Zettlekasten/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9.7 Analyzing Built-In Data Type Operations\|9.7 Analyzing Built-In Data Type Operations]] #unfinished
+- [[000 Zettlekasten/9.8 Worst-Case Running Time Analysis\|9.8 Worst-Case Running Time Analysis]] #unfinished
+
+# 10. Abstraction, Classes, and Software Design
+- [[000 Zettlekasten/10.1 An Introduction to Abstraction\|10.1 An Introduction to Abstraction]]
+- [[000 Zettlekasten/10.2 Defining Our Own Data Types, Part 3\|10.2 Defining Our Own Data Types, Part 3]]
+- [[000 Zettlekasten/10.3 Defining Our Own Methods\|10.3 Defining Our Own Methods]]
