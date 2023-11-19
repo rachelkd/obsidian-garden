@@ -188,7 +188,20 @@ Sylvester II grew up poor and got shipped to Spain to study.
 
 # Islamic Caliphates
 
-![[islamic_caliphates.png\|400]]
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+$<div class="markdown-embed-title">
+
+# 400
+
+</div>
+
+
+
+
+</div></div>
+
 By 750 CE, everything except the purple bits are under the rule of a Caliphs.
 - One of these regions that the Islamic Caliphates took over was Spain
 - This gives serious problems as a *conquering* quasi-nation state
