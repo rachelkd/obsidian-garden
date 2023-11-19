@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-15T13:10:28.936-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-19T18:40:51.975-05:00"}
 ---
 
 ```table-of-contents
@@ -28,19 +28,25 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|gl
 
 ### Science wars
 - **What**
-	- In the 1990s, there was a wave of criticism towards the idea that science was solely objective. Critics argued that science is a social activity performed by people who live in a culture. Social factors shape the kinds of questions science asks and what kind of evidence is required to answer such questions. Counter-critics argued that science is an objective process; however, cultural factors do play a role when things go wrong.
+	- Science wars is a debate about the objectivity and reliability of scientific knowledge between scientists and sociologists. In the 1990s, there was a wave of criticism towards the idea that science was solely objective. Critics argued that science is a social activity performed by people who live in a culture. Social factors shape the kinds of questions science asks and what kind of evidence is required to answer such questions. Counter-critics argued that science is an objective process; however, cultural factors do play a role when things go wrong.
 - **Where**
 	- This term appeared in the lecture about global history of science.
 - **Why**
 	- Cultural critic of science Sandra Harding highlights the importance of observing cultural and sociological factors that go into producing scientific knowledge. This does not mean that science is made up, but that there is an important social story to be told in science – for example, from a feminist or post-colonial perspective. 
 	- One might critique science as being a product of Europe and the West, thus, neglecting other cultural perspectives. This Eurocentric view is incorrect. Rather, scientific revolution is the product of multicultural conversations (see [[100 📒 Academia/HPS120/Key Terms 2#^d9da96\|dialogical view of the history of science]]).
-
-### Dialogical view
+- *From tutorial:* 
+	- sociology; a collective debate in the late 20th century
+	- scientists (mainly physicists and biologists) against sociologists
+	- objectivity and reliability of scientific knowledge
+	- social factors (e.g., cultural)
+	- Whether scientific knowledge is universal or not
+		- question the objectivity of science
+### Dialogical view of the history of science
 { #d9da96}
 
 
 - **What**
-	- The dialogical view is a perspective that rejects both the post-modern critics and modernists in the science wars debate. Post-modern critics argue that social factors affect science, whereas modernists argue that science is objective. Therefore, there are three arguments: science is European, science is European and that is okay, and the third points to the dialogical view. The dialogical view argues that the science is not fundamentally European; pieces that go into modern science come from all over the world.
+	- The dialogical view of the history of science is a perspective that rejects both the post-modern critics and modernists in the science wars debate. Post-modern critics argue that social factors affect science, whereas modernists argue that science is objective. Therefore, there are three arguments: science is European, science is European and that is okay, and the third points to the dialogical view. The dialogical view argues that the science is not fundamentally European; pieces that go into modern science come from all over the world.
 - **Where**
 	- This term appeared in the lecture about the global history of science.
 - **Why**
@@ -54,8 +60,9 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|gl
 - **Why**
 	- The Translation Movement laid the intellectual foundations for later scientific advances during the European Renaissance by spreading knowledge of ideas, methods and technologies from other cultures, which European scientists like Copernicus later built upon.
 	- Additionally, the scientific revolution is another example of acquiring then synthesizing information in their own language. This comparison depicts science as a global project rather than a product of Europe and the West as presented in the Eurocentric view.
-
-
+- *From tutorial:*
+	- Mention Islamic Caliphates, Chinese works (paper? from Wikipedia)
+	- Need time period: Golden age of Islamic science
 # Week 7 - Methodological developments
 
 See [[100 📒 Academia/HPS120/01 Lecture Notes/07 Methodological developments\|methodological developments]].
