@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/02 Lectures/Lecture 21 Asymptotic Notation for Function Growth.md","permalink":"/academia/csc-110/02-lectures/lecture-21-asymptotic-notation-for-function-growth/","created":"2023-10-31T15:16:52.747-04:00","updated":"2023-11-06T15:55:25.549-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/02 Lectures/Lecture 21 Asymptotic Notation for Function Growth.md","permalink":"/academia/csc-110/02-lectures/lecture-21-asymptotic-notation-for-function-growth/","created":"2023-10-31T15:16:52.747-04:00","updated":"2023-11-16T23:17:46.099-05:00"}
 ---
 
+#CSC110 
 **Covers:**
 - [[100 📒 Academia/CSC110/01 Course Notes/9.1 Introduction to Running Time Analysis\|9.1 Introduction to Running Time Analysis]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9.2 Comparing Asymptotic Function Growth - Big-O Notation\|9.2 Comparing Asymptotic Function Growth - Big-O Notation]]
