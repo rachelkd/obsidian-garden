@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-19T18:50:12.568-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-19T19:40:00.205-05:00"}
 ---
 
 ```table-of-contents
@@ -76,11 +76,11 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/07 Methodological developments\|
 
 ### Placebo controlled trials (randomized controlled trials)
 - **What**
-	- Placebo controlled trials are clinical studies that involve comparing an intervention to a placebo. Participants in the trials are placed in three different arms: the intervention arm receives the treatment, the placebo arm receives an inert treatment to determine if the placebo effect is strong enough to help people get better, and the no intervention arm acts as a control group to test if people spontaneously get better on their own.
+	- Randomized controlled trials are clinical studies that involve comparing an intervention group to a control group. Participants in the trials are randomly placed in three different arms: the intervention arm receives the treatment, the placebo arm receives an inert treatment to determine if the placebo effect is strong enough to help people get better, and the no intervention arm acts as a control group to test if people spontaneously get better on their own.
 - **Where**
 	- This term appeared in the lecture about methodological developments.
 - **Why**
-	- Placebo controlled trials became important to rigorously test medical claims and interventions. Early examples (like the trails of Franz Mesmer's "animal magnetism" and the Brown-Séquard Elixir) showed the value of blinding and control groups. Later trials like the polio vaccine trials in the 1950s established placebo-controlled double-blind trials as the gold standard approach. This allows researchers to distinguish the actual effects of a treatment from other factors like the placebo effect, natural recovery, or biases.
+	- Randomized controlled trials became important to rigorously test medical claims and interventions. Early examples (like the trails of Franz Mesmer's "animal magnetism" and the Brown-Séquard Elixir) showed the value of blinding and control groups. Later trials like the polio vaccine trials in the 1950s established placebo-controlled double-blind trials as the gold standard approach. This allows researchers to distinguish the actual effects of a treatment from other factors like the placebo effect, natural recovery, or biases.
 ### Hawthorne Effect
 - **What**
 	- Placebo responses in a placebo controlled trial are signals in the data. One potential placebo response is the Hawthorne Effect. Researchers wanted to determine whether increasing lightning increased worker productivity. They observed that worker productivity increased when the lighting increased and also decreased. This suggested that the lighting changes did not have an effect. They coined the Hawthorne Effect — as the study was done at a electrical appliance factory called Hawthorne Works — which is the phenomenon that people change their behaviour when they are being observed.
