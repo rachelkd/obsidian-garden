@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-19T19:40:00.205-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-20T16:19:35.338-05:00"}
 ---
 
 ```table-of-contents
@@ -28,12 +28,12 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|gl
 
 ### Science wars
 - **What**
-	- Science wars is a debate about the objectivity and reliability of scientific knowledge between scientists and sociologists. In the 1990s, there was a wave of criticism towards the idea that science was solely objective. Critics argued that science is a social activity performed by people who live in a culture. Social factors shape the kinds of questions science asks and what kind of evidence is required to answer such questions. Counter-critics argued that science is an objective process; however, cultural factors do play a role when things go wrong.
+	- Science wars is a debate about the objectivity and reliability of scientific knowledge between scientists and sociologists. In the 1990s, there was a wave of criticism towards the idea that science was solely objective. Critics argued that science is a social activity performed by people who live in a culture. Social factors shape the kinds of questions science asks and what kind of evidence is required to answer such questions. Counter-critics argued that science is an objective process; however, cultural factors do play a role when science goes wrong.
 - **Where**
 	- This term appeared in the lecture about global history of science.
 - **Why**
 	- Cultural critic of science Sandra Harding highlights the importance of observing cultural and sociological factors that go into producing scientific knowledge. This does not mean that science is made up, but that there is an important social story to be told in science – for example, from a feminist or post-colonial perspective. 
-	- One might critique science as being a product of Europe and the West, thus, neglecting other cultural perspectives. This Eurocentric view is incorrect. Rather, scientific revolution is the product of multicultural conversations (see [[100 📒 Academia/HPS120/Key Terms 2#^d9da96\|dialogical view of the history of science]]).
+	- An example from a post-colonial lens is that one might critique science as being a product of Europe and the West, thus, neglecting other cultural perspectives. This Eurocentric view is incorrect. Rather, scientific revolution is the product of multicultural conversations (see [[100 📒 Academia/HPS120/Key Terms 2#^d9da96\|dialogical view of the history of science]]).
 - *From tutorial:* 
 	- sociology; a collective debate in the late 20th century
 	- scientists (mainly physicists and biologists) against sociologists
