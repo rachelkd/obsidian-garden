@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-11-18T21:36:09.376-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-11-21T16:10:17.275-05:00"}
 ---
 
 
@@ -30,3 +30,8 @@
 - [[000 Zettlekasten/10.1 An Introduction to Abstraction\|10.1 An Introduction to Abstraction]]
 - [[000 Zettlekasten/10.2 Defining Our Own Data Types, Part 3\|10.2 Defining Our Own Data Types, Part 3]]
 - [[000 Zettlekasten/10.3 Defining Our Own Methods\|10.3 Defining Our Own Methods]]
+- [[000 Zettlekasten/10.4 Data Types, Abstract and Concrete\|10.4 Data Types, Abstract and Concrete]]
+- [[000 Zettlekasten/10.5 Stacks\|10.5 Stacks]]
+- [[10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
+- [[10.7 Queues\|10.7 Queues]]
+- [[10.8 Priority Queues\|10.8 Priority Queues]]
