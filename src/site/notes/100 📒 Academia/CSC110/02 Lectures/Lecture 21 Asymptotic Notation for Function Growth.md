@@ -4,9 +4,9 @@
 
 #CSC110 
 **Covers:**
-- [[100 📒 Academia/CSC110/01 Course Notes/9.1 Introduction to Running Time Analysis\|9.1 Introduction to Running Time Analysis]]
-- [[100 📒 Academia/CSC110/01 Course Notes/9.2 Comparing Asymptotic Function Growth - Big-O Notation\|9.2 Comparing Asymptotic Function Growth - Big-O Notation]]
-- [[100 📒 Academia/CSC110/01 Course Notes/9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits\|9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.1 Introduction to Running Time Analysis\|9.1 Introduction to Running Time Analysis]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.2 Comparing Asymptotic Function Growth - Big-O Notation\|9.2 Comparing Asymptotic Function Growth - Big-O Notation]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits\|9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits]]
 
 > [!note]
 > How well does my program run when the input size gets really, really large?
