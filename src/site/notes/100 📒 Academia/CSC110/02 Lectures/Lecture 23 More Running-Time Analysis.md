@@ -5,7 +5,7 @@
 #CSC110  
 
 **Covers:**
-- [[100 📒 Academia/CSC110/01 Course Notes/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
 ---
 ```table-of-contents
 ```
@@ -102,4 +102,4 @@ def twisty(n: int) -> int:
 	return iterations_so_far
 ```
 
-See [[100 📒 Academia/CSC110/01 Course Notes/9.6 Analyzing Comprehensions and While Loops#Example 3 — A trickier example\|9.6 Analyzing Comprehensions and While Loops]].
+See [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.6 Analyzing Comprehensions and While Loops#Example 3 — A trickier example\|9.6 Analyzing Comprehensions and While Loops]].
