@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-20T16:19:35.338-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-23T14:20:32.125-05:00"}
 ---
 
 ```table-of-contents
@@ -59,7 +59,7 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/06 Global history of science\|gl
 	- This term appeared in the lecture about the global history of science.
 - **Why**
 	- The Translation Movement laid the intellectual foundations for later scientific advances during the European Renaissance by spreading knowledge of ideas, methods and technologies from other cultures, which European scientists like Copernicus later built upon.
-	- Additionally, the scientific revolution is another example of acquiring then synthesizing information in their own language. The existence of movable type from China made its way to Europe, which made reproducing knowledge vastly easier and more reliable. This comparison depicts science as a global project rather than a product of Europe and the West as presented in the Eurocentric view.
+	- The scientific revolution is a macrocosm of the translation movement; it is another example of acquiring then synthesizing information in other forms. For example, movable type from China made its way to Europe, which made reproducing knowledge vastly easier and more reliable. Multicultural developments inspired modern science.
 
 # Week 7 - Methodological developments
 
@@ -101,7 +101,7 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|peer review]].
 	- There are two non-mutually-exclusive perspectives towards peer review: the first being the classical view that peer review differentiates science from other practices that are unscientific, and the modern view that claims peer review is the weakest link in scientific knowledge production.
 	- While peer review is necessary in some form to maintain the quality of science and scientific journals, the process is deeply flawed.
 		- It is slow; reviewers are volunteers and do not gain any credibility for peer review. 
-		- Additionally, peer review is biased: first to the type of research and second to the researchers.
+		- Additionally, peer review is biased.
 			- For example, it is unlikely that they will publish replication studies because replication studies do not claim anything particularly interesting that make people want to read the journal. Furthermore, reviewers might reject a paper because they think the conclusion is implausible. Their judgement is based off their Bayesian priors, which makes it difficult for groundbreaking discoveries to be published.
 	- One potential solution to this flawed system is to shift the scientific community towards Open Science; however, it will be difficult to break the current cultural inertia.
 ### Preprint archive
