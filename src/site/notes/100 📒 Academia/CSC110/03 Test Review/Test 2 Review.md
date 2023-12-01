@@ -140,7 +140,7 @@ Person(given_name='David', family_name='Liu', age=100, address='40 St. George St
 ```
 
 ### Variable memory model
-![value_memory_model.png|400](/img/user/Files/01%20CSC110/value_memory_model.png)
+![value_memory_model.png|400](/img/user/Files/CSC110/value_memory_model.png)
 
 
 ### Representation Invariants
@@ -614,7 +614,7 @@ class Person:
 |`x`|`3`|
 |`word`|`'bonjour'`|
 
-![memory_model_simple.png|500](/img/user/Files/01%20CSC110/memory_model_simple.png)
+![memory_model_simple.png|500](/img/user/Files/CSC110/memory_model_simple.png)
 
 **Representing a list**
 
@@ -622,7 +622,7 @@ class Person:
 >>> lst = [1, 2, 3]
 ```
 
-![memory_model_list.png|600](/img/user/Files/01%20CSC110/memory_model_list.png)
+![memory_model_list.png|600](/img/user/Files/CSC110/memory_model_list.png)
 
 **Representing a set**
 
@@ -630,7 +630,7 @@ class Person:
 >>> my_set = {1, 2, 3}
 ```
 
-![memory_model_set.png|500](/img/user/Files/01%20CSC110/memory_model_set.png)
+![memory_model_set.png|500](/img/user/Files/CSC110/memory_model_set.png)
 
 **Representing a dictionary**
 
@@ -638,9 +638,9 @@ class Person:
 >>> my_dict = {'a': 1, 'b': 2}
 ```
 
-![memory_model_dict.png|500](/img/user/Files/01%20CSC110/memory_model_dict.png)
+![memory_model_dict.png|500](/img/user/Files/CSC110/memory_model_dict.png)
 
 **Representing a data class**
 
-![memory_model_dataclass.png|500](/img/user/Files/01%20CSC110/memory_model_dataclass.png)
+![memory_model_dataclass.png|500](/img/user/Files/CSC110/memory_model_dataclass.png)
 
