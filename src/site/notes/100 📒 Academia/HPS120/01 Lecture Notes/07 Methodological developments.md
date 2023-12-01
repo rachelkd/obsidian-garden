@@ -203,7 +203,7 @@ Purposes of the three arms:
 
 # Increasing Effective Placebos
 
-![placebo_response_data.png|500](/img/user/Files/03%20HPS120/placebo_response_data.png)
+![placebo_response_data.png|500](/img/user/Files/HPS120/placebo_response_data.png)
 Tuttle, A. H., Tohyama, S., Ramsay, T., Kimmelman, J., Schweinhardt, P., Bennett, G. J., & Mogil, J. S. (2015). Increasing placebo responses over time in US clinical trials of neuropathic pain. _Pain_, _156_(12), 2616-2626.
 
 - Oddly, the size of placebo effects in some categories seems to be increasing over time
@@ -268,7 +268,7 @@ Some meta-analyses have found only modest placebo effects across studies that co
 
 # The medical significance of being nice
 
-![doctors.png|300](/img/user/Files/03%20HPS120/doctors.png)
+![doctors.png|300](/img/user/Files/HPS120/doctors.png)
 
 Howe, L. C., Goyer, J. P., & Crum, A. J. (2017). Harnessing the placebo effect: Exploring the influence of physician characteristics on placebo response.Health Psychology,36(11), 1074.
 
