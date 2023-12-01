@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-11-23T14:20:32.125-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS120/Key Terms 2.md","permalink":"/academia/hps-120/key-terms-2/","created":"2023-11-07T15:22:40.197-05:00","updated":"2023-12-01T14:35:11.690-05:00"}
 ---
 
 ```table-of-contents
@@ -121,7 +121,7 @@ See [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|peer review]].
 	- Additionally, open commentary works with preprint archives to help provide context, caveats, and suggestions for authors and readers without making an overall determination on the paper. That is the job of peer review in traditional publishing.
 	- Open commentary also points out scientific fraud in papers, which is more prevalent in the field than some may assume. Open comments can highlight areas of photo manipulation, which could potentially nullify the paper's interpretation(s).
 
-# Week 9 - Fraud #todo
+# Week 9 - Fraud
 
 See [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|Fraud]].
 
