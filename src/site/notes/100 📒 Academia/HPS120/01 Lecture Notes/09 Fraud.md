@@ -108,14 +108,14 @@ However, you cannot take any kind of stem cell and stick them in a body:
 
 # Image Manipulation
 
-![image_manipulation_1.png|undefined](/img/user/Files/03%20HPS120/image_manipulation_1.png)
+![image_manipulation_1.png|undefined](/img/user/Files/HPS120/image_manipulation_1.png)
 <span style="color: grey">Treated and untreated in group A are pixel-for-pixel identical.</span>
 
 - The chances of this is so astronomically small
 	- Closest certainty you can get is that this is not going to happen by accident
 - This passed peer review → in the literature
 
-![image_manipulation_2.png|undefined](/img/user/Files/03%20HPS120/image_manipulation_2.png)
+![image_manipulation_2.png|undefined](/img/user/Files/HPS120/image_manipulation_2.png)
 <span style="color: grey">All but one are the same blots in different orientations.</span>
 
 - Response from publishers is not always as dramatic or timely as one may expect
@@ -133,12 +133,12 @@ However, you cannot take any kind of stem cell and stick them in a body:
 		- It is all edited in the same way the image is edited for clarity
 		- As a do-er for science, you might want to know how it is made
 
-![image_manipulation_3.png|undefined](/img/user/Files/03%20HPS120/image_manipulation_3.png)
+![image_manipulation_3.png|undefined](/img/user/Files/HPS120/image_manipulation_3.png)
 <span style="color: grey">Pilato, L. A., & Michno, M. J. (1994). Advanced composite materials. Springer Science & Business Media.</span>
 
 - Was retracted, but also made it through peer-review
 
-![image_manipulation_4.png|undefined](/img/user/Files/03%20HPS120/image_manipulation_4.png)
+![image_manipulation_4.png|undefined](/img/user/Files/HPS120/image_manipulation_4.png)
 <span style="color: gray">Ninov, V., Gregorich, K. E., Loveland, W., Ghiorso, A., Hoffman, D. C., Lee, D. M., ... & Wilk, P. A. (1999). Observation of Superheavy Nuclei Produced in the Reaction of K 86 r with P 208 b. Physical Review Letters, 83(6), 1104.</span>
 
 - First claim of Element 118
