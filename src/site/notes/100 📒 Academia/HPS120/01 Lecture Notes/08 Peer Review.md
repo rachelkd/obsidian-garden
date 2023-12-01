@@ -265,7 +265,7 @@ Along with the Internet grew pre-print archives:
 	- e.g., PubPeer
 		- Sort of a community, but also a Chrome extension that adds an option to make or view comments on scientific papers
 - One example of commentary:
-	- ![pubpeer.png|500](/img/user/Files/03%20HPS120/pubpeer.png)
+	- ![pubpeer.png|500](/img/user/Files/HPS120/pubpeer.png)
 	- No text, just two sections of an image from the paper highlighted by red boxes
 		- Sections are pixel for pixel identical
 		- Highly unlikely, unless it has been Photoshopped
