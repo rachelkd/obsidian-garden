@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-11-21T16:10:17.275-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-01T20:59:13.056-05:00"}
 ---
 
 
@@ -23,8 +23,8 @@
 - [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits\|9.3-4 Big-O, Omega, Theta; Asymptotic Growth and Limits]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.5 Analyzing Algorithm Running Time\|9.5 Analyzing Algorithm Running Time]]
 - [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.6 Analyzing Comprehensions and While Loops\|9.6 Analyzing Comprehensions and While Loops]]
-- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.7 Analyzing Built-In Data Type Operations\|9.7 Analyzing Built-In Data Type Operations]] #unfinished
-- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.8 Worst-Case Running Time Analysis\|9.8 Worst-Case Running Time Analysis]] #unfinished
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.7 Analyzing Built-In Data Type Operations\|9.7 Analyzing Built-In Data Type Operations]]
+- [[100 📒 Academia/CSC110/01 Course Notes/9 Analyzing Algorithm Running Time/9.8 Worst-Case Running Time Analysis\|9.8 Worst-Case Running Time Analysis]]
 
 # 10. Abstraction, Classes, and Software Design
 - [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.1 An Introduction to Abstraction\|10.1 An Introduction to Abstraction]]
@@ -35,3 +35,5 @@
 - [[10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
 - [[10.7 Queues\|10.7 Queues]]
 - [[10.8 Priority Queues\|10.8 Priority Queues]]
+- [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]] #todo
+- [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]] #todo
