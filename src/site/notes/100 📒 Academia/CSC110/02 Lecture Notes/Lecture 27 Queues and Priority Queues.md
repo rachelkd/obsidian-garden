@@ -5,9 +5,9 @@
 #CSC110
 
 **Covers:**
-- [[10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
-- [[10.7 Queues\|10.7 Queues]]
-- [[10.8 Priority Queues\|10.8 Priority Queues]]
+- [[000 Zettlekasten/10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
+- [[000 Zettlekasten/10.7 Queues\|10.7 Queues]]
+- [[000 Zettlekasten/10.8 Priority Queues\|10.8 Priority Queues]]
 ---
 ```table-of-contents
 ```
