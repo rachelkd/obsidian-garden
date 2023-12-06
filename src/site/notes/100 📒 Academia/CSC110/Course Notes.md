@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-05T20:00:11.572-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-05T22:48:45.376-05:00"}
 ---
 
 
@@ -35,8 +35,8 @@
 - [[000 Zettlekasten/10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
 - [[000 Zettlekasten/10.7 Queues\|10.7 Queues]]
 - [[000 Zettlekasten/10.8 Priority Queues\|10.8 Priority Queues]]
-- [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]] #todo
-- [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]] #todo
+- [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]]
+- [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]]
 
 # 11. Case Study: Building a Simulation #todo
 
