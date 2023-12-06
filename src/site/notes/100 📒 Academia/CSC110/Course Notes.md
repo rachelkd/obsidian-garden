@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-05T17:22:32.440-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-05T20:00:11.572-05:00"}
 ---
 
 
@@ -38,7 +38,7 @@
 - [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]] #todo
 - [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]] #todo
 
-# 11. Case Study: Building a Simulation
+# 11. Case Study: Building a Simulation #todo
 
 - [[000 Zettlekasten/11.1 The Problem Domain Food Delivery Networks\|11.1 The Problem Domain Food Delivery Networks]]
 - [[000 Zettlekasten/11.2 Object-Oriented Modelling\|11.2 Object-Oriented Modelling]]
