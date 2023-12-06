@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/lecture-32-wrapping-up-and-looking-ahead/","created":"2023-12-05T17:30:15.318-05:00","updated":"2023-12-05T17:46:39.537-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/lecture-32-wrapping-up-and-looking-ahead/","created":"2023-12-05T17:30:15.318-05:00","updated":"2023-12-05T20:28:47.958-05:00"}
 ---
 
 #CSC110
