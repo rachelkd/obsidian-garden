@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-01T20:59:13.056-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/Course Notes.md","permalink":"/academia/csc-110/course-notes/","created":"2023-10-21T21:07:21.554-04:00","updated":"2023-12-05T17:22:32.440-05:00"}
 ---
 
 
@@ -32,8 +32,16 @@
 - [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.3 Defining Our Own Methods\|10.3 Defining Our Own Methods]]
 - [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.4 Data Types, Abstract and Concrete\|10.4 Data Types, Abstract and Concrete]]
 - [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.5 Stacks\|10.5 Stacks]]
-- [[10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
-- [[10.7 Queues\|10.7 Queues]]
-- [[10.8 Priority Queues\|10.8 Priority Queues]]
+- [[000 Zettlekasten/10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
+- [[000 Zettlekasten/10.7 Queues\|10.7 Queues]]
+- [[000 Zettlekasten/10.8 Priority Queues\|10.8 Priority Queues]]
 - [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]] #todo
 - [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]] #todo
+
+# 11. Case Study: Building a Simulation
+
+- [[000 Zettlekasten/11.1 The Problem Domain Food Delivery Networks\|11.1 The Problem Domain Food Delivery Networks]]
+- [[000 Zettlekasten/11.2 Object-Oriented Modelling\|11.2 Object-Oriented Modelling]]
+- [[000 Zettlekasten/11.3 A “Manager” Class\|11.3 A “Manager” Class]]
+- [[11.4 Food Delivery Events\|11.4 Food Delivery Events]]
+- [[11.5 Creating a Discrete-Event Simulation\|11.5 Creating a Discrete-Event Simulation]]
