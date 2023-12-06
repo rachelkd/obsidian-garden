@@ -10,7 +10,7 @@
 **Key Terms**
 - [[100 📒 Academia/HPS120/Key Terms 1\|Key Terms 1]]
 - [[100 📒 Academia/HPS120/Key Terms 2\|Key Terms 2]]
-- [[000 Zettlekasten/Key Terms 3\|Key Terms 3]]
+- [[100 📒 Academia/HPS120/Key Terms 3\|Key Terms 3]]
 
 **Lecture Notes**
 - [[100 📒 Academia/HPS120/01 Lecture Notes/01 Baby Scientists\|01 Baby Scientists]] (unfinished)
