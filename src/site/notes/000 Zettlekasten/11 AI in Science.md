@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/11-ai-in-science/","created":"2023-12-06T00:01:58.179-05:00","updated":"2023-12-06T14:46:46.456-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/11-ai-in-science/","created":"2023-12-06T00:01:58.179-05:00","updated":"2023-12-12T14:20:01.553-05:00"}
 ---
 
 #HPS120 
