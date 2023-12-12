@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-12-01T14:31:53.241-05:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2023-12-11T19:49:07.157-05:00"}
 ---
 
 # CSC110
@@ -22,3 +22,5 @@
 - [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|08 Peer Review]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|09 Fraud]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/10 Meta-Analysis\|10 Meta-Analysis]]
+- [[000 Zettlekasten/11 AI in Science\|11 AI in Science]]
+- [[000 Zettlekasten/12 Science Communications\|12 Science Communications]]
