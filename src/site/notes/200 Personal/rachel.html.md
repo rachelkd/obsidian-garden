@@ -22,5 +22,5 @@
 - [[100 📒 Academia/HPS120/01 Lecture Notes/08 Peer Review\|08 Peer Review]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/09 Fraud\|09 Fraud]]
 - [[100 📒 Academia/HPS120/01 Lecture Notes/10 Meta-Analysis\|10 Meta-Analysis]]
-- [[000 Zettlekasten/11 AI in Science\|11 AI in Science]]
-- [[000 Zettlekasten/12 Science Communications\|12 Science Communications]]
+- [[100 📒 Academia/HPS120/01 Lecture Notes/11 AI in Science\|11 AI in Science]]
+- [[100 📒 Academia/HPS120/01 Lecture Notes/12 Science Communications\|12 Science Communications]]
