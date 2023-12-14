@@ -5,8 +5,8 @@
 #CSC110
 
 **Covers:**
-- [[000 Zettlekasten/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]]
-- [[000 Zettlekasten/10.10 The object Superclass\|10.10 The object Superclass]]
+- [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]]
+- [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.10 The object Superclass\|10.10 The object Superclass]]
 ---
 ```table-of-contents
 ```
