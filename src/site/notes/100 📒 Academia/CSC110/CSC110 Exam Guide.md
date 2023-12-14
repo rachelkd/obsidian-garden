@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T19:21:58.332-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T23:39:01.876-05:00"}
 ---
 
 #CSC110
@@ -189,3 +189,133 @@ True
 > **Theorem.** (*GCD Characterization*)
 > Let $m,n \in \mathbb{Z}$, and assume at least one of them is non-zero. Then, $\text{gcd}(m,n)$ is the smallest positive integer that is a linear combination of $m$ and $n$.
 
+## Euclidean Algorithm
+
+> [!note]
+> For all $a,b \in \mathbb{Z}$ where $b \neq 0$, $\text{gcd}(a,b) = \text{gcd}(b, a \;\%\; b)$.
+
+```python
+def euclidean_gcd(a: int, b: int) -> int:  
+    """Returns the GCD of a and b using Euclidean Algorithm  
+    """    
+    x, y = a, b  
+  
+    while y != 0:  
+        assert math.gcd(x, y) == math.gcd(a, b)  
+        r = x % y  
+        x, y = y, r  
+    
+    return x
+```
+
+```python
+def extended_euclidean_gcd(a: int, b: int) -> tuple[int, int, int]:
+    """Returns GCD of a and b, and integers p and q such that
+
+    gcd(a, b) == p * a + q * b
+
+    Preconditions:
+    - a >= 0
+    - b >= 0
+
+    >>> extended_euclidean_gcd(13, 10)
+    (1, 7, -9)
+    """
+    x, y = a, b
+    px, qx = 1, 0
+    py, qy = 0, 1
+
+    while y != 0:
+        assert math.gcd(x, y) == math.gcd(a, b)
+        assert x == px * a + qx * b
+        assert y == py * a + qy * b
+
+        q, r = divmod(x, y)
+
+        x, y = y, r
+
+        px, qx, py, qy = py, qy, px - (q * py), qx - (q * qy)
+
+    return x, px, qx
+```
+
+**Explanation of the Extended Euclidean Algorithm.**
+By the Quotient-Remainder Theorem, we know that $x$ divided by $y$ means
+$$
+x = y \cdot q + r
+$$
+Then, we know $x$ and $y$ are linear combinations of $a$ and $b$:
+$$
+\begin{align*}
+x &= p_{x} \cdot a + q_{x} \cdot b \\
+y &= p_{y} \cdot a + q_{y} \cdot b
+\end{align*}$$
+Then, substituting these in the quotient-remainder theorem, we get:
+$$
+\begin{align*}
+(p_{x} \cdot a + q_{x} \cdot b) &= (p_{y} \cdot a + q_{y} \cdot b) \cdot q + r \\
+(p_{x} \cdot a + q_{x} \cdot b) - (p_{y} \cdot a + q_{y} \cdot b) \cdot q &= r \\
+(p_{x} - (q \cdot p_{y})) \cdot a + (q_{y} - (q \cdot q_{y})) \cdot b &= r
+\end{align*}$$
+
+## Modular inverse
+
+```python
+"""Sadia Lecture 17 examples"""  
+
+
+def extended_euclidean_gcd(a: int, b: int) -> tuple[int, int, int]:  
+	"""Return the gcd of a and b, and integers p and q such that  
+	gcd(a, b) == p * a + b * q.  
+	Preconditions:  
+	- a >= 0  
+	- b >= 0  
+    >>> extended_euclidean_gcd(10, 3)  
+	(1, 1, -3)  
+	"""  
+	x, y = a, b  
+	px, qx = 1, 0  
+	py, qy = 0, 1  
+	
+	while y != 0:  
+		# assert math.gcd(x, y) == math.gcd(a, b) # L.I. 1  
+		assert x == px * a + qx * b # L.I. 2  
+		assert y == py * a + qy * b # L.I. 3  
+		q, r = divmod(x, y) # equivalent to q, r = (x // y, x % y)  
+		x, y = y, r  
+		px, qx, py, qy = py, qy, px - q * py, qx - q * qy  
+	
+	return x, px, qx  
+
+
+def modular_inverse(a: int, n: int) -> int:  
+		"""Return the inverse of a modulo n, in the range 0 to n - 1 inclusive.  
+		Preconditions: (TODO: fill this in!)  
+		- math.gcd(a, n) == 1 # (in English: the gcd of a and n is 1)  
+		- n >= 1  
+        >>> modular_inverse(10, 3) # 10 * 1 is equivalent to 1 modulo 3  
+		1  
+        >>> modular_inverse(3, 10) # 3 * 7 is equivalent to 1 modulo 10  
+		7  
+		"""  
+		result = extended_euclidean_gcd(a, n)  
+		gcd, p, q = result[0], result[1], result[2]  
+		
+		# This isn't necessary, just a useful reminder!  
+		assert gcd == a * p + q * n  
+		return p % n  
+		
+		# This has the right idea, but p isn't guaranteed to be in {0, 1, ..., n - 1}  
+		# return p
+```
+
+**Explanation of modular inverse algorithm.**
+By the GCD Characterization Theorem, we know $gcd(a,n) = 1$ is a linear combination of $a$ and $n$.
+$$
+\begin{align*}
+1 &= p \cdot a + q \cdot n \\
+1 - p \cdot a &= q \cdot n \\
+p \cdot a - 1 &= -q \cdot n \\
+\end{align*}
+$$
+Then, by the definition of divisibility, we know that $n \mid p \cdot a - 1 \implies a \cdot p \equiv 1 \pmod{n}$. Then, $p$ is the modular inverse of 1.
