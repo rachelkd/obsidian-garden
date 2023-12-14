@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T19:16:56.606-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T19:21:37.351-05:00"}
 ---
 
 #CSC110
@@ -12,6 +12,19 @@
 
 ## Comprehensions
 Comprehensions are Python expressions
+
+- set comprehension
+```python
+{ <expression> for <variable> in <collection> }
+```
+- list comprehension
+```python
+[ <expression> for <variable> in <collection> ]
+```
+- dictionary comprehension
+```python
+{ <key_expr>: <value_expr> for <variable> in <collection> }
+```
 
 ---
 # 3. Formal Logic
