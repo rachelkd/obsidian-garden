@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T19:13:17.136-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T19:15:36.944-05:00"}
 ---
 
 #CSC110
@@ -67,11 +67,11 @@ Comprehensions are Python expressions
 
 | operator|notation	|English|Python operation | 
 | -------|-------|-----|----------------------- |
-|NOT|	$\neg p$|	$p$ is not true|	not p|
-|AND|	$p \wedge q$	|$p$ and $q$|	p and q|
-|OR	|$p \vee q$|	$p$ or $q$ (or both)|	p or q|
-|implication|	$p \implies q$|	if $p$, then $q$|	not p or q|
-|biconditional|	$p \iff q$|	$p$ if and only if $q$|	p == q|
+|NOT|	$\neg p$|	$p$ is not true|`not p`|
+|AND|	$p \wedge q$	|$p$ and $q$|`p and q`|
+|OR	|$p \vee q$|	$p$ or $q$ (or both)|`p or q`|
+|implication|	$p \implies q$|	if $p$, then $q$|`not p or q`|
+|biconditional|	$p \iff q$|	$p$ if and only if $q$|`p == q`|
 
 ## Predicates
 
