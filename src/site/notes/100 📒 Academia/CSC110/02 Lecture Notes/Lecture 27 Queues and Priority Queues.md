@@ -5,9 +5,9 @@
 #CSC110
 
 **Covers:**
-- [[000 Zettlekasten/10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
-- [[000 Zettlekasten/10.7 Queues\|10.7 Queues]]
-- [[000 Zettlekasten/10.8 Priority Queues\|10.8 Priority Queues]]
+- [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.6 Exceptions as a Part of the Public Interface\|10.6 Exceptions as a Part of the Public Interface]]
+- [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.7 Queues\|10.7 Queues]]
+- [[100 📒 Academia/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.8 Priority Queues\|10.8 Priority Queues]]
 ---
 ```table-of-contents
 ```
