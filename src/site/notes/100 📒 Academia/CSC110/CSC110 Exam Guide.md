@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T23:39:01.876-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T23:43:24.926-05:00"}
 ---
 
 #CSC110
@@ -259,6 +259,33 @@ $$
 \end{align*}$$
 
 ## Modular inverse
+
+> [!note]
+> **Theorem.** (*Modular inverse*)
+> Let $n \in \mathbb{Z}^{+}$ and $a \in \mathbb{Z}$. If $\text{gcd}(a,n) = 1$, then there exists $p \in \mathbb{Z}$ such that $ap \equiv 1 \pmod{n}$
+> - We say that $p$ is a **modular inverse of $a$ modulo $n$
+
+*Proof.*
+Let $n \in \mathbb{Z}^{+}$ and $a \in \mathbb{Z}$. Assume $\text{gcd}(a,n) = 1$.
+We want to show that $n \mid ap - 1$, so there exists an integer $k$ such that $ap - 1 = nk$.
+Since $\text{gcd}(a,n) = 1$, by the *GCD Characterization Theorem*, we know that there exists integers $p$ and $q$ such that $1 = pa + qn$.
+Take $k = -q$.
+$$\begin{align*}
+1 &= pa + qn\\
+1 - pa &= qn\\
+pa - 1 &= (-q)n\\
+ap - 1 &= kn\\
+n &\mid ap - 1 && \text{(by definition of divisibility)}\\
+ap &\equiv 1 \pmod{n} && \text{(by definition of modular equivalence)}
+\end{align*}$$
+<div class="right-align"> 
+<span class="math display">\blacksquare</span>
+</div>
+
+> [!note] 
+> **Theorem.** *(Modular division)*
+> Let $a \in \mathbb{Z}$ and $n \in \mathbb{Z}^{+}$.
+> If $\text{gcd}(a,n)=1$, then for all $b \in \mathbb{Z}$, there exists $k \in \mathbb{Z}$ such that $ak \equiv b \pmod{n}$.
 
 ```python
 """Sadia Lecture 17 examples"""  
