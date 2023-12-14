@@ -5,9 +5,9 @@
 #CSC110
 
 **Covers:**
-- [[000 Zettlekasten/11.1 The Problem Domain Food Delivery Networks\|11.1 The Problem Domain Food Delivery Networks]]
-- [[000 Zettlekasten/11.2 Object-Oriented Modelling\|11.2 Object-Oriented Modelling]]
-- [[000 Zettlekasten/11.3 A “Manager” Class\|11.3 A “Manager” Class]]
+- [[100 📒 Academia/CSC110/01 Course Notes/11 Case Study/11.1 The Problem Domain Food Delivery Networks\|11.1 The Problem Domain Food Delivery Networks]]
+- [[100 📒 Academia/CSC110/01 Course Notes/11 Case Study/11.2 Object-Oriented Modelling\|11.2 Object-Oriented Modelling]]
+- [[100 📒 Academia/CSC110/01 Course Notes/11 Case Study/11.3 A “Manager” Class\|11.3 A “Manager” Class]]
 ---
 ```table-of-contents
 ```
