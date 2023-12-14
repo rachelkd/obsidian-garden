@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-13T23:43:24.926-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC110/CSC110 Exam Guide.md","permalink":"/academia/csc-110/csc-110-exam-guide/","created":"2023-12-12T21:56:56.817-05:00","updated":"2023-12-14T00:08:29.683-05:00"}
 ---
 
 #CSC110
@@ -346,3 +346,22 @@ p \cdot a - 1 &= -q \cdot n \\
 \end{align*}
 $$
 Then, by the definition of divisibility, we know that $n \mid p \cdot a - 1 \implies a \cdot p \equiv 1 \pmod{n}$. Then, $p$ is the modular inverse of 1.
+
+## Modular Exponentiation and Order
+
+> [!note] 
+> **Theorem.** (*Fermat's Little Theorem*)
+> Let $p, a \in \mathbb{Z}$ and assume $p$ is prime and that $p \nmid a$. Then $a^{p-1} \equiv 1 \pmod{p}$.
+
+- Since it is a number $k$ such that $a^{k} \equiv 1 \pmod{n}$,
+	- *any* multiple $n$ of $k$ also satisfies $a^{n} \equiv 1 \pmod{n}$
+
+> [!note] *Definition*.
+> We define the function $\varphi : \mathbb{Z}^{+} \rightarrow \mathbb{N}$, called the **Euler totient function** (or **Euler phi function**), as:
+> $$\varphi(n) = \mid \{a \mid a \in \{1, ..., n-1 \}, \text{and gcd} (a, n) = 1 \} \mid$$
+
+- For any prime number $p$, $\varphi(p) = p - 1$, since all the numbers $\{1,2,...,p-1\}$ are *coprime* to $p$
+- For any two distinct primes $p$ and $q$, $\varphi(pq) = (p-1)(q-1)$
+
+> [!note] Theorem. (Euler's Theorem).
+> For all $a \in \mathbb{Z}$ and $n \in \mathbb{Z}^{+}$, if gcd$(a,n) = 1$, then $a^{\varphi(n)} \equiv 1 \pmod{n}$
