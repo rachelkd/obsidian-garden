@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/300-university/2023-fall/csc-110/02-lecture-notes/lecture-29-object-oriented-modelling/","created":"2023-12-02T15:43:00.164-05:00","updated":"2023-12-05T17:28:10.138-05:00"}
+{"dg-publish":true,"permalink":"/300-university/2023-fall/csc-110/02-lecture-notes/lecture-29-object-oriented-modelling/","created":"2023-12-02T15:43:00.164-05:00","updated":"2024-01-13T16:56:06.154-05:00"}
 ---
 
 #CSC110
@@ -138,5 +138,3 @@ class SuperDuperManager:
 	- Add a new vehicle
 	- Move an existing vehicle to a new position, if possible
 		- e.g., if it has enough fuel
-
-#todo understand mutation code!
