@@ -1,6 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2024-01-11T12:29:07.134-05:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2024-01-13T18:31:13.246-05:00"}
 ---
+
+# CSC111
+**Course Notes**
+- [[100 📒 Academia/CSC111/_CSC111 Notes\|_CSC111 Notes]]
 
 # MAT223
 - [[100 📒 Academia/MAT223/Module Notes/Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
