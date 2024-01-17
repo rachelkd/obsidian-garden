@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Week 2 Lecture Notes.md","permalink":"/academia/sta-130/week-2-lecture-notes/","created":"2024-01-15T22:38:37.596-05:00","updated":"2024-01-16T23:58:27.056-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Week 2 Lecture Notes.md","permalink":"/academia/sta-130/week-2-lecture-notes/","created":"2024-01-15T22:38:37.596-05:00","updated":"2024-01-17T12:36:20.698-05:00"}
 ---
 
 **Preamble**
