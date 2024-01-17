@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/Sets and Set-Builder Notation.md","permalink":"/academia/mat-223/sets-and-set-builder-notation/","created":"2024-01-10T00:48:24.433-05:00","updated":"2024-01-10T01:21:14.590-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/Sets and Set-Builder Notation.md","permalink":"/academia/mat-223/sets-and-set-builder-notation/","created":"2024-01-10T00:48:24.433-05:00","updated":"2024-01-15T16:21:05.958-05:00"}
 ---
 
 **Preamble**
-Week: 1
+Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|1]]
 Course: #MAT223
-Module: [[100 📒 Academia/MAT223/Module Notes/Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
+Module: [[Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
 
 ---
 # Sets
