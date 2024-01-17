@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-01-17T12:40:34.800-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-01-17T12:44:09.259-05:00"}
 ---
 
 
