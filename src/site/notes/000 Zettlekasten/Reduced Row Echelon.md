@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/reduced-row-echelon/","created":"2024-01-24T15:12:46.865-05:00","updated":"2024-01-24T17:27:21.500-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/reduced-row-echelon/","created":"2024-01-24T15:12:46.865-05:00","updated":"2024-01-24T17:35:38.908-05:00"}
 ---
 
 **Preamble**
@@ -54,7 +54,8 @@ $$\begin{bmatrix}
 
 # RREF Vocabulary
 
-Consider $$\begin{bmatrix} 0 & 1 & 2 & 0 & 1 \\ 0 & 0 & 0 & 1 & -3 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$$
+Consider 
+$$\begin{bmatrix} 0 & 1 & 2 & 0 & 1 \\ 0 & 0 & 0 & 1 & -3 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$$
 
 When a matrix is in RREF:
 
@@ -67,9 +68,5 @@ When a matrix is in RREF:
 	- columns without leading ones
 		- e.g., $C_{1}, C_{3}, C_{5}$
 			- an **augmented** column is *not* called a pivot column or free variable column
-			  $$\begin{array} {ccc|c}
-			  1 & -2 & 0 & 0 \\
-			  0 & 0 & 1 & 0 \\
-			  0 & 0 & 0 & 1
-			  \end{array}$$
+			  $$\begin{array} {ccc|c} 1 & -2 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{array}$$
 
