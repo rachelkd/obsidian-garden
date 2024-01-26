@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Barplots.md","permalink":"/academia/sta-130/barplots/","created":"2024-01-16T20:18:58.350-05:00","updated":"2024-01-17T12:43:05.285-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Barplots.md","permalink":"/academia/sta-130/barplots/","created":"2024-01-16T20:18:58.350-05:00","updated":"2024-01-19T13:29:29.973-05:00"}
 ---
 
 **Preamble**
@@ -11,9 +11,6 @@ Date:
 
 - When is a **barplot** used?
 	- Visualize the distribution of a *categorical variable* with two or more categories
-
-![Files/STA130/2_barplot.png](/img/user/Files/STA130/2_barplot.png)
-
 - There is one **bar** for each **category**/value
 - The order of the bars is arbitrary
 - The height of the bar counts the *number of observations* for each category
