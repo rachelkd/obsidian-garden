@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Ethics Considerations.md","permalink":"/academia/sta-130/ethics-considerations/","created":"2024-01-16T20:59:15.727-05:00","updated":"2024-01-17T12:37:16.591-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Ethics Considerations.md","permalink":"/academia/sta-130/ethics-considerations/","created":"2024-01-16T20:59:15.727-05:00","updated":"2024-01-22T13:55:13.868-05:00"}
 ---
 
 **Preamble**
@@ -23,3 +23,32 @@ Date: 2024-01-16
 	- Make sure axis labels and values are legible
 - Audience consideration
 	- Plot type chose should be tailored to audience’s understanding
+
+## Accuracy and truthfulness
+### Example.
+![3_welfare.png](/img/user/Files/sta130/3_welfare.png)
+
+- y-axis scale is misleading
+	- does not start at 0
+- Other categories not included
+	- people without a full-time job or not on welfare
+- The story:
+	- If a person was on welfare, they would count the person *and their dependents* as on welfare
+	- Whereas, when they asked people if they have a full time job, they counted the one person
+	- <u>Inconsistent definition of categories</u>
+
+### Example.
+
+![3_globalwarming.png|center|600](/img/user/Files/sta130/3_globalwarming.png)
+
+![3_globalwarming2.png|center|500](/img/user/Files/sta130/3_globalwarming2.png)
+
+- First plot picks a subset of data that gives the trend they want
+
+## Accessibility
+
+![3_accessibility.png|center|400](/img/user/Files/sta130/3_accessibility.png)
+
+# Where does our data come from?
+
+[[100 📒 Academia/STA130/Where does data come from?\|Where does data come from?]]
