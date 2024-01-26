@@ -5,7 +5,7 @@
 **Preamble**
 Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|1]]
 Course: #MAT223
-Module: [[Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
+Module: [[100 📒 Academia/MAT223/Modules/Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
 
 ---
 # Adding vectors
