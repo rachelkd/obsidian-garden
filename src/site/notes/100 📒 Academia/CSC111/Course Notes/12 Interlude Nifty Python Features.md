@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/12 Interlude Nifty Python Features.md","permalink":"/academia/csc-111/course-notes/12-interlude-nifty-python-features/","created":"2024-01-09T00:28:54.997-05:00","updated":"2024-01-13T17:04:03.022-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/12 Interlude Nifty Python Features.md","permalink":"/academia/csc-111/course-notes/12-interlude-nifty-python-features/","created":"2024-01-09T00:28:54.997-05:00","updated":"2024-01-26T13:31:20.507-05:00"}
 ---
 
 #CSC111
