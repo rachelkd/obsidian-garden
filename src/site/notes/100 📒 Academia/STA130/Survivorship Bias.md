@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Survivorship Bias.md","permalink":"/academia/sta-130/survivorship-bias/","created":"2024-01-15T16:08:09.606-05:00","updated":"2024-01-17T12:39:07.376-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Survivorship Bias.md","permalink":"/academia/sta-130/survivorship-bias/","created":"2024-01-15T16:08:09.606-05:00","updated":"2024-01-18T17:45:07.582-05:00"}
 ---
 
 **Preamble**
 Week: [[100 📒 Academia/STA130/_STA130 Notes\|1]]
-Course: #MAT223
+Course: #STA130
 
 ---
 # An interesting problem the SRG worked on…
