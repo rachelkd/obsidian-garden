@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Files.md","permalink":"/academia/csc-111/course-notes/files/","created":"2024-01-11T16:27:46.051-05:00","updated":"2024-01-11T17:21:03.834-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Files.md","permalink":"/academia/csc-111/course-notes/files/","created":"2024-01-11T16:27:46.051-05:00","updated":"2024-01-26T13:32:23.489-05:00"}
 ---
 
 **Preamble**
@@ -39,23 +39,22 @@ Covered in: Lecture 1, [[100 📒 Academia/CSC111/Course Notes/12 Interlude Nift
 - What trailing character do these methods all leave at the end of each line?
 	- `'\n'`
 
-<br>
+### Reading a file `games.txt` using a for loop and while loop
 
-- Reading a file `games.txt` using a for loop and while loop
-	- 
-		```python
-		f = open('games.txt')
-		for line in f:
-			print(line.strip())
-		
-		# Or, using a while loop:
-		line = f.readline()
-		while line:
-			print(line.strip())
-			line = f.readline()
-		```
-		- Python remembers where it read up to
-		- Need to re-open file to reset file pointer to the beginning
+```python
+f = open('games.txt')
+for line in f:
+print(line.strip())
+
+# Or, using a while loop:
+line = f.readline()
+while line:
+print(line.strip())
+line = f.readline()
+```
+
+- Python remembers where it read up to
+- Need to re-open file to reset file pointer to the beginning
 
 - How to decide which method to use to read a file?
 	- for loop:
