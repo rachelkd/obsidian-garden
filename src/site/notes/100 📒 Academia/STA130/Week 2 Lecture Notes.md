@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Week 2 Lecture Notes.md","permalink":"/academia/sta-130/week-2-lecture-notes/","created":"2024-01-15T22:38:37.596-05:00","updated":"2024-01-17T12:38:19.942-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Week 2 Lecture Notes.md","permalink":"/academia/sta-130/week-2-lecture-notes/","created":"2024-01-15T22:38:37.596-05:00","updated":"2024-01-17T12:41:04.623-05:00"}
 ---
 
 **Preamble**
@@ -79,7 +79,7 @@ $ altitude_high_meters <dbl> 2200.0, 2200.0, 1800.0, 2200.0, 2200.0, NA, NA,…
 $ altitude_mean_meters <dbl> 2075.0, 2075.0, 1700.0, 2000.0, 2075.0, NA, NA,…
 ```
 
-### Calling `head(coffee_ratings)
+### Calling `head(coffee_ratings)`
 
 ```r
 > head(coffee_ratings)
