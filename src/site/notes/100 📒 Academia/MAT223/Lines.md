@@ -5,7 +5,7 @@
 **Preamble**
 Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|2]]
 Course: #MAT223
-Module: [[Module 2 - Sets of Vectors, Lines, and Planes\|Module 2 - Sets of Vectors, Lines, and Planes]]
+Module: [[100 📒 Academia/MAT223/Modules/Module 2 - Sets of Vectors, Lines, and Planes\|Module 2 - Sets of Vectors, Lines, and Planes]]
 
 ---
 
