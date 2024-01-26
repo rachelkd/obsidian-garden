@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists.md","permalink":"/academia/csc-111/course-notes/linked-lists/","created":"2024-01-12T18:32:55.469-05:00","updated":"2024-01-13T17:43:40.429-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists.md","permalink":"/academia/csc-111/course-notes/linked-lists/","created":"2024-01-12T18:32:55.469-05:00","updated":"2024-01-18T17:49:12.397-05:00"}
 ---
 
 **Preamble**
@@ -31,28 +31,29 @@ Covered in: [[100 📒 Academia/CSC111/Unit 1 - Linked Lists\|Unit 1 - Linked Li
 
 ---
 # Node Implementation
+
+```python
+from __future__ import annotations
+from dataclasses import dataclass
+from typing import Optional
+
+
+@dataclass
+class _Node:
+	"""A node in a linked list.
+
+	Instance Attributes:
+	  - item: The data stored in this node.
+	  - next: The next node in the list, if any.
+	"""
+	item: Any
+	next: Optional[_Node] = None  # By default, this node does not link to any other node
+```
+
 - **node**
 	- data type
 	- stores each element with a reference to the *next* element in the list
-- Node implementation:
-	- 
-		```python
-		from __future__ import annotations
-		from dataclasses import dataclass
-		from typing import Optional
-		
-		
-		@dataclass
-		class _Node:
-		    """A node in a linked list.
-		
-		    Instance Attributes:
-		      - item: The data stored in this node.
-		      - next: The next node in the list, if any.
-		    """
-		    item: Any
-		    next: Optional[_Node] = None  # By default, this node does not link to any other node
-		```
+
 - Why do we use a preceding underscore for the class name `_Node`
 	- indicate that the entire class is *private*
 	- should not be accessed by client code directly
@@ -71,6 +72,7 @@ Covered in: [[100 📒 Academia/CSC111/Unit 1 - Linked Lists\|Unit 1 - Linked Li
 	- e.g., `_Node.next` attribute has a type annotation that includes `_Node`
 
 # The `LinkedList` class
+
 - What does the `LinkedList` class represent?
 	- the list itself
 - A primitive `LinkedList` implementation:
