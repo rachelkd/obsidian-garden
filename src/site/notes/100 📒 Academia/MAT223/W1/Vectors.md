@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-01-28T14:42:39.351-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-01-28T14:53:41.063-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|1]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|1]]
 Course: #MAT223
 Module: [[100 📒 Academia/MAT223/Modules/Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
 
