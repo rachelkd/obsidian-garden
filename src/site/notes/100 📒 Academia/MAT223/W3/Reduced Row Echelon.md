@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Reduced Row Echelon.md","permalink":"/academia/mat-223/w3/reduced-row-echelon/","created":"2024-01-24T15:12:46.865-05:00","updated":"2024-01-26T16:55:54.640-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Reduced Row Echelon.md","permalink":"/academia/mat-223/w3/reduced-row-echelon/","created":"2024-01-24T15:12:46.865-05:00","updated":"2024-01-28T14:42:39.340-05:00"}
 ---
 
 **Preamble**
