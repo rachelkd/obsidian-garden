@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Proof by Induction.md","permalink":"/academia/csc-111/course-notes/proof-by-induction/","created":"2024-01-21T12:01:35.677-05:00","updated":"2024-01-21T12:20:59.404-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Proof by Induction.md","permalink":"/academia/csc-111/course-notes/proof-by-induction/","created":"2024-01-21T12:01:35.677-05:00","updated":"2024-01-27T19:11:54.936-05:00"}
 ---
 
 **Preamble**
 Week: [[100 📒 Academia/CSC111/_CSC111 Notes\|3]]
 Course: #CSC111
-Covered in: [[100 📒 Academia/CSC111/Unit 3 - Proof by Induction\|Unit 3 - Proof by Induction]]
+Covered in: [[100 📒 Academia/CSC111/Unit 2 - Proof by Induction\|Unit 2 - Proof by Induction]]
 Date: 2024-01-21
 
 ---
