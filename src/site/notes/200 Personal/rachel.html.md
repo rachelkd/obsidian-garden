@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2024-01-28T14:53:41.014-05:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2024-01-28T14:58:49.272-05:00"}
 ---
 
 # CSC111
@@ -8,7 +8,7 @@
 
 # MAT223
 **Course Notes**
-- [[100 📒 Academia/MAT223/_MAT223 Notesv2\|Course Notes]]
+- [[100 📒 Academia/MAT223/_MAT223 Notes\|Course Notes]]
 # CSC110
 **Course Notes**
 - [[300 University/2023 Fall/CSC110/Course Notes\|Course Notes]]
