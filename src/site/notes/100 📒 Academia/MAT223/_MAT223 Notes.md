@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/_MAT223 Notes.md","permalink":"/academia/mat-223/mat-223-notes/","created":"2024-01-15T16:09:15.791-05:00","updated":"2024-01-28T14:15:24.209-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/_MAT223 Notes.md","permalink":"/academia/mat-223/mat-223-notes/","created":"2024-01-15T16:09:15.791-05:00","updated":"2024-01-28T14:33:43.376-05:00"}
 ---
 
 **Professor**: Pam Sargent
