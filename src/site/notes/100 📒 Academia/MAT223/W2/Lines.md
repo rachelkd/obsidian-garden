@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-01-15T16:21:02.230-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-01-28T14:42:39.335-05:00"}
 ---
 
 **Preamble**
