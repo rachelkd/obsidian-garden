@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-01-28T14:42:39.358-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-01-28T14:53:41.073-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|3]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|3]]
 Course: #MAT223
 Date: 2024-01-24
 Module: 3
