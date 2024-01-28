@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vector Arithmetic.md","permalink":"/academia/mat-223/w1/vector-arithmetic/","created":"2024-01-10T14:02:50.338-05:00","updated":"2024-01-15T16:21:09.155-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vector Arithmetic.md","permalink":"/academia/mat-223/w1/vector-arithmetic/","created":"2024-01-10T14:02:50.338-05:00","updated":"2024-01-28T14:42:39.355-05:00"}
 ---
 
 **Preamble**
