@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Compute Linear Combinations of Vectors.md","permalink":"/academia/mat-223/w1/compute-linear-combinations-of-vectors/","created":"2024-01-11T00:48:11.047-05:00","updated":"2024-01-28T14:53:41.033-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Compute Linear Combinations of Vectors.md","permalink":"/academia/mat-223/w1/compute-linear-combinations-of-vectors/","created":"2024-01-11T00:48:11.047-05:00","updated":"2024-01-28T14:58:49.298-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|1]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|1]]
 Course: #MAT223
 Module: [[100 📒 Academia/MAT223/Modules/Module 1 - Sets, Vectors, and Notation\|Module 1 - Sets, Vectors, and Notation]]
 
