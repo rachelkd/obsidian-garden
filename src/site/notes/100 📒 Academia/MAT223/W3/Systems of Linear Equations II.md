@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-01-28T02:46:35.140-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-01-28T14:42:39.359-05:00"}
 ---
 
 **Preamble**
