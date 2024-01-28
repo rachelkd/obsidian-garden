@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/orthogonality/","created":"2024-01-28T13:41:31.016-05:00","updated":"2024-01-28T14:42:39.363-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/orthogonality/","created":"2024-01-28T13:41:31.016-05:00","updated":"2024-01-28T14:53:41.088-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|4]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|4]]
 Course: #MAT223
 Date: 2024-01-28
 Module: 4
