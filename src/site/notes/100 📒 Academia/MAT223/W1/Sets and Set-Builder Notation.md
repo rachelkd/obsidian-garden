@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Sets and Set-Builder Notation.md","permalink":"/academia/mat-223/w1/sets-and-set-builder-notation/","created":"2024-01-10T00:48:24.433-05:00","updated":"2024-01-15T16:21:05.958-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Sets and Set-Builder Notation.md","permalink":"/academia/mat-223/w1/sets-and-set-builder-notation/","created":"2024-01-10T00:48:24.433-05:00","updated":"2024-01-28T14:42:39.346-05:00"}
 ---
 
 **Preamble**
