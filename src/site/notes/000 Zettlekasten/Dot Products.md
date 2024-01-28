@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T14:53:41.027-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T14:58:49.293-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|4]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|4]]
 Course: #MAT223
 Date: 2024-01-28
 Module: 4
