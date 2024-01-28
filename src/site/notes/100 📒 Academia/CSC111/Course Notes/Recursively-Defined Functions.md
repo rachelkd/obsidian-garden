@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-01-21T12:52:20.157-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-01-27T19:11:54.944-05:00"}
 ---
 
 **Preamble**
 Week: [[100 📒 Academia/CSC111/_CSC111 Notes\|3]]
 Course: #CSC111
-Covered in: [[100 📒 Academia/CSC111/Unit 3 - Proof by Induction\|Unit 3 - Proof by Induction]]
+Covered in: [[100 📒 Academia/CSC111/Unit 2 - Proof by Induction\|Unit 2 - Proof by Induction]]
 Date: 2024-01-21
 
 ---
@@ -75,7 +75,7 @@ Let `f` be a Python function. We say that `f` is a **recursively-defined functio
 			- Then `4950 + 100 == 5050` is returned.
 		- Partial indicates that we do not trace into any recursive calls, but *assume* that thtey work correctly
 
-# The Euclidean Algorithm revisted
+# The Euclidean Algorithm, revisited
 
 Recall [[300 University/2023 Fall/CSC110/01 Course Notes/7 Number Theory/7.3 Proofs and Algorithms III Computing the Greatest Common Divisor\|Section 7.3]]: the Euclidean algorithm for calculating the GCD of two numbers.
 - Relied on the mathematical fact that $\forall a, b \in \mathbb{Z}, b \neq 0, \text{ gcd}(a, b) = \text{gcd}(b, a \; \% \; b)$.
