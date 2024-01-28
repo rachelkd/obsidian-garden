@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-01-24T15:12:37.880-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-01-28T14:42:39.358-05:00"}
 ---
 
 **Preamble**
