@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-01-28T14:42:39.359-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-01-28T14:53:41.081-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|3]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|3]]
 Course: #MAT223
 Date: 2024-01-26
 Module: A2
