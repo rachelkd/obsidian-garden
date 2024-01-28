@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-01-15T16:21:12.374-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-01-28T14:42:39.351-05:00"}
 ---
 
 **Preamble**
