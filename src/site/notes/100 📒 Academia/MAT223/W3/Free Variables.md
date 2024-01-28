@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Free Variables.md","permalink":"/academia/mat-223/w3/free-variables/","created":"2024-01-26T16:59:01.291-05:00","updated":"2024-01-26T18:14:08.609-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Free Variables.md","permalink":"/academia/mat-223/w3/free-variables/","created":"2024-01-26T16:59:01.291-05:00","updated":"2024-01-28T14:42:39.343-05:00"}
 ---
 
 **Preamble**
