@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-01-28T14:42:39.335-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-01-28T14:53:41.034-05:00"}
 ---
 
 **Preamble**
-Week: [[100 📒 Academia/MAT223/_MAT223 Notes\|2]]
+Week: [[100 📒 Academia/MAT223/_MAT223 Notesv2\|2]]
 Course: #MAT223
 Module: [[100 📒 Academia/MAT223/Modules/Module 2 - Sets of Vectors, Lines, and Planes\|Module 2 - Sets of Vectors, Lines, and Planes]]
 
