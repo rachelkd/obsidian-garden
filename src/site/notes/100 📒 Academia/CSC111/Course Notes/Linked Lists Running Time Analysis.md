@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists Running Time Analysis.md","permalink":"/academia/csc-111/course-notes/linked-lists-running-time-analysis/","created":"2024-01-21T00:43:26.095-05:00","updated":"2024-01-21T11:58:59.698-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists Running Time Analysis.md","permalink":"/academia/csc-111/course-notes/linked-lists-running-time-analysis/","created":"2024-01-21T00:43:26.095-05:00","updated":"2024-01-27T14:39:25.010-05:00"}
 ---
 
 **Preamble**
@@ -9,6 +9,13 @@ Covered in: [[100 📒 Academia/CSC111/Unit 1 - Linked Lists\|Unit 1 - Linked Li
 Date: 2024-01-18
 
 ---
+# Efficiency
+
+Recall that:
+- Python `list`s are array-based.
+	- Each list stores the ids of its elements in a contiguous block of memory
+	- → Every insertion and deletion causes every element after the changed index to move
+
 # Running time analysis of `LinkedList.insert`
 
 ```python
@@ -70,3 +77,14 @@ class LinkedList:
 - For list indexing, linked lists have a worse performance:
 	- Running time is proportional to the index being accessed, rather than being constant time
 - For insertion and deletion, linked lists have the exact opposite running times as array-based lists.
+
+# Lecture 5 – Recap
+
+### Linked Lists Efficiency
+
+- Remove an element from the beginning → much faster
+- Insert an element near the beginning → no need to shift subsequent elements
+- Making changes to the beginning of a linked list:
+	- just adjust a couple of references
+	- no moving memory
+- Cannot index in constant time, though
