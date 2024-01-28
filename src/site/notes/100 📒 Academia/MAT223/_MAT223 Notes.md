@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/_MAT223 Notes.md","permalink":"/academia/mat-223/mat-223-notes/","created":"2024-01-15T16:09:15.791-05:00","updated":"2024-01-28T14:42:41.025-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/_MAT223 Notes.md","permalink":"/academia/mat-223/mat-223-notes/","created":"2024-01-15T16:09:15.791-05:00","updated":"2024-01-28T14:45:42.546-05:00"}
 ---
 
 **Professor**: Pam Sargent
@@ -15,7 +15,6 @@
 - Week 2
 	- [[100 📒 Academia/MAT223/W2/Lines\|Lines]]
 - Week 3
-	- [[Class 5 Spans and Linear Independence\|Class 5 Spans and Linear Independence]]
 	- [[100 📒 Academia/MAT223/W3/Spans\|Spans]]
 	- [[100 📒 Academia/MAT223/W3/Reduced Row Echelon\|Reduced Row Echelon]]
 	- [[100 📒 Academia/MAT223/W3/Systems of Linear Equations II\|Systems of Linear Equations II]]
