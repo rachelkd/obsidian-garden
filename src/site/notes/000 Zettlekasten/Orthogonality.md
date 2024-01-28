@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/orthogonality/","created":"2024-01-28T13:41:31.016-05:00","updated":"2024-01-28T14:13:57.217-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/orthogonality/","created":"2024-01-28T13:41:31.016-05:00","updated":"2024-01-28T14:42:39.363-05:00"}
 ---
 
 **Preamble**
