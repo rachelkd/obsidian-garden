@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T14:18:25.644-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T14:42:39.329-05:00"}
 ---
 
 **Preamble**
