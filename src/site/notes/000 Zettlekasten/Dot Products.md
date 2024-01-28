@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T14:58:49.293-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/dot-products/","created":"2024-01-28T02:43:31.751-05:00","updated":"2024-01-28T15:02:49.130-05:00"}
 ---
 
 **Preamble**
@@ -14,7 +14,8 @@ Module: 4
 	- Let $\vec{a}$ and $\vec{b}$ be vectors rooted at the same point.
 	- Let $\theta$ denote the *smaller* of the two angles between them
 		- i.e., $0 \leq \theta \leq \pi$
-	- The dot product of $\vec{a}$ and $\vec{b}$ is defined to be $$\vec{a} \cdot \vec{b} = ||\vec{a}|| \;  ||\vec{b}|| \cos \theta$$
+	- The dot product of $\vec{a}$ and $\vec{b}$ is defined to be:
+		- $$\vec{a} \cdot \vec{b} = ||\vec{a}|| \;  ||\vec{b}|| \cos \theta$$
 	- ![4_geometric_dot_product.png|300](/img/user/Files/mat223/4_geometric_dot_product.png)
 - The dot product is sometimes called the *scalar product* because the result is a *scalar*
 - **Algebraic definition of the dot product** #definition 
@@ -29,7 +30,8 @@ Find the angle between the vectors $\vec{v} = (1,2,3)$ and $\vec{w} = (1,1,-2)$.
 - From the geometric definition, we know
 	- $$\vec{v} \cdot \vec{w} = || \vec{v} || \; || \vec{w} || \cos \theta = \sqrt{14} \sqrt{6} \cos \theta = 2 \sqrt{21} \cos \theta$$
 - Equating the two definitions of $\vec{v} \cdot \vec{w}$, we see
-	- $$\cos \theta = \frac{-3}{2 \sqrt{21}}$$ $$\theta = \arccos \big( \frac{-3}{2\sqrt{21}} \big)$$
+	- $$\cos \theta = \frac{-3}{2 \sqrt{21}}$$
+	- $$\theta = \arccos \big( \frac{-3}{2\sqrt{21}} \big)$$
 
 
 # Properties of Dot Products
