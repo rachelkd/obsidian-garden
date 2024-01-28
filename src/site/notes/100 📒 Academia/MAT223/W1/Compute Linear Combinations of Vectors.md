@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Compute Linear Combinations of Vectors.md","permalink":"/academia/mat-223/w1/compute-linear-combinations-of-vectors/","created":"2024-01-11T00:48:11.047-05:00","updated":"2024-01-15T16:20:58.351-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Compute Linear Combinations of Vectors.md","permalink":"/academia/mat-223/w1/compute-linear-combinations-of-vectors/","created":"2024-01-11T00:48:11.047-05:00","updated":"2024-01-28T14:42:39.334-05:00"}
 ---
 
 **Preamble**
