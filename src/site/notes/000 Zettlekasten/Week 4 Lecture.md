@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/week-4-lecture/","created":"2024-01-29T13:20:59.753-05:00","updated":"2024-01-30T17:21:33.274-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/week-4-lecture/","created":"2024-01-29T13:20:59.753-05:00","updated":"2024-01-31T01:25:03.395-05:00"}
 ---
 
 **Preamble**
@@ -22,7 +22,8 @@ See [[000 Zettlekasten/Populations, Samples, and Hypotheses\|Populations, Sample
 
 ## Forming Hypothesis: WoD example
 
-- Which one makes more sense to test if the WoD is fair? $$\begin{align*} H_{0}: f = 0.5 && H_{1} : f > 0.5 \tag 1 \\ H_{0} : f = 0.5 && H_{1} : f \neq 0.5 \tag 2 \end{align*}$$
+- Which one makes more sense to test if the WoD is fair?
+- $$\begin{align*} H_{0}: f = 0.5 && H_{1} : f > 0.5 \tag 1 \\ H_{0} : f = 0.5 && H_{1} : f \neq 0.5 \tag 2 \end{align*}$$
 	- The second
 	- Recall that f-hats are observed values ([[000 Zettlekasten/Populations, Samples, and Hypotheses#Forming Hypotheses\|from here]]):
 		- Does not make sense to test hypotheses around them; we know what the values are — we just calculated them
