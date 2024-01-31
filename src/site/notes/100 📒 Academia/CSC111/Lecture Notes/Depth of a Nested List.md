@@ -75,4 +75,4 @@ def depth(nested_list: Union[int, list]) -> int:
 Let $x$ be a nested list and $n$ be an integer contained in $x$.
 The **depth of $n$ in $x$** is the number of nested lists enclosing $n$.
 
-![3_depth_of_object_in_list.png](/img/user/Files/csc111/3_depth_of_object_in_list.png)
+![3_depth_of_object_in_list.png](/img/user/Files/CSC111/3_depth_of_object_in_list.png)
