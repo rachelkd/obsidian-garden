@@ -98,4 +98,4 @@ coffee_ratings %>% ggplot(aes(x = total_cup_points)) +
 	facet_wrap(~species)
 ```
 
-![2_comparing_histograms.png](/img/user/Files/sta130/2_comparing_histograms.png)
+![2_comparing_histograms.png](/img/user/Files/STA130/2_comparing_histograms.png)
