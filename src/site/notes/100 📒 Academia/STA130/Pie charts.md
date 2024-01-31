@@ -9,7 +9,7 @@ Date: 2024-01-16
 
 ---
 
-![2_pie_chart.png](/img/user/Files/sta130/2_pie_chart.png)
+![2_pie_chart.png](/img/user/Files/STA130/2_pie_chart.png)
 
 - Frequency of each category is represented as a slice of a circle
 - Disadvantages of a **pie chart**:
