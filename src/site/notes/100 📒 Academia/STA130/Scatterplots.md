@@ -9,7 +9,7 @@ Date: 2024-01-16
 
 ---
 
-![2_scatterplot.png](/img/user/Files/sta130/2_scatterplot.png)
+![2_scatterplot.png](/img/user/Files/STA130/2_scatterplot.png)
 
 - What does the **position** determine on a **scatterplot**?
 	- Determined by the values of two numerical variables
@@ -50,7 +50,7 @@ heights %>% ggplot(aes(x=shoePrint, y=height, color=sex)) +
 		 y = "Height (in cm)")
 ```
 
-![2_scatterplot_comp_colour.png](/img/user/Files/sta130/2_scatterplot_comp_colour.png)
+![2_scatterplot_comp_colour.png](/img/user/Files/STA130/2_scatterplot_comp_colour.png)
 
 - Adding `color = sex` colours each point in the scatterplot based on the value of this variable
 
@@ -62,7 +62,7 @@ heights %>% ggplot(aes(x=shoePrint, y=height)) +
 	facet_wrap(~sex)
 ```
 
-![2_scatterplot_comp_facetwrap.png](/img/user/Files/sta130/2_scatterplot_comp_facetwrap.png)
+![2_scatterplot_comp_facetwrap.png](/img/user/Files/STA130/2_scatterplot_comp_facetwrap.png)
 
 ## Which one is better? `color` vs. `facet_wrap`
 
