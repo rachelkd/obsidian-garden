@@ -26,7 +26,7 @@ Date: 2024-01-16
 
 ## Accuracy and truthfulness
 ### Example.
-![3_welfare.png](/img/user/Files/sta130/3_welfare.png)
+![3_welfare.png](/img/user/Files/STA130/3_welfare.png)
 
 - y-axis scale is misleading
 	- does not start at 0
@@ -39,15 +39,15 @@ Date: 2024-01-16
 
 ### Example.
 
-![3_globalwarming.png|center|600](/img/user/Files/sta130/3_globalwarming.png)
+![3_globalwarming.png|center|600](/img/user/Files/STA130/3_globalwarming.png)
 
-![3_globalwarming2.png|center|500](/img/user/Files/sta130/3_globalwarming2.png)
+![3_globalwarming2.png|center|500](/img/user/Files/STA130/3_globalwarming2.png)
 
 - First plot picks a subset of data that gives the trend they want
 
 ## Accessibility
 
-![3_accessibility.png|center|400](/img/user/Files/sta130/3_accessibility.png)
+![3_accessibility.png|center|400](/img/user/Files/STA130/3_accessibility.png)
 
 # Where does our data come from?
 
