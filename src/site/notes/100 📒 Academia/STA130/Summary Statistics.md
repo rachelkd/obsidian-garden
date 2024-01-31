@@ -103,7 +103,7 @@ survey %>%
 
 ## `summarise()` functions
 
-![3_summarise_functions.png](/img/user/Files/sta130/3_summarise_functions.png)
+![3_summarise_functions.png](/img/user/Files/STA130/3_summarise_functions.png)
 
 # More complex summary tables using `group_by()` and `summarise()`
 
