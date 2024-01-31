@@ -12,7 +12,7 @@ Date: 2024-01-22
 - What do logical operators return?
 	- Returns (a vector of) TRUE/FALSE values from logical statement
 
-![3_logical_operators.png|400](/img/user/Files/sta130/3_logical_operators.png)
+![3_logical_operators.png|400](/img/user/Files/STA130/3_logical_operators.png)
 
 ## Combining logical statements
 
