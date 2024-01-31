@@ -19,7 +19,7 @@ Date:
 	- indicates that this is not a continuous axis
 	- These are different values that can be in any order
 
-![2_horizontal_barplot.png](/img/user/Files/sta130/2_horizontal_barplot.png)
+![2_horizontal_barplot.png](/img/user/Files/STA130/2_horizontal_barplot.png)
 <div class="caption" style="color: grey"><i>Flip the axes to show category names.</i></div>
 
 # Describing the distribution of a categorical variable
@@ -48,7 +48,7 @@ ggplot(data = coffee_ratings, aes(x = processing_method)) +
 # Looking at the association between two categorical variables
 
 ### Stacked barplot
-![2_stacked_barplot.png](/img/user/Files/sta130/2_stacked_barplot.png)
+![2_stacked_barplot.png](/img/user/Files/STA130/2_stacked_barplot.png)
 
 ### Barplot with two variables
-![2_barplot_two_var.png](/img/user/Files/sta130/2_barplot_two_var.png)
+![2_barplot_two_var.png](/img/user/Files/STA130/2_barplot_two_var.png)
