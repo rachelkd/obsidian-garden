@@ -50,7 +50,7 @@ ggplot(data = coffee_ratings, aes(x = species, y = total_cup_points)) +
 ```
 <div class="caption" style="color: grey"><i>species is a categorical variable. total_cup_points is a numerical variable.</i></div>
 
-![2_comparing_boxplots.png](/img/user/Files/sta130/2_comparing_boxplots.png)
+![2_comparing_boxplots.png](/img/user/Files/STA130/2_comparing_boxplots.png)
 
 > [!note]
 > This is useful to compare the distribution among categorical variables
