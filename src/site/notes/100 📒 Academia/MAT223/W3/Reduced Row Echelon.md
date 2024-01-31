@@ -25,7 +25,7 @@ Module: Appendix 3
 	- The leading ones are arranged in an *echelon* (staircase pattern)
 		- Every leading one is to the right of the leading one above it
 		- All leading ones are as far up in the matrix as possible
-	- ![3_rref.png|400](/img/user/Files/mat223/3_rref.png)
+	- ![3_rref.png|400](/img/user/Files/MAT223/3_rref.png)
 
 ### Example. Matrix in RREF
 
