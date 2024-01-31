@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-01-27T23:12:22.226-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-01-28T20:58:56.199-05:00"}
 ---
 
 #CSC111 
@@ -31,6 +31,11 @@
 - L5 [[100 📒 Academia/CSC111/Lecture Notes/Introduction to Recursion\|Introduction to Recursion]]
 - L5 [[100 📒 Academia/CSC111/Lecture Notes/Depth of a Nested List\|Depth of a Nested List]]
 - L6 [[100 📒 Academia/CSC111/Lecture Notes/Recursion Efficiency\|Recursion Efficiency]]
+- 14.5 [[100 📒 Academia/CSC111/Course Notes/Recursive Lists\|Recursive Lists]]
+
+# 15. Trees
+- 15.1 [[100 📒 Academia/CSC111/Course Notes/Introduction to Trees\|Introduction to Trees]]
+- 15.2 [[100 📒 Academia/CSC111/Course Notes/Recursion on Trees\|Recursion on Trees]]
 
 
 
