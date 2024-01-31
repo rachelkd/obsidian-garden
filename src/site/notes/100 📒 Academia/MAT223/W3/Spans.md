@@ -14,7 +14,7 @@ Let $\vec{u} \begin{bmatrix} 1 \\ 1 \end{bmatrix}$ and $\vec{v} = \begin{bmatrix
 
 Can the vectors $\vec{w} = \begin{bmatrix} 2 \\ 5 \end{bmatrix}$ be obtained as a linear combination of $\vec{u}$ and $\vec{v}$?
 
-![3_spans.png|400](/img/user/Files/mat223/3_spans.png)
+![3_spans.png|400](/img/user/Files/MAT223/3_spans.png)
 
 *Graphically, the answer appears to be yes.*
 
