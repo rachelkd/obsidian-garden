@@ -25,7 +25,7 @@ Date: 2024-01-22
 ### Example. Job applicants.
 Suppose you are a hiring manager and want to share information about job applicants with the hiring committee.
 
-![3_data.png](/img/user/Files/sta130/3_data.png)
+![3_data.png](/img/user/Files/STA130/3_data.png)
 
 - What should we do with this dataset before sharing it?
 	- Mei’s age is not realistic → replace w/ **N/A** (special value)
