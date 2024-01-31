@@ -37,7 +37,7 @@ Date: 2024-01-16
 
 ## Histograms vs. boxplots
 
-![2_histogram_vs_boxplot.png](/img/user/Files/sta130/2_histogram_vs_boxplot.png)
+![2_histogram_vs_boxplot.png](/img/user/Files/STA130/2_histogram_vs_boxplot.png)
 
 | Histograms | Boxplots |
 | ---- | ---- |
