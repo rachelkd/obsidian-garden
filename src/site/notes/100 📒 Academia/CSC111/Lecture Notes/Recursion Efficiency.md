@@ -29,7 +29,7 @@ def fib(n: int) -> int:
 Unnecessary repeated calculations $\implies$ inefficient!
 #### Expanding the recursion: fib(n) = fib(n - 1) + fib(n - 2)
 
-![3_redundancy.png](/img/user/Files/csc111/3_redundancy.png)
+![3_redundancy.png](/img/user/Files/CSC111/3_redundancy.png)
 *How could we avoid calculating items we already calculated?*
 #### Solution: memorize
 Keep track of already calculated values
