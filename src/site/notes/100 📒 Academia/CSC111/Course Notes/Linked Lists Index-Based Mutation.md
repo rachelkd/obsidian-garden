@@ -16,7 +16,7 @@ Date: 2024-01-18
 
 - simply adjust the `_first` reference
 
-![2_prepend.png|center|300](/img/user/Files/csc111/2_prepend.png)
+![2_prepend.png|center|300](/img/user/Files/CSC111/2_prepend.png)
 - Catch:
 	- When you create a new node, `next` will refer to `None`
 	- If you assign `_first` to the new node, make sure to *keep the old `first`* in a temp variable or use parallel assignment statements
@@ -27,9 +27,9 @@ See [[100 📒 Academia/CSC111/Course Notes/Linked Lists Mutation\|Linked Lists 
 - When might we change `_first`?
 	- appending to an empty `LinkedList`
 
-![2_append_empty.png|center|300](/img/user/Files/csc111/2_append_empty.png)
+![2_append_empty.png|center|300](/img/user/Files/CSC111/2_append_empty.png)
 - Append to many item list
-	- ![2_append_many.png|center|400](/img/user/Files/csc111/2_append_many.png)
+	- ![2_append_many.png|center|400](/img/user/Files/CSC111/2_append_many.png)
 ### insertion at an index
 
 # Implementing `LinkedList.insert`
