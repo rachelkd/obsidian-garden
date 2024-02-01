@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-01-31T01:23:42.824-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-01T14:34:30.854-05:00"}
 ---
 
 
@@ -36,12 +36,12 @@
 		- `mutate()`
 		- `case_when()`
 - Week 4
-	- [[000 Zettlekasten/Midterm Info\|Midterm Info]]
-	- [[000 Zettlekasten/Week 4 Lecture\|Week 4 Lecture]]
-		- [[000 Zettlekasten/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]]
-		- [[000 Zettlekasten/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]]
-			- [[000 Zettlekasten/Variable Types in R\|Variable Types in R]]
-			- [[000 Zettlekasten/R Vectors\|R Vectors]]
-			- [[000 Zettlekasten/Coercion\|Coercion]]
-			- [[000 Zettlekasten/Randomness in Programming\|Randomness in Programming]]
-		- [[000 Zettlekasten/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]]
+	- [[100 📒 Academia/STA130/Midterm Info\|Midterm Info]]
+	- [[100 📒 Academia/STA130/Week 4 Lecture\|Week 4 Lecture]]
+		- [[100 📒 Academia/STA130/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]]
+		- [[100 📒 Academia/STA130/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]]
+			- [[100 📒 Academia/STA130/Variable Types in R\|Variable Types in R]]
+			- [[100 📒 Academia/STA130/R Vectors\|R Vectors]]
+			- [[100 📒 Academia/STA130/Coercion\|Coercion]]
+			- [[100 📒 Academia/STA130/Randomness in Programming\|Randomness in Programming]]
+		- [[100 📒 Academia/STA130/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]]
