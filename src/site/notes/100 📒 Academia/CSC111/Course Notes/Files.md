@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Files.md","permalink":"/academia/csc-111/course-notes/files/","created":"2024-01-11T16:27:46.051-05:00","updated":"2024-01-26T13:32:23.489-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Files.md","permalink":"/academia/csc-111/course-notes/files/","created":"2024-01-11T16:27:46.051-05:00","updated":"2024-01-31T20:18:59.384-05:00"}
 ---
 
 **Preamble**
@@ -44,13 +44,13 @@ Covered in: Lecture 1, [[100 📒 Academia/CSC111/Course Notes/12 Interlude Nift
 ```python
 f = open('games.txt')
 for line in f:
-print(line.strip())
+	print(line.strip())
 
 # Or, using a while loop:
 line = f.readline()
 while line:
-print(line.strip())
-line = f.readline()
+	print(line.strip())
+	line = f.readline()
 ```
 
 - Python remembers where it read up to
