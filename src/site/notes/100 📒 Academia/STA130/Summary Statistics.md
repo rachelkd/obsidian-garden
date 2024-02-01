@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Summary Statistics.md","permalink":"/academia/sta-130/summary-statistics/","created":"2024-01-23T19:02:38.754-05:00","updated":"2024-01-23T20:51:46.815-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Summary Statistics.md","permalink":"/academia/sta-130/summary-statistics/","created":"2024-01-23T19:02:38.754-05:00","updated":"2024-02-01T02:53:19.000-05:00"}
 ---
 
 **Preamble**
@@ -37,7 +37,7 @@ Suppose the following are the current salaries for five students who graduated w
 4. $100,000
 5. $800,000
 
-- Is the **mean** or **median** of these salries a better indication of the center of the distribution of salaries?
+- Is the **mean** or **median** of these salaries a better indication of the center of the distribution of salaries?
 	- median → extremely large values (800k) really distorts the mean
 
 # Measuring the **spread** of a numerical distribution
