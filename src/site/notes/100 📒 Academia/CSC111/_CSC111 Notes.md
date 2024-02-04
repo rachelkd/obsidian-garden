@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-01-28T20:58:56.199-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-04T13:26:06.278-05:00"}
 ---
 
 #CSC111 
@@ -36,6 +36,10 @@
 # 15. Trees
 - 15.1 [[100 📒 Academia/CSC111/Course Notes/Introduction to Trees\|Introduction to Trees]]
 - 15.2 [[100 📒 Academia/CSC111/Course Notes/Recursion on Trees\|Recursion on Trees]]
+- L7 [[000 Zettlekasten/Lecture 7 - Trees\|Lecture 7 - Trees]]
+- L7 [[000 Zettlekasten/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
+	- [[000 Zettlekasten/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
+- L8 [[000 Zettlekasten/Tree Efficiency\|Tree Efficiency]]
 
 
 
