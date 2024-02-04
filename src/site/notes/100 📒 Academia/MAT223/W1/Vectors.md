@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-01-28T14:58:49.319-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vectors.md","permalink":"/academia/mat-223/w1/vectors/","created":"2024-01-10T01:21:23.481-05:00","updated":"2024-02-03T18:43:42.652-05:00"}
 ---
 
 **Preamble**
@@ -16,7 +16,7 @@ Module: [[100 📒 Academia/MAT223/Modules/Module 1 - Sets, Vectors, and Notatio
 	- may be thought of as a *displacement* with a *direction* and *magnitude*
 - Example of a vector:
 	- Given points $P = (1, 1)$ and $Q = (3, 2)$, we specify the displacement from $P$ to $Q$ as a vector $\overrightarrow{PQ}$ whose magnitude $\sqrt{5}$ (as given by the Pythagorean theorem) and whose direction is specified by a directed line segment from $P$ to $Q$
-	  ![vector.png|400](/img/user/Files/MAT223/vector.png)
+	  ![1_vector.png|400](/img/user/Files/MAT223/1_vector.png)
 # Vector Notation
 - How to represent a vector for two points $P$ and $Q$
 	- $\overrightarrow{PQ}$
@@ -26,7 +26,7 @@ Module: [[100 📒 Academia/MAT223/Modules/Module 1 - Sets, Vectors, and Notatio
 	- *norm* or *length* of $\vec{a}$
 - A vector models a *displacement* and has no true sense of “origin”:
 	- Consider the following: for the points $A = (1,1)$, $B = (3,2)$, $X = (1,0)$, and $Y = (3,1)$, define the vectors $\vec{a} = \overrightarrow{AB}$ and $\vec{x} = \overrightarrow{XY}$
-	  ![vector_has_no_origin.png|400](/img/user/Files/MAT223/vector_has_no_origin.png)
+	  ![1_vector_has_no_origin.png|400](/img/user/Files/MAT223/1_vector_has_no_origin.png)
 	- Are these the same or different vectors?
 		- $\vec{a} = \vec{x}$ despite the fact that $A \neq X$
 		- have same magnitude and direction
