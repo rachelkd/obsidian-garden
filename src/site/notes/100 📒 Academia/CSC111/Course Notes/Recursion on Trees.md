@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursion on Trees.md","permalink":"/academia/csc-111/course-notes/recursion-on-trees/","created":"2024-01-28T20:58:57.496-05:00","updated":"2024-01-28T21:07:25.521-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursion on Trees.md","permalink":"/academia/csc-111/course-notes/recursion-on-trees/","created":"2024-01-28T20:58:57.496-05:00","updated":"2024-02-03T23:01:40.554-05:00"}
 ---
 
 **Preamble**
@@ -64,6 +64,8 @@ class Tree:
                 ... subtree.method() ...
             ...
 ```
+{ #807d88}
+
 
 ## Template with size one case
 
@@ -80,4 +82,6 @@ class Tree:
                 ... subtree.method() ...
             ...
 ```
+{ #390467}
+
 
