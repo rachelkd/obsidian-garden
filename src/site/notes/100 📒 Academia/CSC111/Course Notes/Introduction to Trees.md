@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Introduction to Trees.md","permalink":"/academia/csc-111/course-notes/introduction-to-trees/","created":"2024-01-28T20:43:58.339-05:00","updated":"2024-01-28T20:58:32.732-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Introduction to Trees.md","permalink":"/academia/csc-111/course-notes/introduction-to-trees/","created":"2024-01-28T20:43:58.339-05:00","updated":"2024-02-04T12:45:20.891-05:00"}
 ---
 
 **Preamble**
@@ -19,8 +19,8 @@ Date: 2024-01-28
 	- has a **root value** connected to any number of other trees, called **subtrees** of the tree
 	- Note: subtrees are allowed to be empty in this definition
 
-- Root is drawn at the top of the tree
-- Rest of the tree consists of subtrees that are attached to the root
+	- Root is drawn at the top of the tree
+	- Rest of the tree consists of subtrees that are attached to the root
 - Note: Tree can contain a root value but not have any subtrees
 	- i.e., tree that contains just a single item
 
@@ -34,6 +34,8 @@ Date: 2024-01-28
 	- number of values in the tree
 		- e.g., 10
 - **leaf**
+{ #6275d3}
+
 	- value with no subtrees
 		- e.g., E, F, G, J, I
 - **internal value**
