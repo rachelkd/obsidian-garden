@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vector Arithmetic.md","permalink":"/academia/mat-223/w1/vector-arithmetic/","created":"2024-01-10T14:02:50.338-05:00","updated":"2024-01-28T14:58:49.323-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W1/Vector Arithmetic.md","permalink":"/academia/mat-223/w1/vector-arithmetic/","created":"2024-01-10T14:02:50.338-05:00","updated":"2024-02-03T18:43:38.329-05:00"}
 ---
 
 **Preamble**
@@ -22,7 +22,7 @@ Vectors provide a natural way to give directions.
 	- the sum represents the displacement vector created by:
 		1. first displacing along $\vec{u}$
 		2. then displacing along $\vec{v}$
-	- ![vector_addition.png|300](/img/user/Files/MAT223/vector_addition.png)
+	- ![1_vector_addition.png|300](/img/user/Files/MAT223/1_vector_addition.png)
 - What is $\vec{v} + (-\vec{v})$?
 	- displacement with zero magnitude: $\vec{0}$
 - What is the **zero vector**?
@@ -49,7 +49,7 @@ Vectors provide a natural way to give directions.
 	- vector of the same length as $\vec{v}$
 	- but pointing in the exact opposite direction
 - Visual representation of scalar multiplication:
-	- ![scalar_multiplication.png|400](/img/user/Files/MAT223/scalar_multiplication.png)
+	- ![1_scalar_multiplication.png|400](/img/user/Files/MAT223/1_scalar_multiplication.png)
 
 > [!note]
 > **Takeaway.** You add vectors tip to tail and scale vectors by changing their length.
