@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-01-28T14:58:49.304-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W2/Lines.md","permalink":"/academia/mat-223/w2/lines/","created":"2024-01-14T18:02:05.509-05:00","updated":"2024-02-03T17:36:19.043-05:00"}
 ---
 
 **Preamble**
@@ -37,6 +37,8 @@ Consider the line $l$ through the points $P$ and $Q$. Let $\vec{d} = \overrighta
 > $$\vec{x} = t\vec{d} + \vec{p}$$
 > is $l$ expressed in **vector form**.
 > - The vector $\vec{d}$ is called a **direction vector** for $l$.
+
+#definition 
 
 - Using coordinates when writing a line in vector form:
 	- $$\begin{bmatrix} x \\  y \end{bmatrix} = t \begin{bmatrix} d_{1} \\ d_{2}  \end{bmatrix} + \begin{bmatrix} p_{1} \\ p_2 \end{bmatrix}$$
