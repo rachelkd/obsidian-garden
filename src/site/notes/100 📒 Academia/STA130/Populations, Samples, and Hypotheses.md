@@ -32,7 +32,7 @@ In statistics,
 
 - All of statistics is based on the fundamental assumption that the sample you are working with is representative of the population
 
-![4_populations_inference.png|center|400](/img/user/Files/sta130/4_populations_inference.png)
+![4_populations_inference.png|center|400](/img/user/Files/STA130/4_populations_inference.png)
 
 # Sample and Test Statistics
 
