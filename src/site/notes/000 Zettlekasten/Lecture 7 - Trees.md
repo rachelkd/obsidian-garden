@@ -17,13 +17,13 @@ Date: 2024-02-03
 <br>
 
 - Empty tree:
-	- ![4_empty_tree.png|400](/img/user/Files/csc111/4_empty_tree.png)
+	- ![4_empty_tree.png|400](/img/user/Files/CSC111/4_empty_tree.png)
 	- `None` cannot be a value of our `Tree`
 	- Root value can only be `None` if `subtrees` is `None`
 - Single value:
 	- ![4_single_value_tree.png|400](/img/user/Files/CSC111/4_single_value_tree.png)
 - Multiple values:
-	- ![4_multiple_value_tree.png|400](/img/user/Files/csc111/4_multiple_value_tree.png)
+	- ![4_multiple_value_tree.png|400](/img/user/Files/CSC111/4_multiple_value_tree.png)
 
 <br>
 - When can `_root` be `None`?
