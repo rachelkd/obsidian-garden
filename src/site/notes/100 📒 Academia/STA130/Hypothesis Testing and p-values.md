@@ -12,7 +12,7 @@ Date: 2024-01-29
 - What is **p-value**?
 	- probability of observing a test statistic **at least as extreme as the observed value** if the *null hypothesis is true*
 
-![4_p_values_in_distribution.png](/img/user/Files/sta130/4_p_values_in_distribution.png)
+![4_p_values_in_distribution.png](/img/user/Files/STA130/4_p_values_in_distribution.png)
 
 - **Two-sided test**:
 	- $$\text{p-value} = \frac{\text{\# simulations where } |{TS}_{sim} - f_{0}| \geq |{TS}_{obs} - f_{0}|}{\text{\# of simulations}}$$
