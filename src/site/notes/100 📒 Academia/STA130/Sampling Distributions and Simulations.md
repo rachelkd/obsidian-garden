@@ -19,11 +19,11 @@ Date: 2024-01-29
 	- → Need to estimate the sampling distribution to answer this question
 
 ### Sampling Distribution for 10 Fair Spins
-![4_distribution_10_fair.png](/img/user/Files/sta130/4_distribution_10_fair.png)
+![4_distribution_10_fair.png](/img/user/Files/STA130/4_distribution_10_fair.png)
 *This is under the assumption that the probability is 0.5.*
 
 ### Sampling Distrbution for 10 Unfair Spins
-![4_distribution_10_unfair.png](/img/user/Files/sta130/4_distribution_10_unfair.png)
+![4_distribution_10_unfair.png](/img/user/Files/STA130/4_distribution_10_unfair.png)
 *Under a different null, we would get different sampling distributions.*
 
 # Exploring Sampling Distributions via Simulations
