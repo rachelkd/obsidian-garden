@@ -15,8 +15,8 @@ Recall that a line $\mathcal{l} = \{ c \vec{v} \;|\; c \in \mathbb{R} \}$, where
 
 - What is $\text{proj}_{l}(\vec{x})$ (abstraction)?
 	- “shadow” of $\vec{x}$ on $l$
-		- How much of $l$ is in $\vec{x}$? <br><br> ![[5_projection_abstract.png|center|400]] <br>
-	- ![5_projection_abstraction_2.png|400](/img/user/Files/mat223/5_projection_abstraction_2.png)
+		- How much of $l$ is in $\vec{x}$? <br><br> ![[5_projection_abstract.png\|center]] <br>
+	- ![5_projection_abstraction_2.png|400](/img/user/Files/MAT223/5_projection_abstraction_2.png)
 	- $\text{proj}_{l} :=$ some vector in $l$ where $\vec{x} - {proj}_{l}(\vec{x})$ is orthogonal to $l$
 - Rewrite our projection:
 	- $\text{proj}_{l}(\vec{v})= c \vec{v}$
