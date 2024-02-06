@@ -21,7 +21,7 @@ Date: 2024-01-30
 	- **implicit** and **explicit** coercion
 		- objects can be explicitly converted using functions like `as.numeric()` and `as.character()`
 
-![4_coercion_r.png|center|400](/img/user/Files/sta130/4_coercion_r.png)
+![4_coercion_r.png|center|400](/img/user/Files/STA130/4_coercion_r.png)
 
 | Command | Output |
 | ---- | ---- |
