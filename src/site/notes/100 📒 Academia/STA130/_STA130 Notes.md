@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-01T14:34:30.854-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-05T23:15:03.590-05:00"}
 ---
 
 
@@ -45,3 +45,10 @@
 			- [[100 📒 Academia/STA130/Coercion\|Coercion]]
 			- [[100 📒 Academia/STA130/Randomness in Programming\|Randomness in Programming]]
 		- [[100 📒 Academia/STA130/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]]
+- Week 5
+	- [[000 Zettlekasten/Week 5 Lecture\|Week 5 Lecture]]
+		- [[000 Zettlekasten/Week 5 Lecture#Midterm Information\|Midterm information]]
+		- [[000 Zettlekasten/Working with Numeric (Continuous) Simulations\|Working with Numeric (Continuous) Simulations]]
+			- [[000 Zettlekasten/Working with Numeric (Continuous) Simulations#Permutation Test\|Permutation Test]]
+		- [[000 Zettlekasten/Confounding Variables\|Confounding Variables]]
+		- [[000 Zettlekasten/Correlation vs. Causation\|Correlation vs. Causation]]
