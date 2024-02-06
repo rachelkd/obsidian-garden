@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-04T13:26:06.278-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-04T18:07:29.960-05:00"}
 ---
 
 #CSC111 
@@ -40,6 +40,7 @@
 - L7 [[000 Zettlekasten/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
 	- [[000 Zettlekasten/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
 - L8 [[000 Zettlekasten/Tree Efficiency\|Tree Efficiency]]
+- 15.6 [[000 Zettlekasten/Introduction to Binary Search Trees\|Introduction to Binary Search Trees]]
 
 
 
