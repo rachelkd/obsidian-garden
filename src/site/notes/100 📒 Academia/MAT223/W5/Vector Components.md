@@ -12,7 +12,7 @@ Module: 5
 
 ### Definition of vector componenets. #definition 
 
-![5_vector_components.png](/img/user/Files/mat223/5_vector_components.png)
+![5_vector_components.png](/img/user/Files/MAT223/5_vector_components.png)
 
 $$\vec{u} = \text{vcomp}_{\vec{v}} \vec{u} + (\vec{u} - \text{vcomp}_{\vec{v}} \vec{u})$$
 - $\text{vcomp}_{\vec{v}} \vec{u}$ is in the direction of $\vec{v}$
@@ -20,7 +20,7 @@ $$\vec{u} = \text{vcomp}_{\vec{v}} \vec{u} + (\vec{u} - \text{vcomp}_{\vec{v}} \
 
 ### Find the vector component of a vector in the direction of another vector. #example 
 
-![5_find_vec_component_example.png](/img/user/Files/mat223/5_find_vec_component_example.png)
+![5_find_vec_component_example.png](/img/user/Files/MAT223/5_find_vec_component_example.png)
 
 # Formula for vector components
 
@@ -34,7 +34,7 @@ $$k = \frac{\vec{v} \cdot \vec{u}}{\vec{v} \cdot \vec{v}}$$
 $$\text{vcomp}_{\vec{v}} \; \vec{u} = \bigg( \frac{\vec{v} \cdot \vec{u}}{\vec{v} \cdot \vec{v}} \bigg) \vec{v}$$
 # The relationship between vector components and projections
 
-![5_vec_comp_and_projections.png](/img/user/Files/mat223/5_vec_comp_and_projections.png)
+![5_vec_comp_and_projections.png](/img/user/Files/MAT223/5_vec_comp_and_projections.png)
 
 - $\text{proj}_{l} \; \vec{u}$ is in the direction of $\vec{v}$
 - $\vec{u} - \text{proj}_{l} \; \vec{u}$ is a normal vector for $l$ i.e., orthogonal to its direction vector $\vec{v}$
@@ -45,6 +45,6 @@ $$\text{vcomp}_{\vec{v}} \; \vec{u} = \bigg( \frac{\vec{v} \cdot \vec{u}}{\vec{v
 
 ### Find projection of a vector onto a span. #example 
 
-![5_projection_example.png](/img/user/Files/mat223/5_projection_example.png)
+![5_projection_example.png](/img/user/Files/MAT223/5_projection_example.png)
 
 - Note: This only works for spans.
