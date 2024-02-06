@@ -20,7 +20,7 @@ Module: 5
 Let $\mathcal{P}_{xy} \subseteq \mathbb{R}^{3}$ be the $xy$-plane in $\mathbb{R}^{3}$ and let $\vec{v} = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$.
 $\text{proj}_{\mathcal{P}_{xy}} \vec{v}$ is the “shadow” that $\vec{v}$ would cast on $\mathcal{P}_{xy}$ if the sun were directly overhead.
 
-![5_projections.png|center|500](/img/user/Files/mat223/5_projections.png)
+![5_projections.png|center|500](/img/user/Files/MAT223/5_projections.png)
 
 From the drawing, we can conclude that $\text{proj}_{\mathcal{P}_{xy}} \vec{v} = \begin{bmatrix} 1 \\ 2 \\ 0 \end{bmatrix}$.
 
@@ -40,11 +40,11 @@ Let $l_{y} \subseteq \mathbb{R}^{3}$ be the $y$-axis in $\mathbb{R}^{3}$. What i
 
 ### Find a projection of a line. #example 
 
-![5_projection_ex_1.png](/img/user/Files/mat223/5_projection_ex_1.png)
+![5_projection_ex_1.png](/img/user/Files/MAT223/5_projection_ex_1.png)
 
 # The vector from the projection to the original point is a normal vector for the line or plane.
 
-![5_projection_norm.png|center|500](/img/user/Files/mat223/5_projection_norm.png)
+![5_projection_norm.png|center|500](/img/user/Files/MAT223/5_projection_norm.png)
 
 If $X$ is a line or plane and $\vec{v} \notin X$ is a vector, the $\vec{v} - \text{proj}_{X} \vec{v}$ is a normal vector for $X$.
 
@@ -69,7 +69,7 @@ Solving this, we conclude $x = \frac{3}{2}$ and y = $-\frac{7}{2}$. So, $\text{p
 
 # Projections onto other sets
 
-![5_projections_other_sets.png](/img/user/Files/mat223/5_projections_other_sets.png)
+![5_projections_other_sets.png](/img/user/Files/MAT223/5_projections_other_sets.png)
 
 # Subtleties of projections
 
