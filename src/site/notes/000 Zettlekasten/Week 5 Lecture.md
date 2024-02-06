@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/week-5-lecture/","created":"2024-02-05T13:30:37.722-05:00","updated":"2024-02-05T23:15:09.793-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/week-5-lecture/","created":"2024-02-05T13:30:37.722-05:00","updated":"2024-02-06T02:03:32.324-05:00"}
 ---
 
 **Preamble**
