@@ -28,7 +28,7 @@ Date: 2024-01-28
 	- → Subtrees have their own subtrees
 - “Subtree” is always relative to an outer tree, where each subtree is connected to the *root* of that outer tree
 
-![4_tree.png|center|400](/img/user/Files/csc111/4_tree.png)
+![4_tree.png|center|400](/img/user/Files/CSC111/4_tree.png)
 
 - **size**
 	- number of values in the tree
