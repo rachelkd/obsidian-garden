@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Populations, Samples, and Hypotheses.md","permalink":"/academia/sta-130/populations-samples-and-hypotheses/","created":"2024-01-29T13:55:03.356-05:00","updated":"2024-02-01T14:34:30.873-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Populations, Samples, and Hypotheses.md","permalink":"/academia/sta-130/populations-samples-and-hypotheses/","created":"2024-01-29T13:55:03.356-05:00","updated":"2024-02-06T02:02:44.931-05:00"}
 ---
 
 **Preamble**
@@ -16,6 +16,7 @@ Date: 2024-01-29
 - **inference**
 	- observe outcomes (data)
 	- want to determine how likely I am to have certain underlying probability (parameters)
+	- the process of drawing conclusions about a population based on information from a sample
 
 # Populations and Sampling
 
@@ -41,12 +42,30 @@ In statistics,
 - **sample size**
 	- number of spins ($n$)
 - **test statistic**
-	- Observed proportion of reds
-	- $\hat{f} = \frac{k}{n}$
+	- number calculated from a statistical test of a hypothesis
+		- shows how closely your observed data matches the *distribution* expected under null hyp.
+		- used to calculate the p-value of your results
+	- e.g., observed proportion of reds
+		- $\hat{f} = \frac{k}{n}$
 - **population**
-	- all possible spins (infinite size)
+	- the entire group of individuals about whom we hope to draw conclusions on
+		- e.g., all possible spins (infinite size)
 - **parameter**
-	- probability of getting red ($f$)
+	- a fixed, usually unknown number that describes a characteristic of the population
+		- e.g., probability of getting red ($f$), average height of all adults in a country
+- **random sample**
+	- a subset of the population chosen in such a way that every member has an equal chance of being selected
+- **sampling distribution**
+	- a probability distribution of a statistic that is obtained through repeated sampling of a specific population
+		- describes a range of possible outcomes for a statistic (e.g., mean, mode of some variable of a population)
+		- tells us how the statistic would vary from one sample to another
+	- crucial because it ==forms the basis for estimating the variability of statistics and conducting hypothesis testing==
+- **simulation**
+	- computer experiments that involve creating data by pseudo-random sampling
+	- models complex systems or processes when analytical solutions are difficult or impossible
+- **simulation statistic**
+	- derived from simulated data, mimicking real-world observations (expected characteristics/parameters)
+	- used to understand the behaviour of a statistic without the need for actual data collection
 
 # Forming Hypotheses
 
