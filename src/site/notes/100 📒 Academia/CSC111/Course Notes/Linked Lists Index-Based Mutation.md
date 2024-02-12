@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists Index-Based Mutation.md","permalink":"/academia/csc-111/course-notes/linked-lists-index-based-mutation/","created":"2024-01-18T20:29:24.992-05:00","updated":"2024-01-18T21:34:55.847-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists Index-Based Mutation.md","permalink":"/academia/csc-111/course-notes/linked-lists-index-based-mutation/","created":"2024-01-18T20:29:24.992-05:00","updated":"2024-02-12T13:44:11.131-05:00"}
 ---
 
 **Preamble**
@@ -144,7 +144,7 @@ class LinkedList:
 	# 2. Else if i is 0, remove the first node and return its item.
 	elif i == 0:
 		item = self._first.item
-		self._first = None
+		self._first = self._first.next
 		return item
 	# 3. Else iterate to the (i-1)-th node and update links to remove
 	#    the node at position index. But don't forget to return the item!
