@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-04T18:07:29.960-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-10T21:53:48.099-05:00"}
 ---
 
 #CSC111 
@@ -36,11 +36,15 @@
 # 15. Trees
 - 15.1 [[100 📒 Academia/CSC111/Course Notes/Introduction to Trees\|Introduction to Trees]]
 - 15.2 [[100 📒 Academia/CSC111/Course Notes/Recursion on Trees\|Recursion on Trees]]
-- L7 [[000 Zettlekasten/Lecture 7 - Trees\|Lecture 7 - Trees]]
-- L7 [[000 Zettlekasten/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
-	- [[000 Zettlekasten/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
-- L8 [[000 Zettlekasten/Tree Efficiency\|Tree Efficiency]]
-- 15.6 [[000 Zettlekasten/Introduction to Binary Search Trees\|Introduction to Binary Search Trees]]
+- L7 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 7 - Trees\|Lecture 7 - Trees]]
+- L7 [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
+	- [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
+- L8 [[100 📒 Academia/CSC111/Lecture Notes/Tree Efficiency\|Tree Efficiency]]
+- 15.6 [[100 📒 Academia/CSC111/Course Notes/Introduction to Binary Search Trees\|Introduction to Binary Search Trees]]
+	- Contains
+- L9 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 9 - Binary Search Trees\|Lecture 9 - Binary Search Trees]]
+	- Insertion
+	- Deletion
 
 
 
