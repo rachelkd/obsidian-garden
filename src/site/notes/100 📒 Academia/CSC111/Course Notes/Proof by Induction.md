@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Proof by Induction.md","permalink":"/academia/csc-111/course-notes/proof-by-induction/","created":"2024-01-21T12:01:35.677-05:00","updated":"2024-01-27T19:11:54.936-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Proof by Induction.md","permalink":"/academia/csc-111/course-notes/proof-by-induction/","created":"2024-01-21T12:01:35.677-05:00","updated":"2024-02-12T15:17:21.877-05:00"}
 ---
 
 **Preamble**
@@ -49,6 +49,7 @@ f(k+1) &= \sum\limits_{i=0}^{k+1} i
 &= \frac{(k + 1)(k + 2)}{2}
 \end{align*}$$
 <div class="right-align"> <span class="math display">\blacksquare</span> </div>
+
 # How does induction “work”?
 
 - Base case tells us that $P(0)$ is True, unconditionally
