@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Introduction to R.md","permalink":"/academia/sta-130/introduction-to-r/","created":"2024-01-15T16:30:59.791-05:00","updated":"2024-01-17T12:39:02.328-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Introduction to R.md","permalink":"/academia/sta-130/introduction-to-r/","created":"2024-01-15T16:30:59.791-05:00","updated":"2024-02-06T15:10:51.000-05:00"}
 ---
 
 **Preamble**
@@ -43,7 +43,7 @@ Course: #STA130
 	- Reads a file called `“sta130grades.csv”` and saves these data in a *tibble* called grades
 - How to look at data?
 	1. `glimpse()`
-		- tells us how many rows and volumns there are
+		- tells us how many rows and columns there are
 		- lists out the column names, their data types
 		- peak at first few values
 		- summary of data, not the data itself
