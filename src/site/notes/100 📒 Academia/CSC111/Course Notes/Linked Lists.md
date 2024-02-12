@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists.md","permalink":"/academia/csc-111/course-notes/linked-lists/","created":"2024-01-12T18:32:55.469-05:00","updated":"2024-01-18T17:49:12.397-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Linked Lists.md","permalink":"/academia/csc-111/course-notes/linked-lists/","created":"2024-01-12T18:32:55.469-05:00","updated":"2024-02-12T11:55:21.378-05:00"}
 ---
 
 **Preamble**
@@ -57,13 +57,13 @@ class _Node:
 - Why do we use a preceding underscore for the class name `_Node`
 	- indicate that the entire class is *private*
 	- should not be accessed by client code directly
-	- only used by the “main” class described later #todo 
+	- only used by the “main” class described later
 - An instance of `_Node` represents…
 	- a *single element* of a list
 	- To represent a list of $n$ elements, we need $n$ `_Node` instances
 - How do we link the nodes together in a sequence?
 	- Using the references in all of the nodes’ `next` attributes
-- Example of three `_Node` objects that could represent the sequence of numbers, `111, -5, 9000:
+- Example of three `_Node` objects that could represent the sequence of numbers, `111, -5, 9000`:
 	- ![1_node_example.png](/img/user/Files/CSC111/1_node_example.png)
 
 ## `__future__`
