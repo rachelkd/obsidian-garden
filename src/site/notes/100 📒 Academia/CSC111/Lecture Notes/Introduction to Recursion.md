@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Introduction to Recursion.md","permalink":"/academia/csc-111/lecture-notes/introduction-to-recursion/","created":"2024-01-27T14:43:17.587-05:00","updated":"2024-01-27T19:11:06.009-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Introduction to Recursion.md","permalink":"/academia/csc-111/lecture-notes/introduction-to-recursion/","created":"2024-01-27T14:43:17.587-05:00","updated":"2024-02-12T15:49:34.491-05:00"}
 ---
 
 **Preamble**
 Week: [[100 📒 Academia/CSC111/_CSC111 Notes\|3]]
 Course: #CSC111
-Covered in: [[Unit 2 - Induction and Recursion\|Unit 2 - Induction and Recursion]]
+Covered in: [[000 Zettlekasten/Unit 2 - Induction and Recursion\|Unit 2 - Induction and Recursion]]
 Date: 2024-01-27
 
 ---
@@ -145,7 +145,7 @@ def sum_nested_v2(nested_list: Union[int, list]) -> int:
 
 ### Example. Tracing `sum_nested_v1`.
 
-- Call `sum_nested_v1(1, [2, [3, 4], 5], [6, 7], 8]`.
+- Call `sum_nested_v1([1, [2, [3, 4], 5], [6, 7], 8])`.
 - Since `isinstance(nested_list, int)` is False, the else branch is run.
 
 | Iteration | `sublist`        | `sum_nested_v1(sublist)`<br>**based on assumption** | Accumulator `sum_so_far`<br>**based on tracing** |
