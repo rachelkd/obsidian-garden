@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-01-27T19:11:54.944-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-02-12T15:22:03.378-05:00"}
 ---
 
 **Preamble**
@@ -71,7 +71,7 @@ Let `f` be a Python function. We say that `f` is a **recursively-defined functio
 		- When we call `f(2)`, the recursive call `f(2 - 1) == f(1)` is made, which returns `1` (see previous point). Then `1 + 2 == 3` is returned.
 	- **Inductive approach**/**partial tracing**
 		- Example. Reason inductively about the call `f(100)`.
-			- When we call `f(100)`, the the recursive call `f(100 - 1) == f(99)` is made. _Assuming_ this call is correct, it returns `4950` (the sum of the numbers between 0 and 99, inclusive).
+			- When we call `f(100)`, the recursive call `f(100 - 1) == f(99)` is made. _Assuming_ this call is correct, it returns `4950` (the sum of the numbers between 0 and 99, inclusive).
 			- Then `4950 + 100 == 5050` is returned.
 		- Partial indicates that we do not trace into any recursive calls, but *assume* that thtey work correctly
 
@@ -101,8 +101,7 @@ def euclidean_gcd(a: int, b: int) -> int:
 
 We know $\text{gcd}(a, b) = \text{gcd}(b, a \; \% \; b)$ and $\text{gcd}(a, 0) = a$ for all $a \in \mathbb{N}$.
 - Recursive definition of the $\text{gcd}$ function over the natural numbers:
-	- $$\gcd(a, b) = \begin{cases} 
-	  a, & \text{if $b = 0$} \\ \gcd(b, a ~\%~ b), & \text{if $b > 0$} \end{cases}$$
+	- $$\gcd(a, b) = \begin{cases} a, & \text{if $b = 0$} \\ \gcd(b, a ~\%~ b), & \text{if $b > 0$} \end{cases}$$
 	- Recursive part does not just decrease a number by 1
 	- Second argument decreases from $b$ to $a \; \% \; b$
 	- Value of the latter could be anything between $0$ and $b - 1$
