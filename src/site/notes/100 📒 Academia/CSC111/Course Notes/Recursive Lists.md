@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursive Lists.md","permalink":"/academia/csc-111/course-notes/recursive-lists/","created":"2024-01-28T20:26:01.703-05:00","updated":"2024-01-28T20:43:28.072-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursive Lists.md","permalink":"/academia/csc-111/course-notes/recursive-lists/","created":"2024-01-28T20:26:01.703-05:00","updated":"2024-02-12T17:37:02.858-05:00"}
 ---
 
 **Preamble**
@@ -94,6 +94,6 @@ class RecursiveList:
 - `RecursiveList`
 	- Representing an *entire* sequence of elements
 		- NOT just one element
-	- Recursive attribute `_rest` is NOT a list; is the rest of the list itself
+	- Recursive attribute `_rest` is NOT a link; it is the rest of the list itself
 	- We do not try to access each item individually
 	- We make a recursive function call on the `_rest` attribute
