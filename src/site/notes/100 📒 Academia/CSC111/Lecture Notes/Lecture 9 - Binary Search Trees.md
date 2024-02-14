@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Lecture 9 - Binary Search Trees.md","permalink":"/academia/csc-111/lecture-notes/lecture-9-binary-search-trees/","created":"2024-02-10T19:43:02.860-05:00","updated":"2024-02-10T22:20:28.558-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Lecture 9 - Binary Search Trees.md","permalink":"/academia/csc-111/lecture-notes/lecture-9-binary-search-trees/","created":"2024-02-10T19:43:02.860-05:00","updated":"2024-02-14T18:01:26.215-05:00"}
 ---
 
 **Preamble**
@@ -105,6 +105,10 @@ Like our Tree implementation, we ==do not allow the value `None` to be in the Bi
 	- `self._root = None`
 	- `self._left = None`
 	- `self._right = None`
+
+<br>
+
+
 - Note the representation invariants:
 	- 
 	  ```python
