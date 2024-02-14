@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Introduction to Recursion.md","permalink":"/academia/csc-111/lecture-notes/introduction-to-recursion/","created":"2024-01-27T14:43:17.587-05:00","updated":"2024-02-12T15:49:34.491-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Introduction to Recursion.md","permalink":"/academia/csc-111/lecture-notes/introduction-to-recursion/","created":"2024-01-27T14:43:17.587-05:00","updated":"2024-02-12T17:37:44.968-05:00"}
 ---
 
 **Preamble**
 Week: [[100 📒 Academia/CSC111/_CSC111 Notes\|3]]
 Course: #CSC111
-Covered in: [[000 Zettlekasten/Unit 2 - Induction and Recursion\|Unit 2 - Induction and Recursion]]
+Covered in: [[100 📒 Academia/CSC111/Unit 2 - Proof by Induction\|Unit 2 - Proof by Induction]]
 Date: 2024-01-27
 
 ---
