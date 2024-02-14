@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-13T19:44:38.219-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-13T19:52:41.193-05:00"}
 ---
 
 
@@ -53,4 +53,6 @@
 		- [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]]
 		- [[100 📒 Academia/STA130/Correlation vs. Causation\|Correlation vs. Causation]]
 - Week 6
-	- [[000 Zettlekasten/P-hacking\|P-hacking]]
+	- [[000 Zettlekasten/Week 6 Lecture\|Week 6 Lecture]]
+		- [[000 Zettlekasten/Week 6 Lecture#Correlation, Causation, and Confounding\|Correlation, causation, and confounding]]
+		- [[000 Zettlekasten/P-hacking\|P-hacking]]
