@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/week-6-lecture/","created":"2024-02-13T19:48:06.506-05:00","updated":"2024-02-13T21:11:43.652-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/week-6-lecture/","created":"2024-02-13T19:48:06.506-05:00","updated":"2024-02-13T21:15:58.103-05:00"}
 ---
 
 **Preamble**
@@ -49,7 +49,7 @@ See [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]] an
 		- → cheating
 3. Rejection Rule
 	- If you first looked at the p-value then changed the p-value, that is problematic
-	- You had to look at the data first to compute the p-value → **peeking**
+	- You had to look at the data first to compute the p-value → **peeking** → not acceptable
 
 <br>
 
@@ -59,6 +59,7 @@ See [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]] an
 - If you have used the data, then you cannot modify anything
 	- unless if you can show that it was done independently of the conclusion that you are trying to reach
 	- e.g., rejecting outliers for different reasons before you knew the answer
----
+
+<br>
 
 See [[000 Zettlekasten/P-hacking\|P-hacking]].
