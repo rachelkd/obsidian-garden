@@ -191,7 +191,7 @@ Sylvester II grew up poor and got shipped to Spain to study.
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
+<div class="markdown-embed-title">
 
 # 400
 
