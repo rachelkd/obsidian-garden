@@ -53,6 +53,6 @@
 		- [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]]
 		- [[100 📒 Academia/STA130/Correlation vs. Causation\|Correlation vs. Causation]]
 - Week 6
-	- [[000 Zettlekasten/Week 6 Lecture\|Week 6 Lecture]]
-		- [[000 Zettlekasten/Week 6 Lecture#Correlation, Causation, and Confounding\|Correlation, causation, and confounding]]
-		- [[000 Zettlekasten/P-hacking\|P-hacking]]
+	- [[100 📒 Academia/STA130/Week 6 Lecture\|Week 6 Lecture]]
+		- [[100 📒 Academia/STA130/Week 6 Lecture#Correlation, Causation, and Confounding\|Correlation, causation, and confounding]]
+		- [[100 📒 Academia/STA130/P-hacking\|P-hacking]]
