@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Correlation vs. Causation.md","permalink":"/academia/sta-130/correlation-vs-causation/","created":"2024-02-05T23:11:06.831-05:00","updated":"2024-02-05T23:14:29.226-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Correlation vs. Causation.md","permalink":"/academia/sta-130/correlation-vs-causation/","created":"2024-02-05T23:11:06.831-05:00","updated":"2024-02-13T19:45:58.918-05:00"}
 ---
 
 **Preamble**
@@ -10,6 +10,7 @@ Date: 2024-02-05
 ---
 - In an observational study, we can only conclude…
 	- **association (correlation)** between variables, **not causation**
+
 <br>
 
 - **randomized controlled trial**
