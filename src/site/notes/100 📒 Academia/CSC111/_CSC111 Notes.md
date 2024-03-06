@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-02-10T21:53:48.099-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-05T20:37:45.156-05:00"}
 ---
 
 #CSC111 
@@ -30,21 +30,32 @@
 	- The Euclidean Algorithm, revisited
 - L5 [[100 📒 Academia/CSC111/Lecture Notes/Introduction to Recursion\|Introduction to Recursion]]
 - L5 [[100 📒 Academia/CSC111/Lecture Notes/Depth of a Nested List\|Depth of a Nested List]]
-- L6 [[100 📒 Academia/CSC111/Lecture Notes/Recursion Efficiency\|Recursion Efficiency]]
+- L6 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 6 - Recursion Efficiency\|Lecture 6 - Recursion Efficiency]]
 - 14.5 [[100 📒 Academia/CSC111/Course Notes/Recursive Lists\|Recursive Lists]]
 
 # 15. Trees
 - 15.1 [[100 📒 Academia/CSC111/Course Notes/Introduction to Trees\|Introduction to Trees]]
 - 15.2 [[100 📒 Academia/CSC111/Course Notes/Recursion on Trees\|Recursion on Trees]]
 - L7 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 7 - Trees\|Lecture 7 - Trees]]
-- L7 [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
-	- [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
-- L8 [[100 📒 Academia/CSC111/Lecture Notes/Tree Efficiency\|Tree Efficiency]]
+	- [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms\|Tree Deletion Algorithms]]
+		- [[100 📒 Academia/CSC111/Lecture Notes/Tree Deletion Algorithms#Design decision\|No empty subtrees implementation]]
+- L8 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 8 - Tree Efficiency\|Lecture 8 - Tree Efficiency]]
 - 15.6 [[100 📒 Academia/CSC111/Course Notes/Introduction to Binary Search Trees\|Introduction to Binary Search Trees]]
 	- Contains
 - L9 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 9 - Binary Search Trees\|Lecture 9 - Binary Search Trees]]
 	- Insertion
 	- Deletion
+
+# 17. Graphs
+- 17.1 [[100 📒 Academia/CSC111/Course Notes/Introduction to Graphs\|Introduction to Graphs]]
+- 17.2 [[100 📒 Academia/CSC111/Course Notes/Some Properties of Graphs\|Some Properties of Graphs]]
+- 17.3 [[100 📒 Academia/CSC111/Course Notes/Representing Graphs in Python\|Representing Graphs in Python]]
+- L12 [[100 📒 Academia/CSC111/Lecture Notes/Lecture 12 - Graphs\|Lecture 12 - Graphs]]
+- L12 [[100 📒 Academia/CSC111/Course Notes/Connectivity\|Connectivity]]
+- 17.4 [[100 📒 Academia/CSC111/Course Notes/Connectivity and Recursive Graph Traversal\|Connectivity and Recursive Graph Traversal]]
+- 17.5 [[100 📒 Academia/CSC111/Course Notes/A Limit for Connectedness\|A Limit for Connectedness]]
+- 17.6 [[100 📒 Academia/CSC111/Course Notes/Cycles and Trees\|Cycles and Trees]]
+- L14 [[000 Zettlekasten/Week 8 Lecture\|Week 8 Lecture]]
 
 
 
