@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Week 6 Lecture.md","permalink":"/academia/sta-130/week-6-lecture/","created":"2024-02-13T19:48:06.506-05:00","updated":"2024-02-13T21:15:58.103-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Week 6 Lecture.md","permalink":"/academia/sta-130/week-6-lecture/","created":"2024-02-13T19:48:06.506-05:00","updated":"2024-03-04T14:55:29.616-05:00"}
 ---
 
 **Preamble**
@@ -10,7 +10,7 @@ Date: 2024-02-13
 ---
 # Correlation, Causation, and Confounding
 
-See [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]] and [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]].
+See [[100 📒 Academia/STA130/W5/Confounding Variables\|Confounding Variables]] and [[100 📒 Academia/STA130/W5/Correlation vs. Causation\|Correlation vs. Causation]].
 
 # P-hacking
 
@@ -62,4 +62,4 @@ See [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]] an
 
 <br>
 
-See [[100 📒 Academia/STA130/P-hacking\|P-hacking]].
+See [[100 📒 Academia/STA130/W6/P-hacking\|P-hacking]].
