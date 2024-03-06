@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Week 8 Lecture.md","permalink":"/academia/sta-130/week-8-lecture/","created":"2024-03-04T13:20:35.534-05:00","updated":"2024-03-05T20:43:04.832-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Week 8 Lecture.md","permalink":"/academia/sta-130/week-8-lecture/","created":"2024-03-04T13:20:35.534-05:00","updated":"2024-03-05T21:47:03.178-05:00"}
 ---
 
 **Preamble**
@@ -16,6 +16,8 @@ Date: 2024-03-04
 
 > [!important] We want to discover these groups
 > - e.g., Marketing: companies want to identify various consumer “archetypes” based on general behaviour to sell these groups ads
+{ #42bec5}
+
 
 ###### Recall: UNICEF & Data
 - How can we identify **groups** of countries with similar:
@@ -45,3 +47,7 @@ Data from [[100 📒 Academia/STA130/W7/Bootstrapping\|Bootstrapping]].
 # How many clusters is enough?
 
 → [[100 📒 Academia/STA130/W8/How Many Clusters Is Enough\|How Many Clusters Is Enough]]
+
+# Double-dipping
+
+→ [[000 Zettlekasten/Double-Dipping\|Double-Dipping]]
