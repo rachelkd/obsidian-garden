@@ -22,7 +22,7 @@ Date: 2024-02-05
 
 # Review: Hypothesis testing
 
-Recall [[100 📒 Academia/STA130/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]].
+Recall [[100 📒 Academia/STA130/W4/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]].
 
 - Stella did not know if the Wheel of Destiny is fair
 	- Decided to spin the spinner 50 times, got red 32 times (64%)
@@ -61,12 +61,12 @@ In general, it is more conservative to do a two sided test. One sided test impli
 
 # Working with Numeric (Continuous) Simulations
 
-[[100 📒 Academia/STA130/Working with Numeric (Continuous) Simulations\|Working with Numeric (Continuous) Simulations]]
+[[100 📒 Academia/STA130/W5/Working with Numeric (Continuous) Simulations\|Working with Numeric (Continuous) Simulations]]
 
 # Confounding variables
 
-[[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]]
+[[100 📒 Academia/STA130/W5/Confounding Variables\|Confounding Variables]]
 
 # Correlation vs. Causation
 
-[[100 📒 Academia/STA130/Correlation vs. Causation\|Correlation vs. Causation]]
+[[100 📒 Academia/STA130/W5/Correlation vs. Causation\|Correlation vs. Causation]]
