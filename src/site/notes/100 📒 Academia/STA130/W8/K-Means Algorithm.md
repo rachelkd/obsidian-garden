@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W8/K-Means Algorithm.md","permalink":"/academia/sta-130/w8/k-means-algorithm/","created":"2024-03-04T14:21:05.966-05:00","updated":"2024-03-05T20:49:24.585-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W8/K-Means Algorithm.md","permalink":"/academia/sta-130/w8/k-means-algorithm/","created":"2024-03-04T14:21:05.966-05:00","updated":"2024-03-05T20:50:05.539-05:00"}
 ---
 
 **Preamble**
@@ -96,4 +96,4 @@ SF %>%
 
 ![|500](https://i.imgur.com/guPsFuY.png)
 
-
+Back to [[100 📒 Academia/STA130/Week 8 Lecture\|Week 8 Lecture]].
