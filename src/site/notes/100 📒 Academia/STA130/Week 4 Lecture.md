@@ -18,14 +18,14 @@ Date: 2024-01-29
 
 # Populations, Samples, and Hypotheses
 
-See [[100 📒 Academia/STA130/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]].
+See [[100 📒 Academia/STA130/W4/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]].
 
 ## Forming Hypothesis: WoD example
 
 - Which one makes more sense to test if the WoD is fair?
   $$\begin{align*} H_{0}: f = 0.5 && H_{1} : f > 0.5 \tag 1 \\ H_{0} : f = 0.5 && H_{1} : f \neq 0.5 \tag 2 \end{align*}$$
 	- The second
-	- Recall that f-hats are observed values ([[100 📒 Academia/STA130/Populations, Samples, and Hypotheses#Forming Hypotheses\|from here]]):
+	- Recall that f-hats are observed values ([[100 📒 Academia/STA130/W4/Populations, Samples, and Hypotheses#Forming Hypotheses\|from here]]):
 		- Does not make sense to test hypotheses around them; we know what the values are — we just calculated them
 		- We are interested in making conclusions about the population parameters $f$ that are unknown
 
@@ -57,9 +57,9 @@ See [[100 📒 Academia/STA130/Populations, Samples, and Hypotheses\|Populations
 5. Draw a **conclusion** and interpret in the context of the problem
 # Sampling Distributions and Simulations
 
-See [[100 📒 Academia/STA130/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]].
+See [[100 📒 Academia/STA130/W4/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]].
 
 # Hypothesis Testing and p-values
 
-[[100 📒 Academia/STA130/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]] 
+[[100 📒 Academia/STA130/W4/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]] 
 
