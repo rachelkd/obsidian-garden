@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W5/Projections.md","permalink":"/academia/mat-223/w5/projections/","created":"2024-02-03T20:10:27.623-05:00","updated":"2024-02-03T21:32:24.519-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W5/Projections.md","permalink":"/academia/mat-223/w5/projections/","created":"2024-02-03T20:10:27.623-05:00","updated":"2024-02-28T16:12:31.196-05:00"}
 ---
 
 **Preamble**
@@ -31,7 +31,7 @@ Let $l_{y} \subseteq \mathbb{R}^{3}$ be the $y$-axis in $\mathbb{R}^{3}$. What i
 - Every vector in $l_{y}$, by definition, takes the form…
 	- $$\vec{u}_{t} = \begin{bmatrix} 0 \\ t \\ 0 \end{bmatrix} \text{ for some } t \in \mathbb{R}$$
 - The distance between $\vec{u}_{t}$ and $\vec{v}$ is:
-	- $$||\vec{u}_{t} - \vec{v} || = \Bigg| \Bigg| \begin{bmatrix} 0 \\ t \\ 0 \end{bmatrix} - \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix} \Bigg| \Bigg| = \sqrt{1^{2} _{}(t-2)^{2} + 3^{2}}$$
+	- $$||\vec{u}_{t} - \vec{v} || = \Bigg| \Bigg| \begin{bmatrix} 0 \\ t \\ 0 \end{bmatrix} - \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix} \Bigg| \Bigg| = \sqrt{1^{2} + (t-2)^{2} + 3^{2}}$$
 - When is $\sqrt{1^{2} + (t-2)^{2} + 3^{2}}$ minimized?
 	- $(t-2)^{2} = 0$
 	- $t = 2$
@@ -51,7 +51,7 @@ If $X$ is a line or plane and $\vec{v} \notin X$ is a vector, the $\vec{v} - \te
 ### Finding projections without computing distance. #example 
 
 Let $l \subseteq \mathbb{R}^{2}$ be the line given in vector form by $\vec{x} = t \begin{bmatrix} 1 \\ 1 \end{bmatrix} + \begin{bmatrix} 3 \\ -2 \end{bmatrix}$.
-Let $\vec{v} + \begin{bmatrix} -1 \\ -1 \end{bmatrix}$.
+Let $\vec{v} = \begin{bmatrix} -1 \\ -1 \end{bmatrix}$.
 Since $\vec{v} - \text{proj}_{l} \vec{v}$ is a normal vector to $l$, we know $\vec{v} - \text{proj}_{l}\vec{v}$ is orthogonal to $\vec{d} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$.
 Let $\begin{bmatrix} x \\ y \end{bmatrix} = \text{proj}_{l}\vec{v}$ for some unknown $x, y \in \mathbb{R}$. Then,
 
