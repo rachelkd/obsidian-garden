@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-02-13T19:52:41.193-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-03-05T20:40:05.084-05:00"}
 ---
 
 
@@ -9,28 +9,28 @@
 
 ---
 - Week 1
-	- [[100 📒 Academia/STA130/Survivorship Bias\|Survivorship Bias]]
-	- [[100 📒 Academia/STA130/Introduction to R\|Introduction to R]]
-	- [[100 📒 Academia/STA130/Variable Types and Distributions\|Variable Types and Distributions]]
-	- [[100 📒 Academia/STA130/Tidy Data\|Tidy Data]]
+	- [[100 📒 Academia/STA130/W1/Survivorship Bias\|Survivorship Bias]]
+	- [[100 📒 Academia/STA130/W1/Introduction to R\|Introduction to R]]
+	- [[100 📒 Academia/STA130/W1/Variable Types and Distributions\|Variable Types and Distributions]]
+	- [[100 📒 Academia/STA130/W1/Tidy Data\|Tidy Data]]
 - Week 2
-	- [[100 📒 Academia/STA130/Week 2 Lecture Notes\|Week 2 Lecture Notes]]
-	- [[100 📒 Academia/STA130/Visualizations\|Visualizations]]
-		- [[100 📒 Academia/STA130/Histograms\|Histograms]]
-		- [[100 📒 Academia/STA130/Boxplots\|Boxplots]]
-		- [[100 📒 Academia/STA130/Barplots\|Barplots]]
-		- [[100 📒 Academia/STA130/Pie charts\|Pie charts]]
-	- [[100 📒 Academia/STA130/Ethics Considerations\|Ethics Considerations]]
+	- [[100 📒 Academia/STA130/Week 2 Lecture\|Week 2 Lecture]]
+	- [[100 📒 Academia/STA130/W2/Visualizations\|Visualizations]]
+		- [[100 📒 Academia/STA130/W2/Histograms\|Histograms]]
+		- [[100 📒 Academia/STA130/W2/Boxplots\|Boxplots]]
+		- [[100 📒 Academia/STA130/W2/Barplots\|Barplots]]
+		- [[100 📒 Academia/STA130/W2/Pie charts\|Pie charts]]
+	- [[100 📒 Academia/STA130/W3/Ethics Considerations\|Ethics Considerations]]
 - Week 3
-	- [[100 📒 Academia/STA130/Ethics Considerations\|Ethics Considerations]]
-		- [[100 📒 Academia/STA130/Where does data come from?\|Where does data come from?]]
-	- [[100 📒 Academia/STA130/Data Wrangling\|Data Wrangling]]
-		- [[100 📒 Academia/STA130/Pipe Operators\|Pipe Operators]]
-		- [[100 📒 Academia/STA130/Logical Operators\|Logical Operators]]
+	- [[100 📒 Academia/STA130/W3/Ethics Considerations\|Ethics Considerations]]
+		- [[100 📒 Academia/STA130/W3/Where does data come from?\|Where does data come from?]]
+	- [[100 📒 Academia/STA130/W3/Data Wrangling\|Data Wrangling]]
+		- [[100 📒 Academia/STA130/W3/Pipe Operators\|Pipe Operators]]
+		- [[100 📒 Academia/STA130/W3/Logical Operators\|Logical Operators]]
 		- `filter()`
 		- `arrange()`
 		- `select()`
-	- [[100 📒 Academia/STA130/Summary Statistics\|Summary Statistics]]
+	- [[100 📒 Academia/STA130/W3/Summary Statistics\|Summary Statistics]]
 		- `summarize()`
 		- `group_by()`
 		- `mutate()`
@@ -38,21 +38,35 @@
 - Week 4
 	- [[100 📒 Academia/STA130/Midterm Info\|Midterm Info]]
 	- [[100 📒 Academia/STA130/Week 4 Lecture\|Week 4 Lecture]]
-		- [[100 📒 Academia/STA130/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]]
-		- [[100 📒 Academia/STA130/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]]
-			- [[100 📒 Academia/STA130/Variable Types in R\|Variable Types in R]]
-			- [[100 📒 Academia/STA130/R Vectors\|R Vectors]]
-			- [[100 📒 Academia/STA130/Coercion\|Coercion]]
-			- [[100 📒 Academia/STA130/Randomness in Programming\|Randomness in Programming]]
-		- [[100 📒 Academia/STA130/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]]
+		- [[100 📒 Academia/STA130/W4/Populations, Samples, and Hypotheses\|Populations, Samples, and Hypotheses]]
+		- [[100 📒 Academia/STA130/W4/Sampling Distributions and Simulations\|Sampling Distributions and Simulations]]
+			- [[100 📒 Academia/STA130/W4/Variable Types in R\|Variable Types in R]]
+			- [[100 📒 Academia/STA130/W4/R Vectors\|R Vectors]]
+			- [[100 📒 Academia/STA130/W4/Coercion\|Coercion]]
+			- [[100 📒 Academia/STA130/W4/Randomness in Programming\|Randomness in Programming]]
+		- [[100 📒 Academia/STA130/W4/Hypothesis Testing and p-values\|Hypothesis Testing and p-values]]
 - Week 5
 	- [[100 📒 Academia/STA130/Week 5 Lecture\|Week 5 Lecture]]
 		- [[100 📒 Academia/STA130/Week 5 Lecture#Midterm Information\|Midterm information]]
-		- [[100 📒 Academia/STA130/Working with Numeric (Continuous) Simulations\|Working with Numeric (Continuous) Simulations]]
-			- [[100 📒 Academia/STA130/Working with Numeric (Continuous) Simulations#Permutation Test\|Permutation Test]]
-		- [[100 📒 Academia/STA130/Confounding Variables\|Confounding Variables]]
-		- [[100 📒 Academia/STA130/Correlation vs. Causation\|Correlation vs. Causation]]
+		- [[100 📒 Academia/STA130/W5/Working with Numeric (Continuous) Simulations\|Working with Numeric (Continuous) Simulations]]
+			- [[100 📒 Academia/STA130/W5/Working with Numeric (Continuous) Simulations#Permutation Test\|Permutation Test]]
+		- [[100 📒 Academia/STA130/W5/Confounding Variables\|Confounding Variables]]
+		- [[100 📒 Academia/STA130/W5/Correlation vs. Causation\|Correlation vs. Causation]]
 - Week 6
 	- [[100 📒 Academia/STA130/Week 6 Lecture\|Week 6 Lecture]]
 		- [[100 📒 Academia/STA130/Week 6 Lecture#Correlation, Causation, and Confounding\|Correlation, causation, and confounding]]
-		- [[100 📒 Academia/STA130/P-hacking\|P-hacking]]
+		- [[100 📒 Academia/STA130/W6/P-hacking\|P-hacking]]
+- Week 7
+	- [[100 📒 Academia/STA130/Week 7 Lecture\|Week 7 Lecture]]
+		- [[100 📒 Academia/STA130/W7/Statistical Inference - Testing vs Estimation\|Statistical Inference - Testing vs Estimation]]
+			- Sampling distributions
+		- [[100 📒 Academia/STA130/W7/Bootstrapping\|Bootstrapping]]
+		- [[100 📒 Academia/STA130/W7/Confidence Intervals\|Confidence Intervals]]
+			- `quantile()`
+- Week 8
+	- [[100 📒 Academia/STA130/Week 8 Lecture\|Week 8 Lecture]]
+		- [[100 📒 Academia/STA130/W8/Clustering\|Clustering]]
+			- Loss functions, MSE, MAE
+		- [[100 📒 Academia/STA130/W8/K-Means Algorithm\|K-Means Algorithm]]
+			- `kmeans()`
+		- [[100 📒 Academia/STA130/W8/How Many Clusters Is Enough\|How Many Clusters Is Enough]]
