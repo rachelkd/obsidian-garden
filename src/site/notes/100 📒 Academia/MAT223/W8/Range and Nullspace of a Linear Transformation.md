@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W8/Range and Nullspace of a Linear Transformation.md","permalink":"/academia/mat-223/w8/range-and-nullspace-of-a-linear-transformation/","created":"2024-03-03T21:02:01.353-05:00","updated":"2024-03-03T22:32:10.307-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W8/Range and Nullspace of a Linear Transformation.md","permalink":"/academia/mat-223/w8/range-and-nullspace-of-a-linear-transformation/","created":"2024-03-03T21:02:01.353-05:00","updated":"2024-03-09T20:43:17.828-05:00"}
 ---
 
 **Preamble**
@@ -89,6 +89,31 @@ Since $\text{null}(T)$ is a line, we know $\text{nullity}(T) = 1$.
 
 ### Find the null space of a given $M$. #example 
 Find the null space of $M = \begin{bmatrix} 1 & 2 & 5 \\ 2 & -2 & -2 \end{bmatrix}$.
-To find the null space of $M$, we need to solve the homogeneous matrix equation $M \vec{x} = \vec{0}$. Row reducing, we see $$\text{rref}(M) = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix}$$ and so the $z$ column is a free variable column. Therefore, the complete solution can be expressed in vector form as $$\begin{bmatrix} x \\ y \\ z \end{bmatrix} = t \begin{bmatrix} -1 \\ -2 \\ 1 \end{bmatrix}$$and so null($M$) $= \text{span}\Bigg\{\begin{bmatrix} -1 \\ -2 \\ 1 \end{bmatrix} \Bigg \}$
+To find the null space of $M$, we need to solve the homogeneous matrix equation $M \vec{x} = \vec{0}$. Row reducing, we see $$\text{rref}(M) = \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix}$$$$\begin{cases} x+z = 0 \\ y + 2z = 0 \end{cases}$$and so the $z$ column is a free variable column. Therefore, the complete solution can be expressed in vector form as $$\begin{bmatrix} x \\ y \\ z \end{bmatrix} = t \begin{bmatrix} -1 \\ -2 \\ 1 \end{bmatrix}$$and so null($M$) $= \text{span}\Bigg\{\begin{bmatrix} -1 \\ -2 \\ 1 \end{bmatrix} \Bigg \}$
 ### Finding row space and column space of $M$. #example 
 ![](https://i.imgur.com/IX71reN.png)
+
+> [!seealso] **Definition of transpose.** #definition 
+> Let $M$ be an $n \times m$ matrix defined by $$M = \begin{bmatrix} a_{11} & a_{12} & a_{13} & \dots & a_{1m} \\ a_{21} & a_{22} & a_{23} & \dots & a_{2m} \\ \vdots & \vdots  & \vdots & \ddots  & \vdots \\ a_{n1} & a_{n2} & a_{n3} & \dots & a_{nm} \end{bmatrix}$$
+> The **transpose** of $M$, notated $M^{T}$, is the $m \times n$ matrix produced by swapped the rows and columns of $M$. That is 
+> $$M^{T} = \begin{bmatrix} a_{11} & a_{21} & \dots & a_{n1} \\ a_{12} & a_{22} & \dots & a_{n2} \\ a_{13} & a_{23} & \dots & a_{n3} \\ \vdots & \vdots & \ddots & \vdots \\ a_{1m} & a_{2m} & \dots & a_{nm} \end{bmatrix}$$
+{ #997948}
+
+
+Using *transpose*, we can make statements like $$\begin{align*} \text{col}(M) = \text{row}(M^{T}) && \text{and} && \text{row}(M) = \text{col}(M^{T}) \end{align*}$$
+> [!abstract] **Theorem. (Row-Col Dimension)**
+> For a matrix $A$, the dimension of the row space equals the dimension of the column space.
+
+#### Proof of theorem
+![](https://i.imgur.com/EREbfpI.png)
+
+
+# Equations, Null Spaces, and Geometry
+
+p. 130-
+
+> [!abstract] **Theorem.**
+> Let $A$ be a matrix, $\vec{b}$ be a vector, and let $\vec{p}$ be a particular solution to $A \vec{x} = \vec{b}$.
+> Then, the set of all solutions to $A \vec{x} = \vec{b}$ is $$\text{null}(A) + \{ \vec{p} \}$$
+
+\*Note that this is set addition.
