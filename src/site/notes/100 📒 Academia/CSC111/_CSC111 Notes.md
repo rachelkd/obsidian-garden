@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-05T20:37:45.156-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-14T13:50:22.023-04:00"}
 ---
 
 #CSC111 
@@ -55,7 +55,8 @@
 - 17.4 [[100 📒 Academia/CSC111/Course Notes/Connectivity and Recursive Graph Traversal\|Connectivity and Recursive Graph Traversal]]
 - 17.5 [[100 📒 Academia/CSC111/Course Notes/A Limit for Connectedness\|A Limit for Connectedness]]
 - 17.6 [[100 📒 Academia/CSC111/Course Notes/Cycles and Trees\|Cycles and Trees]]
-- L14 [[000 Zettlekasten/Week 8 Lecture\|Week 8 Lecture]]
+- L14 [[100 📒 Academia/CSC111/Lecture Notes/Week 8 Lecture\|Week 8 Lecture]]
 
-
+# 18. Sorting
+- L15 [[100 📒 Academia/CSC111/Lecture Notes/Week 9 Lecture\|Week 9 Lecture]]
 
