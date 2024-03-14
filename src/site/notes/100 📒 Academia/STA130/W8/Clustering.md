@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W8/Clustering.md","permalink":"/academia/sta-130/w8/clustering/","created":"2024-03-04T13:20:24.103-05:00","updated":"2024-03-05T15:21:53.898-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W8/Clustering.md","permalink":"/academia/sta-130/w8/clustering/","created":"2024-03-04T13:20:24.103-05:00","updated":"2024-03-11T22:14:16.215-04:00"}
 ---
 
 **Preamble**
@@ -60,4 +60,4 @@ Common *alternative* loss function is:
 	3. MAE
 		- Anomalies
 
-Back to [[100 📒 Academia/STA130/Week 8 Lecture\|100 📒 Academia/STA130/Week 8 Lecture]]
+Back to [[100 📒 Academia/STA130/Week 8 Lecture\|Week 8 Lecture]].
