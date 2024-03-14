@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W7/Statistical Inference - Testing vs Estimation.md","permalink":"/academia/sta-130/w7/statistical-inference-testing-vs-estimation/","created":"2024-02-26T13:13:12.962-05:00","updated":"2024-02-26T14:07:55.315-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W7/Statistical Inference - Testing vs Estimation.md","permalink":"/academia/sta-130/w7/statistical-inference-testing-vs-estimation/","created":"2024-02-26T13:13:12.962-05:00","updated":"2024-03-05T22:05:27.118-05:00"}
 ---
 
 **Preamble**
@@ -128,7 +128,7 @@ sample25 %>% summarise(mean_delay = mean(arr_delay),
 - What is the **sampling distribution**?
 	- the set of all possible values that the sample mean $\hat{\mu}$ can take for a random sample of size $n = 25$
 - What is the **sampling distribution** of?
-	- the **population parameter**
+	- the **the observed test statistic/estimate**
 
 ### What does the sample distribution tell us?
 
