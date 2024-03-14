@@ -147,6 +147,6 @@ We have decided to perform the following 2-sample [[100 📒 Academia/STA130/W4/
 
 > [!question] Is the above test valid? If so, can we guarantee a 1% Type I error rate?
 > - **No.**
-> - This is called [[000 Zettlekasten/Double-Dipping\|Double-Dipping]]
+> - This is called [[100 📒 Academia/STA130/W8/Double-Dipping\|Double-Dipping]]
 
 Back to [[100 📒 Academia/STA130/Week 8 Lecture\|Week 8 Lecture]].
