@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-01-28T14:58:49.334-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Systems of Linear Equations II.md","permalink":"/academia/mat-223/w3/systems-of-linear-equations-ii/","created":"2024-01-26T13:43:56.596-05:00","updated":"2024-03-09T16:51:48.863-05:00"}
 ---
 
 **Preamble**
@@ -46,5 +46,3 @@ x - 2y &= 0\\
 \vec{x} &= t \begin{bmatrix} 2 \\ 1 \end{bmatrix} && \text{(vector form of line)}
 \end{align*}
 $$
-
-#todo
