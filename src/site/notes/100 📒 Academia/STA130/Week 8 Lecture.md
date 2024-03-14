@@ -50,4 +50,4 @@ Data from [[100 📒 Academia/STA130/W7/Bootstrapping\|Bootstrapping]].
 
 # Double-dipping
 
-→ [[000 Zettlekasten/Double-Dipping\|Double-Dipping]]
+→ [[100 📒 Academia/STA130/W8/Double-Dipping\|Double-Dipping]]
