@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-01-28T14:58:49.328-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W3/Spans.md","permalink":"/academia/mat-223/w3/spans/","created":"2024-01-24T13:05:59.177-05:00","updated":"2024-03-09T16:51:52.222-05:00"}
 ---
 
 **Preamble**
@@ -122,5 +122,3 @@ $$\begin{align*}
 \implies a_{2} &= y + z - 3x
 \end{align*}$$
 which is always a solution (no matter $x, y, z$). Therefore, $\text{span}\{\vec{a}, \vec{b}, \vec{c}\}$.
-
-#todo
