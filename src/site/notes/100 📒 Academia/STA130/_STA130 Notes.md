@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-03-05T20:40:05.084-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-03-12T20:24:13.066-04:00"}
 ---
 
 
@@ -70,3 +70,7 @@
 		- [[100 📒 Academia/STA130/W8/K-Means Algorithm\|K-Means Algorithm]]
 			- `kmeans()`
 		- [[100 📒 Academia/STA130/W8/How Many Clusters Is Enough\|How Many Clusters Is Enough]]
+- Week 9
+    - [[100 📒 Academia/STA130/Week 9 Lecture\|Week 9 Lecture]]
+        - [[000 Zettlekasten/Supervised vs Unsupervised Learning\|Supervised vs Unsupervised Learning]]
+        - 
