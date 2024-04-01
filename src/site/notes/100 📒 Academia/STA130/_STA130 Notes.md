@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-03-12T20:24:13.066-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/_STA130 Notes.md","permalink":"/academia/sta-130/sta-130-notes/","created":"2024-01-15T15:36:05.063-05:00","updated":"2024-04-01T18:20:35.218-04:00"}
 ---
 
 
@@ -72,5 +72,18 @@
 		- [[100 📒 Academia/STA130/W8/How Many Clusters Is Enough\|How Many Clusters Is Enough]]
 - Week 9
     - [[100 📒 Academia/STA130/Week 9 Lecture\|Week 9 Lecture]]
-        - [[000 Zettlekasten/Supervised vs Unsupervised Learning\|Supervised vs Unsupervised Learning]]
-        - 
+        - [[100 📒 Academia/STA130/W9/Supervised vs Unsupervised Learning\|Supervised vs Unsupervised Learning]]
+    - [[100 📒 Academia/STA130/Week 9 Flashcards\|Week 9 Flashcards]]
+- Week 10
+    - [[100 📒 Academia/STA130/Week 10 Lecture\|Week 10 Lecture]]
+        - [[100 📒 Academia/STA130/W10/Simple Linear Regression Model\|Simple Linear Regression Model]]
+        - [[100 📒 Academia/STA130/W10/Simple Linear Regression Model with a Categorial Predictor\|Simple Linear Regression Model with a Categorial Predictor]]
+- Week 11
+    - [[100 📒 Academia/STA130/Week 11 Lecture\|Week 11 Lecture]]
+        - [[100 📒 Academia/STA130/W11/Multiple Linear Regression\|Multiple Linear Regression]]
+        - [[100 📒 Academia/STA130/W11/Interactions\|Interactions]]
+        - [[100 📒 Academia/STA130/W11/Multiple Coefficient Testing\|Multiple Coefficient Testing]]
+        - [[100 📒 Academia/STA130/W11/Measuring and assessing prediction accuracy\|Measuring and assessing prediction accuracy]]
+        - [[100 📒 Academia/STA130/W11/Overfitting\|Overfitting]]
+        - [[100 📒 Academia/STA130/W11/Model Comparison and Selection\|Model Comparison and Selection]]
+        - What is (and isn’t) a “linear” regression model?
