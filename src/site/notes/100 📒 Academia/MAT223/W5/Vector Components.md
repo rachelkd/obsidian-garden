@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT223/W5/Vector Components.md","permalink":"/academia/mat-223/w5/vector-components/","created":"2024-02-03T21:38:17.079-05:00","updated":"2024-02-03T22:01:49.056-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT223/W5/Vector Components.md","permalink":"/academia/mat-223/w5/vector-components/","created":"2024-02-03T21:38:17.079-05:00","updated":"2024-03-16T20:55:02.715-04:00"}
 ---
 
 **Preamble**
@@ -10,7 +10,7 @@ Module: 5
 
 ---
 
-### Definition of vector componenets. #definition 
+### Definition of vector components. #definition 
 
 ![5_vector_components.png](/img/user/Files/MAT223/5_vector_components.png)
 
