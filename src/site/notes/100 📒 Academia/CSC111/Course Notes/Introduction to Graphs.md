@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Introduction to Graphs.md","permalink":"/academia/csc-111/course-notes/introduction-to-graphs/","created":"2024-02-25T17:49:38.654-05:00","updated":"2024-02-29T01:37:23.433-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Introduction to Graphs.md","permalink":"/academia/csc-111/course-notes/introduction-to-graphs/","created":"2024-02-25T17:49:38.654-05:00","updated":"2024-03-24T14:57:37.125-04:00"}
 ---
 
 **Preamble**
