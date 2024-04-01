@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/Week 9 Lecture.md","permalink":"/academia/sta-130/week-9-lecture/","created":"2024-03-11T13:23:56.512-04:00","updated":"2024-03-12T22:14:39.355-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/Week 9 Lecture.md","permalink":"/academia/sta-130/week-9-lecture/","created":"2024-03-11T13:23:56.512-04:00","updated":"2024-03-15T14:24:34.368-04:00"}
 ---
 
 **Preamble**
@@ -17,7 +17,7 @@ Last week, we discussed [[100 📒 Academia/STA130/W8/Clustering\|clustering]] (
     - We do not know if we are right or wrong: we are just grouping data as best as possible
 - This is **unsupervised learning**
 
-→ [[000 Zettlekasten/Supervised vs Unsupervised Learning\|Supervised vs Unsupervised Learning]] 
+→ [[100 📒 Academia/STA130/W9/Supervised vs Unsupervised Learning\|Supervised vs Unsupervised Learning]] 
 
 ---
 # Anatomy of a classification tree
@@ -56,9 +56,9 @@ $ SleepTrouble    <chr> "Yes", "No", "No", "Yes", "Yes", "No", "Yes", "No", "…
 ---
 # Classification Trees
 
-→ [[000 Zettlekasten/Classification Trees\|Classification Trees]]
-→ [[000 Zettlekasten/Evaluating the Prediction Accuracy of a Tree\|Evaluating the Prediction Accuracy of a Tree]]
-→ [[000 Zettlekasten/How a Tree is Fit\|How a Tree is Fit]]
+→ [[100 📒 Academia/STA130/W9/Classification Trees\|Classification Trees]]
+→ [[100 📒 Academia/STA130/W9/Evaluating the Prediction Accuracy of a Tree\|Evaluating the Prediction Accuracy of a Tree]]
+→ [[100 📒 Academia/STA130/W9/How a Tree is Fit\|How a Tree is Fit]]
 
 ---
 # Final notes on classification trees
