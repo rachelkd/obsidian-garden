@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W2/Scatterplots.md","permalink":"/academia/sta-130/w2/scatterplots/","created":"2024-01-16T20:40:08.180-05:00","updated":"2024-01-16T23:55:18.029-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W2/Scatterplots.md","permalink":"/academia/sta-130/w2/scatterplots/","created":"2024-01-16T20:40:08.180-05:00","updated":"2024-03-18T13:24:29.578-04:00"}
 ---
 
 **Preamble**
@@ -16,6 +16,7 @@ Date: 2024-01-16
 		- one on the x-axis
 		- other one on the y-axis
 	- → One point for each observation
+		- Missing values do not appear in the scatterplot
 
 ## Features of the association between two numerical variables
 
