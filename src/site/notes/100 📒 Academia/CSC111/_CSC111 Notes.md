@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-14T13:50:22.023-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-26T11:46:00.018-04:00"}
 ---
 
 #CSC111 
@@ -59,4 +59,10 @@
 
 # 18. Sorting
 - L15 [[100 📒 Academia/CSC111/Lecture Notes/Week 9 Lecture\|Week 9 Lecture]]
+    - Selection sort
+    - Insertion sort
+- 18.1 [[100 📒 Academia/CSC111/Course Notes/Sorted Lists and Binary Search\|Sorted Lists and Binary Search]]
+- 18.5 [[100 📒 Academia/CSC111/Course Notes/Mergesort\|Mergesort]]
+- L18 [[100 📒 Academia/CSC111/Lecture Notes/Week 10 Lecture\|Week 10 Lecture]]
+    - Quicksort
 
