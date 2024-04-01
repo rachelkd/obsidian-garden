@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/A Limit for Connectedness.md","permalink":"/academia/csc-111/course-notes/a-limit-for-connectedness/","created":"2024-03-01T20:41:31.712-05:00","updated":"2024-03-04T12:36:59.947-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/A Limit for Connectedness.md","permalink":"/academia/csc-111/course-notes/a-limit-for-connectedness/","created":"2024-03-01T20:41:31.712-05:00","updated":"2024-03-24T19:59:23.561-04:00"}
 ---
 
 **Preamble**
@@ -109,7 +109,7 @@ Assume $|E| < \frac{(k+1)k}{2}$.
 
 - Since $G$ has fewer than the max. number of possible edges, there exists a vertex pair $(u, v)$ which is *not* an edge
 	- Both $u$ and $v$ have at most $k - 1$ neighbours, since there are $k - 1$ vertices in $G$ other than these two
-	- Show that both $u$ and $v$ have at least one neighbour!
+	- Show that both $u$ and $v$ have at least one neighbour as an exercise!
 - Let $v$ be a vertex which has at most $k - 1$ neighbours. Let $G' = (V', E')$ be the graph which is formed by taking $G$ and removing $v$ from $V$ and all edges in $E$ which use $v$.
 	- Then, $|V'| = |V| - 1 = k$,
 		- i.e., we’ve decreased the number of vertices by one
