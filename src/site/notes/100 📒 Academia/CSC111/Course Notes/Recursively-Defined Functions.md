@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-02-12T15:22:03.378-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Course Notes/Recursively-Defined Functions.md","permalink":"/academia/csc-111/course-notes/recursively-defined-functions/","created":"2024-01-21T12:22:34.637-05:00","updated":"2024-04-17T16:44:20.574-04:00"}
 ---
 
 **Preamble**
@@ -73,7 +73,7 @@ Let `f` be a Python function. We say that `f` is a **recursively-defined functio
 		- Example. Reason inductively about the call `f(100)`.
 			- When we call `f(100)`, the recursive call `f(100 - 1) == f(99)` is made. _Assuming_ this call is correct, it returns `4950` (the sum of the numbers between 0 and 99, inclusive).
 			- Then `4950 + 100 == 5050` is returned.
-		- Partial indicates that we do not trace into any recursive calls, but *assume* that thtey work correctly
+		- Partial indicates that we do not trace into any recursive calls, but *assume* that they work correctly
 
 # The Euclidean Algorithm, revisited
 
