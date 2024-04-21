@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W4/Hypothesis Testing and p-values.md","permalink":"/academia/sta-130/w4/hypothesis-testing-and-p-values/","created":"2024-01-29T14:44:39.842-05:00","updated":"2024-02-01T14:34:30.867-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W4/Hypothesis Testing and p-values.md","permalink":"/academia/sta-130/w4/hypothesis-testing-and-p-values/","created":"2024-01-29T14:44:39.842-05:00","updated":"2024-04-21T16:57:45.302-04:00"}
 ---
 
 **Preamble**
@@ -17,7 +17,7 @@ Date: 2024-01-29
 - **Two-sided test**:
 	- $$\text{p-value} = \frac{\text{\# simulations where } |{TS}_{sim} - f_{0}| \geq |{TS}_{obs} - f_{0}|}{\text{\# of simulations}}$$
 	- In our example from [[100 📒 Academia/STA130/Week 4 Lecture\|W4 lecture]],
-		- $TS_{sim} = 0.3 = \frac{3}{10}$ is the blue line on left
+		- $TS_{obs} = 0.3 = \frac{3}{10}$ is the blue line on left
 			- Blue line on right ($0.7$) is the same distance as $TS_{obs}$ to $H_{0} = 0.5$
 		- Center black line = $f_{0}$ : value under $H_{0} = 0.5$
 		- All the shaded blue region incl. line are the $TS_{sim}$ values as or more extreme than $TS_{obs}$
