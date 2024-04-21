@@ -31,7 +31,7 @@ Date: 2024-04-01
 
 # $R^{2}$ vs. RMSE
 
-![[r_squared_vs_rmse.png]]
+![[r_squared_vs_rmse.png\|r_squared_vs_rmse.png]]
 
 ---
 Back to [[100 📒 Academia/STA130/Week 11 Lecture\|Week 11 Lecture]].
