@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-03-26T11:46:00.018-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/_CSC111 Notes.md","permalink":"/academia/csc-111/csc-111-notes/","created":"2024-01-13T16:57:25.473-05:00","updated":"2024-04-16T16:05:50.105-04:00"}
 ---
 
 #CSC111 
@@ -66,3 +66,6 @@
 - L18 [[100 📒 Academia/CSC111/Lecture Notes/Week 10 Lecture\|Week 10 Lecture]]
     - Quicksort
 
+
+# Exam
+- [[000 Zettlekasten/CSC111 Final\|CSC111 Final]]
