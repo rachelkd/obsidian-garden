@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Tree Deletion Algorithms.md","permalink":"/academia/csc-111/lecture-notes/tree-deletion-algorithms/","created":"2024-02-04T00:10:14.882-05:00","updated":"2024-02-04T13:24:58.124-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Tree Deletion Algorithms.md","permalink":"/academia/csc-111/lecture-notes/tree-deletion-algorithms/","created":"2024-02-04T00:10:14.882-05:00","updated":"2024-04-17T22:37:50.276-04:00"}
 ---
 
 **Preamble**
@@ -18,7 +18,7 @@ class TreeNode:
 	Representation Invariants:
 		- self._item is not none or self._children == []
 	"""
-	# Private INstance Attributes:
+	# Private Instance Attributes:
 	#    - _item:
 	#        The item stored in this node, or None if the tree that
 	#        has this node as its root is empty.
