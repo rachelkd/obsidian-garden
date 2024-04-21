@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Week 9 Lecture.md","permalink":"/academia/csc-111/lecture-notes/week-9-lecture/","created":"2024-03-12T15:26:00.268-04:00","updated":"2024-03-16T18:36:17.445-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC111/Lecture Notes/Week 9 Lecture.md","permalink":"/academia/csc-111/lecture-notes/week-9-lecture/","created":"2024-03-12T15:26:00.268-04:00","updated":"2024-04-19T23:30:14.026-04:00"}
 ---
 
 **Preamble**
@@ -127,7 +127,7 @@ def _insert(lst: list, i: int) -> None:
 #### Lower bound on worst-case runtime
 - Let $n \in \mathbb{N}$.
 - Let `lst` be the list `[n - 1, n - 2, ..., 1, 0]`
-- In this case, for every $i \in \mathbb{N}$ with $i < n$, `lst[i]` is always less than every element in `lst[:i}`
+- In this case, for every $i \in \mathbb{N}$ with $i < n$, `lst[i]` is always less than every element in `lst[:i]`
 - WC Running time is $\Theta(n^{2})$
 
 ## Selection sort vs. insertion sort
@@ -175,10 +175,10 @@ def _insert_by_key(lst: list, i: int, key: Optional[Callable] = None) -> None:
     """
     if key is None:
         # Same as original insertion sort algorithm
-       if lst[j - 1]) <= lst[j]):
+        if lst[j - 1] <= lst[j]:
                 return
-            else:
-                lst[j - 1], lst[j] = lst[j], lst[j - 1]
+        else:
+            lst[j - 1], lst[j] = lst[j], lst[j - 1]
 
     else: # `key` is a function that we should use to compare values
         for j in range(i, 0, -1):
