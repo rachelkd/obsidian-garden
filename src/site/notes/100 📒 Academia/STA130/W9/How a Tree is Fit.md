@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W9/How a Tree is Fit.md","permalink":"/academia/sta-130/w9/how-a-tree-is-fit/","created":"2024-03-12T21:43:42.280-04:00","updated":"2024-03-12T22:10:35.684-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W9/How a Tree is Fit.md","permalink":"/academia/sta-130/w9/how-a-tree-is-fit/","created":"2024-03-12T21:43:42.280-04:00","updated":"2024-04-21T21:55:34.366-04:00"}
 ---
 
 **Preamble**
@@ -13,7 +13,7 @@ Date: 2024-03-12
 1. A **response** variable ($y$, what we want to predict)
     - categorical
 2. A set of candidate **predictors** ($x_{i}, i = 1, \dots, M$)
-3. A set of **binary* questions** (e.g.,, is $x_{i} \ge 25$?)
+3. A set of **binary* questions** (e.g., is $x_{i} \ge 25$?)
 4. A method to evaluate **if a split is “good”**
 5. A rule to decide when to **stop splitting**
 6. A **way to make a prediction** for each terminal node
