@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W8/Double-Dipping.md","permalink":"/academia/sta-130/w8/double-dipping/","created":"2024-03-05T21:47:57.501-05:00","updated":"2024-03-07T12:45:05.033-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W8/Double-Dipping.md","permalink":"/academia/sta-130/w8/double-dipping/","created":"2024-03-05T21:47:57.501-05:00","updated":"2024-04-21T21:32:07.499-04:00"}
 ---
 
 **Preamble**
@@ -35,8 +35,8 @@ Date: 2024-03-05
 # How do we avoid double-dipping?
 
 1. **Do not use all of your data when building your model.**
-    - (In machine learning language:)
-    - Use most of the data for *training* the model, but leave some for *validating* the model (e.g., a practice exam), and some for *testing* the model (e.g,  a final exam)
+    - (In machine learning language)
+    - Use most of the data for *training* the model, but leave some for *validating* the model (e.g., a practice exam), and some for *testing* the model (e.g, a final exam)
         - e.g., If you look at an answer sheet before you take a practice exam, then you are sort of biased now
 2. **Correct for the expected impacts of reusing the data in your test statistics.**
 
