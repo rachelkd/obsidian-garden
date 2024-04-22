@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W8/How Many Clusters Is Enough.md","permalink":"/academia/sta-130/w8/how-many-clusters-is-enough/","created":"2024-03-04T14:33:42.410-05:00","updated":"2024-03-05T21:47:44.180-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W8/How Many Clusters Is Enough.md","permalink":"/academia/sta-130/w8/how-many-clusters-is-enough/","created":"2024-03-04T14:33:42.410-05:00","updated":"2024-04-21T21:24:18.980-04:00"}
 ---
 
 **Preamble**
@@ -33,7 +33,7 @@ Within cluster sum of squares by cluster:
 
 1. We find the sum of squares total.
     - **”One cluster” baseline**
-    - $$SS_{Total} = \sum\limits_{i=1}^{n} \Bigg( \sum\limits_{j=1}^{m} x_{i, j} - x_{j}^{\text{mean}})^{2} \Bigg)$$
+    - $$SS_{Total} = \sum\limits_{i=1}^{n} \Bigg( \sum\limits_{j=1}^{m} (x_{i, j} - x_{j}^{\text{mean}})^{2} \Bigg)$$
     - i.e., [[100 📒 Academia/STA130/W8/Clustering#Loss functions\|MSE]] without the mean
 2. We find the sum of squares for each cluster.
     - **Performance of each cluster $C$**
