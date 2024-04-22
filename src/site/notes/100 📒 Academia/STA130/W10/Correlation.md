@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W10/Correlation.md","permalink":"/academia/sta-130/w10/correlation/","created":"2024-03-18T13:27:13.106-04:00","updated":"2024-04-01T18:20:35.208-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W10/Correlation.md","permalink":"/academia/sta-130/w10/correlation/","created":"2024-03-18T13:27:13.106-04:00","updated":"2024-04-22T03:03:02.307-04:00"}
 ---
 
 **Preamble**
@@ -45,4 +45,4 @@ The correlation between the shoeprint length and height in our sample of 40 indi
 
 ![](https://i.imgur.com/dAtSuLq.png)
 
-Back to [[100 📒 Academia/STA130/Week 10 Lecture\|100 📒 Academia/STA130/Week 10 Lecture]].
+Back to [[100 📒 Academia/STA130/Week 10 Lecture\|Week 10 Lecture]].
