@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W7/Statistical Inference - Testing vs Estimation.md","permalink":"/academia/sta-130/w7/statistical-inference-testing-vs-estimation/","created":"2024-02-26T13:13:12.962-05:00","updated":"2024-03-05T22:05:27.118-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W7/Statistical Inference - Testing vs Estimation.md","permalink":"/academia/sta-130/w7/statistical-inference-testing-vs-estimation/","created":"2024-02-26T13:13:12.962-05:00","updated":"2024-04-21T19:59:31.788-04:00"}
 ---
 
 **Preamble**
@@ -17,7 +17,7 @@ Date: 2024-02-26
 1. Hypothesis test
 	- evaluate evidence against a particular value for parameter
 2. **Confidence interval**
-	-  estimate of a parameter
+	- estimate of a parameter
 	- gives range of plausible values of parameter
 
 ## Hypothesis Testing using numerical simulations
@@ -128,7 +128,7 @@ sample25 %>% summarise(mean_delay = mean(arr_delay),
 - What is the **sampling distribution**?
 	- the set of all possible values that the sample mean $\hat{\mu}$ can take for a random sample of size $n = 25$
 - What is the **sampling distribution** of?
-	- the **the observed test statistic/estimate**
+	- the **observed test statistic/estimate**
 
 ### What does the sample distribution tell us?
 
