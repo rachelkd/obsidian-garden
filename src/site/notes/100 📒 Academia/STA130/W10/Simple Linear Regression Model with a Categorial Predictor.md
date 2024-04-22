@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W10/Simple Linear Regression Model with a Categorial Predictor.md","permalink":"/academia/sta-130/w10/simple-linear-regression-model-with-a-categorial-predictor/","created":"2024-03-21T20:40:07.155-04:00","updated":"2024-04-01T18:20:35.213-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W10/Simple Linear Regression Model with a Categorial Predictor.md","permalink":"/academia/sta-130/w10/simple-linear-regression-model-with-a-categorial-predictor/","created":"2024-03-21T20:40:07.155-04:00","updated":"2024-04-22T03:52:17.749-04:00"}
 ---
 
 **Preamble**
@@ -26,7 +26,7 @@ Earlier, we introduced this for a numerical predictor: $$Y_{i} = \beta_{0} + \be
 
 - The sex variable takes values `M` and `F`
 - We need an **indicator value** to encode the categorical predictor:
-    - $$x_{i} = I(\text{individual } i \text{ is male}) = \begin{cases} 1 && \text{if individual } i \text{ is male} \\ 0 && \text{if individual } i \text{is female} \end{cases}$$
+    - $$x_{i} = I(\text{individual } i \text{ is male}) = \begin{cases} 1 && \text{if individual } i \text{ is male} \\ 0 && \text{if individual } i \text{ is female} \end{cases}$$
 - We need to set a **baseline value** (i.e., level corresponding to $x = 0$)
     - Here, `F` is the baseline value
 
@@ -49,7 +49,7 @@ sexM         15.79198   1.970046   8.016048 1.085391e-09
     - $\hat{\beta_{1}} = -15.79$
 
 > [!info] The row name in the table of coefficients is a concatenation of our predictor variable (`sex`) and the **non-baseline** value of this predictor (`M`)
-> - $implies$ `M` is not the baseline, `F` is the baseline
+> - $\implies$ `M` is not the baseline, `F` is the baseline
 
 ---
 # Interpreting $\hat{\beta_{0}}$ and $\hat{\beta_{1}}$
