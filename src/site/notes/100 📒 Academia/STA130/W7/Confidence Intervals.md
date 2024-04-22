@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W7/Confidence Intervals.md","permalink":"/academia/sta-130/w7/confidence-intervals/","created":"2024-02-26T14:36:06.679-05:00","updated":"2024-02-26T22:46:59.211-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W7/Confidence Intervals.md","permalink":"/academia/sta-130/w7/confidence-intervals/","created":"2024-02-26T14:36:06.679-05:00","updated":"2024-04-21T20:35:44.632-04:00"}
 ---
 
 **Preamble**
@@ -58,7 +58,7 @@ quantile(boot_means$mean_delay, c(0.025, 0.4, 0.57))
 	2. Compute its **$(0.5 - \frac{X}{100}\cdot\frac{1}{2}, 0.5 + \frac{X}{100}\cdot\frac{1}{2})$ quantiles**
 
 ```r
-quantile(boot_means$mean_delay, c(0.024, 0.975))
+quantile(boot_means$mean_delay, c(0.025, 0.975))
 ```
 ```
      2.5%       97.5%
