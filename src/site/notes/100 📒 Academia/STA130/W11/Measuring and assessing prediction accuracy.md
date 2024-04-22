@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA130/W11/Measuring and assessing prediction accuracy.md","permalink":"/academia/sta-130/w11/measuring-and-assessing-prediction-accuracy/","created":"2024-04-01T13:56:52.163-04:00","updated":"2024-04-01T14:12:29.220-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA130/W11/Measuring and assessing prediction accuracy.md","permalink":"/academia/sta-130/w11/measuring-and-assessing-prediction-accuracy/","created":"2024-04-01T13:56:52.163-04:00","updated":"2024-04-22T15:14:18.896-04:00"}
 ---
 
 **Preamble**
@@ -31,7 +31,7 @@ Date: 2024-04-01
 
 # $R^{2}$ vs. RMSE
 
-![[r_squared_vs_rmse.png\|r_squared_vs_rmse.png]]
+![11_r_squared_vs_rmse.png](/img/user/Files/STA130/11_r_squared_vs_rmse.png)
 
 ---
 Back to [[100 📒 Academia/STA130/Week 11 Lecture\|Week 11 Lecture]].
