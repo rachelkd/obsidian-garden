@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2024-06-22T13:55:35.102-07:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2024-06-22T17:26:22.770-07:00"}
 ---
 
 
@@ -38,10 +38,8 @@
 - [[900 Archive/UofT/Y1/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.9 Defining a Shared Public Interface with Inheritance\|10.9 Defining a Shared Public Interface with Inheritance]]
 - [[900 Archive/UofT/Y1/CSC110/01 Course Notes/10 Abstraction, Classes, Software Design/10.10 The object Superclass\|10.10 The object Superclass]]
 
-# 11. Case Study: Building a Simulation #todo
+# 11. Case Study: Building a Simulation
 
 - [[900 Archive/UofT/Y1/CSC110/01 Course Notes/11 Case Study/11.1 The Problem Domain Food Delivery Networks\|11.1 The Problem Domain Food Delivery Networks]]
 - [[900 Archive/UofT/Y1/CSC110/01 Course Notes/11 Case Study/11.2 Object-Oriented Modelling\|11.2 Object-Oriented Modelling]]
 - [[900 Archive/UofT/Y1/CSC110/01 Course Notes/11 Case Study/11.3 A “Manager” Class\|11.3 A “Manager” Class]]
-- [[11.4 Food Delivery Events\|11.4 Food Delivery Events]]
-- [[11.5 Creating a Discrete-Event Simulation\|11.5 Creating a Discrete-Event Simulation]]

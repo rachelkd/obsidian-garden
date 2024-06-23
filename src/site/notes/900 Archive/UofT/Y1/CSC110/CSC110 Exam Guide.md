@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-exam-guide/","created":"2023-12-12T18:56:56.817-08:00","updated":"2023-12-14T17:01:28.624-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-exam-guide/","created":"2023-12-12T18:56:56.817-08:00","updated":"2024-06-22T17:25:10.677-07:00"}
 ---
 
 #CSC110

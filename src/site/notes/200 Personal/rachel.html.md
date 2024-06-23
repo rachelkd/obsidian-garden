@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-06-22T17:22:56.496-07:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-06-22T17:25:09.633-07:00"}
 ---
 
 # 2024 Course Notes

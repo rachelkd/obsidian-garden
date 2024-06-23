@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/hps-120/key-terms-1/","created":"2023-10-17T11:54:43.201-07:00","updated":"2023-11-07T12:22:31.275-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/hps-120/key-terms-1/","created":"2023-10-17T11:54:43.201-07:00","updated":"2024-06-22T17:26:03.102-07:00"}
 ---
 
 ```table-of-contents
@@ -110,7 +110,7 @@ See [[900 Archive/UofT/Y1/HPS120/01 Lecture Notes/03 Anomalies\|Anomalies]].
 - **When**
 	- This term appeared in the lecture about anomalies.
 - **Why**
-	- The principle relates to [[900 Archive/UofT/Y1/HPS120/Key Terms 1#Retrocognition todo\|retrocognition]]: the phenomenon where an anomaly is not recognized as important until there becomes a reasonable explanation for it. Retrocognition requires a paradigm shift or new theory. If older scientists — especially star scientists who take up time, attention, and resources — are slower to get on board with new theories and models, then science arguably is not about finding objective truth anymore. Rather, science — a field that promises to change its deep structure of theories over time — is stalled by social constructs of who deserves the attention and funding.
+	- The principle relates to [[900 Archive/UofT/Y1/HPS120/Key Terms 1#Retrocognition\|retrocognition]]: the phenomenon where an anomaly is not recognized as important until there becomes a reasonable explanation for it. Retrocognition requires a paradigm shift or new theory. If older scientists — especially star scientists who take up time, attention, and resources — are slower to get on board with new theories and models, then science arguably is not about finding objective truth anymore. Rather, science — a field that promises to change its deep structure of theories over time — is stalled by social constructs of who deserves the attention and funding.
 
 > A new scientific truth does not triumph by converting its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.
 
