@@ -13,7 +13,7 @@ Module: 11
 
 ```ad-def
 title: Definition of **range** #definition 
-The **range** (or *image*) of a linear transformation $T : V \to W$ is the set of vectors that $T$ can output. That is, $$\text{range}(T) = \{ \vec{y} = T \vec{x} \text{ for some } \vec{x} \in V \}$$
+The **range** (or *image*) of a linear transformation $T : V \to W$ is the set of vectors that $T$ can output. That is, $\text{range}(T) = \{ \vec{y} = T \vec{x} \text{ for some } \vec{x} \in V \}$
 ```
 
 - Range of a linear transformation has the same definition as “range of a function”

@@ -34,7 +34,7 @@ By definition of matrix multiplication we know that $$M \begin{bmatrix} 1 \\ 0 \
 Every input to $\mathcal{T}$ can be written as a linear combination of $\vec{e}_{i}$’s → every output of $\mathcal{T}$ can be written as a linear combination of $[C_{i}]_{\mathcal{E}}$’s (since $\mathcal{T}$ is linear). $${\text{range}(\mathcal{T}) = \text{col}(M)}$$
 ```ad-thm
 title: Theorem.
-$${\text{range}(\mathcal{T}) = \text{col}(M)}$$
+${\text{range}(\mathcal{T}) = \text{col}(M)}$
 ```
 
 ### Range and rank of a matrix transformation. #example
@@ -60,7 +60,7 @@ Let $M$ be a matrix. The *[[Range and Nullspace of a Linear Transformation#Rank|
 
 ```ad-thm
 title: Theorem. (Null-space-null-space relationship)
-If $\mathcal{T}$ is a linear transformation with matrix $M$, then $$\text{null}(\mathcal{T}) = \text{null}(M)$$
+If $\mathcal{T}$ is a linear transformation with matrix $M$, then $\text{null}(\mathcal{T}) = \text{null}(M)$
 
 ```
 
@@ -82,12 +82,12 @@ See [[900 Archive/UofT/Y1/MAT223/W8/Range and Nullspace of a Linear Transformati
 
 ```ad-thm
 title: Theorem (Rank-nullity Theorem for Matrices).
-For a matrix $A$, $$\text{rank}(A) + \text{nullity}(A) = \text{\# of columns in } A$$
+For a matrix $A$, $\text{rank}(A) + \text{nullity}(A) = \text{\# of columns in } A$
 
 ```
 
 ```ad-thm
 title: Theorem (Rank-nullity Theorem for Linear Transformations).
-Let $\mathcal{T}$ be a linear transformation. Then $$\text{rank}(\mathcal{T}) + \text{nullity}(\mathcal{T}) = \text{dim}(\text{domain of } \mathcal{T})$$
+Let $\mathcal{T}$ be a linear transformation. Then $\text{rank}(\mathcal{T}) + \text{nullity}(\mathcal{T}) = \text{dim}(\text{domain of } \mathcal{T})$
 
 ```

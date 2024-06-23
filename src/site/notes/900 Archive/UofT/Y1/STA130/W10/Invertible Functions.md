@@ -12,7 +12,7 @@ Module: 12
 
 ```ad-def
 title: Identity Function.
-Let $X$ be a set. The **identity function** with domain and codomain $X$, notated $\text{id} : X \to X$, is the function satisfying $$\text{id}(x) = x$$for all $x \in X$.
+Let $X$ be a set. The **identity function** with domain and codomain $X$, notated $\text{id} : X \to X$, is the function satisfying $\text{id}(x) = x$for all $x \in X$.
 
 ```
 
@@ -27,7 +27,7 @@ Let $X$ be a set. The **identity function** with domain and codomain $X$, notate
 title: Inverse Function.
 Let $f : X \to Y$ be a function.
 - We say $f$ is **invertible** if there exists a function $g : Y \to X$ so that $f \circ g = \text{id}$ and $g \circ f = \text{id}$.
-- in this case, we call $g$ an *inverse* of $f$ and write $$f^{-1} = g.$$
+- in this case, we call $g$ an *inverse* of $f$ and write $f^{-1} = g.$
 
 ```
 
@@ -37,7 +37,7 @@ Let $f : X \to Y$ be a function.
 title: One-to-one.
 Let $f : X \to Y$ be a function.
 - We say $f$ is **one-to-one** (or **injective**) if distinct inputs to $f$ produce distinct outputs
-- That is, $$f(x) = f(y) \implies x = y$$
+- That is, $f(x) = f(y) \implies x = y$
 
 ```
 { #34e6f3}
@@ -50,7 +50,7 @@ Let $f : X \to Y$ be a function.
 title: Onto.
 Let $f : X \to Y$ be a function.
 - We say $f$ is **onto** (or **surjective**) if every point in the codomain of $f$ gets mapped to
-- That is, $$\text{range}(f) = Y$$
+- That is, $\text{range}(f) = Y$
 
 ```
 
