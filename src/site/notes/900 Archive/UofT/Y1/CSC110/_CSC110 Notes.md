@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2024-06-22T17:26:22.770-07:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-110/csc-110-notes/","created":"2023-10-21T18:07:21.554-07:00","updated":"2024-06-22T17:27:15.292-07:00"}
 ---
 
 
