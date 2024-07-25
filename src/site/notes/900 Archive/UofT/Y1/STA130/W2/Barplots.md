@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/w2/barplots/","created":"2024-01-16T17:18:58.350-08:00","updated":"2024-01-19T10:29:29.973-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/w2/barplots/","created":"2024-01-16T17:18:58.350-08:00","updated":"2024-07-24T22:27:39.503-07:00"}
 ---
 
 **Preamble**

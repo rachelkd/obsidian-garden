@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/week-6-lecture/","created":"2024-02-13T16:48:06.506-08:00","updated":"2024-03-04T11:55:29.616-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/week-6-lecture/","created":"2024-02-13T16:48:06.506-08:00","updated":"2024-07-24T10:52:52.241-07:00"}
 ---
 
 **Preamble**

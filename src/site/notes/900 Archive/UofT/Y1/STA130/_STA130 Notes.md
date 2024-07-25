@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/sta-130-notes/","created":"2024-01-15T12:36:05.063-08:00","updated":"2024-04-26T00:16:17.103-07:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/sta-130-notes/","created":"2024-01-15T12:36:05.063-08:00","updated":"2024-06-25T13:49:19.201-07:00"}
 ---
 
 

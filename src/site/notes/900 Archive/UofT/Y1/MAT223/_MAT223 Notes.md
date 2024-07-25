@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/mat-223/mat-223-notes/","created":"2024-01-15T13:09:15.791-08:00","updated":"2024-06-25T10:21:13.200-07:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/mat-223/mat-223-notes/","created":"2024-01-15T13:09:15.791-08:00","updated":"2024-06-25T10:21:19.779-07:00"}
 ---
 
 **Professor**: Pam Sargent

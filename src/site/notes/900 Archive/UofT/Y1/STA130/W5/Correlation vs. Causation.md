@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/w5/correlation-vs-causation/","created":"2024-02-05T20:11:06.831-08:00","updated":"2024-02-13T17:36:13.192-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/sta-130/w5/correlation-vs-causation/","created":"2024-02-05T20:11:06.831-08:00","updated":"2024-07-24T10:53:04.117-07:00"}
 ---
 
 **Preamble**
