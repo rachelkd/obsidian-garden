@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-07-24T22:15:36.808-07:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-07-24T23:10:58.563-07:00"}
 ---
 
-# 2024 Course Notes
+# 2024 - 2025 Fall/Winter
 
 | Courses                                   |                                             | Semester                          |
 | ----------------------------------------- | ------------------------------------------- | --------------------------------- |
@@ -17,9 +17,3 @@
 | [[100 Academia/HPS208/HPS208\|HPS208]] | How We Think About Life                     | <ul><li>W25</li></ul>             |
 
 { .block-language-dataview}
-# 2023 Course Notes
-
-- [[900 Archive/UofT/Y1/CSC110/_CSC110 Notes\|CSC110]]
-- [[900 Archive/UofT/Y1/CSC111/_CSC111 Notes\|CSC111]]
-- [[900 Archive/UofT/Y1/STA130/_STA130 Notes\|STA130]]
-- [[900 Archive/UofT/Y1/MAT223/_MAT223 Notes\|MAT223]]
