@@ -7,6 +7,7 @@
 | Courses                                   |                                             | Semester                          |
 | ----------------------------------------- | ------------------------------------------- | --------------------------------- |
 | [[100 Academia/CSC207/CSC207\|CSC207]] | Software Design                             | <ul><li>F24</li></ul>             |
+| [[100 Academia/CSC236/CSC236\|CSC236]] | Introduction to the Theory of Computation   | <ul><li>F24</li></ul>             |
 | [[100 Academia/CSC300/CSC300\|CSC300]] | Computers and Society                       | <ul><li>F24</li></ul>             |
 | [[100 Academia/STA237/STA237\|STA237]] | Probability, Statistics and Data Analysis I | <ul><li>F24</li></ul>             |
 | [[100 Academia/MAT235/MAT235\|MAT235]] | Multivariable Calculus                      | <ul><li>F24</li><li>W25</li></ul> |
@@ -14,6 +15,5 @@
 | [[100 Academia/CSC258/CSC258\|CSC258]] | Computer Organization                       | <ul><li>W25</li></ul>             |
 | [[100 Academia/CSC263/CSC263\|CSC263]] | Data Structures and Analysis                | <ul><li>W25</li></ul>             |
 | [[100 Academia/HPS208/HPS208\|HPS208]] | How We Think About Life                     | <ul><li>W25</li></ul>             |
-| [[100 Academia/CSC236/CSC236\|CSC236]] | Introduction to the Theory of Computation   | F24                               |
 
 { .block-language-dataview}
