@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-08-04T00:01:24.843-07:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.956-07:00","updated":"2024-08-04T15:59:08.803-07:00"}
 ---
 
 # 2024 - 2025 Fall/Winter

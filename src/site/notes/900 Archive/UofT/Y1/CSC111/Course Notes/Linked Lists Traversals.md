@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-111/course-notes/linked-lists-traversals/","created":"2024-01-13T14:46:24.384-08:00","updated":"2024-01-18T18:01:53.418-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/uof-t/y1/csc-111/course-notes/linked-lists-traversals/","created":"2024-01-13T14:46:24.384-08:00","updated":"2024-08-04T15:52:03.464-07:00"}
 ---
 
 **Preamble**
