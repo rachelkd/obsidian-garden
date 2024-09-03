@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/1-induction/how-to-do-induction-proofs/","tags":["university","#lecture","#cs"],"created":"2024-08-04T16:15:56.390-07:00","updated":"2024-08-06T18:12:26.282-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/1-induction/how-to-do-induction-proofs/","tags":["university","#lecture","#cs"],"created":"2024-08-04T19:15:56.390-04:00","updated":"2024-08-31T13:20:31.168-04:00"}
 ---
 
 # The Principle of Simple Induction
@@ -25,4 +25,6 @@ $$\big(  P(0) \; \land \; \forall k \in \mathbb{N}, P(k) \implies P(k + 1) \big)
     - $$\begin{align*} \sum\limits_{i=0}^{k+1} i &= \bigg( \sum\limits_{i=0}^{k} i \bigg) + (k + 1) \\ &= \frac{k(k+1)}{2} + (k + 1) && \text{(By Induction Hypothesis)} \\ &= (k + 1) \bigg( \frac{k}{2} + 1 \bigg) \\ &= \frac{(k+1)(k+2)}{2} \end{align*}$$<div class="right-align"> <span class="math display">\blacksquare</span> </div>
     - Thus, $P(k+1)$ holds.
 4. By the Principle of Simple Induction, we can conclude that $\forall n \in \mathbb{N}, P(n)$
+
+### 2. Triomino
 

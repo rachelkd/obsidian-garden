@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/1-induction/predicates/","tags":["university","#lecture","#cs"],"created":"2024-08-04T16:29:44.192-07:00","updated":"2024-08-05T13:47:49.693-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/1-induction/predicates/","tags":["university","#lecture","#cs"],"created":"2024-08-04T19:29:44.192-04:00","updated":"2024-08-05T16:47:49.693-04:00"}
 ---
 
 # Predicates
