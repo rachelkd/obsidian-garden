@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:29:06.950-04:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:33:56.269-04:00"}
 ---
 
 > [!question]+ Questions
