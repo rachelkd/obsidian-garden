@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:35:38.172-04:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:46:10.549-04:00"}
 ---
+
+![](https://www.youtube.com/watch?v=zvLRq5e67jQ)
 
 > [!question]+ Questions
 > - How do you know if an action is moral or not?
