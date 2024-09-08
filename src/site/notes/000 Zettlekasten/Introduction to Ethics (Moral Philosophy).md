@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:33:56.269-04:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/introduction-to-ethics-moral-philosophy/","tags":["university","#lecture","#note","#ethics"],"created":"2024-09-08T15:22:52.722-04:00","updated":"2024-09-08T16:35:38.172-04:00"}
 ---
 
 > [!question]+ Questions
@@ -246,3 +246,10 @@ Aristotle argued:
 - For example:
     - Medical ethics: embryonic stem cell research controversy, ending life support debate
     - Environmental ethics: shutting down specific emissions-producing businesses to stop global warming
+
+## What makes a moral issue an applied ethical issue?
+
+1. Issue needs to be controversial; nowhere near a consensus to a correct moral answer
+    - e.g., “Theft is wrong” is generally agreed upon → would not fit into this category
+2. Needs to be a direct moral issue
+    - e.g., Certain tax laws or zoning laws may be controversial, but are not directly moral in nature
