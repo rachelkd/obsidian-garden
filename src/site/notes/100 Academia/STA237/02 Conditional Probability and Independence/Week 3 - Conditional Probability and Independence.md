@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-17T16:54:30.658-04:00","updated":"2024-09-19T15:18:05.563-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-17T16:54:30.658-04:00","updated":"2024-09-19T15:21:40.576-04:00"}
 ---
 
 > [!info]- Learning Objectives
@@ -9,14 +9,15 @@
 > 4. Represent an event as several disjoint subsets to compute its probability using the law of total probability.
 > 5. Recognize the difference between conditional and unconditional events and use appropriate rules (e.g., multiplication rule, Bayes' theorem) to solve problems.
 
+<!-- break -->
 > [!info]- Week Info
 > ##### Slides
 > <p><span><ul>
-<li dir="auto">W3-1.pdf</li>
+<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/STA237/Files/W2-1.pdf" data-href="100 Academia/STA237/Files/W2-1.pdf" href="100 Academia/STA237/Files/W2-1.pdf" class="internal-link" target="_blank" rel="noopener">W2-1.pdf</a></li>
 </ul></span></p>
 
 ---
-# Review and some ntoes
+# Review and some notes
 
 - [[100 Academia/STA237/01 Events and Probabilities/Counting Techniques\|Counting Techniques]]
 - ==Draw sample space== when drawing Venn diagrams to represent events
