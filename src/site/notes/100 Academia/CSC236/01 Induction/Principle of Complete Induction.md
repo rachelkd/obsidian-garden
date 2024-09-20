@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["university","#lecture","#note","cs","todo"],"created":"2024-09-17T13:25:15.675-04:00","updated":"2024-09-20T01:04:16.987-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["university","#lecture","#note","cs","todo"],"created":"2024-09-17T13:25:15.675-04:00","updated":"2024-09-20T01:06:14.194-04:00"}
 ---
 
 > [!note]+ Observation.
@@ -33,18 +33,18 @@
 - Typically think of base case as something you prove directly — without relying on induction
 - Analogy:
     - 
-      ```python
-        # Pre(n): n in naturals
-        def s(n):
-            r = n
-            for k in range(n):
-                # Valid recursive structure:
-                # k take values 0 to n - 1, inclusive,
-                # so k is natural because n is natural
-                # and each call is smaller than n
-                r += s(k)  
-            return r
-        ```
+  ```python
+    # Pre(n): n in naturals
+    def s(n):
+        r = n
+        for k in range(n):
+            # Valid recursive structure:
+            # k take values 0 to n - 1, inclusive,
+            # so k is natural because n is natural
+            # and each call is smaller than n
+            r += s(k)  
+        return r
+    ```
 - There has to be a base case if recursive structure is correct
 - From analogy, there is a smallest value $n$ such that the for loop doesn’t run
     - i.e., at least one input where no recursive call happens
