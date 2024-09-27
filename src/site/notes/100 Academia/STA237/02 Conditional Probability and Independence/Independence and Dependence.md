@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:51:22.909-04:00","updated":"2024-09-19T15:12:52.939-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:51:22.909-04:00","updated":"2024-09-23T22:33:10.698-04:00"}
 ---
 
 # Independence of events
@@ -96,7 +96,7 @@ If you examine two people, are the events that the first is Type A and the secon
 # What if we have more than 2 events?
 
 - **Mutual independence**: For a general collections of events, *independence* means that
-    - For every finite subcollection $A_{1}, \cdots, A_{k}, P(A_{1} \times \cdots \times P(A_{k}))$
+    - For every finite subcollection $A_{1}, \cdots, A_{k}, P(A_{1} \times \cdots \times P(A_{k})) = P(A_{1}) \times \cdots \times P(A_{k})$
     - Stronger condition than pairwise independence
 - **Pairwise independence**: A collection of events is *pairwise independent* if $P(A_{i} A_{j}) = P(A_{i})P(A_{j})$ for all pairs of events
 - A collection of mutually independent events is *pairwise independent*

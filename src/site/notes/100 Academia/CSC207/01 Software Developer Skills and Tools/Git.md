@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:16:12.416-04:00","updated":"2024-09-07T17:58:43.330-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:16:12.416-04:00","updated":"2024-09-27T18:53:03.908-04:00"}
 ---
 
 # Terminal commands
@@ -80,7 +80,7 @@ CSC207 will normally create the remote repo for you:
     - `git status`
         - See what has really changed
         - Remind you what you’ve been working on
-    - `git add file1 file2 file3 ...`
+    - `git add file1 file2 file3 …`
         - Stage changes i.e., “Hey Git, this is what I’ve been working on”
     - `git commit -m "meaningful commit message"`
         - Updates local repo, save a copy locally; have not given it to anyone else

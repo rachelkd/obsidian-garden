@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["university","#lecture","#note"],"created":"2024-09-03T12:59:52.930-04:00","updated":"2024-09-10T21:17:15.371-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["university","#lecture","#note"],"created":"2024-09-03T12:59:52.930-04:00","updated":"2024-09-27T18:53:16.984-04:00"}
 ---
 
 > [!info]- Learning Objectives
@@ -25,10 +25,10 @@ For course overview, see [[100 Academia/CSC207/00 Introduction/Course Overview\|
 # Java
 
 > [!question]+ Questions to be answered this week:
-> - What is the structure of a Java class? (declaration, variables, ...)
+> - What is the structure of a Java class? (declaration, variables, …)
 > - What are the possible accessibility modifiers and primitive types in Java?
 > - What is the difference between the equals method and the `==` operator?
-> - All Java classes are subclasses of "Object". We call Java classes "reference types" as opposed to "primitive types". What is the difference between the two?
+> - All Java classes are subclasses of “Object”. We call Java classes “reference types” as opposed to “primitive types”. What is the difference between the two?
 > - How is a constructor different from a method? Include information about what each does as well as the difference in syntax.
 
 - [[100 Academia/CSC207/00 Java/1 Introduction to Java/Introduction to Java\|Introduction to Java]]
@@ -37,7 +37,7 @@ For course overview, see [[100 Academia/CSC207/00 Introduction/Course Overview\|
 
 > [!question]+
 > 1. Why do we use version control? How can we benefit from it? Give at least 7 features.
-> 2. What do the four states in the "git status" report mean?
+> 2. What do the four states in the “git status” report mean?
 >     - `untracked`
 >     - `staged`
 >     - `tracked` 

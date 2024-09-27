@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:09:23.496-04:00","updated":"2024-09-05T16:19:40.198-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:09:23.496-04:00","updated":"2024-09-27T18:53:14.155-04:00"}
 ---
 
 # What is version control?
@@ -55,5 +55,5 @@
 - Changes are tracked → can easily look at difference between two versions of the file being tracked
 - Formats like `.docx` or `.xlsx` are less meaningfully stored in a version control system
     - Aren’t plaintext; in an interpreted format
-    - Differences when you change them don't have any human-interpretable meaning → Software developers introduce features like “track changes mode”
+    - Differences when you change them don’t have any human-interpretable meaning → Software developers introduce features like “track changes mode”
 
