@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/how-to-do-induction-proofs/","tags":["university","#lecture","#cs"],"created":"2024-08-04T19:15:56.390-04:00","updated":"2024-09-05T15:36:39.245-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/how-to-do-induction-proofs/","tags":["university","#lecture","#cs"],"created":"2024-08-04T19:15:56.390-04:00","updated":"2024-09-27T19:08:21.505-04:00"}
 ---
 
 # The Principle of Simple Induction
