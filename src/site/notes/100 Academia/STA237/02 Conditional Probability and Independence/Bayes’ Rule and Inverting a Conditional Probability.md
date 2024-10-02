@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:48:55.991-04:00","updated":"2024-09-19T15:12:56.041-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:48:55.000-04:00","updated":"2024-09-19T15:12:56.000-04:00"}
 ---
 
 # Bayes’ Rule

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/week-1-course-introduction-outcomes-events-and-probabilities/","tags":["university","#lecture","#note"],"created":"2024-09-05T10:08:00.523-04:00","updated":"2024-09-19T12:21:21.729-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/week-1-course-introduction-outcomes-events-and-probabilities/","tags":["university","#lecture","#note"],"created":"2024-09-05T10:08:00.000-04:00","updated":"2024-09-19T12:21:21.000-04:00"}
 ---
 
 > [!info]- Learning Objectives

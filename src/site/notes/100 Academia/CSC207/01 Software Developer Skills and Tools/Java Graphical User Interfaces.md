@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-graphical-user-interfaces/","tags":["university","#lecture","#note","cs","java","todo"],"created":"2024-09-24T22:28:20.052-04:00","updated":"2024-09-27T18:55:22.317-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-graphical-user-interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-24T22:28:20.000-04:00","updated":"2024-09-29T17:52:35.000-04:00"}
 ---
+
 
 > [!info]- Learning Outcomes
 > - Understand that Java Swing framework has classes for building user interfaces
@@ -9,6 +10,7 @@
 > - Be able to implement an event listener to respond to a button click
 
 ---
+
 # Java Swing
 
 > [!def]- Swing
@@ -24,7 +26,7 @@
 
 [Java GUI Examples](https://github.com/paulgries/JavaGUIExamples)
 
-## Swing example
+## Swing Example
 
 ![](https://i.imgur.com/UC7pzsn.png)
 
@@ -63,7 +65,7 @@
 ![](https://i.imgur.com/srrpzQO.png)
 *`JPanel` uses `FlowLayout` by default.*
 
-# Listening for a button click
+# Listening for a Button Click
 
 - A **listener** is an ==object==
 - When you *instantiate* the listener:
@@ -86,4 +88,3 @@
     - We do not name it
 - Java lets us declare implementing classes for interfaces using this syntax
     - When you have a class instantiated like the example above, it is allowed to ==access variables in the *enclosing scope*, incl. local variables declared so far==
-- 

@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/oop-in-java/","tags":["university","#lecture","#note","cs"],"created":"2024-09-13T16:14:45.653-04:00","updated":"2024-09-27T18:53:08.925-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-13T16:14:45.000-04:00","updated":"2024-09-29T16:19:58.000-04:00"}
 ---
 
-# Example of a University software system
+
+# Example of a University Software System
 
 ```java file:"Main.java"
 public class Main {  
@@ -108,7 +109,7 @@ public class Student extends Person {
     - Otherwise, object is *immutable* → safer, often faster
 - Look at how class will be used: are there additional methods that would make that easier
 
-# Programming interface
+# Programming Interface
 
 - User for almost all code is a programmer
 - User wants to know:
@@ -120,6 +121,7 @@ public class Student extends Person {
         - What is returned and what errors are raised
 
 # Inheritance in Java
+
 ![](https://i.imgur.com/toPGoJu.png)
 
 - UML class diagram
@@ -130,7 +132,7 @@ public class Student extends Person {
 
 # Java Memory Model
 
-## Multi-part objects in the Java Memory Model
+## Multi-part Objects in the Java Memory Model
 
 Suppose class `Child` extends class `Parent`.
 
@@ -143,6 +145,8 @@ Suppose class `Child` extends class `Parent`.
         - e.g., `Person p = new Student(…)`, `Object p = new Student(…)`
 - But not the other way around
     - `Child` may have additional methods not in the `Parent` class
+
+![|300](https://i.imgur.com/7VoqzlV.png)
 
 ## Shadowing and Overriding
 
@@ -157,13 +161,13 @@ Suppose class `A` and its subclass `AChild` each have an instance variable `x` a
         - Here, we have two methods with the same name *and* same ==parameter types==
 - `A`’s `x` is **shadowed** by `AChild`’s `x`:
     - Java uses the type of the reference to choose
-        - e.g., If compiler does not find `x` in `AChild`, it *goes up* in the hierarchy and looks there
-            - Never down except for overridden methods!
+    - If compiler does not find `x` in `AChild`, it *goes up* in the hierarchy and looks there
+        - Never down except for overridden methods!
     - ==Avoid public instance variables with the same name== in a parent and child class
 - If a method must not be *overridden* in a descendant,
     - Declare it `final`
 
-### An example.
+### An Example
 
 ```java file:Main.java
 public class Main {
@@ -186,13 +190,13 @@ public class Main {
 - Which method does an object take when it *extends* another object?
     - The ==lowest-level== method(s) in the hierarchy
 
-# Casting for the compiler
+## Casting for the Compiler
 
 - Java compiler uses the type of the reference to determine whether a statement is valid
 
 ```java
 Object o = new String("Hello");
-char c = o.chatAt(1);
+char c = o.charAt(1);
 ```
 
 - Does the above code compile?
@@ -202,10 +206,10 @@ char c = o.chatAt(1);
     - Only keeps track of variable types
     - Compiler does not run the code; can only look at type of `o` to determine whether it is legal
 - → Need to **cast** `o` as a `String`
-    - `char c = ( (String) o).charAt(1);`
+    - `char c = ((String) o).charAt(1);`
     - Make sure that `o` can be casted as a `String` object! Dangerous, if not
 
-# Checking object type
+## Checking Object Type
 
 - At runtime, we can use operator `instanceof` to determine whether an object is an instance of the specified type
 
@@ -215,3 +219,138 @@ if (o instanceof String) {
     char c = ((String) o).charAt(1);
 }
 ```
+
+## What Happens When We Create an Object?
+
+- Keyword `new`
+    - *Instantiates* a new object
+    - Initializes all instance variables to their default values
+        - `0` for `int`s
+        - `false` for Booleans
+        - `null` for class types
+        - Executes any direct initializations in the order in which they occur
+    - Calls the appropriate constructor
+        - First line should be `super` (*arguments*), or
+        - Don’t call `super` ⇒ Java does it automatically
+
+## Why Call the Super Constructor
+
+> [!important]+ Each object inherits necessary methods from the `Object` class 
+> → Java language works the way we want
+
+```java
+Person p1 = new Person("abc", "123");
+System.out.println(p1)
+```
+
+*Example.*
+
+- Above code should print something to the screen
+- Will only do so if `Person` implements or inherits a `toString` method that can be called automatically by the `println` method
+- `Object` is therefore the ==top of every inheritance hierarchy== in Java
+    - All classes directly or indirectly extended `Object`
+
+![|300](https://i.imgur.com/MmFLm5F.png)
+
+# Casting
+
+Consider this code:
+
+```java
+Person x = new Student(...);
+Student y = (Student) x;
+```
+
+- Why do we need the word “`(Student)`”?
+    - Compiler considers `x` to have type `Person`
+    - ⇒ Cannot be assigned to variable `y` since *compiler* does not know that `x` really does refer to a `Student` object
+    - With it, we cast `x` to have type `Student` for that ==one line== of code
+    - Returns to having type `Person`
+- “Casting” → Change the type of an expression
+- Can only do that when variable *inherits* or directly has the methods and variables of the type to which we are casting
+    - e.g., `x` refers to an object that was created by calling the `Student` constructor
+    - Has variables and methods of a `Student` → can cast to `Student`
+    - Cannot cast to `Integer` or `PartTimeStudent`, for example
+
+![|300](https://i.imgur.com/2GzdRWO.png)
+
+# Java Lookup Rules
+
+Consider:
+
+```java
+Person p1 = new Student(...);
+p1.moogah();
+```
+
+- `moogah` is a method in the `Person` class 
+    - ⇒ it will be executed
+- `moogah` is *not* a method in the `Person` class, but exists only higher in the inheritance hierarchy (e.g., `Object`) 
+    - ⇒ inherited method will be executed
+- `moogah` is an instance method that does not exist in `Person` or higher on the inheritance hierarchy, but it *does exist* in `Student` 
+    - ⇒ compiler will not know what to do
+    - Have to *cast* `p1` back to student
+
+# Primitive vs. Reference Types
+
+- [[100 Academia/CSC207/00 Java/1 Introduction to Java/Reference Types and Primitive Types\|Reference Types and Primitive Types]]
+
+![|300](https://i.imgur.com/2GzdRWO.png)
+
+- `s1` stores address where the instance of a class is actually stored
+    - points at its “value” rather than directly stored the value ⇒ `s1` has a **reference type**
+
+![|300](https://i.imgur.com/k5GmmeV.png)
+
+- `x` and `y` store their actual values
+    - *Not* an address that points to its value ⇒ `int` is a **primitive type**
+
+# Wrapper Classes
+
+- Each primitive has a **wrapper class**
+    - e.g., Integers can be stored as a primitive value or as an Integer object
+        - `int a = 2;` vs. `Integer b = new Integer(2);`
+- Why do we need both?
+    - Primitive values use less memory, but ==do not have constructors or methods==
+    - If you want to store a primitive value in a *[[100 Academia/CSC207/01 Software Developer Skills and Tools/Generics\|generic]]* collection (e.g., `ArrayList`), we need a reference type to ==wrap the object in==
+- Can we go between the two?
+    - Can do this intentionally
+    - Java also does this automatically
+
+      ```java
+      int x = 2;
+      Integer y = new Integer(x);
+        ```
+
+# Autoboxing and Unboxing
+
+- Sometimes, Java can guess what you intended to do and will **autobox** or **unbox**
+- **Autoboxing**
+    - Automatically make an object to store the primitive
+- **Unboxing**
+    - Treat the value inside an object like its corresponding primitive
+
+```java
+int x = 2;
+int y = 2;
+Integer z = new Integer(2);
+Integer w = z;
+```
+
+- `x == y`
+    - Evaluates to `true`
+    - `==` compares whatever is stored with the variable name
+    - `x` and `y` are primitives ⇒ value `2` is stored
+- `z.equals(w)`
+    - Evaluates to `true`
+    - `Integer` equals method compares values
+- `z == w`
+    - Evaluates to true
+    - Contain the same address of the `Integer` object that was created in line 3
+- `x == z`
+    - Evaluates to `true`
+    - Java will automatically unbox `z` and compare its value instead of its address
+- `x.equals(z)`
+    - Will not run
+    - Java will not know to autobox `x` into an `Integer` object
+    - Parameter type is `Object`

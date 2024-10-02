@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/interfaces/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-20T12:11:04.066-04:00","updated":"2024-09-27T18:53:26.187-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T12:11:04.000-04:00","updated":"2024-09-29T17:19:34.000-04:00"}
 ---
 
-# Rethinking inheritance
+
+# Rethinking Inheritance
 
 - Classes in Java have *one* parent
 - What if an abstract class only contains abstract methods but no instance variables?
@@ -29,7 +30,7 @@
     - e.g., `ArrayList`, `LinkedList`
     - No instance attributes, but should be able to `add`, `remove`, `indexOf`
 
-## Demo. Shapes.
+## Demo. Shapes
 
 From [github/paulgries](https://github.com/paulgries/ShapeExample/tree/main/src):
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/simple-induction/","tags":["university","#lecture","#note","#cs","#math"],"created":"2024-09-06T11:45:18.155-04:00","updated":"2024-09-27T19:08:33.033-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/simple-induction/","tags":["university","#lecture","#note","#cs","#math"],"created":"2024-09-06T11:45:18.000-04:00","updated":"2024-09-27T19:08:33.000-04:00"}
 ---
 
 # Definitions to know

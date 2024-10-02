@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/probability/","tags":["university","#lecture","#note"],"created":"2024-09-05T10:46:11.949-04:00","updated":"2024-09-11T20:32:46.690-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/probability/","tags":["university","#lecture","#note"],"created":"2024-09-05T10:46:11.000-04:00","updated":"2024-09-11T20:32:46.000-04:00"}
 ---
 
 > Probability begins with some activity, process, or experiment whose outcome is uncertain. (Wagaman, 2021)

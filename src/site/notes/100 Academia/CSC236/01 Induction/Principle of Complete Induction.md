@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["university","#lecture","#note","cs"],"created":"2024-09-17T13:25:15.675-04:00","updated":"2024-09-24T19:14:00.186-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-17T13:25:15.000-04:00","updated":"2024-10-01T13:08:19.492-04:00"}
 ---
+
 
 > [!note]+ Observation.
 > - Have stated many different induction principles
@@ -28,11 +29,11 @@
 > For any predicate $P : \mathbb{N} \to \{T, F\}$, $$\underbrace{\bigg[ \forall n, \bigg(\forall k < n, P(k) \bigg) \implies P(n) \bigg] }_{\text{prove this}}  \implies \underbrace{\forall n, P(n)}_{\text{conclude this}}$$
 > - Can’t write $k \leq n$ because $P(n)$ would be one of our assumptions → thus, $P(n)$ true trivially
 
-## Where is the base case?
+## Where is the Base Case?
 
 - Typically think of base case as something you prove directly — without relying on induction
 - Analogy:
-    - 
+
   ```python
     # Pre(n): n in naturals
     def s(n):
@@ -45,6 +46,7 @@
             r += s(k)  
         return r
     ```
+
 - There has to be a base case if recursive structure is correct
 - From analogy, there is a smallest value $n$ such that the for loop doesn’t run
     - i.e., at least one input where no recursive call happens
@@ -63,7 +65,8 @@
 
 - So, you just need to prove $P(0)$ in the example, which is the *base case* (implicit)
 
-# Prove that every integer ≥ 2 can be written as a product of primes (incl. edge case of a single prime)
+# Prove that Every Integer ≥ 2 Can Be Written as a Product of Primes (incl. Edge case of a Single prime)
+
 #example
 
 ![](https://i.imgur.com/zGcILeE.png)
@@ -71,7 +74,7 @@
 **Fact.** $$\overbrace{\forall n \geq 2, n \text{ is not prime}}^{\text{Pre(n)}} \implies \underbrace{\exists a,b \in \mathbb{N}, 2 \leq a < n \; \land \; 2 \leq b < n \; \land \;n = ab}_{\substack{\text{Post(n,a,b)} \\ \text{i.e., There exists two factors of } n \text{ that are both greater or equal to 2}}}$$
 Conclusion i.e., there exists two factors of $n$ that are both greater or equal to 2.
 
-### Formalize, as code
+### Formalize, as Code
 
 ```python
 # Pre(n): n in natural, and n >= 2, and n is NOT prime
@@ -82,7 +85,7 @@ def two_factor(n):
 
 # Pre(n): n in naturals and n >= 2
 # Return (p1, ..., pm) s.t. Post(n, p1, ..., pm):
-#    m >= 1 and a1, ..., am in naturals, and
+#    m >= 1 and p1, ..., pm in naturals, and
 #    p1, ..., pm are each prime, and
 #    n = p1 * ... * pm
 def factor(n):
@@ -90,6 +93,7 @@ def factor(n):
     else:  # n is NOT prime
         # Pre of two_factor holds, so:
         (a, b) = two_factor(n)  # Insight: n has factors
+        
         # From Post of two_factor:
         # a, b in naturals and 2 <= a < n and 2 <= b < n
         # and n = ab
@@ -108,9 +112,9 @@ def factor(n):
         return all_as + all_bs
 ```
 
-### As proof
+### As Proof
 
-#### Define predicate.
+#### Define Predicate
 
 $\forall n \in \mathbb{N}$, let $P(n)$ be:
 - [English] $n$ has a prime factorization
@@ -118,7 +122,8 @@ $\forall n \in \mathbb{N}$, let $P(n)$ be:
 
 Note: We only need one definition from English or symbolic.
 
-#### WTP.
+#### WTP
+
 $$\forall n \geq 2, P(n)$$
 Start with induction principle **from the code**:
 
@@ -152,10 +157,10 @@ $$\bigg[\forall n \geq 2, \underbrace{\Big( \forall k \in \{ 2, \cdots, n-1 \} \
 #### Proof.
 Let $n \in \mathbb{N}$ and $n \geq 2$.
 Assume [IH] $P(2) \wedge \cdots \wedge P(n-1)$.
-$$\begin{align*} &\equiv \forall k \in \{2, \cdots, n-1\}, P(k) \\ &\equiv \forall k \in \mathbb{N}, 2 \leq k < n \implies P(k) \\ &\equiv \bigwedge\limits_{i=1}^{n} P(i) \end{align*}$$
+$$\begin{align*} &\equiv \forall k \in \{2, \cdots, n-1\}, P(k) \\ &\equiv \forall k \in \mathbb{N}, 2 \leq k < n \implies P(k) \\ &\equiv \bigwedge\limits_{k=2}^{n-1} P(i) \end{align*}$$
 Then, either $n$ is prime or not prime.
 
-**Case 1.** If $n$ is prime, then $n = n$ is a prime factorization (pick $m = 1, p_{1} = n$).
+**Case 1.** If $n$ is prime, then $n = n$ is a prime factorization.
 
 **Case 2.** If $n$ is not prime, then:
 <u>External fact:</u>
@@ -171,15 +176,16 @@ Let $a, b \in \mathbb{N}$ witness the fact.
 
 $\therefore$ By the principle, $\forall n \geq 2, P(n)$.
 
-#### Notes.
+#### Notes
 
 - There is no explicit base case.
 - Would it be wrong to single out $n = 2$?
     - No.
     - $n = 2$: not singled out as a base case, but still is (because 2 is prime)
     - Would be okay to have an explicit “base case: $n = 2 \dots$”
+        - Yes
 
-# Review.
+# Review
 
 **Principle of Complete Induction** (PCI)
 $$\underbrace{\forall P : \mathbb{N} \to \{T, F\}}_{\text{implicit}}, \overbrace{\bbox[pink]{\bigg[  \forall n, (\forall k < n, P(k)) \implies P(n) \bigg]}}^{\text{antecendent}} \implies \overbrace{\bbox[lavender]{\forall n, P(n)}}^{\text{conclusion}}$$
@@ -200,14 +206,14 @@ $$\stackrel{\text{(expanding the IH)}}{\equiv} \bigg( \bbox[pink]{()} \implies P
 - Thus, $\bigg(() \implies P(0)\bigg) \equiv \bigg(True \implies P(0)\bigg) \equiv P(0)$
 - i.e., $P(0)$ must be proved directly (implicit base case)
 
-# Twist. Think back to proof of prime factorization
+# Twist. Think back to Proof of Prime Factorization
 
 - What we proved:
     - $\forall n \bbox[pink]{\geq 2}, \bbox[lavender]{(\forall k, \bbox[pink]{2 \leq k} < n \implies P(k))} \implies P(n)$
     - Pink: modified complete induction
     - Purple: $IH(n)$
 
-## How do we apply “pure PCI” to conclude $\forall n \geq 2, P(n)$?
+## How Do We Apply “pure PCI” to Conclude $\forall N \geq 2, P(n)$?
 
 - Start with $IH(n)$:
     - $$\begin{align*}

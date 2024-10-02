@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/generics/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-20T13:07:06.811-04:00","updated":"2024-09-27T18:53:24.547-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/generics/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:07:06.000-04:00","updated":"2024-09-29T17:29:57.000-04:00"}
 ---
+
 
 # Generics (Fancy Type Parameters)
 
@@ -16,7 +17,7 @@
 - `<? super Bar>`
     - Parameter that can be any ancestor of `Bar`
 
-# Ex. Interface with generics
+# Ex. Interface with Generics
 
 ```java
 public interface Comparable<T> {
@@ -38,7 +39,7 @@ public class Student implements Comparable<Student> {
 }
 ```
 
-# Interface ← left, class → right
+# Interface ← Left, Class → Right
 
 - `List<String> ls = new List<>();`
     - This code fails
@@ -46,7 +47,7 @@ public class Student implements Comparable<Student> {
     - Compiles
 - Can choose a different implementation of `List` at any point by editing a single line of code
 
-# Naming conventions
+# Naming Conventions
 
 - Java Language Specification recommends these conventions for names of type variables:
     - Very short; single character, preferably

@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["university","#lecture","#note","cs"],"created":"2024-09-10T16:53:07.154-04:00","updated":"2024-09-27T18:53:39.872-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T16:53:07.000-04:00","updated":"2024-09-29T15:37:30.000-04:00"}
 ---
+
 
 > [!info]- Learning Objectives
 > 1. Running Java programs
@@ -12,18 +13,18 @@
 > [!info]- Week Info
 > ##### Slides
 > <p><span><ul>
-<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/03-Java.pdf" data-href="100 Academia/CSC207/Files/03-Java.pdf" href="100 Academia/CSC207/Files/03-Java.pdf" class="internal-link" target="_blank" rel="noopener">03-Java.pdf</a></li>
-</ul></span></p><p><span><ul>
 <li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/03-entity-discovery.pdf" data-href="100 Academia/CSC207/Files/03-entity-discovery.pdf" href="100 Academia/CSC207/Files/03-entity-discovery.pdf" class="internal-link" target="_blank" rel="noopener">03-entity-discovery.pdf</a></li>
+</ul></span></p><p><span><ul>
+<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/03-Java.pdf" data-href="100 Academia/CSC207/Files/03-Java.pdf" href="100 Academia/CSC207/Files/03-Java.pdf" class="internal-link" target="_blank" rel="noopener">03-Java.pdf</a></li>
 </ul></span></p><p><span><ul>
 <li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/04-Java-OOP.pdf" data-href="100 Academia/CSC207/Files/04-Java-OOP.pdf" href="100 Academia/CSC207/Files/04-Java-OOP.pdf" class="internal-link" target="_blank" rel="noopener">04-Java-OOP.pdf</a></li>
 </ul></span></p>
 
-
 ---
+
 # Lecture Notes
 
-## From [[100 Academia/CSC207/01 Software Developer Skills and Tools/Week 1 - A Tour of Software Design, Version Control\|Week 1 - A Tour of Software Design, Version Control]]:
+## From [[100 Academia/CSC207/01 Software Developer Skills and Tools/Week 1 - A Tour of Software Design, Version Control\|Week 1 - A Tour of Software Design, Version Control]]
 
 > [!question]+ Questions to be answered this week:
 > 1. What is the structure of a Java class? (declaration, variables, …)
@@ -52,28 +53,28 @@
 > 7. What is the benefit of making everything as close to private as possible?
 > 8. Question 3 describes “encapsulation”. Why do we consider private variables with public methods to be better encapsulated than public variables and private methods?
 > 9. Consider the variables `x` and `y`, where
-> ```
-> Person x = new Person(…);
-> Student y = new Student(…);
 >     ```
->     Why can we use `y` in the place of a `Person` object, but not use x `in` the place of a `Student`?
+>     Person x = new Person(…);
+>     Student y = new Student(…);
+>     ```
+> Why can we use `y` in the place of a `Person` object, but not use x `in` the place of a `Student`?
 > 
-> 15. What does “override” and “shadow” mean?
-> 10. What is “the compiler”? What sorts of issues prevent IntelliJ from compiling?
-> 11. “The compiler does not keep track of object types, only variable types.” What does that mean?
-> 12. Give one of the reasons why it is useful to have all classes inherit from the Object class.
-> 13. How does the memory model diagram show two aliases for the same object?
-> 14. Consider variable `z` where 
+> 10. What does “override” and “shadow” mean?
+> 11. What is “the compiler”? What sorts of issues prevent IntelliJ from compiling?
+> 12. “The compiler does not keep track of object types, only variable types.” What does that mean?
+> 13. Give one of the reasons why it is useful to have all classes inherit from the Object class.
+> 14. How does the memory model diagram show two aliases for the same object?
+> 15. Consider variable `z` where 
 >     ```
 >     Person z = new Student(...);
 >     ```
 > If we call `z.moogah()` but `moogah` is not a `Person` method, where will the compiler check for the `moogah` method? (In the Object class? In the Student class? etc.)
-> 15.  Why do we bother to write Javadoc instead of relying completely on inline comments?
-> 16. How does inheritance work in Java?
-> 17. Consider the variable `stu1`, where 
->     ```
->     Person stu1 = new Student();
->     ```
+> 16. Why do we bother to write Javadoc instead of relying completely on inline comments?
+> 17. How does inheritance work in Java?
+> 18. Consider the variable `stu1`, where 
+> ```
+> Person stu1 = new Student();
+> ```
 > If we call `stu1.getStudentNumber`, do we expect the compiler to be able to find the “`getStudentNumber`” method? Why or why not?
 
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/How Java is Run\|How Java is Run]]

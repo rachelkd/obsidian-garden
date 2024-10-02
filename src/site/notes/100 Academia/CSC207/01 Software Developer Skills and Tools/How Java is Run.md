@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-10T21:24:12.209-04:00","updated":"2024-09-27T18:53:06.761-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-10T21:24:12.000-04:00","updated":"2024-09-27T18:53:06.000-04:00"}
 ---
 
 # Running programs

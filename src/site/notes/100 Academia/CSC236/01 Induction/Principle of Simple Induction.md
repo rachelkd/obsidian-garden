@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-simple-induction/","tags":["university","#lecture","#note","#cs","#math"],"created":"2024-09-09T13:14:14.210-04:00","updated":"2024-09-27T19:08:28.656-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-09T13:14:14.000-04:00","updated":"2024-09-28T22:08:27.000-04:00"}
 ---
+
 
 - What is the **Principle of Simple Induction**?
     - $$P(0) \land \bigg(\forall n, P(n) \implies P(n+1)\bigg) \implies \forall n, P(n)$$
-#### Syntactic details
+
+#### Syntactic Details
 
 - What is $P$?
     - $P$ is a predicate
@@ -17,11 +19,11 @@
 - What do we *conclude*?
     - $\forall n, P(n)$
 
-# Example: What amounts of money $n$ that can be made up using only 3 cent and 7 cent coins?
+# Example: What Amounts of Money $n$ that Can Be Made up Using only 3 Cent and 7 Cent Coins?
 
 ![|center|600](https://i.imgur.com/rCRtinT.png)
 
-### Intuition:
+### Intuition
 
 - From 0 cents - 11 cents:
     - case varies
@@ -30,14 +32,14 @@
 
 ![|center|500](https://i.imgur.com/KOtz0PE.png)
 
-
 > [!info] Every time you have the urge to write “$…$”, that is **induction**.
 
-# Formalizing our example
+# Formalizing Our Example
 
 > [!question]- What is our **predicate**?
 > For each $n \in \mathbb{N}$, let $P(n)$ be:
 > $$\exists t, s \in \mathbb{N}, n = 3t + 7s$$
+> 
 > > [!warning]+ You cannot quantify $n$ after “let $P(n)$”!
 > > - i.e., $\forall n \in \mathbb{N}, \exists t,s \in \mathbb{N} …$ is *incorrect*!
 

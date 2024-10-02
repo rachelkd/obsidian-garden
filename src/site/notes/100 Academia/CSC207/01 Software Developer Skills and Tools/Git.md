@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:16:12.416-04:00","updated":"2024-09-27T18:53:03.908-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:16:12.000-04:00","updated":"2024-09-27T18:53:03.000-04:00"}
 ---
 
 # Terminal commands

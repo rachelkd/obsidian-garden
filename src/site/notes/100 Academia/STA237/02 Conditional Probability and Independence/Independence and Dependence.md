@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:51:22.909-04:00","updated":"2024-09-23T22:33:10.698-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-09-23T22:33:10.000-04:00"}
 ---
 
 # Independence of events

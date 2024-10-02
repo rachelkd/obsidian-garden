@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["university","#lecture","#note","cs"],"created":"2024-09-18T16:31:35.500-04:00","updated":"2024-09-27T18:54:47.488-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T16:31:35.000-04:00","updated":"2024-09-29T15:36:11.000-04:00"}
 ---
+
 
 > [!info]- Learning Objectives
 > 1. Interfaces
@@ -8,6 +9,7 @@
 > 3. Java Collections Framework (JCF)
 
 ---
+
 # Continuation of OOP in Java
 
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/OOP in Java#Java Memory Model\|OOP in Java#Java Memory Model]]

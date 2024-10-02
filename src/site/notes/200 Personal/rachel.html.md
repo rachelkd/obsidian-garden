@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.956-04:00","updated":"2024-09-09T13:38:32.434-04:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.000-04:00","updated":"2024-09-30T16:46:49.969-04:00"}
 ---
+
 
 # 2024 - 2025 Fall/Winter
 
@@ -17,4 +18,3 @@
 | [[100 Academia/! Spring '24/HPS208/HPS208\|HPS208]] | How We Think About Life                                                             | W25      |
 
 { .block-language-dataview}
-
