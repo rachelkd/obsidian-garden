@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-09-28T19:15:14.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-03T12:51:30.589-04:00"}
 ---
 
 
@@ -77,16 +77,16 @@ def rand_E():
 
 ## Define, for Each $e \in E$
 
-- `num(e) = number of 1's and 2's and 3's in e`
-    - e.g., `num(1 ⨁ 2 ⊗ 2) = 3`
-- `op(e) = number of ⨁'s and ⊗'s in e`
-    - e.g., `op(1 ⨁ 2 ⊗ 3) = 2`
-- `num(u•v) = num(u) + num(v)`
-    - i.e., `u•v` is string concatenation
+- $\text{num}(e) = \text{number of 1's, 2's, and 3's in } e$
+    - e.g., $\text{num}(1 \oplus 2 \otimes 2) = 3$
+- $\text{op}(e) = \text{number of } \oplus \text{'s and } \otimes \text{'s in } e$
+    - e.g., $\text{op}(1 \oplus 2 \otimes 3) = 2$
+- $\text{num}(u \cdot v) = \text{num}(u) + \text{num}(v)$
+    - i.e., $u \cdot v$ is string concatenation
 
 <!-- break -->
 - Notes:
-    - Definitions rely on our understanding of strings → *not* self-contained!
+    - Definitions rely on our understanding of strings → ==*not* self-contained!==
     - Advantage: From our understanding, we can say a lot of things about how these functions behave
 
 > [!info]+ Conjecture.
@@ -113,4 +113,117 @@ num(e_{1} \oplus e_{2}) &= num(e_{1}) + num(\oplus) + num(e_{2}) \\
 &= \bigg(1 + op(e_{1}) \bigg) + 0 + \bigg(1 + op(e_{2}) \bigg)\\
 &= 1 + \bigg(op(e_{1}) + op(\oplus) + op(e_{2}) \bigg) \\
 &= 1 + op(e_{1} \oplus e_{2})
+\end{align*}$$
+---
+# A Self-Contained Definition of $E$
+
+Recall:
+- Elements of $E$ → treated as *strings*
+- Defined for *all* strings $e$ (not just $e \in E$)
+    - $\text{num}(e) =$ # of digits (1, 2, or 3) in $e$
+    - $\text{op}(e) =$ # operators ($\oplus$ or $\otimes$) in $e$
+    - & $\text{val}(e) =$ numerical values of $e$, where $\oplus$ means $+$, $\otimes$ means $\times$
+
+## Problem with Our Previous Definition
+
+> [!question] $\text{val}(1 \oplus 2 \otimes 3) = \text{?}$
+
+- We have two options:
+    1. $(1 + 2) \times 3 = 9$
+    2. $1 + (2 \times 3) = 7$
+    - Which one is correct? → Need some kind of convention
+- ? How is $1 \oplus 2 \otimes 3$ generated?
+    - Case A:
+        - $1 \in E$
+        - $2 \otimes 3 \in E$
+        - $1 \oplus (2 \otimes 3)$
+    - Case B:
+        - $1 \oplus 2 \in E$
+        - $3 \in E$
+        - $(1 \oplus 2) \otimes 3$
+    - If we can get info on how it is generated, we can determine which option to use
+
+## New Self-Contained Definition
+
+> [!obs]+ Expressions are *not* strings; they are trees.
+> ![|center|400](https://i.imgur.com/wmomZCD.png)
+
+$\implies$ We can give a **self-contained recursive definition** for $\text{num}(e), \text{op}(e), \text{val}(e)$ for each $e \in E$
+
+- $\text{num}(e)$ is defined as:
+    - $\text{num}(1) = \text{num}(2) = \text{num}(3) = 1$ (Defined for base elements)
+    - $\forall e_{1}, e_{2} \in E,$
+        - $\text{num}(e_{1} \oplus e_{2}) = \text{num}(e_{1}) + \text{num}(e_{2})$
+        - $\text{num}(e_{1} \otimes e_{2}) = \text{num}(e_{1}) + \text{num}(e_{2})$
+- $\text{op}(e)$ is defined as:
+    - $\text{op}(1) = \text{op}(2) = \text{op}(3) = 0$
+    - $\text{op}(e_{1} \oplus e_{2}) = 1 + \text{op}(e_{1}) + \text{op}(e_{2})$
+    - $\text{op}(e_{1} \otimes e_{2}) = 1 + \text{op}(e_{1}) + \text{op}(e_{2})$
+- $\text{val}(e)$ is defined as:
+    - $\text{val}(1) = 1, \text{val}(2) = 2, \text{val}(3) = 3$
+    - $\text{val}(e_{1} \oplus e_{2}) = \text{val}(e_{1}) + \text{val}(e_{2})$
+    - $\text{val}(e_{1} \otimes e_{2}) = \text{val}(e_{1}) \times \text{val}(e_{2})$
+
+> [!obs]+ There is a distinction between the recursive structure of an element vs. its “final” value
+> - i.e., The “final” value (e.g., $1 \oplus 2 \otimes 3$) has two different recursive structures that give this final value
+
+# Binary Trees
+(Specifically tree “structures”)
+
+## Definition of Binary Tree
+
+- $T$ is the smallest set such that:
+    - Empty tree $\cdot \in T$
+        - Textually: $()$
+    - $\forall t_{1}, t_{2} \in T,$ ![|50](https://i.imgur.com/WRPXnU5.png) $\in T$
+        - Textually: $(t_{1}, t_{2})$
+- Some elements:
+    - ![|300](https://i.imgur.com/iloamsU.png)
+
+<!-- break -->
+- ? Where are the values?
+    - There are no values
+    - Solely just structures in definition
+- ? Why include empty trees?
+    - If we didn’t $\implies$ Need 4 different constructions of trees
+        1. Root without children is a tree
+        2. Root with only left child is a tree
+        3. Root with only right child is a tree
+        4. Root with two children is a tree
+    - & Simplifies the recursion rule
+    - Exercise: Rewrite the definition of binary tree for only non-empty rules (need multiple recursion rules)
+
+## Definitions of $\text{size}(t), \text{height}(t)$
+
+- $\text{size}(t)$ : total # of “nodes”
+    - $\text{size}(\cdot) = 0$
+    - $\forall t_{1}, t_{2} \in T, \text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 _ \text{size}(t_{1}) + \text{size}(t_{2})$
+- $\text{height}(t)$ : # of “nodes” from root to the farthest root
+    - $\text{height}(\cdot) = 0$
+    - $\forall t_{1}, t_{2} \in T, \text{height}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 + \text{max}\bigg(\text{height}(t_{1}), \text{height}(t_{2}) \bigg)$
+
+<!-- break -->
+- Note: We never defined what a node is.
+
+## Proof by Structural Induction
+
+**Claim.** $\forall t \in T, \text{size}(\cdot) \leq 2^{\text{height}(t)}$
+
+**Proof (by structural induction).**
+
+<u>Base Case.</u>
+$\text{size}(\cdot) = 0 \leq 1 = 2^{\text{height}(\cdot)}$
+
+<u>Inductive Step.</u>
+Let $t_{1}, t_{2} \in T$.
+Assume \[IH]:
+- $\text{size}(t_{1}) \leq 2^{\text{height}(t_{1})}$
+- $\text{size}(t_{2}) \leq 2^{\text{height}(t_{2})}$
+
+Then,
+
+$\text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 + \text{size}(t_{1}) + \text{size}(t_{2})$
+$$\begin{align*}
+&\leq 1 + 2^{\text{height}(t_{1})} + 2^{\text{height}(t_{2})} && \text{(by IH)} \\
+&\leq 1 + 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)} \cdot 2 && (\because 2^{h_{1}} + 2^{h_{2}} \leq 2^{\text{max}(h_{1}, h_{2})} + 2^{\text{max}(h_{1}, h_{2})} = 2 \cdot 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)})
 \end{align*}$$

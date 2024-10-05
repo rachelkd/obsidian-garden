@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/unit-testing/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-29T17:49:12.000-04:00","updated":"2024-09-29T20:37:36.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/unit-testing/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-29T17:49:12.000-04:00","updated":"2024-10-03T22:36:40.117-04:00"}
 ---
 
 
@@ -69,15 +69,18 @@ class CommonUserTest {
     
     private CommonUser user; 
     
-    @BeforeEach void init() { 
+    @BeforeEach 
+    void init() { 
         user = new CommonUser( "Paul", "password", LocalDateTime.now()); 
     } 
     
-    @Test void getName() { 
+    @Test 
+    void getName() { 
         assertEquals("Paul", user.getName()); 
     } 
     
-    @Test void getPassword() { 
+    @Test 
+    void getPassword() { 
         assertEquals("password", user.getPassword()); 
     } 
 ```

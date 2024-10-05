@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-20T13:19:24.000-04:00","updated":"2024-09-27T18:53:27.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:19:24.000-04:00","updated":"2024-10-03T22:29:19.809-04:00"}
 ---
+
 
 # Java Collections Framework
 
@@ -20,7 +21,7 @@
     - `Map`
     - `HashMap`
 
-# Iterable and Map interfaces
+# Iterable and Map Interfaces
 
 ![](https://i.imgur.com/kmrYOdp.png)
 
@@ -29,7 +30,7 @@
 - In Java, an iterable can use `for (T x : iterableObject)`
 - In Python, we use `for x in iterable_object`
 
-# Map hierarchy
+# Map Hierarchy
 
 ![](https://i.imgur.com/0KDTDW9.png)
 
@@ -40,14 +41,14 @@
 - Abstract classes are classes you are not supposed to say `new` with
     - e.g., `new Shape` should not be written in code (from [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces#Demo. Shapes.\|Interfaces#Demo. Shapes.]])
 
-# Set hierarchy
+# Set Hierarchy
 
 ![](https://i.imgur.com/YbzHPwg.png)
 
 - Set is a collection that is unordered
     - Lists are not sets; sets are not lists
 
-# What can you do with a set?
+# What Can You Do with a Set?
 
 - Already have an idea what you might want to do with a `Set` and a `Queue`
     - Actual method names are different, but operations are there
@@ -75,7 +76,7 @@
 - Elements are ordered using their natural ordering, or by a `Comparator` provided at set creation time, depending on which constructor is used
 - Implementation provides guaranteed $\log(n)$ time cost for basic operations i.e., `add`, `remove`, `contains`
 
-# Queue hierarchy
+# Queue Hierarchy
 
 ![](https://i.imgur.com/taafSPx.png)
 
@@ -85,7 +86,7 @@
     - Every element has a priority
     - When you insert, you don’t know where it is going other than it will have a priority
 
-# List hierarchy
+# List Hierarchy
 
 ![](https://i.imgur.com/Q64dmX9.png)
 
@@ -103,7 +104,7 @@
             - Inserting in middle → bunch of links to run along before getting to spot where you want to insert
 - When would you choose LinkedList over ArrayList?
 
-# Primary advantages of defining a framework
+# Primary Advantages of Defining a Framework
 
 - Framework *reduces* the programming effort
     - Framework provides data structures and and algorithms
@@ -125,7 +126,7 @@
 
 - To produce an API that was small in size and *conceptual weight*
 
-# What’s in the framework
+# What’s In the Framework
 
 - Collection interfaces
     - Represent different types of collections
@@ -158,4 +159,3 @@
 >     - Key-value pairs ⇒ limited (and not useful) `Map` abstraction
 >     - Cannot ask what value a given key maps to
 >     - Cannot delete the entry for a given key without knowing what value it maps to
-

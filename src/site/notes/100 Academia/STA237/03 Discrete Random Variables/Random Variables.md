@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T19:24:27.000-04:00","updated":"2024-09-29T14:06:53.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T19:24:27.000-04:00","updated":"2024-10-03T13:14:55.483-04:00"}
 ---
 
 
@@ -47,7 +47,7 @@
     - A random variable $X$ takes values in a finite set, all of whose elements are [[100 Academia/STA237/01 Events and Probabilities/Equally Likely Outcomes\|equally likely]] $\iff$ $X$ is *uniformly distributed*
 
 > [!def]- Uniform random variable
-> Let $S = \{ s_{1}, \cdots, s_{k} \}$ be a finite [[900 Archive/UofT/Y1/MAT223/W1/Sets and Set-Builder Notation\|set]]. A random variable $X$ is *uniformly distributed on $S$* if $$P(X = s_{i}) = \frac{1}{k}, \text{for} i = 1, \cdots, k$$
+> Let $S = \{ s_{1}, \cdots, s_{k} \}$ be a finite [[900 Archive/UofT/Y1/MAT223/W1/Sets and Set-Builder Notation\|set]]. A random variable $X$ is *uniformly distributed on $S$* if $$P(X = s_{i}) = \frac{1}{k}, \text{for } i = 1, \cdots, k$$
 > - We write $X \sim \text{Unif}(S)$
 > - $\sim$ = “is distributed as”
 
