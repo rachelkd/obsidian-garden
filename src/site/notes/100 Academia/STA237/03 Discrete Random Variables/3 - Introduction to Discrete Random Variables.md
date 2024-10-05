@@ -1,8 +1,0 @@
----
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/3-introduction-to-discrete-random-variables/","tags":["#module","#university","stats"],"created":"2024-09-28T19:25:05.000-04:00","updated":"2024-09-28T19:25:17.000-04:00"}
----
-
-
-# Lecture/Notes
-
-<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>Lecture/Note</span><span class="dataview small-text">2</span></th><th class="table-view-th"><span>Date</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span><a data-tooltip-position="top" aria-label="100 Academia/STA237/03 Discrete Random Variables/Week 4 - Discrete Random Variables.md" data-href="100 Academia/STA237/03 Discrete Random Variables/Week 4 - Discrete Random Variables.md" href="100 Academia/STA237/03 Discrete Random Variables/Week 4 - Discrete Random Variables.md" class="internal-link" target="_blank" rel="noopener">Week 4 - Discrete Random Variables</a></span></td><td>September 24, 2024</td></tr><tr><td><span><a data-tooltip-position="top" aria-label="100 Academia/STA237/03 Discrete Random Variables/Random Variables.md" data-href="100 Academia/STA237/03 Discrete Random Variables/Random Variables.md" href="100 Academia/STA237/03 Discrete Random Variables/Random Variables.md" class="internal-link" target="_blank" rel="noopener">Random Variables</a></span></td><td>September 24, 2024</td></tr></tbody></table></div>
