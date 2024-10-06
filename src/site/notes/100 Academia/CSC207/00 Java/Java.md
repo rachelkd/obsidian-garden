@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/1-software-developer-skills-and-tools/","tags":["#module","#university"],"created":"2024-09-03T19:56:30.000-04:00","updated":"2024-09-29T15:36:24.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/java/","tags":["#module","#university","cs","java"],"created":"2024-09-09T03:30:02.000-04:00","updated":"2024-10-05T19:26:34.930-04:00"}
 ---
 
 

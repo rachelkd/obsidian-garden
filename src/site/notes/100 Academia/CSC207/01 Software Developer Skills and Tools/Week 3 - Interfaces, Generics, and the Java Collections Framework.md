@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T16:31:35.000-04:00","updated":"2024-09-29T15:36:11.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T16:31:35.000-04:00","updated":"2024-10-05T23:25:14.965-04:00"}
 ---
 
 
@@ -36,6 +36,6 @@
 - What is the Java Collections Framework?
 
 <!-- break -->
-- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces\|Interfaces]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces\|100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces]]
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/Generics\|Generics]]
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/Java Collections Framework\|Java Collections Framework]]

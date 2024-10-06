@@ -1,0 +1,101 @@
+---
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/variables-and-types/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-07T19:29:36.000-04:00","updated":"2024-10-05T23:44:09.574-04:00"}
+---
+
+
+# Declaring Types
+
+**Python vs. Java**
+
+-   Rather than writing type hints (in Python), we make it a part of the code in Java
+-   When we say `type(stuff)` in Python, we are told the type of the _object_ that `stuff` refers to
+    -   Variable `stuff` has no type; can _refer to an object_ of any type
+-   In Java, every value has a type and so does ==every variable==
+
+```java
+int i;
+```
+
+-   Specify a variable’s type before assigning a value to the variable
+-   A variable’s type can never change
+-   We _declare_ a variable called `i` to be of type `int`
+
+# Declaration and Assignment
+
+```java
+int i = 42;
+```
+
+_We can assign a value immediately after declaring the variable in the same line of code_
+
+-   In the example in [[100 Academia/CSC207/00 Java/1 Introduction to Java/Variables and Types#Declaring types\|#Declaring types]], we would be postponing _assigning_ a value to `i` until later
+    -   Variable’s name is known to Java
+    -   Space has been reserved to store its value
+    -   Variable is given a **default value**
+
+### Default Values
+
+-   For `int`s:
+    -   `0`
+-   For objects:
+    -   `null` (equivalent to Python’s `None`)
+
+# Keeping Track of Our Variables
+
+-   Java must keep track of ==four things== associated with each variable:
+    1. **Variable name**, provided when we _declare_ the variable
+    2. **Variable type**, provided when we _declare_ the variable
+    3. **Memory space** used to hold the value of the variable
+    4. **Value** of the variable, given with an **assignment statement**
+-   Only the ==value of the variable can change==
+
+# Errors
+
+There are some errors related to variables and types that Java can detect.
+
+### Didn’t Declare
+
+```java
+public static void main(String[] args) {
+    i = 42;
+}
+```
+
+_Used a variable that was not declared._
+
+-   `"i cannot be resolved to a variable"`
+-   i.e., Java is trying to find a variable called `i` and is unable to
+
+### Assign Value of the Wrong Type
+
+```java
+public static void main(String[] args) {
+    int i = 19.6;
+}
+```
+
+_Assigned the wrong type of value to a variable._
+
+-   `"Type mismatch: cannot convert from double to int"`
+-   Java tried to be accommodating by converting `19.6` to variable `i`’s type of value, but it could not → would have caused a loss of info
+
+If we assign an `int` value to a `double` variable, it can make the conversion:
+
+```java
+public static void main(String[] args) {
+    double i = 19;
+}
+```
+
+### Declare a Variable Using a name that Already Exists
+
+```java
+public static void main(String[] args) {
+    int i = 15;
+    int i = 42;
+}
+```
+
+_Declared a variable called `i`, then did so again._
+
+-   `"Duplicate local variable i."`

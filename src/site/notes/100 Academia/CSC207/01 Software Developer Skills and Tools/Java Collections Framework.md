@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:19:24.000-04:00","updated":"2024-10-03T22:29:19.809-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:19:24.000-04:00","updated":"2024-10-05T23:25:14.959-04:00"}
 ---
 
 
@@ -39,7 +39,7 @@
 - `AbstractMap` (abstract class) implements the `Map` interface
     - Probably providing some kind of partial implementation
 - Abstract classes are classes you are not supposed to say `new` with
-    - e.g., `new Shape` should not be written in code (from [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces#Demo. Shapes.\|Interfaces#Demo. Shapes.]])
+    - e.g., `new Shape` should not be written in code (from [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces#Demo. Shapes.\|100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces#Demo. Shapes.]])
 
 # Set Hierarchy
 
