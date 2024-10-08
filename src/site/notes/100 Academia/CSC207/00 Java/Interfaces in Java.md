@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-10-07T21:15:18.112-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-10-08T00:36:34.467-04:00"}
 ---
 
 
@@ -68,3 +68,4 @@ interface Steamable extends Edible {
 
 *Any class that `implements Steamable` must then have a `steam` and `eat` method.*
 
+- Possible for an interface to extend multiple interfaces!
