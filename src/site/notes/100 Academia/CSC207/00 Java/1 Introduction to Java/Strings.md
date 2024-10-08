@@ -1,45 +1,45 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/strings/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-23T02:43:04.000-04:00","updated":"2024-10-05T23:44:09.671-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/strings/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-23T02:43:04.000-04:00","updated":"2024-10-07T21:10:21.510-04:00"}
 ---
 
 
 # Class String
 
--   **String** class:
-    -   Represents sequences of characters
+- **String** class:
+    - Represents sequences of characters
 
 ```java
 String s1 = new String("Hello");
 ```
 
-_Created a new string ==object== to represent the text Hello._
+*Created a new string ==object== to represent the text Hello.*
 
--   Use _double quotes_
+- Use *double quotes*
 
 ```java
 String s2 = "bye";
 ```
 
-_Java short-cut for creating string objects._
+*Java short-cut for creating string objects.*
 
 # String Pool
 
--   **String pool**:
-    -   Used to store the values of string literals
-    -   Avoid excessive memory
-    -   a.k.a. string intern
+- **String pool**:
+    - Used to store the values of string literals
+    - Avoid excessive memory
+    - a.k.a. string intern
 
 ```java
 String s1 = "Hello";
 String s2 = "Hello";
 ```
 
-_Create two strings without using the `new` keyword._
+*Create two strings without using the `new` keyword.*
 
--   When `s2` is created, Java goes to the string pool and looks for this phrase
-    -   `"Hello"` has already been added to the string pool
-    -   ⇒ `s2` points to the same `"Hello"` phrase as `s1`
--   `s1 == s2` evaluates to `true`, just like Python
+- When `s2` is created, Java goes to the string pool and looks for this phrase
+    - `"Hello"` has already been added to the string pool
+    - ⇒ `s2` points to the same `"Hello"` phrase as `s1`
+- `s1 == s2` evaluates to `true`, just like Python
 
 ```java
 String s1 = new String("Hello");
@@ -47,18 +47,18 @@ String s2 = new String("Hello");
 System.out.println(s1 == s2);
 ```
 
-_`false` is printed to the console._
+*`false` is printed to the console.*
 
--   Created ==two **instances**== of the `String` class
-    -   ⇒ `s1` and `s2` are different objects
-    -   ⇒ Result is `false`
+- Created ==two **instances**== of the `String` class
+    - ⇒ `s1` and `s2` are different objects
+    - ⇒ Result is `false`
 
 # Strings Are Immutable
 
--   `String` objects are immutable in Java
-    -   Can never change a `String` object once it has been created
--   Can ==perform operations== on `String`s
-    -   Returns a new `String` object
+- `String` objects are immutable in Java
+    - Can never change a `String` object once it has been created
+- Can ==perform operations== on `String`s
+    - Returns a new `String` object
 
 # String Operations and Methods
 
@@ -82,13 +82,13 @@ s1 = "   Here is my string  .   ";
 s1 = s1.trim();  // In Python: s1.strip()
 ```
 
--   Also `length`, `startsWith`, `indexOf`
+- Also `length`, `startsWith`, `indexOf`
 
 # Mutable Strings: StringBuilder
 
--   `StringBuilder`:
-    -   Represents a sequence of characters
-    -   Object is **mutable**
+- `StringBuilder`:
+    - Represents a sequence of characters
+    - Object is **mutable**
 
 ```java
 StringBuilder sb = new StringBuilder("ban");
@@ -107,32 +107,32 @@ Incorrect declaration of `StringBuilder`:
 StringBuilder sb = "ban";
 ```
 
-_Generates the error: `incompatible types: String cannot be converted to StringBuilder`._
+*Generates the error: `incompatible types: String cannot be converted to StringBuilder`.*
 
 # Single Character Strings: `char`
 
--   We can have a `String` that contains just one character
+- We can have a `String` that contains just one character
 
     ```java
     String s = "x";
     ```
 
--   Also a **[[100 Academia/CSC207/00 Java/1 Introduction to Java/Reference Types and Primitive Types\|primitive type]]** capable of holding a single character called `char`
+- Also a **[[100 Academia/CSC207/00 Java/1 Introduction to Java/Reference Types and Primitive Types\|primitive type]]** capable of holding a single character called `char`
 
     ```java
     char c = 'x';
     ```
 
-    _Use single quotes when providing a literal value of type `char`_
+    *Use single quotes when providing a literal value of type `char`*
 
--   `StringBuilder` method `setCharAt` requires second argument to be of type `char`
-    -   $\implies$ Used single quotes on `o` when we called the method above
+- `StringBuilder` method `setCharAt` requires second argument to be of type `char`
+    - $\implies$ Used single quotes on `o` when we called the method above
 
 # Mutating Strings vs. New Strings
 
--   `String` is immutable
--   `StringBuilder` is mutable
--   Constructing a new object is slower than modifying an existing one!
+- `String` is immutable
+- `StringBuilder` is mutable
+- Constructing a new object is slower than modifying an existing one!
 
 ```java
 String a = "Joshua";

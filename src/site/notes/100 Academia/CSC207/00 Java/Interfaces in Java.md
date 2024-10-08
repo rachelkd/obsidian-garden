@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-10-05T23:41:30.229-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-10-07T21:15:18.112-04:00"}
 ---
 
 
@@ -10,7 +10,7 @@
 Consider writing a program to simulate plants.
 
 - Could have a class called `Plant`
-    - All `Plant`s are able to `breatge` and `grow`
+    - All `Plant`s are able to `breathe` and `grow`
 - Could have subclasses `Wheat` and `Flower` in their own subclasses
 - However, suppose we want to indicate that some plants are edible for humans
     - e.g., `Corn` and `Basil` would have an `eat` method
@@ -21,8 +21,10 @@ Consider writing a program to simulate plants.
 <!-- break -->
 - If we want to *define a property* of a class → Use **interfaces**
     - Similar to classes, except
-    - ==No implementation details==; only *method signatures*
-    - Can also have variables, but must be `static` and `final`
+    - Traditionally, ==no implementation details==; only *method signatures*
+        - As of Java 8, we can have `default` implementations of methods
+        - ==Use `default` keyword==
+    - Can also have variables, but must be `public`, `static`, and `final`
 
 ```java
 interface Edible {
@@ -30,10 +32,25 @@ interface Edible {
 }
 ```
 
+```java title:"Interface with default implementation"
+interface Washable {
+    // Default method that provides a basic implementation
+    default void wash() {
+        System.out.println("Washing the edible item...");
+    }
+}
+```
+
 ```java
-class Corn extends Plant implements Edible {
+class Corn extends Plant implements Edible, Washable {
     void eat(){
         ...    // Our implementation here!
+    }
+    
+    // Overriding the default wash method
+    @Override
+    public void wash() {
+        System.out.println("Thoroughly washing the corn...");
     }
 }
 ```
