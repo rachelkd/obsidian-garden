@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-10-06T18:42:42.959-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-10-08T00:28:26.299-04:00"}
 ---
 
 
@@ -50,8 +50,7 @@
         - Interpreted by the computer, and opens up as a Word doc, for example
         - If you change one line and compare the files in the editor, it would look completely different because of how it is encoded
 
-<br>
-
+<!-- break -->
 - Plain text formats are well suited to version control
     - e.g., Java code, Python code, markdown, LaTeX, any other “human-readable” file formats
 - Changes are tracked → can easily look at difference between two versions of the file being tracked
