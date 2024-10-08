@@ -26,7 +26,6 @@
     },
     "dependencies": {
         "@11ty/eleventy-img": "^4.0.2",
-        "@grimlink/eleventy-plugin-lucide-icons": "^2.0.6",
         "@sindresorhus/slugify": "^1.1.0",
         "axios": "^1.2.2",
         "dotenv": "^16.0.3",
