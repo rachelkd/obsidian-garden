@@ -30,15 +30,28 @@ body {
 		font-style: italic;
 		font-weight: 100 900;
 	}
+
+	@font-face {
+		font-family: 'New York';
+		src: url('/fonts/NewYork.ttf') format('truetype');
+		font-style: normal;
+		font-weight: 100 900;
+	}
+
+	@font-face {
+		font-family: 'New York';
+		src: url('/fonts/NewYorkItalic.ttf') format('truetype');
+		font-style: italic;
+		font-weight: 100 900;
+	}
 	h1 {
-		font-family: 'Inter', sans-serif !important;
+		font-family: 'New York','Inter', sans-serif !important;
 		font-weight: var(--h1-weight) !important; // Use the variable if defined
 		font-size: var(--h1-size) !important; // Use the variable if defined
 		font-style: var(--h1-style) !important; // Use the variable if defined
 	}
 
-	/* Set Inter as the default font for the body */
-	font-family: 'Inter', sans-serif !important;
+	font-family: 'New York', 'Inter', sans-serif !important;
 	font-weight: 400;
 	font-feature-settings: var(--sans-font-features);
 	--list-spacing: 0.2em;
