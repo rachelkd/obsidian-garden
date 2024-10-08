@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/classes-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T14:47:47.817-04:00","updated":"2024-10-06T00:43:04.690-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/classes-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T14:47:47.817-04:00","updated":"2024-10-08T00:27:50.567-04:00"}
 ---
 
 
@@ -106,4 +106,4 @@ When we construct an object, memory is allocated for it.
 - If we know we do not need an object anymore → Explicitly drop a reference by setting variable holding reference to `null`
     - $\implies$ Hasten garbage collection, improve performance
     - May be unnecessary and make code needlessly messy
-- In C, *heap* memory is only de-allocated when code explicitly says to do so
+- In C, *heap* memory (i.e., object space) is only de-allocated when code explicitly says to do so
