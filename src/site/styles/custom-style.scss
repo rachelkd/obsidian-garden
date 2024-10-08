@@ -161,6 +161,10 @@ body {
                             0px 7px 12px -3.8px rgba(0, 0, 0, 0.35);
 }
 
+body code {
+    text-shadow: none !important;
+}
+
 @layer base {
     /* Inter */
     @font-face {
