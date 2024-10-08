@@ -14,21 +14,27 @@ body {
 		font-family: 'Inter';
 		src: url('/fonts/InterVariable-Italic.ttf') format('truetype');
 		font-style: italic;
-		font-weight: 400;
+		font-weight: 100 900;
 	}
 
 	@font-face {
 		font-family: 'JetBrains Mono';
 		src: url('/fonts/JetBrainsMono[wght].ttf') format('truetype');
 		font-style: normal;
-		font-weight: 400;
+		font-weight: 100 900;
 	}
 
 	@font-face {
 		font-family: 'JetBrains Mono';
 		src: url('/fonts/JetBrainsMono-Italic[wght].ttf') format('truetype');
 		font-style: italic;
-		font-weight: 400;
+		font-weight: 100 900;
+	}
+	h1 {
+		font-family: 'Inter', sans-serif !important;
+		font-weight: var(--h1-weight) !important; // Use the variable if defined
+		font-size: var(--h1-size) !important; // Use the variable if defined
+		font-style: var(--h1-style) !important; // Use the variable if defined
 	}
 
 	/* Set Inter as the default font for the body */
@@ -45,5 +51,37 @@ body {
 	#tooltip-content {
 		text-shadow: none !important;
 		font-family: 'Inter', sans-serif !important;
+	}
+
+
+	/* Custom Callouts */
+	.callout[data-callout="course-info"] {
+		--callout-icon: lucide-graduation-cap;
+		--callout-color: 229, 202, 242;
+	}
+
+	.callout[data-callout="def"] {
+		--callout-icon: lucide-bookmark;
+		--callout-color: 191, 232, 191;
+	}
+
+	.callout[data-callout="thm"] {
+		--callout-icon: lucide-arrow-down-right;
+		--callout-color: 255, 218, 117;
+	}
+
+	.callout[data-callout="habits"] {
+		--callout-icon: lucide-atom;
+		--callout-color: 255, 179, 71;
+	}
+
+	.callout[data-callout="heart"] {
+		--callout-icon: lucide-heart;
+		--callout-color: 236, 147, 147;
+	}
+
+	.callout[data-callout="obs"] {
+		--callout-icon: lucide-eye;
+		--callout-color: 235, 204, 255;
 	}
 }
