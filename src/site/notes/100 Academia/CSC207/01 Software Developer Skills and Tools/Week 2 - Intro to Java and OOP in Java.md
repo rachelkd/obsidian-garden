@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 {"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T16:53:07.000-04:00","updated":"2024-10-08T01:09:54.906-04:00"}
-=======
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T16:53:07.000-04:00","updated":"2024-10-07T22:44:38.468-04:00"}
->>>>>>> parent of 81f0ff1a (Published multiple files)
 ---
 
 
@@ -29,7 +25,7 @@
 
 ## More Java
 
-> [!question] Questions to be answered this week:
+> [!question]- Questions to be answered this week:
 > 1. How do we compile and run Java programs? What is the JVM?
 > 2. What is the structure of a Java class? (declaration, variables, …)
 > 3. Since the constructor of a parent class is not inherited by a subclass, how does the parent part of a subclass instance get constructed?
