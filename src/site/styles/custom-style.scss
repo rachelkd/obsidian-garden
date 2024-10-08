@@ -3,6 +3,18 @@ body {
 	    ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
 	    IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
 	   ***/
+
+	--font-default: 'Inter', sans-serif;
+	--h1-font: 'New York', 'Inter', sans-serif;
+	--h2-font: 'New York', 'Inter', sans-serif;
+	--h3-font: 'New York', 'Inter', sans-serif;
+	--h4-font: 'New York', 'Inter', sans-serif;
+	--h5-font: 'New York', 'Inter', sans-serif;
+	--h6-font: 'New York', 'Inter', sans-serif;
+	--font-mono: 'JetBrains Mono', 'Cascadia Code', monospace;
+	--heading-padding: 8px;
+
+	/* Fonts */
 	@font-face {
 		font-family: 'Inter';
 		src: url('/fonts/InterVariable.ttf') format('truetype');
@@ -44,14 +56,18 @@ body {
 		font-style: italic;
 		font-weight: 100 900;
 	}
-	h1 {
-		font-family: 'New York','Inter', sans-serif !important;
-		font-weight: var(--h1-weight) !important; // Use the variable if defined
-		font-size: var(--h1-size) !important; // Use the variable if defined
-		font-style: var(--h1-style) !important; // Use the variable if defined
+
+
+	h1, h2, h3, h4, h5, h6 {
+		padding-top: var(--heading-padding); // Apply local padding to top
+		padding-bottom: --heading-padding; // Apply local padding to bottom
 	}
 
-	font-family: 'New York', 'Inter', sans-serif !important;
+	.right-align {
+		text-align: right;
+	}
+
+	font-size: 14px !important;
 	font-weight: 400;
 	font-feature-settings: var(--sans-font-features);
 	--list-spacing: 0.2em;
@@ -63,7 +79,6 @@ body {
 	}
 	#tooltip-content {
 		text-shadow: none !important;
-		font-family: 'Inter', sans-serif !important;
 	}
 
 
@@ -96,5 +111,9 @@ body {
 	.callout[data-callout="obs"] {
 		--callout-icon: lucide-eye;
 		--callout-color: 235, 204, 255;
+	}
+
+	.callout-title-inner {
+		color: var(--text-normal);
 	}
 }
