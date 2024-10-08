@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T16:53:07.000-04:00","updated":"2024-09-29T15:37:30.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T16:53:07.000-04:00","updated":"2024-10-07T22:22:58.956-04:00"}
 ---
 
 
@@ -9,16 +9,6 @@
 >     - Parts of a class
 >     - Inheritance
 >     - Constructors
-
-> [!info]- Week Info
-> ##### Slides
-> <p><span><ul>
-<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/03-entity-discovery.pdf" data-href="100 Academia/CSC207/Files/03-entity-discovery.pdf" href="100 Academia/CSC207/Files/03-entity-discovery.pdf" class="internal-link" target="_blank" rel="noopener">03-entity-discovery.pdf</a></li>
-</ul></span></p><p><span><ul>
-<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/03-Java.pdf" data-href="100 Academia/CSC207/Files/03-Java.pdf" href="100 Academia/CSC207/Files/03-Java.pdf" class="internal-link" target="_blank" rel="noopener">03-Java.pdf</a></li>
-</ul></span></p><p><span><ul>
-<li dir="auto"><a data-tooltip-position="top" aria-label="100 Academia/CSC207/Files/04-Java-OOP.pdf" data-href="100 Academia/CSC207/Files/04-Java-OOP.pdf" href="100 Academia/CSC207/Files/04-Java-OOP.pdf" class="internal-link" target="_blank" rel="noopener">04-Java-OOP.pdf</a></li>
-</ul></span></p>
 
 ---
 
