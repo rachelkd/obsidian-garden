@@ -10,7 +10,11 @@ Welcome to my digital garden, a collection of all my Obsidian notes during my un
 
 You can explore my digital garden by visiting [racheldeng.vercel.app](https://racheldeng.vercel.app).
 
-[![Digital Garden](https://img.shields.io/badge/Visit%20My%20Digital%20Garden)](https://racheldeng.vercel.app)
+<p align="center">
+  <a href="https://racheldeng.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20My%20Digital%20Garden-Open%20in%20New%20Tab-blue" alt="Visit My Digital Garden">
+  </a>
+</p>
 
 The digital garden uses the [Primary theme](https://primary-theme.github.io/), with some custom CSS changes to better fit the aesthetic and functional needs of the project.
 
