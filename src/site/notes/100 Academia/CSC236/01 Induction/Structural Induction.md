@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-03T12:51:30.589-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-07T19:49:41.108-04:00"}
 ---
 
 
@@ -205,9 +205,10 @@ $\implies$ We can give a **self-contained recursive definition** for $\text{num}
 <!-- break -->
 - Note: We never defined what a node is.
 
-## Proof by Structural Induction
+## An Attempt of a Proof by Structural Induction
 
-**Claim.** $\forall t \in T, \text{size}(\cdot) \leq 2^{\text{height}(t)}$
+**Claim.** $\forall t \in T, \text{size}(t) \leq 2^{\text{height}(t)}$ 
+(WTP)
 
 **Proof (by structural induction).**
 
@@ -222,8 +223,41 @@ Assume \[IH]:
 
 Then,
 
-$\text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 + \text{size}(t_{1}) + \text{size}(t_{2})$
+$\text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$\begin{align}) = 1 + \text{size}(t_{1}) + \text{size}(t_{2}) &&&& \text{(by definition of size)}\end{align}$
 $$\begin{align*}
 &\leq 1 + 2^{\text{height}(t_{1})} + 2^{\text{height}(t_{2})} && \text{(by IH)} \\
-&\leq 1 + 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)} \cdot 2 && (\because 2^{h_{1}} + 2^{h_{2}} \leq 2^{\text{max}(h_{1}, h_{2})} + 2^{\text{max}(h_{1}, h_{2})} = 2 \cdot 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)})
+&\leq 1 + 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)} \cdot 2 && (\because 2^{h_{1}} + 2^{h_{2}} \leq 2^{\text{max}(h_{1}, h_{2})} + 2^{\text{max}(h_{1}, h_{2})} = 2 \cdot 2^{\text{max}\Big(h(t_{1}), h(t_{2})\Big)}) \\
+&= \bbox[pink]{1} + 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))+1}
 \end{align*}$$
+- ! Problem: “1 +” is not what we want.
+
+> [!question]+ What can we do?
+> - Make adjustments?
+> - Plug in terms, find “better”/stronger/more precise inequality
+> - $\implies$ **Strengthening the IH**
+>     - i.e., Changing the whole *WTP*
+
+- We should try to prove something *harder*
+    - i.e., Prove a better equality; One that is closer to what is actually true between $\text{size}(t)$ and $\text{height}(t)$
+- If inequality is stronger,
+    - [c] Have more to conclude at the end of induction step
+    - [p] Get more out of your induction hypothesis
+    - Often, these things balance out!
+
+## A New Claim and Proof by Structural Induction
+
+**Claim.** $\text{size}(t) \leq 2^{\text{height}(t)} - 1$
+
+$\bigg(\equiv \text{size}(t) < 2^{\text{height}(t)}\bigg)$ since size and height are integers
+
+**Proof by structural induction.**
+
+$\text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$\begin{align}) = 1 + \text{size}(t_{1}) + \text{size}(t_{2}) &&&& \text{(by definition of size)}\end{align}$
+$$\begin{align*}
+&\leq 1 + 2^{\text{height}(t_{1})} \bbox[DarkSeaGreen]{-1} + 2^{\text{height}(t_{2})} \bbox[DarkSeaGreen]{-1} && \text{(by IH)} \\
+&\leq 1 + \bigg( 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)} \bbox[DarkSeaGreen]{-1} \bigg) \cdot 2 \\
+&= \cancel{1} + 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} \bbox[DarkSeaGreen]{-1} \cancel{\bbox[DarkSeaGreen]{-1}} \\
+&= 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} - 1
+\end{align*}$$
+
+

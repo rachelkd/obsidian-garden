@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-09-27T18:53:14.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-10-06T18:42:42.959-04:00"}
 ---
 
-# What is version control?
+
+# What is Version Control?
 
 - Software dev teams need a way to *track how their software changes* over time
 - Implementation: 
@@ -21,7 +22,7 @@
 { #40ec88}
 
 
-# Why version control?
+# Why Version Control?
 
 - Backup and restore
     - Accidents happen
@@ -40,7 +41,8 @@
     - Branching allows even locally to have several different copies of the code
 
 → If we are using version control properly, it is going to facilitate *communication* between our team.
-# Plain text formats
+
+# Plain Text Formats
 
 - What is plain text?
     - Anything where you open the file in your editor and see the words

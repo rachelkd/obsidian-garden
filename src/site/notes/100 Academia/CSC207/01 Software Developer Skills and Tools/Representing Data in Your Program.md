@@ -1,12 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-10T22:23:03.000-04:00","updated":"2024-09-27T18:53:10.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-10T22:23:03.000-04:00","updated":"2024-10-06T01:13:18.204-04:00"}
 ---
+
 
 > [!info]- Learning outcomes
 > 1. Be able to analyze a written problem specification and identify a set of classes that describe the data
 > 2. Understand how nouns and verbs relate to objects and methods
 
-# Specification analysis
+# Specification Analysis
 
 How do you specify what you want built? How do you do that in a systematic way?
 
@@ -19,7 +20,7 @@ How do you specify what you want built? How do you do that in a systematic way?
     - Design custom classes that serve as types of all our data in our problem
     - *What* are the initial classes, rather than *how* do I implement this?
 
-## Unified modelling language (UML) class diagrams
+## Unified Modelling Language (UML) Class Diagrams
 
 - We do a noun-verb analysis and create UML class diagrams
 - Also link them up using arrows → represent **dependencies**
@@ -32,7 +33,7 @@ How do you specify what you want built? How do you do that in a systematic way?
 
 > [!important] This is the *what* we’re doing, not the *how*.
 
-## The process
+## The Process
 
 - Typically given a *specification*
     - Written description of the requirements
@@ -43,7 +44,7 @@ How do you specify what you want built? How do you do that in a systematic way?
     - Ideally, gather around a table
     - Might use index cards (one per class) to move around
 
-## Discovering classes
+## Discovering Classes
 
 - Read the specification repeatedly
 - Figure out how to ==represent the data== in the program:
@@ -58,7 +59,7 @@ How do you specify what you want built? How do you do that in a systematic way?
         - Might be more useful for the future; adding features
     - Keep refining/adding until everyone on team is sufficiently satisfied
 
-# Example: University personnel
+# Example: University Personnel
 
 Consider this description of a software system that you are developing to keep track of employees and students at a university.
 

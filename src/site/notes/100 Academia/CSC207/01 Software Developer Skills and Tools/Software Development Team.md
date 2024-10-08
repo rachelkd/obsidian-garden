@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-team/","tags":["university","#lecture","#note","#cs"],"created":"2024-09-03T19:54:36.000-04:00","updated":"2024-09-27T18:53:12.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-team/","tags":["#cs","#lecture","#note","university"],"created":"2024-09-03T19:54:36.000-04:00","updated":"2024-10-06T18:23:03.002-04:00"}
 ---
 
-### Who is on the software development team and what do they contribute?
+
+### Who is on the Software Development Team and what Do They Contribute?
 
 > [!info]- Developer (you)
 > - ==Build the project==

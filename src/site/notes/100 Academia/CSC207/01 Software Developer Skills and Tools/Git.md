@@ -1,11 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["university","#lecture","#note"],"created":"2024-09-05T13:16:12.000-04:00","updated":"2024-09-27T18:53:03.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/git/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:16:12.000-04:00","updated":"2024-10-06T18:42:46.081-04:00"}
 ---
 
-# Terminal commands
+
+# Terminal Commands
 
 `pwd`
 - Present working directory
+
     ```
     pwd
     /Users/rachel/Desktop/CSC207/csc207
@@ -22,13 +24,13 @@ CSC207 will normally create the remote repo for you:
 - *Add* and *commit* changes to local repo
 - *Push* changes to the remote repository
 
-# Remote repository
+# Remote Repository
 
 - What is the **origin**?
     - The repo that lives on another server
     - ![](https://i.imgur.com/4jRmMRO.png)
 
-# Clone to get local repository
+# Clone to Get Local Repository
 
 - `clone` command makes a copy of the remote repository on your local machine
 - ![](https://i.imgur.com/Qf2LOBT.png)
@@ -37,7 +39,7 @@ CSC207 will normally create the remote repo for you:
     - ![](https://i.imgur.com/k4J4Npp.png)
     - Implementation details are in local repo
 
-# Local repository
+# Local Repository
 
 - Actual repo + how Git works is hidden
     - There is a file, `.git`, that contains all the repository details
@@ -47,7 +49,7 @@ CSC207 will normally create the remote repo for you:
 - When you want to **commit** a change to the local repository → first **stage** the changes
     - i.e., When you want to officially do something, tell Git
 
-# Staging changes
+# Staging Changes
 
 - `git add` does not add files to repo!
     - Instead: Marks a file as being part of the current change
@@ -57,7 +59,7 @@ CSC207 will normally create the remote repo for you:
 > When you make changes to a file, and then add and commit them,
 > - The next time you make some changes to a file, you will still have to run `git add` to stage the changes to the next commit
 
-# Git status
+# Git Status
 
 - A file can be in one of four states:
     - `untracked`
@@ -72,7 +74,7 @@ CSC207 will normally create the remote repo for you:
 > [!tip]- Use `git status` regularly → helps make sure changes you have made make it into the repo
 > - IntelliJ uses colours and symbols to help you easily see status of files
 
-# Basic workflow (no branching)
+# Basic Workflow (no branching)
 
 - Starting a project:
     - `git clone <url>`
@@ -89,7 +91,7 @@ CSC207 will normally create the remote repo for you:
         - Pushes local changes to the remote repo
     - IntelliJ: Either type these commands in the Terminal or use the graphical UI it provides
 
-# Distributed version control systems
+# Distributed Version Control Systems
 
 ![](https://i.imgur.com/DwrbuJh.png)
 
@@ -110,7 +112,7 @@ CSC207 will normally create the remote repo for you:
     - Push is going to fail
     - Read the error messages, follow the instruction Git provides
 
-# Branch and merge workflow
+# Branch and Merge Workflow
 
 > [!important]+ To avoid conflicts, developers often create a **branch**
 > - Work on new feature in new branch (a local copy)

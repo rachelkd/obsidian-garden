@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["university","#lecture","#note","cs","java"],"created":"2024-09-10T21:24:12.000-04:00","updated":"2024-09-27T18:53:06.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-10T21:24:12.000-04:00","updated":"2024-10-06T19:04:25.809-04:00"}
 ---
 
-# Running programs
+
+# Running Programs
 
 > [!question] Questions
 > - What is a program?
@@ -14,7 +15,7 @@
     1. **Interpretation**
     2. **Compilation**
 
-# Interpreted vs. compiled
+# Interpreted vs. Compiled
 
 - **Interpreted**
     - e.g., Python
@@ -38,18 +39,20 @@
 
 If you use command line → compile manually:
 1. Compile using “`javac`”:
-    - 
+
       ```
       javac HelloWorld.java
       ```
+
 2. This produces file “`HelloWord.class`”
-    - 
+
       ```
       ls
       HelloWorld.class  HelloWorld.java
       ```
+
 3. Run the program using “`java`”
-    - 
+
       ```
       java HelloWorld
       Hello world!
@@ -59,17 +62,17 @@ If you use command line → compile manually:
     - e.g., Maven, Gradle
     - Build systems take care of the build process → focus on code!
 
-# Computer architecture
+# Computer Architecture
 
 > [!def]- **Operating system** (OS)
 > - manages various running applications
 > - helps applications interact with the hardware
 > - OS works directly with the hardware
 
-
 - ![|400](https://i.imgur.com/0FOBOAI.png)
     - e.g., Applications: Python, C, Java
-# Compiled applications
+
+# Compiled Applications
 
 - Is it okay to just have apps at the top, or is there something smart we can do to make our lives easier?
 - Programs written in languages are *compiled* into OS-specific applications → interface directly with OS
@@ -78,6 +81,7 @@ If you use command line → compile manually:
 - If you write a program in C, compile, and execute, it directly makes calls to the OS
     - The interface it is making use of
 - ![|300](https://i.imgur.com/udvVt2f.png)
+
 # Virtual Machine Architecture
 
 > [!def]- **Virtual machine** (VM)
@@ -99,13 +103,12 @@ For example,
 > - This does not take away from the fact that we are running on different operating systems; just ==changes who is responsible for different OS==
 > - Not the programmer’s responsibility; it’s the JVM’s job
 > - Someone needs to implement the JVM if there’s an update to the OS to correspond to that change
->  
 
 - When people designed Java, they designed it to be extremely portable
 - Can think of JVM as interpreter for byte code
     - `.java` → `.class` → JVM
 
-# Java architecture
+# Java Architecture
 
 - What is the **JVM**?
     - Application that is something like an OS
