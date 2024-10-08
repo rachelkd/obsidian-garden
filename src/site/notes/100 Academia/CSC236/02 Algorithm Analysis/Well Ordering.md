@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","todo","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-10-08T17:41:53.067-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","todo","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-10-08T18:38:33.962-04:00"}
 ---
 
 
@@ -70,7 +70,7 @@ Consider the set $R = \{ r \in \mathbb{N} : \exists q \in \mathbb{N}, n = qd + r
 <!-- break -->
 - By WOP, $R$ contains a minimum element $r_{m}$.
     - i.e., $\forall r \in R, r \geq r_{m}$
-- By our Lemma, $r_{m} < d$
+- By our Lemma, $r_{m} < d$ 
     - ($d$ was 25 in our lemma)
 - $r_{m} \in R$, so $\exists q, n= qd + r_{m}$
     - Let $q_{m}$ witness this: $n = q_{m} d + r_{m}$
@@ -90,6 +90,7 @@ Thus, $r_{m} < d \wedge n = q_{m}d + r_{m}$.
 So, $(q_{m}, r_{m})$ witness what we WTP.
 
 <div class="right-align"> <span class="math display">\blacksquare</span> </div>
+
 **Alternate proof that $r_{m} < d$.**
 Prove: $$\forall r \in R, \underbrace{r \geq d \implies \underbrace{\exists r' \in R, r' < r}_{r \text{ is not the min.}}}_{\forall r' \in R, r' \geq r \implies r < d}$$
 
