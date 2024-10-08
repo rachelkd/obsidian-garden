@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["university","#lecture","#note"],"created":"2024-09-03T12:59:52.000-04:00","updated":"2024-09-27T18:53:16.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["#lecture","#note","university"],"created":"2024-09-03T12:59:52.000-04:00","updated":"2024-10-06T18:17:04.988-04:00"}
 ---
+
 
 > [!info]- Learning Objectives
 > 1. The software development lifecycle
@@ -14,6 +15,7 @@ For course overview, see [[100 Academia/CSC207/00 Introduction/Course Overview\|
 > 
 
 ---
+
 # Software Development Life Cycle
 
 > [!question]+ Questions to be answered this week:
@@ -22,6 +24,7 @@ For course overview, see [[100 Academia/CSC207/00 Introduction/Course Overview\|
 
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/Software Development Team\|Software Development Team]]
 - [[100 Academia/CSC207/01 Software Developer Skills and Tools/Software Development Lifecycle\|Software Development Lifecycle]]
+
 # Java
 
 > [!question]+ Questions to be answered this week:

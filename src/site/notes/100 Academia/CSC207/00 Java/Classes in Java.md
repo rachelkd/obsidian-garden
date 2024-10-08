@@ -1,26 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/classes-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T14:47:47.817-04:00","updated":"2024-10-05T23:44:09.611-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/classes-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T14:47:47.817-04:00","updated":"2024-10-06T00:43:04.690-04:00"}
 ---
 
 
 # Instantiating an Object
 
--   Create an instance of a class (i.e., creating an object) by calling its **constructor**
+- Create an instance of a class (i.e., creating an object) by calling its **constructor**
 
 ```java
 StringBuilder name = new StringBuilder("Hello");
 ```
 
-_Use keyword `new`_
+*Use keyword `new`*
 
--   Class may offer more than one constructor
-    -   Compiler determines which one we are calling by the number and type of the arguments
--   When Java evaluates the expression `new StringBuilder("Hello")`,
-    -   Allocates memory for new object
-    -   Evaluates arguments
-    -   Calls appropriate constructor
-    -   Returns a reference to the newly-constructed object
--   Can assign reference to variable (like above) _or_ use it _directly_:
+- Class may offer more than one constructor
+    - Compiler determines which one we are calling by the number and type of the arguments
+- When Java evaluates the expression `new StringBuilder("Hello")`,
+    - Allocates memory for new object
+    - Evaluates arguments
+    - Calls appropriate constructor
+    - Returns a reference to the newly-constructed object
+- Can assign reference to variable (like above) *or* use it *directly*:
 
 ```java
 System.out.println(new StringBuilder("Professor").append(" Horton"));
@@ -29,17 +29,17 @@ System.out.println(new StringBuilder("Balakrishnan").indexOf("kris"));
 
 # APIs
 
--   Consult [standard Java Documentation](https://docs.oracle.com/javase/8/docs/api/) for full details on built-in Java class methods and data members of the class available
--   Documentation specifies exactly how client code can interact with the class
-    -   Call this the **Application Programming Interface** (API)
-    -   Does not tell us implementation
-    -   Know the interface, though
--   Implementers of the class are free to change the implementation in any way without having any impact on client code that may already exist
-    -   API is maintained → All is well
+- Consult [standard Java Documentation](https://docs.oracle.com/javase/8/docs/api/) for full details on built-in Java class methods and data members of the class available
+- Documentation specifies exactly how client code can interact with the class
+    - Call this the **Application Programming Interface** (API)
+    - Does not tell us implementation
+    - Know the interface, though
+- Implementers of the class are free to change the implementation in any way without having any impact on client code that may already exist
+    - API is maintained → All is well
 
 # Calling Methods
 
--   We can call an **instance method** via an instance
+- We can call an **instance method** via an instance
 
 ```java
 String band = "Arcade Fire";
@@ -49,21 +49,21 @@ int size = band.length();
 
 # Class Methods
 
--   **Class methods** (or, **static methods**)
-    -   Some methods are not associated with individual instances of a class, but ==with the class as a whole==
-    -   Defined using keyword `static`
-    -   Access class method via class name
+- **Class methods** (or, **static methods**)
+    - Some methods are not associated with individual instances of a class, but ==with the class as a whole==
+    - Defined using keyword `static`
+    - Access class method via class name
 
 ```java
 // Call a class method via the class name.
 double x = Math.cos(48);
 ```
 
--   Class `String` has some class methods
-    -   e.g., `valueOf`
-        -   Takes `int` and returns equivalent `String`
-        -   Other versions of `valueOf` convert other types to `String`
-        -   i.e., `valueOf` is **overloaded** with multiple meanings
+- Class `String` has some class methods
+    - e.g., `valueOf`
+        - Takes `int` and returns equivalent `String`
+        - Other versions of `valueOf` convert other types to `String`
+        - i.e., `valueOf` is **overloaded** with multiple meanings
 
 ```java
 int age = 12;
@@ -72,22 +72,22 @@ System.out.println("Age is " + String.valueOf(age));
 
 # Accessing Data Members
 
--   **Data members**
-    -   a.k.a **attributes** or **instance variables**
--   If class has an instance or class variable (`static` variable) that is accessible to code outside class,
-    -   Can be referred to via an instance variable or the class name, respectively
+- **Data members**
+    - a.k.a **attributes** or **instance variables**
+- If class has an instance or class variable (`static` variable) that is accessible to code outside class,
+    - Can be referred to via an instance variable or the class name, respectively
 
 <!-- break -->
 
--   Class `Integer` has a class variable called `BYTES` → Reports the number of bytes of memory used to store an int value
-    -   Class variable $\implies$ Access using class name
+- Class `Integer` has a class variable called `BYTES` → Reports the number of bytes of memory used to store an int value
+    - Class variable $\implies$ Access using class name
 
 ```java
 System.out.println(Integer.BYTES);
 ```
 
--   More unusual to find an instance variable that we can access outside of a class
-    -   Implementation details are usually kept private
+- More unusual to find an instance variable that we can access outside of a class
+    - Implementation details are usually kept private
 
 ```java
 Sneetch sam = new Sneetch();
@@ -100,10 +100,10 @@ When we construct an object, memory is allocated for it.
 
 > [!question]+ When is memory ever de-allocated?
 
--   Java does automatic **garbage collection**
-    -   Keeps track of all objects and when it can confirm that no variable refers to an object → De-allocates memory
-    -   $\implies$ Memory available for other uses
--   If we know we do not need an object anymore → Explicitly drop a reference by setting variable holding reference to `null`
-    -   $\implies$ Hasten garbage collection, improve performance
-    -   May be unnecessary and make code needlessly messy
--   In C, _heap_ memory is only de-allocated when code explicitly says to do so
+- Java does automatic **garbage collection**
+    - Keeps track of all objects and when it can confirm that no variable refers to an object → De-allocates memory
+    - $\implies$ Memory available for other uses
+- If we know we do not need an object anymore → Explicitly drop a reference by setting variable holding reference to `null`
+    - $\implies$ Hasten garbage collection, improve performance
+    - May be unnecessary and make code needlessly messy
+- In C, *heap* memory is only de-allocated when code explicitly says to do so

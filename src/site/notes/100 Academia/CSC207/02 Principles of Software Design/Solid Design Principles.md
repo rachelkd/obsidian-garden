@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-05T23:25:14.967-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-06T15:40:49.701-04:00"}
 ---
 
 

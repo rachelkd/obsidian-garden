@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-lifecycle/","tags":["university","#lecture","#note","cs"],"created":"2024-09-04T20:52:34.000-04:00","updated":"2024-09-27T18:53:11.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-lifecycle/","tags":["#lecture","#note","cs","university"],"created":"2024-09-04T20:52:34.000-04:00","updated":"2024-10-06T18:25:28.116-04:00"}
 ---
+
 
 ![](https://i.imgur.com/4ymcnhv.png)
 
-# What are the main steps in the software development lifecycle? What is the goal of each one?
+# What Are the Main Steps in the Software Development Lifecycle? What is the Goal of Each One?
+
 ### <mark style="background: #D2B3FFA6;">1. Planning and analysis</mark>
 
 **Goal:** evaluate feasibility of project, revenue potential, needs of end users

@@ -1,68 +1,68 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/arrays/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T15:07:30.951-04:00","updated":"2024-10-05T23:44:09.592-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/arrays/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T15:07:30.951-04:00","updated":"2024-10-06T00:43:07.032-04:00"}
 ---
 
 
--   `Array`s = simplest type that Java provides for storing a number of items
--   Has fixed length
-    -   Set when we construct array and can never change after that
-    -   All elements must have the same type
-        -   Stated at the moment when we declare any variable that will refer to an array
-    -   Type of the variable is not just “array,” but “array of `int`” or “array of `String`”
+- `Array`s = simplest type that Java provides for storing a number of items
+- Has fixed length
+    - Set when we construct array and can never change after that
+    - All elements must have the same type
+        - Stated at the moment when we declare any variable that will refer to an array
+    - Type of the variable is not just “array,” but “array of `int`” or “array of `String`”
 
 # Declaring an Array
 
--   Must say:
-    -   Type is array
-        -   Done using `[]` square brackets
-    -   What type each element of the array will be
-        -   Said ahead of the square brackets
+- Must say:
+    - Type is array
+        - Done using `[]` square brackets
+    - What type each element of the array will be
+        - Said ahead of the square brackets
 
 ```java
 int[] numbers;
 ```
 
-_Declares an array of `int`._
+*Declares an array of `int`.*
 
 # Constructing an Array
 
--   Array is a **[[100 Academia/CSC207/00 Java/1 Introduction to Java/Reference Types and Primitive Types\|reference type]]**
+- Array is a **[[100 Academia/CSC207/00 Java/1 Introduction to Java/Reference Types and Primitive Types\|reference type]]**
 
-    -   `numbers` will not contain a sequence of `int`s, but will _refer_ to an object containing a sequence of `int`s
+    - `numbers` will not contain a sequence of `int`s, but will *refer* to an object containing a sequence of `int`s
 
--   Syntax:
-    -   Use keyword `new`
-    -   Name of type
-    -   _Square brackets_
-    -   Argument: _size_ of the array
+- Syntax:
+    - Use keyword `new`
+    - Name of type
+    - *Square brackets*
+    - Argument: *size* of the array
 
 ```java
 numbers = new int[5];
 ```
 
--   Array object now exists on the _heap_
--   Has 5 spots
--   Each spot can hold an `int` and has default value `0`
--   Variable `numbers` refers to whole object
+- Array object now exists on the *heap*
+- Has 5 spots
+- Each spot can hold an `int` and has default value `0`
+- Variable `numbers` refers to whole object
 
 ## What Values before We Assign?
 
--   Have assigned no values to these 5 spots, but are initialized automatically to _default value_ for an `int` = `0`
--   Each built-in type has a default value
+- Have assigned no values to these 5 spots, but are initialized automatically to *default value* for an `int` = `0`
+- Each built-in type has a default value
 
 ## Another Way to Construct an Array: with an Initializer
 
--   Can combine _construction_ and _initialization_ of an array into one step
+- Can combine *construction* and *initialization* of an array into one step
 
     ```java
     numbers = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024};
     ```
 
-_Constructs an array of exactly the right length to hold the given values, then assigns them to elements of the array._
+*Constructs an array of exactly the right length to hold the given values, then assigns them to elements of the array.*
 
 # Determining Length
 
--   Access array’s `length` attribute
+- Access array’s `length` attribute
 
     ```java
     int[] sibling = new int[numbers.length];
@@ -70,40 +70,40 @@ _Constructs an array of exactly the right length to hold the given values, then 
 
 # Accessing Array Elements
 
--   Same as Python
--   To assign a value to int at position `1`:
+- Same as Python
+- To assign a value to int at position `1`:
 
     ```java
     numbers[1] = 512;
     ```
 
--   `int`s are **primitive** $\iff$ Value `512` stored directly in array
--   Array indices start at zero
-    -   $\implies$ Code went into second spot
--   Java arrays do _not_ offer slicing or negative indices
-    -   Unlike Python
+- `int`s are **primitive** $\iff$ Value `512` stored directly in array
+- Array indices start at zero
+    - $\implies$ Code went into second spot
+- Java arrays do *not* offer slicing or negative indices
+    - Unlike Python
 
 ```java
 String[] houses = {"Hufflepuff", "Gryffindor", "Slytherin", "Ravenclaw"};
 String forHarry = houses[-3];
 ```
 
-_Generates the error `Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -3`._
+*Generates the error `Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -3`.*
 
 # Why Have Such a Restricted Type?
 
--   Arrays are more restricted than Python lists
-    -   e.g., Size can never change
--   Arrays are very efficient
--   Takes both extra space and extra time in order to provide a list structure that can grow and shrink to arbitrary sizes
--   Java gives a choice:
-    -   If you don’t need this flexibility, you can use a super efficient array
-    -   If you do, upgrade to a flexible structure e.g., `ArrayList`
+- Arrays are more restricted than Python lists
+    - e.g., Size can never change
+- Arrays are very efficient
+- Takes both extra space and extra time in order to provide a list structure that can grow and shrink to arbitrary sizes
+- Java gives a choice:
+    - If you don’t need this flexibility, you can use a super efficient array
+    - If you do, upgrade to a flexible structure e.g., `ArrayList`
 
 ## Mixing Types in Arrays Using Inheritance
 
--   Every Java class is a descendant of the built-in `Object` class
--   We can declare an array of `Object`s to hold various types
+- Every Java class is a descendant of the built-in `Object` class
+- We can declare an array of `Object`s to hold various types
 
 ```java
 Object[] miscellany = new Object[5];
@@ -113,13 +113,13 @@ miscellany[2] = new Monster("Fred");
 miscellany[3] = new int[50];
 ```
 
--   Primitive types have “wrapper” classes for use as Objects
--   Arrays themselves are also Objects
+- Primitive types have “wrapper” classes for use as Objects
+- Arrays themselves are also Objects
 
 ### Consequences of Using Object Arrays
 
--   Java only knows elements are Objects when reading code
--   Type checking is limited:
+- Java only knows elements are Objects when reading code
+- Type checking is limited:
 
 ```java
 Object element = miscellany[0]; // OK
@@ -128,24 +128,24 @@ String s = miscellany[0]; // Error
 
 ### Casting Objects to Specific Types
 
--   Use **casting** to tell Java the specific type:
+- Use **casting** to tell Java the specific type:
 
 ```java
 String s = (String) miscellany[0];
 ```
 
--   Incorrect casting leads to runtime errors:
+- Incorrect casting leads to runtime errors:
 
 ```java
 String s = (String) miscellany[1]; // Runtime error
 ```
 
-_Generates `java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String`._
+*Generates `java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String`.*
 
 ## Two-dimensional Arrays
 
--   We can create arrays with multiple dimensions
--   Elements of these arrays are themselves arrays
+- We can create arrays with multiple dimensions
+- Elements of these arrays are themselves arrays
 
 ```java
 int[][] table;
@@ -164,7 +164,7 @@ table = new int[50][3];
 
 ### Accessing Elements in 2D Arrays
 
--   Must keep different dimensions straight
+- Must keep different dimensions straight
 
 ```java
 table[49][2] = 123; // Legal
@@ -173,8 +173,8 @@ table[2][49] = 123; // Not legal
 
 ### Irregularly Dimensioned Arrays
 
--   We can create levels of arrays separately
--   Allows for non-rectangular structures
+- We can create levels of arrays separately
+- Allows for non-rectangular structures
 
 ```java
 int[][] table;
@@ -187,4 +187,4 @@ for (int i = 0; i < 50; i++) {
 // Now in same situation as new int[50][3], but with more flexibility
 ```
 
--   This decoupling of sizes allows for irregularly shaped multi-dimensional arrays
+- This decoupling of sizes allows for irregularly shaped multi-dimensional arrays
