@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/week-5-more-discrete-random-variables/","tags":["lecture","note","stats","university"],"created":"2024-10-03T12:52:58.548-04:00","updated":"2024-10-08T19:54:13.627-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/week-5-more-discrete-random-variables/","tags":["lecture","note","stats","university"],"created":"2024-10-03T12:52:58.548-04:00","updated":"2024-10-09T01:36:18.387-04:00"}
 ---
 
 
-> [!info]- Learning Objectives
+> [!goal]- Learning Objectives
 
 ---
 
 # Lecture Notes
 
-- [[100 Academia/STA237/03 Discrete Random Variables/Discrete Uniform Distribution\|Discrete Uniform Distribution]]
-- [[100 Academia/STA237/03 Discrete Random Variables/The Bernoulli and Binomial Distributions\|The Bernoulli and Binomial Distributions]]
-- [[100 Academia/STA237/03 Discrete Random Variables/Geometric Distribution\|Geometric Distribution]]
-- [[100 Academia/STA237/03 Discrete Random Variables/Random Variables in R\|Random Variables in R]]
-- [[000 Zettlekasten/Sampling With Vs Without Replacement\|Sampling With Vs Without Replacement]]
+-   [[100 Academia/STA237/03 Discrete Random Variables/Discrete Uniform Distribution\|Discrete Uniform Distribution]]
+-   [[100 Academia/STA237/03 Discrete Random Variables/The Bernoulli and Binomial Distributions\|The Bernoulli and Binomial Distributions]]
+-   [[100 Academia/STA237/03 Discrete Random Variables/Geometric Distribution\|Geometric Distribution]]
+-   [[100 Academia/STA237/03 Discrete Random Variables/Random Variables in R\|Random Variables in R]]
+-   [[100 Academia/STA237/03 Discrete Random Variables/Sampling With Vs Without Replacement\|Sampling With Vs Without Replacement]]
 
 ![](https://i.imgur.com/OXQjeCg.png)

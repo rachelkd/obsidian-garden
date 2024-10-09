@@ -53,4 +53,4 @@
 
 # Exceptions in Java
 
-- [[000 Zettlekasten/Exceptions in Java\|Exceptions in Java]]
+- [[100 Academia/CSC207/02 Principles of Software Design/Exceptions in Java\|Exceptions in Java]]
