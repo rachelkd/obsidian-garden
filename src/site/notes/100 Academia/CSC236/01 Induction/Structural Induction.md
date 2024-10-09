@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-07T19:49:41.108-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-09T03:44:20.965-04:00"}
 ---
 
 
@@ -114,6 +114,7 @@ num(e_{1} \oplus e_{2}) &= num(e_{1}) + num(\oplus) + num(e_{2}) \\
 &= 1 + \bigg(op(e_{1}) + op(\oplus) + op(e_{2}) \bigg) \\
 &= 1 + op(e_{1} \oplus e_{2})
 \end{align*}$$
+
 ---
 # A Self-Contained Definition of $E$
 
@@ -259,5 +260,3 @@ $$\begin{align*}
 &= \cancel{1} + 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} \bbox[DarkSeaGreen]{-1} \cancel{\bbox[DarkSeaGreen]{-1}} \\
 &= 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} - 1
 \end{align*}$$
-
-
