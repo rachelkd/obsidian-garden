@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T19:29:41.075-04:00","updated":"2024-10-02T15:33:10.512-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T19:29:41.075-04:00","updated":"2024-10-09T01:01:19.576-04:00"}
 ---
 
 
@@ -50,3 +50,7 @@
 # Solid Design Principles
 
 - [[100 Academia/CSC207/02 Principles of Software Design/Solid Design Principles\|Solid Design Principles]]
+
+# Exceptions in Java
+
+- [[000 Zettlekasten/Exceptions in Java\|Exceptions in Java]]
