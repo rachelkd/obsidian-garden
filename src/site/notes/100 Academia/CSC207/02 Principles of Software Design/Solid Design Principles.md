@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-09T01:39:48.317-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-09T01:52:53.370-04:00"}
 ---
 
 
@@ -265,6 +265,7 @@ public double calculatePay(...) {
     - When `HL1` calls method `F`, dotted line shows what actually happens
         - Recall: When we call an instance method, we call the lowest one in the class
     - $\implies$ No longer a source code dependency between `HL1` and `ML1`
+- **Dependency injection**
     - We can add a replacement for `ML1` and *inject* it into `HL1` (i.e., pass as parameter)
         - $\implies$ No longer have this dependency problem
 
