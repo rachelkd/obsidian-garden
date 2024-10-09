@@ -113,6 +113,11 @@ body {
 		--callout-color: 235, 204, 255;
 	}
 
+	.callout[data-callout="goal"] {
+		--callout-icon: lucide-goal;
+		--callout-color: 255, 163, 102;
+	}
+
 	.callout-title-inner {
 		color: var(--text-normal);
 	}
