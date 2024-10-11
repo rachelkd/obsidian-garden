@@ -1,14 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["university","#lecture","#note","#stats"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-09-10T13:20:25.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-10-09T16:16:12.347-04:00"}
 ---
+
 
 > [!important] Randomness
 > - Randomness is why we need to talk about [[100 Academia/STA237/00 Introduction/Probability\|probability]]
-> - Never know definitively what will happen in random experiement
+> - Never know definitively what will happen in random experiment
 > - Individual outcomes are *uncertain*
 >     - But there is *structure* to how often outcomes occur in very large numbers of repetitions
 
-#### Examples of random experiments
+#### Examples of Random Experiments
 
 1. Result of rolling a 6-sided die
 2. How many people will benefit from a new drug
@@ -16,6 +17,7 @@
 4. Height of the next person who walks into the room
 5. Sex of the next baby born in a hospital
 6. Maternal mortality rate in Canada next year
+
 # Events and Outcomes
 
 - When we run a **random experiment** → may be interested in individual **outcomes** of the experiment
@@ -27,7 +29,7 @@
     - i.e., a ==collection of outcomes== $\implies$ outcome is an element of a sample space
 - Use capital letters to refer to an **event** we are interested in
     - e.g., $A = \{H\}$, where $H$ is an outcome
-    - Notice that $A \subseteq \Omega$  (see [[100 Academia/STA237/00 Introduction/Randomness#Sample Space\|#Sample Space]])
+    - Notice that $A \subseteq \Omega$ (see [[100 Academia/STA237/00 Introduction/Randomness#Sample Space\|#Sample Space]])
 
 # Sample Space
 
@@ -36,7 +38,7 @@
 - Subsets of the **sample space** are **events**
 - e.g., Rolling a die: $\Omega = \{1,2,3,4,5,6\}$
 
-### e.g., Flipping two coins (random experiment)
+### e.g., Flipping Two Coins (random experiment)
 
 - Sample space: $\Omega = \{ HH, HT, TH, TT \}$
 - Outcome: $\omega = HH$
@@ -46,32 +48,33 @@
       $C = \{ \text{We get one head, one tail} \} = \{HT, TH\}$
 
 > [!question] What if we roll a die and then flip a coin? What is our sample space?
-> - $\Omega = \{ (1H), (1T), (2H), (2T), ..., (6H), (6T) \}$
+> - $\Omega = \{ (1H), (1T), (2H), (2T), …, (6H), (6T) \}$
 > - 12 outcomes
 
-# How do we tell how big our sample space is?
+# How Do We Tell how Big Our Sample Space Is?
 
 - Use [[multiplication principal\|multiplication principal]] (Ch. 1.6)
-# Sample space and event can have *infinite outcomes*
+
+# Sample Space and Event Can Have *infinite outcomes*
 
 e.g., Flip a coin until you get a heads. You are interested in the event you need at least 3 flips (Textbook Ex. 1.4)
 
 - What is the **sample space**?
     - Set of all sequences of coin flips with one head preceded by some number of tails
-    - $\Omega = \{H, TH, TTH, TTTH, ... \}$
+    - $\Omega = \{H, TH, TTH, TTTH, … \}$
 - What is the **event**?
-    - $A = \{TTH, TTTH, TTTTH, ...\}$
+    - $A = \{TTH, TTTH, TTTTH, …\}$
 - Notice that the *sample space* and *event $A$* are infinite → contain an infinite number of outcomes
 
-# e.g., Class president (Textbook Ex. 1.3)
+# e.g., Class President (Textbook Ex. 1.3)
 
 Yolanda and Zach are running for president of the student association. One thousand students will be voting, and each voter will pick one of the two candidates. We will eventually ask questions like, What is the probability that Yolanda wins the election over Zach by at least 100 votes? But before actually finding this probability, first identify (i) the sample space and (ii) the event that Yolanda beats Zach by at least 100 votes.
 
 - Denote the outcome of the vote:
     - $(x, 1000-x)$, where $x$ is the number of votes for Yolanda, and $1000-x$ is the number of votes for Zach
 - Sample space:
-    - $\Omega = \{(0, 1000), (1,999), (2,998), ..., (999,1), (1000,0)\}$
+    - $\Omega = \{(0, 1000), (1,999), (2,998), …, (999,1), (1000,0)\}$
 - Event:
     - Let $A$ be the event that Yolanda beats Zach by at least 100 votes
     - $A$ consists of all outcomes in which $x-(1000-x) \geq 100$ or $550 \leq x \leq 1000$
-    - $A = \{(550, 450), (551, 449), ..., (999, 1), (1000, 0)\}$
+    - $A = \{(550, 450), (551, 449), …, (999, 1), (1000, 0)\}$
