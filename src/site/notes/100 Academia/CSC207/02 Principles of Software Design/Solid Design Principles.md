@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-09T03:11:51.811-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-10-11T01:20:04.565-04:00"}
 ---
 
 
@@ -204,7 +204,7 @@ public double calculatePay(...) {
 
 <!-- break -->
 
-- No client should be forced to implement irrelevant methods of an interface
+- & No client should be forced to implement irrelevant methods of an interface
     - ==Better to have lots of small, specific interfaces== vs. fewer larger ones
     - → Easier to extend and modify design
 - & Keep interfaces small so that users don’t end up depending on things they don’t need
@@ -248,7 +248,7 @@ public double calculatePay(...) {
 > [!def]- Two aspects to the Dependency Inversion Principle
 > 
 > - High-level modules should not depend on low-level modules
->     - Both should depend on abstractions
+>     - ==Both should depend on abstractions==
 >     - “Nothing here should talk about Swing, nothing here should talk about SQL.”
 > - Abstractions should not depend upon details
 >     - Details should depend upon abstractions
