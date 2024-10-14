@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-10-10T20:03:14.621-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-10-14T13:49:56.948-04:00"}
 ---
 
 
@@ -84,7 +84,7 @@ So, $r_{m} - d \in R$ (with witness $q_{m} + 1$).
 
 We have a contradiction:
 - $r_{m} - d < r_{m}$ because $d > 0$
-- Contradicts $\forall r \in R, r > r_{m}$ (from WOP)
+- Contradicts $\forall r \in R, r \geq r_{m}$ (from WOP)
 
 Thus, $r_{m} < d \wedge n = q_{m}d + r_{m}$.
 So, $(q_{m}, r_{m})$ witness what we WTP.

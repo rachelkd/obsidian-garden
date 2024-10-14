@@ -1,8 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-09-23T22:33:10.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-10-12T18:32:29.277-04:00"}
 ---
 
-# Independence of events
+
+# Independence of Events
 
 - General idea of independence between two events:
     - When knowing one event already happened, it does not influence whether or not the other event happens
@@ -31,7 +32,8 @@
 - $A$ and $B$ are independent $\implies P(A \mid B) = \cdots$
     - $$\begin{align*} P(A \mid B) &= \frac{P(A \cap B)}{P(B)} \\ &= \frac{P(A) \times P(B)}{P(B)} && \text{(by multiplication rule)} \\ &= P(A) \end{align*}$$
 
-## Ex. Roll a dice and toss a coin.
+## Ex. Roll a Dice and Toss a Coin
+
 #example 
 
 ![](https://i.imgur.com/1Y2mCkJ.png)
@@ -60,7 +62,7 @@
 
 Canadian Blood Services says that about 46% of the Canadian population have Type O blood, 42% have Type A blood, 9% have Type B blood, and the rest, which is 3% have Type AB.
 
-#### Assumptions we make about *mutually exclusive events* and *independent events*
+#### Assumptions We Make about *mutually Exclusive events* and *independent events*
 
 > [!important] We always have to make *assumptions* whenever we work with data or probability models.
 
@@ -79,21 +81,21 @@ If you examine two people, are the events that the first is Type A and the secon
 - One person’s blood type does not affect the other’s
 - Not mutually exclusive $\iff P(A \cap B) \neq 0$
 
-### a) We randomly pick 4 people. What’s the probability all 4 individuals are type O?
+### a) We Randomly Pick 4 People. What’s the Probability All 4 Individuals Are Type O?
 
 ![](https://i.imgur.com/qrUk1rT.png)
 
-### b) We randomly pick 4 people. What’s the probability that no one is type AB
+### b) We Randomly Pick 4 People. What’s the Probability that no One is Type AB
 
 ![](https://i.imgur.com/j3ysOcq.png)
 
-### c) We randomly pick 4 people. What’s the probability at least 1 person is Type B
+### c) We Randomly Pick 4 People. What’s the Probability at Least 1 Person is Type B
 
 > [!tip]+ “At least” suggests that we should look at **complements**
 
 ![](https://i.imgur.com/Bd88KK4.png)
 
-# What if we have more than 2 events?
+# What if We Have More than 2 Events?
 
 - **Mutual independence**: For a general collections of events, *independence* means that
     - For every finite subcollection $A_{1}, \cdots, A_{k}, P(A_{1} \times \cdots \times P(A_{k})) = P(A_{1}) \times \cdots \times P(A_{k})$
@@ -104,6 +106,7 @@ If you examine two people, are the events that the first is Type A and the secon
     - i.e., ==Mutual independence $\implies$ pairwise independence==
 
 ## Ex. Two Coin Flips (Textbook 2.21)
+
 #example 
 
 Flip two coins. Let A be the event that the first coin comes up heads; B the event that the second comes up heads; and C the event that both coins come up the same, either heads or tails.
@@ -119,6 +122,7 @@ Flip two coins. Let A be the event that the first coin comes up heads; B the eve
 ![|300](https://i.imgur.com/rI6g4t3.png)
 
 # Ex. Thrombosis
+
 #example
 
 A genetic test is used to determine if people have a predisposition for thrombosis (i.e. blood clotting that blocks blood flow). It is believed that 3% of people actually have this predisposition. The genetic test has probability 99% of giving positive result when person actually has it. It also has probability 98% of giving a negative result when the person does not have the predisposition. What is the probability that someone who tests positive for the predisposition actually has it?

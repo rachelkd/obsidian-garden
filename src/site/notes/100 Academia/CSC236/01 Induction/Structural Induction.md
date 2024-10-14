@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-09T17:39:14.678-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-13T21:32:21.000-04:00"}
 ---
 
 
@@ -25,7 +25,7 @@ Adjust the structure of induction:
             - ⇒ infinitely many sets that satisfy these two conditions
             - Need to add a third condition!
     3. ==$\mathbb{E}$ contains nothing else==
-        - or, “$E$ is the smallest set such that …”
+        - or, “$\mathbb{E}$ is the smallest set such that …”
         - “Don’t include anything else, like $\pi$”
 
 - **Intuition:** Prove $P(0) \wedge \forall n, P(n) \implies P(n + 2)$
@@ -198,7 +198,7 @@ $\implies$ We can give a **self-contained recursive definition** for $\text{num}
 
 - $\text{size}(t)$ : total # of “nodes”
     - $\text{size}(\cdot) = 0$
-    - $\forall t_{1}, t_{2} \in T, \text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 _ \text{size}(t_{1}) + \text{size}(t_{2})$
+    - $\forall t_{1}, t_{2} \in T, \text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 + \text{size}(t_{1}) + \text{size}(t_{2})$
 - $\text{height}(t)$ : # of “nodes” from root to the farthest root
     - $\text{height}(\cdot) = 0$
     - $\forall t_{1}, t_{2} \in T, \text{height}($![|50](https://i.imgur.com/WRPXnU5.png)$) = 1 + \text{max}\bigg(\text{height}(t_{1}), \text{height}(t_{2}) \bigg)$
@@ -257,6 +257,6 @@ $\text{size}($![|50](https://i.imgur.com/WRPXnU5.png)$\begin{align}) = 1 + \text
 $$\begin{align*}
 &\leq 1 + 2^{\text{height}(t_{1})} \bbox[DarkSeaGreen]{-1} + 2^{\text{height}(t_{2})} \bbox[DarkSeaGreen]{-1} && \text{(by IH)} \\
 &\leq 1 + \bigg( 2^{\text{max}\Big(\text{height}(t_{1}), \text{height}(t_{2})\Big)} \bbox[DarkSeaGreen]{-1} \bigg) \cdot 2 \\
-&= \cancel{1} + 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} \bbox[DarkSeaGreen]{-1} \cancel{\bbox[DarkSeaGreen]{-1}} \\
-&= 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))} - 1
+&= \cancel{1} + 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))+1} \bbox[DarkSeaGreen]{-1} \cancel{\bbox[DarkSeaGreen]{-1}} \\
+&= 2^{\text{max}(\text{height}(t_{1}), \text{height}(t_{2}))+1} - 1
 \end{align*}$$
