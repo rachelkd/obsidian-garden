@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-10-12T18:32:29.277-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-10-15T18:46:52.422-04:00"}
 ---
 
 
@@ -62,7 +62,7 @@
 
 Canadian Blood Services says that about 46% of the Canadian population have Type O blood, 42% have Type A blood, 9% have Type B blood, and the rest, which is 3% have Type AB.
 
-#### Assumptions We Make about *mutually Exclusive events* and *independent events*
+#### Assumptions We Make about *Mutually Exclusive Events* and *Independent Events*
 
 > [!important] We always have to make *assumptions* whenever we work with data or probability models.
 
@@ -98,7 +98,7 @@ If you examine two people, are the events that the first is Type A and the secon
 # What if We Have More than 2 Events?
 
 - **Mutual independence**: For a general collections of events, *independence* means that
-    - For every finite subcollection $A_{1}, \cdots, A_{k}, P(A_{1} \times \cdots \times P(A_{k})) = P(A_{1}) \times \cdots \times P(A_{k})$
+    - For every finite subcollection $A_{1}, \cdots, A_{k}$, $P(A_{1} \times \cdots \times P(A_{k})) = P(A_{1}) \times \cdots \times P(A_{k})$
     - Stronger condition than pairwise independence
 - **Pairwise independence**: A collection of events is *pairwise independent* if $P(A_{i} A_{j}) = P(A_{i})P(A_{j})$ for all pairs of events
 - A collection of mutually independent events is *pairwise independent*
@@ -129,7 +129,7 @@ A genetic test is used to determine if people have a predisposition for thrombos
 
 - Defining events:
     - $T : \text{Having thrombosis}$
-    - $G : \text{Genertic test being positive}$
+    - $G : \text{Genetic test being positive}$
 - What are we solving for?
     - $P(T \mid G)$
 - Tree diagram:

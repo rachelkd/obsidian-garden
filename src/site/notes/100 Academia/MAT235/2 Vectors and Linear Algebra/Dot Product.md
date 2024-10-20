@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2024-10-09T18:56:45.852-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2024-10-17T17:56:35.085-04:00"}
 ---
 
 
@@ -25,7 +25,7 @@ Let $\vec{v} = \begin{pmatrix} v_{1} \\ v_{2} \\ v_{3} \\ \end{pmatrix}, \vec{w}
 > $$\begin{align} \vec{v} \cdot \vec{w} = v_{1}w_{1} + v_{2}w_{2} + v_{3}w_{3} && \text{(a number!)} \end{align}$$
 
 > [!def]+ Geometric definition.
-> $$\vec{v} + \vec{w} = ||\vec{v}|| ||\vec{w}|| \cos \theta,$$with $\theta$ the angle between $\vec{v}$ and $\vec{w}$ such that $0 \leq \theta \leq \pi$
+> $$\vec{v} \cdot \vec{w} = ||\vec{v}|| ||\vec{w}|| \cos \theta,$$with $\theta$ the angle between $\vec{v}$ and $\vec{w}$ such that $0 \leq \theta \leq \pi$
 
 - **Proposition.** The algebraic and geometric definitions of the dot product are equivalent.
 

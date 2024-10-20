@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","lecture","note","todo","university"],"created":"2024-10-10T19:58:31.603-04:00","updated":"2024-10-11T01:08:07.944-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","lecture","note","university"],"created":"2024-10-10T19:58:31.603-04:00","updated":"2024-10-20T16:58:42.942-04:00"}
 ---
 
 
@@ -235,7 +235,13 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 
 ## Clean Architecture Layers
 
-![](https://i.imgur.com/joXqKc6.png)
+> [!question]- What are the four clean architecture layers?
+> 1. **Enterprise Business Rules**
+> 2. **Application Business Rules**
+> 3. **Interface Adapters**
+> 4. **Frameworks and Drivers**
+> 
+> ![](https://i.imgur.com/joXqKc6.png)
 
 - Can think of this as a UML diagram
     - Use cases are going to depend on our entities
@@ -243,7 +249,9 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
     - If we stop at these two layers, these two are fully *describing* what our program does (high-level policy)
     - System is a set of use cases → Manipulates entities
 
-> [!important] In order for people to actually use and interface with our system, we need to build some layers on top of that: **interface adapters**, **frameworks and drivers**
+> [!abstract]+ In order for people to actually use and interface with our system, we need to build some layers on top of that:
+> - **Interface adapters**
+> - **Frameworks and drivers**
 
 - We get input from the UI → Plug it into our interface adapters → Change it into input for our use cases
 - Top two part of our program describes how we transform inputs and outputs to what is expected for our program
@@ -290,3 +298,231 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 ![](https://i.imgur.com/WbzCyLO.png)
 *Dependency inversion.*
 
+## Benefits of Clean Architecture
+
+- [p] All the “details” (frameworks, UI, Database, etc.) live in the outermost layer
+- [p] Business rules can be easily tested without worrying about those details in the outer layers
+- [p] Any changes in outer layers do not affect business rules
+
+## Example of a Program with Clean Architecture
+
+![](https://i.imgur.com/IfosESf.png)
+
+- Plain arrow:
+    - Dependency
+- Open-headed arrow:
+    - Implements
+
+### Enterprise Business Rules
+
+- **Entities**
+    - Responsibility:
+        - Each entity ==represents something from the problem domain==
+            - e.g., Bank account
+        - Core data of our program
+        - Little logic here other than fancy data structures
+            - e.g., Sets, Lists, Trees, and Dictionaries
+
+### Application Business Rules
+
+- Where all the interesting things happen in our program
+- Everything that matters for our *application* are in this layer
+    - Everything that matters for our *program* are in this layer or Enterprise Business Rules
+
+> [!note]+ **Use case interactor**
+> - A class that has a method that does all the interesting logic in our program
+>     - Makes use of various *interfaces* (labelled `<I>`)
+>         - ==Interfaces are defined as part of our **Application Business Rules**==
+> - Programming the actual function of the use case
+>     - Client has hired us to make a program → Would like to make sure that we can enrol students in a course
+>         - Not about the database, not about the UI
+>     - Core logic of “enrolling a student” goes in the **use case interactor**
+> - The **use case interactor** is the most important box
+>     - Represents an *object*
+
+> [!note]+ **Data structures** `<DS>`
+> - Essentially a Java class with no logic, ==only instance variables, and getters/setters==
+> - We have some kind of data that we are going to pass between layers in our system
+
+- These two layers give us the core of what our system is
+- At this layer, we have defined the logic of our system
+- In order to actually do things, we need to interface with the outside world → *Implementations* of various interfaces
+
+### Interface Adapters
+
+- Typical scenario: The interface between the user and use case interactor
+- Most interactions happen in the top left corner of our [[100 Academia/CSC207/02 Principles of Software Design/Clean Architecture#Example of a Program with Clean Architecture\|diagram]] here
+    - ![](https://i.imgur.com/zLAd5zd.png)
+- Input coming in from **controller**
+- → Controller passes information to our system through **input boundary** interface
+- → Information flows out of our system through **output boundary**
+- → **Presenter** displays that information to our user
+- **View Model** (`<DS>`)
+    - Mechanism by which we pass information from the interface adapter layer → the **View**
+    - Think of View Model as a model of what *information* the user should see
+
+### Frameworks and Drivers
+
+- **View**
+    - ==User interface==
+    - Decides what user sees
+        - Does that based on what is represented in the **View Model**
+        - i.e., View is responsible for making View Model happen; how that information from View Model is going to be displayed
+- **Data Access** (and **Database**)
+    - Where we access external data in our system
+    - For the Use Case Interactor to implement the use case, it may need to get data somewhere
+        - Does that through the **Data Access Interface**
+        - Implemented by the **Data Access** object
+    - Use Case Interactor can ask Data Access object to perform tasks for it ==through the interface==
+    - Responsibility:
+        - ==Manage access to persistent data==
+            - Reading from and writing to files or databases
+        - ==Creating temporary Entities== that the Use Case uses to do its work
+
+### How Does Information Go from the Controller to the System?
+
+1. **View**
+    - ==User interface== code for a feature
+        - Buttons, text areas, scrollbars, panels, windows, etc.
+    - Responsibility:
+        - Display information and react to user interaction
+        - Will ask a Controller to do something the user wants
+    - User has entered some input → Control of system is passed into a Controller object
+2. **Controller**
+    - Essentially an ==action-listener== (recall [[100 Academia/CSC207/01 Software Developer Skills and Tools/Java Graphical User Interfaces\|Java GUIs]])
+    - Aside: **Input Boundary** interface
+        - Specifies what the Use Case parameter expects the Controller to give it
+        - Defines the API for our Use Case
+    - Responsibility:
+        - ==*Convert* raw user data== to something useful
+            - e.g., a String → a Date object, float → currency value
+        - ==*Create* an **Input Data**== object containing that info, and
+            - Type of parameter that the use case is expecting
+        - ==*Call* a method== (defined in our Input Boundary) to start a Use Case, ==*passing in* the Input Data==
+            - Typically, `useCase.execute(inputData) -> void`
+                - Use Case Interactor does not return anything!
+            - We get information from our Presenter
+            - ! If `useCase.execute(inputData) -> outputData`, Controller is responsible for both input and output
+                - Don’t want to do this!
+3. **Use Case Interactor**
+    - Contains the logic of implementing the use case
+    - Responsibility:
+        - Take the Input Data, and 
+        - ==*Execute* the use case==, ==looking up information in the Data Access== object when necessary and ==manipulating **Entities**==
+            - Might create new data that needs to be saved in **Data Access** layer
+            - i.e., Call a method from the **Data Access Interface**; request data from a database
+        - When complete → Get information back out to user → ==*Create* an Output Data object== (use case result), and
+        - ==*Pass* it to the Presenter==
+            - By calling a method in Output Boundary interface (implemented by Presenter)
+4. **Presenter**
+    - Responsibility:
+        - ==Take the Output Data==, and
+        - ==Turn it into raw strings and numbers== to be displayed
+        - ==Update **View Model**== with this information
+            - Need a mechanism for the View to know that the View Model has changed
+                - “Observer” or “Listener”
+            - View is waiting for changes to View Model
+5. **View**, again
+    - Responsibility:
+        - When View Model is updated, View is alerted through a callback
+        - → View ==displays the new information to user==, possibly activating another View
+
+> [!note] Interfaces (Input Boundary, Output Boundary, Data Access Interface) help us plug everything together → Makes this engine testable
+
+# Terminology
+
+- **Entity**
+    - Basic bit of data that we are storing in our program
+        - e.g., user with a username and password
+    - Often called a *model* of the real world
+- **Factory**
+    - An object that knows how to instantiate a class or a collection of interrelated classes
+- **Use case**
+    - Something a user wants to do with the program
+- **Interactor**
+    - Object that responds to a user interaction
+    - Usually part of a use case (implements the input boundary)
+- **Input boundary**
+    - Public interface for calling the use case
+- **Output boundary**
+    - Public interface that Interactor will call when the use case is complete
+- **Data access object (DAO)**
+    - Involves persistence (a file or database)
+    - Often called a *Gateway* or a *Repository*
+    - Reads data and creates Entities
+- **Controller**
+    - Object that the UI asks to run a use case
+- **Presenter**
+    - Object that tells the UI what to do when a use case finishes
+- **Model**
+    - Model of a concept from the problem domain
+    - A collection of data representing a concept from the problem domain
+    - *Entities* are often called *models*
+
+# Clean Architecture Follows SOLID
+
+> [!check]+ Single Responsibility Principle
+> - Each role ==divides up the responsibilities== for each class
+> - Only Gateway classes are responsible to other hardware or software that is outside of your program
+> - Only Presenters are responsible to whomever decides which information is displayed to the user
+> - Each entity is responsible for storing info about one building block of the program
+>     - e.g., User class in a program that allows Users to login and save their session
+
+> [!check]+ Open/Closed Principle
+> - CA ==separates layers of code== based on how close or far they are from the details
+>     - e.g., What does the use see, which hardware/OS is running the program, where we store persistent data, etc.
+>     - → Easy to reuse the backend in an app for a different system (web app, Android, etc.)
+>     - → Easy to reuse entities across different apps that follow the same Enterprise Business Rules
+>     - → Possible to add new Use Cases without changing much of the original code
+
+> [!check]+ Liskov Substitution Principle
+> - Various interfaces introduced should help us write code consistent with this principle, but
+>     - Still need to ensure our code consistently uses interfaces and that they are designed and documented properly
+
+> [!check]+ Interface Segregation Principle
+> - Each ==interface has a specific role== and is ==associated with one Use Case==
+> - → No unnecessary methods are implemented
+
+> [!check]+ Dependency Inversion Principle
+> - In CA, this is closely related to the **Dependency Rule**
+> - Principle is applied to remove dependencies on the low-level details of the program
+
+# User Login Example
+
+- Recall specification for a user login system we talked about earlier
+- Had started to develop a design for it in terms of use cases
+    - See [partial implementation](https://github.com/paulgries/UserLoginCleanArchitecture)
+
+## Use Case APIs
+
+- A class for each use case
+- `UserRegisterInteractor`
+    - <u>Public API:</u> A method called `create`
+        - Perhaps with username and password as parameters, or maybe wrapped up in a data class
+    - Needs to tell UI to prepare a success view or a failure view
+    - Needs to know how to make a new user
+    - Needs to ask the persistence layer whether a username exists
+    - Needs to tell the persistence layer to save a new user
+
+## Register New User Use Case Sketch
+
+```java
+class UserFactory {
+    public User create(String name, String password) { ... }
+}
+
+class UserRegisterInteractor {
+    private UserFactory userFactory;  // A class to create User objects
+    private UserPresenter userPresenter;  // Controls the UI
+    private UserRegisterGateway userRegisterGateway;  // Persisting data
+    
+    public UserRegisterResultModel create(String name, String password) {
+        // On success, this method returns an object with the
+        // username and creation time, but not the password
+    }
+}
+```
+
+- Interactor *interacts* with various pieces of our program
+    - Class itself doesn’t do that much
+- Every task that it needs to do gets ==delegated to something else==

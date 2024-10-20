@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","todo","university"],"created":"2024-10-09T01:01:19.136-04:00","updated":"2024-10-12T12:42:31.329-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","university"],"created":"2024-10-09T01:01:19.136-04:00","updated":"2024-10-15T03:29:06.720-04:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T19:24:27.000-04:00","updated":"2024-10-03T13:14:55.483-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T19:24:27.000-04:00","updated":"2024-10-16T18:30:13.443-04:00"}
 ---
 
 
@@ -17,7 +17,13 @@
 - Allow us to use algebraic expressions, equalities, and inequalities when manipulating events
 - **Discrete random variables**
     - Number of possible values of the random variable is *countable*
-    - Often associated wit a discrete sample space for the underlying experiment
+    - Often associated with a discrete sample space for the underlying experiment
+    - e.g., “Number of times you filled your water bottle today”
+- **Continuous random variables**
+    - Not countable
+    - e.g., “Amount of water (in litres) you have drank today”
+
+![](https://i.imgur.com/TUo0kTW.png)
 
 ## Ex. Tossing Three Coins
 

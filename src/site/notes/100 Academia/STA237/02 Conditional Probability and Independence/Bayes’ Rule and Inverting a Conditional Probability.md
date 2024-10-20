@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["university","#lecture","#note","stats"],"created":"2024-09-19T10:48:55.000-04:00","updated":"2024-09-19T15:12:56.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:48:55.000-04:00","updated":"2024-10-15T18:21:16.165-04:00"}
 ---
+
 
 # Bayes’ Rule
 
-> [!def]- **Bayes Rule**
+> [!def]+ Bayes Rule
 > - Also known as: Bayes’ Formula
 > - Lets us use conditional probabilities that we already know ⇒ *reverse* them to find a probability of interest
 > $$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B \mid A) P(A) + P(B \mid A^{C}) P(A^{C})}$$
-
 
 - Direct extension of [[100 Academia/STA237/02 Conditional Probability and Independence/Bayes’ Rule and Inverting a Conditional Probability#Conditional Probability\|definition of conditional probability]], which is:
     - $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
@@ -31,7 +31,8 @@ Recall:
 - Lets us see how many combinations of events there are
     - Recall [[100 Academia/STA237/01 Events and Probabilities/Counting Techniques\|Multiplication Principal]]
 
-## Ex. Gender of children
+## Ex. Gender of Children
+
 #example
 
 - There is 50% chance of having a female firstborn child
@@ -46,12 +47,12 @@ Recall:
 
 > [!important] Whenever you see the word “if” or “given,” you should ==consider conditional probabilities==
 
-### Ex. Tree diagram
+### Ex. Tree Diagram
 
 ![](https://i.imgur.com/zJ76D2k.png)
 *Highlighted colours add up to 1 (by properties of conditional probability).*
 
-### What is the probability of a female first child given that we have a female second child?
+### What is the Probability of a Female First Child given that We Have a Female Second Child?
 
 - What are we solving for?
     - $P(F_{1} \mid F_{2})$
