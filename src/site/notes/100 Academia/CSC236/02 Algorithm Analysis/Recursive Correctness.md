@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/recursive-correctness/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-10-23T00:58:30.437-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/recursive-correctness/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-10-23T13:44:34.027-04:00"}
 ---
 
 
@@ -351,3 +351,14 @@ def find_min(A, b):
 - Post is proved *if* $I(m, i)$ holds
 - Next step: Prove $I(m, i)$
 
+# Proof of Correctness
+
+- Define $$I(m, i) : m, i \in \mathbb{N} \wedge b \leq m \leq len(A) \wedge A[m] \leq A[m:i]$$
+- ==Use a dummy variable== (e.g., $k$) that is not used in program to refer to variables whose values change multiple times
+
+![](https://i.imgur.com/Iv4O489.png)
+
+- ? Why don’t we put the stronger condition $i < len(A)$ in invariant $I$?
+    - Need to make sure it is true for every iteration including the final comparison that is false!
+    - If $i < len(A)$ every time you’re about to evaluate the condition $\implies$ Claiming loop is infinite
+    - ! Invariant should never claim anything that implies the loop condition is always true
