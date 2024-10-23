@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/recursive-correctness/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-10-22T13:28:12.601-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/recursive-correctness/","tags":["#lecture","#note","cs","todo","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-10-23T00:58:30.437-04:00"}
 ---
 
 
@@ -19,12 +19,12 @@
 > - Only have to worry about inputs that meet the precondition
 > - For all of those inputs, you need to make sure the ==post-condition is true== at the end
 
-- **Correctness**
-    - For *each* input that satisfies the precondition, the ==algorithm terminates==
-        - i.e., No infinite loop/recursion
-    - And when it does, the ==post-condition *holds*==
+> [!def]+ Correctness
+> - For *each* input that satisfies the precondition, the ==algorithm terminates==
+>     - i.e., No infinite loop/recursion
+> - And when it does, the ==post-condition *holds*==
 
-# Example
+# Example. QRT
 
 Implementing the Quotient-Remainder Theorem from [[100 Academia/CSC236/02 Algorithm Analysis/Well-Ordering#Example. Quotient Remainder Theorem\|well-ordering]].
 
@@ -60,11 +60,12 @@ def QR(n, d):
 
 # Tool: Loop Invariants
 
-- A loop invariant is a way to keep track of what you are doing, and so on, that helps you write a correct loop
-- **Loop invariant**
-    - Any statement about or predicate of the program variables that is true
-        - Just before every loop iteration begins, or equivalently,
-        - Just after each loop iteration ends
+- A **loop invariant** is a way to keep track of what you are doing, and so on, that helps you write a correct loop
+
+> [!def]+ Loop invariant
+> - Any statement about or predicate of the program variables that is true
+>     - Just before every loop iteration begins, or equivalently,
+>     - Just after each loop iteration ends
 
 ```python title:"Quotient-Remainder Theorem"
 # Pre(n, d): n in naturals, d in positive naturals
@@ -82,7 +83,7 @@ def QR(n, d):
     return (q, r)
 ```
 
-- [*] `I(n, d, q, r)`
+- & `I(n, d, q, r)`
     - Something that depends on all program variables
     - Something that we assert at the beginning of the loop
 - In `q = q + 1`, `r = r - d`:
@@ -149,7 +150,7 @@ def QR(n, d):
     - If we didn’t include, there is no formal way to prove that this is true after some number of iterations
     - Need to talk about each iteration → Is an invariant
 
-- [*] Define $I(n, d, q, r): q, r \in \mathbb{N} \wedge n = qd + r$:
+- & Define $I(n, d, q, r): q, r \in \mathbb{N} \wedge n = qd + r$:
 
 ```python title:"Quotient-Remainder Theorem"
 # Pre(n, d): n in naturals, d in positive naturals
@@ -177,18 +178,176 @@ def QR(n, d):
 >     - Typically, that is where you find out you are missing something in invariant → Don’t know enough to conclude Post
 >     - Want to find that out before you spend time proving it is invariant
 
-1. Assume loop ends.
-    - When the loop ends, we know:
-    - $r < d$ (from negation of loop condition), <u>and</u>
-    - $I: q, r \in \mathbb{N} \wedge n = qd + r$
-        - (from loop invariant)
-    - $\therefore Post(n, d, q, r)$
-2. Check that it actually *is* invariant:
-    - ![](https://i.imgur.com/XfyX9rj.png)
-    - At the very beginning, $I_{0}$ is true
-    - If you can prove $I_{k + 1}$, then you are done
-    - Whenever $I_{k}$ is true and there is one more condition ($r_{k} \geq d$), $I$ ends still true
-    - Coming back for the next iteration, $I$ is still true
-    - This is [[100 Academia/CSC236/01 Induction/Simple Induction\|Simple Induction]]
+# Proof
 
-35:35
+#### Proof of 1. (Post condition)
+
+**Proof.**
+Assume loop ends.
+
+When the loop ends, we know:
+- $r < d$ (from negation of loop condition), <u>and</u>
+- $I: q, r \in \mathbb{N} \wedge n = qd + r$ (from loop invariant)
+
+$\therefore Post(n, d, q, r)$
+
+#### Proof of 2. (Invariant)
+
+**Rough work.**
+Check that it actually *is* invariant:
+![](https://i.imgur.com/XfyX9rj.png)
+
+- At the very beginning, $I_{0}$ is true
+- If you can prove $I_{k + 1}$, then you are done
+- Whenever $I_{k}$ is true and there is one more condition ($r_{k} \geq d$), $I$ ends still true
+- Coming back for the next iteration, $I$ is still true
+- This is [[100 Academia/CSC236/01 Induction/Simple Induction\|Simple Induction]]
+
+**Proof of Invariance.**
+- $I_{0}$ holds (see comments)
+- Let $k \in \mathbb{N}$. Assume $I_{k}$ and $r_{k} \geq d$ (i.e., there is one more iteration)
+- Then,
+    $$\begin{align*}
+    q_{k+1} &= q_{k} + 1 \\
+    r_{k+1} &= r_{k} - d
+    \end{align*}$$
+- So:
+    - $q_{k + 1} \in \mathbb{N}$ because $I_{k}$ (says $q_{k} \in \mathbb{N}, r_{k} \in \mathbb{N}, q_{k}d + r_{k}$)
+    - $r_{k+1} \in \mathbb{Z}$ and $r_{k} \geq d \implies r_{k+1} \in \mathbb{N}$
+    - $$\begin{align*} n &= q_{k}d + r_{k} \\ &= (q_{k}+1)d + (r_{k}-d) \\ &= q_{k+1}d + r_{k+1} \end{align*}$$
+
+> [!warning]+ Conclusion: $\forall k \in \mathbb{N}, I_{k}$
+> - Saying that $I_{k}$ is true no matter how many iterations you make
+> - Don’t want the code to run to infinity; ==want loop to stop!==
+> - Some point where $I_{k}$ is not defined
+> - **Missing:** $I_{k}$ is *really* $$(\text{There are at least } k \text{ complete iterations}) \implies I(n, d, q_{k}, r_{k})$$
+
+So, the inductive step proves $$( k \text{ iter} \implies I_{k}) \implies ((k + 1 \text{ iter}) \implies I_{k+1})$$
+
+## Why Does the Loop Stop? How Do We *Formalize* This?
+
+> [!def]+ Loop Variant
+> - $V(n, d, q, r):$ expression that *bounds* the amount of work remaining
+
+> [!thm]+ Formally, a **variant** satisfies:
+> 1. $\forall k, V_{k} \in \mathbb{N}$
+> 2. $\forall k, V_{k+1} < V_{k}$
+> - “By WOP, the loop terminates”
+
+> [!note] $V_{k}$ is the value of $V$ just before it executes for the $k + 1$-st time
+
+- Intuition:
+    - $r$ keeps getting smaller → Eventually going to be $<d$
+
+> [!tip]+ We pick $V = r$
+> - $V_{k} \in \mathbb{N} \because r_{k} \in \mathbb{N}$ is in invariant
+>     - Likely want to include something about natural numbers in invariant to use in variant
+> - $r_{k+1} = r_{k} - d < r_{k} \because d > 0$
+
+- Conclusion: The loop stops
+- This is well-ordering
+    - We know it cannot go on forever
+    - If variant starts off a natural number ($V_{0}$), and every iteration makes it smaller, whatever the value is at the beginning, there cannot be more than that many iterations, because there are only that many values between 0 and that natural number
+    - → Loop terminates!
+
+**Proof.**
+
+Formally, $V_{0} > V_{1} > V_{2}, > \dots$
+
+- $S = \{ V_{k} : \text{for each iteration } k \}$
+- $S \neq \emptyset \because V_{0} \in S$
+    - There is always at least one look at loop condition
+    - $k = 0$ is *before* the loop starts
+- By [[100 Academia/CSC236/02 Algorithm Analysis/Well-Ordering\|WOP]], $S$ has a minimum $V_{m}$
+- $\therefore m$ is the last iteration
+- Otherwise, $V_{m + 1} < V_{m}$ (by property 2.) contradicts that $V_{m}$ is the smallest element
+
+> [!note]+ The number of elements in $S \neq$ the number of iterations in loop
+> - It is equal to the number of iterations in loop + 1
+
+# Invariant vs. Variant
+
+> [!important]+ Invariant vs. Variant
+> - **Loop variant**
+>     - A quantity that is supposed to change from one iteration to the next
+>     - Use to ==prove termination==
+> - **Loop invariant**
+>     - A set of statements about your algorithm that always holds
+>     - Use to ==prove correctness==
+
+# Example. Finding the Minimum of a List
+
+```python
+# Pre(A, b): A is a non-empty list of comparable elements
+#            ∧ b in naturals ∧ b < len(A)
+# Return m s.t. Post(A, b, m):
+# m in naturals ∧ b <= m < len(A)
+# ∧ "m is the index of a minimum element in A[b: len(A)]"
+# ≡ A[m] <= A[b:len(A)] (shorthand; new notation!)
+# ≡ ∀i, b <= i < len(A) => A[m] <= A[i]
+def find_min(A, b):
+    m = b
+    for i in range(b + 1, len(A)):
+        if A[i] < A[m]: m = i
+    return m
+```
+
+> [!note]+ $A[m] \leq A[b:len(A)]$
+> - New notation
+> - Shorthand for $$\begin{align*} A[m] \leq A[b] \wedge A[m] \leq A[b+1] \wedge \dots \wedge A[m] \leq A[len(A) - 1] \\ \equiv \forall i, b \leq i < len(A) \implies A[m] \leq A[i]\end{align*}$$
+
+# Partial Correctness and Termination
+
+> [!def]+ Partial Correctness
+> For each input $(A,b)$,
+> $$\text{Pre}(A,b) \wedge \text{find\_{min}}(A,b) \text{ terminates} \implies \text{Post}(A, b, \text{find\_{min}}(A, b))$$
+
+> [!def]+ Termination
+> For each input $(A, b)$,
+> $$\text{Pre}(A, b) \implies \text{find\_{min}}(A, b) \text{ terminates}$$
+
+- Why not combine and prove $\text{Pre}(A, b) \implies \text{find\_{min}}(A, b) \text{ terminates} \wedge \text{Post}(A, b, \text{find\_{min}}(A, b))$?
+    - In practice, with loop invariant, helpful to do partial correctness first, then prove termination through the use of variant
+
+# Turn For Loops into While Loops
+
+- While loop makes ==explicit sum of the steps== that are implicit in the for loop
+
+```python
+def find_min(A, b):
+    m = b
+    i = b + 1
+    
+    # I(m, i) : m, i in naturals ∧ b <= m < i <= len(A)
+    while i < len(A):
+        if A[i] < A[m]: m = i
+        i = i + 1
+    return m
+```
+
+- ? Why do we have $i \leq \text{len}(A)$ vs. $i < \text{len}(A)$?
+    - Loop stops when $i = \text{len}(A)$
+    - We add 1 to $i$ at the end of every iteration
+- ? Is $I(m , i)$ useful?
+    - i.e., Can you use $I$ to prove Post?
+    - No: When loop ends, we know:
+        - $i \geq len(A)$ (from loop condition)
+        - $m, i \in \mathbb{N} \wedge b \leq m < i \leq len(A)$
+        - $\therefore i = len(A)$
+    - Does $A[m] \leq A[b:len(A)]$ hold?
+
+# What is the Loop Doing?
+
+![|500](https://i.imgur.com/RsEEdXk.png)
+
+- $i$ keeps track of everything that we have looked at
+- ==$m$ is the minimum so far==
+- **Missing**: $A[m] \leq A[b:i]$
+    - $i$ and not $i + 1$ since we add 1 to $i$ at the *end* of every iteration
+
+<!-- break -->
+- At the end, we get:
+    - $A[m] \leq A[b:i] = A[b:len(A)]$
+- Post is proved *if* $I(m, i)$ holds
+- Next step: Prove $I(m, i)$
+
