@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/uml-sequence-diagrams/","tags":["cs","lecture","note","university"],"created":"2024-10-20T16:58:41.891-04:00","updated":"2024-10-20T17:17:35.518-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/uml-sequence-diagrams/","tags":["cs","lecture","note","university"],"created":"2024-10-20T16:58:41.891-04:00","updated":"2024-10-24T15:56:51.209-04:00"}
 ---
 
 
@@ -37,7 +37,7 @@ Recall [[100 Academia/CSC207/02 Principles of Software Design/Clean Architecture
 
 # Example from the Login Codebase
 
-See [[100 Academia/CSC207/02 Principles of Software Design/Clean Architecture\|Clean Architecture]]for User Login specification.
+See [[100 Academia/CSC207/02 Principles of Software Design/Clean Architecture\|Clean Architecture]] for User Login specification.
 
 ![](https://i.imgur.com/cS57XfN.png)
 
