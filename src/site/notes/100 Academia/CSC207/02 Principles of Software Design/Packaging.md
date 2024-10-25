@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-10-24T19:12:52.826-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-10-24T23:13:22.421-04:00"}
 ---
 
 
@@ -78,14 +78,14 @@ When building an online book store, one of the use cases we’ve been asked to i
 
 ![](https://i.imgur.com/iWHDMqB.png)
 
-- Inside/Outside:
+- **Inside/Outside**:
     - Similar to what we do in CA
     - Bundle every interface that use case interactor implements or relies on
     - i.e., Defining entire domain; all the details of how these interfaces are used/implemented reside in other packages
     - Similar to by Layer, except
         - `OrdersRespository` moves from `data` package to `domain` (i.e., business rules), and 
         - `data` is renamed to `database` (because now it is only the implementation detail of how we are getting our data: from a database)
-- By Component:
+- **By Component**:
     - OrdersController is its own component that uses the Orders component
         - Logic in Controller shouldn’t be tied to logic in Orders → Different package
     - If we make a new Orders Controller, then we can implement that and still connect it to our Orders component
