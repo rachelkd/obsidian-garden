@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-10-24T23:13:22.421-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-10-24T23:20:45.798-04:00"}
 ---
 
 
@@ -62,6 +62,7 @@ When building an online book store, one of the use cases we’ve been asked to i
 
 - `OrdersController`
     - A web controller; something that handles requests from the web
+    - In this case, `OrdersController` also acts as a Presenter
 - `OrdersService`
     - An interface; defines the *business logic* related to orders
 - `OrdersServiceImpl`
