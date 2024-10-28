@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/inheritance/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:16:30.133-04:00","updated":"2024-10-06T17:00:53.180-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/inheritance/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T20:16:30.133-07:00","updated":"2024-10-06T14:00:53.180-07:00"}
 ---
 
 

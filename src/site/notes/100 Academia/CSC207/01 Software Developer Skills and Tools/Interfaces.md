@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T12:11:04.000-04:00","updated":"2024-09-29T17:19:34.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T09:11:04.000-07:00","updated":"2024-09-29T14:19:34.000-07:00"}
 ---
 
 

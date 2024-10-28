@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-5-privacy-theory/","tags":["ethics","lecture","note","university"],"created":"2024-10-03T16:35:22.642-04:00","updated":"2024-10-14T17:47:36.481-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-5-privacy-theory/","tags":["ethics","lecture","note","university"],"created":"2024-10-03T13:35:22.642-07:00","updated":"2024-10-14T14:47:36.481-07:00"}
 ---
 
 

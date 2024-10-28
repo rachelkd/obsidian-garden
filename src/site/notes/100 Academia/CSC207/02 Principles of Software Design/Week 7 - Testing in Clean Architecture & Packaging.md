@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T22:21:17.455-04:00","updated":"2024-10-24T14:08:13.498-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T19:21:17.455-07:00","updated":"2024-10-24T11:08:13.498-07:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-10-14T13:49:56.948-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T17:00:56.730-07:00","updated":"2024-10-14T10:49:56.948-07:00"}
 ---
 
 

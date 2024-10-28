@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/a-first-look-at-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-09T02:13:44.000-04:00","updated":"2024-10-07T21:10:10.383-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/a-first-look-at-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-08T23:13:44.000-07:00","updated":"2024-10-07T18:10:10.383-07:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["#lecture","#note","university"],"created":"2024-09-03T12:59:52.000-04:00","updated":"2024-10-09T17:39:03.763-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-1-a-tour-of-software-design-version-control/","tags":["#lecture","#note","university"],"created":"2024-09-03T09:59:52.000-07:00","updated":"2024-10-09T14:39:03.763-07:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","todo","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-10-25T01:04:20.205-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","todo","university"],"created":"2024-10-24T16:28:27.986-07:00","updated":"2024-10-24T22:10:13.578-07:00"}
 ---
 
 
@@ -33,7 +33,7 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 > > - The interdependencies between objects
 > > - Fewer couplings → Better $\implies$ Can test and modify each piece independently
 > > - If you have a complex object graph where there are many dependencies → *Highly coupled* → Changing code in one part causes ripple effect across rest of program
-> > - <mark style="background: #FF5582A6;">⚠ Want to avoid this</mark>
+> > - ! Want to avoid this
 >
 > > [!def]- Cohesion
 > > - How strongly related the parts are inside a class

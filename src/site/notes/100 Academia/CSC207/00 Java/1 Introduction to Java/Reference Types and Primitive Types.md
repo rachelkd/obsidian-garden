@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/reference-types-and-primitive-types/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-09T03:08:40.000-04:00","updated":"2024-10-07T21:10:19.405-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/reference-types-and-primitive-types/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-09T00:08:40.000-07:00","updated":"2024-10-07T18:10:19.405-07:00"}
 ---
 
 

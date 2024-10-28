@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/introduction-to-java/","tags":["#cs","#java","#lecture","#note","chapter","university"],"created":"2024-09-07T18:00:21.000-04:00","updated":"2024-10-06T18:26:36.805-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/introduction-to-java/","tags":["#cs","#java","#lecture","#note","chapter","university"],"created":"2024-09-07T15:00:21.000-07:00","updated":"2024-10-06T15:26:36.805-07:00"}
 ---
 
 

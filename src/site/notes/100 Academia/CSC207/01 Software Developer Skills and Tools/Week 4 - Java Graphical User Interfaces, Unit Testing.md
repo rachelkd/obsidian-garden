@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-4-java-graphical-user-interfaces-unit-testing/","tags":["lecture","note","university"],"created":"2024-09-24T21:44:20.000-04:00","updated":"2024-10-09T17:39:03.813-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-4-java-graphical-user-interfaces-unit-testing/","tags":["lecture","note","university"],"created":"2024-09-24T18:44:20.000-07:00","updated":"2024-10-09T14:39:03.813-07:00"}
 ---
 
 

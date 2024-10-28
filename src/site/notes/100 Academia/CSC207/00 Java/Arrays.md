@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/arrays/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T15:07:30.951-04:00","updated":"2024-10-06T00:43:07.032-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/arrays/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T12:07:30.951-07:00","updated":"2024-10-05T21:43:07.032-07:00"}
 ---
 
 

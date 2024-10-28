@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:19:24.000-04:00","updated":"2024-10-06T21:48:05.493-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T10:19:24.000-07:00","updated":"2024-10-06T18:48:05.493-07:00"}
 ---
 
 

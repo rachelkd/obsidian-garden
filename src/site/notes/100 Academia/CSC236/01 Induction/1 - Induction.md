@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/1-induction/","tags":["#cs","#module","#university"],"created":"2024-08-04T19:03:37.000-04:00","updated":"2024-09-28T22:08:34.000-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/1-induction/","tags":["#cs","#module","#university"],"created":"2024-08-04T16:03:37.000-07:00","updated":"2024-09-28T19:08:34.000-07:00"}
 ---
 
 

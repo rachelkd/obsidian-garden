@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/uml-sequence-diagrams/","tags":["cs","lecture","note","university"],"created":"2024-10-20T16:58:41.891-04:00","updated":"2024-10-24T15:56:51.209-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/uml-sequence-diagrams/","tags":["cs","lecture","note","university"],"created":"2024-10-20T13:58:41.891-07:00","updated":"2024-10-24T12:56:51.209-07:00"}
 ---
 
 
