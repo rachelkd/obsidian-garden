@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:09:23.000-07:00","updated":"2024-10-07T21:36:10.972-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:09:23.000-07:00","updated":"2024-10-30T17:51:50.007-07:00"}
 ---
 
 
 # What is Version Control?
 
 - Software dev teams need a way to *track how their software changes* over time
-- Implementation: 
+- Implementation:
     - A **master repository** of files exists on a server
     - i.e., files existing on a computer somewhere
 - How do you get people to work on the project, get things done?
@@ -18,7 +18,7 @@
     - People can revert to older versions
 
 > [!important]+ We have this idea of a **Distributed Version Control System**.
-> - Distributed → Repo may exist on different machines 
+> - Distributed → Repo may exist on different machines
 { #40ec88}
 
 

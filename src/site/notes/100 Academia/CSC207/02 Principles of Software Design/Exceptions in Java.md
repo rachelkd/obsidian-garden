@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","university"],"created":"2024-10-08T22:01:19.136-07:00","updated":"2024-10-15T00:29:06.720-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","university"],"created":"2024-10-08T22:01:19.136-07:00","updated":"2024-10-30T17:51:50.013-07:00"}
 ---
 
 
@@ -343,10 +343,10 @@ Recall [[100 Academia/CSC207/02 Principles of Software Design/Solid Design Princ
 
 # Who is the Exception For?
 
-- **Throwable Cause**: 
+- **Throwable Cause**:
     - Another throwable that caused this throwable to be constructed
     - A throwable can have a cause, forming a chain of exceptions
-- **Layered Abstraction**: 
+- **Layered Abstraction**:
   - Bad design to let lower layer exceptions propagate outward
       - Unrelated to upper layer abstraction
       - Ties API to implementation details

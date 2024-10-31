@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-4-politics-of-data/","tags":["ethics","lecture","note","university"],"created":"2024-09-26T12:25:07.000-07:00","updated":"2024-10-10T12:59:48.043-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-4-politics-of-data/","tags":["ethics","lecture","note","university"],"created":"2024-09-26T12:25:07.000-07:00","updated":"2024-10-30T17:51:50.038-07:00"}
 ---
 
 
 > [!goal]- Learning Objectives
-> 
+>
 > 1. Focus on a dominant genre of computing technologies: **data-driven technologies**
 >     1. e.g., AI and ML technologies
 > 2. Learn how data is political
@@ -25,7 +25,7 @@
         - FitBit: Created to collect and show data about activity patterns
 
 > [!question]+ Questions to consider when you use data:
-> 
+>
 > - Who collected this data, and why?
 > - What was their intention for collecting this data?
 

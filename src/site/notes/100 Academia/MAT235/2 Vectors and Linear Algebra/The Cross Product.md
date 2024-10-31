@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T20:15:42.196-07:00","updated":"2024-10-04T19:41:09.926-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T20:15:42.196-07:00","updated":"2024-10-30T17:51:50.041-07:00"}
 ---
 
 
@@ -17,7 +17,7 @@ $$\text{Area of parallelogram} = \text{Base} \cdot \text{Height} = ||\vec{v}|| |
 > [!def]+ Definition of the cross product $\vec{v} \times \vec{w}$
 > - $\vec{v} \times \vec{w}$ is a vector perpendicular to both $\vec{v}$ and $\vec{w}$
 > - **Geometric**:
->     - If $\vec{v}$ and $\vec{w}$ are not parallel, then 
+>     - If $\vec{v}$ and $\vec{w}$ are not parallel, then
 >     - $\vec{v} \times \vec{w} = \bigg( \text{Area of parallelogram with edges } \vec{v} \text{ and } \vec{w} \bigg) \vec{n} = (||\vec{n}|| ||\vec{w}|| \sin \theta) \vec{n}$
 >     - where $0 \leq \theta \leq \pi$
 > - **Algebraic**:

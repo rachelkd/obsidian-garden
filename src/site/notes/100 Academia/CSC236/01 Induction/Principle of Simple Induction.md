@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-09T10:14:14.000-07:00","updated":"2024-09-28T19:08:27.000-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-09T10:14:14.000-07:00","updated":"2024-10-30T17:51:50.022-07:00"}
 ---
 
 
@@ -39,7 +39,7 @@
 > [!question]- What is our **predicate**?
 > For each $n \in \mathbb{N}$, let $P(n)$ be:
 > $$\exists t, s \in \mathbb{N}, n = 3t + 7s$$
-> 
+>
 > > [!warning]+ You cannot quantify $n$ after “let $P(n)$”!
 > > - i.e., $\forall n \in \mathbb{N}, \exists t,s \in \mathbb{N} …$ is *incorrect*!
 

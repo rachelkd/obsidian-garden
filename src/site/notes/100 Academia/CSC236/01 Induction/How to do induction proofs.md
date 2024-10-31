@@ -1,14 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/how-to-do-induction-proofs/","tags":["university","#lecture","#cs"],"created":"2024-08-04T16:15:56.000-07:00","updated":"2024-09-27T16:08:21.000-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/how-to-do-induction-proofs/","tags":["#cs","#lecture","university"],"created":"2024-08-04T16:15:56.000-07:00","updated":"2024-10-30T17:51:50.021-07:00"}
 ---
+
 
 # The Principle of Simple Induction
 
 $$\big(  P(0) \; \land \; \forall k \in \mathbb{N}, P(k) \implies P(k + 1) \big) \implies \forall n \in \mathbb{N}, P(n)$$
 
-# Examples. 
+# Examples
 
-### 1. Prove that for every natural number $n$, $\sum\limits_{i=0}^{n} i = \frac{n(n+1)}{2}$.
+### 1. Prove that for Every Natural Number $n$, $\sum\limits_{i=0}^{n} I = \frac{n(n+1)}{2}$
 
 1. Define the predicate
     - $P(n) \; : \; \sum\limits_{i=0}^{n} i = \frac{n(n+1)}{2}$
@@ -27,4 +28,3 @@ $$\big(  P(0) \; \land \; \forall k \in \mathbb{N}, P(k) \implies P(k + 1) \big)
 4. By the Principle of Simple Induction, we can conclude that $\forall n \in \mathbb{N}, P(n)$
 
 ### 2. Triomino
-

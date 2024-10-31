@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T13:31:35.000-07:00","updated":"2024-10-09T14:39:03.804-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T13:31:35.000-07:00","updated":"2024-10-30T17:51:50.008-07:00"}
 ---
 
 
@@ -13,7 +13,7 @@
 
 # Continuation of OOP in Java
 
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/OOP in Java#Java Memory Model\|OOP in Java#Java Memory Model]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/OOP in Java#Java Memory Model\|OOP in Java#Java Memory Model]]
 
 # Even More Java
 
@@ -32,13 +32,13 @@
 > 11. When might you NOT want to use List as the type of a parameter in a method’s signature?
 > 12. Give an example of how you can bring information from a file into your program and how to write information back to that file.
 
--   What is an Interface in Java?
--   How can we decide whether we should use an interface or an abstract class?
--   What is a generic type?
--   What is the Java Collections Framework?
+- What is an Interface in Java?
+- How can we decide whether we should use an interface or an abstract class?
+- What is a generic type?
+- What is the Java Collections Framework?
 
 <!-- break -->
 
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces\|Interfaces]]
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/Generics\|Generics]]
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/Java Collections Framework\|Java Collections Framework]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Interfaces\|Interfaces]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Generics\|Generics]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Java Collections Framework\|Java Collections Framework]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-10T16:58:31.603-07:00","updated":"2024-10-20T19:23:36.340-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-10T16:58:31.603-07:00","updated":"2024-10-28T16:36:14.524-07:00"}
 ---
 
 
@@ -240,7 +240,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 > 2. **Application Business Rules**
 > 3. **Interface Adapters**
 > 4. **Frameworks and Drivers**
-> 
+>
 > ![](https://i.imgur.com/joXqKc6.png)
 
 - Can think of this as a UML diagram
@@ -407,7 +407,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 3. **Use Case Interactor**
     - Contains the logic of implementing the use case
     - Responsibility:
-        - Take the Input Data, and 
+        - Take the Input Data, and
         - ==*Execute* the use case==, ==looking up information in the Data Access== object when necessary and ==manipulating **Entities**==
             - Might create new data that needs to be saved in **Data Access** layer
             - i.e., Call a method from the **Data Access Interface**; request data from a database

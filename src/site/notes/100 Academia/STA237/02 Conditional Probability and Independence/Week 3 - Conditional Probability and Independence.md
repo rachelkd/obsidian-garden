@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-17T13:54:30.000-07:00","updated":"2024-10-11T21:17:47.656-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-17T13:54:30.000-07:00","updated":"2024-10-30T17:51:50.055-07:00"}
 ---
 
 
 > [!goal]- Learning Objectives
-> 
+>
 > 1. Define conditional probability and describe the difference between P(A|B) and P(B|A).
 > 2. Distinguish between mutually exclusive (disjoint) and independent events.
 > 3. Assess whether or not events are independent.

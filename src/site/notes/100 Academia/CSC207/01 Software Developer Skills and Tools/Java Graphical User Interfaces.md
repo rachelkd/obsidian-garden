@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-graphical-user-interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-24T19:28:20.000-07:00","updated":"2024-10-12T09:45:42.217-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-graphical-user-interfaces/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-24T19:28:20.000-07:00","updated":"2024-10-30T17:51:50.006-07:00"}
 ---
 
 
 > [!goal]- Learning Objectives
-> 
+>
 > - Understand that Java Swing framework has classes for building user interfaces
 >     - Buttons, text fields, labels, etc. called **components**
 > - be able to use **nested panels** and **layout managers** to organize a UI in a visually structured way
@@ -15,7 +15,7 @@
 # Java Swing
 
 > [!def]- Swing
-> 
+>
 > - Graphical User Interface (GUI) toolkit for creating user interfaces
 
 - Most class names begin with a `J`

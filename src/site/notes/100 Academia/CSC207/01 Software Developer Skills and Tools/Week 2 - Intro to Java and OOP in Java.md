@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T13:53:07.000-07:00","updated":"2024-10-09T14:39:03.770-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-2-intro-to-java-and-oop-in-java/","tags":["#lecture","#note","cs","university"],"created":"2024-09-10T13:53:07.000-07:00","updated":"2024-10-30T17:51:50.008-07:00"}
 ---
 
 
@@ -47,10 +47,10 @@
 > 7. What is the benefit of making everything as close to private as possible?
 > 8. Question 3 describes “encapsulation”. Why do we consider private variables with public methods to be better encapsulated than public variables and private methods?
 > 9. Consider the variables `x` and `y`, where
->    `    Person x = new Person(…);
+> `    Person x = new Person(…);
     Student y = new Student(…);
    `
->    Why can we use `y` in the place of a `Person` object, but not use x `in` the place of a `Student`?
+> Why can we use `y` in the place of a `Person` object, but not use x `in` the place of a `Student`?
 >
 > 10. What does “override” and “shadow” mean?
 > 11. What is “the compiler”? What sorts of issues prevent IntelliJ from compiling?
@@ -58,9 +58,9 @@
 > 13. Give one of the reasons why it is useful to have all classes inherit from the Object class.
 > 14. How does the memory model diagram show two aliases for the same object?
 > 15. Consider variable `z` where
->     `    Person z = new Student(...);
+> `    Person z = new Student(…);
    `
->     If we call `z.moogah()` but `moogah` is not a `Person` method, where will the compiler check for the `moogah` method? (In the Object class? In the Student class? etc.)
+> If we call `z.moogah()` but `moogah` is not a `Person` method, where will the compiler check for the `moogah` method? (In the Object class? In the Student class? etc.)
 > 16. Why do we bother to write Javadoc instead of relying completely on inline comments?
 > 17. How does inheritance work in Java?
 > 18. Consider the variable `stu1`, where
@@ -71,6 +71,6 @@
 >
 > If we call `stu1.getStudentNumber`, do we expect the compiler to be able to find the “`getStudentNumber`” method? Why or why not?
 
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/How Java is Run\|How Java is Run]]
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/Representing Data in Your Program\|Representing Data in Your Program]]
--   [[100 Academia/CSC207/01 Software Developer Skills and Tools/OOP in Java\|OOP in Java]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/How Java is Run\|How Java is Run]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/Representing Data in Your Program\|Representing Data in Your Program]]
+- [[100 Academia/CSC207/01 Software Developer Skills and Tools/OOP in Java\|OOP in Java]]

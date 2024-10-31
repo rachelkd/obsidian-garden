@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-5-privacy-theory/","tags":["ethics","lecture","note","university"],"created":"2024-10-03T13:35:22.642-07:00","updated":"2024-10-14T14:47:36.481-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-5-privacy-theory/","tags":["ethics","lecture","note","university"],"created":"2024-10-03T13:35:22.642-07:00","updated":"2024-10-30T17:51:50.037-07:00"}
 ---
 
 
 > [!goal]- Learning Objectives
-> 
+>
 > 1. Understand privacy from various perspectives
 > 2. Understand the relationship between private and public
 > 3. Understand the relationship between privacy and culture
@@ -39,7 +39,7 @@
 ## Privacy Regulation: Culturally Universal or Culturally Specific?
 
 > [!question]- How do you know what information should be kept confidential, and what information should be shared with others?
-> 
+>
 > - Learned from culture
 >     - e.g., Family, school, TV, movies, friends
 > - Culture actually details what is private info, what can be shared with whom
@@ -223,7 +223,7 @@ Consider a conversation between family during lunch.
     - Relates to privacy as a *[[100 Academia/CSC300/2 Data, Privacy, and Surveillance/Week 5 - Privacy Theory#Privacy as a Boundary Regulation; Unpacking Privacy for a Networked World\|boundary regulation]]*
 
 > [!important]+ Determining the application of the principles means that boundary lines are ==neither static nor universal==.
-> 
+>
 > - Principles are presented as guidelines for how privacy should be regulated, especially in relation to powerful entities like governments
 >     - Application of these principles is not fixed or universal
 >     - Aligns with the earlier discussions about privacy being culturally specific and context-dependent
@@ -304,7 +304,7 @@ Consider a conversation between family during lunch.
         - Employee files, credit records, loan records, medical records, dispute between consumer and a merchant, intentions
 
 > [!question] Questions
-> 
+>
 > - Why might opinions, evaluations, or comments be considered personal information that deserves privacy (as this is listed in PIPEDA as protected personal information)
 > - Why might educational grades and records be considered personal information that deserves privacy (as this is listed in FERPA as protected personal information)
 

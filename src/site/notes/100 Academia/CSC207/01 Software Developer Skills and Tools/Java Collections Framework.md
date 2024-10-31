@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T10:19:24.000-07:00","updated":"2024-10-06T18:48:05.493-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/java-collections-framework/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T10:19:24.000-07:00","updated":"2024-10-30T17:51:50.002-07:00"}
 ---
 
 
@@ -98,7 +98,7 @@
         - `add(e)` best case: Don’t have to resize array
         - `get(i)` best case: Always
         - `remove(i)`
-- LinkedList uses a doubly-linked list. For add(e), get(i) and remove(i), 
+- LinkedList uses a doubly-linked list. For add(e), get(i) and remove(i),
     - What are the best case running times? Worst? When does it perform well?
         - `add(e)` best case: Inserting at the beginning or end
             - Inserting in middle → bunch of links to run along before getting to spot where you want to insert

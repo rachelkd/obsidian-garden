@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T20:25:12.420-07:00","updated":"2024-10-07T21:36:56.555-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T20:25:12.420-07:00","updated":"2024-10-30T17:51:49.995-07:00"}
 ---
 
 

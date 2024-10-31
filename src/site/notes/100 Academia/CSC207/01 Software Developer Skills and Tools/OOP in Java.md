@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/oop-in-java/","created":"2024-09-13T13:14:45.000-07:00","updated":"2024-10-08T22:17:25.698-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/oop-in-java/","created":"2024-09-13T13:14:45.000-07:00","updated":"2024-10-30T17:51:50.005-07:00"}
 ---
 
 
@@ -235,7 +235,7 @@ if (o instanceof String) {
 
 ## Why Call the Super Constructor
 
-> [!important]+ Each object inherits necessary methods from the `Object` class 
+> [!important]+ Each object inherits necessary methods from the `Object` class
 > → Java language works the way we want
 
 ```java
@@ -283,11 +283,11 @@ Person p1 = new Student(...);
 p1.moogah();
 ```
 
-- `moogah` is a method in the `Person` class 
+- `moogah` is a method in the `Person` class
     - ⇒ it will be executed
-- `moogah` is *not* a method in the `Person` class, but exists only higher in the inheritance hierarchy (e.g., `Object`) 
+- `moogah` is *not* a method in the `Person` class, but exists only higher in the inheritance hierarchy (e.g., `Object`)
     - ⇒ inherited method will be executed
-- `moogah` is an instance method that does not exist in `Person` or higher on the inheritance hierarchy, but it *does exist* in `Student` 
+- `moogah` is an instance method that does not exist in `Person` or higher on the inheritance hierarchy, but it *does exist* in `Student`
     - ⇒ compiler will not know what to do
     - Have to *cast* `p1` back to student
 

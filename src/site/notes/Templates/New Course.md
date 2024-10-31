@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T16:07:40.000-07:00","updated":"2024-10-11T22:46:24.140-07:00"}
+{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T16:07:40.000-07:00","updated":"2024-10-30T17:50:09.468-07:00"}
 ---
 
 
@@ -28,5 +28,4 @@ debugInConsole: false # Print debug info in Obsidian console
 
 
 ### Week
-
 

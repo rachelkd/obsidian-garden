@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/a-first-look-at-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-08T23:13:44.000-07:00","updated":"2024-10-07T18:10:10.383-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/1-introduction-to-java/a-first-look-at-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-09-08T23:13:44.000-07:00","updated":"2024-10-30T17:51:50.068-07:00"}
 ---
 
 
@@ -27,13 +27,13 @@ class Hello {
 
 > [!info]+ How is a program is run in Java?
 > In Python, we can run:
-> 
+>
 > - a single line of code at the shell
 > - run an entire module i.e., code that exists in a single file
 >     - executed from top to bottom
-> 
+>
 > Java does not have modules; instead: **classes**
-> 
+>
 > - When we execute a program in Java, we actually execute a class
 > - A class may have multiple methods in it → special method called `main` that any class may define
 > - Run a class → `main` method is executed
@@ -52,7 +52,7 @@ class Hello {
 - Similar to `if __name__ == '__main__'` in Python.
 
 > [!info]- What does `public` mean?
-> 
+>
 > - Determines what code and where the code is allowed to call this method
 
 # Printing

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-17T10:25:15.000-07:00","updated":"2024-10-01T10:08:19.492-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/principle-of-complete-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-17T10:25:15.000-07:00","updated":"2024-10-30T17:51:50.024-07:00"}
 ---
 
 

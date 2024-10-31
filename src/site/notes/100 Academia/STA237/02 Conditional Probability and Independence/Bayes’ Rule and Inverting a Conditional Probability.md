@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T07:48:55.000-07:00","updated":"2024-10-15T15:21:16.165-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/bayes-rule-and-inverting-a-conditional-probability/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T07:48:55.000-07:00","updated":"2024-10-30T17:51:50.056-07:00"}
 ---
 
 
@@ -17,7 +17,7 @@
 - In Bayes’, interested in probability of being a male, given that you are a smoker
     - e.g., What is the probability that a random smoker is male?
 
-Recall: 
+Recall:
 1. Law of total probability: $P(B) \stackrel{\text{(partition rule)}}{=} P(B \cap A) + P(B \cap A^{C}) \stackrel{\text{(multiplication rule)}}{=} \bbox[lavender]{P(B \mid A) P(A) + P(B \mid A^{C}) P(A^{C})}$
 2. General multiplication rule: $P(A \cap B) = \bbox[lavender]{P(B \mid A)P(A)}$
 

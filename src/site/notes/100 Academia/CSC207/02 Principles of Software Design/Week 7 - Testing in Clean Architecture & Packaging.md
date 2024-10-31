@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T19:21:17.455-07:00","updated":"2024-10-24T11:08:13.498-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T19:21:17.455-07:00","updated":"2024-10-30T17:51:50.020-07:00"}
 ---
 
 
@@ -8,7 +8,7 @@
 > - Write unit tests in Java using JUnit, focusing on Entities and Use Cases
 > - Write an end-to-end test, provided you have a similar example to work from
 > - Understand the difference between unit tests, integration tests, and end-to-end tests
-> 
+>
 > <!-- break -->
 > - Understand what packages are in Java
 > - Understand various ways you can organize your code in packages

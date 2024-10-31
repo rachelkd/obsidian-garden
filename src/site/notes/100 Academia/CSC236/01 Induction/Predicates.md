@@ -1,14 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/predicates/","tags":["university","#lecture","#cs"],"created":"2024-08-04T16:29:44.000-07:00","updated":"2024-09-27T16:08:23.000-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/predicates/","tags":["#cs","#lecture","university"],"created":"2024-08-04T16:29:44.000-07:00","updated":"2024-10-30T17:51:50.021-07:00"}
 ---
+
 
 # Predicates
 
-> [!def] Predicate #definition 
+> [!def] Predicate #definition
 > - A *parametrized* logical statement
 > - Can be viewed as: a function that takes in one or more arguments → only outputs `True` or `False`
 
-### Examples of predicates
+### Examples of Predicates
 
 $$\begin{align} 
 & EV(n) \; : \; n \text{ is even} \\

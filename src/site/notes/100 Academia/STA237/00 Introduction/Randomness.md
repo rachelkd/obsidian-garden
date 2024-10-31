@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T07:31:11.000-07:00","updated":"2024-10-09T13:16:12.347-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T07:31:11.000-07:00","updated":"2024-10-30T17:51:50.050-07:00"}
 ---
 
 
@@ -43,7 +43,7 @@
 - Sample space: $\Omega = \{ HH, HT, TH, TT \}$
 - Outcome: $\omega = HH$
 - Event: $A = \{ \text{Getting at least one head in two coin flips} \} =  \{ TH, HH, HT \}$
-    - Further examples, 
+    - Further examples,
       $B = \{\text{We get two heads}\} = \{HH\}$
       $C = \{ \text{We get one head, one tail} \} = \{HT, TH\}$
 

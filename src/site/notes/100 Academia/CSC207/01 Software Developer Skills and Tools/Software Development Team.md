@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-team/","tags":["#cs","#lecture","#note","university"],"created":"2024-09-03T16:54:36.000-07:00","updated":"2024-10-06T15:23:03.002-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/software-development-team/","tags":["#cs","#lecture","#note","university"],"created":"2024-09-03T16:54:36.000-07:00","updated":"2024-10-30T17:51:50.004-07:00"}
 ---
 
 
@@ -17,7 +17,7 @@
 >     - Add functionality
 >         - e.g., What happens when a button is clicked?
 > - Test
-> 
+>
 > > [!question]+ Stuff to ponder
 > > 1. How do devs know what user interfaces to create?
 > > 2. How do devs know what data to keep track of?

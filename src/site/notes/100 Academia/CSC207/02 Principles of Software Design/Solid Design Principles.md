@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T16:37:05.915-07:00","updated":"2024-10-10T22:20:04.565-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T16:37:05.915-07:00","updated":"2024-10-30T17:51:50.014-07:00"}
 ---
 
 
 > [!goal]- Learning Outcomes
-> 
+>
 > - Know what the five SOLID design principles are
 
 - What are the five **SOLID** design principles?
@@ -40,7 +40,7 @@
 ## Single Responsibility Principle
 
 > [!def]- Single Responsibility Principle
-> 
+>
 > - A class should have **one, and only one, reason to change**
 > - Every class should have a single responsibility
 
@@ -105,13 +105,13 @@ public double calculatePay(...) {
     - i.e., it *delegates* to the appropriate class
 
 > [!important]+ We want each of these responsibilities to be in its own class
-> 
+>
 > - The proposed `regularHours` helper method is going to cause problems!
 
 ## The Open/Closed Principle
 
 > [!def]- Open/Closed Principle
-> 
+>
 > - Software entities (e.g., classes, modules, functions, etc.) should be **open for extension, but closed for modification**
 
 - Add new features — *not* by modifying original class — but rather by:
@@ -150,7 +150,7 @@ public double calculatePay(...) {
 ## Liskov Substitution Principle
 
 > [!def]- Liskov Substitution Principle
-> 
+>
 > - If `S` is a subtype of `T`, then objects of type `S` may be substituted for objects of type `T`, without altering any of the desired properties of the program
 
 - `S` is a subtype of `T` means:
@@ -175,7 +175,7 @@ public double calculatePay(...) {
         - Rectangles: Can do so independently
 
 > [!important]+ LSP is related to the [[100 Academia/CSC207/02 Principles of Software Design/Solid Design Principles#The Open/Closed Principle\|Open/Closed principle]]
-> 
+>
 > - Subclasses should only *extend* (add behaviours), not modify or remove them
 
 - In the [[100 Academia/CSC207/01 Software Developer Skills and Tools/Java Collections Framework\|JCF]], all of these have immutable and mutable versions
@@ -226,7 +226,7 @@ public double calculatePay(...) {
     - → Indication of high-coupling
 
 > [!question]- How do we design a program that does not have that dependency?
-> 
+>
 > - We introduce an **abstraction layer** between low-level classes and high-level classes
 
 ### Example of Bad Code
@@ -246,7 +246,7 @@ public double calculatePay(...) {
 > [!goal] Want to decouple our system so that we can change individual pieces without having to change anything more than the individual piece
 
 > [!def]- Two aspects to the Dependency Inversion Principle
-> 
+>
 > - High-level modules should not depend on low-level modules
 >     - ==Both should depend on abstractions==
 >     - “Nothing here should talk about Swing, nothing here should talk about SQL.”

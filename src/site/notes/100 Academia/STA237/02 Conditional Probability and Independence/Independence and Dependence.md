@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T07:51:22.000-07:00","updated":"2024-10-15T15:46:52.422-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T07:51:22.000-07:00","updated":"2024-10-30T17:51:50.057-07:00"}
 ---
 
 
@@ -34,7 +34,7 @@
 
 ## Ex. Roll a Dice and Toss a Coin
 
-#example 
+#example
 
 ![](https://i.imgur.com/1Y2mCkJ.png)
 
@@ -107,7 +107,7 @@ If you examine two people, are the events that the first is Type A and the secon
 
 ## Ex. Two Coin Flips (Textbook 2.21)
 
-#example 
+#example
 
 Flip two coins. Let A be the event that the first coin comes up heads; B the event that the second comes up heads; and C the event that both coins come up the same, either heads or tails.
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","todo","university"],"created":"2024-10-24T16:28:27.986-07:00","updated":"2024-10-24T22:10:13.578-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","todo","university"],"created":"2024-10-24T16:28:27.986-07:00","updated":"2024-10-30T17:51:50.011-07:00"}
 ---
 
 
@@ -40,9 +40,9 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 > > - About a class
 > > - A class is *cohesive* if the data and behaviour of these objects makes sense
 > > - **High cohesion**:
-> >     - A class does one job, and does it well
+> > - A class does one job, and does it well
 > > - **Low cohesion**:
-> >     - Class has parts that do not relate to each other
+> > - Class has parts that do not relate to each other
 > > - e.g., `Customer` class might have `getName`, `getAddress`, but also `sendEmail` that sends an email to the customer → Weird; not a major responsibility of the customer → ==not cohesive==
 
 > [!important] Design patterns are often applied to <mark style="background: #D2B3FFA6;">decrease coupling</mark> and <mark style="background: #D2B3FFA6;">increase cohesion</mark>

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T20:27:41.828-07:00","updated":"2024-10-24T20:42:59.590-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T20:27:41.828-07:00","updated":"2024-10-30T17:51:50.011-07:00"}
 ---
 
 
@@ -84,7 +84,7 @@ When building an online book store, one of the use cases we’ve been asked to i
     - Bundle every interface that use case interactor implements or relies on
     - i.e., Defining entire domain; all the details of how these interfaces are used/implemented reside in other packages
     - Similar to by Layer, except
-        - `OrdersRespository` moves from `data` package to `domain` (i.e., business rules), and 
+        - `OrdersRespository` moves from `data` package to `domain` (i.e., business rules), and
         - `data` is renamed to `database` (because now it is only the implementation detail of how we are getting our data: from a database)
 - **By Component**:
     - OrdersController is its own component that uses the Orders component

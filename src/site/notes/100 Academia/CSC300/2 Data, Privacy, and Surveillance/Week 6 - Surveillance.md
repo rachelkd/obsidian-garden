@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-11T21:06:09.249-07:00","updated":"2024-10-14T14:47:54.214-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-11T21:06:09.249-07:00","updated":"2024-10-30T17:51:50.037-07:00"}
 ---
 
 
@@ -128,7 +128,7 @@
     - Supervisor increases the capacity of individuals/states/institutions to know about social groups and populations
     - Does not simply maintain control, but
     - Also plays role of administrator/bureaucrat/scientist that connects general individuals to authority
- 
+
 
 ## Surveillance as Social Control: Why?
 
@@ -167,7 +167,7 @@
     - Internet technology → People will have email, text, phone → Become part of the norm
 - Street directions are no longer provided
     - When you ask someone for an address, they no longer also provide you with directions
-    - Norm that you can use map technology to find the address 
+    - Norm that you can use map technology to find the address
 
 # Surveillance for Profit
 

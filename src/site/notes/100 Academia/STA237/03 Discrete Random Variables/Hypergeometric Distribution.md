@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T20:59:37.321-07:00","updated":"2024-10-10T08:59:35.360-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T20:59:37.321-07:00","updated":"2024-10-30T17:51:50.060-07:00"}
 ---
 
 
@@ -67,7 +67,7 @@ We want to model the number of marked animals (out of 4) in the second sample
     - Example: `dhyper(3, 5, 5, 4)` returns `0.2380952`
 2. Cumulative Distribution Function (CDF):
     - $P(X \leq x) = \text{phyper}(x, r, N-r, n)$
-3. Generate $k$ independent observations of $X$: 
+3. Generate $k$ independent observations of $X$:
     - `rhyper(k, r, N-r, n)`
 4. Inverse CDF/Quantile Function:
     - To find the quantile $x$ such that $F(x) = p$:

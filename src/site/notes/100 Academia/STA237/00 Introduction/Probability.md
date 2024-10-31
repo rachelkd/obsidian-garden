@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T07:46:11.000-07:00","updated":"2024-10-09T13:16:38.100-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T07:46:11.000-07:00","updated":"2024-10-30T17:51:50.049-07:00"}
 ---
 
 
@@ -10,11 +10,11 @@ See [[100 Academia/STA237/00 Introduction/Randomness\|Randomness]].
 > [!question] What is **probability**?
 > - What we use to talk about the chances of some outcome of an experiment happening
 >     - i.e., the likelihood or “chance” that an event occurs
-> 
+>
 > $$P(A) = \text{Probability of event A occuring}$$
 > - A number between 0 and 1 that satisfies certain properties (see [[Probability, Part 2\|Probability, Part 2]])
 
-Let $A$ be an event associated with some random experiment. 
+Let $A$ be an event associated with some random experiment.
 Imagine conducting the experiment over and over, infinitely often, keeping track how much $A$ occurs.
 - **Trial:**
     - Each experiment

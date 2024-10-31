@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T14:04:40.000-07:00","updated":"2024-10-13T18:32:21.000-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T14:04:40.000-07:00","updated":"2024-10-30T17:51:50.024-07:00"}
 ---
 
 
@@ -17,7 +17,7 @@
 ## Justification for 3
 
 Adjust the structure of induction:
-- Define set $\mathbb{E}$ for all even natural numbers in a *self-contained*, *recursive* way, 
+- Define set $\mathbb{E}$ for all even natural numbers in a *self-contained*, *recursive* way,
     - i.e., not using any other sets or referring to anything outside of the definition
     1. ==$0 \in \mathbb{E}$==
     2. ==$\forall n \in \mathbb{E}, n + 2 \in \mathbb{E}$==

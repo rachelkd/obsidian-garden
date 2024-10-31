@@ -1,42 +1,42 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T16:29:41.075-07:00","updated":"2024-10-10T16:55:53.675-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T16:29:41.075-07:00","updated":"2024-10-30T17:51:50.016-07:00"}
 ---
 
 
 > [!question]- Questions to be answered this week:
 > Software Design Decisions
-> 
+>
 > 1. Give an example of a “design decision” that you might make when developing a class.
 > 2. Give an example of a “design decision” that you might make when reading a specification and using it to develop a plan for your program.
-> 
+>
 > SOLID Principles of Design
-> 
-> 1. What is the difference between a rule and a principle?  
+>
+> 1. What is the difference between a rule and a principle?
 > Why do we have principles of software design instead of rules?
-> 
+>
 > 2. For each SOLID principle, state the principle and include a brief description of the example so that you can refer to it later when studying for the exam:
-> 
->    - Single Responsibility Principle (SRP)  
+>
+>    - Single Responsibility Principle (SRP)
 > SRP Example --
-> 
->    - Open/Closed Principle (OCP)  
+>
+>    - Open/Closed Principle (OCP)
 > OCP Example --
-> 
->    - Liskov Substitution Principle (LSP)  
+>
+>    - Liskov Substitution Principle (LSP)
 > LSP Example --
-> 
->    - Interface Segregation Principle (ISP)  
+>
+>    - Interface Segregation Principle (ISP)
 > ISP Example --
-> 
->    - Dependency Inversion Principle (DIP)  
+>
+>    - Dependency Inversion Principle (DIP)
 > DIP Example --
-> 
+>
 > 3. What does “encapsulation” mean? Which of the SOLID principles are related to encapsulation?
 > 4. What does “High cohesion, loose coupling” mean? Which of the SOLID principles explicitly agree with this statement?
 > 5. We have seen many features of Java that agree with the SOLID principles. Describe five features, one for each SOLID principle that agrees with the principle.
-> 
+>
 > Exceptions
-> 
+>
 > 1. What is an Exception in Java?
 > 2. What is the conceptual difference between a “checked” and “unchecked” Exception?
 > 3. What is the syntactical (syntax) difference between a “checked” and “unchecked” Exception?

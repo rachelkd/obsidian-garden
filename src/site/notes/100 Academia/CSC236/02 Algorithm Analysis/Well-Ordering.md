@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T17:00:56.730-07:00","updated":"2024-10-14T10:49:56.948-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T17:00:56.730-07:00","updated":"2024-10-30T17:51:50.025-07:00"}
 ---
 
 
@@ -20,7 +20,7 @@
 > [!thm]+ Lemma.
 > If $236 = q \cdot 25 + r$ and $r \geq 25$, then there is a smaller remainder.
 > **Proof.**
-> 
+>
 > $$\begin{align*}
 > 236 &= q \cdot 25 + r \\
 > &= q \cdot 25 + 25 + \overbrace{r - 25}^{\geq 0} \\
@@ -49,7 +49,7 @@
 - When we understand what is happening → *Generalize*
     - Reasoning did not depend on the numbers → Give it a variable
 
-Let $n \in \mathbb{N}$. 
+Let $n \in \mathbb{N}$.
 Let $d \in \mathbb{N}^{+}$ (cannot divide by 0).
 
 WTP: $$\exists q, r, r < d \wedge n = q \cdot d + r$$
@@ -70,7 +70,7 @@ Consider the set $R = \{ r \in \mathbb{N} : \exists q \in \mathbb{N}, n = qd + r
 <!-- break -->
 - By WOP, $R$ contains a minimum element $r_{m}$.
     - i.e., $\forall r \in R, r \geq r_{m}$
-- By our Lemma, $r_{m} < d$ 
+- By our Lemma, $r_{m} < d$
     - ($d$ was 25 in our lemma)
 - $r_{m} \in R$, so $\exists q, n= qd + r_{m}$
     - Let $q_{m}$ witness this: $n = q_{m} d + r_{m}$
@@ -109,7 +109,7 @@ Prove: $$\forall r \in R, \underbrace{r \geq d \implies \underbrace{\exists r' \
 
 # Generalizations
 
-> [!info]+ 
+> [!info]+
 > - Already discussed that WOP is intrinsic to $\mathbb{N}$
 >     - Not true for other sets of numbers (e.g., $\mathbb{Z}, \mathbb{Q}$, even if it is bounded)
 
@@ -127,7 +127,7 @@ Prove: $$\forall r \in R, \underbrace{r \geq d \implies \underbrace{\exists r' \
     - Insight:
     - A set bounded by $B$: ![|200](https://i.imgur.com/FkhY3YJ.png)
     - Given set $S \subseteq \mathbb{Z}$, bounded by $B$, create $T = \{ \lceil B \rceil - x : x \in S \}$
-    - $\implies T \subseteq \mathbb{N}$, and 
+    - $\implies T \subseteq \mathbb{N}$, and
     - $T \neq \emptyset \iff S \neq \emptyset$
     - Therefore, by WOP, $T$ has a minimum $x_{m}$
     - $\implies$ *Maximum* in $S = \lceil B \rceil - x_{m}$
