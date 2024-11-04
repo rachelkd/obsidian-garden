@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T07:51:22.000-07:00","updated":"2024-10-30T17:51:50.057-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-10-30T20:51:50.057-04:00"}
 ---
 
 

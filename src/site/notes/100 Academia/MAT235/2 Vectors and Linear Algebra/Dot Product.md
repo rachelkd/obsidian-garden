@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T14:11:21.700-07:00","updated":"2024-10-30T17:51:50.042-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2024-10-30T20:51:50.042-04:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/comparable/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T17:33:03.614-07:00","updated":"2024-10-30T17:51:49.992-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/comparable/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T20:33:03.614-04:00","updated":"2024-10-30T20:51:49.992-04:00"}
 ---
 
 

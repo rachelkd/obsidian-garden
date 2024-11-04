@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/2-vectors-and-linear-algebra/","tags":["#module","#university","math"],"created":"2024-10-10T14:09:35.226-07:00","updated":"2024-10-30T17:51:50.044-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/2-vectors-and-linear-algebra/","tags":["#module","#university","math"],"created":"2024-10-10T17:09:35.226-04:00","updated":"2024-10-30T20:51:50.044-04:00"}
 ---
 
 

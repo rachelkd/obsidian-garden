@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T20:15:42.196-07:00","updated":"2024-10-30T17:51:50.041-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T23:15:42.196-04:00","updated":"2024-10-30T20:51:50.041-04:00"}
 ---
 
 

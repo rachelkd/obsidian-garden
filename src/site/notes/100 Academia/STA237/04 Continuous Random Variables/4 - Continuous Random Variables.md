@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/4-continuous-random-variables/","tags":["#module","#university","stats"],"created":"2024-10-28T16:39:37.589-07:00","updated":"2024-10-30T17:48:56.958-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/4-continuous-random-variables/","tags":["#module","#university","stats"],"created":"2024-10-28T19:39:37.589-04:00","updated":"2024-11-03T13:01:50.963-05:00"}
 ---
 
 

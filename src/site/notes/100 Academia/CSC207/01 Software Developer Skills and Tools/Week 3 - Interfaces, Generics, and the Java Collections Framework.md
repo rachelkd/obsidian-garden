@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T13:31:35.000-07:00","updated":"2024-10-30T17:51:50.008-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/week-3-interfaces-generics-and-the-java-collections-framework/","tags":["#lecture","#note","cs","university"],"created":"2024-09-18T16:31:35.000-04:00","updated":"2024-10-30T20:51:50.008-04:00"}
 ---
 
 

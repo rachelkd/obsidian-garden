@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T20:59:37.321-07:00","updated":"2024-10-30T17:51:50.060-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2024-10-30T20:51:50.060-04:00"}
 ---
 
 

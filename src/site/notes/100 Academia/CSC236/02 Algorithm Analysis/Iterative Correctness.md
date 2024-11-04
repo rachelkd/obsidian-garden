@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T13:53:54.252-07:00","updated":"2024-10-28T13:37:48.822-07:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-10-28T16:37:48.822-04:00"}
 ---
 
 
