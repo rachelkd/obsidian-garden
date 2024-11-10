@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2024-10-30T20:51:50.060-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2024-11-10T02:41:59.126-05:00"}
 ---
 
 
@@ -88,7 +88,7 @@ We want to model the number of marked animals (out of 4) in the second sample
 - Similarly, for the variance:
     - $n \left(\frac{N-n}{N-1}\right) \underbrace{\left(\frac{r}{N}\right)}_{p}\left(1 - \underbrace{\frac{r}{N}}_{p}\right)$
     - Similar to $np(1-p) = V[X]$ if $X \sim \text{Binom}(n, p)$, but with additional $\left( \frac{{N-n}}{N-1} \right)$ term
-        - Add. term is called the *finite population correction*
+        - Additional term is called the *finite population correction*
 - As $N \to \infty$ and $\frac{r}{N} \to p$, the limiting distribution of the hypergeometric distribution is the binomial distribution with parameters $n$ and $p$
 
 # Example: Emergency Room Visits

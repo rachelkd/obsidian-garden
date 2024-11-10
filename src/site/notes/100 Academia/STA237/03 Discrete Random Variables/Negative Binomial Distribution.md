@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/negative-binomial-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-17T01:25:52.075-04:00","updated":"2024-10-30T20:51:50.061-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/negative-binomial-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-17T01:25:52.075-04:00","updated":"2024-11-10T15:33:26.950-05:00"}
 ---
 
 

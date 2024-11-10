@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","todo","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-11-06T15:05:49.621-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","todo","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-11-07T00:48:06.000-05:00"}
 ---
 
 
@@ -234,7 +234,7 @@ If we know that $q\%$ of the data lies below some value $b$:
 
 - Some tables only have positive values of $z$ → Use the **symmetry property**
     - If you need to find $P(Z< z)$ for $z < 0$
-        - $P(Z < z) = P(Z > -z) = 1 - P(Z > z)$
+        - $P(Z < z) = P(Z > -z) = 1 - P(Z > z) = 1 - P(Z < -z) = 1 - \Phi(-z)$
 
 # Example. Video Games
 

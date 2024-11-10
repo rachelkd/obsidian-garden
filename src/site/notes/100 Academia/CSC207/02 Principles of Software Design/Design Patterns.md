@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","todo","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-10-30T20:51:50.011-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-11-09T14:42:22.903-05:00"}
 ---
 
 
@@ -24,6 +24,8 @@
 - Not specific to any single programming language
 
 More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engineering Large Software Systems)
+
+> [!important] [Design Pattern Examples](https://github.com/CSC207-UofT/design-pattern-samples/tree/main/src)
 
 ## Loose Coupling, High Cohesion
 
@@ -280,7 +282,7 @@ final JPanel views = new JPanel(cardLayout);
 application.add(views);
 
 final ViewManagerModel viewManagerModel = new ViewManagerModel();
-new ViewManager(views, cardLayout, viewManagerModel);
+final ViewManager = new ViewManager(views, cardLayout, viewManagerModel);
 
 final SignupViewModel signupViewModel = new SignupViewModel();
 final DBUserDataAccessObject userDataAccessObject = new DBUserDataAccessObject(
@@ -356,3 +358,201 @@ final JFrame application = appBuilder
 >     - ==Responsibility of the Builder to maintain the currently built application and return it at the end==
 > - OCP:
 >     - Can add new steps pretty easily
+
+# Behavioural Patterns
+
+## Strategy Design Pattern
+
+> [!def]+ Strategy Design Pattern
+>
+> > [!warning]+ Problem
+> > - Multiple classes ==differ only in how they are implemented==
+> > - i.e., Multiple implementations of the ==same idea==; ==solve the same problem==, but how they do it is different
+> > - High-level logic is same except for which algorithm is being used to solve part of the task
+> > - Other classes may also benefit from code implementing the algorithms, but code is currently *coupled* to the class using a specific algorithm
+>
+> > [!goal]+
+> > - Want to **decouple** (separate) the implementation of a class from the implementation of the algorithms which it may use
+> > - Want to make more generic so that it can be useful elsewhere as well
+
+### Without the Strategy Pattern
+
+![](https://i.imgur.com/oRVjUpP.png)
+
+- An Author has a name and list of Books, and there’s a way to sort books
+    - Book implements Comparable
+    - Sort does so by Comparable `compareTo`
+- Two subclasses: `AuthorInsertion` and `AuthorSelection`
+
+> [!warning]+ Problem: Cannot swap sort class part-way through
+> - Make decision when you build the `Author` class → Constraining and limiting
+
+### With the Strategy Pattern
+
+![](https://i.imgur.com/QPtBwnX.png)
+
+- `Author` has a `sorter` instance variable
+    - Moved algorithm out into separate class
+    - When you instantiate an `Author`, you can give it a `Sorter`
+    - Able to add a `setSorter` method that swaps the algorithm that the `Author` was using
+- Replacing inheritance as composition
+    - Generally, more flexible to use composition as inheritance
+    - Do this through **[[100 Academia/CSC207/02 Principles of Software Design/Design Patterns#Dependency Injection\|dependency injection]]**
+    - ? OH: Does `Author` have a hard dependency on Sorter? What if we have a constructor that does not take in a `Sorter` parameter? Then, `Author` would have to create a new Sorter object right? So would it then have to depend on a SorterFactory?
+
+### Strategy: Standard Solution
+
+![](https://i.imgur.com/m6ISyns.png)
+
+> [!question]- What was our *context* in the `Author` example?
+> - `Author`
+> - Our strategy was `sort`
+
+> [!def]+ Context
+> - The object that knows which strategy is being used
+
+> [!question]+ What counts as a strategy? Does it have to be an algorithm?
+> - Everything is an algorithm, so yes
+
+> [!question]+ Which of the SOLID principles are followed by this pattern?
+> - SRP
+>     - What we do with the Author is no longer responsible for implementing its own sorting algorithm
+>     - Pushing that work to another object, `Sorter`
+> - OCP
+>     - Can make new sort strategies without changing Author code at all
+>     - Just inject into sorting algorithm
+> - DIP
+>     - Author does not know which sorting strategy it is using
+>     - Thinks its *generic*; told which one it is using
+
+## Observer Design Pattern
+
+> [!def]+ Observer
+>
+> > [!warning]+ Problem
+> > - Need to maintain consistency between ==related== objects
+> > - Whenever this object changes, it needs to go through and tell all the things that depend on it
+> > - Two aspects: ==one dependent on the other== (**cause and effect**)
+> > - An object should be able to ==*notify* other objects about changes== to itself without making assumptions about who these objects are
+>
+> > [!goal]+
+> > - You want one object to *listen* for changes in another
+
+### Old Java Implementation
+
+![](https://i.imgur.com/6LCKHep.png)
+*UML Class Diagram for `Observable`*
+
+- `Observable` abstract class
+    - Maintains a list of **observers**
+    - Can add/remove observers
+- Typically, the Builder will inject all the things its observing (Observables) into the Observer
+- A way to tell if there has been any changes to the state of the Observable
+- A way to *notify* all the Observers
+- YourObservableClass overrides the Observable abstract class
+    - Sole responsibility: Maintain any state it needs
+    - Does not need to think about the list of observers → Responsibility of abstract Observable class
+
+> [!question]+ When you set state, what needs to happen?
+> - Let everybody know
+> - In `setState` method, there is going to be a ==call to (inherited) `notifyObservers`==
+> - Will loop through observers and make observers `update` based on new state
+
+### Example. Parcel
+
+![](https://i.imgur.com/lwYqHxW.png)
+
+- Parcel has a location → Changes → Update location (`updateLocation`) → Trigger call on `notifyObservers`
+
+> [!important] `Observable` is an **abstract** class; `Observer` is an **interface**
+
+- `Parcel` *extends* `Observable`
+- `Company` and `Customer` ==must have an `update` method==
+    - In that code, do any updates you need to do for a Company or Customer
+    - e.g., Talk to a Presenter; update stuff to the view
+- The `Observable` has 0+ observers
+
+### Why Did Java Deprecate Observable?
+
+- `YourObservableClass` can ==only extend== `Observable`
+    - Cannot have a class in an inheritance hierarchy also *extend* `Observable`
+- Class was deprecated due to several limitations:
+    - Event model is quite limited
+    - Order of notifications is unspecified
+    - State changes are not in one-to-one correspondence with notifications
+- Recommended alternatives:
+    - `java.beans` package for a richer event model
+    - `java.util.concurrent` for reliable and ordered messaging between threads
+    - `Flow` API for reactive streams style programming
+
+> [!tip] Instead of using inheritance, we are going to use **composition**
+
+- Why should `YourObservableClass` care how the list of observers is maintained?
+    - If you inherit from Observable, then that is what you get
+    - But instead, we ==use an object as an instance variable== → *Delegate* requests to that object
+        - Similar to [[100 Academia/CSC207/02 Principles of Software Design/Design Patterns#Strategy Design Pattern\|#Strategy Design Pattern]]
+
+### Implementation Using Delegation
+
+![](https://i.imgur.com/tFDh4ET.png)
+
+> [!info]+ Arrow Types in UML Diagram
+> 1. **Open triangle with dashed line**
+>     - Represents *interface implementation*
+>     - `View` implements the `PropertyChangeListener` interface
+>
+> 2. **Diamond with solid line**
+>     - Represents *composition*
+>     - `ViewModel` has a `PropertyChangeSupport` object as an instance variable
+>     - The filled diamond indicates the lifecycle of `PropertyChangeSupport` is controlled by `ViewModel`
+>     - `ViewModel`contains the `State` object → State’s lifecycle is managed by the `ViewModel`
+> 3. **Dashed arrow**
+>     - Represents a *dependency* relationship
+>         - `View` depends on `State` but doesn’t “own” it
+>         - Typically means `View` uses `State` in some way (perhaps reading from it) but isn’t responsible for its lifecycle
+>
+> The overall structure shows:
+> - `ViewModel` contains a `PropertyChangeSupport` object
+> - `View` implements `PropertyChangeListener` interface
+> - When state changes, `PropertyChangeSupport` notifies all listeners through their `propertyChange` method
+
+- `PropertyChangeSupport` object has `firePropertyChange` method
+    - Similar to `notifyObservers`
+    - `PropertyChangeSupport` is an object created specifically to ==maintain a list of observers==
+        - Also has an `addListener` method not in class diagram
+- & `firePropertyChange` calls `propertyChange` on each listener
+    - Similar to the `update` method from deprecated Java implementation
+
+> [!info]+ `PropertyChangeSupport`’s Single Responsibility:
+> - Maintain list of listeners and call their `propertyChange` method
+
+- Rather than extending it like in [[100 Academia/CSC207/02 Principles of Software Design/Design Patterns#Old Java Implementation\|#Old Java Implementation]], your observable class has an **instance variable** pointing to the code that is *managing* its listeners (`PropertyChangeSupport`)
+    - Taking out your observable code into its own class → Injecting it your observable class → ViewModel has an instance of `PropertyChangeSupport`
+        - Pass on call to `addPropertyChangeListener`/`firePropertyChange` to support instance variable
+            - One line method implementation:
+                - `support.addPropertyChangeListener(PropertyChangeListener obj)`, or
+                - `support.firePropertyChanged()`
+    - In Java 8, you would have had `ViewModel` extend Observable
+
+### In Practice
+
+> [!question]+ Where have we already seen observers?
+> - In our Clean Architecture implementation:
+>     - `View` observes `ViewModel`
+>     - `ViewModel` notifies `View` of state changes
+> - GUI frameworks often use observer pattern:
+>     - Button click listeners
+>     - Event handlers
+
+> [!question]+ Which part(s) of clean architecture can benefit from the observer pattern?
+> - Interface Adapters layer:
+>     - View-ViewModel relationship
+>     - Presenter updating View
+> - Can help maintain separation of concerns while allowing necessary communication
+> - Particularly useful for updating UI based on data changes
+
+> [!question]+ Why is this a good pattern to implement across a boundary?
+> - Maintains loose coupling between layers
+> - Observable doesn’t need to know details about its observers
+> - Allows for communication across architectural boundaries without violating dependency rules
+> - Can notify multiple observers without tight coupling to any of them
