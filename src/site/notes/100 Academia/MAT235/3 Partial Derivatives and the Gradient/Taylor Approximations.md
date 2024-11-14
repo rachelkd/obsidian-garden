@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-13T23:00:45.543-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-13T23:15:21.213-05:00"}
 ---
 
 
@@ -93,14 +93,14 @@ Let $f(x, y) = (xy)^{-1}$ and $(a, b) = (1, 2)$.
 
 The quadratic approximation gives a more accurate result than the linear approximation.
 
-
 > [!example]+ Approximate$f(x,y) = x^2y$ at $(0.9, 0.2)$
-> Given:
+> **Given:**
 > - Function: $f(x,y) = x^2y$
 > - Point to estimate: $(0.9, 0.2)$
-> - Approximation point: $(a,b) = (1,0)$
 >
-> Steps:
+> **Steps:**
+> 
+> Choose $(a,b) = (1,0)$.
 > 1. Find partial derivatives:
 >    - First order:
 >      - $f_x(x,y) = 2xy$
@@ -110,16 +110,14 @@ The quadratic approximation gives a more accurate result than the linear approxi
 >      - $f_{xy}(x,y) = 2x$
 >      - $f_{yy}(x,y) = 0$
 >
-> 2. Evaluate at $(1,0)$:
->    - $f(1,0) = 0$
->    - $f_x(1,0) = 0$
->    - $f_y(1,0) = 1$
->    - $f_{xx}(1,0) = 0$
->    - $f_{xy}(1,0) = 2$
->    - $f_{yy}(1,0) = 0$
+> 2. Linear approximation:
+>    $$L(x,y) = f(1,0) + f_x(1,0)(x-1) + f_y(1,0)y = y$$
 >
 > 3. Form quadratic approximation:
->    $$Q(x,y) = y + 2(x-1)y$$
+>    $$\begin{align*}
+>    Q(x,y) &= L(x,y) + \overbrace{\frac{f_{xx}(1,0)}{2}}^{0/2}(x-1)^2 + \overbrace{f_{xy}(1,0)}^{2}(x-1)y + \overbrace{\frac{f_{yy}(1,0)}{2}}^{0/2}y^2 \\
+>    &= y + 2(x-1)y
+>    \end{align*}$$
 >
 > 4. Evaluate approximation:
 >    $$Q(0.9, 0.2) = 0.2 + 2(-0.1)(0.2) = 0.16$$
