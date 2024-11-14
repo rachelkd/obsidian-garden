@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-4-politics-of-data/","tags":["ethics","lecture","note","university"],"created":"2024-09-26T15:25:07.000-04:00","updated":"2024-10-30T20:51:50.038-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-4-politics-of-data/","tags":["ethics","lecture","note","university"],"created":"2024-09-26T15:25:07.000-04:00","updated":"2024-11-13T04:34:32.783-05:00"}
 ---
 
 

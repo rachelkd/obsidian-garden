@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-10T16:08:31.044-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-12T16:03:18.818-05:00"}
 ---
 
 
@@ -10,12 +10,12 @@
 
 ---
 
-# Lecture Notes
-
 - [[100 Academia/STA237/04 Continuous Random Variables/Exponential Distribution\|Exponential Distribution]]
 - [[100 Academia/STA237/04 Continuous Random Variables/Gamma Distribution\|Gamma Distribution]]
+- [[100 Academia/STA237/04 Continuous Random Variables/Summary of Continuous Distributions\|Summary of Continuous Distributions]]
+- [[100 Academia/STA237/04 Continuous Random Variables/Functions of a Random Variable\|Functions of a Random Variable]]
 
-## Summary of Continuous Distributions
+# Summary of Continuous Distributions
 
 ### Uniform Distribution
 
@@ -39,6 +39,8 @@ If $X \sim N(\mu,\sigma^2)$:
 
 ### Exponential Distribution
 
+- Models the time *until* the first event or between events
+
 If $X \sim \text{Exp}(\lambda)$:
 - Support: $[0,\infty)$
 - PDF: $f(x) = \lambda e^{-\lambda x}$ for $x \geq 0$
@@ -49,6 +51,8 @@ If $X \sim \text{Exp}(\lambda)$:
 
 ### Gamma Distribution
 
+- Models the time until $\alpha$ events happen
+
 If $X \sim \text{Gamma}(\alpha,\lambda)$:
 - Support: $[0,\infty)$
 - PDF: $f(x) = \frac{\lambda^\alpha x^{\alpha-1}e^{-\lambda x}}{\Gamma(\alpha)}$ for $x \geq 0$
@@ -56,3 +60,20 @@ If $X \sim \text{Gamma}(\alpha,\lambda)$:
 - $\text{Var}[X] = \frac{\alpha}{\lambda^2}$
 - MGF: $M_X(t) = \left(\frac{\lambda}{\lambda-t}\right)^\alpha$ for $t < \lambda$
 - Note: When $\alpha = 1$, reduces to $\text{Exp}(\lambda)$
+
+> [!info]+ Exponential and Gamma distributions
+> - Number of events that occur follow a [[100 Academia/STA237/03 Discrete Random Variables/Poisson Distribution\|Poisson Distribution]] with rate $\lambda$
+>
+> > [!summary]+ Assumptions
+> > - Same as Poisson distribution
+> > - ==Independent non-overlapping intervals==
+> > - ==Individuality of events== (no two events at the same time)
+> > - ==Uniformity== (events occur at a uniform rate)
+>
+> - Time to first event (or time in between events) follows $\text{Exp}(\lambda)$
+> - Time to $\alpha$-th event follows $\text{Gamma}(\alpha, \lambda)$
+> - Can also be used to model distances, etc.
+>     - Can be used in *any* setup where the number of events follow the Poisson distribution
+>     - e.g., Time you wait for a bus, distance on the road until a pothole, length of fabric until a defect
+> - Exponential distribution can also be thought of as the *limiting distribution* of the Geometric
+>     - Similar to how Poisson is the *limiting distribution* of the Binomial

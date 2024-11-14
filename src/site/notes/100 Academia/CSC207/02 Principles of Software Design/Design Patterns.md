@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-11-09T14:42:22.903-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-11-13T00:55:17.000-05:00"}
 ---
 
 
@@ -301,7 +301,7 @@ views.add(signupView, signupView.getViewName());
 
 ### App Builder Version
 
-```java title:AppBuilder.java
+```java title:Main.java
 final AppBuilder appBuilder = new AppBuilder();
 final JFrame application = appBuilder
                 .addLoginView()

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-12T00:06:09.249-04:00","updated":"2024-10-30T20:51:50.037-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-12T00:06:09.249-04:00","updated":"2024-11-12T01:01:27.534-05:00"}
 ---
 
 
@@ -128,7 +128,6 @@
     - Supervisor increases the capacity of individuals/states/institutions to know about social groups and populations
     - Does not simply maintain control, but
     - Also plays role of administrator/bureaucrat/scientist that connects general individuals to authority
-
 
 ## Surveillance as Social Control: Why?
 
