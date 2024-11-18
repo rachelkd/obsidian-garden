@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-16T16:00:51.495-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-18T00:51:12.144-05:00"}
 ---
 
 
@@ -14,6 +14,7 @@
 - [[100 Academia/STA237/04 Continuous Random Variables/Gamma Distribution\|Gamma Distribution]]
 - [[100 Academia/STA237/04 Continuous Random Variables/Summary of Continuous Distributions\|Summary of Continuous Distributions]]
 - [[100 Academia/STA237/04 Continuous Random Variables/Functions of a Random Variable\|Functions of a Random Variable]]
+- [[100 Academia/STA237/04 Continuous Random Variables/Pareto Distribution\|Pareto Distribution]] (from Tutorial)
 
 # Summary of Continuous Distributions
 

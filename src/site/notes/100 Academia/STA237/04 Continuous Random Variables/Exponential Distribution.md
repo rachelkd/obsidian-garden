@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-11-10T15:31:54.937-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-11-17T21:41:18.878-05:00"}
 ---
 
 
@@ -336,4 +336,3 @@ For example, we can have
 > &= \frac{1}{0.1^{2}} \\
 > &= 100
 > \end{align*}$$
-
