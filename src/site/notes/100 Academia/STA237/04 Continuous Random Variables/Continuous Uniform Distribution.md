@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/continuous-uniform-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-29T21:20:33.351-04:00","updated":"2024-11-06T19:41:29.180-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/continuous-uniform-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-29T21:20:33.351-04:00","updated":"2024-11-17T19:10:35.580-05:00"}
 ---
 
 
@@ -218,4 +218,3 @@ $X \sim \text{Unif}(150, 200)$
 > &= 0.5
 > \end{align*}$$
 > ![|center|300](https://i.imgur.com/fAM3Y73.png)
-

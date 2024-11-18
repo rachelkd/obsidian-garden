@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-11-13T00:55:17.000-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-11-15T17:39:54.750-05:00"}
 ---
 
 
@@ -556,3 +556,129 @@ final JFrame application = appBuilder
 > - Observable doesn’t need to know details about its observers
 > - Allows for communication across architectural boundaries without violating dependency rules
 > - Can notify multiple observers without tight coupling to any of them
+
+# Structural Patterns
+
+## Adapter
+
+> [!def]+ Adapter Design Pattern
+>
+> > [!warning]+ Problem
+> > - Want to reuse a class that already exists, but it does not have the methods (public interface) required by the rest of the program
+>
+> > [!success]+ Solution 1: Use [[100 Academia/CSC207/00 Java/Inheritance\|Inheritance]]
+> > - Create a subclass that extends the old class and include the missing methods
+>
+> > [!success]+ Solution 2: Use a **wrapper** and **delegation**
+> > - Create a container class that has an instance of the old class as a variable
+> > - Rest of the program can call the container’s methods, which then call the old class’ methods
+
+### Analogy: Square Pegs in a Round Hole
+
+- Imagine you have a round hole
+- You want to be able to put square pegs in this round hole
+- What kind of square pegs can fit into this round hole?
+    - Radius has to be the diagonal of the square from the center
+- The methods are incompatible, but maybe you can write an **adapter** to make it fit
+
+![](https://i.imgur.com/1T9Pvhl.png)
+
+### In Practice
+
+> [!question]+ Which SOLID principles are followed by this pattern?
+> - OCP:
+>     - Can add new code that isn’t compatible by writing one class to do the adapter part
+> - SRP:
+>     - Single responsibility is to adapt
+> - Liskov:
+>     - SquarePegAdapter is a subclass of RoundPeg
+>     - Therefore behaves like a RoundPegs
+
+> [!question]+ Where have we seen adapters before?
+> - Real life
+>     - Adapt this USB style into another USB style
+> - Same thing in code
+
+> [!question]+ When might you *not* want to use this pattern?
+
+## Façade
+
+> [!def]+ Façade Design Pattern
+>
+> > [!warning]+ Problem
+> > - A single class is responsible to multiple *actors*
+> > - We want to encapsulate the code that interacts with individual actors
+> > - We want a simplified interface to a more complex subsystem
+>
+> > [!success]+ Solution
+> > - Create individual classes that each interact with only one actor
+> > - Create a Façade class that has (roughly) the same responsibilities as the original class
+> > - *Delegate* each responsibility to the individual classes
+> >     - $\implies$ Façade object contains references to each individual class
+
+### Before
+
+- In some restaurant software, we have a class called `Bill`
+- Responsible for:
+    - Calculating total based on a frequently-changing set of discount rates
+        - “10% off before 11 am”
+        - Interacts with a discount system that contains a list of rates
+    - Logging the amount paid and updating the accounting subsystem
+        - Interacts with the accounting system
+    - Printing a nicely-formatted bill to give to the customer
+        - Interacts with the print device
+
+### After
+
+- Factor our an `Order` object that contains the menu items that were ordered
+- Create classes called `BillCalculator`, `BillLogger`, `BillPrinter` that all use `Order`
+- Create `BillFacade`, which
+    - **delegates** the operations to `BillCalculator`, `BillLogger`, `BillPrinter`
+
+e.g., `BillFacade` might contain this instance variable and method:
+
+```java title:"BillFacade.java"
+BillCalculator calculator = new BillCalculator(order);
+
+public calculateTotal() {
+    calculator.calculateTotal();
+}
+```
+
+### In Practice
+
+> [!question]+ When did we see an example of a Façade? Which SOLID principle was it demonstrating?
+> - Employee Facade in [[100 Academia/CSC207/02 Principles of Software Design/Solid Design Principles#A Story of Three Actors\|Single Responsibility Principle]]
+
+> [!question]+ How do Facade classes create a boundary within your program?
+> Facade classes create several types of boundaries:
+>
+> 1. **Abstraction Boundary**
+>     - Creates simplified interface hiding complex subsystem interactions
+>     - Single entry point to multiple subsystems
+>     - External code only needs to know Facade interface
+>
+> 2. **Encapsulation Boundary**
+>     - Hides subsystem implementation details
+>     - Allows subsystem modifications without affecting client code
+>     - Enforces separation of concerns
+>
+> 3. **Architectural Boundary**
+>     - Functions as layer boundary in layered architecture
+>     - Separates high-level components from implementation details
+>     - Enforces dependency rules by providing stable API
+>
+> 4. **Integration Boundary**
+>     - Facilitates external system integration
+>     - Adapts incompatible interfaces
+>     - Controls interaction between system components
+>
+> 5. **Testing Boundary**
+>     - Provides clear seam for mocking/stubbing
+>     - Enables isolated subsystem testing
+>     - Simplifies integration testing at Facade level
+>
+> These boundaries promote loose coupling, increase cohesion, and help manage system complexity through abstraction.
+
+- [Wikipedia Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) has a nice discussion of Adapter, Façade, and Decorator
+    - Decorator was not covered in [[100 Academia/CSC207/CSC207\|CSC207]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-13T23:15:21.213-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-13T23:48:57.662-05:00"}
 ---
 
 

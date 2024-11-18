@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-11-08T14:02:03.118-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-11-15T17:35:49.933-05:00"}
 ---
 
+
+vddd
 
 > [!goal]- Learning Outcomes
 >
@@ -83,7 +85,7 @@ Suppose methods `calculatePay` and `reportHours` share a helper method to calcul
 
 - Downside of solution:
     - Need to keep track of three objects
-    - NOT one!![[Solid Design Principles 2024-10-09 01.26.09.excalidraw\|Solid Design Principles 2024-10-09 01.26.09.excalidraw]]
+    - NOT one!
 - Solution:
     - Create a **façade**
     - Create an Employee Facade that has three instance variables
