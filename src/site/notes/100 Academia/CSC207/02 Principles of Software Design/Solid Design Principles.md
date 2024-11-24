@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-11-15T17:35:49.933-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/","tags":["#lecture","#note","cs","university"],"created":"2024-10-01T19:37:05.915-04:00","updated":"2024-11-22T18:23:38.861-05:00"}
 ---
 
 
@@ -115,6 +115,8 @@ public double calculatePay(...) {
 > [!def]- Open/Closed Principle
 >
 > - Software entities (e.g., classes, modules, functions, etc.) should be **open for extension, but closed for modification**
+{ #dfe828}
+
 
 - Add new features — *not* by modifying original class — but rather by:
     - Extending it and adding new behaviours, or by adding plugin capabilities

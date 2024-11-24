@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-11-17T22:32:55.109-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-11-24T01:09:58.794-05:00"}
 ---
 
 
@@ -75,6 +75,7 @@ Consider a survey that asks:
 > |High School   | 53      | 47        | 29         |
 > >
 > > [!question]- Different Types of Probability Calculations
+> >
 > > 1. **Marginal Probability**
 > >    - P(middle school) = $\frac{78 + 36 + 12}{255} = \frac{126}{255}$
 > >    - Total students = 255 (sum of all cells)
@@ -93,12 +94,14 @@ Consider a survey that asks:
 > > Two events A and B are independent if $P(A|B) = P(A)$ for all values
 > >
 > > Testing if school level and ice cream preference are independent:
+> >
 > > - P(vanilla | middle school) = $\frac{78}{126}$
 > > - P(vanilla | high school) = $\frac{53}{129}$
 > >
 > > Since these conditional probabilities are not equal, school level and ice cream preference are **not** independent.
 >
 > > [!important]+ Key Formulas
+> >
 > > - Marginal: $P(A) = \frac{\text{row or column total}}{\text{grand total}}$
 > > - Joint: $P(A \text{ and } B) = \frac{\text{cell count}}{\text{grand total}}$
 > > - Conditional: $P(A|B) = \frac{P(A \text{ and } B)}{P(B)} = \frac{\text{cell count}}{\text{row or column total}}$
@@ -108,6 +111,7 @@ Consider a survey that asks:
 
 > [!example]+ Two Dice Roll
 > Consider rolling two fair dice:
+>
 > - $X$ = Number on dice 1, $X \sim \text{Unif}\{1,2,\ldots,6\}$
 > - $Y$ = Number on dice 2, $Y \sim \text{Unif}\{1,2,\ldots,6\}$
 > - $X$ and $Y$ are independent
@@ -116,6 +120,7 @@ Consider a survey that asks:
 > ![|center|400](https://i.imgur.com/81dHM2K.png)
 >
 > > [!question]+ Probability Calculations
+> >
 > > 1. <mark style="background: #FFB86CA6;">P(Dice 1 = 2 and Dice 2 = 3)</mark>
 > >    - Direct from joint PMF table: $\frac{1}{36}$
 > >    - Since independent: $P(X=2)P(Y=3) = \frac{1}{6} \cdot \frac{1}{6} = \frac{1}{36}$
@@ -126,6 +131,7 @@ Consider a survey that asks:
 > >    - Since independent: $P(X \leq 2)P(Y \leq 3) = \frac{2}{6} \cdot \frac{3}{6} = \frac{1}{6}$
 >
 > > [!important]+ Key Points
+> >
 > > - For independent RVs:
 > >   - $P(X=a, Y=b) = P(X=a)P(Y=b)$
 > >   - Joint PMF has equal probabilities when uniform
@@ -136,11 +142,13 @@ Consider a survey that asks:
 > [!def]+ Joint PMF
 > **Joint Probability Mass Function (PMF)** of $X$ and $Y$:
 > $$p_{X,Y}(x,y) = P(X = x \cap Y = y)$$
+>
 > - Gives probability of specific $(x,y)$ pairs
 
 > [!def]+ Joint CDF
 > **Joint Cumulative Distribution Function (CDF)**:
 > $$F_{X,Y}(a,b) = P(X \leq a \cap Y \leq b)$$ for $-\infty < a,b < \infty$
+>
 > - Gives probability of $X \leq a$ AND $Y \leq b$
 
 ## Visualization
@@ -148,9 +156,9 @@ Consider a survey that asks:
 ![](https://i.imgur.com/V0IMBen.png)
 
 - Joint PMFs can be represented as $3$D plots:
-    - $X$-axis: values of first random variable
-    - $Y$-axis: values of second random variable
-    - $Z$-axis (height): probability of each $(x,y)$ pair
+  - $X$-axis: values of first random variable
+  - $Y$-axis: values of second random variable
+  - $Z$-axis (height): probability of each $(x,y)$ pair
 
 ## Properties
 
@@ -158,10 +166,10 @@ Consider a survey that asks:
     - For discrete pairs $(x,y)$ in sample space $\Omega$:
     - $$P((X,Y) \in A) = \sum_{(x,y)\in A} p_{X,Y}(x,y)$$
     - Sums joint PMF values over all points in region $A$
-2. Probability over intervals:
+ 2. Probability over intervals:
     - $$P(a \leq X \leq b, c \leq Y \leq d) = \sum_{x=a}^b \sum_{y=c}^d p_{X,Y}(x,y)$$
     - Used for rectangular regions in $xy$-plane
-3. Total Probability:
+ 3. Total Probability:
     - All probabilities must sum to $1$
     - If support of $X$ is $S$ and $Y$ is $T$:
     - $$\sum_{x\in S} \sum_{y\in T} p_{X,Y}(x,y) = 1$$
@@ -182,34 +190,40 @@ Consider a survey that asks:
 ## Example: Marginal PMFs for Two Dice
 
 Consider rolling two fair dice:
+
 - $X$ = Number on dice 1
 - $Y$ = Number on dice 2
 - Joint PMF: $p_{X,Y}(x,y) = \frac{1}{36}$ for $x,y \in \{1,2,3,4,5,6\}$, and $0$ otherwise
 
 > [!example]+ Finding Marginal PMFs
 > **For $X$ (Dice 1)**:
+>
 > - $P(X = x) = \sum_{y=1}^6 p_{X,Y}(x,y) = \sum_{y=1}^6 \frac{1}{36} = \frac{6}{36} = \frac{1}{6}$
 > - Sum over all possible values of $Y$ (6 values)
 >
 > **For $Y$ (Dice 2)**:
+>
 > - $P(Y = y) = \sum_{x=1}^6 p_{X,Y}(x,y) = \sum_{x=1}^6 \frac{1}{36} = \frac{6}{36} = \frac{1}{6}$
 > - Sum over all possible values of $X$ (6 values)
 
 ## Conditional PMFs
 
 For the two dice example:
+
 - $X$ = Number on dice 1
 - $Y$ = Number on dice 2
 - Joint PMF: $p_{X,Y}(x,y) = \frac{1}{36}$ for $x,y \in \{1,2,3,4,5,6\}$
 
 > [!info]+ Conditional PMF
 > To find conditional PMF:
+>
 > 1. Focus only on row/column being conditioned on
 > 2. Rescale probabilities to sum to 1
 > 3. $$P(Y|X=x) = \frac{P(Y \text{ and } X=x)}{P(X=x)}$$
 
 > [!example]+ Finding $P(Y|X=5)$
 > Looking at column where $X=5$:
+>
 > - Each cell in column has probability $\frac{1}{36}$
 > - $P(X=5) = \frac{6}{36} = \frac{1}{6}$ (marginal probability)
 > - Therefore, $P(Y|X=5) = \frac{\frac{1}{36}}{\frac{1}{6}} = \frac{1}{6}$ for all $y$
@@ -232,6 +246,7 @@ For the two dice example:
 
 > [!thm]+ Joint PMF
 > $$p_{X,Y}(x,y) = P(X = x, Y = y)$$
+>
 > - Properties:
 >   - Must be non-negative: $p_{X,Y}(x,y) \geq 0$
 >   - Must sum to 1 over all pairs
@@ -239,17 +254,22 @@ For the two dice example:
 
 > [!thm]+ Joint CDF
 > $$F_{X,Y}(a,b) = P(X \leq a, Y \leq b)$$ for $-\infty < a,b < \infty$
+>
 > - Properties:
 >   - Bounded between 0 and 1
 >   - Non-decreasing in both variables
+{ #dfc097}
+
 
 > [!thm]+ Marginal PMFs
 > Sum over other variable:
+>
 > - For $X$: $P(X = x) = \sum_{all\,y} p_{X,Y}(x,y)$
 > - For $Y$: $P(Y = y) = \sum_{all\,x} p_{X,Y}(x,y)$
 
 > [!thm]+ Conditional PMFs
 > Ratio of joint to marginal:
+>
 > - $p_{Y|X}(y|X = x) = \frac{p_{X,Y}(x,y)}{p_X(x)}$
 > - $p_{X|Y}(x|Y = y) = \frac{p_{X,Y}(x,y)}{p_Y(y)}$
 
@@ -270,8 +290,11 @@ For the two dice example:
 > $$P((X,Y) \in S) = \iint_S f(x,y) \, dx \, dy$$
 >
 > Wagaman and Dobrow (2021), pp 247
+{ #f0872c}
+
 
 > [!note]- Key Differences from Discrete Case
+>
 > - Sums become double integrals
 > - PMF becomes PDF (density function)
 > - Probabilities found by integrating over regions
@@ -289,7 +312,7 @@ For the two dice example:
 > &= c\left(\frac{15}{2}\right)\left(\frac{1}{2}\right) \\
 > &= \frac{15c}{4}
 > \end{align*}$$
-> 
+>
 > Therefore:
 > - $c = \frac{4}{15}$
 > - Final joint PDF: $$f_{X,Y}(x,y) = \frac{4}{15}xy$$ for $1 < x < 4$ and $0 < y < 1$
@@ -298,7 +321,7 @@ For the two dice example:
 
 - Joint PDFs can be visualized with a ==3D figure==
 - Probabilities are *volumes* now
-    - Instead of areas when we only had 1 RV
+  - Instead of areas when we only had 1 RV
 
 ![](https://i.imgur.com/WdlB4n9.jpeg)
 
@@ -328,20 +351,20 @@ For the two dice example:
 ## Joint CDF
 
 - Same as the “regular” CDF we already know, but
-    - Integration region ==is a double integral==
+  - Integration region ==is a double integral==
 
 > [!def]+ Joint Cumulative Distribution Function
-> If $X$ and $Y$ have joint density function $f$, the **joint cumulative distribution function** of $X$ and $Y$ is:
->
-> $$F(x,y) = P(X \leq x, Y \leq y) = \int_{-\infty}^x \int_{-\infty}^y f(s,t) \, dt \, ds$$
->
-> defined for all $x$ and $y$.
->
-> **Relationship to PDF**:
-> - Differentiating with respect to both variables recovers the PDF:
-> $$\frac{\partial^2}{\partial x \partial y}F(x,y) = f(x,y)$$
->
+> If $X$ and $Y$ have joint density function $f$, the **joint cumulative distribution function** of $X$ and $Y$ is
+> $$
+> F(x, y) = P(X \leq x, Y\leq y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f(s, t) \, dt \, ds
+> $$
+> defined for all $x$ and $y$. Differentiating with respect to both $x$ and $y$ gives
+> $$
+> \frac{ \partial^{2} }{ \partial x \partial y } F(x, y) = f(x, y)
+> $$
 > Wagaman and Dobrow (2021), pp 248
+{ #d0b0f5}
+
 
 > [!example]+ Finding Joint CDF Value
 > Given: $f(x,y) = \frac{4xy}{15}$ for $1 < x < 4$ and $0 < y < 1$
@@ -390,7 +413,7 @@ For the two dice example:
 > &= \frac{4x}{15} \left[\frac{y^2}{2}\right]_0^1 \\[1em]
 > &= \frac{2x}{15}
 > \end{align*}$$
-> 
+>
 > > [!note]- Key Observation
 > > The result $f_X(x)$ is only a function of $x$, as expected for a marginal distribution
 
@@ -406,6 +429,8 @@ For the two dice example:
 > $$f_{X|Y}(x|Y = y) = \frac{f_{X,Y}(x,y)}{f_Y(y)}$$
 >
 > Melchers (1999)
+{ #b8409f}
+
 
 ### Geometric Interpretation
 
@@ -417,6 +442,7 @@ For the two dice example:
 ![|center|500](https://i.imgur.com/iynJY5d.png)
 
 > [!note]- Visualization
+>
 > - Joint PDF shown as 3D surface
 > - Marginal PDFs appear as curves on side planes
 > - Conditional PDF is a rescaled slice of joint PDF
@@ -446,6 +472,7 @@ For the two dice example:
 
 > [!warning]+ Integration Regions
 > When finding probabilities from joint PDFs:
+>
 > - Integration regions are not always rectangular
 
 - Must carefully identify the region based on the probability statement
@@ -459,6 +486,7 @@ For the two dice example:
 > 1. **Visualize Region**:
 >    - Region where $X < Y$ is below the line $y = x$
 >    - Forms a triangle in the unit square
+>
 > ```desmos-graph
 > left=0; right=1;
 > top=1; bottom=0;
@@ -481,12 +509,14 @@ For the two dice example:
 # Summary: Two Continuous Random Variables
 
 > [!thm]+ Joint PDF
+>
 > - Probabilities are volumes under the PDF in 3D plot
 > - $f_{X,Y}(x,y)$ must be:
 >   - Non-negative: $$f_{X,Y}(x,y) \geq 0$$
 >   - Integrate to 1: $$\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dx \, dy = 1$$
 
 > [!thm]+ Joint CDF
+>
 > - $$F_{X,Y}(a,b) = P(X \leq a, Y \leq b)$$ for $-\infty < a,b < \infty$
 > - Properties:
 >   - Bounded between 0 and 1
@@ -494,18 +524,23 @@ For the two dice example:
 
 > [!thm]+ Marginal PDFs
 > Sum over other variable:
+>
 > - For $X$: $f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dy$
 > - For $Y$: $f_Y(y) = \int_{-\infty}^{\infty} f_{X,Y}(x,y) \, dx$
 
 > [!thm]+ Conditional PDFs
 > Ratio of joint to marginal:
+>
 > - $f_{Y|X}(y|X = x) = \frac{f_{X,Y}(x,y)}{f_X(x)}$
 > - $f_{X|Y}(x|Y = y) = \frac{f_{X,Y}(x,y)}{f_Y(y)}$
+{ #84cf78}
+
 
 # Independence of Two RVs
 
 > [!def]+ Independence for Continuous Random Variables
 > Two continuous random variables $X$ and $Y$ are independent if and only if their ==joint density function is the product of their marginal densities==:
+>
 > - $$f_{X,Y}(x,y) = f_X(x)f_Y(y)$$ for all $x,y$
 > - OR equivalently, if $$f_{Y|X}(y|X = x) = f_Y(y)$$ for all $x$
 > - Also, for CDFs: $$F(x, y) = P(X \leq x, Y \leq y) = P(X \leq x)P(Y \leq y) = F_{X}(x)F_{Y}(y)$$
@@ -514,6 +549,7 @@ For the two dice example:
 > Given: $f(x,y) = 1$ for $0 < x < 1, 0 < y < 1$ (i.e., $(X,Y) \sim \text{Unif}((0,1)^2)$)
 >
 > **Find Marginal PDFs**:
+>
 > 1. For $X$:
 > $$f_X(x) = \int_0^1 1 \, dy = 1, \quad 0 < x < 1$$
 >    - $X \sim \text{Unif}(0,1)$
@@ -525,16 +561,19 @@ For the two dice example:
 > See [[100 Academia/STA237/04 Continuous Random Variables/Continuous Uniform Distribution\|Continuous Uniform Distribution]].
 >
 > **Test Independence**:
+>
 > - Check if $f_{X,Y}(x,y) = f_X(x)f_Y(y)$
 > - $1 = 1 \cdot 1$ ✓
 > - Therefore, $X$ and $Y$ are independent
 
 > [!tip]+ Quick Test for Independence
 > Two continuous RVs are independent if:
+>
 > 1. Joint PDF is **separable** (can be written as product $g(x)h(y)$)
 > 2. Support region is **rectangular** (bounds of $X$ don’t depend on $Y$ and vice versa)
 
 In this example:
+
 - $f(x,y) = 1 = 1 \cdot 1$ is separable
 - Support $[0,1] \times [0,1]$ is rectangular
 
@@ -549,7 +588,7 @@ In this example:
 > &= (2e^{-2x})(3e^{-3y}) \\
 > &= g(x)h(y) \quad ✓
 > \end{align*}$$
-> 
+>
 > **Check Support**:
 > - $x > 0$ only depends on $x$
 > - $y > 0$ only depends on $y$
@@ -560,7 +599,7 @@ In this example:
 > - $Y \sim \text{Exp}(3)$ (rate parameter = 3)
 > - See [[100 Academia/STA237/04 Continuous Random Variables/Exponential Distribution\|Exponential Distribution]]
 >
-> **Conclusion**: 
+> **Conclusion**:
 > - Joint PDF is separable
 > - Support is rectangular
 > - Therefore, $X$ and $Y$ are independent
@@ -569,6 +608,7 @@ In this example:
 > Given: $f(x,y) = 15e^{-(2x+3y)}$ for $0 < x < y$ and $0$ otherwise
 >
 > **Check Support Region**:
+>
 > - Condition $0 < x < y$ means support is triangular
 > - Support of $X$ depends on value of $Y$
 > - Support is not rectangular ✗
@@ -595,33 +635,42 @@ In this example:
 > For a function $g(X,Y)$ of discrete random variables $X$ and $Y$:
 > $$E[g(X,Y)] = \sum_{x\in S} \sum_{y\in T} g(x,y)P(X = x, Y = y)$$
 > where $S$ and $T$ are the sample spaces of $X$ and $Y$ respectively.
+{ #7711bc}
+
 
 > [!def]+ Expected Value for Continuous Joint Distributions
 > For a function $g(X,Y)$ of continuous random variables $X$ and $Y$ with joint density $f(x,y)$:
 > $$E[g(X,Y)] = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} g(x,y)f(x,y) \, dx \, dy$$
+{ #57163f}
+
 
 ## Conditional Expectations
+{ #f27ff3}
+
 
 > [!def]+ Conditional Expected Value
 > For a function $g$ of random variables $X$ and $Y$:
 >
-> **Conditioning on $Y$**:
+> **Conditioning on $Y$ (function of $y$)**:
 > $$E[g(X)|Y = y] = \begin{cases}
 > \sum_{all\,x} g(x)p_{X|Y}(x|y) & \text{discrete case} \\[1em]
 > \int_{all\,x} g(x)p_{X|Y}(x|y)\,dx & \text{continuous case}
 > \end{cases}$$
 >
-> **Conditioning on $X$**:
+> **Conditioning on $X$ (function of $x$)**:
 > $$E[g(Y)|X = x] = \begin{cases}
 > \sum_{all\,y} g(y)p_{Y|X}(y|x) & \text{discrete case} \\[1em]
 > \int_{all\,y} g(y)p_{Y|X}(y|x)\,dy & \text{continuous case}
 > \end{cases}$$
+{ #f90dcd}
+
 
 - $E[g(X)|Y=y]$ may depend on $y$
 - $E[g(Y)|X=x]$ may depend on $x$
 
 > [!example]+ Example: Linear Relationship
 > Given:
+>
 > - $Y \sim \text{Unif}(0,1)$
 > - $X = 2Y$
 >
@@ -629,6 +678,7 @@ In this example:
 > $$E[X|Y=y] = 2y$$
 >
 > > [!note]- Interpretation
+> >
 > > - Result is a function of $y$
 > > - Makes sense since $X$ is deterministic given $Y$
 > > - No need for integration since $X$ is fully determined by $Y$
@@ -653,6 +703,7 @@ Recall [[100 Academia/STA237/03 Discrete Random Variables/Expectations and Varia
 >      - $E[f(X)g(Y)] = E[f(X)]E[g(Y)]$
 >
 > > [!warning]- Common Mistakes
+> >
 > > 1. In general, $E[f(X)] \neq f(E[X])$
 > >
 > > 2. Expected value may not be possible outcome
@@ -706,6 +757,7 @@ Wagaman and Dobrow (2021), pp 262
 > where $\sigma_X = \sqrt{\text{Var}(X)}$ and $\sigma_Y = \sqrt{\text{Var}(Y)}$
 >
 > **Properties**:
+>
 > - Always bounded: $-1 \leq \rho(X,Y) \leq 1$
 > - Standardized version of covariance
 > - Dimensionless measure of linear association
@@ -728,15 +780,16 @@ Wagaman and Dobrow (2021), pp 262
     - 0: No linear relationship
 
 - Zero correlation/covariance doesn’t imply independence
-    - Only implies no linear relationship
-    - Could still have non-linear relationship
+  - Only implies no linear relationship
+  - Could still have non-linear relationship
 
 ## Correlation and Linear Dependence
 
 > [!important]+ Key Relationship with Independence
+>
 > - If $X$ and $Y$ are independent: $\text{Cov}(X,Y) = 0$ and $\rho(X,Y) = 0$
->     - Converse is **not** true!
->     - $X, Y$ can be related but have 0 correlation
+>   - Converse is **not** true!
+>   - $X, Y$ can be related but have 0 correlation
 > - Zero correlation/covariance only implies ==no linear relationship==
 
 - Correlation and covariance only measure **linear dependence**
@@ -746,6 +799,7 @@ Wagaman and Dobrow (2021), pp 262
 ## Properties of Covariance and Correlation
 
 > [!thm]+ Key Properties
+>
 > 1. **Self-Covariance**:
 >    $$\begin{align*}
 >    \text{Cov}(X,X) &= E[(X-E(X))(X-E(X))] \\
@@ -786,4 +840,5 @@ Wagaman and Dobrow (2021), pp 262
 - You fit a **linear regression** and find that the linear association between height and reading ability is very strong
 
 > [!question]+ What can you conclude?
+>
 > - Even with a strong correlation between two RVs ==does not imply== a **causal** relationship

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-11-17T21:41:18.878-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-11-24T02:50:40.329-05:00"}
 ---
 
 
@@ -17,11 +17,12 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 > [!question] What if instead, we were interested in the <mark style="background: #D2B3FFA6;">time until the first vehicle passes</mark> by?
 
 - We have the **[[100 Academia/STA237/03 Discrete Random Variables/Geometric Distribution\|Geometric Distribution]]** to model the ==number of trials until our event of interest happens==, but
-    - Geometric distribution is *discrete*
-    - Time is *continuous*
-    - We can still use geometric distribution to *approximate* the amount of time until the event of interest occurs
+  - Geometric distribution is *discrete*
+  - Time is *continuous*
+  - We can still use geometric distribution to *approximate* the amount of time until the event of interest occurs
 
 > [!tip]+ What if we divide the time that passes into 1-minute-long intervals?
+>
 > - Each interval is *non-overlapping* $\implies$ independent
 > - Each minute = 1 trial
 > - Failure: No vehicles pass by
@@ -30,8 +31,8 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 > - → Gives us the number of minutes until we can see the first vehicle
 
 - ! We can only get as accurate as the nearest minute
-    - e.g., No difference between vehicle arriving at 12:01 vs. 12:59
-        - In both cases, success will be recorded as the 12th minute
+  - e.g., No difference between vehicle arriving at 12:01 vs. 12:59
+    - In both cases, success will be recorded as the 12th minute
 - We can subdivide time into smaller and smaller intervals
 - If we take the limit as time gets smaller and smaller, the geometric distribution converges to the **exponential distribution**
 
@@ -80,18 +81,18 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 ## Properties
 
 - Support is positive reals
-    - Distribution measures time; time cannot be negative
+  - Distribution measures time; time cannot be negative
 - $\lambda$ is called the “rate” parameter
-    - Represents the average rate of events per unit time
-    - $\frac{1}{\lambda}$ gives the average time between events
+  - Represents the average rate of events per unit time
+  - $\frac{1}{\lambda}$ gives the average time between events
 - Exponential distributions are often used to model:
-    - Lifetimes of products
-    - Time until failure
-    - Time between events
+  - Lifetimes of products
+  - Time until failure
+  - Time between events
 - Key identifier: When you see phrases like:
-    - “time until”
-    - “distance until”
-    - Similar “until” scenarios
+  - “time until”
+  - “distance until”
+  - Similar “until” scenarios
     → Clues that exponential distribution may be appropriate
 
 ## Example. Emergency Vehicles
@@ -101,6 +102,7 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 > [!obs] The ==limit of the geometric distribution== as the number of trials within a time goes to infinity ($n \to \infty$) and $p \to \frac{\lambda}{n}$ is the **exponential distribution**
 
 > [!obs]+ It also turns out that: If the number of events within a time interval follows a $\text{Poisson}(\lambda)$ distribution,
+>
 > - The time (or distance) in between events (or to the first event) follows an $\text{Exponential}(\lambda)$ distribution
 > - See [[100 Academia/STA237/03 Discrete Random Variables/Poisson Distribution\|Poisson Distribution]]
 
@@ -108,35 +110,36 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 - Same assumptions as Poisson distribution must be met!
 
 > [!important]+ Assumptions about Exponential Distribution
+>
 > - ==Independent non-overlapping intervals==
->     - No matter how many events happen in one interval, it does not impact any other interval as long as there is no overlap
+>   - No matter how many events happen in one interval, it does not impact any other interval as long as there is no overlap
 > - ==Individuality of events==
->     - No two events happen at the same time, but
->     - They can be any positive $\epsilon$ apart
+>   - No two events happen at the same time, but
+>   - They can be any positive $\epsilon$ apart
 > - ==Uniformity==
->     - Events occur at a uniform rate
+>   - Events occur at a uniform rate
 
 ![](https://i.imgur.com/QCFZQ7u.png)
 ![](https://i.imgur.com/6HpHJeP.png)
 
 - ==Smaller rate of events $\iff$ Longer wait times==
-    - e.g., If we expect 1 event to occur per hour, then time in between events is expected to be 1 hour
-    - If we expect 20 events per hour, the time in between events is going to be $\frac{1}{20 \text{ events/h}} \cdot 60 \text{ min/h} = 3$ minutes
+  - e.g., If we expect 1 event to occur per hour, then time in between events is expected to be 1 hour
+  - If we expect 20 events per hour, the time in between events is going to be $\frac{1}{20 \text{ events/h}} \cdot 60 \text{ min/h} = 3$ minutes
 - PDF is ==lower at smaller values==
-    - Less likely to have a small wait time
+  - Less likely to have a small wait time
 
 ## R Commands for Exponential Distribution
 
 > [!note] R takes λ (rate) as the argument
 
 - PDF: $f(x)$
-    - `dexp(x, λ)`
+  - `dexp(x, λ)`
 - CDF: $F(x)$
-    - `pexp(x, λ)`
+  - `pexp(x, λ)`
 - Quantile function: $F^{-1}(p)$
-    - `qexp(p, λ)`
+  - `qexp(p, λ)`
 - Generate random values
-    - `rexp(k, λ)` generates k independent observations
+  - `rexp(k, λ)` generates k independent observations
 
 ### Examples with $\lambda = 5$
 
@@ -244,7 +247,7 @@ x &= 4.815891
 > - `qexp(0.5, 0.3)` returns `2.310491`
 > - The median time until the first emergency vehicle is 2.31 hours
 > - Check using formula $$F(2.31) = 1 - e^{-0.3 \times 2.31} = 0.5$$
->   
+>
 > See [[100 Academia/STA237/04 Continuous Random Variables/Properties of Continuous RVs#Quantiles for a Continuous RV\|Properties of Continuous RVs#Quantiles for a Continuous RV]]
 
 # Memoryless Property
@@ -265,9 +268,9 @@ x &= 4.815891
 > [!question]+ If we see no emergency vehicles in the first hour, what is the probability that we see no vehicles in the first 3 hours?
 > - Let $X$ be the time until first vehicle, $X \sim \text{Exp}(0.3)$
 > - Looking for $P(X > 3|X > 1)$
-> 
+>
 > ![|center|400](https://i.imgur.com/QaI6wrf.png)
-> 
+>
 > - Using the memoryless property:
 > $$\begin{align*}
 > P(X > 3|X > 1) &= \frac{P(X > 3)}{P(X > 1)} \\
@@ -332,7 +335,7 @@ For example, we can have
 > &= \frac{1}{0.1} + 0.5 \\
 > &= 10.5 \\
 > Var(Y) &= Var(X + 0.5) \\
-> &= Var(X) \\ 
+> &= Var(X) \\
 > &= \frac{1}{0.1^{2}} \\
 > &= 100
 > \end{align*}$$

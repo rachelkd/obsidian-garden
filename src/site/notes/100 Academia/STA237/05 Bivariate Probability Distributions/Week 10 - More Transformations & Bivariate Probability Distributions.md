@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/week-10-more-transformations-and-bivariate-probability-distributions/","tags":["lecture","note","stats","university"],"created":"2024-11-17T18:21:38.429-05:00","updated":"2024-11-17T22:33:17.348-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/week-10-more-transformations-and-bivariate-probability-distributions/","tags":["lecture","note","stats","university"],"created":"2024-11-17T18:21:38.429-05:00","updated":"2024-11-23T19:52:12.836-05:00"}
 ---
 
 
@@ -17,7 +17,7 @@
 
 # Lecture Notes
 
-## Review
+## Review from [[100 Academia/STA237/04 Continuous Random Variables/Functions of a Random Variable\|Functions of a Random Variable]]
 
 > [!question]+ $X \sim \text{Unif}[-2, 2]$. Find the PDF of $Y = X^{2}$
 > - $Y = g(x)$ is *not invertible* over the support of $X$
@@ -81,3 +81,4 @@
 > > \end{cases}$$
 
 - [[100 Academia/STA237/05 Bivariate Probability Distributions/Probability Distributions of More than One RV\|Probability Distributions of More than One RV]]
+- [[100 Academia/STA237/05 Bivariate Probability Distributions/Finding Probabilities with the PDF\|Finding Probabilities with the PDF]]
