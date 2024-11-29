@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-11-24T01:09:58.794-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-11-27T04:21:47.000-05:00"}
 ---
 
 

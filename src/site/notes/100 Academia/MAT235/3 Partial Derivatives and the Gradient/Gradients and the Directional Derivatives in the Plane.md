@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-04T19:04:13.817-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-28T00:42:24.162-05:00"}
 ---
 
 
@@ -14,7 +14,7 @@
 
 - Notice that if $\vec{u} = \vec{i} \implies u_{1} = 1, u_{2} = 0$, then the directional derivative is $f_{x}$
     - $$f_{\vec{i}}(a, b) = \lim_{ h \to 0 } \frac{f(a + h, b) - f(a, b)}{h} = f_{x}(a, b)$$
-- Similarly, if $\vec{u} = \vec{j}$, then the directional derivative $f_{\vec{i}}=f_{y}$
+- Similarly, if $\vec{u} = \vec{j}$, then the directional derivative $f_{\vec{u}}=f_{y}$
 
 > [!warning]+ What if we do not have a unit vector?
 > If $\vec{v}$ is not a unit vector and $\vec{v} \neq 0$, we ==construct a unit vector== $\vec{u} = \vec{v} / ||\vec{v}||$ in the same direction as $\vec{v}$ and define the rate of change of $f$ in the direction of $\vec{v}$ as $f_{\vec{u}}$
@@ -43,7 +43,7 @@
 ## Derivation
 
 1. Start with the definition:
-   $$f_{\vec{u}}(a, b) = \lim_{h \to 0} \frac{f(a + hu_1, b + hu_2) - f(a, b)}{h}$$
+   $$f_{\vec{u}}(a, b) = \lim_{h \to 0} \frac{f(a + hu_1, b + hu_2) - f(a, b)}{h} = \lim_{ h \to 0 } \frac{\Delta f}{h}$$
 2. Let $\Delta f = f(a + hu_1, b + hu_2) - f(a, b)$ be the change in $f$
     - $\Delta x = hu_1$ (change in $x$)
     - $\Delta y = hu_2$ (change in $y$)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/partial-derivatives/","tags":["#lecture","#note","math","university"],"created":"2024-10-09T17:11:22.520-04:00","updated":"2024-11-11T22:34:35.909-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/partial-derivatives/","tags":["#lecture","#note","math","university"],"created":"2024-10-09T17:11:22.520-04:00","updated":"2024-11-25T19:30:58.961-05:00"}
 ---
 
 
@@ -39,4 +39,3 @@ f_{x}(x, y) &= \frac{\partial z}{\partial x}, && f_{y}(x, y) = \frac{\partial z}
 > [!question]- What are the units of a partial derivative?
 > - The units of the output divided by the units of the direction variable
 > - e.g., If $z = f(x, y)$, the units of $f_{x} = \frac{{\partial z}}{\partial x}$ are the units of $z$ over the units of $x$
-

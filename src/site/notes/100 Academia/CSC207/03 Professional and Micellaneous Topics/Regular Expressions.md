@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-11-22T03:24:46.989-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-11-26T20:10:33.723-05:00"}
 ---
 
 
@@ -98,13 +98,13 @@ Explain what these are:
 - A period `.`
   - Matches *any* character
 - White space characters
-  - Backslash is the **escape** character
-  - `\s` : Any white space character
-  - `\t`: Tab character
-  - `\n`: New line character
+    - Backslash is the **escape** character
+    - `\s` : Any white space character
+    - `\t`: Tab character
+    - `\n`: New line character
 - `^` inside a square bracket has another meaning
-  - Matches any character *except* the contents of the square brackets
-  - e.g., `[^aeiouAEIOU]` matches anything that is *not* a vowel
+    - Matches any character *except* the contents of the square brackets
+    - e.g., `[^aeiouAEIOU]` matches anything that is *not* a vowel
 
 ## Character Classes
 

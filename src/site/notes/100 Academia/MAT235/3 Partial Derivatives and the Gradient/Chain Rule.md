@@ -1,9 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["calculus","chain-rule","lecture","math","note","university"],"created":"2024-11-04T19:03:11.144-05:00","updated":"2024-11-15T16:19:25.696-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["lecture","math","note","university"],"created":"2024-11-04T19:03:11.144-05:00","updated":"2024-11-27T20:22:32.981-05:00"}
 ---
 
-
-zz
 
 # Composition of Functions and Rates of Change
 

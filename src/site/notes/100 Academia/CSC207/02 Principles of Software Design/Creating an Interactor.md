@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/creating-an-interactor/","tags":["lecture","note","university"],"created":"2024-11-15T17:40:20.388-05:00","updated":"2024-11-16T15:04:50.527-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/creating-an-interactor/","tags":["lecture","note","university"],"created":"2024-11-15T17:40:20.388-05:00","updated":"2024-11-27T22:40:27.324-05:00"}
 ---
 
 
@@ -171,5 +171,3 @@
 - Interactor needs the DAOs and the Presenter → Create Interactor and inject them
 - Controller needs Interactor → Create it next and inject Interactor
 - View needs View Model and Controller → Create it next and inject them
-
-#todo 32:33

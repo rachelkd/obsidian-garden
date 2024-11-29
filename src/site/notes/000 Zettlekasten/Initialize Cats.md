@@ -1,13 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/000-zettlekasten/initialize-cats/","created":"2024-11-27T23:44:54.710-05:00","updated":"2024-11-27T23:46:40.663-05:00"}
+{"dg-publish":true,"permalink":"/000-zettlekasten/initialize-cats/","created":"2024-11-27T23:44:54.710-05:00","updated":"2024-11-27T23:47:19.003-05:00"}
 ---
 
+
 # 1. Entities Layer (Already Exists)
+
 - `Cat` (entity)
 
 # 2. Use Case Layer
 
-## Input/Output Data:
+## Input/Output Data
+
 ```java
 class InitializeCatsInputData {
     private final String ownerUsername;
@@ -34,7 +37,8 @@ class InitializeCatsOutputData {
 }
 ```
 
-## Boundaries:
+## Boundaries
+
 ```java
 interface InitializeCatsInputBoundary {
     void execute(InitializeCatsInputData inputData);
@@ -48,7 +52,8 @@ interface InitializeCatsOutputBoundary {
 
 # 3. Interface Adapters Layer
 
-## Controller:
+## Controller
+
 ```java
 class InitializeCatsController {
     private final InitializeCatsInputBoundary initializeCatsUseCaseInteractor;
@@ -64,7 +69,8 @@ class InitializeCatsController {
 }
 ```
 
-## Presenter:
+## Presenter
+
 ```java
 class InitializeCatsPresenter implements InitializeCatsOutputBoundary {
     private final InitializeCatsViewModel viewModel;
@@ -95,7 +101,8 @@ class InitializeCatsPresenter implements InitializeCatsOutputBoundary {
 }
 ```
 
-## ViewModels:
+## ViewModels
+
 ```java
 class InitializeCatsViewModel extends ViewModel {
     private Collection<CatViewModel> catViewModels;
@@ -128,7 +135,8 @@ class CatViewModelFactory {
 
 # 4. Frameworks & Drivers Layer
 
-## View Factory:
+## View Factory
+
 ```java
 class CatViewFactory {
     public CatView createCatView(CatViewModel viewModel) {
@@ -137,7 +145,8 @@ class CatViewFactory {
 }
 ```
 
-## Views:
+## Views
+
 ```java
 class CatContainerView extends JPanel implements PropertyChangeListener {
     private final InitializeCatsViewModel viewModel;
@@ -183,7 +192,7 @@ class CatContainerView extends JPanel implements PropertyChangeListener {
 }
 ```
 
-# Benefits of this Implementation:
+# Benefits of This Implementation
 
 1. **Single Responsibility Principle:**
    - Each class has one specific job
@@ -205,5 +214,3 @@ class CatContainerView extends JPanel implements PropertyChangeListener {
 
 5. **Liskov Substitution:**
    - Different view implementations can be swapped without breaking the system
-
-

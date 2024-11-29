@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-10-30T20:51:50.050-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-11-24T18:25:42.320-05:00"}
 ---
 
 
@@ -53,7 +53,7 @@
 
 # How Do We Tell how Big Our Sample Space Is?
 
-- Use [[multiplication principal\|multiplication principal]] (Ch. 1.6)
+- Use multiplication principal (Ch. 1.6)
 
 # Sample Space and Event Can Have *infinite outcomes*
 
