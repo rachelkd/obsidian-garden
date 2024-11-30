@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-28T00:42:24.162-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-29T19:59:47.513-05:00"}
 ---
 
 
