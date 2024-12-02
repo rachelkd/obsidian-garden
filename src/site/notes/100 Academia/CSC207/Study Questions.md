@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-02T03:36:19.727-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-02T04:33:21.072-05:00"}
 ---
 
 
@@ -63,6 +63,11 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >             - Says that in the Data Access Interface
 
 ## Java
+
+> [!goal]+ To Study:
+> - Basic features of a Java class
+> - Contents of the quizzes
+> - Labs
 
 > [!question]- What does a constructor do?
 > - Initialize the instance variables
@@ -132,3 +137,204 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >             - Example: `Shape shape = new Rectangle()`
 >             - Static method call `shape.staticMethod` uses Shape’s version
 >             - Better style: Use class name `Shape.staticMethod`
+
+> [!question]- What makes a class *generic*? Abstract? When should you use generics? When should you use abstract classes and methods?
+> - Symbol for generic
+>     - `< >`
+> - e.g., `List<T>`
+>     - `T` is a type variable
+>     - Can fill in `T` when you *instantiate* an object
+>     - e.g., `List<String>`
+> - Behind the scenes, it makes you a whole copy of the class and instantiates it with that type filled in everywhere
+>     - → Do not have to cast every time
+> - When to use generics:
+>     - When class/method needs to work with different types
+>     - Common use cases:
+>         - Collections (lists, maps, sets)
+>         - Methods that operate on different data types
+>         - Classes that need type flexibility
+>     - Benefits:
+>         - Type safety at compile time
+>         - Avoid casting
+>         - Code reusability
+>     - Examples:
+>         - Pair class that holds two items:
+>             ```java
+>             class Pair<T, U> {
+>                 private T first;
+>                 private U second;
+>             }
+>             // Usage: Pair<String, Integer> grade = new Pair<>("Alice", 95);
+>             ```
+>         - Generic method to find max value:
+>
+>             ```java
+>             public static <T extends Comparable< T >> T findMax(T[] array) {
+>                 T max = array[0];
+>                 for (T item : array) {
+>                     if (item.compareTo(max) > 0) max = item;
+>                 }
+>                 return max;
+>             }
+>             // Usage: Integer[] nums = {1, 2, 3};
+>             // Integer max = findMax(nums);
+>             ```
+>
+> - & Make a class *abstract* when you do not want people to instantiate it
+>     - Want them to make a subclass and instantiate that
+> - ? Does an abstract class have to have an abstract method?
+>     - No
+>     - Can have an abstract class that does not have any methods
+>     - Abstract only means no one can make a new one directly
+>     - Need to do so through inheritance to make a subclass
+> - ? If you have an abstract method, what does it mean about your class?
+>     - Subclass has to implement
+> - ? Does your class have to be abstract if it has an abstract method?
+>     - Yes
+>     - Converse is not true; can have abstract class that implements methods
+
+> [!question]- How can you choose between interfaces and abstract classes?
+>
+> - Key differences:
+>     - Multiple inheritance:
+>         - Can implement *multiple* interfaces
+>         - Can only extend *one* abstract class
+>     - State and implementation:
+>         - Interface: Only constants (static final instance variables)
+>         - Abstract class: Can have instance variables and constructor
+>     - Method implementation:
+>         - Interface: All methods abstract by default (except default methods)
+>         - Abstract class: Can mix concrete and abstract methods
+> - When to use interface:
+>     - Defining a contract/behaviour
+>     - Need multiple inheritance
+>     - Want to specify “what” without “how”
+>     - Classes from different hierarchies need same behaviour
+>         - So you can provide some sort of service for a class with that behaviour
+>     - Examples:
+>         - `Comparable`, `Runnable`, `Iterable`
+>         - `InputBoundary`, `OutputBoundary` provide some sort of service in CA engine
+> - When to use abstract class:
+>     - Need to share code among related classes
+>     - Want to provide a base implementation
+>     - Need to declare non-public members
+>     - Need to maintain state
+>     - Examples:
+>         - `AbstractList`, `AbstractMap`
+> - Implementation requirements:
+>     - Interface: Must implement all methods (or be abstract)
+>     - Abstract class:
+>         - Must implement all abstract methods, or
+>         - Subclass must also be abstract
+>     - Can override concrete methods (except `final`)
+> - Modern Java features:
+>     - Interfaces can have:
+>         - Default methods (with implementation)
+>         - Static methods
+>     - Still cannot have state/constructor
+>
+> If you have an abstract class,
+>
+> ```java
+> abstract class A {
+>     void m;
+>     abstract void t;
+> }
+> ```
+>
+> - If you write a subclass of `A`, you have to provide an implementation of method `t`, or
+>     - Subclass also has to be abstract
+> - Can override `m` in your subclass
+>     - Except when the method is `final`
+
+### Notable Aspects of Java
+
+- Types
+- Primitives
+- Casting
+- Generics
+- Exceptions
+- Interfaces
+- Overloading
+- Memory model
+- JUnit
+- Javadoc
+- Constructors
+- Access modifiers
+- Packages
+
+## Git
+
+> [!goal]+ To Study:
+> - Basic commands
+> - Resolving conflicts
+> - Branch
+> - Merge
+
+> [!question]- What are some benefits of using version control?
+> - Everybody has their own copy of the repository
+> - Can work on their own feature and make progress without clobbering the work that anyone else is doing
+> - Makes file sharing, isolation of work easier
+>     - Through branching and merging
+
+> [!question]- What are some best practices that you have noticed when using git?
+> - Lots of small commits
+>     - Easier to track changes
+>     - Easier to revert if needed
+>     - Better for code review
+> - Pull before pushing
+> - Create new branch for each feature
+> - Test code before committing
+> - Keep main/master branch stable
+
+> [!question]- What makes a commit message *good*?
+> - Clear and concise
+> - ==Describes what changed and why==
+> - Uses present tense
+> - References issue number if applicable
+> - Specific about changes made
+> - Bad examples:
+>     - “fixed bug”
+>     - “changes”
+>     - “update”
+> - Good examples:
+>     - “Fix login validation error”
+>     - “Add user profile page”
+>     - “Update database schema for new features”
+
+> [!question]- What is a branch and how can you use it to benefit your group’s project?
+> - Separate workspace for development
+> - Allows parallel work without interference
+> - Good for:
+>     - Developing new features
+>     - Testing experimental changes
+>     - Fixing bugs
+> - Benefits group work by:
+>     - Preventing code conflicts
+>     - Enabling code review
+>     - Making it safe to experiment
+>     - Keeping main branch stable
+
+## Testing
+
+> [!goal]+ To Study:
+> - Testing-related definitions
+> - Basics of JUnit
+
+> [!question]- What is the difference between end-to-end, integration, and unit tests?
+> - Unit test tests one class
+>     - Have to mock the other classes to make sure that one unit is working correctly
+> - Integration tests two different layers
+>     - Run a unit test with a *mock* → unit test
+>     - Run the same test with the actual class e.g., Data Access Object and Interactor → integration test
+>     - One can even argue that an end-to-end test is an integration test, because it integrates everything
+
+## Exceptions
+
+> [!goal]+ To Study:
+> - When to throw
+> - Syntax
+> - Inheritance hierarchy
+> - Checked vs. unchecked
+
+> [!question]- What syntax makes an Exception checked? Unchecked?
