@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-02T03:35:51.068-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-02T03:36:19.727-05:00"}
 ---
 
 
