@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/computing-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-10-10T17:22:42.003-04:00","updated":"2024-11-06T18:36:12.094-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/computing-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-10-10T17:22:42.003-04:00","updated":"2024-11-29T22:05:57.243-05:00"}
 ---
 
 
 > [!note]+ To compute $f_{x}(x, y, z)$,
+>
 > - Pretend $y$ and $z$ are constant
 > - Differentiate as function of 1 variable $x$
 > - $f_{y}(x, y, z)$: Pretend $x,z$ are constant; differentiate as function of 1 variable $y$
@@ -14,6 +15,7 @@
 Calculate the partial derivatives of:
 
 > [!question]- Calculate the partial derivatives of $z = x^{2}y + y^{2}x$
+>
 > - $\frac{ \partial z }{ \partial x } = 2xy + y^2$
 > - $\frac{ \partial z }{ \partial y } = x^{2} + 2xy$
 

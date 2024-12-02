@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:04:34.677-05:00","updated":"2024-11-11T22:39:10.147-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:04:34.677-05:00","updated":"2024-11-29T22:05:57.304-05:00"}
 ---
 
 
@@ -19,10 +19,12 @@
 > > 4. $\frac{\partial^2z}{\partial y^2} = f_{yy} = (f_y)_y$ : Derivative with respect to $y$ twice
 
 > [!note]+ Notation
+>
 > - Common to omit parentheses: write $f_{xy}$ instead of $(f_x)_y$
 > - Notation $\frac{\partial^2z}{\partial x\partial y}$ can be written instead of $\frac{\partial}{\partial y}\left(\frac{\partial z}{\partial x}\right)$
 
 > [!example]+ Given $f(x,y) = x^2y + 3y^2e^x$, find all second-order partial derivatives.
+>
 > 1. First find the first-order partial derivatives:
 >    - $f_x(x,y) = 2xy + 3y^2e^x$
 >    - $f_y(x,y) = x^2 + 6ye^x$
@@ -41,6 +43,7 @@
 
 > [!question]+ Does there exist a function such that:
 > $$f_x = 3y^2 + x \text{ and } f_y = 6xy + 3x$$
+>
 > 1. Find $f_{xy}$:
 >    - $f_{xy} = \frac{\partial}{\partial y}(3y^2 + x) = 6y$
 >
@@ -49,7 +52,7 @@
 >
 > 3. Analysis:
 >    - If $f$ exists, then $f_{xy} \neq f_{yx}$ (since $6y \neq 6y + 3$)
->    - But by **Equality of Mixed Partials**, if $f_x$ and $f_y$ are both continuous, then $f_{xy} = f_{yx}$
+>    - But by **Equality of Mixed Partials**, if $f_{xy}$ and $f_{yx}$ are both continuous, then $f_{xy} = f_{yx}$
 >    - This is a contradiction!
 >
 > Therefore, no such function can exist.
@@ -69,6 +72,7 @@
 > Using the table, estimate the values of $f_{xy}(4,4)$ and $f_{yx}(4,4)$
 >
 > **Solution:**
+>
 > 1. For $f_{xy}(4,4)$, we use:
 > $$f_{xy}(4,4) \approx \frac{f_x(4,6) - f_x(4,2)}{4} \text{ where } \Delta y = 4$$
 >

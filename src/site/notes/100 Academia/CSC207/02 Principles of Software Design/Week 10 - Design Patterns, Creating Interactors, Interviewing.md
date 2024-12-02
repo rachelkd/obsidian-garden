@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-10-design-patterns-creating-interactors-interviewing/","tags":["cs","java","lecture","note","university"],"created":"2024-11-15T17:14:09.543-05:00","updated":"2024-11-21T21:19:19.650-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-10-design-patterns-creating-interactors-interviewing/","tags":["cs","java","lecture","note","university"],"created":"2024-11-15T17:14:09.543-05:00","updated":"2024-12-01T04:12:55.941-05:00"}
 ---
 
 

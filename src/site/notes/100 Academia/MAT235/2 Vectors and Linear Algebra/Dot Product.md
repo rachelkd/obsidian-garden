@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2024-11-28T00:42:47.051-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2024-11-29T22:05:57.228-05:00"}
 ---
 
 
@@ -39,11 +39,13 @@ Let $\vec{v} = \begin{pmatrix} v_{1} \\ v_{2} \\ v_{3} \\ \end{pmatrix}, \vec{w}
 # Orthogonality
 
 > [!def]+ $\vec{v}$ and $\vec{w}$ are orthogonal/perpendicular if $\theta = 90^{\circ} = \frac{\pi}{2}$
+>
 > - Note: $\vec{v}$ and $\vec{w}$ are orthogonal exactly when $\vec{v} \cdot \vec{w} = 0$
 
 # Normal Vectors
 
 > [!def]+ Normal vector.
+>
 > - A normal vector to a plane is a vector that is perpendicular to the plane
 > - i.e., It is perpendicular to every displacement vector between any two points in the plane
 

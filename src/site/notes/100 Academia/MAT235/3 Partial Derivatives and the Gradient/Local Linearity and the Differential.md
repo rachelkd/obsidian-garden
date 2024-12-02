@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/local-linearity-and-the-differential/","tags":["lecture","math","note","university"],"created":"2024-10-22T00:22:00.527-04:00","updated":"2024-11-18T20:35:07.000-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/local-linearity-and-the-differential/","tags":["lecture","math","note","university"],"created":"2024-10-22T00:22:00.527-04:00","updated":"2024-11-29T22:05:57.229-05:00"}
 ---
 
 
@@ -25,6 +25,7 @@
 
 > [!question]+ What is the equation of the tangent plane?
 > At the point $(a, b)$,
+>
 > - $x$-slope of graph of $f$ is the partial derivative $f_{y}(a, b)$
 > - $y$-slope is $f_{y}(a, b)$
 
@@ -52,6 +53,7 @@
 # The Differential
 
 > [!info]+ We are often interested in change in the value of the function as we move from point $(a, b)$ to a nearby point $(x, y)$
+>
 > - Rewrite tangent plane approximation as $$\begin{align*} \underbrace{f(x, y) - f(a, b)}_{\Delta f} &\approx f_{x}(a, b)\underbrace{(x-a)}_{\Delta x} + f_{y}(a, b)\underbrace{(y-b)}_{\Delta y} \end{align*}$$
 > $$\implies \Delta f \approx f_{x}(a, b) \Delta x + f_{y}(a, b) \Delta y$$
 

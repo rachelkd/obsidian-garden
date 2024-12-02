@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/partial-derivatives/","tags":["#lecture","#note","math","university"],"created":"2024-10-09T17:11:22.520-04:00","updated":"2024-11-25T19:30:58.961-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/partial-derivatives/","tags":["#lecture","#note","math","university"],"created":"2024-10-09T17:11:22.520-04:00","updated":"2024-11-29T22:05:57.235-05:00"}
 ---
 
 

@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-directional-derivatives-in-space/","tags":["lecture","math","note","university"],"created":"2024-11-04T17:52:45.922-05:00","updated":"2024-11-19T00:06:45.990-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-directional-derivatives-in-space/","tags":["lecture","math","note","university"],"created":"2024-11-04T17:52:45.922-05:00","updated":"2024-11-29T22:05:57.272-05:00"}
 ---
 
 
 > [!goal]+ Objectives
+>
 > - Understand how to extend the idea of the gradient to functions of three variables.
 > - Compute the directional derivative of a three-variable function.
 > - Use the gradient vector to determine the equation of the tangent plane to a level surface at a given point.
@@ -24,6 +25,7 @@
 
 > [!important]+ Gradient and Directional Derivative Relationship
 > Since $f_{\vec{u}}(a,b,c) = \text{grad }f(a,b,c) \cdot \vec{u} = \|\text{grad }f(a,b,c)\| \cos \theta$, where $\theta$ is the angle between grad $f(a,b,c)$ and $\vec{u}$:
+>
 > - The directional derivative is largest when $\theta = 0$ (when $\vec{u}$ points in same direction as grad $f$)
 > - The directional derivative is zero when $\theta = \pi/2$ (when $\vec{u}$ is perpendicular to grad $f$)
 
@@ -31,9 +33,11 @@
 
 > [!thm]+ Properties of Gradient Vector
 > If $f$ is differentiable at $(a,b,c)$ and $\vec{u}$ is a unit vector, then:
+>
 > 1. $f_{\vec{u}}(a,b,c) = \text{grad }f(a,b,c) \cdot \vec{u}$
 >
 > If, in addition, grad $f(a,b,c) \neq \vec{0}$, then:
+>
 > 1. grad $f(a,b,c)$ is perpendicular to the level surface of $f$ at $(a,b,c)$
 > 2. grad $f(a,b,c)$ points in the direction of greatest rate of increase of $f$
 > 3. $\|\text{grad }f(a,b,c)\|$ is the maximum rate of change of $f$ at $(a,b,c)$
@@ -68,18 +72,21 @@
 
 > [!note]+ Connection to Gradient
 > The equation of the tangent plane can be written using the gradient:
+>
 > 1. The gradient vector $\nabla f(a,b,c)$ is normal to the tangent plane
 > 2. The equation can be rewritten as: $\nabla f(a,b,c) \cdot \begin{pmatrix} x-a \\ y-b \\ z-c \end{pmatrix} = 0$
 > 3. This shows that any vector in the tangent plane is perpendicular to the gradient
 
 > [!important]+ Geometric Interpretation
 > The vector $\begin{pmatrix} x-a \\ y-b \\ z-c \end{pmatrix}$ is a displacement vector from the point $(a,b,c)$ to any point $(x,y,z)$ in the tangent plane. The equation states that:
+>
 > - The gradient vector at $(a,b,c)$ is perpendicular to every such displacement vector
 > - This is why the gradient is normal to the tangent plane
 > - Any point $(x,y,z)$ satisfying the tangent plane equation represents a tip of a displacement vector that is perpendicular to the gradient
 
 > [!example]+ Find the equation of the tangent plane to the sphere $x^2 + y^2 + z^2 = 14$ at the point $(1,2,3)$
 > ![|center|100](https://i.imgur.com/pe69llq.png)
+>
 > - If you look at a normal vector to the *sphere*, it is also normal to the tangent plane at $(1, 2, 3)$
 > - ? How do you find a normal vector to a surface that is not a function?
 >
@@ -100,7 +107,7 @@
 > > f_y(1,2,3) &= 2(2) = 4 \\
 > > f_z(1,2,3) &= 2(3) = 6
 > > \end{align*}$$
-> > 
+> >
 > > Therefore:
 > > $$\text{grad }f = \begin{pmatrix} f_x \\ f_y \\ f_z \end{pmatrix} = \begin{pmatrix} 2x \\ 2y \\ 2z \end{pmatrix}$$
 > > $$\text{grad }f(1,2,3) = \begin{pmatrix} f_x(1,2,3) \\ f_y(1,2,3) \\ f_z(1,2,3) \end{pmatrix} = \begin{pmatrix} 2 \\ 4 \\ 6 \end{pmatrix}$$

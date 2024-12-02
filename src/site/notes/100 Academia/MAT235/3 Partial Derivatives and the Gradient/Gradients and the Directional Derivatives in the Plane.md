@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-29T19:59:47.513-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/gradients-and-the-directional-derivatives-in-the-plane/","tags":["lecture","note","university"],"created":"2024-11-03T23:33:30.819-05:00","updated":"2024-11-29T22:05:57.292-05:00"}
 ---
 
 
@@ -127,6 +127,7 @@
 > $$\text{grad }f = \nabla f$$
 >
 > For a function $z = f(x,y)$, we can write:
+>
 > - grad $z$
 > - $\nabla z$
 > - grad $f$
@@ -140,6 +141,7 @@
 > where $\theta$ is the angle between grad $f$ and $\vec{u}$
 
 > [!note]+ Key Properties
+>
 > 1. **Maximum Value**: Occurs when $\cos \theta = 1 \implies \theta = 0$
 >    - $\vec{u}$ points in direction of grad $f$
 >    - Maximum $f_{\vec{u}} = \|\text{grad }f\|$

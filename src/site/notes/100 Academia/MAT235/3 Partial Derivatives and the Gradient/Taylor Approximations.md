@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-13T23:48:57.662-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/taylor-approximations/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:38:24.027-05:00","updated":"2024-11-29T22:05:57.259-05:00"}
 ---
 
 
@@ -57,9 +57,9 @@ Let $f(x, y) = (xy)^{-1}$ and $(a, b) = (1, 2)$.
 >    $$f_{x}(x, y) = -x^{-2}y^{-1} \quad f_{y}(x, y) = -x^{-1}y^{-2}$$
 >    So, $f_{x}(1, 2) = -\frac{1}{2}$ and $f_{y}(1,2) = -\frac{1}{4}$
 > 2. Substitute in $L(x, y)$
->    $$\begin{align*} 
->    L(x, y) &= f(1, 2) + f_{x}(1,2)(x - 1) + f_{y}(1,2)(y-2) \\ 
->    &= \frac{1}{2} - \frac{1}{2}(x-1) - \frac{1}{4}(y-2) 
+>    $$\begin{align*}
+>    L(x, y) &= f(1, 2) + f_{x}(1,2)(x - 1) + f_{y}(1,2)(y-2) \\
+>    &= \frac{1}{2} - \frac{1}{2}(x-1) - \frac{1}{4}(y-2)
 >    \end{align*}$$
 > 3. Find second-order partials
 >    $$\begin{align*}
@@ -88,8 +88,8 @@ Let $f(x, y) = (xy)^{-1}$ and $(a, b) = (1, 2)$.
 >      \end{align*}$$
 >     - Actual value: $f(1.1, 1.9) = \frac{1}{1.1 \cdot 1.9} \approx 0.47847$
 >
-> 
-> 
+>
+>
 
 The quadratic approximation gives a more accurate result than the linear approximation.
 
@@ -99,7 +99,7 @@ The quadratic approximation gives a more accurate result than the linear approxi
 > - Point to estimate: $(0.9, 0.2)$
 >
 > **Steps:**
-> 
+>
 > Choose $(a,b) = (1,0)$.
 > 1. Find partial derivatives:
 >    - First order:

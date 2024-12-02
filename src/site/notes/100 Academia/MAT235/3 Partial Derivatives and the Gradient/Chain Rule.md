@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["lecture","math","note","university"],"created":"2024-11-04T19:03:11.144-05:00","updated":"2024-11-27T20:22:32.981-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["lecture","math","note","university"],"created":"2024-11-04T19:03:11.144-05:00","updated":"2024-11-29T22:05:57.225-05:00"}
 ---
 
 
@@ -7,6 +7,7 @@
 
 > [!def]+ Composite Functions
 > A composite function occurs when we substitute one or more functions into another function. For a function $z = f(x,y)$:
+>
 > 1. If we substitute $x = g(t)$ and $y = h(t)$, then $z$ becomes a function of $t$:
 > $$z = f(g(t), h(t))$$
 > 2. If we substitute $x = g(u,v)$ and $y = h(u,v)$, then $z$ becomes a function of $u$ and $v$:
@@ -16,15 +17,16 @@
 > Let’s analyze how corn production changes with respect to time due to global warming effects on rainfall and temperature.
 >
 > **Given:**
+>
 > - Corn production $C = f(R, T)$ depends on:
->   - Annual rainfall $(R)$
->   - Average temperature $(T)$
+>     - Annual rainfall $(R)$
+>     - Average temperature $(T)$
 > - Current partial derivatives:
->   - $f_R = 3.3$ (rate of change with respect to rainfall)
->   - $f_T = -5$ (rate of change with respect to temperature)
+>     - $f_R = 3.3$ (rate of change with respect to rainfall)
+>     - $f_T = -5$ (rate of change with respect to temperature)
 > - Global warming model predicts:
->   - $\frac{dR}{dt} = -0.2$ cm/year (rainfall decreasing)
->   - $\frac{dT}{dt} = 0.1$ °C/year (temperature increasing)
+>     - $\frac{dR}{dt} = -0.2$ cm/year (rainfall decreasing)
+>     - $\frac{dT}{dt} = 0.1$ °C/year (temperature increasing)
 >
 > > [!note]- Step 1: Apply Chain Rule
 > > By [[100 Academia/MAT235/3 Partial Derivatives and the Gradient/Local Linearity and the Differential\|local linearity]], changes in $R$ and $T$ cause a change in $C$:
@@ -51,6 +53,7 @@
 
 > [!thm]+ Chain Rule Theorem
 > If $f$, $g$, and $h$ are differentiable and if:
+>
 > - $z = f(x,y)$
 > - $x = g(t)$
 > - $y = h(t)$

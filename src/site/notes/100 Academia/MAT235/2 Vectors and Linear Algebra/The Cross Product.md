@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T23:15:42.196-04:00","updated":"2024-10-30T20:51:50.041-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/2-vectors-and-linear-algebra/the-cross-product/","tags":["#lecture","#note","math","university"],"created":"2024-09-30T23:15:42.196-04:00","updated":"2024-11-29T22:05:57.456-05:00"}
 ---
 
 
@@ -8,6 +8,7 @@
 ![](https://i.imgur.com/oFAWQlx.png)
 
 $$\text{Area of parallelogram} = \text{Base} \cdot \text{Height} = ||\vec{v}|| ||\vec{w}|| \sin \theta$$
+
 - Computing given $\vec{v} = v_{1} \vec{i} + v_{2} \vec{j} + v_{3} \vec{k}$, $\vec{w} = w_{1} \vec{i} + w_{2} \vec{j} + w_{3} \vec{k}$:
     - $\vec{v}$, $\vec{w}$ on $xy$-plane $\implies v_{3} = w_{3} = 0$
     - $\implies \text{Area of parallelogram} = |v_{1}w_{2} - v_{2}w_{1}|$
@@ -15,6 +16,7 @@ $$\text{Area of parallelogram} = \text{Base} \cdot \text{Height} = ||\vec{v}|| |
 # Definition of the Cross Product
 
 > [!def]+ Definition of the cross product $\vec{v} \times \vec{w}$
+>
 > - $\vec{v} \times \vec{w}$ is a vector perpendicular to both $\vec{v}$ and $\vec{w}$
 > - **Geometric**:
 >     - If $\vec{v}$ and $\vec{w}$ are not parallel, then

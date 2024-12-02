@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/summary-of-gradients/","tags":["lecture","math","note","university"],"created":"2024-11-06T17:12:28.812-05:00","updated":"2024-11-06T18:37:57.179-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/summary-of-gradients/","tags":["lecture","math","note","university"],"created":"2024-11-06T17:12:28.812-05:00","updated":"2024-11-29T22:05:57.253-05:00"}
 ---
 
 
@@ -33,6 +33,7 @@
 # Example. Temperature
 
 $$T(x, y, z) = 2x^{2}yz$$
+
 - $T$ → degrees Fahrenheit
 - $x, y, z$ → measured in meters
 
@@ -62,6 +63,7 @@ $$f(x, y) = xy^{2} - \frac{1}{2} x^{2}y^{2}$$
 > No
 > Interpret $(\nabla f)(x, y)$ as $\begin{pmatrix}f_{x}(x, y) \\ f_{y}(x, y) \\ 0 \end{pmatrix}$
 > $$f_{x}(a, b)(xa) + f_{y}(a, b)(y-b) + f(a, b) = z$$
+>
 > - The graph of $f$ is given by $z = f(x, y) \iff 0 = f(x, y) = z$, which is the level surface $g(x, y, z) = 0$ for $g(x,y,z) = f(x,y) - z$.
 > - So the tangent plane to the graph at $(x, y, z)$ has normal vector $$(\nabla g)(x, y, z) = \begin{pmatrix} f_{x}(x, y) \\ f_{y}(x, y) \\ -1 \end{pmatrix}$$
 > - However, $\nabla f(x,y)$ is perpendicular to the *level curves*/*contours* of $f$ through $(x, y)$
@@ -72,22 +74,22 @@ $$f(x, y) = xy^{2} - \frac{1}{2} x^{2}y^{2}$$
 >
 > At $(1,0)$:
 > $$\begin{pmatrix}
-> f_{x}(1, 0) \\ 
-> f_{y}(1, 0) \\ 
-> -1 
+> f_{x}(1, 0) \\
+> f_{y}(1, 0) \\
+> -1
 > \end{pmatrix} = \begin{pmatrix}
-> 0 \\ 
-> 0 \\ 
-> -1 
+> 0 \\
+> 0 \\
+> -1
 > \end{pmatrix}$$
-> 
+>
 > At $(1,1)$:
 > $$\begin{pmatrix}
-> f_{x}(1, 1) \\ 
-> f_{y}(1, 1) \\ 
-> -1 
+> f_{x}(1, 1) \\
+> f_{y}(1, 1) \\
+> -1
 > \end{pmatrix} = \begin{pmatrix}
-> 0 \\ 
-> 1 \\ 
-> -1 
+> 0 \\
+> 1 \\
+> -1
 > \end{pmatrix}$$

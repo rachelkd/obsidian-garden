@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-11-26T20:10:33.723-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-11-29T19:59:22.399-05:00"}
 ---
 
 
@@ -96,7 +96,7 @@ Explain what these are:
 ## Special Symbols
 
 - A period `.`
-  - Matches *any* character
+    - Matches *any* character
 - White space characters
     - Backslash is the **escape** character
     - `\s` : Any white space character
@@ -139,7 +139,7 @@ Explain what these are:
 
 - A period `.` means any character
 - To have a period show up in the string:
-  - We write `\.`
+    - We write `\.`
 
 > [!example]+ `abc123` matches the regex `[a-e][a-e].+`
 

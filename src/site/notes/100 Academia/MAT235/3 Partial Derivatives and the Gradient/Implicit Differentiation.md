@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/implicit-differentiation/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:05:14.357-05:00","updated":"2024-11-11T23:11:06.859-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/mat-235/3-partial-derivatives-and-the-gradient/implicit-differentiation/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:05:14.357-05:00","updated":"2024-11-29T22:05:57.240-05:00"}
 ---
 
 
@@ -24,6 +24,7 @@ Assume (implicitly) that $z = f(x, y)$
 > $$\frac{ \partial z }{ \partial y } = -\frac{\frac{\partial F}{\partial y}}{\frac{\partial F}{\partial z}} = - \frac{F_{y}}{F_{z}}$$
 
 > [!important]+ Remember
+>
 > - $\frac{\partial x}{\partial x} = 1$ (derivative of $x$ with respect to $x$)
 > - $\frac{\partial y}{\partial x} = 0$ ($y$ is treated as a constant when taking partial derivative with respect to $x$)
 > - $\frac{\partial x}{\partial y} = 0$ and $\frac{\partial y}{\partial y} = 1$ (for the second equation)
