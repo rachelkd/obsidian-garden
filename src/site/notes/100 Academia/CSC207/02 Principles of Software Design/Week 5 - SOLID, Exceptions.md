@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T19:29:41.075-04:00","updated":"2024-10-30T20:51:50.016-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Week 5 - SOLID, Exceptions.md","permalink":"/academia/csc-207/02-principles-of-software-design/week-5-solid-exceptions/","tags":["cs","java","lecture","note","university"],"created":"2024-10-01T19:29:41.075-04:00","updated":"2024-10-30T20:51:50.016-04:00"}
 ---
 
 

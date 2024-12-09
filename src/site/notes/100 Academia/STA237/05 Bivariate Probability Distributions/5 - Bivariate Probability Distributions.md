@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/5-bivariate-probability-distributions/","tags":["#module","#university","stats"],"created":"2024-11-17T21:31:11.429-05:00","updated":"2024-12-06T07:39:40.000-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/05 Bivariate Probability Distributions/5 - Bivariate Probability Distributions.md","permalink":"/academia/sta-237/05-bivariate-probability-distributions/5-bivariate-probability-distributions/","tags":["#module","#university","stats"],"created":"2024-11-17T21:31:11.429-05:00","updated":"2024-12-06T07:39:40.000-05:00"}
 ---
 
 

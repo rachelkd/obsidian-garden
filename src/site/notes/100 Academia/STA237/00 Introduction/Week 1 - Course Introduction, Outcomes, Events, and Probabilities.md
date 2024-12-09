@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/week-1-course-introduction-outcomes-events-and-probabilities/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:08:00.000-04:00","updated":"2024-10-30T20:51:50.049-04:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/00 Introduction/Week 1 - Course Introduction, Outcomes, Events, and Probabilities.md","permalink":"/academia/sta-237/00-introduction/week-1-course-introduction-outcomes-events-and-probabilities/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:08:00.000-04:00","updated":"2024-10-30T20:51:50.049-04:00"}
 ---
 
 

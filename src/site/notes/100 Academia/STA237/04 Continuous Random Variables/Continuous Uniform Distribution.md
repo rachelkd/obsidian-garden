@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/continuous-uniform-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-29T21:20:33.351-04:00","updated":"2024-11-17T19:10:35.580-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/Continuous Uniform Distribution.md","permalink":"/academia/sta-237/04-continuous-random-variables/continuous-uniform-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-29T21:20:33.351-04:00","updated":"2024-11-17T19:10:35.580-05:00"}
 ---
 
 

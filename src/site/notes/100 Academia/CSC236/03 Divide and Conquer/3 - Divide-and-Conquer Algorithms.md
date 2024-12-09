@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/03-divide-and-conquer/3-divide-and-conquer-algorithms/","tags":["#module","#university","cs"],"created":"2024-11-19T00:39:29.395-05:00","updated":"2024-11-27T23:47:21.914-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/03 Divide and Conquer/3 - Divide-and-Conquer Algorithms.md","permalink":"/academia/csc-236/03-divide-and-conquer/3-divide-and-conquer-algorithms/","tags":["#module","#university","cs"],"created":"2024-11-19T00:39:29.395-05:00","updated":"2024-11-27T23:47:21.914-05:00"}
 ---
 
 

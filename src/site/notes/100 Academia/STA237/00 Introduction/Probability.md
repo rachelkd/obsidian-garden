@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:46:11.000-04:00","updated":"2024-12-02T03:16:19.935-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/00 Introduction/Probability.md","permalink":"/academia/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:46:11.000-04:00","updated":"2024-12-02T03:16:19.935-05:00"}
 ---
 
 

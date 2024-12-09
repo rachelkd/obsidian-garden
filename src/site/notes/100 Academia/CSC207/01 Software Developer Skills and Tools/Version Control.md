@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-10-30T20:51:50.007-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Version Control.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/version-control/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:09:23.000-04:00","updated":"2024-10-30T20:51:50.007-04:00"}
 ---
 
 

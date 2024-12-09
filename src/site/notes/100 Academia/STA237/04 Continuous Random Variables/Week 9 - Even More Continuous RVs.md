@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-18T00:51:12.144-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/Week 9 - Even More Continuous RVs.md","permalink":"/academia/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-18T00:51:12.144-05:00"}
 ---
 
 

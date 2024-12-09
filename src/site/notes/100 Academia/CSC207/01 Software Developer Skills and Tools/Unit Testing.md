@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/unit-testing/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-29T17:49:12.000-04:00","updated":"2024-10-30T20:51:50.010-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Unit Testing.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/unit-testing/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-29T17:49:12.000-04:00","updated":"2024-10-30T20:51:50.010-04:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-11-08T00:27:48.207-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Packaging.md","permalink":"/academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-11-08T00:27:48.207-05:00"}
 ---
 
 

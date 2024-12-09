@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/01-software-developer-skills-and-tools/1-software-developer-skills-and-tools/","tags":["#module","#university"],"created":"2024-09-03T19:56:30.000-04:00","updated":"2024-11-23T20:53:17.350-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/1 - Software Developer Skills and Tools.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/1-software-developer-skills-and-tools/","tags":["#module","#university"],"created":"2024-09-03T19:56:30.000-04:00","updated":"2024-11-23T20:53:17.350-05:00"}
 ---
 
 

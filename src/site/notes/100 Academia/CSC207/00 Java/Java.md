@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/java/","tags":["#module","#university","cs","java"],"created":"2024-09-09T03:30:02.000-04:00","updated":"2024-11-23T20:52:58.980-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Java.md","permalink":"/academia/csc-207/00-java/java/","tags":["#module","#university","cs","java"],"created":"2024-09-09T03:30:02.000-04:00","updated":"2024-11-23T20:52:58.980-05:00"}
 ---
 
 

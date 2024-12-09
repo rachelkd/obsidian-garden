@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-30T20:51:50.024-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/01 Induction/Structural Induction.md","permalink":"/academia/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-10-30T20:51:50.024-04:00"}
 ---
 
 

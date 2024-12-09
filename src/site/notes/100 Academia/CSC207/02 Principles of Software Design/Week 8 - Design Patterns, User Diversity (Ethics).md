@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/02-principles-of-software-design/week-8-design-patterns-user-diversity-ethics/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:23:58.589-04:00","updated":"2024-11-14T13:41:59.485-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Week 8 - Design Patterns, User Diversity (Ethics).md","permalink":"/academia/csc-207/02-principles-of-software-design/week-8-design-patterns-user-diversity-ethics/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:23:58.589-04:00","updated":"2024-11-14T13:41:59.485-05:00"}
 ---
 
 

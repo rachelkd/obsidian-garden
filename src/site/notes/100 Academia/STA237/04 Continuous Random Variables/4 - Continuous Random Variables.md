@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/4-continuous-random-variables/","tags":["#module","#university","stats"],"created":"2024-10-28T19:39:37.589-04:00","updated":"2024-11-24T17:13:52.968-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/4 - Continuous Random Variables.md","permalink":"/academia/sta-237/04-continuous-random-variables/4-continuous-random-variables/","tags":["#module","#university","stats"],"created":"2024-10-28T19:39:37.589-04:00","updated":"2024-11-24T17:13:52.968-05:00"}
 ---
 
 

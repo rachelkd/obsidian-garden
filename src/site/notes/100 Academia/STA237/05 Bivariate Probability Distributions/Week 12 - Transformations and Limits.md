@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/week-12-transformations-and-limits/","tags":["lecture","note","stats","university"],"created":"2024-12-02T18:26:08.723-05:00","updated":"2024-12-06T07:19:56.000-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/05 Bivariate Probability Distributions/Week 12 - Transformations and Limits.md","permalink":"/academia/sta-237/05-bivariate-probability-distributions/week-12-transformations-and-limits/","tags":["lecture","note","stats","university"],"created":"2024-12-02T18:26:08.723-05:00","updated":"2024-12-06T07:19:56.000-05:00"}
 ---
 
 

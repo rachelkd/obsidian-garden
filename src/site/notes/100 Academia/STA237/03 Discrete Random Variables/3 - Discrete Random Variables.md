@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/3-discrete-random-variables/","tags":["#module","#university","stats"],"created":"2024-09-28T19:25:05.000-04:00","updated":"2024-11-24T17:15:10.429-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/03 Discrete Random Variables/3 - Discrete Random Variables.md","permalink":"/academia/sta-237/03-discrete-random-variables/3-discrete-random-variables/","tags":["#module","#university","stats"],"created":"2024-09-28T19:25:05.000-04:00","updated":"2024-11-24T17:15:10.429-05:00"}
 ---
 
 

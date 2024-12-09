@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/week-10-more-transformations-and-bivariate-probability-distributions/","tags":["lecture","note","stats","university"],"created":"2024-11-17T18:21:38.429-05:00","updated":"2024-11-23T19:52:12.836-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/05 Bivariate Probability Distributions/Week 10 - More Transformations & Bivariate Probability Distributions.md","permalink":"/academia/sta-237/05-bivariate-probability-distributions/week-10-more-transformations-and-bivariate-probability-distributions/","tags":["lecture","note","stats","university"],"created":"2024-11-17T18:21:38.429-05:00","updated":"2024-11-23T19:52:12.836-05:00"}
 ---
 
 

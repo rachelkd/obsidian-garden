@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/casting/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:34:55.158-04:00","updated":"2024-10-30T20:51:49.991-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Casting.md","permalink":"/academia/csc-207/00-java/casting/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:34:55.158-04:00","updated":"2024-10-30T20:51:49.991-04:00"}
 ---
 
 

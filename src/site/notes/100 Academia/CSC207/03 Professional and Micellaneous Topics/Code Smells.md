@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/code-smells/","tags":["cs","lecture","note","university"],"created":"2024-11-22T17:38:49.577-05:00","updated":"2024-11-22T18:58:01.023-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/03 Professional and Micellaneous Topics/Code Smells.md","permalink":"/academia/csc-207/03-professional-and-micellaneous-topics/code-smells/","tags":["cs","lecture","note","university"],"created":"2024-11-22T17:38:49.577-05:00","updated":"2024-11-22T18:58:01.023-05:00"}
 ---
 
 
@@ -85,7 +85,7 @@
 Recall:
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/100-academia/csc-207/02-principles-of-software-design/solid-design-principles/#dfe828" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/academia/csc-207/02-principles-of-software-design/solid-design-principles/#dfe828" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 

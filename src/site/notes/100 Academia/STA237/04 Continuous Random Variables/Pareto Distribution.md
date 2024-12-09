@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/pareto-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-17T23:38:40.915-05:00","updated":"2024-11-18T00:51:02.587-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/Pareto Distribution.md","permalink":"/academia/sta-237/04-continuous-random-variables/pareto-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-17T23:38:40.915-05:00","updated":"2024-11-18T00:51:02.587-05:00"}
 ---
 
 

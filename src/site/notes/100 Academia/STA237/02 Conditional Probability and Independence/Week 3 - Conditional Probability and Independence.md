@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-17T16:54:30.000-04:00","updated":"2024-11-27T11:28:43.000-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/02 Conditional Probability and Independence/Week 3 - Conditional Probability and Independence.md","permalink":"/academia/sta-237/02-conditional-probability-and-independence/week-3-conditional-probability-and-independence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-17T16:54:30.000-04:00","updated":"2024-11-27T11:28:43.000-05:00"}
 ---
 
 

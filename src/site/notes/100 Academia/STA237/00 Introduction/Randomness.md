@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-11-24T18:25:42.320-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/00 Introduction/Randomness.md","permalink":"/academia/sta-237/00-introduction/randomness/","tags":["#lecture","#note","#stats","university"],"created":"2024-09-05T10:31:11.000-04:00","updated":"2024-11-24T18:25:42.320-05:00"}
 ---
 
 

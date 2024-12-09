@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/iterative-correctness-selection-sort/","tags":["cs","lecture","note","university"],"created":"2024-10-26T16:09:33.890-04:00","updated":"2024-11-05T02:06:47.470-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/02 Algorithm Analysis/Iterative Correctness - Selection Sort.md","permalink":"/academia/csc-236/02-algorithm-analysis/iterative-correctness-selection-sort/","tags":["cs","lecture","note","university"],"created":"2024-10-26T16:09:33.890-04:00","updated":"2024-11-05T02:06:47.470-05:00"}
 ---
 
 

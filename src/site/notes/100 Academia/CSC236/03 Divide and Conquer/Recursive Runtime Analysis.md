@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/03-divide-and-conquer/recursive-runtime-analysis/","tags":["lecture","note","university"],"created":"2024-11-07T12:48:56.365-05:00","updated":"2024-11-19T16:06:58.673-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/03 Divide and Conquer/Recursive Runtime Analysis.md","permalink":"/academia/csc-236/03-divide-and-conquer/recursive-runtime-analysis/","tags":["lecture","note","university"],"created":"2024-11-07T12:48:56.365-05:00","updated":"2024-11-19T16:06:58.673-05:00"}
 ---
 
 

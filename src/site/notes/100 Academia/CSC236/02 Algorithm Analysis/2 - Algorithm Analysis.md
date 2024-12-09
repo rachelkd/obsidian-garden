@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/02-algorithm-analysis/2-algorithm-analysis/","tags":["#module","#university","cs"],"created":"2024-10-07T20:01:50.142-04:00","updated":"2024-11-23T20:53:35.038-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/02 Algorithm Analysis/2 - Algorithm Analysis.md","permalink":"/academia/csc-236/02-algorithm-analysis/2-algorithm-analysis/","tags":["#module","#university","cs"],"created":"2024-10-07T20:01:50.142-04:00","updated":"2024-11-23T20:53:35.038-05:00"}
 ---
 
 

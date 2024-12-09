@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/week-11-more-probability-distributions-for-2-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-23T18:40:40.842-05:00","updated":"2024-12-05T22:49:00.815-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/05 Bivariate Probability Distributions/Week 11 - More Probability Distributions for 2+ RVs.md","permalink":"/academia/sta-237/05-bivariate-probability-distributions/week-11-more-probability-distributions-for-2-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-23T18:40:40.842-05:00","updated":"2024-12-05T22:49:00.815-05:00"}
 ---
 
 

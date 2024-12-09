@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T04:08:47.004-05:00","updated":"2024-12-02T03:35:50.195-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/Course Summary.md","permalink":"/academia/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T04:08:47.004-05:00","updated":"2024-12-02T03:35:50.195-05:00"}
 ---
 
 

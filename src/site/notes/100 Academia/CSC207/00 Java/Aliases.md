@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/00-java/aliases/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T16:02:31.148-04:00","updated":"2024-10-30T20:51:49.990-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Aliases.md","permalink":"/academia/csc-207/00-java/aliases/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T16:02:31.148-04:00","updated":"2024-10-30T20:51:49.990-04:00"}
 ---
 
 
