@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T21:27:41.104-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T21:43:49.512-05:00"}
 ---
 
 
@@ -399,7 +399,8 @@ For our example, we have state invariant(s):
 
 - There are 4 strings → $4C2 = \begin{pmatrix}4 \\ 2 \end{pmatrix} = \frac{24}{(4-2)!2!} = 6$ possible pairs
 - Some of the pairings are easy to distinguish:
-    - Pick any string in $L$ and string not in $L$: $$\begin{align*} aa &\not\in L \\ ba &\in L \end{align*}$$
+    - Pick any string in $L$ and string not in $L$:
+        - $$\begin{align*} aa &\not\in L \\ ba &\in L \end{align*}$$
     - Think of following them by empty string $\epsilon$
     - $\epsilon$ is a common suffix that results in one string in $L$ and one string not in $L$
 - For the others, pick any character suffix:
@@ -516,7 +517,7 @@ Define language $L = \{ s \in \{ a, b \}^{*} : \textcolor{DarkSeaGreen}{\underbr
 > [!question]+ How do we decide the transitions?
 > - Start at a state and see what happens in each DFA when you read an `a` or `b`
 > - Transition to the intersection of these two states
-> ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-002.jpg)
+> ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-002.jpg)
 
 - Define $A$ to be our product construction DFA of $A_{1}$ and $A_{2}$
 - $L(A) = L$
@@ -594,7 +595,7 @@ These are all set operations; there are lots of other non-set language operation
 
 ### State-Elimination Construction Example
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-003.jpg)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-003.jpg)
 
 #### Aside: Every DFA is an NFA
 
@@ -619,7 +620,7 @@ These are all set operations; there are lots of other non-set language operation
 - List all the states that $q_{1}$ has a transition going out to.
     - $q_{3}, q_{2}$
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-004.jpg)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-004.jpg)
 
 - Keep track of all the ways the picked accepting state $q_{1}$ interacts with the rest of the DFA
     - To get rid, you want these interactions to be preserved
@@ -628,14 +629,14 @@ These are all set operations; there are lots of other non-set language operation
         - …
 - Draw a transition diagram that looks similar to a DFA or NFA, but
     - ==is not a DFA or NFA!==
-    - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-005.jpg)
+    - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-005.jpg)
 - To get from $q_{0}$ to $q_{2}$:
     - Can read just a 1, or a 01 from above diagram
-    - ![|504](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-006.jpg)
+    - ![|504](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-006.jpg)
     - Interpret labels as regular expressions
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-007.jpg)
-- Remove $q_{2}$: ![|293](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-008.jpg)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-007.jpg)
+- Remove $q_{2}$: ![|293](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-008.jpg)
 - Final regular expression $RE: \Big( 00 + (01 + 1)(01)^{*}(1+00) \Big)\Big(0 + 1 \Big)^{*}$
     - Get to the accepting state, and stay there
     - Staying at $q_{3}$ involves looping in $q_{3}$
@@ -650,7 +651,7 @@ These are all set operations; there are lots of other non-set language operation
 
 ### RE → NFA: Recursive Definition
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-009.jpg)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-009.jpg)
 
 - In each case, $\mathcal{L}(R) = \mathcal{L}(A)$
     - i.e., In each case, the NFA on the right has a language that is equal to the language of the regular expression on the left
@@ -667,13 +668,13 @@ Let $R_{1}, R_{2} \in RE_{\Sigma}$.
 Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1}), \mathcal{L}(A_{2}) = \mathcal{L}(R_{2})$.
 
 > [!note]+ Each NFA we construct has ==exactly one== accepting state, with ==no outgoing transition==
-> ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-010.jpg)
+> ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-010.jpg)
 > - Special case:
 >     - Treat initial state “arrow” like incoming transition
 > - We see that all our basic NFAs in the example satisfy this property
 
 - **“Or”/Union: $R_{1} + R_{2}$**
-    - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-011.jpg)
+    - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-011.jpg)
     - Put the two NFAs together with all of their incoming transitions
     - Create a bigger NFA with both NFAs together for the union
         - Will start in the set of states that contains all the start states of both $A_{1}, A_{2}$
@@ -681,37 +682,37 @@ Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})
         - At the end: Will be in one of these two accepting states, if the string should be accepted by one or the other
     - Drawback: Not respecting the fact that you want the NFAs to have exactly one accepting state
         - → *Merge* the two accepting states into *one* accepting state
-        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-012.jpg)
+        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-012.jpg)
     - Only way that this merge will cause trouble is if:
         - Had transitions going out of the accepting state into one of the NFAs
             - Could get to the state from the other NFA and move back and forth between the two
             - No outgoing transition from assumption, so it is okay to merge
 - **Concatenation $R_{1} \cdot R_{2}$**
     - Get rid of the accepting state in $A_{1}$
-        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-013.jpg)
+        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-013.jpg)
         - If you get to the accepting state in $A_{1}$, you have processed some sequence of characters that is in $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})$
     - When you reach a string that is accepted by $A_{1}$, you want to keep processing them in $A_{1}$, *and also* continue processing them in $A_{2}$
-        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-014.jpg)
+        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-014.jpg)
     - Have to think about the initial states: Are these the initial states of the new NFA or not?
         - Will be an initial state if the crossed-out state was an initial state
             - If $A_{1}$ could start in its accepting state, you want to be able to start in any of the start states (incoming transitions) into $A_{2}$
             - If $A_{1}$ could *not* start in its accepting state, then none of the start states (incoming transitions) into $A_{2}$ are initial states
                 - Have to first process something in $A_{1}$
         - & $A$‘s start states remain start states iff $A_{1}$’s accepting state is a start state for $A_{1}$
-        - ![|700](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-015.jpg)
+        - ![|700](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-015.jpg)
 - **Kleene-star $R_{1}^{*}$**
     - If not already the case, make ==accepting state be a start state==
-        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-016.jpg)
+        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-016.jpg)
         - $R_{1}^{*}$ includes 0 repetitions → Want to start in accepting state, so $\epsilon$ is accepted
         - Starting at the accepting state, any character you read takes you out of the state directly
         - Only accepts $\epsilon$ and nothing else at this starting accepting state
     - Every transition that takes you to the accepting state:
         - Duplicate and send it back in a loop into each of the initial states
-        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-017.png)
+        - ![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-017.png)
 
 #### Example. $(a^{*} + b)c$
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-018.png)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-018.png)
 
 - What states do you start in?
     - Start in both states
@@ -723,11 +724,11 @@ Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})
         - If you read anything other than an `a`, you go nowhere → No longer accepts
     - NFA accepts any repetitions of `a` (including zero) of the character `a`
 
-![|333](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-019.png)
+![|333](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-019.png)
 
 Then, the NFA for $a^{*} + b$ is:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-020.png)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-020.png)
 - Merge the accepting state into a single accepting state at the end
 - Starts in every state
     - Can trace what happens when you read an `a`:
@@ -739,7 +740,7 @@ Then, the NFA for $a^{*} + b$ is:
 
 Then, the NFA for $(a^{*} + b)c$ is:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-021.png)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-021.png)
 
 - Since the accepting state was a start state for $R_{1}$, then the start state for $R_{2} = c$ is *still* a start state!
     - Recall: “$A$‘s start states remain start states iff $A_{1}$’s accepting state is a start state for $A_{1}$”
@@ -752,7 +753,7 @@ Then, the NFA for $(a^{*} + b)c$ is:
 
 If we change the order to construct the NFA for $c(a^{*} + b)$:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal Language-022.png)
+![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-022.png)
 
 - From the definition of $R_{1} \cdot R_{2}$, take every transition from the first regular expression $R_{1}$ that would have gone into its accepting state; send it to each of the initial states of the second regular expression $R_{2}$ instead
     - There are 3 initial states for $R_{2} = (a^{*} + b)$
