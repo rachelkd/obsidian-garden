@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC236/04 Formal Language Theory/Formal Language.md","permalink":"/academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T22:09:46.598-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/04 Formal Language Theory/Formal Language.md","permalink":"/academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T22:11:35.851-05:00"}
 ---
 
 
@@ -716,8 +716,7 @@ Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})
 
 #### Example. $(a^{*} + b)c$
 
-![](https://i.imgur.com/FHbqePX.png)
-
+![|500](https://i.imgur.com/FHbqePX.png)
 
 - What states do you start in?
     - Start in both states
@@ -729,11 +728,12 @@ Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})
         - If you read anything other than an `a`, you go nowhere → No longer accepts
     - NFA accepts any repetitions of `a` (including zero) of the character `a`
 
-![|333](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-019.png)
+![|300](https://i.imgur.com/0IxpOYk.png)
 
 Then, the NFA for $a^{*} + b$ is:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-020.png)
+![|500](https://i.imgur.com/2DcVL7u.png)
+
 - Merge the accepting state into a single accepting state at the end
 - Starts in every state
     - Can trace what happens when you read an `a`:
@@ -745,7 +745,7 @@ Then, the NFA for $a^{*} + b$ is:
 
 Then, the NFA for $(a^{*} + b)c$ is:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-021.png)
+![|448](https://i.imgur.com/xTx6K01.png)
 
 - Since the accepting state was a start state for $R_{1}$, then the start state for $R_{2} = c$ is *still* a start state!
     - Recall: “$A$‘s start states remain start states iff $A_{1}$’s accepting state is a start state for $A_{1}$”
@@ -758,7 +758,7 @@ Then, the NFA for $(a^{*} + b)c$ is:
 
 If we change the order to construct the NFA for $c(a^{*} + b)$:
 
-![|500](/img/user/100 Academia/CSC236/04 Formal Language Theory/Files/Formal-Language-022.png)
+![|447](https://i.imgur.com/u09Wol1.png)
 
 - From the definition of $R_{1} \cdot R_{2}$, take every transition from the first regular expression $R_{1}$ that would have gone into its accepting state; send it to each of the initial states of the second regular expression $R_{2}$ instead
     - There are 3 initial states for $R_{2} = (a^{*} + b)$
