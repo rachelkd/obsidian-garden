@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","todo","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-11-07T00:48:06.000-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","todo","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-12-06T06:08:37.580-05:00"}
 ---
 
 
@@ -229,7 +229,7 @@ If we know that $q\%$ of the data lies below some value $b$:
 
 # Standard Normal Tables
 
-- Given a $z \in \mathbb{R}$, we can ==find $P(Z < z) = \Phi(z)$== by looking up $z$ on the margins of the table and gettin ghte probability from the middle
+- Given a $z \in \mathbb{R}$, we can ==find $P(Z < z) = \Phi(z)$== by looking up $z$ on the margins of the table and getting the probability from the middle
     - ![|400](https://i.imgur.com/ofVArcP.png)
 
 - Some tables only have positive values of $z$ → Use the **symmetry property**

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-11-24T02:50:40.329-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-12-06T17:05:10.406-05:00"}
 ---
 
 
@@ -17,9 +17,9 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 > [!question] What if instead, we were interested in the <mark style="background: #D2B3FFA6;">time until the first vehicle passes</mark> by?
 
 - We have the **[[100 Academia/STA237/03 Discrete Random Variables/Geometric Distribution\|Geometric Distribution]]** to model the ==number of trials until our event of interest happens==, but
-  - Geometric distribution is *discrete*
-  - Time is *continuous*
-  - We can still use geometric distribution to *approximate* the amount of time until the event of interest occurs
+    - Geometric distribution is *discrete*
+    - Time is *continuous*
+    - We can still use geometric distribution to *approximate* the amount of time until the event of interest occurs
 
 > [!tip]+ What if we divide the time that passes into 1-minute-long intervals?
 >
@@ -81,17 +81,17 @@ Same example from [[100 Academia/STA237/03 Discrete Random Variables/Poisson Dis
 ## Properties
 
 - Support is positive reals
-  - Distribution measures time; time cannot be negative
+    - Distribution measures time; time cannot be negative
 - $\lambda$ is called the “rate” parameter
-  - Represents the average rate of events per unit time
-  - $\frac{1}{\lambda}$ gives the average time between events
+    - Represents the average rate of events per unit time
+    - $\frac{1}{\lambda}$ gives the average time between events
 - Exponential distributions are often used to model:
-  - Lifetimes of products
-  - Time until failure
-  - Time between events
+    - Lifetimes of products
+    - Time until failure
+    - Time between events
 - Key identifier: When you see phrases like:
-  - “time until”
-  - “distance until”
+    - “time until”
+    - “distance until”
   - Similar “until” scenarios
     → Clues that exponential distribution may be appropriate
 

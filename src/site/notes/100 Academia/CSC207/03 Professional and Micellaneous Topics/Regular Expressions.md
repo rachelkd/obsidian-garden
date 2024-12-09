@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-11-29T19:59:22.399-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-12-07T22:29:13.746-05:00"}
 ---
 
 

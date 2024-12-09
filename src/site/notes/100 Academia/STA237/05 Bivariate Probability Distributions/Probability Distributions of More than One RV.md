@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-11-27T04:21:47.000-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/05-bivariate-probability-distributions/probability-distributions-of-more-than-one-rv/","tags":["lecture","note","stats","university"],"created":"2024-11-17T19:15:10.867-05:00","updated":"2024-12-06T18:12:14.186-05:00"}
 ---
 
 
@@ -780,8 +780,8 @@ Wagaman and Dobrow (2021), pp 262
     - 0: No linear relationship
 
 - Zero correlation/covariance doesn’t imply independence
-  - Only implies no linear relationship
-  - Could still have non-linear relationship
+    - Only implies no linear relationship
+    - Could still have non-linear relationship
 
 ## Correlation and Linear Dependence
 

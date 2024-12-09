@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-02T04:33:21.072-05:00"}
+{"dg-publish":true,"permalink":"/100-academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-08T14:15:18.999-05:00"}
 ---
 
 
@@ -55,6 +55,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
         - → Talk *through* the Data Access Interface to the Data Access Object to get these Entities
 
 > [!question]- What does the **Dependency Inversion Principle** say?
+>
 > - High level classes should *not* depend on low-level classes
 > - In fact, both should depend on abstractions
 >     - These abstractions are the Input Boundary and Output Boundary

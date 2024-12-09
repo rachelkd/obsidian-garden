@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/week-5-more-discrete-random-variables/","tags":["lecture","note","stats","university"],"created":"2024-10-03T12:52:58.548-04:00","updated":"2024-10-30T20:51:50.065-04:00"}
+{"dg-publish":true,"permalink":"/100-academia/sta-237/03-discrete-random-variables/week-5-more-discrete-random-variables/","tags":["lecture","note","stats","university"],"created":"2024-10-03T12:52:58.548-04:00","updated":"2024-12-05T18:46:59.030-05:00"}
 ---
 
 
