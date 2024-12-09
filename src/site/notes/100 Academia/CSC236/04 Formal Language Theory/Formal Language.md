@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC236/04 Formal Language Theory/Formal Language.md","permalink":"/academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T21:43:49.512-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/04 Formal Language Theory/Formal Language.md","permalink":"/academia/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T21:48:22.214-05:00"}
 ---
 
 
