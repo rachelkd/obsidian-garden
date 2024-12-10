@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/Study Questions.md","permalink":"/academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-08T14:15:18.999-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/Study Questions.md","permalink":"/academia/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-10T16:31:18.918-05:00"}
 ---
 
 
@@ -339,3 +339,4 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 > - Checked vs. unchecked
 
 > [!question]- What syntax makes an Exception checked? Unchecked?
+> - `throws`
