@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/Course Summary.md","permalink":"/academia/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T04:08:47.004-05:00","updated":"2024-12-02T03:35:50.195-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/Course Summary.md","permalink":"/academia/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T04:08:47.004-05:00","updated":"2024-12-10T01:50:42.793-05:00"}
 ---
 
 
@@ -14,7 +14,7 @@
 
 ### Example Question
 
-> [!question]+ Explain why having a Square be a subclass of a Rectangle is an example of a Liskov violation. [2 marks]
+> [!question]+ Explain why having a Square be a subclass of a Rectangle is an example of a Liskov violation. (2 marks)
 > - A minimal answer:
 >     - A square is more constrained than a rectangle
 > - Need to elaborate: does not look like a 2-mark answer

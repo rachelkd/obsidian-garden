@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC236/01 Induction/Simple Induction.md","permalink":"/academia/csc-236/01-induction/simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-06T11:45:18.000-04:00","updated":"2024-10-30T20:51:50.022-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/01 Induction/Simple Induction.md","permalink":"/academia/csc-236/01-induction/simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-06T11:45:18.000-04:00","updated":"2024-12-09T04:27:32.638-05:00"}
 ---
 
 

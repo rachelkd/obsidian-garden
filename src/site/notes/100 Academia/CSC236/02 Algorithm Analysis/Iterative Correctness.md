@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC236/02 Algorithm Analysis/Iterative Correctness.md","permalink":"/academia/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-11-04T15:32:39.232-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC236/02 Algorithm Analysis/Iterative Correctness.md","permalink":"/academia/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-12-09T06:55:16.000-05:00"}
 ---
 
 
@@ -212,7 +212,7 @@ Check that it actually *is* invariant:
     r_{k+1} &= r_{k} - d
     \end{align*}$$
 - So:
-    - $q_{k + 1} \in \mathbb{N}$ because $I_{k}$ (says $q_{k} \in \mathbb{N}, r_{k} \in \mathbb{N}, q_{k}d + r_{k}$)
+    - $q_{k + 1} \in \mathbb{N}$ because $I_{k}$ (says $q_{k} \in \mathbb{N}, r_{k} \in \mathbb{N}, n = q_{k}d + r_{k}$)
     - $r_{k+1} \in \mathbb{Z}$ and $r_{k} \geq d \implies r_{k+1} \in \mathbb{N}$
     - $$\begin{align*} n &= q_{k}d + r_{k} \\ &= (q_{k}+1)d + (r_{k}-d) \\ &= q_{k+1}d + r_{k+1} \end{align*}$$
 
