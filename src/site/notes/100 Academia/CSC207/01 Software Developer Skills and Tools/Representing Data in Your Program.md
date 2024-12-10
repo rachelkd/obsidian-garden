@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Representing Data in Your Program.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-10T22:23:03.000-04:00","updated":"2024-10-30T20:51:50.005-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Representing Data in Your Program.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["lecture","note","cs","java","university"],"created":"2024-12-10T02:41:53.244-05:00","updated":"2024-12-10T02:45:29.815-05:00"}
 ---
 
 
