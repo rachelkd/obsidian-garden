@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Exceptions in Java.md","permalink":"/academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","university"],"created":"2024-10-09T01:01:19.136-04:00","updated":"2024-10-30T20:51:50.013-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Exceptions in Java.md","permalink":"/academia/csc-207/02-principles-of-software-design/exceptions-in-java/","tags":["#lecture","#note","cs","java","university"],"created":"2024-10-09T01:01:19.136-04:00","updated":"2024-12-10T18:29:34.965-05:00"}
 ---
 
 
@@ -327,7 +327,7 @@ Recall [[100 Academia/CSC207/02 Principles of Software Design/Solid Design Princ
     - Not required when we may throw unchecked exceptions (can still declare `throws` though)
     - Having checked exceptions above unchecked in the hierarchy is consistent with LSP
         - Opposite would not be
-    - Subclass that overrides a method which throws a checked exception is only allowed to throw exceptions which are unchecked or `instanceof` the original exception that could be thrown in parent method
+    - Subclass that overrides a method which throws a checked exception is ==only allowed to throw exceptions which are unchecked== or ==`instanceof` the original exception== that could be thrown in parent method
         - `throws` clause in method signature → Cannot throw a plain Exception or any other non-Runtime exception in an overriding method
         - Code will not compile
         - Prevents us from introducing Liskov violations

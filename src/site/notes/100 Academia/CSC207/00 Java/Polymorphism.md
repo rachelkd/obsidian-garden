@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Polymorphism.md","permalink":"/academia/csc-207/00-java/polymorphism/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:30:15.825-04:00","updated":"2024-10-30T20:51:49.997-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Polymorphism.md","permalink":"/academia/csc-207/00-java/polymorphism/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:30:15.825-04:00","updated":"2024-12-10T17:14:50.804-05:00"}
 ---
 
 
@@ -29,4 +29,3 @@ for (Animal a : animals) {
 ```
 
 *This example exhibits polymorphism.*
-

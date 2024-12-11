@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Interfaces in Java.md","permalink":"/academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-10-30T20:51:49.995-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Interfaces in Java.md","permalink":"/academia/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-12-10T16:47:33.692-05:00"}
 ---
 
 
@@ -43,7 +43,7 @@ interface Washable {
 
 ```java
 class Corn extends Plant implements Edible, Washable {
-    void eat(){
+    void eat() {
         ...    // Our implementation here!
     }
     

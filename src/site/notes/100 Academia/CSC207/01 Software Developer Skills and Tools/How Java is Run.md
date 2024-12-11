@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/How Java is Run.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-10T21:24:12.000-04:00","updated":"2024-10-30T20:51:50.001-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/How Java is Run.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/how-java-is-run/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-10T21:24:12.000-04:00","updated":"2024-12-10T17:59:59.453-05:00"}
 ---
 
 
@@ -119,4 +119,3 @@ For example,
     - can be as fast as code written in C
 
 ![|300](https://i.imgur.com/b1T5mKu.png)
-

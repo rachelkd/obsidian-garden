@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Classes.md","permalink":"/academia/csc-207/00-java/classes/","tags":["cs","java","lecture","note","university"],"created":"2024-12-10T02:41:53.243-05:00","updated":"2024-12-10T02:45:59.724-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/00 Java/Classes.md","permalink":"/academia/csc-207/00-java/classes/","tags":["cs","java","lecture","note","university"],"created":"2024-12-10T02:41:53.243-05:00","updated":"2024-12-10T16:42:01.279-05:00"}
 ---
 
 
