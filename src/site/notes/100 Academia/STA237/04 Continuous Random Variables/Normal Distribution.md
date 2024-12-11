@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/Normal Distribution.md","permalink":"/academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","todo","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-12-06T06:08:37.580-05:00"}
+{"dg-publish":true,"dg-path":"academia/STA237/04 Continuous Random Variables/Normal Distribution.md","permalink":"/academia/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-12-11T17:26:53.262-05:00"}
 ---
 
 
