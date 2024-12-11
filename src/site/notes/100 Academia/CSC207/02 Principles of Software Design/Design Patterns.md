@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Design Patterns.md","permalink":"/academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-12-01T04:16:46.726-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Design Patterns.md","permalink":"/academia/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-12-10T21:43:26.025-05:00"}
 ---
 
 
@@ -398,7 +398,6 @@ final JFrame application = appBuilder
 - Replacing inheritance as composition
     - Generally, more flexible to use composition as inheritance
     - Do this through **[[100 Academia/CSC207/02 Principles of Software Design/Design Patterns#Dependency Injection\|dependency injection]]**
-    - ? OH: Does `Author` have a hard dependency on Sorter? What if we have a constructor that does not take in a `Sorter` parameter? Then, `Author` would have to create a new Sorter object right? So would it then have to depend on a SorterFactory?
 
 ### Strategy: Standard Solution
 

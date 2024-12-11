@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Packaging.md","permalink":"/academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-11-08T00:27:48.207-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Packaging.md","permalink":"/academia/csc-207/02-principles-of-software-design/packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:27:41.828-04:00","updated":"2024-12-10T20:07:18.929-05:00"}
 ---
 
 
@@ -140,7 +140,3 @@ When building an online book store, one of the use cases we’ve been asked to i
     - When you’re testing things, you may want to access things only accessible within the package → Put test class in the same package as you are testing
 
 ![|300](https://i.imgur.com/x5QkBGv.png) ![|300](https://i.imgur.com/ldy06yA.png)
-
-
-
-

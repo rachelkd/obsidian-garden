@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Generics.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/generics/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:07:06.000-04:00","updated":"2024-10-30T20:51:50.000-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/01 Software Developer Skills and Tools/Generics.md","permalink":"/academia/csc-207/01-software-developer-skills-and-tools/generics/","tags":["#lecture","#note","cs","java","university"],"created":"2024-09-20T13:07:06.000-04:00","updated":"2024-12-10T21:32:42.468-05:00"}
 ---
 
 

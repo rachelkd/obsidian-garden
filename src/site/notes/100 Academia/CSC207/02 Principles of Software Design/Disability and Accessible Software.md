@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Disability and Accessible Software.md","permalink":"/academia/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T13:38:38.169-05:00","updated":"2024-12-10T19:56:42.013-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC207/02 Principles of Software Design/Disability and Accessible Software.md","permalink":"/academia/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T13:38:38.169-05:00","updated":"2024-12-10T19:57:03.902-05:00"}
 ---
 
 
