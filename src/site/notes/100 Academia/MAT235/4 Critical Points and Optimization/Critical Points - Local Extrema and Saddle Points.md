@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/4 Critical Points and Optimization/Critical Points - Local Extrema and Saddle Points.md","permalink":"/academia/mat-235/4-critical-points-and-optimization/critical-points-local-extrema-and-saddle-points/","tags":["lecture","note","stats","university"],"created":"2024-11-18T23:56:04.253-05:00","updated":"2024-11-29T22:26:05.355-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/4 Critical Points and Optimization/Critical Points - Local Extrema and Saddle Points.md","permalink":"/academia/mat-235/4-critical-points-and-optimization/critical-points-local-extrema-and-saddle-points/","tags":["lecture","note","stats","university"],"created":"2024-11-18T20:56:04.253-08:00","updated":"2024-12-15T22:51:11.406-08:00"}
 ---
 
 
@@ -176,7 +176,7 @@ Recall:
 > - If $D > 0$, and:
 >     - $f_{xx}(x_{0}, y_{0}) > 0$:
 >         - $f$ has a **local minimum** at $(x_{0}, y_{0})$
->     - $f_{xx}(x-, y_{0}) < 0$:
+>     - $f_{xx}(x_{0}, y_{0}) < 0$:
 >         - $f$ has a **local maximum** at $(x_{0}, y_{0})$
 > - If $D < 0$:
 >     - $f$ has a **saddle point** at $(x_{0}, y_{0})$

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/2 Vectors and Linear Algebra/2 - Vectors and Linear Algebra.md","permalink":"/academia/mat-235/2-vectors-and-linear-algebra/2-vectors-and-linear-algebra/","tags":["#module","#university","math"],"created":"2024-10-10T17:09:35.226-04:00","updated":"2024-11-29T22:05:57.825-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/2 Vectors and Linear Algebra/2 - Vectors and Linear Algebra.md","permalink":"/academia/mat-235/2-vectors-and-linear-algebra/2-vectors-and-linear-algebra/","tags":["#module","#university","math"],"created":"2024-10-10T14:09:35.226-07:00","updated":"2024-11-29T19:05:57.825-08:00"}
 ---
 
 
