@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T14:04:40.000-07:00","updated":"2024-12-09T00:51:38.634-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-12-09T03:51:38.634-05:00"}
 ---
 
 

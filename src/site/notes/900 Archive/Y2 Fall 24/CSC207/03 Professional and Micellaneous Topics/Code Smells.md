@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/code-smells/","tags":["cs","lecture","note","university"],"created":"2024-11-22T14:38:49.577-08:00","updated":"2024-11-22T15:58:01.023-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/code-smells/","tags":["cs","lecture","note","university"],"created":"2024-11-22T17:38:49.577-05:00","updated":"2024-11-22T18:58:01.023-05:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/3-professional-and-miscellaneous-topics/","tags":["#module","#university","cs"],"created":"2024-11-15T14:48:48.870-08:00","updated":"2024-11-23T17:53:51.160-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/3-professional-and-miscellaneous-topics/","tags":["#module","#university","cs"],"created":"2024-11-15T17:48:48.870-05:00","updated":"2024-11-23T20:53:51.160-05:00"}
 ---
 
 

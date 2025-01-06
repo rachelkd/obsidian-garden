@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T13:57:36.000-07:00","updated":"2024-12-31T04:42:33.462-08:00"}
+{"dg-publish":true,"permalink":"/200-personal/rachel-html/","tags":["gardenEntry"],"created":"2023-10-17T16:57:36.000-04:00","updated":"2024-12-31T07:44:11.950-05:00"}
 ---
 
 

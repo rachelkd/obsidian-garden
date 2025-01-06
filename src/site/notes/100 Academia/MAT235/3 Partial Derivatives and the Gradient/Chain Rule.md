@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Chain Rule.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["lecture","math","note","university"],"created":"2024-11-04T16:03:11.144-08:00","updated":"2024-11-29T19:05:57.225-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Chain Rule.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/chain-rule/","tags":["lecture","math","note","university"],"created":"2024-11-04T19:03:11.144-05:00","updated":"2024-11-29T22:05:57.225-05:00"}
 ---
 
 

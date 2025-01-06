@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/how-to-do-induction-proofs/","tags":["#cs","#lecture","university"],"created":"2024-08-04T16:15:56.000-07:00","updated":"2024-10-30T17:51:50.021-07:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/how-to-do-induction-proofs/","tags":["#cs","#lecture","university"],"created":"2024-08-04T19:15:56.000-04:00","updated":"2024-10-30T20:51:50.021-04:00"}
 ---
 
 
