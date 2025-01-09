@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/2-principles-of-software-design/","tags":["#module","#university","cs"],"created":"2024-09-20T09:08:16.000-07:00","updated":"2024-11-23T17:53:35.037-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/2-principles-of-software-design/","tags":["#module","#university","cs"],"created":"2024-09-20T12:08:16.000-04:00","updated":"2024-11-23T20:53:35.037-05:00"}
 ---
 
 

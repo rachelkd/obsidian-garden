@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T01:08:47.004-08:00","updated":"2024-12-25T13:36:51.488-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/course-summary/","tags":["cs","lecture","note","university"],"created":"2024-12-01T04:08:47.004-05:00","updated":"2024-12-25T16:36:51.488-05:00"}
 ---
 
 

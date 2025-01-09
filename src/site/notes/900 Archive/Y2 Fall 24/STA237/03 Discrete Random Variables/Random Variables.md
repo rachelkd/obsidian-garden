@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T16:24:27.000-07:00","updated":"2024-12-05T14:55:14.019-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/random-variables/","tags":["#lecture","#note","stats","university"],"created":"2024-09-28T19:24:27.000-04:00","updated":"2024-12-05T17:55:14.019-05:00"}
 ---
 
 

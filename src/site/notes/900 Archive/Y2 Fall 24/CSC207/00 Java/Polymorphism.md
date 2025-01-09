@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/polymorphism/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T21:30:15.825-07:00","updated":"2024-12-10T14:14:50.804-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/polymorphism/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:30:15.825-04:00","updated":"2024-12-10T17:14:50.804-05:00"}
 ---
 
 

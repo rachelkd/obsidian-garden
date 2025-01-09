@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T16:28:27.986-07:00","updated":"2024-12-10T19:30:01.063-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-12-10T22:30:01.063-05:00"}
 ---
 
 

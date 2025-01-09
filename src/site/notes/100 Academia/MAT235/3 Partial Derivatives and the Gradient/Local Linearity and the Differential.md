@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Local Linearity and the Differential.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/local-linearity-and-the-differential/","tags":["lecture","math","note","university"],"created":"2024-10-21T21:22:00.527-07:00","updated":"2024-11-29T19:05:57.229-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Local Linearity and the Differential.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/local-linearity-and-the-differential/","tags":["lecture","math","note","university"],"created":"2024-10-22T00:22:00.527-04:00","updated":"2024-11-29T22:05:57.229-05:00"}
 ---
 
 

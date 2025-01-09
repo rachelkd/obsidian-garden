@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/principle-of-simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-09T10:14:14.000-07:00","updated":"2024-12-09T01:32:42.829-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/principle-of-simple-induction/","tags":["#cs","#lecture","#math","#note","university"],"created":"2024-09-09T13:14:14.000-04:00","updated":"2024-12-09T04:32:42.829-05:00"}
 ---
 
 

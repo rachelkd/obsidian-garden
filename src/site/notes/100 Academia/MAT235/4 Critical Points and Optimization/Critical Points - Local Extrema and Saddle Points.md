@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/4 Critical Points and Optimization/Critical Points - Local Extrema and Saddle Points.md","permalink":"/academia/mat-235/4-critical-points-and-optimization/critical-points-local-extrema-and-saddle-points/","tags":["lecture","note","stats","university"],"created":"2024-11-18T20:56:04.253-08:00","updated":"2024-12-15T22:51:11.406-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/4 Critical Points and Optimization/Critical Points - Local Extrema and Saddle Points.md","permalink":"/academia/mat-235/4-critical-points-and-optimization/critical-points-local-extrema-and-saddle-points/","tags":["lecture","note","stats","university"],"created":"2024-11-18T23:56:04.253-05:00","updated":"2024-12-16T01:51:11.406-05:00"}
 ---
 
 
