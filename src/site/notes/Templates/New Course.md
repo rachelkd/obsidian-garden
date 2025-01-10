@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T19:07:40.000-04:00","updated":"2024-11-23T19:34:58.134-05:00"}
+{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T19:07:40.000-04:00","updated":"2025-01-09T19:28:28.744-05:00"}
 ---
 
 
-> [!course-info] **COURSE NAME**
+> [!course-info] <span><span>New Course: null</span></span>
 > **Section:**
 > **Professor:**
 > **Syllabus**
