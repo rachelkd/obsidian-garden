@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Partial Differential Equation.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/partial-differential-equation/","tags":["lecture","math","note","university"],"created":"2024-11-13T22:59:54.131-05:00","updated":"2024-11-29T22:05:57.284-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Partial Differential Equation.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/partial-differential-equation/","tags":["lecture","math","note","university"],"created":"2024-11-13T22:59:54.131-05:00","updated":"2025-01-09T19:06:03.873-05:00"}
 ---
 
+
+# Partial Differential Equation
 
 > [!def]+ Partial Differential Equation
 > An equation that relates some partials of a multivariable function

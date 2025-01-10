@@ -1,0 +1,8 @@
+---
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/5 - Double and Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/5-double-and-triple-integrals/","tags":["module","university","math"],"created":"2025-01-05T22:28:23.611-05:00","updated":"2025-01-09T19:06:03.878-05:00"}
+---
+
+
+# Lecture/Notes
+
+<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>Lecture/Note</span><span class="dataview small-text">2</span></th><th class="table-view-th"><span>Date</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>16.1		 <code class="code-styler-inline">L34</code> <a data-tooltip-position="top" aria-label="100 Academia/MAT235/5 Double and Triple Integrals/The Definite Integral of a Function of Two Variables.md" data-href="100 Academia/MAT235/5 Double and Triple Integrals/The Definite Integral of a Function of Two Variables.md" href="100 Academia/MAT235/5 Double and Triple Integrals/The Definite Integral of a Function of Two Variables.md" class="internal-link" target="_blank" rel="noopener nofollow">The Definite Integral of a Function of Two Variables</a></span></td><td>January 06, 2025</td></tr><tr><td><span>16.2		<a data-tooltip-position="top" aria-label="100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md" data-href="100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md" href="100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md" class="internal-link" target="_blank" rel="noopener nofollow">Iterated Integrals</a></span></td><td>January 06, 2025</td></tr></tbody></table></div>

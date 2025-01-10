@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Second-Order Partial Derivatives.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:04:34.677-05:00","updated":"2024-11-29T22:05:57.304-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Second-Order Partial Derivatives.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:04:34.677-05:00","updated":"2025-01-09T19:06:03.874-05:00"}
 ---
 
+
+# Second-Order Partial Derivatives
 
 > [!def]+ Second-Order Partial Derivatives
 > Second-order partial derivatives are obtained by differentiating a function’s [[100 Academia/MAT235/3 Partial Derivatives and the Gradient/Partial Derivatives\|first-order partial derivatives]].
