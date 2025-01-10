@@ -1,9 +1,15 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/File Management in UNIX.md","permalink":"/academia/csc-209/1-c-language-basics/file-management-in-unix/","tags":["cs","lecture","note","university"],"created":"2025-01-09T18:32:11.041-05:00","updated":"2025-01-09T19:21:18.250-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/File Management in UNIX.md","permalink":"/academia/csc-209/1-c-language-basics/file-management-in-unix/","tags":["cs","lecture","note","university"],"created":"2025-01-09T18:32:11.041-05:00","updated":"2025-01-09T19:30:39.962-05:00"}
 ---
 
 
 # File Management in UNIX
+
+> [!question]- What is a file?
+> - Sequence of bytes stored “somewhere”
+
+> [!goal]+ What is a file system?
+> - Why do we need one?
 
 ## Storage Media
 
