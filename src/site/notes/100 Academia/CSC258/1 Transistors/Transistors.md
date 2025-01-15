@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Transistors.md","permalink":"/academia/csc-258/1-transistors/transistors/","tags":["cs","lecture","note","university"],"created":"2025-01-08T13:10:54.744-05:00","updated":"2025-01-11T03:15:54.878-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Transistors.md","permalink":"/academia/csc-258/1-transistors/transistors/","tags":["cs","lecture","note","university"],"created":"2025-01-08T13:10:54.744-05:00","updated":"2025-01-14T23:59:09.167-05:00"}
 ---
 
 
@@ -166,7 +166,9 @@
 >
 > - Every gate has ==one output== and ==one or more inputs==
 > - Every combination of input values ==must connect the output to either high voltage ($V_{CC} = 5V$)== or ==low voltage ($\text{Ground} = 0V$)==
-> - ==Not connecting the output to high voltage *is not* the same as connecting the output to low voltage.==
+>     - ! Not connecting the output to high voltage *is not* the same as connecting the output to low voltage!
+{ #76115c}
+
 
 > [!question] What input combinations connect the output to high voltage, and what combinations connect it to low voltage?
 

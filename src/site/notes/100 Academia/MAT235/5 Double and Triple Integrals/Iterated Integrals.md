@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/iterated-integrals/","tags":["lecture","math","note","university"],"created":"2025-01-06T00:22:58.063-05:00","updated":"2025-01-09T19:06:03.879-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/iterated-integrals/","tags":["lecture","math","note","university"],"created":"2025-01-06T00:22:58.063-05:00","updated":"2025-01-14T23:28:39.287-05:00"}
 ---
 
 
@@ -65,6 +65,20 @@
 > $$
 
 ## Iterated Integrals Over Non-Rectangular Regions
+
+> [!thm]+ Theorem. Two cases
+>
+> > [!summary]+ Case I.
+> > Suppose $R$ consists of the points $(x, y)$ such that $a \leq x \leq b$ and $g_{1}(x) \leq y \leq g_{2}(x)$ for $g_{1}, g_{2}$ continuous on $[a, b]$.
+> > If $f$ is continuous on $R$, then
+> > $$
+> > \int \int_{R} f(x, y) \, dA = \int_{a}^{b} \int_{g_{1}(x)}^{g_{2}(x)} f(x,y) \, dy  \, dx 
+> > $$
+>
+> > [!summary]+ Case II.
+> > Suppose $R$ consists of the points $(x, y)$ such that $g_{1}(y) \leq x \leq g_{2}(y)$ and $c \leq y \leq d$ for $g_{1}, g_{2}$ continuous on $[c, d]$.
+> > If $f$ is continuous on $R$, then
+> > $$\int \int_{R} f(x, y) \, dA = \int_{c}^{d} \int_{g_{1}(y)}^{g_{2}(y)} f(x, y) \, dx  \, dy $$
 
 > [!example]+ The density at the point $(x, y)$ of a triangular metal plate is $\delta(x, y)$. Express its mass as an iterated integral.
 > ![|500](https://i.imgur.com/ybSNSez.png)
@@ -242,4 +256,24 @@
 >  & = (y^{3} + 1)^{3/2}\big|_{0}^{2} \\
 >  & = 27 - 1 = 26
 > \end{align}
+> $$
+
+## Calculating the Volume in between Two Functions
+
+> [!example]+ Set up an integral giving the volume between the plane $z = 4$ and the bowl $z = x^{2} + y^{2}$.
+>
+> Let $V$ be the volume of the solid bowl.
+> $$
+> \begin{align}
+> V  & = \left( \text{volume under }z = 4 \text{ and above xy-plane} \right)  \\
+>  & - \left( \text{volume under }z = x^{2}+y^{2} \text{ and above xy-plane} \right)  \\
+>  & = \int \int _{R} 4 \, dA - \int \int_{R} x^{2}+y^{2} \, dA \\
+>  & = \int \int_{R} 4 - (x^{2} + y^{2}) \, dA
+> \end{align}
+> $$
+> ![|553](https://i.imgur.com/0akKxDs.png)
+>
+> Then,
+> $$
+> \implies \int_{-2}^{2} \int_{-\sqrt{ 4-x^{2} }}^{\sqrt{ 4-x^{2} }} 4 - (x^{2} + y^{2})  \, dy  \, dx 
 > $$
