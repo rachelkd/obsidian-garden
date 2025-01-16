@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/Week 1 - Files, Permissions, and Ethics.md","permalink":"/academia/csc-209/1-c-language-basics/week-1-files-permissions-and-ethics/","tags":["cs","lecture","note","university"],"created":"2025-01-09T15:10:29.148-05:00","updated":"2025-01-09T19:21:21.565-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/Week 1 - Files, Permissions, and Ethics.md","permalink":"/academia/csc-209/1-c-language-basics/week-1-files-permissions-and-ethics/","tags":["cs","lecture","note","university"],"created":"2025-01-09T15:10:29.148-05:00","updated":"2025-01-15T13:51:51.948-05:00"}
 ---
 
 

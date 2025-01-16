@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/The Ethics of Data Protection.md","permalink":"/academia/csc-209/1-c-language-basics/the-ethics-of-data-protection/","tags":["cs","lecture","note","university"],"created":"2025-01-09T18:27:17.514-05:00","updated":"2025-01-09T19:21:28.958-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/1 C Language Basics/The Ethics of Data Protection.md","permalink":"/academia/csc-209/1-c-language-basics/the-ethics-of-data-protection/","tags":["cs","lecture","note","university"],"created":"2025-01-09T18:27:17.514-05:00","updated":"2025-01-15T13:51:44.136-05:00"}
 ---
 
 
