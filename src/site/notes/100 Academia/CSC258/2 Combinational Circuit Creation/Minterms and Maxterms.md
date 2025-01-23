@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:28:30.309-05:00","updated":"2025-01-18T15:32:41.413-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:28:30.309-05:00","updated":"2025-01-21T19:38:51.542-05:00"}
 ---
 
 
@@ -179,7 +179,7 @@ Recall from earlier:
 > - & Sum-of-minterms are useful in cases with very ==few input combinations that produce high output==
 > - & Product-of-maxterms are useful when expressing truth tables that have very ==few low output cases==
 
-### Example. Some with $Y = m_{2} + m_{6} + m_{7} + m_{10}$
+### Example. SOM with $Y = m_{2} + m_{6} + m_{7} + m_{10}$
 
 #todo
 

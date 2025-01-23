@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Karnaugh Maps.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/karnaugh-maps/","tags":["cs","lecture","note","university"],"created":"2025-01-17T15:47:23.626-05:00","updated":"2025-01-18T15:32:46.172-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Karnaugh Maps.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/karnaugh-maps/","tags":["cs","lecture","note","university"],"created":"2025-01-17T15:47:23.626-05:00","updated":"2025-01-20T15:47:42.874-05:00"}
 ---
 
 
@@ -96,3 +96,38 @@
 | $A\,\overline{B}$            | ==1==                        | 0                 | 0              | 0                 |
 
 - $Y = A \cdot \overline{C} \cdot \overline{D} + A\cdot B\cdot D + \overline{A} \cdot C + \overline{A} \cdot \overline{B} \cdot D$
+
+## Karnaugh Map Review
+
+From lecture 7.
+
+> [!summary]+ Karnaugh Maps
+> - Can be of any size
+> - Can have any number of inputs
+>     - e.g., 4-input example below
+>     - ![](https://i.imgur.com/HjCOzND.png)
+> - Adjacent minterms only differ by a single value
+>     - → Can be grouped into a single term that omits that value
+
+![](https://i.imgur.com/4pcvt64.png)
+
+$$
+\begin{align}
+Y  & = \underbrace{ \overline{A} \cdot B \cdot C + A \cdot B \cdot C }_{ \text{Vertical group} } + \underbrace{ A\cdot B\cdot \overline{C} + A \cdot \overline{B} \cdot \overline{C} }_{ \text{Horizontal grouping} } \\
+ & = B\cdot C + A \cdot \overline{C}
+\end{align}
+$$
+
+- K-maps provide an *illustration* of a circuit’s minterms (or maxterms)
+- Also provide a guide to how neighbour terms may be combined
+
+### Reminder on Reducing Circuits
+
+- Eliminating variables in K-maps by drawing larger ($>1$ element) rectangular groupings results in
+    - A circuit with a lower **cost function**
+- Resulting expressing is still in **sum-of-products** form
+    - If simplified further, it is no longer in SOP i.e., *sum-of-minterms* form
+
+> [!note] It is not only the number of gates that matters when reducing circuits, but also the number of ==inputs== to each gate.
+
+![](https://i.imgur.com/oKNuwBB.png)
