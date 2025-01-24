@@ -6,6 +6,10 @@ body {
 
 	--heading-padding: 8px;
 	--sidebar-width: 300px;
+	font-size: 14px !important;
+	font-weight: 400;
+	font-feature-settings: var(--sans-font-features);
+	--list-spacing: 0.2em;
 
 	// Base button styles
 	.mobile-toggle, .sidebar-toggle, .sidebar-lock-close {
@@ -205,11 +209,6 @@ body {
 		text-align: right;
 	}
 
-	font-size: 14px !important;
-	font-weight: 400;
-	font-feature-settings: var(--sans-font-features);
-	--list-spacing: 0.2em;
-	
 	code {
 		text-shadow: none !important;
 		font-family: 'JetBrains Mono', 'Cascadia Code', monospace !important;
@@ -221,6 +220,52 @@ body {
 
 
 	/* Custom Callouts */
+	.callout {
+		.callout-title {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 8px;
+		}
+
+		.callout-title-group {
+			display: flex;
+			align-items: center;
+			gap: 4px;
+			flex: 1;
+		}
+
+		.callout-fold {
+			transition: transform 0.3s ease;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+			padding: 0;
+			flex-shrink: 0;
+		}
+
+		&.is-collapsible {
+			.callout-content {
+				overflow: hidden;
+				transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+				opacity: 1;
+			}
+
+			&.is-collapsed {
+				.callout-content {
+					max-height: 0 !important;
+					opacity: 0;
+					margin: 0;
+				}
+
+				.callout-fold {
+					transform: rotate(-90deg);
+				}
+			}
+		}
+	}
+
 	.callout[data-callout="course-info"] {
 		--callout-icon: lucide-graduation-cap;
 		--callout-color: 229, 202, 242;
@@ -265,94 +310,4 @@ body {
 		color: var(--text-normal);
 	}
 
-	/* List Callouts */
-	.markdown-preview-view li[data-task],
-	.markdown-rendered li[data-task] {
-		list-style: none !important;
-		padding: 0.2em 0.5em !important;
-		border-radius: 4px !important;
-		margin: 0.2em 0 !important;
-		display: flex !important;
-		align-items: center !important;
-		gap: 0.5em !important;
-		position: relative !important;
-
-		&::before {
-			content: "" !important;
-			width: 18px !important;
-			height: 18px !important;
-			display: inline-block !important;
-			margin-right: 0.5em !important;
-			background-size: contain !important;
-			background-repeat: no-repeat !important;
-			background-position: center !important;
-			flex-shrink: 0 !important;
-		}
-
-		/* Default bullet style */
-		&::marker {
-			content: none !important;
-		}
-
-		/* Marker-specific styles */
-		&[data-task="&"] {
-			background: rgba(255, 214, 0, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/%3E%3C/svg%3E") !important;
-			}
-		}
-
-		&[data-task="@"] {
-			background: rgba(255, 145, 0, 0.2) !important;
-			&::before {
-				content: "@" !important;
-				text-align: center !important;
-				font-weight: bold !important;
-			}
-		}
-
-		&[data-task="!"] {
-			background: rgba(255, 23, 68, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='8' x2='12' y2='12'/%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'/%3E%3C/svg%3E") !important;
-			}
-		}
-
-		&[data-task="~"] {
-			background: rgba(124, 77, 255, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z'/%3E%3Cpath d='M15 3v6h6'/%3E%3C/svg%3E") !important;
-			}
-		}
-
-		&[data-task="?"] {
-			background: rgba(0, 184, 212, 0.2) !important;
-			&::before {
-				content: "?" !important;
-				text-align: center !important;
-				font-weight: bold !important;
-			}
-		}
-
-		&[data-task="^"] {
-			background: rgba(0, 200, 83, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z'/%3E%3Cpath d='M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z'/%3E%3C/svg%3E") !important;
-			}
-		}
-
-		&[data-task="%"] {
-			background: rgba(158, 158, 158, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/%3E%3Cpath d='M16 8.2C16 7 15 6 13.8 6c-.8 0-1.4.3-1.8.9-.4.6-.6 1.4-.6 2.6 0 1.1.2 2 .6 2.6.4.6 1 .9 1.8.9 1.2 0 2.2-1 2.2-2.2'/%3E%3C/svg%3E") !important;
-			}
-		}
-
-		&[data-task="$"] {
-			background: rgba(137, 110, 185, 0.2) !important;
-			&::before {
-				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z'/%3E%3Cpath d='M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z'/%3E%3C/svg%3E") !important;
-			}
-		}
-	}
 }

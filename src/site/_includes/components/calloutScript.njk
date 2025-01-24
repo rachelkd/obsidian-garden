@@ -10,13 +10,31 @@
                 const calloutTitle = elem.querySelector(".callout-title");
 
                 if (calloutTitle) {
+                    // Create title group first
+                    const titleGroup = document.createElement("div");
+                    titleGroup.className = "callout-title-group";
+
+                    // Create icon
                     const calloutIconContainer = document.createElement("div");
                     const calloutIcon = document.createElement("i");
-
-                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIconContainer.className = "callout-icon";
                     calloutIcon.setAttribute("icon-name", iconName);
-                    calloutIconContainer.setAttribute("class", "callout-icon");
-                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                    calloutIconContainer.appendChild(calloutIcon);
+
+                    // Get existing title inner
+                    const titleInner = calloutTitle.querySelector(".callout-title-inner");
+                    
+                    if (titleInner) {
+                        // Remove title inner from its current position
+                        titleInner.parentNode.removeChild(titleInner);
+                        
+                        // Add icon and title to group
+                        titleGroup.appendChild(calloutIconContainer);
+                        titleGroup.appendChild(titleInner);
+                        
+                        // Insert group at the start of callout title
+                        calloutTitle.insertBefore(titleGroup, calloutTitle.firstChild);
+                    }
                 }
             }
         });
