@@ -1,6 +1,15 @@
 <aside>
+      <button class="mobile-toggle" aria-label="Open sidebar">
+            <i icon-name="menu"></i>
+      </button>
+      <button class="sidebar-toggle" aria-label="Lock sidebar">
+            <i icon-name="panel-right"></i>
+      </button>
       <div class="sidebar">
             <div class="sidebar-container">
+                  <button class="sidebar-lock-close" aria-label="Unlock sidebar">
+                        <i icon-name="chevrons-right"></i>
+                  </button>
                   {% for imp in dynamics.sidebar.top %}
                         {% include imp %}
                   {% endfor %}
