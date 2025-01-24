@@ -1,0 +1,53 @@
+:root {
+  --list-callout-bg-opacity-light: 0.1;
+  --list-callout-bg-opacity-dark: 0.15;
+  --list-callout-padding-top: 2px;
+  --list-callout-padding-right: 8px;
+  --list-callout-padding-bottom: 2px;
+  --list-callout-padding-left: 8px;
+}
+
+.list-callout {
+  position: relative;
+  display: list-item !important;
+  
+  &__line {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: var(--list-callout-padding-top) var(--list-callout-padding-right) var(--list-callout-padding-bottom) var(--list-callout-padding-left);
+    margin: -2px 0;
+    border-radius: 4px;
+    background-color: rgba(var(--list-callout-color), var(--list-callout-bg-opacity-light));
+  }
+
+  &__marker {
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    color: rgb(var(--list-callout-color));
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    
+    i {
+      width: 1em;
+      height: 1em;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    svg {
+      width: 1em;
+      height: 1em;
+    }
+  }
+}
+
+.theme-dark {
+  .list-callout__line {
+    background-color: rgba(var(--list-callout-color), var(--list-callout-bg-opacity-dark));
+  }
+} 

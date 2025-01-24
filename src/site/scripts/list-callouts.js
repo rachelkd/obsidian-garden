@@ -1,0 +1,125 @@
+const LIST_CALLOUT_CONFIG = [
+    {
+        color: '255, 214, 0',
+        char: '&',
+        icon: 'lucide-star',
+    },
+    {
+        color: '255, 145, 0',
+        char: '@',
+    },
+    {
+        color: '255, 23, 68',
+        char: '!',
+        icon: 'lucide-alert-circle',
+    },
+    {
+        color: '124, 77, 255',
+        char: '~',
+        icon: 'lucide-sticky-note',
+    },
+    {
+        color: '0, 184, 212',
+        char: '?',
+        icon: 'lucide-circle-help',
+    },
+    {
+        color: '0, 200, 83',
+        char: '^',
+        icon: 'lucide-quote',
+    },
+    {
+        color: '158, 158, 158',
+        char: '%',
+        icon: 'lucide-book-heart',
+    },
+    {
+        color: '137, 110, 185',
+        char: '$',
+        icon: 'lucide-quote',
+    },
+];
+
+function initListCallouts() {
+    const lists = document.querySelectorAll('ul > li, ol > li'); // Only direct children
+
+    lists.forEach((li) => {
+        // Find where the first line ends (before any nested lists)
+        const nestedList = li.querySelector('ul, ol');
+        let firstLineContent = [];
+        let node = li.firstChild;
+
+        while (node && node !== nestedList) {
+            firstLineContent.push(node);
+            node = node.nextSibling;
+        }
+
+        // Get the first text node's content
+        const textNodes = firstLineContent.filter(
+            (node) => node.nodeType === Node.TEXT_NODE
+        );
+        if (!textNodes.length) return;
+
+        const text = textNodes[0].textContent;
+        const trimmedText = text.trim();
+        const firstChar = trimmedText.charAt(0);
+
+        const calloutConfig = LIST_CALLOUT_CONFIG.find(
+            (config) => config.char === firstChar
+        );
+        if (!calloutConfig) return;
+
+        // Create line wrapper div
+        const lineWrapper = document.createElement('div');
+        lineWrapper.className = 'list-callout__line';
+        lineWrapper.style.setProperty(
+            '--list-callout-color',
+            calloutConfig.color
+        );
+
+        // Create marker if icon exists
+        if (calloutConfig.icon) {
+            const marker = document.createElement('span');
+            marker.className = 'list-callout__marker';
+            marker.innerHTML = `<i icon-name="${calloutConfig.icon.replace(
+                'lucide-',
+                ''
+            )}"></i>`;
+            lineWrapper.appendChild(marker);
+        }
+
+        // Find the index of the first non-whitespace character
+        const leadingSpaces = text.slice(0, text.indexOf(trimmedText));
+        const contentStartIndex = text.indexOf(firstChar) + 1;
+
+        // Keep all original spacing, just remove the marker character
+        textNodes[0].textContent =
+            leadingSpaces + text.slice(contentStartIndex);
+
+        // Move all first line content into the wrapper
+        firstLineContent.forEach((node) => {
+            if (node.parentNode === li) {
+                lineWrapper.appendChild(node);
+            }
+        });
+
+        // Add the line wrapper to the li
+        if (nestedList) {
+            li.insertBefore(lineWrapper, nestedList);
+        } else {
+            li.appendChild(lineWrapper);
+        }
+
+        // Add callout class to the parent li
+        li.classList.add('list-callout');
+    });
+}
+
+// Run on page load and after any dynamic content changes
+document.addEventListener('DOMContentLoaded', () => {
+    initListCallouts();
+    // Re-run after any MathJax rendering
+    if (window.MathJax) {
+        MathJax.Hub.Queue(() => initListCallouts());
+    }
+});
