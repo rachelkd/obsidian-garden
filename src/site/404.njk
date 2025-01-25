@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
     <head>
@@ -22,7 +21,11 @@
             {%endif%}
             <h1>There is nothing here</h1>
             <p>If you got here from a link, this note is probably not made public</p>
-            <a href="/">Go back home</a>
+            <div class="navigation-links">
+                <a href="javascript:history.back()">Go back</a>
+                <span> or </span>
+                <a href="/">go to home</a>
+            </div>
         </div>
     </body>
 </html>
