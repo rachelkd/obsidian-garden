@@ -248,6 +248,10 @@ body {
 			flex-shrink: 0;
 		}
 
+		.callout-content {
+			background-color: var(--callout-content-background);
+		}
+
 		&.is-collapsible {
 			.callout-content {
 				overflow: hidden;
