@@ -607,6 +607,10 @@ module.exports = function (eleventyConfig) {
         },
     });
 
+    eleventyConfig.addFilter('splitPath', function (str) {
+        return str.split('/').filter(Boolean);
+    });
+
     userEleventySetup(eleventyConfig);
 
     return {

@@ -1,0 +1,25 @@
+{% if settings.dgShowBreadcrumbs !== false %}
+  {% set cleanPath = page.filePathStem | replace("^/*notes/", "") %}
+  <nav class="breadcrumbs" aria-label="breadcrumbs">
+    <ol>
+      <li><a href="/" aria-label="Home"><i icon-name="home"></i></a></li>
+      {% if cleanPath %}
+        {% set segments = cleanPath | splitPath %}
+        {% for segment in segments %}
+          {% if (segment.startsWith('CSC') or segment.startsWith('HPS') or segment.startsWith('MAT') or segment.startsWith('STA')) and segment.length >= 6 %}
+            <li>
+              <span class="separator">/</span>
+              {% set sluggedSegment = segment | lower | replace("csc", "csc-") | replace("hps", "hps-") | replace("mat", "mat-") | replace("sta", "sta-") %}
+              <a href="/academia/{{ sluggedSegment }}/{{ sluggedSegment }}/">{{ segment }}</a>
+            </li>
+          {% elif loop.last and segments.length > 1 %}
+            <li>
+              <span class="separator">/</span>
+              <span class="current">{{ title if title else segment | replace("-", " ") }}</span>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ol>
+  </nav>
+{% endif %} 
