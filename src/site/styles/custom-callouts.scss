@@ -1,0 +1,43 @@
+.callout[data-callout="course-info"] {
+    --callout-icon: lucide-graduation-cap;
+    --callout-color: 229, 202, 242;
+}
+
+.callout[data-callout="def"] {
+    --callout-icon: lucide-bookmark;
+    --callout-color: 191, 232, 191;
+}
+
+.callout[data-callout="thm"] {
+    --callout-icon: lucide-arrow-down-right;
+    --callout-color: 255, 218, 117;
+}
+
+.callout[data-callout="habits"] {
+    --callout-icon: lucide-atom;
+    --callout-color: 255, 179, 71;
+}
+
+.callout[data-callout="heart"] {
+    --callout-icon: lucide-heart;
+    --callout-color: 236, 147, 147;
+}
+
+.callout[data-callout="obs"] {
+    --callout-icon: lucide-eye;
+    --callout-color: 235, 204, 255;
+}
+
+.callout[data-callout="goal"] {
+    --callout-icon: lucide-goal;
+    --callout-color: 255, 163, 102;
+}
+
+.callout[data-callout="idea"] {
+    --callout-icon: lucide-message-circle-heart;
+    --callout-color: 184, 221, 234;
+}
+
+.callout-title-inner {
+    color: var(--text-normal);
+} 

@@ -1,5 +1,7 @@
-/* List Callouts */
+/* Imports */
 @use 'list-callouts';
+@use 'custom-callouts';
+@use 'fonts';
 
 body {
 	/***
@@ -7,6 +9,7 @@ body {
 	    IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
 	   ***/
 
+	/* Base Variables */
 	--heading-padding: 8px;
 	--sidebar-width: 300px;
 	font-size: 14px !important;
@@ -14,7 +17,7 @@ body {
 	font-feature-settings: var(--sans-font-features);
 	--list-spacing: 0.2em;
 
-	// Base button styles
+	/* Base Button Styles */
 	.mobile-toggle, .sidebar-toggle, .sidebar-lock-close {
 		display: flex;
 		background: var(--background-primary);
@@ -34,7 +37,7 @@ body {
 		}
 	}
 
-	// Specific button positions
+	/* Sidebar Styles */
 	.mobile-toggle, .sidebar-toggle {
 		position: fixed;
 		top: 90px;
@@ -133,16 +136,18 @@ body {
 		}
 	}
 
-	// Ensure tooltips appear above sidebar
+	/* Tooltip Styles */
 	#tooltip-wrapper {
 		z-index: 1002;
 	}
 
+	/* Content Styles */
 	.content {
 		max-width: 1000px;
 		margin: auto;
 	}
 
+	/* Media Queries */
 	@media (min-width: 801px) {
 		.mobile-toggle {
 			display: none !important;
@@ -203,9 +208,10 @@ body {
 		}
 	}
 
+	/* Typography Styles */
 	h1, h2, h3, h4, h5, h6 {
-		padding-top: var(--heading-padding); // Apply local padding to top
-		padding-bottom: --heading-padding; // Apply local padding to bottom
+		padding-top: var(--heading-padding);
+		padding-bottom: var(--heading-padding);
 	}
 
 	.right-align {
@@ -217,12 +223,12 @@ body {
 		font-family: 'JetBrains Mono', 'Cascadia Code', monospace !important;
 		font-feature-settings: var(--mono-font-features);
 	}
+
 	#tooltip-content {
 		text-shadow: none !important;
 	}
 
-
-	/* Custom Callouts */
+	/* Callout Base Styles */
 	.callout {
 		.callout-title {
 			display: flex;
@@ -271,46 +277,6 @@ body {
 				}
 			}
 		}
-	}
-
-	.callout[data-callout="course-info"] {
-		--callout-icon: lucide-graduation-cap;
-		--callout-color: 229, 202, 242;
-	}
-
-	.callout[data-callout="def"] {
-		--callout-icon: lucide-bookmark;
-		--callout-color: 191, 232, 191;
-	}
-
-	.callout[data-callout="thm"] {
-		--callout-icon: lucide-arrow-down-right;
-		--callout-color: 255, 218, 117;
-	}
-
-	.callout[data-callout="habits"] {
-		--callout-icon: lucide-atom;
-		--callout-color: 255, 179, 71;
-	}
-
-	.callout[data-callout="heart"] {
-		--callout-icon: lucide-heart;
-		--callout-color: 236, 147, 147;
-	}
-
-	.callout[data-callout="obs"] {
-		--callout-icon: lucide-eye;
-		--callout-color: 235, 204, 255;
-	}
-
-	.callout[data-callout="goal"] {
-		--callout-icon: lucide-goal;
-		--callout-color: 255, 163, 102;
-	}
-
-	.callout[data-callout="idea"] {
-		--callout-icon: lucide-message-circle-heart;
-		--callout-color: 184, 221, 234;
 	}
 
 	.callout-title-inner {
