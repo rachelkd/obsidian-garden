@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-01-24T17:21:25.909-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-01-24T19:19:47.117-05:00"}
 ---
 
 
@@ -80,3 +80,16 @@ See [[100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals\|Iter
 >  & = 576 \text{ gm}
 > \end{align}
 > $$
+
+> [!thm]+ Volume
+> - The **volume** of the solid region $W$ is given by the triple integral
+> $$
+> \int_{W} 1 \, dV
+> $$
+
+> [!thm]+ Density
+> - If $\rho(x,y,z)$ is **density**, then
+>     $$
+>     \int_{W}\rho\,dV
+>     $$
+> is the **total quantity** in the solid region $W$.
