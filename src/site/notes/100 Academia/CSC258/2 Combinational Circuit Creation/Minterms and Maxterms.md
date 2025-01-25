@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:28:30.309-05:00","updated":"2025-01-21T19:38:51.542-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:28:30.309-05:00","updated":"2025-01-23T20:59:11.243-05:00"}
 ---
 
 
@@ -181,11 +181,13 @@ Recall from earlier:
 
 ### Example. SOM with $Y = m_{2} + m_{6} + m_{7} + m_{10}$
 
-#todo
+![](https://i.imgur.com/3I29Rh5.png)
 
 ### Example. POM with $Y = M_{3} \cdot M_{5} \cdot M_{7} \cdot M_{10} \cdot M_{14}$
 
-## Converting Some to Gates
+![](https://i.imgur.com/h1QszuK.jpeg)
+
+## Converting SOM to Gates
 
 > [!tip]+ Once you have a sum-of-minterms expression, it is easy to convert this to the equivalent combination of gates.
 > ![](https://i.imgur.com/oR1Ugnb.png)
