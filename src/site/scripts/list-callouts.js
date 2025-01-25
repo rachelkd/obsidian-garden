@@ -16,7 +16,7 @@ const LIST_CALLOUT_CONFIG = [
     {
         color: '124, 77, 255',
         char: '~',
-        icon: 'lucide-sticky-note',
+        icon: 'lucide-zap',
     },
     {
         color: '0, 184, 212',
