@@ -2,6 +2,7 @@
 @use 'list-callouts';
 @use 'custom-callouts';
 @use 'fonts';
+@use 'copy-code';
 
 body {
 	/***
@@ -281,6 +282,34 @@ body {
 
 	.callout-title-inner {
 		color: var(--text-normal);
+	}
+
+	// Code block copy button
+	pre {
+		position: relative;
+		
+		.copy-code-button {
+			position: absolute;
+			top: 0.5rem;
+			right: 0.5rem;
+			padding: 0.4rem;
+			background: var(--background-secondary);
+			border: 1px solid var(--text-muted);
+			border-radius: 4px;
+			opacity: 0;
+			transition: opacity 0.2s;
+			cursor: pointer;
+			color: var(--text-muted);
+			
+			&:hover {
+				background: var(--background-primary);
+				color: var(--text-normal);
+			}
+		}
+		
+		&:hover .copy-code-button {
+			opacity: 1;
+		}
 	}
 
 }
