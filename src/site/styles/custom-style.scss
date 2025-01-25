@@ -32,7 +32,6 @@ body {
 	.flat {
 		box-shadow: none;
 		background-color: var(--background-primary);
-		// border: 2px solid var(--interactive-normal);
 		transition: background-color 0.2s ease;
 
 		&:hover {
