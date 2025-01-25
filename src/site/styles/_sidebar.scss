@@ -54,6 +54,12 @@
 	transition: transform 0.3s ease;
 	border-left: 1px solid var(--background-secondary);
 
+	.sidebar-lock-close {
+		display: none;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+	}
+
 	&:hover {
 		transform: translateX(0);
 	}
@@ -64,7 +70,8 @@
 		height: 100%;
 
 		.sidebar-lock-close {
-			display: flex;
+			display: block;
+			opacity: 1;
 		}
 	}
 
