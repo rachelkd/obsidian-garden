@@ -7,14 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function closeSidebar() {
         sidebar.classList.remove('active', 'locked');
+        mobileToggle?.classList.remove('active');
         if (!isMobile()) {
-            desktopToggle.style.display = 'block';
+            desktopToggle.style.display = 'flex';
         }
     }
 
     function toggleMobileSidebar() {
         if (isMobile()) {
             sidebar.classList.toggle('active');
+            mobileToggle?.classList.toggle('active');
         }
     }
 
@@ -66,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             desktopToggle.style.display = 'none';
         } else {
             if (!sidebar.classList.contains('locked')) {
-                desktopToggle.style.display = 'block';
+                desktopToggle.style.display = 'flex';
             }
         }
     });

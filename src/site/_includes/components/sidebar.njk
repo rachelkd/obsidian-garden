@@ -1,13 +1,14 @@
 <aside>
-      <button class="mobile-toggle" aria-label="Open sidebar">
+      <button class="mobile-toggle flat" aria-label="Toggle sidebar">
             <i icon-name="menu"></i>
+            <i icon-name="x"></i>
       </button>
-      <button class="sidebar-toggle" aria-label="Lock sidebar">
+      <button class="sidebar-toggle flat" aria-label="Lock sidebar">
             <i icon-name="panel-right"></i>
       </button>
       <div class="sidebar">
             <div class="sidebar-container">
-                  <button class="sidebar-lock-close" aria-label="Unlock sidebar">
+                  <button class="sidebar-lock-close flat" aria-label="Unlock sidebar">
                         <i icon-name="chevrons-right"></i>
                   </button>
                   {% for imp in dynamics.sidebar.top %}
