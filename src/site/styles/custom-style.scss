@@ -59,6 +59,15 @@ body {
 		}
 	}
 
+	/* Timestamps Styles */
+	.timestamps {
+		svg {
+			width: 14px;
+			height: 14px;
+		}
+		font-size: 0.75em;
+	}
+
 	/* Tooltip Styles */
 	#tooltip-wrapper {
 		z-index: 1002;
