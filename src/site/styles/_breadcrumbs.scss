@@ -43,6 +43,12 @@
     }
   }
 
+  .missing-module {
+    color: var(--text-muted);
+    text-decoration: line-through;
+    // font-style: italic;
+  }
+
   .separator {
     color: var(--text-muted);
     margin: 0 0.5rem;

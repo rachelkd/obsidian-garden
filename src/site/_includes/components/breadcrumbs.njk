@@ -5,12 +5,31 @@
       <li><a href="/" aria-label="Home"><i icon-name="home"></i></a></li>
       {% if cleanPath %}
         {% set segments = cleanPath | splitPath %}
+        {% set foundCourse = false %}
         {% for segment in segments %}
           {% if (segment.startsWith('CSC') or segment.startsWith('HPS') or segment.startsWith('MAT') or segment.startsWith('STA')) and segment.length >= 6 %}
+            {% set foundCourse = true %}
+            {% set sluggedSegment = segment | lower | replace("csc", "csc-") | replace("hps", "hps-") | replace("mat", "mat-") | replace("sta", "sta-") %}
             <li>
               <span class="separator">/</span>
-              {% set sluggedSegment = segment | lower | replace("csc", "csc-") | replace("hps", "hps-") | replace("mat", "mat-") | replace("sta", "sta-") %}
               <a href="/academia/{{ sluggedSegment }}/{{ sluggedSegment }}/">{{ segment }}</a>
+            </li>
+          {% elif foundCourse and not loop.last %}
+            <li>
+              <span class="separator">/</span>
+              {% set moduleSlug = segment | lower | replace(" ", "-") %}
+              {% set modulePath = "/academia/" + sluggedSegment + "/" + moduleSlug + "/" + moduleSlug + "/" %}
+              {% set moduleExists = false %}
+              {% for item in collections.all %}
+                {% if item.url == modulePath %}
+                  {% set moduleExists = true %}
+                {% endif %}
+              {% endfor %}
+              {% if moduleExists %}
+                <a href="{{ modulePath }}">{{ segment }}</a>
+              {% else %}
+                <span class="missing-module">{{ segment }}</span>
+              {% endif %}
             </li>
           {% elif loop.last and segments.length > 1 %}
             <li>
