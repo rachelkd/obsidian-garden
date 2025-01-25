@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 Fundamental Concepts/Arrays (PCRS).md","permalink":"/academia/csc-209/1-fundamental-concepts/arrays-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-13T02:30:18.549-05:00","updated":"2025-01-24T21:15:27.751-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Arrays (PCRS).md","permalink":"/academia/csc-209/2-basic-features-of-c/arrays-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-13T02:30:18.549-05:00","updated":"2025-01-25T02:46:14.120-05:00"}
 ---
 
 
