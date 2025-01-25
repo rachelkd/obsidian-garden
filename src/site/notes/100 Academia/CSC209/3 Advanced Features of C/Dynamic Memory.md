@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Dynamic Memory.md","permalink":"/academia/csc-209/3-advanced-features-of-c/dynamic-memory/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:46:40.717-05:00","updated":"2025-01-24T21:15:44.579-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Dynamic Memory.md","permalink":"/academia/csc-209/3-advanced-features-of-c/dynamic-memory/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:46:40.717-05:00","updated":"2025-01-24T23:22:59.492-05:00"}
 ---
 
 
@@ -113,8 +113,8 @@ int main () {
 ## Allocating Memory on the Heap
 
 > [!summary]+
-> - `malloc` allocates memory on the [[Heap Memory\|heap]], which persists beyond the function’s scope.
-> - Memory for pointers is allocated on the [[Stack Memory\|stack]], but the memory they point to (allocated by `malloc`) is on the heap.
+> - `malloc` allocates memory on the *heap*, which persists beyond the function’s scope.
+> - Memory for pointers is allocated on the *stack*, but the memory they point to (allocated by `malloc`) is on the heap.
 > - `sizeof(int) * max_val` ensures the correct amount of memory is allocated, regardless of the machine’s integer size.
 
 - Create an array storing squares of integers from 1 to `max_val`
