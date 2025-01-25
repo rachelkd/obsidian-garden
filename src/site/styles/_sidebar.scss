@@ -55,9 +55,10 @@
 	border-left: 1px solid var(--background-secondary);
 
 	.sidebar-lock-close {
-		display: none;
+		display: block;
 		opacity: 0;
-		transition: opacity 0.3s ease;
+		visibility: hidden;
+		transition: opacity 0.3s ease, visibility 0.3s ease;
 	}
 
 	&:hover {
@@ -70,8 +71,8 @@
 		height: 100%;
 
 		.sidebar-lock-close {
-			display: block;
 			opacity: 1;
+			visibility: visible;
 		}
 	}
 
