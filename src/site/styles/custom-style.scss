@@ -116,7 +116,7 @@ body {
 	.callout {
 		.callout-title {
 			display: flex;
-			align-items: center;
+			align-items: flex-start;
 			justify-content: space-between;
 			gap: 8px;
 		}
@@ -124,8 +124,14 @@ body {
 		.callout-title-group {
 			display: flex;
 			align-items: center;
-			gap: 4px;
+			gap: 8px;
 			flex: 1;
+		}
+
+		.callout-icon {
+			display: inline-flex;
+			align-self: flex-start;
+			padding-top: 2px;
 		}
 
 		.callout-fold {
