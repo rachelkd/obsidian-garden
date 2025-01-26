@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/Priority Queue and Heaps.md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-01-22T23:16:00.806-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-01-22T23:16:00.806-05:00"}
 ---
 
 
