@@ -94,8 +94,14 @@ body {
 
 	/* Typography Styles */
 	h1, h2, h3, h4, h5, h6 {
-		padding-top: var(--heading-padding);
-		padding-bottom: var(--heading-padding);
+		padding: var(--heading-padding) 0 !important;
+		scroll-margin-top: calc(var(--navbar-height) + 2rem);
+		transition: background-color 0.3s ease-in-out;
+		
+		&.referred {
+			background-color: var(--text-highlight-bg);
+			border-radius: var(--radius-s);
+		}
 	}
 
 	.right-align {
