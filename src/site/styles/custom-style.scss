@@ -20,6 +20,15 @@ body {
 	font-weight: 400;
 	font-feature-settings: var(--sans-font-features);
 	--list-spacing: 0.2em;
+	--font-text: -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--font-default: -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h1-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h2-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h3-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h4-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h5-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h6-font: 'New York', -apple-system-ui-serif, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	font-family: var(--font-text);
 
 	/* Navbar Positioning */
 	.navbar {
