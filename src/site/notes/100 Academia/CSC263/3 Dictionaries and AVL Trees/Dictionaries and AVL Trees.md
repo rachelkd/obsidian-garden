@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-01-24T21:15:17.048-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-01-25T13:35:21.113-05:00"}
 ---
 
 
@@ -167,7 +167,6 @@
 > - If $BF[m] = 0$, $m$ is *balanced*
 
 > [!impl]+ In AVL trees, we will store $BF[m]$ in each node $m$
-
 > - When we draw:
 >     - Put a $+, -,$ or $0$ next to each node
 >     - Indicates node balance factor is $+1, -1,$ or $0$ respectively
