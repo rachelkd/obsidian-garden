@@ -77,6 +77,10 @@ function initListCallouts() {
             calloutConfig.color
         );
 
+        // Create content wrapper span
+        const contentWrapper = document.createElement('span');
+        contentWrapper.className = 'list-callout__content';
+
         // Create marker if icon exists
         if (calloutConfig.icon) {
             const marker = document.createElement('span');
@@ -85,7 +89,7 @@ function initListCallouts() {
                 'lucide-',
                 ''
             )}"></i>`;
-            lineWrapper.appendChild(marker);
+            contentWrapper.appendChild(marker);
         }
 
         // Find the index of the first non-whitespace character
@@ -99,9 +103,12 @@ function initListCallouts() {
         // Move all first line content into the wrapper
         firstLineContent.forEach((node) => {
             if (node.parentNode === li) {
-                lineWrapper.appendChild(node);
+                contentWrapper.appendChild(node);
             }
         });
+
+        // Add the content wrapper to the line wrapper
+        lineWrapper.appendChild(contentWrapper);
 
         // Add the line wrapper to the li
         if (nestedList) {
