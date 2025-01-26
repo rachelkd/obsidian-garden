@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-01-26T14:40:37.858-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-01-26T15:01:54.468-05:00"}
 ---
 
 
@@ -109,9 +109,8 @@ Example of a **prudential** reason:
 
 ### The Last Man
 
+> [!quote]+ Routley (1973, p. 207)
 > “The last man (or person) surviving the collapse of the world system lays about him, eliminating, as far as he can, every living thing, animal or plant (but painlessly if you like, as at the best abattoirs). What he does is quite permissible according to basic chauvinism \[that is, anthropocentrism], but on environmental grounds what he does is wrong. Moreover one does not have to be committed to esoteric values to regard Mr. Last Man as behaving badly.”
->
-> (Routley, 1973, p. 207)
 
 > [!summary]+ The Last Man Thought Experiment
 > - Knows they are the last and there will be no more humans after
