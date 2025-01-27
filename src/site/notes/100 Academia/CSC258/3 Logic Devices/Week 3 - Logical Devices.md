@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Week 3 - Logical Devices.md","permalink":"/academia/csc-258/3-logic-devices/week-3-logical-devices/","tags":["cs","lecture","note","university"],"created":"2025-01-20T13:37:48.388-05:00","updated":"2025-01-24T23:53:47.620-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Week 3 - Logical Devices.md","permalink":"/academia/csc-258/3-logic-devices/week-3-logical-devices/","tags":["cs","lecture","note","university"],"created":"2025-01-20T13:37:48.388-05:00","updated":"2025-01-26T20:29:48.670-05:00"}
 ---
 
 
@@ -23,7 +23,7 @@
 > - Any circuit where the outputs rely strictly on the inputs
 >     - Everything that we have done so far is all combinational logic
 
-- Another category is **[[Sequential Circuits\|sequential circuits]]**
+- Another category is **[[100 Academia/CSC258/4 Sequential Circuits/Week 4 - Sequential Circuits\|sequential circuits]]**
 
 ## More Karnaugh Maps
 
