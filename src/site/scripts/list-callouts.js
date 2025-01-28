@@ -7,6 +7,7 @@ const LIST_CALLOUT_CONFIG = [
     {
         color: '255, 145, 0',
         char: '@',
+        icon: 'lucide-target',
     },
     {
         color: '255, 23, 68',
@@ -36,7 +37,7 @@ const LIST_CALLOUT_CONFIG = [
     {
         color: '137, 110, 185',
         char: '$',
-        icon: 'lucide-quote',
+        icon: 'lucide-eye',
     },
 ];
 
