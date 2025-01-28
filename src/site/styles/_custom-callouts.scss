@@ -38,6 +38,11 @@
     --callout-color: 184, 221, 234;
 }
 
+.callout[data-callout="impl"] {
+    --callout-icon: lucide-wrench;
+    --callout-color: 255, 189, 189;
+}
+
 .callout-title-inner {
     color: var(--text-normal);
 } 
