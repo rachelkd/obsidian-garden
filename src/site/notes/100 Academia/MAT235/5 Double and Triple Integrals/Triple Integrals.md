@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-01-24T19:19:47.117-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-01-27T04:09:54.125-05:00"}
 ---
 
 
@@ -41,12 +41,14 @@ See [[100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals\|Iter
 > $$
 > where $y$ and $z$ are treated as constants in the innermost ($dx$) integral, and $z$ is treated as a constant in the middle ($dy$) integral.
 >
-> - Other orders of integration are possible
+> - Five other orders of integration are possible
 
 > [!info]+ Limits on Triple Integrals
 > - Limits for *outer* integral are ==constants==
 > - Limits for *middle* integral can involve only ==one== variable — that in the ==outer integral==
 > - Limits for the inner integral can involve ==two== variables — those in the two outer integrals
+
+From lecture:
 
 > [!thm]+ Three cases
 >
@@ -65,6 +67,12 @@ See [[100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals\|Iter
 >
 > > [!summary]+ III. Exchange roles of $y, z$ in I.
 > > ![|400](https://i.imgur.com/OWtOYOQ.png)
+
+That is, if a solid region $W$ is *above* the graph of $z = g(x, y)$ and *below* $z = h(x, y)$ with $(x, y)$ lying inside the region $R$ in the $xy$-plane, then
+$$
+\int_{W} f \, dV = \int \int \int_{g(x, y)}^{h(x, y)} f(x,y,z) \, dz \, dy \, dz
+$$
+This is the definition given in the textbook.
 
 > [!example]+ A cube $C$ has sides of length 4 cm and is made of a material of variable density. If one corner is at the origin and the adjacent corners are on the positive $x, y, z$ axes, then the density at the point $(x, y, z)$ is $\delta(x, y, z) = 1 + xyz$ gm/cm$^{3}$. Find the mass of the cube
 >
