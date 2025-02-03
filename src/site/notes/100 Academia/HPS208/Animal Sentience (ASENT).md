@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Animal Sentience (ASENT).md","permalink":"/academia/hps-208/animal-sentience-asent/","tags":["hps","lecture","note","university"],"created":"2025-01-17T22:55:15.158-05:00","updated":"2025-01-26T04:03:06.145-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Animal Sentience (ASENT).md","permalink":"/academia/hps-208/animal-sentience-asent/","tags":["hps","lecture","note","university"],"created":"2025-01-17T22:55:15.158-05:00","updated":"2025-02-03T01:10:00.095-05:00"}
 ---
 
 
@@ -106,7 +106,7 @@
 ### Criteria of Sentience
 
 - Consider what sentience could look like from a neurological standpoint
-- One possible topics for [[Critical Response\|critical response]] is to pick one or small set of criteria
+- One possible topics for [[100 Academia/HPS208/Critical Response\|critical response]] is to pick one or small set of criteria
     - Explain why it should be modified in some ways
     - Maybe not necessary; maybe needs to be stronger
     - Policy paper; recommendations for changes in animal law specifically in the UK
@@ -132,6 +132,8 @@
 > 6. Flexible self-protective behaviours in response to injury and threat
 > 7. Associative learning that goes beyond habituation and sensitization
 > 8. Behaviour that shows the animal values local anaesthetics or analgesics when injured
+{ #648b51}
+
 
 #### Neurological Criteria
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-01-26T22:15:59.802-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-01-30T01:15:32.768-05:00"}
 ---
 
 
@@ -373,7 +373,7 @@ Max-Heapify (A, i)
     if l <= A.heapsize and A[l] > A[i]
         largest = l  // Index of largest element is left child
     else
-        largest = l  // Out of parent and left child, parent is larger
+        largest = i  // Out of parent and left child, parent is larger
     if r <= A.heapsize and A[r] > A[largest]
         largest = r  // Right child has largest value
     if largest != i
