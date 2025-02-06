@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/Introduction and Analyzing Running Time (Course Notes).md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/introduction-and-analyzing-running-time-course-notes/","tags":["cs","lecture","note","university"],"created":"2025-01-11T15:32:18.979-05:00","updated":"2025-01-22T23:08:44.153-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/Introduction and Analyzing Running Time (Course Notes).md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/introduction-and-analyzing-running-time-course-notes/","tags":["cs","lecture","note","university"],"created":"2025-01-11T15:32:18.979-05:00","updated":"2025-01-31T02:33:27.727-05:00"}
 ---
 
 
@@ -216,7 +216,7 @@ def evens_are_bad(lst):
 
 $$
 \begin{align}
-T_{avg} (n) & = \frac{{2^{n}(n^{2} + n) + (5^{n} 0 2^{n})n}}{5^{n}} && (5^{n} \text{ inputs total}) \\
+T_{avg} (n) & = \frac{{2^{n}(n^{2} + n) + (5^{n} - 2^{n})n}}{5^{n}} && (5^{n} \text{ inputs total}) \\
  & = \frac{2^{n}n^{2}}{5^{n}} + n \\
  & = \left( \frac{2}{5} \right) ^{n} n^{2} + n \\
  & = \Theta (n)
