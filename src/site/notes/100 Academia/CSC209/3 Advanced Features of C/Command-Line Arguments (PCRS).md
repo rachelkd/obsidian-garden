@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Command-Line Arguments (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/command-line-arguments-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:29:40.907-05:00","updated":"2025-01-24T21:15:51.640-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Command-Line Arguments (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/command-line-arguments-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:29:40.907-05:00","updated":"2025-02-04T00:56:57.799-05:00"}
 ---
 
 
@@ -99,7 +99,7 @@ int main(int argc, char **argv) {
 >     argv[1] has the value fee
 >     argv[2] has the value fi
 >     argv[3] has the value fo
->     argv[4] has t~he value fum
+>     argv[4] has the value fum
 >     ```
 
 ## A Worked Example

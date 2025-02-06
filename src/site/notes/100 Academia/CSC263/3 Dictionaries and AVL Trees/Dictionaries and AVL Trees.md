@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-01-30T17:39:39.416-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-05T19:59:24.582-05:00"}
 ---
 
 
@@ -7,10 +7,14 @@
 
 ## Dictionary ADT
 
+- **Dictionary**
+    - A collection of key-value pairs that supports the following operations
+
 > [!def]+ Dictionary ADT
 > - `Insert(S, x)`
->     - Insert both the ==key== and ==value==
+>     - Insert both the ==key== and ==value== pair into the dictionary
 > - `Search(S, k)`
+>     - Return the value corresponding to a given key in the dictionary
 >     - Just the key
 > - `Delete(S, x)`
 >     - Assume that we can directly access the element in the data structure i.e., we have searched for it already
@@ -109,6 +113,63 @@
 
 ### Approach 7: Binary Search Tree
 
+- Can implement Dictionary ADT assuming keys can be ordered
+
+```python title:"BST Implementation of Dictionary ADT"
+def Search(D, key):
+    # Return the value in <D> corresponding to <key>, or None if key does not appear
+    if D is empty:
+        return None
+    else if D.root.key == key:
+        return D.root.value
+    else if D.root.key > key:
+        return Search(D.left, key)
+    else:
+        return Search(D.right, key)
+
+
+def Insert(D, key, value):
+    if D is empty:
+        D.root.key = key
+        D.root.value = value
+    else if D.root.key >= key:
+        Insert(D.left, key, value)
+    else:
+        Insert(D.right, key, value)
+
+
+def Delete(D, key):
+    if D is empty:
+        pass  # Do nothing
+    else if D.root.key == key:
+        D.root = ExtractMax(D.left) or ExtractMin(D.right)  # Get predecessor or successor
+    else if D.root.key > key:
+        Delete(D.left, key)
+    else:
+        Delete(D.right, key)
+```
+
+- All three algorithms are *recursive*
+    - In each one, cost of the *non-recursive* part is $\Theta(1)$
+        - Simply some comparisons, attribute access/modifications
+- → Each algorithm has running time proportional to number of recursive calls made
+    - Each recursive call is made on a tree of height one less than its parent call
+    - → Worst-case the number of recursive calls is $h$
+        - $h$ is the height of the BST
+    - → Upper bound on the worst-case running time of each of these algorithms is $\mathcal{O}(h)$
+        - (Can show that bound is tight)
+- A binary tree of height $h$ can have:
+    - $h$ to $2^{h} - 1$ nodes
+    - → A tree of $n$ nodes can have height $n$
+    - → Worst-case running time of $\mathcal{O}(n)$ for all three algorithms
+        - (Can show that bound is tight)
+- The best case for the height of a tree of $n$ nodes is $\log n$
+    - Would be pretty unlucky to get trees of height $n$
+
+> [!important]+ Motivation
+> - Implement insertion and deletion to keep height small when adding or removing values
+> - ? Can we implement BST insertion and deletion to not only insert/remoove a key, but also keep the tree’s height (relatively) small?
+
 ## AVL Trees
 
 ### Introduction
@@ -143,7 +204,7 @@
 
 ![|400](https://i.imgur.com/FJQbT96.png)
 
-> [!success]+ Good news
+> [!check]+ Good news
 > - Worst case height of AVL tree with $n$ nodes is:
 >     - & $1.44 \log_{2}(n+2)$
 >         - i.e., $h \leq 1.44 \ln (n + 2)$
@@ -160,7 +221,7 @@
 > - Let $h_{R}, h_{L}$ be the heights of the right and left subtrees of a node $m$ in a binary tree respectively.
 > - The **balance factor** of $m$, $BF[m]$, is defined as $$BF[m] = h_{R} - h_{L}$$
 >
-> > [!example]
+> > [!example]-
 > > ![|400](https://i.imgur.com/0QRQF12.png)
 >
 > - For an AVL tree, the balance factor of any node is:
@@ -432,3 +493,155 @@ If subtrees of node $B$ in Figure 2(b) are empty i.e., $h = -1$,
 >     - Only have to change a few pointers
 > 4. Keeps the height of $m$ equal to that node’s height *before* insertion of new node (D.4)
 >     - Height $h + 2$
+
+#### Updating the Balance Factors after Insertion
+
+> [!obs] Observation
+> - Only the balance factors of the new node’s ancestors may need updating
+> - For any other node $i$, $i$‘s left and right subtrees — and their heights — have no changed
+>     - → Balance factor of $i$ has not changed
+> - & Not all of the new node’s ancestors’ balance factors may need updating
+>     - Figure 7(a-b)
+
+![](https://i.imgur.com/ci3JINx.png)
+
+- Insertion of key 8 to the AVL tree in 7(a) results in AVL tree in 7(b)
+    - $ Only BF of 9 (8‘s parent) has changed
+- Insertion of key 8 to AVL tree in 7(c) results in 7(d)
+    - BF of all of 9’s ancestors have changed
+
+#### Insertion Algorithm
+
+![](https://i.imgur.com/0LFpZBE.png)
+
+```pseudocode
+insert as normal BST
+
+walk back from new node towards root:  # Assume i is the parent of the new node:
+    if new node is inserted right, add 1 to BF[i]
+    if new node is inserted left, subtract one from BF[i]
+    
+    if BF[i] becomes zero, then done
+    if BF[i] becomes 1 or -1:
+        don't rotate, but continue up the path and repeat
+    if BF[i] becomes 2 or -2:
+        do the rotation (R, L, LR, RL) and then done
+```
+
+![|484](https://i.imgur.com/aBkgzhm.png)
+
+> [!question]+ How many rotations in the worst case?
+> - 1 single or 1 double rotation
+
+> [!important] Insertion takes $\log n$ worst-case time.
+
+### Deletion
+
+To delete a key $x$ from AVL tree $T$:
+
+- Locate the node $n$ where $x$ is stored
+    - Can be done using algorithm for `Search`
+    - If no such node exists, we are done
+        - Nothing to delete
+- Otherwise, we have *three* cases
+
+> [!summary]+ Three cases for tree deletion
+> 1. $n$ is a leaf
+> 2. $n$ is a node with only *one* child
+> 3. $n$ has *two* children
+
+#### Case 1. $n$ is a Leaf
+
+- Simply remove it
+- May cause tree to not be height-balanced
+    - → May need to rebalance
+- Also have to ==update== BFs of some nodes
+
+#### Case 2. $n$ is a Node with only One Child
+
+- Let $n'$ be $n$‘s only child
+    - % $n'$ must be a leaf
+        - Otherwise, subtree rooted at $n$ would not have been height-balanced before deletion
+- Copy the key stored at $n'$ into $n$
+- Remove $n'$ as in case (1)
+    - $\because$ It must be a leaf (as we just argued)
+
+#### Case 3. $n$ Has Two Children
+
+- Find the smallest key in $n$’s right subtree
+    - Key is the smallest key in $T$ larger than the key stored in $n$
+        - By BST property
+    - To find this key:
+        - Go to $n$‘s right child
+        - Follow the longest chain of left child pointers until we get to node $n'$ that has no left child
+- Copy key stored in $n'$
+- Remove $n'$ from the tree
+    - As in Case (1), if $n'$ does not have a right child either, or
+    - As in Case (2), if $n'$ has only a right child
+
+#### Rebalancing an AVL Tree after Deleting a Leaf
+
+- Deletion of a leaf $n$ will cause the tree to become unbalanced in one of two cases:
+    - & It reduces the height of the right subtree of a left heavy node; or,
+    - & It reduces the height of the left subtree of a right heavy node
+- Both cases are *symmetric*
+
+![|859](https://i.imgur.com/ukET2lg.png)
+
+Consider case (a).
+
+> [!info] There are ==two== ways case (a) could arise.
+> 1. If the balance factor of $B$ is 0 or -1
+>     - i.e., Height of $T_{2}$ is $h + 1$ or $h$
+>     - After rotation: Balance factors of $B$ and $A$ will be $+1$ or $0$, and $-1$ or $0$
+>
+> ![|500](https://i.imgur.com/sHjVqM5.png)
+>
+> 2. If the balance factor of $B$ is +1
+>     - i.e., $A$ is *left*-heavy, and $B$ is *right*-heavy
+>
+> ![|500](https://i.imgur.com/ZvtKZTk.png)
+>
+> - % Balance factors of nodes that have a label of the form “$*/*/*$” depend on the heights of $T_{21}, T_{22}$
+>     - Note that *at least one* of these subtrees must have height $h$
+>         - Other one can have height $h - 1$ or $h$
+>     1. First entry of label indicates: Balance factor in the event $T_{21}$ has height $h - 1$ and $T_{22}$ has height $h$
+>     2. Second: BF in the event both trees have height $h$
+>     3. Third: BF when $T_{21}$ has height $h$ and $T_{22}$ has height $h - 1$
+
+> [!summary]+ Deletion Rebalance Properties
+> 1. They rebalance the subtree rooted at $m$.
+>     - So the subtree becomes height-balanced again
+> 2. They maintain the BST property.
+> 3. They can be done in ==constant== time by simply manipulating a few pointers.
+> 4. They *may decrease* the height of the subtree rooted at $m$, compared to the height of the subtree before the deletion.
+
+- In insertion:
+    - One rotation always rebalances the subtree
+    - By maintaining height of that subtree, it rebalances the entire tree
+- In deletion:
+    - Rotation balances the subtree, but
+    - ! Height may decrease
+        - Balance factor of nodes higher up (closer to root) may change as a result
+        - May have to go on rotating subtrees all the way up to the root in order to rebalance entire tree
+    - & May have to do as many as $\mathcal{O}(\log n)$ rotations
+        - This is acceptable, because one rotation only takes constant time
+
+#### Deletion Algorithm
+
+```pseudocode
+find node p to delete
+
+on route from p back to route at each node i:
+    if BF(i) was previously 0:
+        update BF and exit
+    if BF(i) was previously +1 or -1:
+        if it becomes 0 after deletion, then we shortened tree rooted at i, so continue up path
+    if BF(i) was previously +1 or -1 and change makes it +2 or -2:
+        do appropriate rotation
+        if rotation shortened tree rooted at i, then continue up tree
+        if not, stop
+```
+
+> [!question]+ How many rotations in the worst case?
+> - $\mathcal{O}(h) = \mathcal{O}(\log n)$

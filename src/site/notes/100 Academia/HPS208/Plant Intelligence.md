@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-03T01:39:00.347-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-05T00:17:12.297-05:00"}
 ---
 
 
