@@ -41,7 +41,7 @@ const LIST_CALLOUT_CONFIG = [
     },
     {
         color: '255, 168, 168',
-        char: ':',
+        char: ';',
         icon: 'lucide-quote',
     },
 ];
