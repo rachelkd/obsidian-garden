@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T04:06:31.811-05:00","updated":"2025-02-03T16:56:34.152-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T04:06:31.811-05:00","updated":"2025-02-04T04:52:01.611-05:00"}
 ---
 
 
@@ -129,7 +129,7 @@ int main() {
     char greet1[10] = "hello";
     
     char *greet2 = malloc(sizeof(char) * 10);
-    strncpy(greet2, greet1, 10)
+    strncpy(greet2, greet1, 10);
     
     const char *greet3 = "hello";  // greet3 points to "hello" in read-only memory
 }
@@ -139,13 +139,13 @@ int main() {
 - String literals are in ==read-only== memory
 - `const` tells the compiler to never modify `*greet3`
 
-| Variable | Variable Location | Data Location    | Modifiable?            | Notes                                                                                                                                                                 |
-| -------- | ----------------- | ---------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `str1`   | Stack             | Stack            | Yes (entire array)     | Explicitly initialized as a stack array.                                                                                                                              |
-| `str2`   | Stack             | Stack            | Yes (entire array)     | Initialized with a string literal *copied* to the stack.                                                                                                              |
-| `greet1` | Stack             | Stack            | Yes (entire array)     | Fixed-size stack array (`char[10]`). Unused elements are zero-initialized.                                                                                            |
-| `greet2` | Stack             | Heap             | Yes (heap data)        | Pointer (`char*`) on the stack, points to heap memory allocated via `malloc`. Must be `free`d to avoid leaks. The code has a missing semicolon (`;`) after `strncpy`. |
-| `greet3` | Stack             | Read-only memory | No (data is immutable) | Pointer (`const char*`) on the stack, points to a string literal in read-only memory. Modifying the data causes undefined behaviour (e.g., segmentation fault).       |
+| Variable | Variable Location | Data Location    | Modifiable?            | Notes                                                                                                                                                           |
+| -------- | ----------------- | ---------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `str1`   | Stack             | Stack            | Yes (entire array)     | Explicitly initialized as a stack array.                                                                                                                        |
+| `str2`   | Stack             | Stack            | Yes (entire array)     | Initialized with a string literal *copied* to the stack.                                                                                                        |
+| `greet1` | Stack             | Stack            | Yes (entire array)     | Fixed-size stack array (`char[10]`). Unused elements are zero-initialized.                                                                                      |
+| `greet2` | Stack             | Heap             | Yes (heap data)        | Pointer (`char*`) on the stack, points to heap memory allocated via `malloc`. Must be `free`d to avoid leaks.                                                   |
+| `greet3` | Stack             | Read-only memory | No (data is immutable) | Pointer (`const char*`) on the stack, points to a string literal in read-only memory. Modifying the data causes undefined behaviour (e.g., segmentation fault). |
 
 ## Size and Length
 
@@ -272,7 +272,7 @@ int main() {
     // Option 3: source might have more space allocated for it than dest
     strncpy(dest, source, sizeof(source));
     
-    // Option 4: dest might not be null terminated, but we will not overwrite the end
+    // Option 4: doesn't leave space for the null terminator; dest might not be null terminated, but we will not overwrite the end
     strncpy(dest, source, sizeof(dest));
     
     // Option 5: Same as 4

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-01T17:23:39.857-05:00","updated":"2025-02-03T04:56:14.116-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-01T17:23:39.857-05:00","updated":"2025-02-04T22:44:10.845-05:00"}
 ---
 
 
@@ -167,7 +167,7 @@ Also known as airlock model.
 
 #### Positive-Edged Triggered Flip-Flops
 
-![](https://i.imgur.com/0kMGMga.png)
+![|668](https://i.imgur.com/0kMGMga.png)
 
 - More common used
     - Choice for this course
@@ -176,13 +176,13 @@ Also known as airlock model.
 
 ### T Flip-Flop
 
-![](https://i.imgur.com/ZSlW70A.png)
+![|372](https://i.imgur.com/ZSlW70A.png)
 
 - Similar to D flip-flop, except
 - Clock makes it *toggle* whenever $T$ input is high
     - Flip between 0 and 1
 
-![](https://i.imgur.com/SjGnUkq.png)
+![|500](https://i.imgur.com/SjGnUkq.png)
 
 ### JK Flip-Flop
 
