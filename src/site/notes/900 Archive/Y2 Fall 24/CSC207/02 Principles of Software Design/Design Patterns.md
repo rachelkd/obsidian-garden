@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2024-12-10T22:30:01.063-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-10-24T19:28:27.986-04:00","updated":"2025-02-06T17:51:40.801-05:00"}
 ---
 
 
 > [!question]+ Questions to be answered this week
+>
 > 1. What is a design pattern?
 > 2. What are the three categories of design patterns we will cover?
 > 3. For each of the following design patterns: Dependency Injection, Builder, Strategy, Observer, Adapter, Façade
@@ -15,6 +16,7 @@
 # Design Patterns
 
 > [!def]+ Design Pattern
+>
 > - A general description of the solution to a well-established problem
 > - Every design pattern is aimed at solving a design problem
 >     - e.g., Maybe code is too dependent; how do you break this?
@@ -32,12 +34,14 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 > [!goal]+ Two goals of object-oriented design
 >
 > > [!def]- Coupling
+> >
 > > - The interdependencies between objects
 > > - Fewer couplings → Better $\implies$ Can test and modify each piece independently
 > > - If you have a complex object graph where there are many dependencies → *Highly coupled* → Changing code in one part causes ripple effect across rest of program
 > > - ! Want to avoid this
 >
 > > [!def]- Cohesion
+> >
 > > - How strongly related the parts are inside a class
 > > - About a class
 > >     - A class is *cohesive* if the data and behaviour of these objects makes sense
@@ -61,6 +65,7 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
     - More have been added
 
 > [!summary]+ Book provides an overview of
+>
 > - **Design Pattern Name**
 > - **Problem**
 >     - When to use the pattern
@@ -82,12 +87,15 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 # Design Pattern Categories
 
 > [!def]+ Creational
+>
 > - Patterns related to how we *create* instances of our classes
 
 > [!def]+ Behavioural
+>
 > - Patterns related to how instances of our classes *communicate*
 
 > [!def]+ Structural
+>
 > - Patterns related to how classes can naturally *fit* together
 >     - While obeying SOLID principles
 
@@ -104,6 +112,7 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 ## Dependency Injection
 
 > [!def]+ ==Dependency== relationship between two classes
+>
 > - i.e., “using” relationship
 > - ==One class has an instance variable or uses a parameter of another class==
 >     - One class depends on another
@@ -111,16 +120,19 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 >     - e.g., A class `Course` may depend on a class `Student` because a `Course` contains instances of class `Student`
 
 > [!def]+ Dependency Injection Design Pattern
+>
 > - A design pattern where dependencies are provided to a class from the outside rather than created inside the class
 > - Reduces coupling by removing hard dependencies
 > - Allows for greater flexibility and easier testing by enabling different implementations to be “injected”
 >
 > > [!warning]+ Problem
+> >
 > > - We are writing a class, and we need to assign values to the instance variables, but we do not want to introduce a **hard dependency**
 
 ### Dependency Injection Example
 
 > [!def]+ Hard Dependency
+>
 > - Using operator `new` inside first class can create an instance of a second class that cannot be used nor tested independently
 
 #### Before
@@ -128,7 +140,7 @@ More about patterns in CSC301 (Intro to Software Engineering) and CSC302 (Engine
 ```java title:"Example. Hard Dependency"
 public class Course {
     private List<Student> students = new ArrayList<>();
-    
+
     public Course(List<String> studentsNames) {
         for (String name: studentNames) {
             Student student = new Student(name);
@@ -144,26 +156,29 @@ public class Course {
 - ! Hard dependency prevents you from writing subclasses of `Student` and injecting it
 
 > [!warning]+ Problem
+>
 > - We are writing a class, and we need to assign values to the instance variables, but we do not want to introduce a **hard dependency**
 
 #### After
 
 > [!success]+ Solution
+>
 > - Create the `Student` objects *outside* and *inject* them into `Course`
 > - $\implies$ Allows subclasses of `Student` to be injected into `Course`
 
 > [!def]+ Inject
+>
 > - Pass in as a parameter to a constructor or a setter or adder
 
 ```java title:"Example. Dependency Injection"
 public class Course {
     private List<Student> students = new ArrayList<>();
-    
+
     // Student objects are created outside the Course class and injected here.
     public add(Student s) {
         this.students.add(s);
     }
-    
+
     // We might also inject all of them at once.
     public addAll(List<Student> studentsToAdd) {
         this.students.addAll(studentsToAdd);
@@ -197,13 +212,16 @@ public class Course {
 > [!def]+ ==Simple Factory== Design Pattern
 >
 > > [!warning]+ Problem
+> >
 > > - One class wants to interact with many possible related objects
 >
 > > [!check]+ Solution
+> >
 > > - We want to obscure the creation process for these related objects
 > > - Later, we might want to change the types of the objects we are creating → Avoid hard dependencies
 
 > [!summary]+ Paul’s Analogy
+>
 > - Let’s say you are building a car in a factory. You also want to build the car manual.
 > - Volkswagen does this all in one piece of software; Don’t want to rewrite software every time they make a car
 > - Want to repurpose the Factory:
@@ -230,10 +248,12 @@ public class Course {
 ### Factory: In Practice
 
 > [!question]+ What do we gain by having the factory be responsible for creating instances of objects for us?
+>
 > - Factory’s sole responsibility is to build these objects
 > - Taking away responsibility of construction from these objects themselves
 
 > [!question]+ Is it still a “Factory” if the method only returns instances of one class (e.g., `Rectangle`) and not instances of a subclass?
+>
 > - i.e., Is it still a Factory if we replace a `ShapeFactory` with a `RectangleFactory`, where the `Rectangle` class has no subclasses?
 > - Is it still useful to replace `ShapeFactory` with `RectangleFactory` if all we need are `Rectangle` objects
 
@@ -251,9 +271,11 @@ public class Course {
 > [!def]+ ==Builder== Design Pattern
 >
 > > [!warning]+ Problem
+> >
 > > - Need to create a complex structure of objects in a step-by-step fashion
 >
 > > [!check]+ Solution
+> >
 > > - Create a `Builder` object that creates the complex structure
 
 ![](https://i.imgur.com/8iFvy4H.png)
@@ -345,14 +367,17 @@ final JFrame application = appBuilder
 ### Builder Design Pattern: In Practice
 
 > [!question]+ Where have we seen builders before?
+>
 > - StringBuilders
 
 > [!question]+ How complicated does an object have to be to require a builder?
+>
 > - If all you have is the `build` method where you only call the constructor and return that thing, then you probably don’t need a builder
 > - Hard to distinguish from a Factory at that point, anyway
 > - ==If there’s a sequence of steps, and you’re allowed to choose which steps you want to include → Use `Builder`==
 
 > [!question]+ Which SOLID principles does the Builder design pattern follow?
+>
 > - SRP:
 >     - ==Responsibility of the Director to choose which features to build==
 >     - ==Responsibility of the Builder to maintain the currently built application and return it at the end==
@@ -366,12 +391,14 @@ final JFrame application = appBuilder
 > [!def]+ Strategy Design Pattern
 >
 > > [!warning]+ Problem
+> >
 > > - Multiple classes ==differ only in how they are implemented==
 > > - i.e., Multiple implementations of the ==same idea==; ==solve the same problem==, but how they do it is different
 > > - High-level logic is same except for which algorithm is being used to solve part of the task
 > > - Other classes may also benefit from code implementing the algorithms, but code is currently *coupled* to the class using a specific algorithm
 >
 > > [!goal]+
+> >
 > > - Want to **decouple** (separate) the implementation of a class from the implementation of the algorithms which it may use
 > > - Want to make more generic so that it can be useful elsewhere as well
 
@@ -385,6 +412,7 @@ final JFrame application = appBuilder
 - Two subclasses: `AuthorInsertion` and `AuthorSelection`
 
 > [!warning]+ Problem: Cannot swap sort class part-way through
+>
 > - Make decision when you build the `Author` class → Constraining and limiting
 
 ### With the Strategy Pattern
@@ -404,16 +432,20 @@ final JFrame application = appBuilder
 ![](https://i.imgur.com/m6ISyns.png)
 
 > [!question]- What was our *context* in the `Author` example?
+>
 > - `Author`
 > - Our strategy was `sort`
 
 > [!def]+ Context
+>
 > - The object that knows which strategy is being used
 
 > [!question]+ What counts as a strategy? Does it have to be an algorithm?
+>
 > - Everything is an algorithm, so yes
 
 > [!question]+ Which of the SOLID principles are followed by this pattern?
+>
 > - SRP
 >     - What we do with the Author is no longer responsible for implementing its own sorting algorithm
 >     - Pushing that work to another object, `Sorter`
@@ -429,12 +461,14 @@ final JFrame application = appBuilder
 > [!def]+ Observer
 >
 > > [!warning]+ Problem
+> >
 > > - Need to maintain consistency between ==related== objects
 > > - Whenever this object changes, it needs to go through and tell all the things that depend on it
 > > - Two aspects: ==one dependent on the other== (**cause and effect**)
 > > - An object should be able to ==*notify* other objects about changes== to itself without making assumptions about who these objects are
 >
 > > [!goal]+
+> >
 > > - You want one object to *listen* for changes in another
 
 ### Old Java Implementation
@@ -453,6 +487,7 @@ final JFrame application = appBuilder
     - Does not need to think about the list of observers → Responsibility of abstract Observable class
 
 > [!question]+ When you set state, what needs to happen?
+>
 > - Let everybody know
 > - In `setState` method, there is going to be a ==call to (inherited) `notifyObservers`==
 > - Will loop through observers and make observers `update` based on new state
@@ -496,6 +531,7 @@ final JFrame application = appBuilder
 ![](https://i.imgur.com/tFDh4ET.png)
 
 > [!info]+ Arrow Types in UML Diagram
+>
 > 1. **Open triangle with dashed line**
 >     - Represents *interface implementation*
 >     - `View` implements the `PropertyChangeListener` interface
@@ -511,6 +547,7 @@ final JFrame application = appBuilder
 >         - Typically means `View` uses `State` in some way (perhaps reading from it) but isn’t responsible for its lifecycle
 >
 > The overall structure shows:
+>
 > - `ViewModel` contains a `PropertyChangeSupport` object
 > - `View` implements `PropertyChangeListener` interface
 > - When state changes, `PropertyChangeSupport` notifies all listeners through their `propertyChange` method
@@ -523,6 +560,7 @@ final JFrame application = appBuilder
     - Similar to the `update` method from deprecated Java implementation
 
 > [!info]+ `PropertyChangeSupport`’s Single Responsibility:
+>
 > - Maintain list of listeners and call their `propertyChange` method
 
 - Rather than extending it like in [[900 Archive/Y2 Fall 24/CSC207/02 Principles of Software Design/Design Patterns#Old Java Implementation\|#Old Java Implementation]], your observable class has an **instance variable** pointing to the code that is *managing* its listeners (`PropertyChangeSupport`)
@@ -536,6 +574,7 @@ final JFrame application = appBuilder
 ### In Practice
 
 > [!question]+ Where have we already seen observers?
+>
 > - In our Clean Architecture implementation:
 >     - `View` observes `ViewModel`
 >     - `ViewModel` notifies `View` of state changes
@@ -544,6 +583,7 @@ final JFrame application = appBuilder
 >     - Event handlers
 
 > [!question]+ Which part(s) of clean architecture can benefit from the observer pattern?
+>
 > - Interface Adapters layer:
 >     - View-ViewModel relationship
 >     - Presenter updating View
@@ -551,6 +591,7 @@ final JFrame application = appBuilder
 > - Particularly useful for updating UI based on data changes
 
 > [!question]+ Why is this a good pattern to implement across a boundary?
+>
 > - Maintains loose coupling between layers
 > - Observable doesn’t need to know details about its observers
 > - Allows for communication across architectural boundaries without violating dependency rules
@@ -563,12 +604,15 @@ final JFrame application = appBuilder
 > [!def]+ Adapter Design Pattern
 >
 > > [!warning]+ Problem
+> >
 > > - Want to reuse a class that already exists, but it does not have the methods (public interface) required by the rest of the program
 >
 > > [!success]+ Solution 1: Use [[900 Archive/Y2 Fall 24/CSC207/00 Java/Inheritance\|Inheritance]]
+> >
 > > - Create a subclass that extends the old class and include the missing methods
 >
 > > [!success]+ Solution 2: Use a **wrapper** and **delegation**
+> >
 > > - Create a container class that has an instance of the old class as a variable
 > > - Rest of the program can call the container’s methods, which then call the old class’ methods
 
@@ -585,6 +629,7 @@ final JFrame application = appBuilder
 ### In Practice
 
 > [!question]+ Which SOLID principles are followed by this pattern?
+>
 > - OCP:
 >     - Can add new code that isn’t compatible by writing one class to do the adapter part
 > - SRP:
@@ -594,6 +639,7 @@ final JFrame application = appBuilder
 >     - Therefore behaves like a RoundPegs
 
 > [!question]+ Where have we seen adapters before?
+>
 > - Real life
 >     - Adapt this USB style into another USB style
 > - Same thing in code
@@ -605,11 +651,13 @@ final JFrame application = appBuilder
 > [!def]+ Façade Design Pattern
 >
 > > [!warning]+ Problem
+> >
 > > - A single class is responsible to multiple *actors*
 > > - We want to encapsulate the code that interacts with individual actors
 > > - We want a simplified interface to a more complex subsystem
 >
 > > [!success]+ Solution
+> >
 > > - Create individual classes that each interact with only one actor
 > > - Create a Façade class that has (roughly) the same responsibilities as the original class
 > > - *Delegate* each responsibility to the individual classes
@@ -647,6 +695,7 @@ public calculateTotal() {
 ### In Practice
 
 > [!question]+ When did we see an example of a Façade? Which SOLID principle was it demonstrating?
+>
 > - Employee Facade in [[900 Archive/Y2 Fall 24/CSC207/02 Principles of Software Design/Solid Design Principles#A Story of Three Actors\|Single Responsibility Principle]]
 
 > [!question]+ How do Facade classes create a boundary within your program?

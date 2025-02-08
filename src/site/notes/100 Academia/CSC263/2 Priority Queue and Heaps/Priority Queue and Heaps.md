@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-01-30T01:15:32.768-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-02-06T17:51:41.210-05:00"}
 ---
 
 
@@ -14,6 +14,7 @@
     - Regardless of when patients arrived at hospital
 
 > [!def]+ Priority Queue
+>
 > - Data:
 >     - A collection of items which each have a ==priority==
 >         - A value from some totally ordered domain — often an integer
@@ -28,6 +29,7 @@
 - Think of Insert as *enqueue* and ExtractMax as *dequeue*
 
 > [!note]+ Insert operation does not check if an item or a priority is already in the collection!
+>
 > - FindMax and ExtractMax both talk about “an item”
 >     - vs. “the item”
 > - If PQ has multiple items with the highest priority:
@@ -84,14 +86,14 @@ def ExtractMax(PQ):
         if maxNode is None or n.priority > maxNode.priority:
             maxNode, prevMaxNode = n, prevNode
         prevNode, n = n, n.next
-    
+
     if prevMaxNode is None:
         # Set head to item after maxNode
         self.head = maxNode.next
     else:
         # Link the node before maxNode to the node after maxNode
         prevMaxNode.next = maxNode.next
-    
+
     return maxNode.item
 ```
 
@@ -125,6 +127,7 @@ def ExtractMax(PQ):
 ![](https://i.imgur.com/2J9kGwm.png)
 
 > [!note]+ Both Python and Java often hide the complexity of operations.
+>
 > - e.g., Appending an element into a Python list: `L.append(x)`
 > - In [[100 Academia/CSC263/CSC263\|CSC263]], we want to write and analyze algorithms from the simple operations that do not depend on hidden complexity
 
@@ -179,11 +182,13 @@ def ExtractMax(PQ):
 - Stored in an ==array==
 
 > [!def]+ Heap
+>
 > - A **heap** is a binary tree that satisfied the *heap property* and is *nearly complete*
 
 ### Nearly Complete Binary Tree
 
 > [!def]+ Nearly complete binary tree
+>
 > - Binary tree
 > - Every row is completely filled except for possibly the lowest row
 > - Lowest row is filled from the left
@@ -202,13 +207,16 @@ def ExtractMax(PQ):
 ### Heap Property
 
 > [!def]+ Heap Property
+>
 > - Two types of heap property
 >
 > > [!thm]- Max Heap
->   > - Value at every node is ==equal to or greater than== the value of its immediate children
+>   >
+> > - Value at every node is ==equal to or greater than== the value of its immediate children
 >
 > > [!thm]- Min Heap
->   > - Value at every node is ==equal to or less than== the value of its immediate children
+>   >
+> > - Value at every node is ==equal to or less than== the value of its immediate children
 
 - Why do we always pick the left child in case of ties? How is that ensuring FIFO order #office-hours
 
@@ -245,15 +253,18 @@ def FindMax(PQ):
 - We obviously need to remove root of the tree
 
 > [!question]+ What do we replace the root with?
+>
 > - Resulting heap must still be complete
 > - Structure must change
 >     - Very last (rightmost) leaf must no longer appear
 > - & Save the root of the tree, and then replace it with the last leaf
 
 > [!note]+ We can still access leaf in ==constant== time because we know the size of the heap
+>
 > - Last leaf is always at the end of the list of items
 
 > [!obs]+ Last leaf priority is smaller than many other priorities
+>
 > - Cannot leave heap like this; violates heap property
 > - → Repeatedly swap the moved value with one of its children until heap property is satisfied once more
 >     - & Choose the *larger* of the two children to ensure that heap property is preserved
@@ -265,14 +276,14 @@ def ExtractMax(PQ):
     temp = PQ[1]  # Save max priority item to return at end
     PQ[1] = PQ[PQ.size]  # Replace root with last leaf
     PQ.size = PQ.size - 1
-    
+
     # Bubble down
     i = 1
     while i * 2 <= PQ.size:  # We stop when there is no left child
         curr_p = PQ[i].priority
         left_p = PQ[2 * i].priority
         right_p = PQ[2 * i + 1].priority  # -inf if not exist
-        
+
         # Heap property is satisfied
         if curr_p >= left_p and curr_p >= right_p:
             break
@@ -290,6 +301,7 @@ def ExtractMax(PQ):
 > [!note] Bubble down is also called **max-heapify**.
 
 > [!summary]+ Running time of `ExtractMax`
+>
 > - All individual lines of code take ==constant== time
 >     - → Runtime is determined by number of loop iterations
 > - At each iteration:
@@ -319,12 +331,12 @@ def Insert(PQ, x, priority):
     PQ.size = PQ.size + 1
     PQ[PQ.size].item = x
     PQ[PQ.size].priority = priority
-    
+
     i = PQ.size
     while i > 1:
         curr_p = PQ[i].priority
         parent_p = PQ[i // 2].priority
-        
+
         if curr_p <= parent_p:  # Heap property satisfied
             break
         else:
@@ -355,6 +367,7 @@ def Insert(PQ, x, priority):
 ### Max Heapify or Bubble Down
 
 > [!def]+ Max heapify
+>
 > - Procedure that maintains the max heap property
 > - Assumes ==binary trees rooted at left and right are max heaps==, but
 > - Current node $i$ might be smaller than its children
@@ -393,6 +406,7 @@ Max-Heapify (A, i)
 Given a heap, we can extract a sorted list of the elements in the heap by repeatedly calling `ExtractMax` and adding the items to a list.
 
 > [!goal]+ To turn this into a true sorting algorithm…
+>
 > - Need a way of converting an input unsorted list into a heap
 
 Suppose we have an unsorted array $A$ of length $n$.
@@ -455,7 +469,7 @@ def BubbleDown(heap, i):
         curr_p = heap[i].priority
         left_p = heap[2 * i].priority
         right_p = heap[2 * i + 1].priority
-        
+
         # Heap property is satisfied
         if curr_p >= left_p and curr_p >= right_p:
             break
@@ -477,6 +491,7 @@ The loop in `BubbleDown` iterates at most $\log n$ times.
 Since `BubbleDown` is called $n$ times, the worst-case running time is $\mathcal{O}(n\log n)$.
 
 > [!important]+ This is a loose analysis! We can do better.
+>
 > - The larger $i$ is, the fewer iterations the loop runs
 > - Example of a situation where obvious upper bound on worse-case is actually not tight
 > - Require a better understanding of how long `BubbleDown` takes to run as a ==function of $i$== and not just length of `items`
@@ -499,6 +514,7 @@ $$
 $$
 
 > [!question]+ How many nodes are at height $h$ of a binary tree?
+>
 > - $\left\lceil  \frac{n}{2^{h + 1}}  \right\rceil$ nodes
 
 $$
@@ -515,6 +531,7 @@ $$
 $$
 
 > [!note]- Course Notes provides a different analysis from lecture.
+>
 > - Suppose the tree has height $k$ and $n = 2^{k + 1} - 1$ nodes
 >     - Binary tree has a full last level
 >     - % Course Notes indicates that a complete tree with one node is height 1, but this is defined different in textbook
@@ -542,6 +559,7 @@ $$
 > Thus, the total cost of all the calls to `BubbleDown` is $\mathcal{O}(n)$, which leads to a total running time of `BuildHeap` of $\mathcal{O}(n)$.
 
 > [!note]+ The final running time depends only on the size of the list
+>
 > - What we did was a more careful analysis of the helper function `BubbleDown`, which did involve $i$
 > - Used $i$ in summation over all possible values for $i$
 
@@ -566,6 +584,7 @@ Heapsort(A)
 ```
 
 > [!obs]+ Heapsort takes $\mathcal{O}(n \lg n)$ time
+>
 > - `Build-Max-Heap` takes $\mathcal{O}(n)$ time
 > - Each of the $n - 1$ calls to `Max-Heapify` take $\mathcal{O}(\lg n)$ time
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuit Design.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuit-design/","tags":["cs","lecture","note","university"],"created":"2025-02-01T19:56:05.719-05:00","updated":"2025-02-05T00:25:23.406-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuit Design.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuit-design/","tags":["cs","lecture","note","university"],"created":"2025-02-01T19:56:05.719-05:00","updated":"2025-02-06T23:33:14.312-05:00"}
 ---
 
 
@@ -17,6 +17,7 @@ Now that we know about flip-flops and what they do:
 ### Flip-Flop Timing
 
 > [!info]+ The assumption is that whoever is using a flip-flop is using it properly.
+>
 > - Input *should not* be changing at the same time as the active edge of the clock
 > - Otherwise, you create a **race condition**
 >     - Whichever gets there first has an effect on the output value
@@ -88,6 +89,7 @@ Now that we know about flip-flops and what they do:
 *A 4-bit load register.*
 
 > [!obs]+ You have all these registers; you want to be able to tell which registers to load, and which not to load.
+>
 > - Introduce the **D flip-flop with enable**
 
 ![](https://i.imgur.com/CK90iSp.png)
@@ -216,3 +218,5 @@ Now that we know about flip-flops and what they do:
     - Allows circuit to take some value from $R$ signals
     - Load it into the counter
     - Once load is turned off, then circuit can start counting from that value
+
+> [!info] Loading a counter value is used for countdowns

@@ -15,6 +15,7 @@ See [[900 Archive/Y2 Fall 24/STA237/02 Conditional Probability and Independence/
 # Contingency Tables
 
 Consider a survey that asks:
+
 - Do you drink coffee? Yes/No
 - Do you drink tea? Yes/No
 
@@ -44,6 +45,7 @@ Consider a survey that asks:
 # Conditional Distributions
 
 > [!def] **Conditional distribution**
+>
 > - Condition on one value of one variable and consider what happens with other variable for only these people
 > - (e.g., non-coffee drinkers)
 

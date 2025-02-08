@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2024-11-05T19:58:59.000-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/02-algorithm-analysis/well-ordering/","tags":["#lecture","#note","cs","university"],"created":"2024-10-07T20:00:56.730-04:00","updated":"2025-02-06T17:51:40.610-05:00"}
 ---
 
 
 # Example. Quotient Remainder Theorem
 
 > [!def]+ Quotient Remainder Theorem
+>
 > - Divide 236 by 25:
 > $$236 = \underbrace{\underline{\textcolor{blue}{0}}}_{\text{quotient}} \times 25 + \underbrace{\underline{\textcolor{blue}{236}}}_{\text{remainder}}$$
 
@@ -26,7 +27,7 @@
 > &= q \cdot 25 + 25 + \overbrace{r - 25}^{\geq 0} \\
 > &= (q + 1) \cdot 25 + (r - 25)
 > \end{align*}$$
-> 
+>
 > $\therefore$ If we know that $r_{m}$ is the *minimum* possible remainder, then we can conclude $r_{m} < 25$.
 
 # Well-Ordering Principle (WOP)
@@ -34,10 +35,12 @@
 > [!def]- Well-Ordering Principle
 > Each non-empty subset of $\mathbb{N}$ contains a minimum element
 > $$\bigg[ \forall S \subseteq \mathbb{N}, S \neq \emptyset \implies \Big( \exists m \in S, \forall n \in S, n \geq m \Big) \bigg]$$
+>
 > - *Contrapositive*:
 >     - Every subset of $\mathbb{N}$ that has no minimum is empty
 
 **Notes.**
+
 - Applies to infinite subsets of $\mathbb{N}$
 - Unique to $\mathbb{N}$
     - Not for $\mathbb{Z}$: $\{ \dots, -3, -2, -1 \}$ for counterexample
@@ -53,6 +56,7 @@ Let $n \in \mathbb{N}$.
 Let $d \in \mathbb{N}^{+}$ (cannot divide by 0).
 
 WTP: $$\exists q, r, r < d \wedge n = q \cdot d + r$$
+
 - Want to prove with **well-ordering**
     - $\implies$ Need to create a set of natural numbers
     - Set is related to the thing you are trying to minimize
@@ -83,6 +87,7 @@ Then, $r_{m} - d \in \mathbb{N} \because r_{m}, d \in \mathbb{N}$ and $$n = q_{m
 So, $r_{m} - d \in R$ (with witness $q_{m} + 1$).
 
 We have a contradiction:
+
 - $r_{m} - d < r_{m}$ because $d > 0$
 - Contradicts $\forall r \in R, r \geq r_{m}$ (from WOP)
 
@@ -95,6 +100,7 @@ So, $(q_{m}, r_{m})$ witness what we WTP.
 Prove: $$\forall r \in R, \underbrace{r \geq d \implies \underbrace{\exists r' \in R, r' < r}_{r \text{ is not the min.}}}_{\forall r' \in R, r' \geq r \implies r < d}$$
 
 > [!info]- When we want to prove something with well-ordering, you need to think
+>
 > - How can I use non-empty subsets of natural numbers to help me with this proof?
 > - Need to somehow bring in a non-empty subset of natural numbers into your proof
 
@@ -110,6 +116,7 @@ Prove: $$\forall r \in R, \underbrace{r \geq d \implies \underbrace{\exists r' \
 # Generalizations
 
 > [!info]+
+>
 > - Already discussed that WOP is intrinsic to $\mathbb{N}$
 >     - Not true for other sets of numbers (e.g., $\mathbb{Z}, \mathbb{Q}$, even if it is bounded)
 

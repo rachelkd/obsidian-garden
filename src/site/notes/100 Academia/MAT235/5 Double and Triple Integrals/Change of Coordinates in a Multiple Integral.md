@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Change of Coordinates in a Multiple Integral.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/change-of-coordinates-in-a-multiple-integral/","tags":["lecture","math","note","university"],"created":"2025-01-29T04:08:29.692-05:00","updated":"2025-02-05T18:43:08.900-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Change of Coordinates in a Multiple Integral.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/change-of-coordinates-in-a-multiple-integral/","tags":["lecture","math","note","university"],"created":"2025-01-29T04:08:29.692-05:00","updated":"2025-02-06T17:51:40.816-05:00"}
 ---
 
 
@@ -10,12 +10,15 @@
 Consider integral $\int_{R} (x + y)\,dA$ where $R$ is the region in the first quadrant bounded by the circle $x^{2} + y^{2} = 16$ and the $x$ and $y$-axes.
 
 - In Cartesian coordinates:
+
 $$
-\int_{R} (x + y)\,dA = \int_{0}^{4} \int_{0}^{\sqrt{ 16 - x^{2} }} (x + y) \, dy  \, dx 
+\int_{R} (x + y)\,dA = \int_{0}^{4} \int_{0}^{\sqrt{ 16 - x^{2} }} (x + y) \, dy  \, dx
 $$
+
 - In polar coordinates:
+
 $$
-\int_{0}^{\pi/2} \int_{0}^{4} (r \cos \theta + r \sin \theta) r\, dr  \, d\theta 
+\int_{0}^{\pi/2} \int_{0}^{4} (r \cos \theta + r \sin \theta) r\, dr  \, d\theta
 $$
 ![](https://i.imgur.com/l6oFXrt.png)
 
@@ -76,7 +79,7 @@ $$
 > $$
 > \frac{ \partial (x, y) }{ \partial (s, t) } = \frac{ \partial x }{ \partial s } \cdot \frac{ \partial y }{ \partial t } - \frac{ \partial x }{ \partial t } \frac{ \partial y }{ \partial s } = \begin{vmatrix}
 > \frac{ \partial x }{ \partial s }  & \frac{ \partial x }{ \partial t }  \\
-> \frac{ \partial y }{ \partial s }  & \frac{ \partial y }{ \partial t } 
+> \frac{ \partial y }{ \partial s }  & \frac{ \partial y }{ \partial t }
 > \end{vmatrix}
 > $$
 
@@ -120,7 +123,7 @@ $$
 \frac{ \partial(x, y, z) }{ \partial (s, t, u) } = \begin{vmatrix}
 \frac{ \partial x }{ \partial s }  & \frac{ \partial x }{ \partial t }  & \frac{ \partial x }{ \partial u }  \\
 \frac{ \partial y }{ \partial s }  & \frac{ \partial y }{ \partial t }  & \frac{ \partial y }{ \partial u }  \\
-\frac{ \partial z }{ \partial s }  & \frac{ \partial z }{ \partial t }  & \frac{ \partial z }{ \partial u } 
+\frac{ \partial z }{ \partial s }  & \frac{ \partial z }{ \partial t }  & \frac{ \partial z }{ \partial u }
 \end{vmatrix}.
 $$
 The Jacobian in three dimensions represents the change in the volume element.

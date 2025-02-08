@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-05T19:59:24.582-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries and AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-and-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-06T17:51:40.869-05:00"}
 ---
 
 
@@ -11,6 +11,7 @@
     - A collection of key-value pairs that supports the following operations
 
 > [!def]+ Dictionary ADT
+>
 > - `Insert(S, x)`
 >     - Insert both the ==key== and ==value== pair into the dictionary
 > - `Search(S, k)`
@@ -23,6 +24,7 @@
 - Something about ==incremental costs==?
 
 > [!summary]+ Different implementations of dictionaries
+>
 > 1. Unsorted array
 > 2. Sorted array
 > 3. Unsorted linked list
@@ -102,6 +104,7 @@
 | Hash table     | $\Theta(1)$? | $\Theta(1)$? | $\Theta(1)$? |
 
 > [!attention]+ There is a chance that something may map to the same thing.
+>
 > - **Collision**
 > - ? How do we handle collision?
 >     - Take all values in collusion and put it in a linked list
@@ -167,6 +170,7 @@ def Delete(D, key):
     - Would be pretty unlucky to get trees of height $n$
 
 > [!important]+ Motivation
+>
 > - Implement insertion and deletion to keep height small when adding or removing values
 > - ? Can we implement BST insertion and deletion to not only insert/remoove a key, but also keep the tree’s height (relatively) small?
 
@@ -177,9 +181,11 @@ def Delete(D, key):
 > [!tldr] Notes on AVL Trees (Hadzilacos)
 
 > [!warning]+ Binary search trees work well in the average case, but still have the drawback of ==linear== worst case time complexity for all three operations.
+>
 > - i.e., `Search`, `Insert`, and `Delete`
 
 > [!def]+ Ideally Height-Balanced Property
+>
 > - A binary tree of height $h$ is **ideally height-balanced** if
 >     - Every node of depth $< h-1$ has two children
 
@@ -191,10 +197,12 @@ def Delete(D, key):
 - & AVL (height-balanced) trees are a *compromise* between arbitrary BSTs and ideally height-balanced BSTs.
 
 > [!def]+ Height-Balance Property
+>
 > - A binary tree is **height-balanced** if:
 >     - Heights of the left and right subtrees of every node differ by ==at most one==
 
 > [!def]+ AVL Tree
+>
 > - An **AVL tree** is a height-balanced ==binary search tree==
 
 - & Height of an *empty* binary tree (with no nodes) is ==$-1$==
@@ -205,6 +213,7 @@ def Delete(D, key):
 ![|400](https://i.imgur.com/FJQbT96.png)
 
 > [!check]+ Good news
+>
 > - Worst case height of AVL tree with $n$ nodes is:
 >     - & $1.44 \log_{2}(n+2)$
 >         - i.e., $h \leq 1.44 \ln (n + 2)$
@@ -218,6 +227,7 @@ def Delete(D, key):
 #### Balance Factor
 
 > [!def]+ Balance factor
+>
 > - Let $h_{R}, h_{L}$ be the heights of the right and left subtrees of a node $m$ in a binary tree respectively.
 > - The **balance factor** of $m$, $BF[m]$, is defined as $$BF[m] = h_{R} - h_{L}$$
 >
@@ -231,12 +241,14 @@ def Delete(D, key):
 > - If $BF[m] = 0$, $m$ is *balanced*
 
 > [!impl]+ In AVL trees, we will store $BF[m]$ in each node $m$
+>
 > - When we draw:
 >     - Put a $+, -,$ or $0$ next to each node
 >     - Indicates node balance factor is $+1, -1,$ or $0$ respectively
 
 > [!example]+ Which tree is height-balanced?
 > ![](https://i.imgur.com/jYO8rXl.png)
+>
 > - Tree on left only
 
 ### Search
@@ -264,6 +276,7 @@ Tree-Search(x, k)
 ### Insertion
 
 > [!impl]+ Insertion
+>
 > - Insert $x$ in $T$ as in ordinary BSTs
 
 #### Three (Easier) Cases
@@ -310,6 +323,7 @@ Tree-Search(x, k)
 ![](https://i.imgur.com/VKM2ll1.png)
 
 > [!thm]+ Single Rotation Properties
+>
 > 1. Insertion only affects the balance factors of its *ancestors*
 > 2. Root balance factor depends on $h(A), h(C), h(E)$
 > 3. Overall height of rotated tree remains the same (as before insertion)
@@ -377,6 +391,7 @@ Consider this tree after the first single left rotation (on node 3).
 #### Rebalancing an AVL after Insertion
 
 > [!info]+ The height-balance property of a node may have been destroyed as a result of the insertion of the new leaf in two ways:
+>
 > 1. New leaf increased height of right subtree of a node that was already right heavy
 > 2. New leaf increased height of left subtree of a node that was already left heavy
 
@@ -385,6 +400,7 @@ Such cases are illustrated in Figure 1.
 ![|686](https://i.imgur.com/CaTXUMF.png)
 
 > [!note]+
+>
 > - Insertion of new leaf can only affect balance factors of its ancestors.
 > - Node $m$ in Figure 1 is assumed to be the *minimum height* ancestor of the new leaf which is no longer height balanced
 >     - As a result of insertion
@@ -402,11 +418,13 @@ Such cases are illustrated in Figure 1.
 ##### Single Rotations
 
 > [!question]+ What transformation can we do to rebalance subtree in Figure 2(a)?
+>
 > - **Single left rotation** on node $m$
 >
 > ![|800](https://i.imgur.com/DNWA0Gt.png)
 
 > [!question]+ Transformation to rebalance Figure 1(b)
+>
 > - **Single right rotation**
 >
 > ![|700](https://i.imgur.com/RGxpV8H.png)
@@ -421,6 +439,7 @@ Recall:
 
 
 > [!thm]+ Single Rotation Properties
+>
 > 1. Insertion only affects the balance factors of its *ancestors*
 > 2. Root balance factor depends on $h(A), h(C), h(E)$
 > 3. Overall height of rotated tree remains the same (as before insertion)
@@ -430,6 +449,7 @@ Recall:
 
 
 > [!thm]+ More Single Rotation Properties
+>
 > 1. Transformation rebalances the subtree rooted at node $m$ (S.1)
 >     - Subtree becomes height-balanced again
 > 2. Maintains the binary search tree property (S.2)
@@ -443,6 +463,7 @@ Recall:
 ![|626](https://i.imgur.com/uT6z44u.png)
 
 > [!danger]+ Subtree in Figure 2(b) cannot be rebalanced by a single left rotation on node $m$
+>
 > - Node $m$ is right-heavy
 > - Right child of node $m$ is left-heavy
 
@@ -450,6 +471,7 @@ Recall:
     - i.e., $h \neq -1$
 
 > [!question]+ What transformation do we use to rebalance Figure 2(b)?
+>
 > - **Double right left rotation** on node $m$
 >
 > Figure 4(a) shows these subtrees in more detail.
@@ -474,6 +496,7 @@ If subtrees of node $B$ in Figure 2(b) are empty i.e., $h = -1$,
     - $A, B$ are its left and right children, respectively
 
 > [!idea]+ Can be thought of a degenerate instance of Figure 4
+>
 > - $C = x$
 > - Subtrees $T_{1}, T_{21}, T_{22}$ all empty
 
@@ -486,6 +509,7 @@ If subtrees of node $B$ in Figure 2(b) are empty i.e., $h = -1$,
 ###### Double Rotation Properties
 
 > [!thm]+ Double Rotation Properties
+>
 > 1. It rebalances the subtree rooted at $m$ (D.1)
 >     - Subtree becomes height-balanced again
 > 2. Maintains the binary search tree property (D.2)
@@ -497,6 +521,7 @@ If subtrees of node $B$ in Figure 2(b) are empty i.e., $h = -1$,
 #### Updating the Balance Factors after Insertion
 
 > [!obs] Observation
+>
 > - Only the balance factors of the new node’s ancestors may need updating
 > - For any other node $i$, $i$‘s left and right subtrees — and their heights — have no changed
 >     - → Balance factor of $i$ has not changed
@@ -520,7 +545,7 @@ insert as normal BST
 walk back from new node towards root:  # Assume i is the parent of the new node:
     if new node is inserted right, add 1 to BF[i]
     if new node is inserted left, subtract one from BF[i]
-    
+
     if BF[i] becomes zero, then done
     if BF[i] becomes 1 or -1:
         don't rotate, but continue up the path and repeat
@@ -531,6 +556,7 @@ walk back from new node towards root:  # Assume i is the parent of the new node:
 ![|484](https://i.imgur.com/aBkgzhm.png)
 
 > [!question]+ How many rotations in the worst case?
+>
 > - 1 single or 1 double rotation
 
 > [!important] Insertion takes $\log n$ worst-case time.
@@ -546,6 +572,7 @@ To delete a key $x$ from AVL tree $T$:
 - Otherwise, we have *three* cases
 
 > [!summary]+ Three cases for tree deletion
+>
 > 1. $n$ is a leaf
 > 2. $n$ is a node with only *one* child
 > 3. $n$ has *two* children
@@ -591,6 +618,7 @@ To delete a key $x$ from AVL tree $T$:
 Consider case (a).
 
 > [!info] There are ==two== ways case (a) could arise.
+>
 > 1. If the balance factor of $B$ is 0 or -1
 >     - i.e., Height of $T_{2}$ is $h + 1$ or $h$
 >     - After rotation: Balance factors of $B$ and $A$ will be $+1$ or $0$, and $-1$ or $0$
@@ -610,6 +638,7 @@ Consider case (a).
 >     3. Third: BF when $T_{21}$ has height $h$ and $T_{22}$ has height $h - 1$
 
 > [!summary]+ Deletion Rebalance Properties
+>
 > 1. They rebalance the subtree rooted at $m$.
 >     - So the subtree becomes height-balanced again
 > 2. They maintain the BST property.
@@ -644,4 +673,5 @@ on route from p back to route at each node i:
 ```
 
 > [!question]+ How many rotations in the worst case?
+>
 > - $\mathcal{O}(h) = \mathcal{O}(\log n)$

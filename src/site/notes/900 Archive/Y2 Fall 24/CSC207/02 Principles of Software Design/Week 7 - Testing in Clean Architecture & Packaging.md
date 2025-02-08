@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T22:21:17.455-04:00","updated":"2024-10-30T20:51:50.020-04:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-7-testing-in-clean-architecture-and-packaging/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T22:21:17.455-04:00","updated":"2025-02-06T17:51:40.007-05:00"}
 ---
 
 
 > [!goal]- Learning Objectives
+>
 > - Describe several different kinds of testing
 > - Write unit tests in Java using JUnit, focusing on Entities and Use Cases
 > - Write an end-to-end test, provided you have a similar example to work from

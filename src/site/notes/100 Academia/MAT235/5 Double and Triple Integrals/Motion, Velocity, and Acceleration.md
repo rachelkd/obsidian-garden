@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Motion, Velocity, and Acceleration.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/motion-velocity-and-acceleration/","tags":["lecture","math","note","university"],"created":"2025-02-05T03:45:14.674-05:00","updated":"2025-02-05T18:42:43.844-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Motion, Velocity, and Acceleration.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/motion-velocity-and-acceleration/","tags":["lecture","math","note","university"],"created":"2025-02-05T03:45:14.674-05:00","updated":"2025-02-06T17:51:40.896-05:00"}
 ---
 
 
@@ -13,6 +13,7 @@ Velocity of a moving particle can be represented by a vector with the following 
 
 > [!summary]+ Velocity Vector Properties
 > The **velocity vector** of a moving object is a vector $\vec{v}$ such that:
+>
 > 1. Magnitude of $\vec{v}$ is the *speed* of the object
 > 2. Direction of $\vec{v}$ is the direction of motion
 
@@ -20,6 +21,7 @@ Velocity of a moving particle can be represented by a vector with the following 
 - Velocity vector is ==tangent== to object’s path
 
 > [!example]- A child is sitting on a Ferris wheel of diameter 10 meters, making one revolution every 2 minutes. Find the speed of the child and draw velocity vectors at two different times.
+>
 > - Child moves at constant speed around a circle of radius 5 meters
 >     - One revolution every 2 minutes
 >     - One revolution: $2\pi r = 10\pi$
@@ -68,6 +70,7 @@ $$
 ### Components of the Velocity Vector
 
 > [!tip]+ From parametric equations to position vector to velocity vector
+>
 > - Recall: If we represent a curve parametrically by $x = f(t), y = g(t), z = h(t)$, then its position vector is
 >     - $\vec{r}(t) = f(t)\vec{i} + g(t)\vec{j} + h(t)\vec{k}$
 >     - From [[100 Academia/MAT235/5 Double and Triple Integrals/Parameterized Curves#Vector Form of Parameterized Curves\|Parameterized Curves#Vector Form of Parameterized Curves]]
@@ -118,6 +121,7 @@ Then, we have the following result:
 >          & = 0
 >         \end{align}
 >         $$
+>
 > ![|384](https://i.imgur.com/qSkKASr.png)
 >
 > *Figure 17.14: Velocity and radius vector of motion around a circle*
@@ -127,6 +131,7 @@ Then, we have the following result:
 ### Velocity Vectors and Tangent Lines
 
 > [!tip]+ Velocity vectors can be used to find parametric equations for the tangent line, if there is one.
+>
 > - $\because$ Velocity vector is tangent to the path of motion
 
 > [!example]+ Find the tangent line at the point $(1, 1, 2)$ to the curve defined by the parametric equation $\vec{r}(t) = t^{2}\vec{i} + t^{3}\vec{j} + 2t\vec{k}$.
@@ -199,20 +204,23 @@ Using the same [[100 Academia/MAT235/5 Double and Triple Integrals/Motion, Veloc
 Consider the velocity and acceleration vectors for two basic motions: *uniform motion around a circle*, and *motion along a straight line*.
 
 > [!example]+ Find the acceleration vector for the child on the ferris wheel in earlier [[100 Academia/MAT235/5 Double and Triple Integrals/Motion, Velocity, and Acceleration#^cc2870\|example]].
+>
 > - Child’s position vector is given by: $$\vec{r}(t) = 5\cos(\pi t) \vec{i} + 5\sin(\pi t) \vec{j}$$
 > - Velocity vector is $$\vec{v}(t) = -5\pi \sin(\pi t) \vec{i} + 5\pi \cos(\pi t) \vec{j}$$
 > - → Acceleration vector is $$\vec{a}(t) = \frac{d^{2}x}{dt}\vec{i} + \frac{d^{2}y}{dt}\vec{j} = -5\pi^{2} \cos(\pi t) \vec{i} - 5\pi^{2} \sin(\pi t) \vec{j}$$
 >
 > > [!obs]+ Notice that $\vec{a}(t) = -\pi^{2} \, \vec{r}(t)$
-> >  - Acceleration vector is a multiple of $\vec{r}(t)$ and points towards the origin
+> >
+> > - Acceleration vector is a multiple of $\vec{r}(t)$ and points towards the origin
 
 This is an example of uniform circular motion.
 
 > [!thm]+ Uniform circular motion properties
 > For a particle whose motion is described by
 > $$
-> \vec{r}(t) = R \cos(\omega t) \vec{i} + R \sin(\omega t) \vec{j}, 
+> \vec{r}(t) = R \cos(\omega t) \vec{i} + R \sin(\omega t) \vec{j},
 > $$
+>
 > - Motion is in a circle of radius $R$ with period $\frac{2\pi}{|\omega|}$
 > - Velocity, $\vec{v}$, is ==tangent== to circle and speed is constant $\|\vec{v}\| = |\omega|R$
 > - Acceleration, $\vec{a}$, points towards the center of the circle with $\|\vec{a}\| = \frac{\|\vec{v}\|^{2}}{R}$
@@ -233,11 +241,13 @@ This is an example of uniform circular motion.
 > $$
 > \text{Speed} = \|\vec{v}\| = (3t^{2} + 1)\sqrt{ 4^{2} + 3^{2} + 1^{2} } = \sqrt{ 26 }(3t^{2} + 1)
 > $$
+>
 > - Speed is decreasing until $t = 0$, then starts increasing
 >
 > $$
 > \vec{a} = 6t(4\vec{i} + 3\vec{j} + \vec{k})
 > $$
+>
 > - For $t > 0$:
 >     - Acceleration points in same direction as $4\vec{i} + 3\vec{j} + \vec{k}$
 >     - Same direction as $\vec{v}$
@@ -246,6 +256,7 @@ This is an example of uniform circular motion.
 
 > [!thm]+ Motion in a straight line properties
 > For a particle whose motion is described by $$\vec{r}(t) = \vec{r_{0}} + f(t)\vec{v},$$
+>
 > 1. Motion is along a straight line through point with position vector $\vec{r_{0}}$ parallel to $\vec{v}$
 > 2. Velocity, $\vec{v}$, and acceleration, $\vec{a}$, are parallel to the line
 
@@ -258,5 +269,5 @@ This is an example of uniform circular motion.
 
 > [!thm]+ If the curve $C$ is given parametrically for $a \leq t \leq b$ by smooth functions and if the velocity vector $\vec{v}$ is not $\vec{0}$ for $a < t < b$, then
 > $$
-> \text{Length of C} = \int_{a}^{b} \|\vec{v}\| \, dt. 
+> \text{Length of C} = \int_{a}^{b} \|\vec{v}\| \, dt.
 > $$

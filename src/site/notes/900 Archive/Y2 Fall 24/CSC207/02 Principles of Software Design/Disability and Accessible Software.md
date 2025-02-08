@@ -1,14 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T13:38:38.169-05:00","updated":"2024-12-10T19:57:03.902-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T13:38:38.169-05:00","updated":"2025-02-06T17:51:39.859-05:00"}
 ---
 
 
 > [!abstract]+ One set of users whose needs may differ from the average user are those with disabilities
+>
 > - WHO estimates 15% of users have disabilities
 
 # From [[900 Archive/Y2 Fall 24/CSC207/02 Principles of Software Design/User Diversity\|Module 1]]
 
 > [!summary]+ When we fail to design appropriately for users with disabilities, we risk causing both:
+>
 > - Tangible harms, and
 > - Harm to relational equality
 
@@ -69,6 +71,7 @@
     - Intervention prevents impairment from causing limitations
 
 > [!example]+ Prosthetic Leg
+>
 > - Medical model
 >     - ==Intervention reduces the impairment==
 > - “Closer” to the impairment
@@ -77,6 +80,7 @@
 > - Designed with a particular impairment in mind
 
 > [!example]+ Elevators
+>
 > - “Further” from the impairment
 > - Applies to everyone; cannot just apply to one person
 > - Requires little work to trigger
@@ -97,6 +101,7 @@
 ## Medical Model Examples
 
 > [!info]+ Software Designed for Specific Impairments
+>
 > - **Braille Translation Software**
 >     - e.g., Index BrailleApp
 >     - Converts text to Braille-printable documents
@@ -120,6 +125,7 @@
 ## Social Model Examples
 
 > [!info]+ Universal Design Features
+>
 > - **Automatic Captioning**
 >     - e.g., Zoom
 >     - Benefits all users who prefer visual text
@@ -135,12 +141,14 @@
 >     - Universal audio conversion of text
 
 > [!obs]+ Key Distinction
+>
 > - Medical Model: Targets ==specific impairments== with specialized solutions
 > - Social Model: Creates ==universal features== that benefit all users regardless of ability status
 
 # Principles of Universal Design
 
 > [!info]+ Seven Core Principles
+>
 > 1. **Equitable Use**
 >     - Design is useful for people with diverse abilities
 > 2. **Flexibility in Use**
@@ -159,6 +167,7 @@
 ## Interface Comparison: BASH Vs Windows File Explorer
 
 > [!example]+ BASH (Text Interface)
+>
 > - **Strengths**
 >     - Low physical effort (keyboard-only)
 >     - Flexible (scriptable, customizable)
@@ -169,6 +178,7 @@
 >     - Limited perceptible information
 
 > [!example]+ Windows File Explorer (GUI)
+>
 > - **Strengths**
 >     - More intuitive visual interface
 >     - Better perceptible information
@@ -179,6 +189,7 @@
 >     - Less flexible for automation
 
 > [!obs]+ Universal Design Analysis
+>
 > - BASH better supports: ==Flexibility, Low Physical Effort==
 > - File Explorer better supports: ==Simple/Intuitive Use, Perceptible Information, Tolerance for Error==
 > - Both can support: ==Equitable Use== (with proper implementation)
@@ -194,6 +205,7 @@
 ![](https://i.imgur.com/vm8WH6b.png)
 
 > [!info]+ Implementation Guidelines
+>
 > - Based on W3C Web Accessibility Initiative standards
 > - Organizations typically:
 >     - Hire accessibility consultants
@@ -215,6 +227,7 @@
 # Summary
 
 > [!important]+ Essential Points
+>
 > - Design must accommodate users with disabilities (==15%== of users - WHO)
 > - Design approach varies based on disability model used
 > - Both specialized and universal solutions have their place
@@ -222,5 +235,6 @@
 ## Disability Models Comparison
 
 > [!def]+ Medical Model vs Social Model
+>
 > - **Medical**: ==Physical/mental impairment== causes a personal or social limitation
 > - **Social**: ==Human world/environment== causes a personal or social limitation

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2024-11-10T02:41:59.126-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2025-02-06T17:51:39.841-05:00"}
 ---
 
 
@@ -29,6 +29,7 @@ We want to model the number of marked animals (out of 4) in the second sample
 ## Definitions
 
 > [!def]- Hypergeometric Experiment
+>
 > - Samples $n$ individuals/objects from a set/population of $N$ individuals/objects where:
 >     - $N$ is **finite**
 >     - Each individual/object can be categorized as “success = 1” or “failure = 0”
@@ -37,16 +38,18 @@ We want to model the number of marked animals (out of 4) in the second sample
 >     - Each subset of size $n$ *[[900 Archive/Y2 Fall 24/STA237/01 Events and Probabilities/Equally Likely Outcomes\|equally likely]]* to be chosen
 
 > [!def]- Hypergeometric Distribution
+>
 > - Random variable $X$ has the geometric distribution with parameters $r, N, n$ if $$P(X = k) = \frac{{\binom{r}{k} \binom{N-r}{n-k}}}{\binom{N}{n}}$$
 > - for $\text{max}\big(0, n - (N - r)\big) \leq k \leq \text{min}(n, r)$,
 >     - $k$ can’t be negative (hence the 0)
 >     - Can’t be less than $n - (N - r)$, which represents the case where all remaining successes must be in the sample
 >     - $k$ can’t exceed $n$ (the sample size)
->      - $k$ also can’t exceed $r$ (the total number of successes in the population)
->  - or, alternatively, $0 \leq k \leq r$ and $0 \leq n - k \leq N - r$
+>     - $k$ also can’t exceed $r$ (the total number of successes in the population)
+> - or, alternatively, $0 \leq k \leq r$ and $0 \leq n - k \leq N - r$
 >     - i.e., You can’t have more successes in your sample than how many are in the population, and same with failures
 
 > [!note]+ Notation: $X \sim \text{HyperGeo}(r, N, n)$
+>
 > - $r$: # successes in the *population*
 > - $N$: population size
 > - $n$: # units picked without replacement
@@ -75,6 +78,7 @@ We want to model the number of marked animals (out of 4) in the second sample
 
 > [!note]+ R Function Parameter Order
 > The R functions use the parameter order $(r, N-r, n)$ where:
+>
 > - $r$: number of successes in the population
 > - $N-r$: number of failures in the population
 > - $n$: sample size

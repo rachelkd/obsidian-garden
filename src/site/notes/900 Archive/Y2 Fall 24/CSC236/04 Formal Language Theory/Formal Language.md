@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2024-12-08T22:11:35.851-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2025-02-06T17:51:40.582-05:00"}
 ---
 
 
@@ -39,6 +39,7 @@
     - is ==not== a valid string over $\Sigma_{3} = \{ a, b \}$
 
 > [!note]+ $\Sigma$ must be defined so that each string is parsed uniquely
+>
 > - $\Sigma = \{ a, aa, b \}$
 >     - aaa is ambiguous
 >         - Can mean a followed by aa
@@ -162,6 +163,7 @@ Consider $L_{1} = \left\{ s \in \{ 0, 1 \}^{*} : s \text{ is a binary representa
     - If $s \in S$, then $sa$ and $sb$ are in $S$
 
 > [!thm]+ Claim.
+>
 > - You end up in $L$ $\iff$ the number of b’s at the end of the string (after the last a) is even
 
 > [!example]+ Finite State Automata
@@ -169,6 +171,7 @@ Consider $L_{1} = \left\{ s \in \{ 0, 1 \}^{*} : s \text{ is a binary representa
 > (Note that we will call the states $l, r$ to differentiate between $L$ for language)
 >
 > ![](https://i.imgur.com/i2gnBPJ.png)
+>
 > - Also known as a *transition diagram*
 > - Describes a *process*:
 >     - Start in the initial state (L)
@@ -178,6 +181,7 @@ Consider $L_{1} = \left\{ s \in \{ 0, 1 \}^{*} : s \text{ is a binary representa
 >         - $r$ → No
 
 > [!example]+ RegEx
+>
 > - An even number of b’s: `(bb)*`
 > - `*` is an operator
 >     - 0 or more repetitions
@@ -219,6 +223,7 @@ Consider $L_{1} = \left\{ s \in \{ 0, 1 \}^{*} : s \text{ is a binary representa
 ### In General
 
 > [!question]+ What makes up a finite state automata?
+>
 > - Finite, non-empty set of **states** $Q$
 >     - $Q = \{ l, r \}$
 >         - $l, r$ are just labels
@@ -239,12 +244,14 @@ Consider $L_{1} = \left\{ s \in \{ 0, 1 \}^{*} : s \text{ is a binary representa
 ### Regular Expressions (RE)
 
 From [[900 Archive/Y2 Fall 24/CSC236/04 Formal Language Theory/Formal Language#Example. L/R Game from PP3\|example]], we had:
+
 - $(\epsilon + (a + b)^{*}a)(bb)^{*}$
     - To guarantee that we have an ==even number of b’s at the end==,
         - Need to make sure that is in front of it does *not* end with b
         - It can be ==empty==, or it can ==end with a==, which is what we have in the expression
 
 > [!info]+ We define regular expressions *recursively*
+>
 > - Formally, for each alphabet $\Sigma$, define $RE_{\Sigma}$ as follows:
 >     - $\emptyset \in RE_{\Sigma}, \epsilon \in RE_{\Sigma}$
 >         - $\emptyset$ describes the (empty) language with no strings: $\{  \}$ (see [Piazza@621](https://piazza.com/class/lwkvixjjc4f2ew/post/621))
@@ -256,6 +263,7 @@ From [[900 Archive/Y2 Fall 24/CSC236/04 Formal Language Theory/Formal Language#E
 >     - Nothing else
 
 > [!tip]+ Think of $RE_{\Sigma}$ as a set of strings over $\{ \emptyset, \epsilon, a, b, *, \oplus, \odot \}$ (assuming $\Sigma = \{ a, b \}$)
+>
 > - Note that these are Regex operators, *not* string operators
 
 - Note: *precedence*
@@ -323,6 +331,7 @@ $$
 ![](https://i.imgur.com/0bmZdkG.png)
 
 > [!question]+ How did we know that when we were in state $q_{0}$ and read an `a` that we could stay in state $q_{0}$
+>
 > - One thing you can do after coming up with DFA:
 >     - Trace DFA on a bunch of strings → See if you end up where you should be
 > - When you read `a` and you’re in $q_{0}$,
@@ -367,6 +376,7 @@ $$
         - Answer never changes
 
 > [!tip]+ When designing DFAs
+>
 > - & Use **distinguishable** to decide whether to go to a new state or not
 > - Ask yourself: What are the strings that take you to the initial state
 >     - Very few strings when you start: $\epsilon$ and single characters
@@ -374,6 +384,7 @@ $$
 >         - If not → can stay in state where you were previously
 
 > [!important]+ In any DFA for $L$, ==**distinguishable** strings must end up in different states==
+>
 > - Strings $u, v \in \Sigma$ are distinguishable $\implies$ must be in different states
 > - ! Not an if and only if — just an implication
 >     - Nothing that says the DFA has to take all indistinguishable strings to the same state
@@ -381,10 +392,12 @@ $$
 ### State Invariant
 
 > [!def]+ State invariant
+>
 > - Complete list of all strings that end up in each state
 > - The lists cover $\Sigma^{*}$ completely
 
 For our example, we have state invariant(s):
+
 - $q_{0} : \dots aa$ or $a$ or $\epsilon$
 - $q_{1} : \dots ab$ or $b$
 - $q_{2} : \dots ba$
@@ -395,6 +408,7 @@ For our example, we have state invariant(s):
 - Pick something nice, simple, and uniform
 
 > [!thm]+ Claim. All these strings are **pairwise distinguishable** with respect to $L$
+>
 > - Any two strings in the set can be distinguished
 
 - There are 4 strings → $4C2 = \begin{pmatrix}4 \\ 2 \end{pmatrix} = \frac{24}{(4-2)!2!} = 6$ possible pairs
@@ -417,6 +431,7 @@ For our example, we have state invariant(s):
         $$
 
 > [!obs]+ Consequence. Every DFA for $L$ needs at least 4 states.
+>
 > - One for each of these strings
 > - Any DFA that uses fewer than 4 states would have to send 2 of these strings to the same state, but
 >     - Those two strings are distinguishable → There is a suffix that takes one outside of $L$ and one inside of $L$
@@ -452,6 +467,7 @@ Trace the string `abbaa`:
 ![](https://i.imgur.com/I0cNSvM.png)
 
 > [!info]+ In general
+>
 > - At each step, NFA is some *subset* of states
 >     - No restriction
 >         - Could be $\emptyset, Q$, or anything in between
@@ -478,6 +494,7 @@ Trace the string `abbaa`:
 ## Subset Construction
 
 > [!thm]+ Subset construction
+>
 > - Every NFA can be converted to a DFA for the same language, but
 > - It may need many more states
 
@@ -507,14 +524,17 @@ Define language $L = \{ s \in \{ a, b \}^{*} : \textcolor{DarkSeaGreen}{\underbr
     - Each state in our product construction DFA matches a pair between each state of the original DFAs
 
 > [!question]+ Which is the initial state?
+>
 > - The product state of the one that tracks the initial states of $A_{1}, A_{2}$
 
 > [!question]+ Which states should be accepting?
+>
 > - Want to accept when the state has the accept property in both DFA
 
 ![|center|500](https://i.imgur.com/9DvS489.png)
 
 > [!question]+ How do we decide the transitions?
+>
 > - Start at a state and see what happens in each DFA when you read an `a` or `b`
 > - Transition to the intersection of these two states
 > ![|500](https://i.imgur.com/iiG7drD.png)
@@ -526,6 +546,7 @@ Define language $L = \{ s \in \{ a, b \}^{*} : \textcolor{DarkSeaGreen}{\underbr
 > $$L = L_{1} \cap L_{2}$$
 
 > [!def]+ Regular
+>
 > - Language $L \subseteq \Sigma^{*}$ is **regular**
 >     - iff $L = \mathcal{L}(R)$ for some $R \in RE_{\Sigma}$
 >     - iff $L = \mathcal{L}(A)$ for some DFA $A$
@@ -549,6 +570,7 @@ Define language $L = \{ s \in \{ a, b \}^{*} : \textcolor{DarkSeaGreen}{\underbr
     - What are the kinds of things we can do to regular languages that keep them regular?
 
 > [!summary] So far…
+>
 > - We have already seen that if we have two languages that have DFAs — meaning they are *regular* — and take their intersection,
 >     - The result is regular
 > - & Intersection of *regular* languages is *regular*
@@ -576,6 +598,7 @@ For each regular languages $L_{1}, L_{2} \subseteq \Sigma^{*}$,
     - This idea would *not* work with an NFA
 
 These are all set operations; there are lots of other non-set language operations that also preserve regularity.
+
 - e.g., Doubling a string
 
 ## “Equivalence” For Regular Expressions, DFAs, NFAs
@@ -622,7 +645,6 @@ These are all set operations; there are lots of other non-set language operation
 
 ![|465](https://i.imgur.com/pqT3UMa.png)
 
-
 - Keep track of all the ways the picked accepting state $q_{1}$ interacts with the rest of the DFA
     - To get rid, you want these interactions to be preserved
         - Can use $q_{1}$ to go from $q_{0}$ to $q_{2}$, or
@@ -656,7 +678,6 @@ These are all set operations; there are lots of other non-set language operation
 
 ![|452](https://i.imgur.com/mZLnq4p.png)
 
-
 - In each case, $\mathcal{L}(R) = \mathcal{L}(A)$
     - i.e., In each case, the NFA on the right has a language that is equal to the language of the regular expression on the left
 - For the empty set, there is no initial set of states → $S = \emptyset \subseteq Q$
@@ -673,6 +694,7 @@ Assume $A_{1}, A_{2}$ are NFA such that $\mathcal{L}(A_{1}) = \mathcal{L}(R_{1})
 
 > [!note]+ Each NFA we construct has ==exactly one== accepting state, with ==no outgoing transition==
 > ![|500](https://i.imgur.com/pY1HBjI.png)
+>
 > - Special case:
 >     - Treat initial state “arrow” like incoming transition
 > - We see that all our basic NFAs in the example satisfy this property
@@ -751,6 +773,7 @@ Then, the NFA for $(a^{*} + b)c$ is:
     - Recall: “$A$‘s start states remain start states iff $A_{1}$’s accepting state is a start state for $A_{1}$”
 
 > [!abstract]+ This process works for every regular expression; this is a ==general process==
+>
 > - We have described how to deal with all the basic regular expressions
 > - Described how to deal with regular expressions that are *not* basic
 >     - Union, concatenation, Kleene-star
@@ -779,10 +802,12 @@ Consider $L = \{ a^{n}b^{n} : n \in \mathbb{N} \} = \{ \text{some number of a's 
     - $a^{*}b^{*}$ matches strings like `aaab`
 
 > [!question]+ How do we prove that this is not regular?
+>
 > - Already know how to do this to know that a DFA has the smallest number of states
 > - Notion of **distinguishability**
 
 > [!question]+ What are some strings that are distinguishable with respect to $L$?
+>
 > - Start with two strings where you can put a suffix and the result is that one is in $L$ and the other is not:
 >     - `ab` $\in L$
 >     - `a`$\not\in L$
@@ -815,6 +840,7 @@ Consider $L = \{ a^{n}b^{n} : n \in \mathbb{N} \} = \{ \text{some number of a's 
 - $\therefore$ No DFA for $L$
 
 For contrast and understanding, consider a set of *indistinguishable* strings with respect to $L$:
+
 - $\{ b, ba, abb, \dots \}$
     - None of these strings are in the language
     - Adding anything to the end will still not be in the language
@@ -822,6 +848,7 @@ For contrast and understanding, consider a set of *indistinguishable* strings wi
 ### Prove that a Language is not Regular
 
 > [!tip]+ To show that a language $L$ is not regular:
+>
 > - Come up with an infinite set of strings
 > - Show that any two strings in that set are *distinguishable* from each other with respect to $L$
 > - Conclude that there is no DFA for $L$

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2024-12-05T17:48:37.689-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/02-conditional-probability-and-independence/independence-and-dependence/","tags":["#lecture","#note","stats","university"],"created":"2024-09-19T10:51:22.000-04:00","updated":"2025-02-06T17:51:39.862-05:00"}
 ---
 
 
@@ -18,6 +18,7 @@
 ## Definition
 
 > [!def]- Two definitions of **independence**
+>
 > 1. **Conditional probability**
 >     - If knowing that $B$ happens does not add information about $A$ happening, then $$P(A \mid B) = P(A)$$
 >     - Similarly, if knowing $A$ happens does not give information about chances of $B$ happening, then $$P(B \mid A) = P(B)$$
@@ -34,7 +35,7 @@
 
 ## Ex. Roll a Dice and Toss a Coin
 
-#example
+# example
 
 ![](https://i.imgur.com/1Y2mCkJ.png)
 
@@ -107,7 +108,7 @@ If you examine two people, are the events that the first is Type A and the secon
 
 ## Ex. Two Coin Flips (Textbook 2.21)
 
-#example
+# example
 
 Flip two coins. Let A be the event that the first coin comes up heads; B the event that the second comes up heads; and C the event that both coins come up the same, either heads or tails.
 
@@ -123,7 +124,7 @@ Flip two coins. Let A be the event that the first coin comes up heads; B the eve
 
 # Ex. Thrombosis
 
-#example
+# example
 
 A genetic test is used to determine if people have a predisposition for thrombosis (i.e. blood clotting that blocks blood flow). It is believed that 3% of people actually have this predisposition. The genetic test has probability 99% of giving positive result when person actually has it. It also has probability 98% of giving a negative result when the person does not have the predisposition. What is the probability that someone who tests positive for the predisposition actually has it?
 

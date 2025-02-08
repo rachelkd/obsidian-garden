@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2024-12-09T06:55:16.000-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/02-algorithm-analysis/iterative-correctness/","tags":["#lecture","#note","cs","university"],"created":"2024-10-08T16:53:54.252-04:00","updated":"2025-02-06T17:51:40.602-05:00"}
 ---
 
 
@@ -16,10 +16,12 @@
         - Want to say as much as possible
 
 > [!important]+ Every piece of code you write has a *contract*
+>
 > - Only have to worry about inputs that meet the precondition
 > - For all of those inputs, you need to make sure the ==post-condition is true== at the end
 
 > [!def]+ Correctness
+>
 > - For *each* input that satisfies the precondition, the ==algorithm terminates==
 >     - i.e., No infinite loop/recursion
 > - And when it does, the ==post-condition *holds*==
@@ -31,8 +33,8 @@ Implementing the Quotient-Remainder Theorem from [[900 Archive/Y2 Fall 24/CSC236
 ```python title:"Quotient-Remainder Theorem"
 # Pre(n, d): n in naturals, d in positive naturals
 # Returns (q, r) s.t. Post(n, d, q, r):
-#    (1) q, r in naturals 
-#    AND (2) r < d 
+#    (1) q, r in naturals
+#    AND (2) r < d
 #    AND (3) n = qd + r
 def QR(n, d):
     q, r = 0, n  # Starting point: Satisfies (1) and (3) of Post
@@ -52,6 +54,7 @@ def QR(n, d):
     - State clear pre/post-conditions
 
 > [!question]+ Why does this work? How do we prove?
+>
 > - Proof will overlap proof in [[900 Archive/Y2 Fall 24/CSC236/02 Algorithm Analysis/Well-Ordering\|quotient-remainder theorem]]
 > - Difference:
 >     - In QRT, we were proving that $q, r$ *exist*
@@ -63,6 +66,7 @@ def QR(n, d):
 - A **loop invariant** is a way to keep track of what you are doing, and so on, that helps you write a correct loop
 
 > [!def]+ Loop invariant
+>
 > - Any statement about or predicate of the program variables that is true
 >     - Just before every loop iteration begins, or equivalently,
 >     - Just after each loop iteration ends
@@ -70,14 +74,14 @@ def QR(n, d):
 ```python title:"Quotient-Remainder Theorem"
 # Pre(n, d): n in naturals, d in positive naturals
 # Returns (q, r) s.t. Post(n, d, q, r):
-#    (1) q, r in naturals 
-#    AND (2) r < d 
+#    (1) q, r in naturals
+#    AND (2) r < d
 #    AND (3) n = qd + r
 def QR(n, d):
     q, r = 0, n
-    
+
     # I(n, d, q, r) - We assert is true at [*]
-    while [*] r >= d:  
+    while [*] r >= d:
         q = q + 1
         r = r - d
     return (q, r)
@@ -107,6 +111,7 @@ def QR(n, d):
 - `r >= d`?
 
 > [!tip]+ Index these variables
+>
 > - Something that you make up for your own convenience
 > - Not apart of the code!
 > - Part of how you keep track of and refer to the value of a variable at different points of the execution
@@ -126,6 +131,7 @@ def QR(n, d):
 ![](https://i.imgur.com/dFFhe2B.png)
 
 > [!question]+ How do we figure out what is true at the point of the loop invariant?
+>
 > - ==Look at pre and post conditions==
 > - Whole point of invariant is to prove the post conditions
 > - Not going to be able to grab the whole post-condition and make it the invariant
@@ -155,14 +161,14 @@ def QR(n, d):
 ```python title:"Quotient-Remainder Theorem"
 # Pre(n, d): n in naturals, d in positive naturals
 # Returns (q, r) s.t. Post(n, d, q, r):
-#    (1) q, r in naturals 
-#    AND (2) r < d 
+#    (1) q, r in naturals
+#    AND (2) r < d
 #    AND (3) n = qd + r
 def QR(n, d):
     q_0, r_0 = 0, n
-    
+
     # I(n, d, q, r): q, r are in naturals AND n = qd + r
-    while [*] r_k >= d:  
+    while [*] r_k >= d:
         q_{k+1} = q_k + 1
         r_{k+1} = r_k - d
     return (q, r)
@@ -170,10 +176,12 @@ def QR(n, d):
 
 > [!question]+ How do we know if this is a good loop variant?
 > A good loop invariant…
+>
 > 1. Helps prove the post condition
 >     - when the loop ends (==assumption==)
 > 2. Is invariant → Check that it is actually *is* invariant
 >     - Otherwise, proving something based on fallacy (bad!)
+>
 > - Doesn’t matter what order this is proved in, but recommended to check if it proves Post first
 >     - Typically, that is where you find out you are missing something in invariant → Don’t know enough to conclude Post
 >     - Want to find that out before you spend time proving it is invariant
@@ -186,6 +194,7 @@ def QR(n, d):
 Assume loop ends.
 
 When the loop ends, we know:
+
 - $r < d$ (from negation of loop condition), <u>and</u>
 - $I: q, r \in \mathbb{N} \wedge n = qd + r$ (from loop invariant)
 
@@ -204,6 +213,7 @@ Check that it actually *is* invariant:
 - This is [[900 Archive/Y2 Fall 24/CSC236/01 Induction/Simple Induction\|Simple Induction]]
 
 **Proof of Invariance.**
+
 - $I_{0}$ holds (see comments)
 - Let $k \in \mathbb{N}$. Assume $I_{k}$ and $r_{k} \geq d$ (i.e., there is one more iteration)
 - Then,
@@ -217,6 +227,7 @@ Check that it actually *is* invariant:
     - $$\begin{align*} n &= q_{k}d + r_{k} \\ &= (q_{k}+1)d + (r_{k}-d) \\ &= q_{k+1}d + r_{k+1} \end{align*}$$
 
 > [!warning]+ Conclusion: $\forall k \in \mathbb{N}, I_{k}$
+>
 > - Saying that $I_{k}$ is true no matter how many iterations you make
 > - Don’t want the code to run to infinity; ==want loop to stop!==
 > - Some point where $I_{k}$ is not defined
@@ -227,11 +238,14 @@ So, the inductive step proves $$( k \text{ iter} \implies I_{k}) \implies ((k + 
 ## Why Does the Loop Stop? How Do We *Formalize* This?
 
 > [!def]+ Loop Variant
+>
 > - $V(n, d, q, r):$ expression that *bounds* the amount of work remaining
 
 > [!thm]+ Formally, a **variant** satisfies:
+>
 > 1. $\forall k, V_{k} \in \mathbb{N}$
 > 2. $\forall k, V_{k+1} < V_{k}$
+>
 > - “By WOP, the loop terminates”
 
 > [!note] $V_{k}$ is the value of $V$ just before it executes for the $k + 1$-st time
@@ -240,6 +254,7 @@ So, the inductive step proves $$( k \text{ iter} \implies I_{k}) \implies ((k + 
     - $r$ keeps getting smaller → Eventually going to be $<d$
 
 > [!tip]+ We pick $V = r$
+>
 > - $V_{k} \in \mathbb{N} \because r_{k} \in \mathbb{N}$ is in invariant
 >     - Likely want to include something about natural numbers in invariant to use in variant
 > - $r_{k+1} = r_{k} - d < r_{k} \because d > 0$
@@ -263,11 +278,13 @@ Formally, $V_{0} > V_{1} > V_{2}, > \dots$
 - Otherwise, $V_{m + 1} < V_{m}$ (by property 2.) contradicts that $V_{m}$ is the smallest element
 
 > [!note]+ The number of elements in $S \neq$ the number of iterations in loop
+>
 > - It is equal to the number of iterations in loop + 1
 
 # Invariant vs. Variant
 
 > [!important]+ Invariant vs. Variant
+>
 > - **Loop variant**
 >     - A quantity that is supposed to change from one iteration to the next
 >     - Use to ==prove termination==
@@ -293,6 +310,7 @@ def find_min(A, b):
 ```
 
 > [!note]+ $A[m] \leq A[b:len(A)]$
+>
 > - New notation
 > - Shorthand for $$\begin{align*} A[m] \leq A[b] \wedge A[m] \leq A[b+1] \wedge \dots \wedge A[m] \leq A[len(A) - 1] \\ \equiv \forall i, b \leq i < len(A) \implies A[m] \leq A[i]\end{align*}$$
 
@@ -317,7 +335,7 @@ def find_min(A, b):
 def find_min(A, b):
     m = b
     i = b + 1
-    
+
     # I(m, i) : m, i in naturals ∧ b <= m < i <= len(A)
     while i < len(A):
         if A[i] < A[m]: m = i

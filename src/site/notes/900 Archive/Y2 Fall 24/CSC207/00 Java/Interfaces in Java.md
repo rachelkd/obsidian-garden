@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2024-12-10T16:47:33.692-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/interfaces-in-java/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-05T23:25:12.420-04:00","updated":"2025-02-06T17:51:41.119-05:00"}
 ---
 
 
@@ -46,7 +46,7 @@ class Corn extends Plant implements Edible, Washable {
     void eat() {
         ...    // Our implementation here!
     }
-    
+
     // Overriding the default wash method
     @Override
     public void wash() {

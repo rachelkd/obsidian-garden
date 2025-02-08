@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-05T00:17:12.297-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-06T17:51:40.637-05:00"}
 ---
 
 
@@ -10,10 +10,10 @@
 > [!question]+ Why is it okay to eat plants?
 >
 > - In [[100 Academia/HPS208/Hindu Environmental Ethics\|Hinduism]] and Jainism:
->   - Considered okay (or at least better) to eat plants rather than animals
->   - Jain suggestion:
->     - Plants have less of a *sensory* world
->     - Therefore suffer less
+>     - Considered okay (or at least better) to eat plants rather than animals
+>     - Jain suggestion:
+>         - Plants have less of a *sensory* world
+>         - Therefore suffer less
 
 - % Both Hindu and Jain traditions regard plants as *sentient*
     - Plants have *atman* — baseline witness consciousness that underlies all personality and conscious experiences
@@ -70,6 +70,7 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
 > [!question]+ What sense can plants behave at all?
 
 > [!question]+ What could count as plant behaviour?
+>
 > - Such that we can even ask if it is adaptive, flexible, etc.
 > - Maybe growing towards a direction/towards light?
 
@@ -228,6 +229,7 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
     - Is the apparent goal directed-ness of plants intrinsic to them?
 
 > [!important]+ This question is relevant to our moral question.
+>
 > - If plants have goals, then they have ==interests==
 >     - i.e., Things that they want out of the world
 > - & → Have to give some consideration to their interests
@@ -243,6 +245,7 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
     - @ Perhaps we want something more stringent in our definition
 
 > [!summary]+ Walsh (2006)
+>
 > - Argues that for something to be *goal directed*, it should have three properties:
 >     1. **Persistence**
 >     2. **Plasticity**
@@ -275,6 +278,7 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
     - Associative learning that goes beyond habituation and sensitization
 
 > [!tldr]+ Barry E. Adelman (2018): On the Conditioning of Plants: A Review of Experimental Evidence
+>
 > - Secondary reading
 > - & There is not much evidence for complex associative learning in plants at present
 
@@ -326,12 +330,14 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
     - ! Markel (2020) was unable to replicate Gagliano et al.‘s experimental results
 
 > [!important]+ Absence of evidence is not necessarily evidence of absence
+>
 > - But as of 2020:
 >     - & Plants do not seem to fulfill this ASENT criterion for sentience
 
 ## Plant Consciousness
 
 > [!summary]+ Final section of main reading (Segundo‐Ortin and Calvo, 2022)
+>
 > - Various proposals which support the idea that plants are *conscious*
 
 - ! Segundo-Ortin and Calvo treat *sentience* and *consciousness* interchangeably

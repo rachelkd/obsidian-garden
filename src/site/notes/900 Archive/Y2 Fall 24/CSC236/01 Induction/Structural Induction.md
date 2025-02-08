@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2024-12-09T03:51:38.634-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/01-induction/structural-induction/","tags":["#lecture","#note","cs","university"],"created":"2024-09-24T17:04:40.000-04:00","updated":"2025-02-06T17:51:40.626-05:00"}
 ---
 
 
@@ -17,6 +17,7 @@
 ## Justification for 3
 
 Adjust the structure of induction:
+
 - Define set $\mathbb{E}$ for all even natural numbers in a *self-contained*, *recursive* way,
     - i.e., not using any other sets or referring to anything outside of the definition
     1. ==$0 \in \mathbb{E}$==
@@ -33,6 +34,7 @@ Adjust the structure of induction:
     - Inductive step matches 2. of $\mathbb{E}$ definition
 
 > [!important]+ Structure of the proof (structural induction) matches the structure of your definition
+>
 > - Allowed to conclude: $\forall n \in S, P(n)$
 
 ![](https://i.imgur.com/Uqddi6b.png)
@@ -45,6 +47,7 @@ Adjust the structure of induction:
 # Ex. A Set of “expressions”
 
 Define the set of “expressions” $E$ as the *smallest set* that satisfies:
+
 1. `'1', '2', '3'` $\in E$
     - Strings
     - Note: Would often see $[1,2,3] \in E$
@@ -58,6 +61,7 @@ Define the set of “expressions” $E$ as the *smallest set* that satisfies:
 $$E = \{ 1, 2, 3, 1 \oplus 2, \bbox[pink]{3 \otimes 3}, \cdots \}$$
 
 > [!question]- Do we rule out $3 \oplus 3$ because $e_{1} \neq e_{2}$?
+>
 > - No
 > - Allowed because $e_{1,}e_{2}$ are *dummy variables*; not restricted
 
@@ -104,6 +108,7 @@ $$\texttt{num(} \underbrace{1}_{2, 3} \texttt{)} = 1 = 1 + 0 = 1 + \texttt{op(} 
 **Inductive step.**
 Let $e_{1}, e_{2} \in E$.
 Assume \[IH]:
+
 - $\texttt{num(} e_{1} \texttt{)} = 1 + \texttt{op(} e_{1} \texttt{)}$, and
 - $\texttt{num(} e_{2} \texttt{)} = 1 + \texttt{op(} e_{2} \texttt{)}$
 
@@ -208,7 +213,7 @@ $\implies$ We can give a **self-contained recursive definition** for $\text{num}
 
 ## An Attempt of a Proof by Structural Induction
 
-**Claim.** $\forall t \in T, \text{size}(t) \leq 2^{\text{height}(t)}$ 
+**Claim.** $\forall t \in T, \text{size}(t) \leq 2^{\text{height}(t)}$
 (WTP)
 
 **Proof (by structural induction).**

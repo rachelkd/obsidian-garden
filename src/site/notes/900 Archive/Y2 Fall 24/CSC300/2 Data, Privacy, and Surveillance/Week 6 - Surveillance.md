@@ -1,15 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-12T00:06:09.249-04:00","updated":"2024-11-28T16:14:09.273-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-12T00:06:09.249-04:00","updated":"2025-02-06T17:51:40.685-05:00"}
 ---
 
 
 > [!tldr]- Where we are
+>
 > - Politics in data
 >     - How **infrastructure inversion reveals the politics of collection, analysis, and applications of data**
 > - Importance of privacy
 >     - How privacy is defined by the contextual norms and boundaries
 
 > [!goal]- Learning Objectives
+>
 > - What is **surveillance**?
 > - How surveillance can become problematic
 > - What is **dynamic normalization**?
@@ -61,7 +63,6 @@
 
 ![|center|400](https://i.imgur.com/R6rRl12.png)
 
-
 - Introduced as a model of prison reform
 - Design helps prison authority make sure that all prisoners can always be watched by only one guard
 - Prisoners also know that they are being watched
@@ -85,6 +86,7 @@
 ![|center|300](https://i.imgur.com/QvvYuWQ.png)
 
 > [!important]+ Foucault fundamentally is concerned about the idea of power and the relationship between power and knowledge.
+>
 > - **Central thesis:** Clear power imbalance between two parties if one person can see someone all the time, and the other person cannot see the first person
 >     - May not also mean visually see, but getting information and knowledge
 
@@ -218,9 +220,11 @@
 ## Surveillance Capital
 
 > [!def]- Capital (in surveillance capitalism)
+>
 > - Development of these data-driven models that attract *investment* is called **surveillance capital**
 
 > [!def]- Surveillance capitalism
+>
 > - This dis-embedded and extractive variant of information capitalism is **surveillance capitalism**
 > - The process of developing data-driven models to make money through information extraction
 
@@ -242,6 +246,7 @@
         - → Cannot trust anything in today’s world because so many tech companies are hungry for data
 
 > [!info]+ Trust-based relationships are needed, but there is…
+>
 > - **Asymmetry in power** between corporations and people using their services
 >     - Can one abandon Google even if one wants to?
 >         - You do not hold the power to ignore them

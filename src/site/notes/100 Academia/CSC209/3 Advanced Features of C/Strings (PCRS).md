@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T04:06:31.811-05:00","updated":"2025-02-04T04:52:01.611-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T04:06:31.811-05:00","updated":"2025-02-06T17:51:41.116-05:00"}
 ---
 
 
@@ -8,11 +8,13 @@
 ## Introduction
 
 > [!def]+ C String Definition
+>
 > - A ==character array== ending with ==null terminator `\0`==
 >     - Not a new data type — just a `char` array with special termination
 > - Null character marks ==end of meaningful content==
 
 > [!info]+ Strings solve two problems with raw char arrays:
+>
 > 1. No need for manual character-by-character processing
 > 2. Prevents printing garbage values from uninitialized array elements
 
@@ -49,10 +51,10 @@ int main(void) {
 
 int main() {
     char text[20] = {'h', 'e', 'l', 'l', 'o', '\0'};
-    
+
     // This does the same thing
     char text[20] = "hello";
-  
+
     printf("%s\n", text);
 
     // But text1 is a pointer to a string literal
@@ -60,7 +62,7 @@ int main() {
     printf("%s\n", text1);
 
 
-    // We can change a character in text but not text1    
+    // We can change a character in text but not text1
     text[0] = 'j';
     printf("%s\n", text);
     // See what happens if we uncomment the next line and compile
@@ -71,38 +73,48 @@ int main() {
 ```
 
 > [!info]+ Three Initialization Approaches
+>
 > 1. **Explicit array initialization**
+>
 >    ```c
->    char text[20] = {'h','e','l','l','o','\0'};  
->    // Remaining elements automatically set to \0 
+>    char text[20] = {'h','e','l','l','o','\0'};
+>    // Remaining elements automatically set to \0
 >    ```
+>
 > 2. **String literal shorthand**
+>
 >    ```c
 >    char text[20] = "hello"; // Compiler adds null terminator to remaining 15 elements
 >    ```
+>
 > 3. **Omitted array size**
+>
 >    ```c
->    char text[] = "hello"; // Compiler allocates 6 elements (5 chars + \0) 
+>    char text[] = "hello"; // Compiler allocates 6 elements (5 chars + \0)
 >    ```
 
 - Omitting the array size does not mean that the array size can change
 
 > [!warning]+ It is illegal for the initializer to be longer than the size of the `char` array, but it *is* legal for the array and initializer to be the same size.
+>
 > - Initializer length must be `≤ array_size - 1` (leave space for `\0`)
 > - Identical array/initializer sizes create ==unterminated strings==
+>
 >    ```c
 >    char bad[5] = "hello"; // No room for \0 → Not a valid string
 >    ```
 
 > [!def]+ String literal
+>
 > - String constant that cannot be changed
 
 > [!danger]+ Key Distinction Between String Variables and Literals
 >
 > ```c
-> char text[] = "hello";  // Modifiable string variable  
+> char text[] = "hello";  // Modifiable string variable
 > char *text1 = "hello";  // Pointer to immutable string literal
 > ```
+>
 > - Can modify array elements:
 > `text[0] = 'j'; // Valid`
 > - Attempting literal modification:
@@ -120,17 +132,17 @@ int main() {
 int main() {
     char str1[] = {'h', 'e', 'l', 'l', 'o', '\0'};
     char str2[] = "hello";
-    
+
     str1[0] = 'j';  // Legal
     str2[0] = 'j';  // Also legal
-    
+
     // Where is memory allocated?
-    
+
     char greet1[10] = "hello";
-    
+
     char *greet2 = malloc(sizeof(char) * 10);
     strncpy(greet2, greet1, 10);
-    
+
     const char *greet3 = "hello";  // greet3 points to "hello" in read-only memory
 }
 ```
@@ -187,6 +199,7 @@ s3 = s1 + s2
         - Header file contains function prototypes of all of the C string functions
 
 > [!thm]+ `size_t strlen(const char *s)`
+>
 > - Returns number of characters in string `s`
 >     - Not including null termination character
 > - `size_t` is an *unsigned* integer type
@@ -204,7 +217,7 @@ int main() {
 
     // This is unsafe because s1 may not have enough space
     // to hold all the characters copied from s2.
-    
+
     //strcpy(s1, s2);
 
     // This doesn't necessarily null-terminate s1 if there isn't space.
@@ -224,6 +237,7 @@ int main() {
     - Add one string to the end of what was previously there by the other
 
 > [!thm]+ `char *strcpy(char *s1, const char *s2)`
+>
 > - Copies the characters from string `s2` into the beginning of array `s1`
 > - Overwrites what was at the start of `s1`
 >     - → `s1` is not required to be a string when `strcpy` is called
@@ -242,6 +256,7 @@ int main() {
 `strcpy` has a safe counterpart: `strncpy`
 
 > [!thm]+ `char *strncpy(char *s1, const char *s2, int n);`
+>
 > - `n`
 >     - Indicates the maximum number of characters that `s1` can hold
 >     - $\therefore$ Max number of characters *including* null terminator that can be copied from `s2` into `s1`
@@ -251,6 +266,7 @@ int main() {
     - Unless it finds one in the first `n` characters in `s2`
 
 > [!tip]+ How do we safely use `strncpy`?
+>
 > - Ensure string ends with null character
 >     - Explicitly add null character
 
@@ -262,29 +278,29 @@ CAPACITY = 7;
 int main() {
     // How do we do this safely?
     strcpy(dest, source);
-    
+
     // Option 1: Source could be longer than dest
     strncpy(dest, source, strlen(source));
-    
+
     // Option 2: dest might not have a null termination character in it
     strncpy(dest, source, strlen(dest));
-    
+
     // Option 3: source might have more space allocated for it than dest
     strncpy(dest, source, sizeof(source));
-    
+
     // Option 4: doesn't leave space for the null terminator; dest might not be null terminated, but we will not overwrite the end
     strncpy(dest, source, sizeof(dest));
-    
+
     // Option 5: Same as 4
     strncpy(dest, source, CAPACITY);
-    
+
     // Option 6: Leaves space for a null termination character, but it does not put it there
     strncpy(dest, source, CAPACITY - 1);
-    
+
     // Option 7: Correct
     strncpy(dest, source, CAPACITY - 1);
     dest[CAPACITY - 1] = '\0';
-    
+
     // Option 8: CAPACITY is not an index in the array
     strncpy(dest, source, CAPACITY - 1);
     dest[CAPACITY] = '\0';
@@ -302,15 +318,18 @@ int main() {
 - Also known as **appending** to a string
 
 > [!thm]+ `char *strcat(char *s1, const char *s2)`
+>
 > - Adds characters from `s2` to end of string `s1`
 > - Both `s1`, `s2` must be strings prior to call to `strcat`
 
 > [!info]+ `strcat` vs. `strncat`
 > **`strcat(s1, s2)`**
+>
 > - ==Appends entire `s2` to `s1`==
 > - Dangerous: No buffer overflow checks
 >
 > **`strncat(s1, s2, n)`**
+>
 > - Appends ==max `n` characters== from `s2`
 > - Always adds ==null terminator==
 > - Safer but requires manual size calculation
@@ -327,6 +346,7 @@ strncat(s1, " C Programming", sizeof(s1) - strlen(s1) - 1); // Calculate remaini
 ### Searching for Single Character
 
 > [!thm]+ `char *strchr(const char *s, int c)`
+>
 > - `s` is the string to search
 > - `c` character to search for in the string
 > - Searches from left to right
@@ -367,6 +387,7 @@ int main() {
 ### Searching for Substring
 
 > [!thm]+ `char *strstr(const char *s1, const char *s2)`
+>
 > - Searches left to right in `s1` for first occurrence of substring `s2`
 > - Returns pointer to the character of `s1` that *begins* the match to `s2`
 >     - Null if substring `s2` not in `s1`
@@ -380,7 +401,7 @@ int main() {
     char *p;
 
     p = strstr(s1, "sity");
-    
+
     if (p == NULL) {
         printf("Character not found\n");
     } else {

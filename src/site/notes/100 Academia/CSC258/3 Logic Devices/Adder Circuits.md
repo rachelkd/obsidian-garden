@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Adder Circuits.md","permalink":"/academia/csc-258/3-logic-devices/adder-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-22T13:18:29.825-05:00","updated":"2025-01-24T23:53:39.612-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Adder Circuits.md","permalink":"/academia/csc-258/3-logic-devices/adder-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-22T13:18:29.825-05:00","updated":"2025-02-05T22:16:28.195-05:00"}
 ---
 
 
@@ -108,7 +108,7 @@ $$
 
 > [!note] $C$ and $Z$ are sometimes labeled as $C_{\text{out}}$ and $C_{\text{in}}$.
 
-![](https://i.imgur.com/LmqNcP5.png)
+![|331](https://i.imgur.com/LmqNcP5.png)
 
 - Usually adding two numbers that are a single bit in a multi-digit value
 - Send a carry out if it *overflows*
