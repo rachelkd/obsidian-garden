@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/Introduction and Analyzing Running Time (Course Notes).md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/introduction-and-analyzing-running-time-course-notes/","tags":["cs","lecture","note","university"],"created":"2025-01-11T15:32:18.979-05:00","updated":"2025-01-31T02:33:27.727-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/Introduction and Analyzing Running Time (Course Notes).md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/introduction-and-analyzing-running-time-course-notes/","tags":["cs","lecture","note","university"],"created":"2025-01-11T15:32:18.979-05:00","updated":"2025-02-06T17:51:40.852-05:00"}
 ---
 
 
@@ -15,6 +15,7 @@ The reason we study data structures at all, spending time inventing and refining
 - Categorize ==how the number grows== relative to the size of the algorithm’s input
 
 > [!note]+ The functions $n + 1$, $3n - 10$, $0.001n + \log n$ have the same growth behaviour as $n$ gets large.
+>
 > - All grow roughly linearly with $n$
 
 - Despite different slopes, we ignore these constants and simply say that these functions are $\mathcal{O}(n)$
@@ -23,6 +24,7 @@ The reason we study data structures at all, spending time inventing and refining
     - Deals with long-term behaviour of a function
 
 > [!important]+ Two important facts
+>
 > 1. Target of the analysis is always a ==relationship== between the *size of the input* and the *number of basic operations* performed
 > 2. Result of analysis is a *qualitative rate of growth*
 >     - Not an exact number or even exact function
@@ -30,6 +32,7 @@ The reason we study data structures at all, spending time inventing and refining
 ## Three Different Symbols
 
 > [!def]+ Big-Oh
+>
 > - $f = \mathcal{O}(g)$
 > - Function $f(x)$ grows *slower or at the same rate* as $g(x)$
 >     - i.e., $g$ is an *upper bound* on the rate of growth of $f$
@@ -38,6 +41,7 @@ The reason we study data structures at all, spending time inventing and refining
     - Also correct to write $x^{2} + x = \mathcal{O}(x^{100})$, or $x^{2} + x = \mathcal{O}(2^{x})$
 
 > [!def]+ Omega
+>
 > - $f = \Omega (g)$
 > - Function $f(x)$ grows *faster or at the same rate* as $g(x)$
 >     - i.e., $g$ is a *lower bound* on the rate of growth of $f$
@@ -46,6 +50,7 @@ The reason we study data structures at all, spending time inventing and refining
     - Also correct to write $x^{2} + x = \Omega(x)$, or $x^{2} + x = \Omega(\log \log x)$
 
 > [!def]+ Theta
+>
 > - $f = \Theta(g)$
 > - Function $f(x)$ grows *at the same rate* as $g(x)$
 >     - i.e., $g$ has the same growth as $f$
@@ -56,6 +61,7 @@ The reason we study data structures at all, spending time inventing and refining
 - ==Not correct== to say $x^{2} + x = \Theta(2^{x})$ nor $x^{2} + x = \Theta(x)$
 
 > [!abstract]+ Reminder
+>
 > - Not the case in this course that the obvious upper bound will always be the *actual* rate of growth
 
 ## Worse-Case Analysis
@@ -64,6 +70,7 @@ The reason we study data structures at all, spending time inventing and refining
     - i.e., corresponding Theta expression
 
 > [!question]+ Then, why do we need Big-Oh and Omega at all?
+>
 > - Cannot always take a piece of code and come up with an exact expression for the number of basic operations performed
 
 - Consider a function that takes a list and returns whether this list contains the number 263:
@@ -78,6 +85,7 @@ The reason we study data structures at all, spending time inventing and refining
 > [!info] This problem is why **asymptotic analysis** is typically specialized to **worst-case analysis**.
 
 > [!def]+ Worst-case analysis
+>
 > - Studies only the relationship between input size of *maximum possible* running time
 
 - Rather than asking the question: “What is the running time of this algorithm for an input size $n$?”,
@@ -87,6 +95,7 @@ The reason we study data structures at all, spending time inventing and refining
     - → Get a function involving $n$
 
 > [!note]+ Notation
+>
 > - $T(n)$ represents the ==maximum possible running time== as a function of $n$, the input size
 > - Result can be something like $T(n) = \Theta(n)$
 >     - Worst-case running time of our algorithm grows linearly with the input size
@@ -104,10 +113,12 @@ The reason we study data structures at all, spending time inventing and refining
     - Have no way of knowing that the upper bound we obtain by being pessimistic in our operation counting is actually ==achievable==
 
 > [!question]+ How do we show that whatever upper bound we get on the maximum is actually achievable?
+>
 > - Rarely try to show that the *exact* upper bound is achievable; doesn’t actually matter
 > - & We try to show that an ==asymptotic lower bound $\Omega$ is achievable==
 
 > [!tip]+ To show that the maximum running time grows *at least as quickly* as some function $f$,
+>
 > - Find a family of inputs
 >     - One for each input size $n$
 >     - Whose running time has a lower bound of $f(n)$
@@ -118,6 +129,7 @@ The reason we study data structures at all, spending time inventing and refining
     - Conclude that the *maximum* possible running time is $\Omega(n)$
 
 > [!summary] Performing a complete worst-case analysis to get a tight Theta bound on the worst-case running time
+>
 > 1. Give a pessimistic *upper bound* on the number of basic operations that could occur for any input of a fixed size $n$
 >     - Obtain corresponding Big-Oh expression i.e., $T(n) = \mathcal{ O }(f)$
 > 2. Give a *family of inputs* — one for each input size — and give a *lower bound* on the number of basic operations that occurs for this particular family of inputs
@@ -156,6 +168,7 @@ def evens_are_bad(lst):
     - Prove the matching upper bound → Worst case running time of algorithm is $\Theta(n^{2})$
 
 > [!obs]+ Loop only executes when every number in `lst` is even
+>
 > - When just one number is odd, the running time is $\mathcal{ O }(n)$
 >     - Maximum possible running time of executing the all-even check
 >     - Executing the check might abort quickly if it finds an odd number early in the list
@@ -166,12 +179,14 @@ def evens_are_bad(lst):
 
 > [!def]+ Average-case running time
 > $$T_{avg}(n)$$
+>
 > - Takes a number $n$
 > - Returns the ==weighted average== of the algorithm’s running time for all inputs of size $n$
 
 #### Setting Up the Context of Our Analysis
 
 > [!tldr]+ Setting Up the Context of Our Analysis
+>
 > - What inputs are we considering, and
 > - How are we measuring runtime?
 
@@ -186,6 +201,7 @@ def evens_are_bad(lst):
         - Step is synonymous with “list access”
 
 > [!note]+ It is fairly realistic to focus solely on operations of a particular type in a runtime analysis.
+>
 > - Typically choose the operation that happens most frequently
 >     - As in this case, or
 > - Operation that is the most expensive
@@ -201,10 +217,12 @@ def evens_are_bad(lst):
     - In the loop, there are $n^{2}$ steps
 
 > [!obs]+ Two possibilities
+>
 > - Lists that have all even numbers will run in $n^{2} + n$ steps
 > - All other lists will run in $n$ steps
 
 > [!question]+ How many of each type of list are there?
+>
 > - For each position there are two possible even numbers
 >     - 2 and 4
 > - Number of lists of length $n$ with every element being even is $2^{n} = 2 \text{ options} \times 2 \text{ options} \dots \times 2$
@@ -224,6 +242,7 @@ T_{avg} (n) & = \frac{{2^{n}(n^{2} + n) + (5^{n} - 2^{n})n}}{5^{n}} && (5^{n} \t
 $$
 
 > [!note] Any exponential grows faster than any polynomials
+>
 > - First term goes to 0 as $n$ goes to infinity
 
 - The average-case running time of this algorithm is ==$\Theta(n)$==
@@ -237,6 +256,7 @@ $$
     - & Treat the algorithm’s running time as a *random variable* $T$, defined over the set of possible inputs of size $n$
 
 > [!summary]+ Average-case analysis
+>
 > 1. Define the set of possible inputs and a **probability distribution** over this set
 >     - e.g., Our set is all lists of length $n$ that contain only elements in the range 1-5
 >         - Probability distribution is the **uniform distribution** i.e., equal probability for each element in set
@@ -308,6 +328,7 @@ def evens_are_bad(lst):
 Disclaimer: The following answers are my own and not provided.
 
 > [!question]+ Prove that the `evens_are_bad` algorithm has a worst-case running time of $\mathcal{ O }(n^{2})$, where $n$ is the length of the input list.
+>
 > - Let $n$ be the length of the input list `lst`.
 > - The check on line 2 takes at most $n$ steps.
 > - The loop inside the `if` branch iterates at most $n$ times
@@ -379,11 +400,13 @@ def partition(array, pivot):
 ```
 
 > [!note] This version of `quicksort` uses linear size auxiliary storage.
+>
 > - Simpler to analyze
 > - In-place version of quicksort has the same running time behaviour
 >     - Just uses less space
 
 > [!obs]+ The choice of pivot is crucial.
+>
 > - Determines the size of each of the two partitions
 > - Best case: Pivot is the median
 >     - Remaining elements are split into partitions of roughly equal size
@@ -449,11 +472,13 @@ $$
 *Proof.*
 
 > [!info]+ Quicksort
+>
 > - Selects a pivot element, then
 > - Compares the pivot to every other item to create two partitions, and then
 > - Recurses on each partition separately
 >
 > > [!obs]+ Two observations
+> >
 > > 1. Every comparison must involve the “current” pivot.
 > > 2. The pivot is only compared to the items that have always been placed into the same partition as it by all previous pivots.
 > >     - Once two items have been put into different partitions, they will never be compared.
@@ -496,6 +521,7 @@ $$
  & = 2 \sum\limits_{i=1}^{n}  \sum\limits_{j'=1}^{n - i}  \frac{1}{j' + 1}
 \end{align}
 $$
+
 - % We change the bound from $n$ to $n - i$
     - Result when $n$ witnesses $j$ in $j - i$
 - Individual terms of inner summation do not depend on $i$

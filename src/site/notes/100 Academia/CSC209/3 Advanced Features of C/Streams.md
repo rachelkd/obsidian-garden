@@ -1,12 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:50:45.436-05:00","updated":"2025-01-24T21:15:35.103-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams.md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:50:45.436-05:00","updated":"2025-02-06T17:24:06.618-05:00"}
 ---
 
 
 # Streams
 
 > [!summary]+
-> - **Streams** are sources (input) or destinations (output) for data
+> - **Streams**
+>     - Abstraction for sequentially accessed data
+>     - Sources (input) or destinations (output) for data
 > - Three default streams are automatically available:
 >     - **Standard Input (`stdin`)**
 >         - Defaults to the keyboard
@@ -14,8 +16,17 @@
 >         - Defaults to the screen
 >     - **Standard Error (`stderr`)**
 >         - Defaults to the screen, used for error messages
-> - Streams can refer to files, network connections, or devices
-> - Use `fprintf` to write to a specific stream (e.g., `stderr`)
+
+- Streams can refer to files, network connections, or devices
+- In C:
+    - Streams are `FILE *`
+        - See [[100 Academia/CSC209/3 Advanced Features of C/Files\|Files]]
+    - *Files* are also streams
+        - In addition to default streams available
+- Use `fprintf` to write to a specific stream
+    - e.g., `stderr`
+- Streaks keep track of *file position*
+    - i.e., *Cursor*
 
 ## Default Streams in C
 

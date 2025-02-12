@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Decoders.md","permalink":"/academia/csc-258/3-logic-devices/decoders/","tags":["cs","lecture","note","university"],"created":"2025-01-20T16:39:38.590-05:00","updated":"2025-01-24T23:53:54.573-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Decoders.md","permalink":"/academia/csc-258/3-logic-devices/decoders/","tags":["cs","lecture","note","university"],"created":"2025-01-20T16:39:38.590-05:00","updated":"2025-02-05T22:15:30.859-05:00"}
 ---
 
 
@@ -13,7 +13,7 @@
 - Decoders do not have one single implementation like muxes
 
 > [!example]+ Binary signal splitter (one hot decoder)
-> ![](https://i.imgur.com/OkFBcro.png)
+> ![|214](https://i.imgur.com/OkFBcro.png)
 > - Activates one of four output lines based on a two-digit binary number
 >     - If inputs are $00 \implies A$ is turned on
 >     - If inputs are $01 \implies B$ is turned on
@@ -32,7 +32,7 @@
 >     - Want to express that in a different way e.g., visual way
 > - Each output segment has a particular logic that defines it
 
-![|645](https://i.imgur.com/WOEn73H.png)
+![|406](https://i.imgur.com/WOEn73H.png)
 
 - To display any digit:
     - Send signal to each of the segments you want to light up
@@ -46,9 +46,9 @@
 > - Activate segment 0 for values: $0, 2, 3, 5, 6, 7, 8, 9$
 > - In binary: $0000, 0010, 0011, 0101, 0110, 0111, 1000, 1001$
 >
-> ![](https://i.imgur.com/NDA4MGg.png)
+> ![|146](https://i.imgur.com/NDA4MGg.png)
 >
-> ![](https://i.imgur.com/qp9rudz.png)
+> ![|361](https://i.imgur.com/qp9rudz.png)
 >
 > $$
 > \texttt{HEX0} = \overline{X_{3}} \cdot X_{2} \cdot X_{0} + X_{3} \cdot \overline{X_{2}} \cdot \overline{X_{1}} + \overline{X_{3}} \cdot \overline{X_{2}} \cdot \overline{X_{0}} + \overline{X_{3}} \cdot X_{1}
@@ -72,7 +72,7 @@
     - Include each `X` in groupings as needed
 
 > [!example]+ HEX0 K-map
-> ![](https://i.imgur.com/12csyHq.png)
+> ![|318](https://i.imgur.com/12csyHq.png)
 >
 > $$
 > \texttt{HEX0} = X_{1} + X_{2} \cdot X_{0} + X_{3} + \overline{X_{2}} \cdot \overline{X_{0}}
@@ -83,14 +83,14 @@
 
 > [!example] Segment 1 (HEX1)
 >
-> ![](https://i.imgur.com/bA41Qcq.png) ![](https://i.imgur.com/0ok95EJ.png)
+> ![|147](https://i.imgur.com/bA41Qcq.png) ![|370](https://i.imgur.com/0ok95EJ.png)
 >$$
 > \texttt{HEX1} = \overline{X_{1}} \cdot \overline{X_{0}} + \overline{X_{1}} \cdot \overline{X_{0}} + \overline{X_{2}}
 > $$
 
 > [!example]+ Segment 2 (HEX2)
 >
-> ![](https://i.imgur.com/7CCP5G8.png) ![](https://i.imgur.com/Rjwjd2Q.png)
+> ![|245](https://i.imgur.com/7CCP5G8.png) ![|382](https://i.imgur.com/Rjwjd2Q.png)
 >
 > $$
 > \texttt{HEX2} = X_{2} + \overline{X_{1}} + X_{0}
@@ -98,7 +98,7 @@
 
 ## The Final 7-Segment Decoder
 
-![](https://i.imgur.com/Yw7QuOs.png)
+![|348](https://i.imgur.com/Yw7QuOs.png)
 
 - Decoders all look the same, except for ==inputs== and ==outputs==
 - Implementation of decoders differ from decoder to decoder

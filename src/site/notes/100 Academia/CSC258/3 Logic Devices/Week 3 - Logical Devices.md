@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Week 3 - Logical Devices.md","permalink":"/academia/csc-258/3-logic-devices/week-3-logical-devices/","tags":["cs","lecture","note","university"],"created":"2025-01-20T13:37:48.388-05:00","updated":"2025-01-27T13:44:22.563-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Week 3 - Logical Devices.md","permalink":"/academia/csc-258/3-logic-devices/week-3-logical-devices/","tags":["cs","lecture","note","university"],"created":"2025-01-20T13:37:48.388-05:00","updated":"2025-02-05T22:13:18.180-05:00"}
 ---
 
 

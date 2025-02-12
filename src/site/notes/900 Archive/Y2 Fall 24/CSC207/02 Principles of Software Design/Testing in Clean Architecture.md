@@ -1,9 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/testing-in-clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:28:19.118-04:00","updated":"2024-12-10T19:15:31.047-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/testing-in-clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-20T23:28:19.118-04:00","updated":"2025-02-06T17:51:39.863-05:00"}
 ---
 
 
 > [!question]- Questions to be answered this week
+>
 > - How can we test a program which adheres to Clean Architecture?
 > - What is mocking?
 > - What are packages in Java?
@@ -22,14 +23,17 @@
 3. **End-to-end test**
 
 > [!def]+ Unit Test
+>
 > - Tests the smallest unit of cohesive code (often a method)
 >     - e.g., Can create a test class called `EntityTests` of unit tests for all methods in class `Entity`
 
 > [!def]+ Integration Test
+>
 > - Tests how two components interact with each other
 >     - e.g., Two classes
 
 > [!def]+ End-to-end Test
+>
 > - Tests an entire path through the code from input to output
 >     - e.g., Start and end with the View
 > - [c] Fragile
@@ -96,9 +100,11 @@
 - ==Produce Output Data== for the Presenter
 
 > [!note]+ Test class serves as the ==Controller==
+>
 > - Write test code for *setup*
 
 > [!note]+ Test class needs to ==create a Presenter== that ==checks the Output Data and any Entity and persistence mutation==
+>
 > - Write test code that *asserts*
 
 - [?] In which layer should your test class go?
@@ -112,15 +118,15 @@ Example Tests from [Homework 5 starter code](https://github.com/CSC207-2024F-Uof
 ```java file:SignupInteractorTest.java
 void successTest() {
     SignupUserDataAccessInterface userRepository = new InMemoryUserDataAccessObject();
-    
+
     SignupOutputBoundary successPresenter = // Make a presenter here that asserts things
-    
+
     SignupInputData inputData = new SignupInputData("Paul", "password", "password");
-    
+
     SignupInputBoundary interactor = new SignupInteractor(
         userRepository, successPresenter, new CommonUserFactory()
     );
-    interactor.execute(inputData); 
+    interactor.execute(inputData);
     // This will eventually send Output Data to the successPresenter
 }
 ```
@@ -135,6 +141,7 @@ void successTest() {
     - `inputData`; the Input Data we are testing
 
 > [!obs]+ `execute` Interactor method returns nothing (fundamental to CA)
+>
 > - ==Does not mean that it has no output!==
 > - Output happens through `successPresenter` where we have our asserts
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2024-12-25T21:44:46.547-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2025-02-06T17:51:39.853-05:00"}
 ---
 
 
@@ -66,14 +66,17 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 ## Java
 
 > [!goal]+ To Study:
+>
 > - Basic features of a Java class
 > - Contents of the quizzes
 > - Labs
 
 > [!question]- What does a constructor do?
+>
 > - Initialize the instance variables
 
 > [!question]- Do you have to include a constructor in every class? What happens if you *don’t* write a constructor for a class
+>
 > - & Default constructor
 >     - No parameters
 > - ? What’s in the method body
@@ -82,12 +85,14 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >     - *Does* call the inherited constructor
 
 > [!question]- If you write a constructor, do you get the default constructor?
+>
 > - No
 >     - Java only makes a default constructor if you do not provide one
 >     - Simply because you need to construct an object
 >     - Need to make sure you’ve got your inherited part constructed
 
 > [!question]- Does the constructor have to call `super`?
+>
 > - Constructor’s relationship with `super`:
 >     - If the class extends another class (has a parent/superclass):
 >         - `super` must be called if:
@@ -108,6 +113,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >         - Calling `super` after other statements
 
 > [!question]- What are the “Java lookup rules”?
+>
 > - Process of finding methods/fields when using dot notation (e.g., `obj.method`)
 >     - Start at declared type of reference variable
 >     - Search process:
@@ -140,6 +146,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >             - Better style: Use class name `Shape.staticMethod`
 
 > [!question]- What makes a class *generic*? Abstract? When should you use generics? When should you use abstract classes and methods?
+>
 > - Symbol for generic
 >     - `< >`
 > - e.g., `List<T>`
@@ -160,6 +167,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >         - Code reusability
 >     - Examples:
 >         - Pair class that holds two items:
+>
 >             ```java
 >             class Pair<T, U> {
 >                 private T first;
@@ -167,6 +175,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >             }
 >             // Usage: Pair<String, Integer> grade = new Pair<>("Alice", 95);
 >             ```
+>
 >         - Generic method to find max value:
 >
 >             ```java
@@ -267,18 +276,21 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 ## Git
 
 > [!goal]+ To Study:
+>
 > - Basic commands
 > - Resolving conflicts
 > - Branch
 > - Merge
 
 > [!question]- What are some benefits of using version control?
+>
 > - Everybody has their own copy of the repository
 > - Can work on their own feature and make progress without clobbering the work that anyone else is doing
 > - Makes file sharing, isolation of work easier
 >     - Through branching and merging
 
 > [!question]- What are some best practices that you have noticed when using git?
+>
 > - Lots of small commits
 >     - Easier to track changes
 >     - Easier to revert if needed
@@ -289,6 +301,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 > - Keep main/master branch stable
 
 > [!question]- What makes a commit message *good*?
+>
 > - Clear and concise
 > - ==Describes what changed and why==
 > - Uses present tense
@@ -304,6 +317,7 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 >     - “Update database schema for new features”
 
 > [!question]- What is a branch and how can you use it to benefit your group’s project?
+>
 > - Separate workspace for development
 > - Allows parallel work without interference
 > - Good for:
@@ -319,10 +333,12 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 ## Testing
 
 > [!goal]+ To Study:
+>
 > - Testing-related definitions
 > - Basics of JUnit
 
 > [!question]- What is the difference between end-to-end, integration, and unit tests?
+>
 > - Unit test tests one class
 >     - Have to mock the other classes to make sure that one unit is working correctly
 > - Integration tests two different layers
@@ -333,10 +349,12 @@ We spent a lot of time referring back to the “typical scenario” of Clean Arc
 ## Exceptions
 
 > [!goal]+ To Study:
+>
 > - When to throw
 > - Syntax
 > - Inheritance hierarchy
 > - Checked vs. unchecked
 
 > [!question]- What syntax makes an Exception checked? Unchecked?
+>
 > - `throws`

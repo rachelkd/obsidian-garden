@@ -1,15 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-10T19:58:31.603-04:00","updated":"2024-11-15T17:00:29.713-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/clean-architecture/","tags":["cs","java","lecture","note","university"],"created":"2024-10-10T19:58:31.603-04:00","updated":"2025-02-06T17:51:39.880-05:00"}
 ---
 
 
 > [!question]+ Questions to be answered this week
+>
 > - What is a **use case**?
 > - What is **Clean Architecture** (CA)?
 > - What is the CA **dependency rule**?
 > - What is a **sequence diagram**?
 
 > [!goal]- Learning Objectives
+>
 > - Become more familiar with terminology related to architecture and design
 > - Understand clean architecture and its dependency rule
 > - Understand how sequence diagrams can help us convey flow of execution in our program
@@ -30,6 +32,7 @@ Brief summary of Ch. 15 from Clean Architecture textbook.
     - Communication → Thinking about input and output between **layers**
 
 > [!goal]+ “Goal is to facilitate the **development**, **deployment**, **operation**, and **maintenance**, of the software system”
+>
 > - What are we actually going to be doing with this program in the future? Are we designing it so that we can do all these things easily?
 
 > “The strategy behind this facilitating is to leave as many options open as possible, for as long as possible.”
@@ -48,6 +51,7 @@ Brief summary of Ch. 15 from Clean Architecture textbook.
 Brief summary of Ch. 19 from Clean Architecture textbook.
 
 > [!def]- Policy
+>
 > - Describing transformations in our program
 > - Given an input, what is the *policy* (i.e., ==logic of the program==) that gives us our output
 >     - What does it do with that input?
@@ -71,9 +75,11 @@ Brief summary of Ch. 19 from Clean Architecture textbook.
 # Use Cases for a Program
 
 > [!def]- Use Case
+>
 > - A single interaction between the user and computer
 
 Imagine you were asked to write a program that allows users to:
+
 - ==Register a new user account== (with username and password)
 - ==Log in to a user account==
 - ==Log out of a user account==
@@ -123,6 +129,7 @@ Imagine you were asked to write a program that allows users to:
 ## Use Case: When Logged Out, Choose Use Case
 
 > [!note]+ As we introduce what a use case is, we want to think of it as a specific interaction a user has with the program
+>
 > - Typically corresponds to some input from user
 > - Response from program
 > - User being displayed new information
@@ -175,6 +182,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 - Terminology all centred around **use cases** in our program
 
 > [!def]+ Entity
+>
 > - An ==object within our computer system== that embodies a small set of Critical Business Rules operating Critical Business Data
 > - Objects that represent critical business data (variables) and critical business rules (methods)
 
@@ -188,6 +196,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
     - Represents what we can do in our program
 
 > [!def]+ Use Case
+>
 > - A *description* of the way that an automated system is used
 > - ==Specifies input== to be provided by user, ==output== to be returned to user
 >     - Does not actually say anything about *how*, just what
@@ -204,6 +213,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 ## Entities
 
 > [!def]- Entities
+>
 > - Objects that represent critical business data (variables) and critical business rules (methods)
 
 - In CA, **entities** are the:
@@ -220,6 +230,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 ## Use Case
 
 > [!def] Use Case
+>
 > - Description of the way that an automated system affects **entities**
 > - Use cases *manipulate* entities
 >     - Making use of our entities (objects in our systems)
@@ -236,6 +247,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 ## Clean Architecture Layers
 
 > [!question]- What are the four clean architecture layers?
+>
 > 1. **Enterprise Business Rules**
 > 2. **Application Business Rules**
 > 3. **Interface Adapters**
@@ -250,6 +262,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
     - System is a set of use cases → Manipulates entities
 
 > [!abstract]+ In order for people to actually use and interface with our system, we need to build some layers on top of that:
+>
 > - **Interface adapters**
 > - **Frameworks and drivers**
 
@@ -330,6 +343,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
     - Everything that matters for our *program* are in this layer or Enterprise Business Rules
 
 > [!note]+ **Use case interactor**
+>
 > - A class that has a method that does all the interesting logic in our program
 >     - Makes use of various *interfaces* (labelled `<I>`)
 >         - ==Interfaces are defined as part of our **Application Business Rules**==
@@ -341,6 +355,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 >     - Represents an *object*
 
 > [!note]+ **Data structures** `<DS>`
+>
 > - Essentially a Java class with no logic, ==only instance variables, and getters/setters==
 > - We have some kind of data that we are going to pass between layers in our system
 
@@ -462,6 +477,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 # Clean Architecture Follows SOLID
 
 > [!check]+ Single Responsibility Principle
+>
 > - Each role ==divides up the responsibilities== for each class
 > - Only Gateway classes are responsible to other hardware or software that is outside of your program
 > - Only Presenters are responsible to whomever decides which information is displayed to the user
@@ -469,6 +485,7 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 >     - e.g., User class in a program that allows Users to login and save their session
 
 > [!check]+ Open/Closed Principle
+>
 > - CA ==separates layers of code== based on how close or far they are from the details
 >     - e.g., What does the use see, which hardware/OS is running the program, where we store persistent data, etc.
 >     - → Easy to reuse the backend in an app for a different system (web app, Android, etc.)
@@ -476,14 +493,17 @@ Brief summary of Ch. 20 from Clean Architecture textbook.
 >     - → Possible to add new Use Cases without changing much of the original code
 
 > [!check]+ Liskov Substitution Principle
+>
 > - Various interfaces introduced should help us write code consistent with this principle, but
 >     - Still need to ensure our code consistently uses interfaces and that they are designed and documented properly
 
 > [!check]+ Interface Segregation Principle
+>
 > - Each ==interface has a specific role== and is ==associated with one Use Case==
 > - → No unnecessary methods are implemented
 
 > [!check]+ Dependency Inversion Principle
+>
 > - In CA, this is closely related to the **Dependency Rule**
 > - Principle is applied to remove dependencies on the low-level details of the program
 
@@ -515,7 +535,7 @@ class UserRegisterInteractor {
     private UserFactory userFactory;  // A class to create User objects
     private UserPresenter userPresenter;  // Controls the UI
     private UserRegisterGateway userRegisterGateway;  // Persisting data
-    
+
     public UserRegisterResultModel create(String name, String password) {
         // On success, this method returns an object with the
         // username and creation time, but not the password

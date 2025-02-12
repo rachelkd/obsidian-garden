@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2024-12-07T22:29:13.746-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/regular-expressions/","tags":["cs","lecture","note","university"],"created":"2024-11-21T21:19:22.204-05:00","updated":"2025-02-06T17:51:40.648-05:00"}
 ---
 
 
@@ -26,48 +26,48 @@ Explain what these are:
 > - & Extract **substrings** which match a pattern
 > - Does a given string match a pattern?
 > - Find data in documents
->   - e.g., Phone numbers (in a file, on a webpage)
->   - Email addresses
->   - CSC course codes
->   - Find (and replace) in IntelliJ
+>     - e.g., Phone numbers (in a file, on a webpage)
+>     - Email addresses
+>     - CSC course codes
+>     - Find (and replace) in IntelliJ
 > - Check for validity
->   - Is a password strong enough with the right set of characters?
->   - Does a variable conform to the Java style guidelines
+>     - Is a password strong enough with the right set of characters?
+>     - Does a variable conform to the Java style guidelines
 
 ## Describing a Set of Strings
 
 - IDEs e.g., IntelliJ might describe the Java naming conventions for variables this way:
-  - `^[a-z][a-zA-Z0-9]*$`
-  - Start with a lowercase, then 0+ letters or numbers
-  - Does the empty string match this guideline?
-    - No; missing lowercase first letter
-    - `[a-z]` has nothing to match
+    - `^[a-z][a-zA-Z0-9]*$`
+    - Start with a lowercase, then 0+ letters or numbers
+    - Does the empty string match this guideline?
+        - No; missing lowercase first letter
+        - `[a-z]` has nothing to match
 
 ### `^[a-z][a-zA-Z0-9]*$`
 
 - Describes a *pattern* that appears in a set of strings
 - We say that any such string ==*matches* or *satisfies* the regular expression==
 - A string which matches this regex is consistent with the Java naming conventions for variables
-  - Can see lots of similar examples in `mystyle.xml` config file for Checkstyle
+    - Can see lots of similar examples in `mystyle.xml` config file for Checkstyle
 
 <!-- break -->
 
 - `^` (carat) character:
-  - The pattern must start at the beginning of the string
-  - Called an **anchor**
+    - The pattern must start at the beginning of the string
+    - Called an **anchor**
 - Square brackets `[]`:
-  - Choose ==one== of the characters listed inside
-  - Leftmost set of brackets `[a-z]`:
-    - Given all lowercase English letters to choose from
-  - Second character comes from second set of square brackets:
-    - Any lowercase, uppercase letter, or digit
+    - Choose ==one== of the characters listed inside
+    - Leftmost set of brackets `[a-z]`:
+        - Given all lowercase English letters to choose from
+    - Second character comes from second set of square brackets:
+        - Any lowercase, uppercase letter, or digit
 - `*`:
-  - Zero or more of whatever immediately precedes it
-  - Example of a **quantifier**
-    - `+` means “one or more”
+    - Zero or more of whatever immediately precedes it
+    - Example of a **quantifier**
+        - `+` means “one or more”
 - `$`
-  - Signifies the end of the string
-  - Another **anchor**
+    - Signifies the end of the string
+    - Another **anchor**
 
 > [!example] Examples that satisfy the regex
 >
@@ -78,20 +78,20 @@ Explain what these are:
 > [!example]+ Examples that do *not* satisfy
 >
 > - `Alphabet`
->   - Starts with capital
+>     - Starts with capital
 > - `2ab`
->   - Starts with digit
+>     - Starts with digit
 > - `next_value`
->   - Underscore
+>     - Underscore
 
 > [!question]+ What if there are no anchors?
 > Given `[abc]C[a-e][24680]*[A-Z]`,
 >
 > - When applied to a string, it will find the **substrings** that match
 > - e.g.,
->   - `cCaA` matches
->   - `ABCcCcCc1A23` contains substrings that match
->     - `cCcC` matches, but not `cCa1A`
+>     - `cCaA` matches
+>     - `ABCcCcCc1A23` contains substrings that match
+>         - `cCcC` matches, but not `cCa1A`
 
 ## Special Symbols
 
@@ -152,13 +152,13 @@ Explain what these are:
 >
 > - Matches: (123) 456-7890
 > - Breaks down to:
->   - `\(` : Literal opening parenthesis
->   - `\d{3}` : Any three digits
->   - `\)` : Literal closing parenthesis
->   - Space
->   - `\d{3}` : Any three digits
->   - `-` : Literal hyphen
->   - `\d{4}` : Any four digits
+>     - `\(` : Literal opening parenthesis
+>     - `\d{3}` : Any three digits
+>     - `\)` : Literal closing parenthesis
+>     - Space
+>     - `\d{3}` : Any three digits
+>     - `-` : Literal hyphen
+>     - `\d{4}` : Any four digits
 
 - Two ways to specify pattern repetition:
   1. Manual repetition: `\d\d\d`
@@ -198,14 +198,14 @@ Explain what these are:
 >
 > - `|` : OR operator
 > - `&&` : Intersection operator
->   - Intersection of the range *before* the ampersands and the range that appears *after*
+>     - Intersection of the range *before* the ampersands and the range that appears *after*
 
 > [!example]+ Examples
 >
 > - `[a-t&&[r-z]]` matches `r`, `s`, `t`
->   - `a-t`: letters a through t
->   - `r-z`: letters r through z
->   - Intersection: only letters in both ranges
+>     - `a-t`: letters a through t
+>     - `r-z`: letters r through z
+>     - Intersection: only letters in both ranges
 
 > [!warning] Different regex implementations may support different operators
 
@@ -236,6 +236,7 @@ Explain what these are:
 >    - [Java 8 Documentation](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Matcher.html)
 
 > [!warning]+ If we want a  `\` in regex when using Java…
+>
 > - We need two backslashes in Regex: `\\`
 > - `\` is also the escape character in Java
 > - $\implies$ We need four backslashes in a Java String for one backslash in Regex: `\\\\`

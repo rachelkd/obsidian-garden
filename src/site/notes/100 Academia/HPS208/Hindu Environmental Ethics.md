@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-01-30T12:17:10.355-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-06T17:51:40.734-05:00"}
 ---
 
 
@@ -21,6 +21,7 @@ We look at this question of sentience and ethics from a broadly Hindu perspectiv
 - They have an account of what makes something sentient
 
 > [!tldr]+ Framarin (2012)
+>
 > - Defends a basic tenant of this debate
 >     - & We owe something to non-humans
 
@@ -29,6 +30,7 @@ We look at this question of sentience and ethics from a broadly Hindu perspectiv
 ## Environmental Ethics
 
 > [!def]+ Environmental Ethics
+>
 > - Sub-discipline that asks what our ==ethical obligations== are towards the natural environment
 > - Two forms of obligations:
 >     - **Prudential**
@@ -43,6 +45,7 @@ We look at this question of sentience and ethics from a broadly Hindu perspectiv
 Example of a **prudential** reason:
 
 > [!example]+ Bad idea for humans to burn every forest and boil oceans
+>
 > - All humans would likely die
 > - Presumably, we care about humans
 
@@ -101,6 +104,7 @@ Example of a **prudential** reason:
 ## Main Reading
 
 > [!tldr]+ Framarin (2012)
+>
 > - Goal:
 >     - Defend the idea that a ==plausible environmental ethic== should ==attribute intrinsic value== to non-human parts of nature
 > - In his full book:
@@ -113,6 +117,7 @@ Example of a **prudential** reason:
 > “The last man (or person) surviving the collapse of the world system lays about him, eliminating, as far as he can, every living thing, animal or plant (but painlessly if you like, as at the best abattoirs). What he does is quite permissible according to basic chauvinism \[that is, anthropocentrism], but on environmental grounds what he does is wrong. Moreover one does not have to be committed to esoteric values to regard Mr. Last Man as behaving badly.”
 
 > [!summary]+ The Last Man Thought Experiment
+>
 > - Knows they are the last and there will be no more humans after
 > - Only thing that makes them happy is killing everything they can see
 > - ? Is that an okay thing to do? Is this *morally wrong*?
@@ -134,6 +139,7 @@ Example of a **prudential** reason:
     - This is Framarin’s first argument
 
 > [!abstract]+ Hindu Environmental Ethics
+>
 > - Framarin goes into more detail on why specifically ==Hinduism provides a plausible environmental ethic==
 >     - ? Do the basic tenets of Hinduism give us some plausible environmental ethic?
 > - Considers a number of proposals in the literature on this
@@ -153,6 +159,7 @@ Example of a **prudential** reason:
 ### The Vedas
 
 > [!def]+ The Vedas
+>
 > - Massive collection of texts
 >     - Form the oldest layer of Hindu literature
 > - Regarded as ==author-less==
@@ -259,6 +266,7 @@ Ahimsa entails vegetarianism.
 ## Instrumentalist Arguments
 
 > [!attention]+ Framarin (2014) *critiques* a few arguments that try to show that ==animal life is only of instrumental value== in Hinduism
+>
 > - Ahimsa towards animals is recommended only because it is an obstacle to moksha
 >     - i.e., You should not kill animals under Hinduism because it slows you down on the path to liberation
 >     - A *prudential* account of one’s relationship with environment under Hinduism
@@ -271,12 +279,14 @@ Ahimsa entails vegetarianism.
 From Framarin (2014, p.24),
 
 > [!tldr]+ Premise 1
+>
 > - Certain Hindu texts and traditions claim that everything other  than the ātman is a product of māyā (a deluding force), and hence  illusory.
 
 - One of the things the six orthodox schools disagree about:
     - Whether the world we inhabit is real or an illusion
 
 > [!tldr]+ Premise 2
+>
 > - Anything that is illusory is devoid of intrinsic value.
 
 - If the world is an illusion:
@@ -284,12 +294,15 @@ From Framarin (2014, p.24),
     - → Devoid of direct moral standing
 
 > [!tldr]+ Conclusion 1/Premise 3
+>
 > - Hence certain Hindu texts and traditions entail that ==everything== other than the ātman — including animals and plants — is ==devoid of *intrinsic* value==.
 
 > [!tldr]+ Premise 4
+>
 > - If certain Hindu texts and traditions entail that everything other than the ātman is devoid of intrinsic value, then they entail that everything other than the ātman — including animals and plants — is ==devoid of **direct moral standing**==.
 
 > [!tldr]+ Conclusion 2
+>
 > - Hence, certain Hindu texts and traditions entail that everything other than the ātman — including animals and plants — is devoid of direct moral standing
 
 - If everything you have ever encountered is an illusion:
@@ -309,6 +322,7 @@ Framarin responds:
     - ? Why is ahimsa a good thing to practice in the first place?
 
 > [!important]+ It is only if ahimsa is a good thing in and of itself that it makes sense to consider it a way of accumulating merit, and therefore a stepping stone to moksha
+>
 > - There has to be something that implies intrinsic value
 >     - Matters not just for the sake of personal liberation
 >     - Matters because other living things matter
@@ -357,6 +371,7 @@ Interconnectedness interpretation then does not do a good job of attributing int
 From Framarin (2014, p. 63):
 
 > [!tldr]+ Premise 1
+>
 > - Certain Hindu texts and traditions claim that ==individual, living, non-human entities in nature, such as animals and plants, are the same, in some sense, as brahman==.
 
 - **Brahman**
@@ -364,12 +379,15 @@ From Framarin (2014, p. 63):
     - Sacred part of reality itself
 
 > [!tldr]+ Premise 2
+>
 > - Brahman has direct moral standing.
 
 > [!tldr]+ Premise 3
+>
 > - If individual, living, non-human entities in nature are the same, in some sense, as brahman, and if brahman has direct moral standing, then ==individual entities in nature have direct moral standing==.
 
 > [!tldr]+ Conclusion
+>
 > - & So certain Hindu texts and traditions claim that individual, living, non-human entities in nature, such as animals and plants, have direct moral standing.
 
 - Basic idea:

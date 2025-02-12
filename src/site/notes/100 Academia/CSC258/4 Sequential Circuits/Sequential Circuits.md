@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-26T20:28:48.661-05:00","updated":"2025-02-03T17:04:22.990-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-26T20:28:48.661-05:00","updated":"2025-02-06T17:51:41.018-05:00"}
 ---
 
 
 # Sequential Circuits
 
 > [!idea]+ Something to consider
+>
 > - Computer specs use terms like “8 GB of RAM” and “2.2GHz processors”
 > - ? What do these terms mean?
 >     - **RAM**
@@ -23,6 +24,7 @@
     - Circuits where the output values are entirely dependent and predictable from current inputs
 
 > [!def]+ Sequential circuits
+>
 > - Another class of circuits
 > - Circuits that also depend on both the ==current== inputs and ==previous state== of the circuit
 
@@ -36,11 +38,13 @@
         - Needs to remember where you were in the sequence to know where you go next
 
 > [!important]+ Being able to hold onto values, preserve previous outputs, and use that to calculate current output is a big deal!
+>
 > - We are going to extend our combinational circuits
 
 ## Creating Sequential Circuits
 
 > [!info]+ Essentially, sequential circuits are a result of having *feedback* in the circuit.
+>
 > - ? How is this accomplished?
 > - ? What is the result of having the output of a component or circuit be connected to its input?
 
@@ -68,9 +72,11 @@
 - Now, that we are discussing sequences of events, we need to talk about **time**
 
 > [!important]+ Outputs do not change instantaneously
+>
 > - Even in combinational circuits
 
 > [!def]+ Gate Delay or Propagation Delay
+>
 > - Length of time it takes for an input change to result in the corresponding output change
 > - **Gate delay**
 >     - Whatever delays take place in the ==gate==
@@ -107,6 +113,7 @@
 ![](https://i.imgur.com/E3qOqO4.png)
 
 > [!note] $Q_{T}$ and $Q_{T + 1}$
+>
 > - Represent the values of $Q$ at a time $T$, and
 > - A point in time immediately after ($T + 1$)
 
@@ -126,6 +133,7 @@
 ![](https://i.imgur.com/s8Ds6P4.png)
 
 > [!info]+ NAND and NOR gates
+>
 > - NAND, NOR gates with *feedback* have more interesting characteristics
 > - → Lend themselves to storage devices
 > - Output $Q_{T + 1}$ in NAND, NOR feedback circuits can be ==changed== based on $A$
@@ -159,7 +167,6 @@
 
 ![](https://i.imgur.com/uoVqjty.png)
 
-
 - Assume we set $A = 1$
     - Output $Q$ will go to 0
     - & If we leave $A$ unchanged, we can store 0 indefinitely
@@ -172,11 +179,13 @@
 ![](https://i.imgur.com/lbcGjsQ.png)
 
 > [!obs]+ NAND and NOR Feedback circuits
+>
 > - Output $Q_{T + 1}$ can be changed
 >     - Based on $A$
 > - However, gates like these that feed back on themselves could enter an **unsteady state**
 
 > [!goal]+ We need some way of stabilizing states
+>
 > - When we are interested in changing the value, we can do so in a way that does not cause it to flip back and forth between 0 and 1
 > - ? What if we use multiple gates of these types?
 
@@ -247,12 +256,14 @@
 ![](https://i.imgur.com/GiTIUV9.png)
 
 > [!obs]+ Inputs of $11$ maintain the previous output state.
+>
 > - Circuit remembers its signal when going from $10$ or $01$ to $11$
 
 - ! Going from $00$ to $11$ produces unstable behaviour
     - Output depends on which input changes first
 
 > [!idea]+ Think of this as one light switch that turns the light on, and one light switch that turns the light off.
+>
 > - One switch only has the ability to turn things on
 >     - Set
 > - Other switch only has the ability to turn things off
@@ -295,6 +306,7 @@ Recall: Output signals do not change instantaneously.
     - Outcome depends on which signal changes first
 
 > [!info]+ Forbidden States
+>
 > - Due to unstable behaviour, we have **forbidden states**
 >     - NAND-based $\overline{S}\,\overline{R}$ latches: $00$
 >     - NOR-based $SR$ latches: $11$
@@ -314,6 +326,7 @@ Recall: Output signals do not change instantaneously.
         - → **Clock signals**
 
 > [!idea]+ Holding down a key on keyboard
+>
 > - How does the computer know when to register that you are holding down the ‘X’ button on keyboard and want to input multiple X’s?
 > - When you do this, there is a delay:
 >     - Press ‘X’ → Computer registers ‘X’ → As you hold, computer asks: Are you sure? → Outputs multiple X’s onto screen
@@ -324,6 +337,7 @@ Recall: Output signals do not change instantaneously.
     - Computers have the smallest atomic unit of time and that is it
 
 > [!def]+ Clock signal
+>
 > - Regular pulse signal
 >     - High value indicates when to update the output of the latch
 
@@ -383,10 +397,10 @@ Change $R \to 0$.
 
 ![](https://i.imgur.com/0LoVwt5.png)
 
- - If clock is high:
-     - Bottom first NAND gate has input of 1
-     - That is when things stop
-         - & As long as the inputs are 1 and 1, the outputs keep their values from before
+- If clock is high:
+    - Bottom first NAND gate has input of 1
+    - That is when things stop
+        - & As long as the inputs are 1 and 1, the outputs keep their values from before
 
 Now, set the clock low.
 

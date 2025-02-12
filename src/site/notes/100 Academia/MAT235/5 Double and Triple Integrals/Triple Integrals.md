@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-01-27T04:09:54.125-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/triple-integrals/","tags":["lecture","math","note","todo","university"],"created":"2025-01-13T19:49:19.145-05:00","updated":"2025-02-06T17:51:41.311-05:00"}
 ---
 
 
@@ -18,6 +18,7 @@
     - → Chopping $W$ into $nml$ smaller boxes
 
 ![|361](https://i.imgur.com/WuMHpN8.png)
+
 - The volume of each smaller box is $\Delta V = \Delta x \Delta y \Delta z$, where
     - $\Delta x = \frac{b-a}{n}$
     - $\Delta y = \frac{d-c}{m}$
@@ -37,13 +38,14 @@ See [[100 Academia/MAT235/5 Double and Triple Integrals/Iterated Integrals\|Iter
 
 > [!def]+ Triple integral as an iterated integral
 > $$
-> \int_{W} f \, dV = \int_{p}^{q} \left( \int_{c}^{d} \left( \int_{a}^{b} f(x,y,z) \, dx  \right)  \, dy  \right)  \, dz 
+> \int_{W} f \, dV = \int_{p}^{q} \left( \int_{c}^{d} \left( \int_{a}^{b} f(x,y,z) \, dx  \right)  \, dy  \right)  \, dz
 > $$
 > where $y$ and $z$ are treated as constants in the innermost ($dx$) integral, and $z$ is treated as a constant in the middle ($dy$) integral.
 >
 > - Five other orders of integration are possible
 
 > [!info]+ Limits on Triple Integrals
+>
 > - Limits for *outer* integral are ==constants==
 > - Limits for *middle* integral can involve only ==one== variable — that in the ==outer integral==
 > - Limits for the inner integral can involve ==two== variables — those in the two outer integrals
@@ -55,7 +57,7 @@ From lecture:
 > > [!summary]+ I.
 > > If $R$ consists of the points $(x,y,z)$ with $(x,y)$ in $D$ and $h_{1}(x,y) \leq z \leq h_{2}(x,y)$ for $h_{1}, h_{2}$ continuous on a bounded region $D$ in the plane, then
 > > $$
-> > \int \int \int_{R} f(x,y,z) \, dV = \int \int_{D} \int_{h_{1}(x,y)}^{h_{2}(x,y)} f(x,y,z) \, dz \, dA 
+> > \int \int \int_{R} f(x,y,z) \, dV = \int \int_{D} \int_{h_{1}(x,y)}^{h_{2}(x,y)} f(x,y,z) \, dz \, dA
 > > $$
 > >
 > > > [!note]+ D is the projection of $R$ to the $xy$-plane
@@ -90,14 +92,18 @@ This is the definition given in the textbook.
 > $$
 
 > [!thm]+ Volume
+>
 > - The **volume** of the solid region $W$ is given by the triple integral
+>
 > $$
 > \int_{W} 1 \, dV
 > $$
 
 > [!thm]+ Density
+>
 > - If $\rho(x,y,z)$ is **density**, then
 >     $$
 >     \int_{W}\rho\,dV
 >     $$
+>
 > is the **total quantity** in the solid region $W$.
