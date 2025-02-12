@@ -23,22 +23,31 @@ body {
 	font-weight: 400;
 	font-feature-settings: var(--sans-font-features);
 	--list-spacing: 0.2em;
-	--font-text: 'New York Small', system-ui, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-	--font-default: 'New York Small', system-ui, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-	--h1-font: 'SF Pro Rounded', var(--font-serif);
-	--h2-font: 'SF Pro Rounded', var(--font-serif);
-	--h3-font: 'SF Pro Rounded', var(--font-serif);
-	--h4-font: 'SF Pro Rounded', var(--font-serif);
-	--h5-font: 'SF Pro Rounded', var(--font-serif);
-	--h6-font: 'SF Pro Rounded', var(--font-serif);
+	--font-text: 'New York Small', ui-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--font-default: ui-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+	--h1-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
+	--h2-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
+	--h3-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
+	--h4-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
+	--h5-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
+	--h6-font: 'SF Pro Rounded', ui-rounded, var(--font-serif);
 	--h1-size: 2em;
 	--h2-size: 1.75em;
 	--h3-size: 1.5em;
 	--h4-size: 1.25em;
 	--h5-size: 1.125em;
 	--h6-size: 1em;
-	
+
 	font-family: var(--font-text);
+
+	// Rose Pine Colours for bold and italic text
+	strong {
+		color: #b4637a;
+	}
+
+	em {
+		color: #907aa9;
+	}
 
 	/* Navbar Positioning */
 	.navbar {
@@ -107,7 +116,7 @@ body {
 		padding: var(--heading-padding) 0 !important;
 		scroll-margin-top: calc(var(--navbar-height) + 2rem);
 		transition: background-color 0.3s ease-in-out;
-		
+
 		&.referred {
 			background-color: var(--text-highlight-bg);
 			border-radius: var(--radius-s);
@@ -130,6 +139,8 @@ body {
 
 	/* Callout Base Styles */
 	.callout {
+		font-family: var(--font-text);
+
 		.callout-title {
 			display: flex;
 			align-items: flex-start;
@@ -192,7 +203,7 @@ body {
 	// Code block copy button
 	pre {
 		position: relative;
-		
+
 		.copy-code-button {
 			position: absolute;
 			top: 0.5rem;
@@ -205,13 +216,13 @@ body {
 			transition: opacity 0.2s;
 			cursor: pointer;
 			color: var(--text-muted);
-			
+
 			&:hover {
 				background: var(--background-primary);
 				color: var(--text-normal);
 			}
 		}
-		
+
 		&:hover .copy-code-button {
 			opacity: 1;
 		}
