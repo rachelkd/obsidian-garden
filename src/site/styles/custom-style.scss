@@ -135,6 +135,7 @@ body {
 	code {
 		text-shadow: none !important;
 		font-family: 'JetBrains Mono', 'Cascadia Code', monospace !important;
+		background-color: transparent !important;
 		font-feature-settings: var(--mono-font-features);
 	}
 
@@ -205,9 +206,31 @@ body {
 		color: var(--text-normal);
 	}
 
-	// Code block copy button
+	/* Highlight Styling */
+	--text-highlight-border-width: 0.5px;
+	--text-highlight-border-opacity: 1;
+	--text-highlight-text-opacity: 1;
+	--text-highlight-border-radius: var(--radius-s);
+	--text-highlight-padding-block: var(--size-2-1);
+	--text-highlight-padding-inline: var(--size-2-2);
+	--text-highlight-bg-rgb: 248, 197, 46;
+
+	mark {
+		border-radius: var(--text-highlight-border-radius);
+		background-color: rgba(var(--text-highlight-bg-rgb), 0.35) !important;
+		border: var(--text-highlight-border-width) solid rgba(var(--text-highlight-bg-rgb), var(--text-highlight-border-opacity));
+		padding: var(--text-highlight-padding-block) var(--text-highlight-padding-inline);
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
+	}
+
 	pre {
 		position: relative;
+		background-color: var(--code-background);
+
+		code {
+			background-color: transparent;
+		}
 
 		.copy-code-button {
 			position: absolute;
@@ -231,23 +254,5 @@ body {
 		&:hover .copy-code-button {
 			opacity: 1;
 		}
-	}
-
-	/* Highlight Styling */
-	--text-highlight-border-width: 0.5px;
-	--text-highlight-border-opacity: 1;
-	--text-highlight-text-opacity: 1;
-	--text-highlight-border-radius: var(--radius-s);
-	--text-highlight-padding-block: var(--size-2-1);
-	--text-highlight-padding-inline: var(--size-2-2);
-	--text-highlight-bg-rgb: 248, 197, 46;
-
-	mark {
-		border-radius: var(--text-highlight-border-radius);
-		background-color: rgba(var(--text-highlight-bg-rgb), 0.35) !important;
-		border: var(--text-highlight-border-width) solid rgba(var(--text-highlight-bg-rgb), var(--text-highlight-border-opacity));
-		padding: var(--text-highlight-padding-block) var(--text-highlight-padding-inline);
-		-webkit-box-decoration-break: clone;
-		box-decoration-break: clone;
 	}
 }
