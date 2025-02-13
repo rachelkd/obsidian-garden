@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/polymorphism/","tags":["#cs","#java","#lecture","#note","university"],"created":"2024-10-06T00:30:15.825-04:00","updated":"2025-02-06T17:51:39.783-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/polymorphism/","tags":["cs","java","lecture","note","university"],"created":"2024-10-06T00:30:15.825-04:00","updated":"2025-02-10T18:01:32.674-05:00"}
 ---
 
+
+# Polymorphism
 
 - **Polymorphism**
     - Ability of an object to take many forms
