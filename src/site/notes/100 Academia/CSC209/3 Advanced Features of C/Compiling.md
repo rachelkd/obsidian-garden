@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-02-06T17:56:35.468-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-02-11T18:48:52.214-05:00"}
 ---
 
 
@@ -633,3 +633,49 @@ clean:
     - Simplify maintenance by avoiding repetition
 - If new source files are added:
     - Update `OBJFILES` instead of modifying multiple rules
+
+## Lecture 10: Header Files, Make
+
+### Header Files
+
+```bash
+gcc -Wall -c main.c
+```
+
+- `-c` flag:
+    - Creates an **object file**
+    - Contains executable (machine) code for file `main.c`
+    - When all object files are linked together, it will resolve their pointers and produce a single executable
+
+```bash
+gcc -Wall -c ll.c
+gcc -Wall -c main.c
+gcc -Wall -c stack.c
+gcc -Wall -g -o main main.o ll.o stack.o
+```
+
+- `gcc -Wall -g -o main main.o ll.o stack.o`
+    - Links the object files together
+
+<!-- break -->
+- **Separate compilation**
+    - [p] If we only change `main.c`, the only thing we need to re-compile is `main.c` to make `main.o`
+    - Minimize the amount of work the compiler needs to do
+
+> [!important]+ You do not ever use memory in your header files!
+> - e.g., Do not declare local variables in header files
+> - If you want to use a local variable, use `extern`
+
+### Makefiles
+
+```make
+test_print: test_print.o ptree.o
+    gcc -Wall -g -o test_print test_print.o ptree.o
+```
+
+- ? What is the target?
+    - `test_print`
+- ? What are the pre-requisites or dependencies?
+    - `test_print.o`, `ptree.o`
+- ? How many actions does this rule have?
+    - 1
