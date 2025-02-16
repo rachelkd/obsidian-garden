@@ -127,19 +127,132 @@
 	font-display: swap;
 }
 
-/* DM Serif Text Font Face Declarations */
+// SF Pro Rounded Font Face Declarations
+
 @font-face {
-	font-family: 'DM Serif Text';
-	src: url('/fonts/DMSerifText-Regular.ttf');
+	font-family: 'SF Pro Rounded OTF';
+	src: url('/fonts/SF-Pro-Rounded-Regular.otf');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'DM Serif Text';
-	src: url('/fonts/DMSerifText-Italic.ttf');
+	font-family: 'SF Pro Rounded OTF';
+	src: url('/fonts/SF-Pro-Rounded-Medium.otf');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF Pro Rounded OTF';
+	src: url('/fonts/SF-Pro-Rounded-Semibold.otf');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF Pro Rounded OTF';
+	src: url('/fonts/SF-Pro-Rounded-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+// New York Small Font Face Declarations
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-Regular.otf');
 	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-RegularItalic.otf');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-Medium.otf');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-MediumItalic.otf');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-SemiBold.otf');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-SemiBoldItalic.otf');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-BoldItalic.otf');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-Heavy.otf');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-HeavyItalic.otf');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-Black.otf');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'New York Small';
+	src: url('/fonts/NewYorkSmall-BlackItalic.otf');
+	font-weight: 900;
 	font-style: italic;
 	font-display: swap;
 }
