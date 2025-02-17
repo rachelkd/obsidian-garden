@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Debugger in C.md","permalink":"/academia/csc-209/3-advanced-features-of-c/debugger-in-c/","tags":["cs","lecture","note","university"],"created":"2025-01-23T15:17:19.010-05:00","updated":"2025-01-24T21:16:03.538-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Debugger in C.md","permalink":"/academia/csc-209/3-advanced-features-of-c/debugger-in-c/","tags":["cs","lecture","note","university"],"created":"2025-01-23T12:17:19.010-08:00","updated":"2025-01-24T18:16:03.538-08:00"}
 ---
 
 

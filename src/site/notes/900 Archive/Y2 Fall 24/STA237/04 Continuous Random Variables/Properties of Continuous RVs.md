@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/properties-of-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-10-28T19:39:07.919-04:00","updated":"2024-12-06T06:11:02.920-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/properties-of-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-10-28T16:39:07.919-07:00","updated":"2024-12-06T03:11:02.920-08:00"}
 ---
 
 

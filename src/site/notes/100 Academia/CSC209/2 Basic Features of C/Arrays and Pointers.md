@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Arrays and Pointers.md","permalink":"/academia/csc-209/2-basic-features-of-c/arrays-and-pointers/","tags":["cs","lecture","note","university"],"created":"2025-01-14T15:19:33.282-05:00","updated":"2025-01-25T02:46:34.683-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Arrays and Pointers.md","permalink":"/academia/csc-209/2-basic-features-of-c/arrays-and-pointers/","tags":["cs","lecture","note","university"],"created":"2025-01-14T12:19:33.282-08:00","updated":"2025-01-24T23:46:34.683-08:00"}
 ---
 
 

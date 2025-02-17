@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Command-Line Arguments (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/command-line-arguments-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:29:40.907-05:00","updated":"2025-02-04T00:56:57.799-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Command-Line Arguments (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/command-line-arguments-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:29:40.907-08:00","updated":"2025-02-03T21:56:57.799-08:00"}
 ---
 
 

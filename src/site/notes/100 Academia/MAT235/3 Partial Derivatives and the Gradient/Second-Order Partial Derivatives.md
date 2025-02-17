@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Second-Order Partial Derivatives.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:04:34.677-05:00","updated":"2025-01-09T19:06:03.874-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Second-Order Partial Derivatives.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/second-order-partial-derivatives/","tags":["lecture","math","note","university"],"created":"2024-11-11T19:04:34.677-08:00","updated":"2025-01-09T16:06:03.874-08:00"}
 ---
 
 

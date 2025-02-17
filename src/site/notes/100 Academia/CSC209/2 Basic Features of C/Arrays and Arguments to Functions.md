@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Arrays and Arguments to Functions.md","permalink":"/academia/csc-209/2-basic-features-of-c/arrays-and-arguments-to-functions/","tags":["cs","lecture","note","university"],"created":"2025-01-16T15:17:43.766-05:00","updated":"2025-02-03T16:56:23.441-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Arrays and Arguments to Functions.md","permalink":"/academia/csc-209/2-basic-features-of-c/arrays-and-arguments-to-functions/","tags":["cs","lecture","note","university"],"created":"2025-01-16T12:17:43.766-08:00","updated":"2025-02-03T13:56:23.441-08:00"}
 ---
 
 

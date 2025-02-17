@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/generative-ai-prompt-engineering/","tags":["cs","lecture","note","university"],"created":"2024-11-22T03:24:56.212-05:00","updated":"2024-12-02T03:36:28.150-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/03-professional-and-micellaneous-topics/generative-ai-prompt-engineering/","tags":["cs","lecture","note","university"],"created":"2024-11-22T00:24:56.212-08:00","updated":"2024-12-02T00:36:28.150-08:00"}
 ---
 
 

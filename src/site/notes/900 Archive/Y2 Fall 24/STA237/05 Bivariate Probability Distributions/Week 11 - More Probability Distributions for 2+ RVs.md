@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/05-bivariate-probability-distributions/week-11-more-probability-distributions-for-2-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-23T18:40:40.842-05:00","updated":"2024-12-05T22:49:00.815-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/05-bivariate-probability-distributions/week-11-more-probability-distributions-for-2-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-23T15:40:40.842-08:00","updated":"2024-12-05T19:49:00.815-08:00"}
 ---
 
 

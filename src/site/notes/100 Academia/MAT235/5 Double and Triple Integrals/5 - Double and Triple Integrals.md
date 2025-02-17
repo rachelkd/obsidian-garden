@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/5 - Double and Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/5-double-and-triple-integrals/","tags":["module","university","math"],"created":"2025-01-05T22:28:23.611-05:00","updated":"2025-01-09T19:06:03.878-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/5 - Double and Triple Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/5-double-and-triple-integrals/","tags":["module","university","math"],"created":"2025-01-05T19:28:23.611-08:00","updated":"2025-01-09T16:06:03.878-08:00"}
 ---
 
 

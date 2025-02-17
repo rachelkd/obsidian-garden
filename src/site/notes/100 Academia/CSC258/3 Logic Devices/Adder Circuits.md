@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Adder Circuits.md","permalink":"/academia/csc-258/3-logic-devices/adder-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-22T13:18:29.825-05:00","updated":"2025-02-05T22:16:28.195-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Adder Circuits.md","permalink":"/academia/csc-258/3-logic-devices/adder-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-22T10:18:29.825-08:00","updated":"2025-02-05T19:16:28.195-08:00"}
 ---
 
 

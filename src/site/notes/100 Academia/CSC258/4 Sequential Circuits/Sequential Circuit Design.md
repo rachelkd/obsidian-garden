@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuit Design.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuit-design/","tags":["cs","lecture","note","university"],"created":"2025-02-01T19:56:05.719-05:00","updated":"2025-02-06T23:33:14.312-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuit Design.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuit-design/","tags":["cs","lecture","note","university"],"created":"2025-02-01T16:56:05.719-08:00","updated":"2025-02-06T20:33:14.312-08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["lecture","note","cs","java","university"],"created":"2024-12-10T02:41:53.244-05:00","updated":"2024-12-10T02:45:29.815-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/representing-data-in-your-program/","tags":["lecture","note","cs","java","university"],"created":"2024-12-09T23:41:53.244-08:00","updated":"2024-12-09T23:45:29.815-08:00"}
 ---
 
 

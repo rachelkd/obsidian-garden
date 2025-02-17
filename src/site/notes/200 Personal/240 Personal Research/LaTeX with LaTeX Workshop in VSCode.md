@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/200-personal/240-personal-research/la-te-x-with-la-te-x-workshop-in-vs-code/","tags":[null],"created":"2025-01-19T22:11:49.013-05:00","updated":"2025-01-19T22:37:57.551-05:00"}
+{"dg-publish":true,"permalink":"/200-personal/240-personal-research/la-te-x-with-la-te-x-workshop-in-vs-code/","tags":[null],"created":"2025-01-19T19:11:49.013-08:00","updated":"2025-01-19T19:37:57.551-08:00"}
 ---
 
 

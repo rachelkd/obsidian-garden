@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 Fundamental Concepts/Week 1 - Files, Permissions, and Ethics.md","permalink":"/academia/csc-209/1-fundamental-concepts/week-1-files-permissions-and-ethics/","tags":["cs","lecture","note","university"],"created":"2025-01-09T15:10:29.148-05:00","updated":"2025-01-17T20:59:51.977-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/1 Fundamental Concepts/Week 1 - Files, Permissions, and Ethics.md","permalink":"/academia/csc-209/1-fundamental-concepts/week-1-files-permissions-and-ethics/","tags":["cs","lecture","note","university"],"created":"2025-01-09T12:10:29.148-08:00","updated":"2025-01-17T17:59:51.977-08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/The Definite Integral of a Function of Two Variables.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/the-definite-integral-of-a-function-of-two-variables/","tags":["lecture","math","note","university"],"created":"2025-01-05T21:55:38.954-05:00","updated":"2025-01-09T19:06:03.879-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/The Definite Integral of a Function of Two Variables.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/the-definite-integral-of-a-function-of-two-variables/","tags":["lecture","math","note","university"],"created":"2025-01-05T18:55:38.954-08:00","updated":"2025-01-09T16:06:03.879-08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/gamma-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-10T03:01:53.740-05:00","updated":"2024-11-10T16:06:41.605-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/gamma-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-10T00:01:53.740-08:00","updated":"2024-11-10T13:06:41.605-08:00"}
 ---
 
 

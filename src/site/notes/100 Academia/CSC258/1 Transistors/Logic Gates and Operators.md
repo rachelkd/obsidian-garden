@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Logic Gates and Operators.md","permalink":"/academia/csc-258/1-transistors/logic-gates-and-operators/","tags":["cs","lecture","note","university"],"created":"2025-01-06T11:14:34.840-05:00","updated":"2025-01-11T03:16:00.973-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Logic Gates and Operators.md","permalink":"/academia/csc-258/1-transistors/logic-gates-and-operators/","tags":["cs","lecture","note","university"],"created":"2025-01-06T08:14:34.840-08:00","updated":"2025-01-11T00:16:00.973-08:00"}
 ---
 
 

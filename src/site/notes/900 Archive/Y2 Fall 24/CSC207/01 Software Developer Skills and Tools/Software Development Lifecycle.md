@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/software-development-lifecycle/","tags":["#lecture","#note","cs","university"],"created":"2024-09-04T20:52:34.000-04:00","updated":"2024-10-30T20:51:50.003-04:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/software-development-lifecycle/","tags":["#lecture","#note","cs","university"],"created":"2024-09-04T17:52:34.000-07:00","updated":"2024-10-30T17:51:50.003-07:00"}
 ---
 
 

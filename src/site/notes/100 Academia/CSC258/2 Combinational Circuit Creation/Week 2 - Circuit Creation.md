@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Week 2 - Circuit Creation.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/week-2-circuit-creation/","tags":["cs","lecture","note","university"],"created":"2025-01-13T13:12:09.362-05:00","updated":"2025-01-18T15:32:33.823-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Week 2 - Circuit Creation.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/week-2-circuit-creation/","tags":["cs","lecture","note","university"],"created":"2025-01-13T10:12:09.362-08:00","updated":"2025-01-18T12:32:33.823-08:00"}
 ---
 
 

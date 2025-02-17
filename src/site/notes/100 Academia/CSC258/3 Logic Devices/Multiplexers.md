@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Multiplexers.md","permalink":"/academia/csc-258/3-logic-devices/multiplexers/","tags":["cs","lecture","note","university"],"created":"2025-01-20T15:48:53.455-05:00","updated":"2025-01-24T23:53:49.604-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Multiplexers.md","permalink":"/academia/csc-258/3-logic-devices/multiplexers/","tags":["cs","lecture","note","university"],"created":"2025-01-20T12:48:53.455-08:00","updated":"2025-01-24T20:53:49.604-08:00"}
 ---
 
 

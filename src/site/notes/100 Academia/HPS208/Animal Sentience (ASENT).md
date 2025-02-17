@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Animal Sentience (ASENT).md","permalink":"/academia/hps-208/animal-sentience-asent/","tags":["hps","lecture","note","university"],"created":"2025-01-17T22:55:15.158-05:00","updated":"2025-02-03T01:10:00.095-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Animal Sentience (ASENT).md","permalink":"/academia/hps-208/animal-sentience-asent/","tags":["hps","lecture","note","university"],"created":"2025-01-17T19:55:15.158-08:00","updated":"2025-02-02T22:10:00.095-08:00"}
 ---
 
 

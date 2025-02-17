@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Motion, Velocity, and Acceleration.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/motion-velocity-and-acceleration/","tags":["lecture","math","note","university"],"created":"2025-02-05T03:45:14.674-05:00","updated":"2025-02-12T03:21:12.202-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Motion, Velocity, and Acceleration.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/motion-velocity-and-acceleration/","tags":["lecture","math","note","university"],"created":"2025-02-05T00:45:14.674-08:00","updated":"2025-02-12T00:21:12.202-08:00"}
 ---
 
 

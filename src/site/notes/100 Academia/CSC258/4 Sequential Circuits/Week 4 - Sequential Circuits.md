@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Week 4 - Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/week-4-sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-02-01T19:55:06.542-05:00","updated":"2025-02-03T04:56:20.360-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Week 4 - Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/week-4-sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-02-01T16:55:06.542-08:00","updated":"2025-02-03T01:56:20.360-08:00"}
 ---
 
 

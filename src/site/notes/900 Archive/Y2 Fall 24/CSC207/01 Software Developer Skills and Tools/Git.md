@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/git/","tags":["#lecture","#note","university"],"created":"2024-09-05T13:16:12.000-04:00","updated":"2024-12-10T06:03:27.933-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/01-software-developer-skills-and-tools/git/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:16:12.000-07:00","updated":"2024-12-10T03:03:27.933-08:00"}
 ---
 
 

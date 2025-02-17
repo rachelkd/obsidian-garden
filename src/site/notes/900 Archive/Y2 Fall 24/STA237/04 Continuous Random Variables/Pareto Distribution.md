@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/pareto-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-17T23:38:40.915-05:00","updated":"2024-11-18T00:51:02.587-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/pareto-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-17T20:38:40.915-08:00","updated":"2024-11-17T21:51:02.587-08:00"}
 ---
 
 

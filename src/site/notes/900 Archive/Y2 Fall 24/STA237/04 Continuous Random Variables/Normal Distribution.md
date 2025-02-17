@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-30T04:19:43.000-04:00","updated":"2024-12-11T17:26:53.262-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/normal-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-30T01:19:43.000-07:00","updated":"2024-12-11T14:26:53.262-08:00"}
 ---
 
 

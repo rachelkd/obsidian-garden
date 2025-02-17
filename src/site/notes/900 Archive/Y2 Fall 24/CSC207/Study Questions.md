@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-02T02:36:40.775-05:00","updated":"2025-02-06T17:51:39.853-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/study-questions/","tags":["cs","lecture","note","university"],"created":"2024-12-01T23:36:40.775-08:00","updated":"2025-02-06T14:51:39.853-08:00"}
 ---
 
 

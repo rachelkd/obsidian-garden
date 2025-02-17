@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T13:38:38.169-05:00","updated":"2025-02-06T17:51:39.859-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/disability-and-accessible-software/","tags":["cs","ethics","lecture","note","university"],"created":"2024-11-14T10:38:38.169-08:00","updated":"2025-02-06T14:51:39.859-08:00"}
 ---
 
 

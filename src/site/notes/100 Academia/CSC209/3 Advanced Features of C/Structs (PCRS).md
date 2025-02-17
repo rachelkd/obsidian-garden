@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Structs (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/structs-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T05:07:41.384-05:00","updated":"2025-02-03T16:56:46.834-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Structs (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/structs-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T02:07:41.384-08:00","updated":"2025-02-03T13:56:46.834-08:00"}
 ---
 
 

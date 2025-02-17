@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-02-06T17:51:41.210-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T11:12:42.147-08:00","updated":"2025-02-13T04:43:53.564-08:00"}
 ---
 
 
@@ -211,14 +211,12 @@ def ExtractMax(PQ):
 > - Two types of heap property
 >
 > > [!thm]- Max Heap
->   >
+> >
 > > - Value at every node is ==equal to or greater than== the value of its immediate children
 >
 > > [!thm]- Min Heap
->   >
+> >
 > > - Value at every node is ==equal to or less than== the value of its immediate children
-
-- Why do we always pick the left child in case of ties? How is that ensuring FIFO order #office-hours
 
 ### Array Indices
 

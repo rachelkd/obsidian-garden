@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:21:55.940-05:00","updated":"2024-11-18T00:51:12.144-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/week-9-even-more-continuous-r-vs/","tags":["lecture","note","stats","university"],"created":"2024-11-09T15:21:55.940-08:00","updated":"2024-11-17T21:51:12.144-08:00"}
 ---
 
 

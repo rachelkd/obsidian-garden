@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Low Level IO.md","permalink":"/academia/csc-209/3-advanced-features-of-c/low-level-io/","tags":["cs","lecture","note","university"],"created":"2025-02-05T21:22:32.763-05:00","updated":"2025-02-06T17:56:16.962-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Low Level IO.md","permalink":"/academia/csc-209/3-advanced-features-of-c/low-level-io/","tags":["cs","lecture","note","university"],"created":"2025-02-05T18:22:32.763-08:00","updated":"2025-02-06T14:56:16.962-08:00"}
 ---
 
 

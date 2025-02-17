@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/creating-an-interactor/","tags":["lecture","note","university"],"created":"2024-11-15T17:40:20.388-05:00","updated":"2024-11-27T22:40:27.324-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/creating-an-interactor/","tags":["lecture","note","university"],"created":"2024-11-15T14:40:20.388-08:00","updated":"2024-11-27T19:40:27.324-08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Augmenting Data Structures.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/augmenting-data-structures/","tags":["cs","lecture","note","university"],"created":"2025-02-06T14:00:31.874-05:00","updated":"2025-02-09T01:50:32.375-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Augmenting Data Structures.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/augmenting-data-structures/","tags":["cs","lecture","note","university"],"created":"2025-02-06T11:00:31.874-08:00","updated":"2025-02-08T22:50:32.375-08:00"}
 ---
 
 

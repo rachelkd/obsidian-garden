@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Parameterized Curves.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/parameterized-curves/","tags":["lecture","math","note","university"],"created":"2025-02-03T04:35:22.086-05:00","updated":"2025-02-05T18:42:54.948-05:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Parameterized Curves.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/parameterized-curves/","tags":["lecture","math","note","university"],"created":"2025-02-03T01:35:22.086-08:00","updated":"2025-02-05T15:42:54.948-08:00"}
 ---
 
 

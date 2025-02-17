@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-6-clean-architecture/","tags":["cs","lecture","note","university"],"created":"2024-10-10T19:55:53.383-04:00","updated":"2024-10-30T20:51:50.019-04:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-6-clean-architecture/","tags":["cs","lecture","note","university"],"created":"2024-10-10T16:55:53.383-07:00","updated":"2024-10-30T17:51:50.019-07:00"}
 ---
 
 

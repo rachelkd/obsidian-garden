@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-9-disability-and-accessible-software-ethics-2-more-design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-11-14T13:41:58.401-05:00","updated":"2024-12-01T04:13:26.034-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/02-principles-of-software-design/week-9-disability-and-accessible-software-ethics-2-more-design-patterns/","tags":["cs","java","lecture","note","university"],"created":"2024-11-14T10:41:58.401-08:00","updated":"2024-12-01T01:13:26.034-08:00"}
 ---
 
 

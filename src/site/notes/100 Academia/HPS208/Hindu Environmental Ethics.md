@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-09T17:16:01.000-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-25T21:29:41.078-08:00","updated":"2025-02-16T16:36:54.654-08:00"}
 ---
 
 

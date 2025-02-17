@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/C Memory Model (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/c-memory-model-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:15:58.509-05:00","updated":"2025-01-24T21:15:56.641-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/C Memory Model (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/c-memory-model-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:15:58.509-08:00","updated":"2025-01-24T18:15:56.641-08:00"}
 ---
 
 

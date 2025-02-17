@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/1 Fundamental Concepts/File Management in UNIX.md","permalink":"/academia/csc-209/1-fundamental-concepts/file-management-in-unix/","tags":["cs","lecture","note","university"],"created":"2025-01-09T18:32:11.041-05:00","updated":"2025-01-17T20:51:55.044-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/1 Fundamental Concepts/File Management in UNIX.md","permalink":"/academia/csc-209/1-fundamental-concepts/file-management-in-unix/","tags":["cs","lecture","note","university"],"created":"2025-01-09T15:32:11.041-08:00","updated":"2025-01-17T17:51:55.044-08:00"}
 ---
 
 

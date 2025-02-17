@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Transistors.md","permalink":"/academia/csc-258/1-transistors/transistors/","tags":["cs","lecture","note","university"],"created":"2025-01-08T13:10:54.744-05:00","updated":"2025-01-14T23:59:09.167-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Transistors.md","permalink":"/academia/csc-258/1-transistors/transistors/","tags":["cs","lecture","note","university"],"created":"2025-01-08T10:10:54.744-08:00","updated":"2025-01-14T20:59:09.167-08:00"}
 ---
 
 
