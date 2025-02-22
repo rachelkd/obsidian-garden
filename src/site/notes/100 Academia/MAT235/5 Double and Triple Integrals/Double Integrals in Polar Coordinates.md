@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Double Integrals in Polar Coordinates.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/double-integrals-in-polar-coordinates/","tags":["lecture","math","note","university"],"created":"2025-01-16T17:00:20.943-08:00","updated":"2025-02-12T16:23:07.548-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Double Integrals in Polar Coordinates.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/double-integrals-in-polar-coordinates/","tags":["lecture","math","note","university"],"created":"2025-01-16T20:00:20.943-05:00","updated":"2025-02-12T19:23:07.548-05:00"}
 ---
 
 

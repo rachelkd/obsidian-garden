@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Transistor Circuits.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/transistor-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-17T08:27:13.486-08:00","updated":"2025-01-18T12:32:37.544-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Transistor Circuits.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/transistor-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:27:13.486-05:00","updated":"2025-02-22T05:06:51.188-05:00"}
 ---
 
 
@@ -89,7 +89,7 @@ Given three inputs A, B, and C:
     - When `A = 0`, `B = 1`, and `C = 0`
 - → Translates easily into gates
     - ![](https://i.imgur.com/1oM9qXK.png)
-    - $Y = \overline{Y} \cdot B \cdot \overline{C}$
+    - $Y = \overline{A} \cdot B \cdot \overline{C}$
 
 ## A Less Simple Truth Table
 

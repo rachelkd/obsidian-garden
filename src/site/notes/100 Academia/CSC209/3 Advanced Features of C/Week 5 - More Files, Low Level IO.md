@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 5 - More Files, Low Level IO.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-5-more-files-low-level-io/","tags":["cs","lecture","note","university"],"created":"2025-02-05T18:23:12.311-08:00","updated":"2025-02-06T14:56:57.357-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 5 - More Files, Low Level IO.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-5-more-files-low-level-io/","tags":["cs","lecture","note","university"],"created":"2025-02-05T21:23:12.311-05:00","updated":"2025-02-06T17:56:57.357-05:00"}
 ---
 
 

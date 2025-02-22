@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Integrals in Cylindrical and Spherical Coordinates.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/integrals-in-cylindrical-and-spherical-coordinates/","tags":["lecture","math","note","university"],"created":"2025-01-27T01:37:42.808-08:00","updated":"2025-02-12T18:34:08.583-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Integrals in Cylindrical and Spherical Coordinates.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/integrals-in-cylindrical-and-spherical-coordinates/","tags":["lecture","math","note","university"],"created":"2025-01-27T04:37:42.808-05:00","updated":"2025-02-12T21:34:08.583-05:00"}
 ---
 
 

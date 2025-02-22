@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-11T18:57:48.083-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-17T06:23:32.720-05:00"}
 ---
 
 
@@ -218,7 +218,7 @@ def Delete(D, key):
 >
 > - Worst case height of AVL tree with $n$ nodes is:
 >     - & $1.44 \log_{2}(n+2)$
->         - i.e., $h \leq 1.44 \ln (n + 2)$
+>         - i.e., $h \leq 1.44 \log_{2} (n + 2)$
 >     - → `Search` operation can be carried out in $\mathcal{O}(\log n)$ time in the worst case
 > - Insertions and deletions can be done in $\mathcal{O}(\log n)$ time
 >     - While preserving the AVL-ness of tree

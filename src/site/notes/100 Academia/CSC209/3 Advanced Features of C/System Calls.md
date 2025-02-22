@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/System Calls.md","permalink":"/academia/csc-209/3-advanced-features-of-c/system-calls/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:41:37.363-08:00","updated":"2025-02-11T00:48:02.757-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/System Calls.md","permalink":"/academia/csc-209/3-advanced-features-of-c/system-calls/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:41:37.363-05:00","updated":"2025-02-11T03:48:02.757-05:00"}
 ---
 
 

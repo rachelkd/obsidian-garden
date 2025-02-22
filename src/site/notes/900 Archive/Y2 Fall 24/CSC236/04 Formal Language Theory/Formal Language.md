@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T15:38:15.011-08:00","updated":"2025-02-06T14:51:40.582-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/04-formal-language-theory/formal-language/","tags":["cs","lecture","note","university"],"created":"2024-11-26T18:38:15.011-05:00","updated":"2025-02-06T17:51:40.582-05:00"}
 ---
 
 

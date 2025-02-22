@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Karnaugh Maps.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/karnaugh-maps/","tags":["cs","lecture","note","university"],"created":"2025-01-17T12:47:23.626-08:00","updated":"2025-01-20T12:47:42.874-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Karnaugh Maps.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/karnaugh-maps/","tags":["cs","lecture","note","university"],"created":"2025-01-17T15:47:23.626-05:00","updated":"2025-01-20T15:47:42.874-05:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Midterm Short Answer Questions.md","permalink":"/academia/csc-258/1-transistors/midterm-short-answer-questions/","tags":["lecture","note","university"],"created":"2025-01-13T10:17:36.138-08:00","updated":"2025-01-27T10:37:52.502-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Midterm Short Answer Questions.md","permalink":"/academia/csc-258/1-transistors/midterm-short-answer-questions/","tags":["lecture","note","university"],"created":"2025-01-13T13:17:36.138-05:00","updated":"2025-01-27T13:37:52.502-05:00"}
 ---
 
 

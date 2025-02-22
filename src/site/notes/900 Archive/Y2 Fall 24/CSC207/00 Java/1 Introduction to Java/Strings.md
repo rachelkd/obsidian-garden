@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/1-introduction-to-java/strings/","tags":["cs","java","lecture","note","university"],"created":"2024-12-09T23:41:53.242-08:00","updated":"2024-12-09T23:45:59.795-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-207/00-java/1-introduction-to-java/strings/","tags":["cs","java","lecture","note","university"],"created":"2024-12-10T02:41:53.242-05:00","updated":"2024-12-10T02:45:59.795-05:00"}
 ---
 
 

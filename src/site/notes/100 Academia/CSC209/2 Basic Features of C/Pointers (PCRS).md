@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Pointers (PCRS).md","permalink":"/academia/csc-209/2-basic-features-of-c/pointers-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-13T00:08:18.131-08:00","updated":"2025-01-24T23:46:40.322-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/2 Basic Features of C/Pointers (PCRS).md","permalink":"/academia/csc-209/2-basic-features-of-c/pointers-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-13T03:08:18.131-05:00","updated":"2025-01-25T02:46:40.322-05:00"}
 ---
 
 

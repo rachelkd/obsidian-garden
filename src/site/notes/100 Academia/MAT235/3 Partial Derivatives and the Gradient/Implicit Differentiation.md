@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Implicit Differentiation.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/implicit-differentiation/","tags":["lecture","math","note","university"],"created":"2024-11-11T19:05:14.357-08:00","updated":"2025-01-09T16:06:03.871-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/3 Partial Derivatives and the Gradient/Implicit Differentiation.md","permalink":"/academia/mat-235/3-partial-derivatives-and-the-gradient/implicit-differentiation/","tags":["lecture","math","note","university"],"created":"2024-11-11T22:05:14.357-05:00","updated":"2025-01-09T19:06:03.871-05:00"}
 ---
 
 

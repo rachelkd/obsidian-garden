@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T01:06:31.811-08:00","updated":"2025-02-06T14:51:41.116-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Strings (PCRS).md","permalink":"/academia/csc-209/3-advanced-features-of-c/strings-pcrs/","tags":["cs","lecture","note","university"],"created":"2025-01-28T04:06:31.811-05:00","updated":"2025-02-06T17:51:41.116-05:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T15:32:15.622-08:00","updated":"2024-12-06T14:05:10.406-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/04-continuous-random-variables/exponential-distribution/","tags":["lecture","note","stats","university"],"created":"2024-11-09T18:32:15.622-05:00","updated":"2024-12-06T17:05:10.406-05:00"}
 ---
 
 

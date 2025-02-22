@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams.md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:50:45.436-08:00","updated":"2025-02-06T14:24:06.618-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams.md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:50:45.436-05:00","updated":"2025-02-06T17:24:06.618-05:00"}
 ---
 
 

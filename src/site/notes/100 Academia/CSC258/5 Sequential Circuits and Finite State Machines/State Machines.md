@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/5 Sequential Circuits and Finite State Machines/State Machines.md","permalink":"/academia/csc-258/5-sequential-circuits-and-finite-state-machines/state-machines/","tags":["cs","lecture","note","university"],"created":"2025-02-04T21:34:07.982-08:00","updated":"2025-02-07T21:23:17.038-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/5 Sequential Circuits and Finite State Machines/State Machines.md","permalink":"/academia/csc-258/5-sequential-circuits-and-finite-state-machines/state-machines/","tags":["cs","lecture","note","university"],"created":"2025-02-05T00:34:07.982-05:00","updated":"2025-02-08T00:23:17.038-05:00"}
 ---
 
 

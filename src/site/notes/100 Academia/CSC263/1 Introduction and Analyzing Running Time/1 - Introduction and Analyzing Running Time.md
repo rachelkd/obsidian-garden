@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/1 - Introduction and Analyzing Running Time.md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/1-introduction-and-analyzing-running-time/","tags":["module","university","cs"],"created":"2025-01-10T00:01:45.004-08:00","updated":"2025-01-10T00:01:58.066-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/1 Introduction and Analyzing Running Time/1 - Introduction and Analyzing Running Time.md","permalink":"/academia/csc-263/1-introduction-and-analyzing-running-time/1-introduction-and-analyzing-running-time/","tags":["module","university","cs"],"created":"2025-01-10T03:01:45.004-05:00","updated":"2025-01-10T03:01:58.066-05:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T16:07:40.000-07:00","updated":"2025-01-09T16:28:28.744-08:00"}
+{"dg-publish":true,"permalink":"/templates/new-course/","tags":["university"],"created":"2024-06-22T19:07:40.000-04:00","updated":"2025-01-09T19:28:28.744-05:00"}
 ---
 
 

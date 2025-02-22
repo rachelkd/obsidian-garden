@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/2 Vectors and Linear Algebra/Dot Product.md","permalink":"/academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["lecture","note","math","university"],"created":"2024-09-30T14:11:21.700-07:00","updated":"2025-01-09T16:06:03.865-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/2 Vectors and Linear Algebra/Dot Product.md","permalink":"/academia/mat-235/2-vectors-and-linear-algebra/dot-product/","tags":["lecture","note","math","university"],"created":"2024-09-30T17:11:21.700-04:00","updated":"2025-02-18T16:21:14.169-05:00"}
 ---
 
 

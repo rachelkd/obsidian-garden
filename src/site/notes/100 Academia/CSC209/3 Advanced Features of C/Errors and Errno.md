@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Errors and Errno.md","permalink":"/academia/csc-209/3-advanced-features-of-c/errors-and-errno/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:48:01.878-08:00","updated":"2025-02-11T01:18:53.012-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Errors and Errno.md","permalink":"/academia/csc-209/3-advanced-features-of-c/errors-and-errno/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:48:01.878-05:00","updated":"2025-02-11T04:18:53.012-05:00"}
 ---
 
 

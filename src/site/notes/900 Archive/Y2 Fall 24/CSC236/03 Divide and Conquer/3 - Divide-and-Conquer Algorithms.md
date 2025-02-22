@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/03-divide-and-conquer/3-divide-and-conquer-algorithms/","tags":["#module","#university","cs"],"created":"2024-11-18T21:39:29.395-08:00","updated":"2024-11-27T20:47:21.914-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-236/03-divide-and-conquer/3-divide-and-conquer-algorithms/","tags":["#module","#university","cs"],"created":"2024-11-19T00:39:29.395-05:00","updated":"2024-11-27T23:47:21.914-05:00"}
 ---
 
 

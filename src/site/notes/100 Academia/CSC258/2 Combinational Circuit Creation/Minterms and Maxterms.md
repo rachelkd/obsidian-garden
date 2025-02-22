@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T08:28:30.309-08:00","updated":"2025-01-23T17:59:11.243-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Minterms and Maxterms.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/minterms-and-maxterms/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:28:30.309-05:00","updated":"2025-01-23T20:59:11.243-05:00"}
 ---
 
 

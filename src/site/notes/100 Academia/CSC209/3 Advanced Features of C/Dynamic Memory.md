@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Dynamic Memory.md","permalink":"/academia/csc-209/3-advanced-features-of-c/dynamic-memory/","tags":["cs","lecture","note","university"],"created":"2025-01-20T20:46:40.717-08:00","updated":"2025-01-24T20:22:59.492-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Dynamic Memory.md","permalink":"/academia/csc-209/3-advanced-features-of-c/dynamic-memory/","tags":["cs","lecture","note","university"],"created":"2025-01-20T23:46:40.717-05:00","updated":"2025-01-24T23:22:59.492-05:00"}
 ---
 
 

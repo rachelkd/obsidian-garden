@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Reducing Circuits.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/reducing-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-17T08:29:35.147-08:00","updated":"2025-01-18T12:33:14.928-08:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/2 Combinational Circuit Creation/Reducing Circuits.md","permalink":"/academia/csc-258/2-combinational-circuit-creation/reducing-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-17T11:29:35.147-05:00","updated":"2025-01-18T15:33:14.928-05:00"}
 ---
 
 

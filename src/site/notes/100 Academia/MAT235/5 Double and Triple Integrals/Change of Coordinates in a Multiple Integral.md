@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Change of Coordinates in a Multiple Integral.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/change-of-coordinates-in-a-multiple-integral/","tags":["lecture","math","note","university"],"created":"2025-01-29T01:08:29.692-08:00","updated":"2025-02-09T14:30:07.487-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Change of Coordinates in a Multiple Integral.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/change-of-coordinates-in-a-multiple-integral/","tags":["lecture","math","note","university"],"created":"2025-01-29T04:08:29.692-05:00","updated":"2025-02-09T17:30:07.487-05:00"}
 ---
 
 
