@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Electricity Basics.md","permalink":"/academia/csc-258/1-transistors/electricity-basics/","tags":["cs","lecture","note","university"],"created":"2025-01-08T15:32:12.634-05:00","updated":"2025-02-20T18:10:00.000-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Electricity Basics.md","permalink":"/academia/csc-258/1-transistors/electricity-basics/","tags":["cs","lecture","note","university"],"created":"2025-01-08T15:32:12.634-05:00","updated":"2025-02-22T20:45:48.532-05:00"}
 ---
 
 
@@ -55,6 +55,8 @@
 > [!important]+ Remember!
 > - Even though electrical current is flow of electrons through a medium,
 >     - Direction is typically expressed as the *movement of positive charges*
+>
+> ![](https://i.imgur.com/3V4vvVb.png)
 
 ## Using Electricity
 

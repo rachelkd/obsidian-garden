@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Comparators.md","permalink":"/academia/csc-258/3-logic-devices/comparators/","tags":["cs","lecture","note","university"],"created":"2025-01-24T11:42:23.864-05:00","updated":"2025-02-06T17:51:41.066-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Comparators.md","permalink":"/academia/csc-258/3-logic-devices/comparators/","tags":["cs","lecture","note","university"],"created":"2025-01-24T11:42:23.864-05:00","updated":"2025-02-22T17:24:30.256-05:00"}
 ---
 
 

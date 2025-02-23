@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/iterated-integrals/","tags":["lecture","math","note","university"],"created":"2025-01-05T21:22:58.063-08:00","updated":"2025-01-14T20:28:39.287-08:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/5 Double and Triple Integrals/Iterated Integrals.md","permalink":"/academia/mat-235/5-double-and-triple-integrals/iterated-integrals/","tags":["lecture","math","note","university"],"created":"2025-01-06T00:22:58.063-05:00","updated":"2025-01-14T23:28:39.287-05:00"}
 ---
 
 

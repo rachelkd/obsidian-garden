@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T07:46:11.000-07:00","updated":"2024-12-31T04:40:55.399-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/00-introduction/probability/","tags":["#lecture","#note","university"],"created":"2024-09-05T10:46:11.000-04:00","updated":"2024-12-31T07:40:55.399-05:00"}
 ---
 
 

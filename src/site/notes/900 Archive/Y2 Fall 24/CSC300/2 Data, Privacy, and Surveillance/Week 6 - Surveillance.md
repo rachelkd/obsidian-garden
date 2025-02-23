@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-11T21:06:09.249-07:00","updated":"2025-02-06T14:51:40.685-08:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/csc-300/2-data-privacy-and-surveillance/week-6-surveillance/","tags":["cs","ethics","lecture","note","university"],"created":"2024-10-12T00:06:09.249-04:00","updated":"2025-02-06T17:51:40.685-05:00"}
 ---
 
 
