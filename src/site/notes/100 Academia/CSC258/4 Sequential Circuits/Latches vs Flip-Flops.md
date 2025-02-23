@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-19T15:18:48.086-05:00","updated":"2025-02-21T22:38:56.338-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-19T15:18:48.086-05:00","updated":"2025-02-23T00:09:26.628-05:00"}
 ---
 
 
