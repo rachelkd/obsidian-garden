@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/5 Sequential Circuits and Finite State Machines/State Machines.md","permalink":"/academia/csc-258/5-sequential-circuits-and-finite-state-machines/state-machines/","tags":["cs","lecture","note","university"],"created":"2025-02-05T00:34:07.982-05:00","updated":"2025-02-23T03:27:38.907-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/5 Sequential Circuits and Finite State Machines/State Machines.md","permalink":"/academia/csc-258/5-sequential-circuits-and-finite-state-machines/state-machines/","tags":["cs","lecture","note","university"],"created":"2025-02-05T00:34:07.982-05:00","updated":"2025-02-24T03:16:52.307-05:00"}
 ---
 
 
@@ -295,11 +295,15 @@ $$
 
 ## Two Types of FSMs
 
+### Moore Machine
+
 > [!def]+ Moore machine
 > - Output for the FSM depends solely on the ==current state==
 >     - Based on entry actions
 
 - Most of the circuits we are going to make in this course are Moore machines
+
+### Mealy Machine
 
 > [!def]+ Mealy machine
 > - Output for the FSM depends on the ==state== and the ==input==
