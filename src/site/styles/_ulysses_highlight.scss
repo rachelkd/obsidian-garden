@@ -1,0 +1,51 @@
+body {
+    --text-highlight-bg-rgb: 248, 197, 46;
+    --text-highlight-bg-opacity: 0.3;
+
+    --text-highlight-border-width: 0.5px;
+    --text-highlight-border-opacity: 1;
+    --text-highlight-text-opacity: 1;
+    --text-highlight-border-radius: var(--radius-s);
+    --text-highlight-padding-block: var(--size-2-1);
+    --text-highlight-padding-inline: var(--size-2-2);
+
+    // Multi-colored Highlights
+    --bold-highlight-color: var(--rose-pine-love);
+    --bold-highlight-bg: var(--rose-pine-love);
+    --italic-highlight-color: var(--rose-pine-iris);
+    --italic-highlight-bg: var(--rose-pine-iris);
+    --bold-italic-highlight-color: var(--rose-pine-foam);
+    --bold-italic-highlight-bg: var(--rose-pine-foam);
+
+    // Base highlight styles
+    mark {
+        border-radius: var(--text-highlight-border-radius);
+        background-color: rgba(var(--text-highlight-bg-rgb), var(--text-highlight-bg-opacity)) !important;
+        border: var(--text-highlight-border-width) solid rgba(var(--text-highlight-bg-rgb), var(--text-highlight-border-opacity));
+        padding: var(--text-highlight-padding-block) var(--text-highlight-padding-inline);
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    // Bold Highlight
+    strong mark {
+        color: rgb(var(--bold-highlight-color)) !important;
+        background-color: rgba(var(--bold-highlight-bg), 0.35) !important;
+        border-color: rgba(var(--bold-highlight-bg), var(--text-highlight-border-opacity)) !important;
+    }
+
+    // Italic Highlight
+    em mark {
+        color: rgb(var(--italic-highlight-color)) !important;
+        background-color: rgba(var(--italic-highlight-bg), 0.35) !important;
+        border-color: rgba(var(--italic-highlight-bg), var(--text-highlight-border-opacity)) !important;
+    }
+
+    // Bold Italic Highlight
+    em strong mark,
+    strong em mark {
+        color: rgb(var(--bold-italic-highlight-color)) !important;
+        background-color: rgba(var(--bold-italic-highlight-bg), 0.35) !important;
+        border-color: rgba(var(--bold-italic-highlight-bg), var(--text-highlight-border-opacity)) !important;
+    }
+}
