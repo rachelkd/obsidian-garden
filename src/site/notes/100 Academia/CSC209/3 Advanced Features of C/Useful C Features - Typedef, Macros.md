@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Useful C Features - Typedef, Macros.md","permalink":"/academia/csc-209/3-advanced-features-of-c/useful-c-features-typedef-macros/","tags":["cs","lecture","note","university"],"created":"2025-02-10T18:01:31.601-05:00","updated":"2025-02-11T02:51:31.908-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Useful C Features - Typedef, Macros.md","permalink":"/academia/csc-209/3-advanced-features-of-c/useful-c-features-typedef-macros/","tags":["cs","lecture","note","university"],"created":"2025-02-10T18:01:31.601-05:00","updated":"2025-02-25T15:12:13.340-05:00"}
 ---
 
 

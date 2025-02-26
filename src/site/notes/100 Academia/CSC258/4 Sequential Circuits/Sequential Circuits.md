@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-26T20:28:48.661-05:00","updated":"2025-02-24T03:16:32.990-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Sequential Circuits.md","permalink":"/academia/csc-258/4-sequential-circuits/sequential-circuits/","tags":["cs","lecture","note","university"],"created":"2025-01-26T20:28:48.661-05:00","updated":"2025-02-24T17:13:02.470-05:00"}
 ---
 
 
@@ -445,4 +445,4 @@ Also known as gated D-latch.
 
 - Design is good, but still has problems
     - & ==Timing== issues
-    - i.e., **Transparency**
+    - i.e., **[[100 Academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops#^a37b06\|Transparency]]**

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-19T15:18:48.086-05:00","updated":"2025-02-23T23:59:48.311-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/4 Sequential Circuits/Latches vs Flip-Flops.md","permalink":"/academia/csc-258/4-sequential-circuits/latches-vs-flip-flops/","tags":["cs","lecture","note","university"],"created":"2025-02-19T15:18:48.086-05:00","updated":"2025-02-24T17:13:07.273-05:00"}
 ---
 
 
@@ -25,6 +25,8 @@ Thus, what you would see when you press the “=” button would be:
 > [!def]+ Transparent
 > - Any changes to its inputs are visible to the output when control signal is 1
 >     - i.e., Clock is 1
+{ #a37b06}
+
 
 > [!important] The output of a latch *should not* be applied directly or through combinational logic to the input of the same or another latch when they all have the same control signal.
 
