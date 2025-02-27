@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-26T03:34:34.822-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Plant Intelligence.md","permalink":"/academia/hps-208/plant-intelligence/","tags":["hps","lecture","note","university"],"created":"2025-02-02T20:42:25.469-05:00","updated":"2025-02-26T19:30:00.173-05:00"}
 ---
 
 
@@ -121,7 +121,7 @@ Recall ASENT [[100 Academia/HPS208/Animal Sentience (ASENT)#Criteria of Sentienc
         - Trees signal to other trees to ramp up tannin production
             - Chemicals are carried by wind
             - Trees upwind will taste fresh; downwind will taste bitter
-        - → Giraffes move to a different tree upwind because tree
+        - → Giraffes move to a different tree upwind because tree tastes bad
 
 > [!tldr] This example is part of a wide field that is called — possibly and cautiously — **plant communication**.
 
