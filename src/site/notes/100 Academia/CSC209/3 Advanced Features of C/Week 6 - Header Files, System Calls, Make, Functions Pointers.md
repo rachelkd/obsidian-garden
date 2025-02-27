@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 6 - Header Files, System Calls, Make.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-6-header-files-system-calls-make/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:48:17.873-05:00","updated":"2025-02-14T14:33:31.321-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 6 - Header Files, System Calls, Make, Functions Pointers.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-6-header-files-system-calls-make-functions-pointers/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:48:17.873-05:00","updated":"2025-02-26T01:48:36.752-05:00"}
 ---
 
 
@@ -15,7 +15,7 @@
 ## Header Files, Make
 
 > [!abstract]- Lecture Worksheets
-> - goodnotes
+> - [Makefiles](https://share.goodnotes.com/s/Lw4yMthXuuHvE3Z9yJIV1q)
 
 - See [[100 Academia/CSC209/3 Advanced Features of C/Compiling#Lecture 10 Header Files, Make\|Compiling#Lecture 10 Header Files, Make]]
 

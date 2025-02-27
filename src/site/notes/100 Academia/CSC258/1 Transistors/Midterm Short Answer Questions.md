@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Midterm Short Answer Questions.md","permalink":"/academia/csc-258/1-transistors/midterm-short-answer-questions/","tags":["lecture","note","university"],"created":"2025-01-13T13:17:36.138-05:00","updated":"2025-02-23T04:58:13.559-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/1 Transistors/Midterm Short Answer Questions.md","permalink":"/academia/csc-258/1-transistors/midterm-short-answer-questions/","tags":["lecture","note","university"],"created":"2025-01-13T13:17:36.138-05:00","updated":"2025-02-23T15:47:49.718-05:00"}
 ---
 
 
@@ -131,7 +131,7 @@ From Week 3
 
 From Week 4.
 
-**Question 1.**
+### Question 1
 
 > [!question]+ How do you write the unsigned number 78 as an 8-bit binary number?
 >
@@ -149,7 +149,7 @@ From Week 4.
 > - Multiply by 2, shift it over to the left?
 > - $1101\,1010$
 
-**Question 2.**
+### Question 2
 
 > [!question]+ What groupings are in the K-map? What logic equations do these groupings represent?
 > ![|500](https://i.imgur.com/vN2RCHa.png)
@@ -159,7 +159,7 @@ From Week 4.
 > >
 > > $$\overline{A} \cdot \overline{B} + \overline{C}$$
 
-**Question 3.**
+### Question 3
 
 > [!question]+ How would you implement the $A > B$ output of the 2-bit comparator above out of 1-bit comparators and a minimal number of gates?
 > ![|150](https://i.imgur.com/nuoVtlQ.png) ![|150](https://i.imgur.com/NdRHc4B.png)

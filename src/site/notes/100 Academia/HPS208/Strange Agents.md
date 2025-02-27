@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-22T05:02:16.263-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-24T20:29:07.531-05:00"}
 ---
 
 
@@ -254,3 +254,11 @@
         - (p. 1)
 
 #todo
+
+## Key Terms
+
+### “Neurons didn’t Invent Cognition — They Optimized it”
+
+### Bioelectricity
+
+### Intentional Stance

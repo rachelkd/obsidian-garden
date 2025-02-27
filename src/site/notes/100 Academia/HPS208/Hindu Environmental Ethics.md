@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-16T19:36:54.654-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-26T15:35:55.778-05:00"}
 ---
 
 
@@ -22,7 +22,7 @@ We look at this question of sentience and ethics from a broadly Hindu perspectiv
 
 > [!tldr]+ Framarin (2012)
 >
-> - Defends a basic tenant of this debate
+> - Defends a basic tenet of this debate
 >     - & We owe something to non-humans
 
 - Want to explore what the basic Hindu metaphysics of sentience mean for **environmental ethics**
@@ -357,11 +357,11 @@ Framarin responds:
     - Interconnection is supposed to make us care about other things
 - Framarin *objects*:
     - Not what the doctrine of karma says
-    - % **Karma**
+    - **Karma**
         - Idea that your past and present actions will have consequences for your current and future incarnations
     - Karma is not to connect all living things into a web;
         - & Just connects you to ==yourself== (at a future time; future incarnations of yourself)
-    - The idea of re-birth means that you probably should not each animals since you may one day be an animal yourself
+    - The idea of re-birth means that you probably should not eat animals since you may one day be an animal yourself
         - A *prudential* reason for ahimsa, not intrinsic
 
 Interconnectedness interpretation then does not do a good job of attributing intrinsic value to non-humans.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-02-11T18:48:52.214-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-02-23T19:44:17.248-05:00"}
 ---
 
 
@@ -126,8 +126,6 @@ a.out: Mach-O 64-bit executable x86_64
 #include <string.h>
 #include <time.h>
 
-#include "sorts.h"
-
 typedef void (*SortFunc_t)(int *, int);
 
 typedef struct {
@@ -157,6 +155,7 @@ sort_info SORTS[] = {
 - Sorting functions are implemented in another file `sorts.c`
 - ? What happens if we try to compile by running `gcc compare_sorts.c`?
     - Linking errors
+        - ![|400](https://i.imgur.com/eyfftkZ.jpeg)
     - Functions we prototyped are not implemented in the file
     - & Compile like `gcc compare_sorts.c sorts.c`
         - Have to list all the files that contain code to get `gcc` to compile
@@ -192,7 +191,7 @@ sort_info SORTS[] = {
 - **Header files**
     - Example of an **interface**
     - Should declare *what* functions do and what *types* they require
-    - Without defining *how* they are actually implemented`
+    - Without defining *how* they are actually implemented
 
 > [!idea]+ Can think of a header file as declaring a *design*
 >
@@ -451,7 +450,7 @@ int main(int argc, char *argv[]) {
   ```
 
 - `#ifndef SORTS_H`
-    - “If not defined, `SORTS_H”
+    - “If not defined, `SORTS_H`”
     - Checks if `SORTS_H` is defined
 - `#define SORTS_H`
     - Defines it if not already defined
