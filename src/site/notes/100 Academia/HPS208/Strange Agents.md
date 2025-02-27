@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-27T11:34:33.944-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-27T11:54:12.441-05:00"}
 ---
 
 
@@ -330,6 +330,58 @@
     - How these theoretical assumptions affect the science that they are doing
 
 ## Pragmatism
+
+- William James
+    - American philosopher and psychologist
+    - 1842-1910
+- **Pragmatism**
+    - As a school of philosophy in William James’ understanding:
+        - ; “the attitude of looking away from first things, principles, ‘categories,’ supposed necessities; and of looking towards last things, fruits, consequences, facts”
+        - (James, Lecture II, Pragmatism (1907))
+- For pragmatists:
+    - Philosophical inquiries should help us act in the world
+    - Should be about the facts and consequences of daily affairs that we all deal with
+    - General idea:
+        - & Some kind of plea for philosophy to involve less metaphysics, more action
+
+### Baluska and Levin’s Pragmatism
+
+- $ Baluska and Levin are not interested in metaphysical speculation
+    - About abstract concepts, such as being, time, knowledge, existence, etc
+    - Even though Levin is working so directly with living things, there is a sense of which he is not really that interested in the nature of life as a concept or idea that we can philosophically reflect upon
+- & Baluska and Levin prioritize a theoretical framework that
+    - (1) Reflects contemporary scientific work
+    - (2) Can actually ==help scientists conduct this work==
+- Most, if not all, contemporary philosophy of science conforms to (1)
+- Not every philosopher of science is interested in developing a philosophical framework that scientists then take and use
+- See this real focus on scientific applicability/actionable-ness in Baluska and Levin
+
+> [!important]+ Their thesis that ==cognition is information-processing==, and information-processing can be cached out in terms of ==bioelectricity==, is intended to help stimulate scientific research
+> - Intended to make a difference in Levin’s lab
+> - *Action-oriented* in the way that the original pragmatists understood their philosophy
+
+## Summary
+
+- **Grounded in cybernetics**
+    - Focus on *manipulation* and *control* of systems in experimental research
+    - Explained what cybernetics broadly is, and what it means for Levin and Baluska’s projects to be grounded in cybernetics
+- **Intentional stance-like (‘Cognitive Stance’)**
+    - Predicts the behaviour of systems as if they are *cognitive agents*, with the expectation that this improves *predictive power*
+    - Levin does not seem to care about this distinction between machine and organism
+- **Pragmatic**
+    - Focused on the empirical consequences of adopting a particular theoretical perspective
+    - Pragamatism is about *action*, and not abstract categories
+    - Talked about what might be pragmatic about Baluska and Levin’s philosophical outlook
+
+## Conclusions
+
+- Baluska and Levin (2016) employ a very broad definition of cognition
+    - On their view, any system that processes information is a cognitive system
+- Arguably, there is reason to claim that this is not a satisfactory definition of cognition
+    - (Adam’s critique)
+- This type philosophical critique likely would not bother Baluska and Levin
+    - Both (but particularly Levin) are focused on biomedical research outcomes
+    - Levin’s ‘cognitive stance’ as a theoretical tool that (he argues) can *help advance* biomedicine
 
 ## Key Terms
 
