@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-02-26T02:41:19.372-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-02-27T11:56:25.917-05:00"}
 ---
 
 
@@ -12,7 +12,6 @@
 > $E$ itself is a set of tuples $(v_{i}, v_{j})$, where $v_{i}, v_{j} \in V$.
 
 ![](https://i.imgur.com/ItxHzhR.png)
-![[ee367-016.png\|ee367-016.png]]
 
 ## Basic Definitions
 
