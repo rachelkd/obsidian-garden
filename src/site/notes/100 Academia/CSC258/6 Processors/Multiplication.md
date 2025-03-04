@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/Multiplication.md","permalink":"/academia/csc-258/6-processors/multiplication/","tags":["cs","lecture","note","university"],"created":"2025-03-01T16:53:25.215-05:00","updated":"2025-03-02T02:38:01.133-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/Multiplication.md","permalink":"/academia/csc-258/6-processors/multiplication/","tags":["cs","lecture","note","university"],"created":"2025-03-01T16:53:25.215-05:00","updated":"2025-03-03T18:21:26.762-05:00"}
 ---
 
 
@@ -374,3 +374,9 @@ $$
     - All depends on circumstances and needs to meet
 
 ![](https://i.imgur.com/CBZp3vr.png)
+
+> [!question]+ Where are these inputs coming from? Where are the outputs going to?
+> - [[100 Academia/CSC258/6 Processors/The Storage Unit\|The Storage Unit]]
+{ #3c093e}
+
+

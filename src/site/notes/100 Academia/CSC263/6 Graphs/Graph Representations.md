@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-02-27T11:56:25.917-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-03T19:19:36.547-05:00"}
 ---
 
 
@@ -14,6 +14,8 @@
 ![](https://i.imgur.com/ItxHzhR.png)
 
 ## Basic Definitions
+
+See [[100 Academia/CSC263/6 Graphs/Discover Graphs\|Discover Graphs]]
 
 - Vertices
 - Edges
@@ -33,12 +35,16 @@
 
 > [!note] If neither type of graph is specified, our default will be an **undirected** graph
 
-- Facebook friendship can be represented by undirected graphs
+- Facebook friendship can be represented by *undirected* graphs
     - Each person (account) is represented by a vertex
     - $u$ and $v$ are friends $\iff$ there exists an edge between $u$ and $v$
-- Instagram followers can be represented by directed graphs
+- Instagram followers can be represented by *directed* graphs
     - Each person (account) is represented by a vertex
     - $u$ follows $v$ $\iff$ there exists an edge from $u$ to $v$
+- Network traffic flow can be presented by *weighted directed* graphs
+    - Each hub is represented by a vertex
+    - Incoming traffic from a hub $u$ to a hub $v$ is represented by incoming edge from $u$ to $v$
+    - Outgoing traffic from a hub $v$
 
 > [!info]+ Minimum number of edges in an undirected **connected** graph with $n$ vertices
 > $$n - 1$$

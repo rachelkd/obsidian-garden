@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Decoders.md","permalink":"/academia/csc-258/3-logic-devices/decoders/","tags":["cs","lecture","note","university"],"created":"2025-01-20T16:39:38.590-05:00","updated":"2025-02-05T22:15:30.859-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/3 Logic Devices/Decoders.md","permalink":"/academia/csc-258/3-logic-devices/decoders/","tags":["cs","lecture","note","university"],"created":"2025-01-20T16:39:38.590-05:00","updated":"2025-03-03T13:28:28.167-05:00"}
 ---
 
 
@@ -19,6 +19,8 @@
 >     - If inputs are $01 \implies B$ is turned on
 >     - If inputs are $10 \implies C$ is turned on
 >     - If inputs are $11 \implies D$ is turned on
+{ #88700d}
+
 
 - Same information on the left-hand side and right-hand side in another format
 
