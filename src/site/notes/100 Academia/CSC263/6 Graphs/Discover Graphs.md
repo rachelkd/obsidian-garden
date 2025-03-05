@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Graphs.md","permalink":"/academia/csc-263/6-graphs/discover-graphs/","tags":["cs","lecture","note","university"],"created":"2025-02-25T03:37:40.030-05:00","updated":"2025-02-26T02:43:32.215-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Graphs.md","permalink":"/academia/csc-263/6-graphs/discover-graphs/","tags":["cs","lecture","note","university"],"created":"2025-02-25T03:37:40.030-05:00","updated":"2025-03-04T00:01:01.735-05:00"}
 ---
 
 
@@ -101,6 +101,13 @@
     - $(p, s), (s, t), (t, q)$ is a path in Graph 3 with length 3
     - $(p,s), (s,t), (t,r), (r,p), (p,s)$ is ==not== a simple path, but has length 5
     - Path $(p, s), (s, p)$ has length 2 and is also not simple
+
+- **Distance** between two vertices/nodes
+    - In an undirected graph:
+        - Number of edges in the shortest path connecting them
+        - Essentially representing the minimum number of “hops” required to travel from one vertex to the other on the graph
+    - In a directed graph:
+        - Sum of the weights of the edges on the shortest path connecting them
 
 - **Cycle**
     - A path with the same starting and ending vertex
