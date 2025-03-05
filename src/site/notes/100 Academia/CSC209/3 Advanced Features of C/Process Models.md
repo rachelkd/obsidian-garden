@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Process Models.md","permalink":"/academia/csc-209/3-advanced-features-of-c/process-models/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:14:30.154-05:00","updated":"2025-02-25T23:25:41.304-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Process Models.md","permalink":"/academia/csc-209/3-advanced-features-of-c/process-models/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:14:30.154-05:00","updated":"2025-03-01T16:00:19.639-05:00"}
 ---
 
 
@@ -560,6 +560,8 @@ Now we can come back to the question of when zombie processes go away.
 ## Running Different Programs
 
 > [!goal] Load and execute a different program
+
+### `exec`
 
 - Linux provides the “`exec`” family of functions to replace the currently running process with a different executable.
 - While there are several variants on the `exec` function:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-26T15:35:55.778-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Hindu Environmental Ethics.md","permalink":"/academia/hps-208/hindu-environmental-ethics/","tags":["hps","lecture","note","university"],"created":"2025-01-26T00:29:41.078-05:00","updated":"2025-02-26T15:42:26.981-05:00"}
 ---
 
 
@@ -443,7 +443,7 @@ Framarin *objects*:
 
 ### Ahimsa in Jainism
 
-- % **Jainism**
+- **Jainism**
     - A heterodox school of Indian philosophy
     - Has a specific answer to this question
 - Ranks living things by the number of senses they have

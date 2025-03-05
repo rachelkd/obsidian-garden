@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 7 - Function Pointers, Processes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-7-function-pointers-processes/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:11:05.655-05:00","updated":"2025-02-26T01:45:01.409-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Week 7 - Function Pointers, Processes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/week-7-function-pointers-processes/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:11:05.655-05:00","updated":"2025-02-28T22:19:22.747-05:00"}
 ---
 
 
@@ -13,7 +13,7 @@
 ## Introduction to Processes
 
 > [!abstract]- Lecture Worksheets
-> - goodnotes
+> - [`fork`](https://share.goodnotes.com/s/2ZoP8wQGnsZNfBf4U3qziL)
 
 ## `exec`
 

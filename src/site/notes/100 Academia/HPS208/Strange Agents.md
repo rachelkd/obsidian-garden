@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-24T20:29:07.531-05:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Strange Agents.md","permalink":"/academia/hps-208/strange-agents/","tags":["hps","lecture","note","university"],"created":"2025-02-14T01:22:46.807-05:00","updated":"2025-02-27T11:54:12.441-05:00"}
 ---
 
 
@@ -185,6 +185,9 @@
 > [!quote]+ “If being a conduit of information were sufficient for cognition, then the whole universe would think. Despite a few proponents of this view, it seems highly implausible to most”
 > (2016, p. 323)
 
+> [!quote]+ “Consider a mercury thermometer. When used to take a child’s temperature, it contains information about the body temperature of the child. The level of mercury rises or falls in perfect variation with the rise or fall in body temperature of the child. But the thermometer does not have any cognitive states, despite being a perfect carrier of information about the child’s temperature.”
+> (2016, p. 324)
+
 - **Information**
     - Adams believes:
         - Knowledge is caused by information
@@ -201,7 +204,16 @@
         - Would probably say:
             - “I do not mind that my framework has this sort of entailment”
 
-## How Might Levin (and Baluska) Respond to the charge that Their Definition of Cognition is Too Broad?
+## Why Do Levin and Baluska Define Cognition like This?
+
+> [!quote]+ How hacking our biology could revolutionize healthcare
+> “If we were able to communicate to a set of cells exactly what we want them to build, we would have the solution for birth defects, lost organs of various kinds and limbs, we could reprogram tumours back to normal. All of this could we solved if we could communicate with the collective intelligence of cells.”
+
+- Focus on manipulation and control of biological systems
+- ‘Communication’ via bioelectric signals
+- @ Biomedical advances
+
+### How Might Levin (and Baluska) Respond to the charge that Their Definition of Cognition is Too Broad?
 
 - ? What is the purpose of defining cognition as such?
     - Levin wants to encourage cross-pollination of different research tools
@@ -222,6 +234,7 @@
 - & Their philosophical framework is not trying to clarify the ‘true’ nature of life and cognition
     - ; “Our goal … is not to \[define cognition], but to present tools that can help with research”
         - (Manicka & Levin, 2019)
+        - Similar to what Machery (2012) argues about ‘defining life’ in the lecture about [[100 Academia/HPS208/Animacy and Inanimacy#^fee128\|Animacy and Inanimacy]]
 - & This definition is a research tool or ‘useful fiction’
     - Part of the toolkit that Levin is creating involves this working definition of cognition
     - He and his colleagues use this definition as a research tool
@@ -252,8 +265,123 @@
     - **Cybernetics** is a theory of ‘all possible machines’
     - The field studies “all forms of behaviour in so far as they are regular, determinate, or reproducible”
         - (p. 1)
+- & Cybernetics is about control
+    - Does not really care about whether it is looking at organisms or machines
 
-#todo
+### Levin: an Approach ‘Grounded in Cybernetics’
+
+- ? What might make Baluska and Levin’s approach grounded in cybernetics?
+    - & Focus on manipulation/control of the system in question
+        - Baluska and Levin want to think about developmental biology as a kind of behaviour space
+        - Behaviour of the developing organism can be manipulated towards a direction
+    - Recall video: Levin talks about communicating with cells to control growth
+    - Also broader similarities in objects of study
+        - Levin’s lab website is super multidisciplinary
+        - Not really focusing on one specific type of biology
+            - e.g., Cognitive science, AI
+        - Can think of Levin as trying to look at behaviour
+            - Wants to study behaviour wherever it is found
+        - Thinks of behaviour as: “All forms of regular, determine, or reproducible behaviour”
+        - Has a very broad understanding of behaviour
+- Thinking about ‘unconventional’ biological systems as information-processors, and thus cognitive agents, is theoretical perspective that can help scientists *predict*, *control*, and *manipulate* the system they study
+    - Levin and Baluska are interested in predictive and controlled powers of the theories they are applying
+
+## Daniel Dennett’s Intentional Stance
+
+- Daniel Dennett
+    - Philosopher of mind
+    - At Tufts when Levin was in his undergrad
+    - Dennett and Levin have written at least one public philosophy article about cognition
+- & Baluska and Levin describe their approach as **intentional stance**-like
+- **Intentional stance**
+    - An attitude that Dennett argues we adopt towards certain systems
+    - Predicts behaviour based on the assumption that an object/system has *beliefs* and *desires*
+    - This position/attitude helps predict what the system in question is going to do
+    - & Dennett emphasizes that the intentional stance is required to do a good job of predicting behaviour of humans, many animals, and some robots
+        - e.g., chess computers, autonomous robots that move around in the world
+        - Need to assume that members of this group of systems have beliefs and desires to do a good job of predicting behaviour
+        - If we are good at predicting the behaviour of a system when we adopt this stance, then this means that the system does have certain beliefs and desires in some way
+    - This stance is about *predictive power*
+- If we see increased predictive power when we adopt the intentional stance that assumes beliefs and desires, then this tells us something important about the nature of the system
+    - System does actually have these beliefs or desires
+    - Or at least justified in saying that it does
+- Other stances include:
+    - **Physical stance**
+        - Predicts behaviour based on assumption that the object is under control of *physical* laws
+    - **Design stance**
+        - Predicts behaviour based on assumption that the object has been designed for a specific purpose
+
+## Baluska and Levin’s ‘Cognitive Stance’
+
+- Dennett is talking about mental states
+    - Baluska and Levin are not interested in mental states
+- Instead, Baluska and Levin are simply talking about *cognition*
+    - Why they likely use the phrase “intentional stance-like”
+- Can think of Baluska and Levin adopting some kind of cognitive stance
+    - Though neither of them have used this term
+- **Cognitive stance**
+    - Would be inspired by Dennett’s intentional stance
+    - A perspective that seeks to predict the behaviour of the system by assuming that a system is a *cognitive agent*
+    - If this gives us more *predictive power*, we are justified to call that system cognitive
+- & Adopting a kind of cognitive stance — inspired by Dennett — is about predictive power
+    - Sheds some light on what Baluska and Levin are preoccupied with
+    - If it was not scientifically beneficial to make these assumptions about cognition in these unconventional systems, then Baluska and Levin likely just would not do so
+- Key criterion/factor that Baluska and Levin are looking at is:
+    - How these theoretical assumptions affect the science that they are doing
+
+## Pragmatism
+
+- William James
+    - American philosopher and psychologist
+    - 1842-1910
+- **Pragmatism**
+    - As a school of philosophy in William James’ understanding:
+        - ; “the attitude of looking away from first things, principles, ‘categories,’ supposed necessities; and of looking towards last things, fruits, consequences, facts”
+        - (James, Lecture II, Pragmatism (1907))
+- For pragmatists:
+    - Philosophical inquiries should help us act in the world
+    - Should be about the facts and consequences of daily affairs that we all deal with
+    - General idea:
+        - & Some kind of plea for philosophy to involve less metaphysics, more action
+
+### Baluska and Levin’s Pragmatism
+
+- $ Baluska and Levin are not interested in metaphysical speculation
+    - About abstract concepts, such as being, time, knowledge, existence, etc
+    - Even though Levin is working so directly with living things, there is a sense of which he is not really that interested in the nature of life as a concept or idea that we can philosophically reflect upon
+- & Baluska and Levin prioritize a theoretical framework that
+    - (1) Reflects contemporary scientific work
+    - (2) Can actually ==help scientists conduct this work==
+- Most, if not all, contemporary philosophy of science conforms to (1)
+- Not every philosopher of science is interested in developing a philosophical framework that scientists then take and use
+- See this real focus on scientific applicability/actionable-ness in Baluska and Levin
+
+> [!important]+ Their thesis that ==cognition is information-processing==, and information-processing can be cached out in terms of ==bioelectricity==, is intended to help stimulate scientific research
+> - Intended to make a difference in Levin’s lab
+> - *Action-oriented* in the way that the original pragmatists understood their philosophy
+
+## Summary
+
+- **Grounded in cybernetics**
+    - Focus on *manipulation* and *control* of systems in experimental research
+    - Explained what cybernetics broadly is, and what it means for Levin and Baluska’s projects to be grounded in cybernetics
+- **Intentional stance-like (‘Cognitive Stance’)**
+    - Predicts the behaviour of systems as if they are *cognitive agents*, with the expectation that this improves *predictive power*
+    - Levin does not seem to care about this distinction between machine and organism
+- **Pragmatic**
+    - Focused on the empirical consequences of adopting a particular theoretical perspective
+    - Pragamatism is about *action*, and not abstract categories
+    - Talked about what might be pragmatic about Baluska and Levin’s philosophical outlook
+
+## Conclusions
+
+- Baluska and Levin (2016) employ a very broad definition of cognition
+    - On their view, any system that processes information is a cognitive system
+- Arguably, there is reason to claim that this is not a satisfactory definition of cognition
+    - (Adam’s critique)
+- This type philosophical critique likely would not bother Baluska and Levin
+    - Both (but particularly Levin) are focused on biomedical research outcomes
+    - Levin’s ‘cognitive stance’ as a theoretical tool that (he argues) can *help advance* biomedicine
 
 ## Key Terms
 
