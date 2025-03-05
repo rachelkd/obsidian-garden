@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Storage Unit.md","permalink":"/academia/csc-258/6-processors/the-storage-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-03T13:14:18.693-05:00","updated":"2025-03-05T01:53:20.832-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Storage Unit.md","permalink":"/academia/csc-258/6-processors/the-storage-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-03T13:14:18.693-05:00","updated":"2025-03-05T03:38:14.609-05:00"}
 ---
 
 
@@ -277,19 +277,35 @@ There are two differences — one minor, and one major difference.
 - Two things to store values:
     - Registers
     - Memory
-- Up until this point, we would say:
-    - Memory has a value that we want to operate on
-        - Everything starts off being in memory
-    - If you need to do an operation on a memory value:
-        - Memory would send that value to the registers
-        - Registers would take all memory values that they fetched, then send ones that they are starting to process to ALU
-        - Similar to Lab 6: Load registers first, then you can send those values to ALU, and put the output value back into registers
-    - ? Once you’ve got your calculation, then what are you supposed to do?
-        - As far as the lab was concerned, that was the end
-        - In real world: Once you’ve gotten that value, something needs to it
-        - Eventually, that value is stored somewhere
-            - Not in register, because that is used for temporary calculations, but it has to go somewhere more long-term
-        - & Store back into memory
+
+While registers are like books on your desk,
+
+- Main memory is like one long street with nothing developed
+- Can be divided into sections
+- Fill up the street with houses, buildings
+    - This is **`malloc`**
+- `malloc`
+    - Says: “I need a section of memory”
+    - Looks to find where this is space for a specified number of *bytes*
+        - 8 bits
+        - A byte is the smallest amount of memory that you can address
+            - Smallest parcel of land that you can take on this street
+            - Like buying land, there is a minimum size lot that you can buy
+
+Up until this point, we would say:
+
+- Memory has a value that we want to operate on
+    - Everything starts off being in memory
+- If you need to do an operation on a memory value:
+    - Memory would send that value to the registers
+    - Registers would take all memory values that they fetched, then send ones that they are starting to process to ALU
+    - Similar to Lab 6: Load registers first, then you can send those values to ALU, and put the output value back into registers
+- ? Once you’ve got your calculation, then what are you supposed to do?
+    - As far as the lab was concerned, that was the end
+    - In real world: Once you’ve gotten that value, something needs to it
+    - Eventually, that value is stored somewhere
+        - Not in register, because that is used for temporary calculations, but it has to go somewhere more long-term
+    - & Store back into memory
 
 > [!info]+ Memory values are read to the registers, and then processed by the ALU.
 > - Results are eventually sent back to memory
@@ -304,7 +320,7 @@ There are two differences — one minor, and one major difference.
 - You might think that there are two sets of lines
     - One for reading from memory, and
     - One used for writing
-    - Actually not true…
+    - Actually ==not true==…
 
 > [!important]+ Memory units use the ***==same $n$-bit wires==*** to both send and receive data.
 > ![](https://i.imgur.com/pcP5x19.png)
@@ -320,22 +336,16 @@ There are two differences — one minor, and one major difference.
 
 > [!danger]+ *Conflicts* arise when multiple sources write to wires at the same time.
 > - Need a way to ensure that memory unit does not write to these common wires at the same time that the processor does
+>     - Wires that are being used to bring values from memory into registers are the *same* wires being used to send values back into memory
 
-- Main difference:
-    - While registers are like books on your desk
-    - Main memory is like one long street with nothing developed
-    - Can be divided into sections
-    - Fill up the street with houses, buildings
-    - This is **`malloc`**
-- `malloc`
-    - Says: “I need a section of memory”
-    - Looks to find where this is space for a specified number of *bytes*
-        - 8 bits
-        - A byte is the smallest amount of memory that you can address
-            - Smallest parcel of land that you can take on this street
-            - Like buying land, there is a minimum size lot that you can buy
+- Not only do we have the issue of values colliding on this wire, but
+    - ? If all memory locations are connected to this one set of wires to write to, then what do we do?
+        -  Best so far is to have a mux that picks one memory location to go out
+        - That is fine, except we are always still writing something
+            - Mux only says *which* row is going to go out (to processor), but does not *stop* the value from coming out
+        - & Need a way to “cut it off” and stop writing a value from memory onto these wires
 
-## Controlling the Flow
+### Controlling the Flow
 
 > [!info]+ When reading or writing a memory location, we use the **tri-state buffer** gate
 > ![](https://i.imgur.com/t0ZGy3r.png)
@@ -347,12 +357,111 @@ There are two differences — one minor, and one major difference.
 | 1   | 1   | 1   |
 
 - **Tri-state buffer**
-    - Sets the output to the input, but only when a *third* signal — **write enable** — is high
+    - & Sets the output to the input, but only when a *third* signal — **write enable** — is high
     - Will physically cut out the output from the input
     - When `WE` write enable signal is low:
         - Buffer output is a **high impedance** signal
             - Output is ==neither connected to high== voltage or to the ==ground==
             - Output $Z$
-- Cannot have a lot of values writing to the same place at the same time
-    - Need to physically disconnect all values except the one that we want to read/write
-#todo
+- When making transistor circuits:
+    - Output has to be connected to something
+    - If you do not connect output to high, it does not mean that output is low
+    - It is going to be connected to $Z$
+
+> [!question]+ Why would we use this?
+> ![](https://i.imgur.com/K61qbXJ.png)
+> - Main issue is that all memory locations are connected to the right side wire
+>     - At any time, regardless of whether you are reading something or not, something would be sending values out of the right
+>     - Need some way of cutting it off
+>         - So you can write something into memory
+>         - Values would come up the center wire and not collide with any values coming out from memory location
+> - ? What if we took the tri-state buffer, and stuck it on the right-hand side of all these memory values?
+>     - Kind of the opposite of a write signal
+
+- You would have a write signal on the left-hand side to say which memory location is going to take a new value
+- On the right:
+    - Would say which one of these values is actually going to be set out the right wire to the processor
+    - If you are not reading from memory, then *none* of them; cut them all off
+    - Right wire would not have anything coming through that could interfere with values coming up from the processor to memory
+
+### Data Bus
+
+> [!info] This idea of a *shared set of wires* is called a **data bus**.
+
+- **Data bus**
+    - A single common of wires
+    - Almost like a channel, or highway of values that connects two areas to each other
+    - Passageway that data values can go through in two different directions
+- & Tri-state buffers allow us to use a *bus* to communicate in both directions between memory and the processor
+- & Anything that writes to the bus goes through a *tri-state buffer*
+    - e.g., Buffer for a memory location has *high impedance* when:
+        - Processor is writing to memory
+        - That memory location is not being accessed
+
+When reading from memory:
+
+- & Only one location can write to a bus at a time
+    - Called the **bus driver**
+    - Other memory locations must have their tri-state buffers turned off
+
+<!-- break -->
+- Tri-state buffer
+    - Has a write signal that indicates which memory location gets a new value
+    - Has a read signal that tells memory which memory location is allowed to send values out
+    - Would only ever do one at a time
+        - If writing to memory, all tri-state buffers are cut off
+            - → Memory locations would only be taking *in* values, not dumping out values
+            - Different from mux, where all values would come into the mux, and we pick one
+            - In this case, we can pick *none*
+
+### Tri-state Buffer Use
+
+![|500](https://i.imgur.com/W6Qvk5l.png)
+
+*Processor is on the right side; memory is on the left side.*
+
+> [!note] Assume `data_out` and `data_in` connect to a single memory cell.
+
+- Every memory location would have its data going out
+    - Basically like a bunch of flip-flops that are sending its values to the output
+    - But now:
+        - & Output gets stopped by tri-state buffer
+
+<!-- break -->
+- If $R / \overline{W}$ is 1 i.e., *read* and `Memory_Enable` is 1:
+    - `data` sends data *from memory to processor*, through the buffer
+    - Both conditions need to be met for tri-state buffer to “turn on”
+        - Have to be doing a read, and this has to be the only location reading from
+- Otherwise, if $R / \overline{W}$ is 0:
+    - Doing a *write*
+    - `data` brings data from processor to memory
+        - Since tri-state buffer is disabled i.e., outputting high impedance
+    - AND gate output is 0
+    - Tri-state buffer is cut off; disconnecting `data_out` from `data` bus
+
+## Memory vs. Registers
+
+- Memory and register are similar in principle:
+    - Both store *data values*
+    - Both uses *addresses* to specify which value to access
+
+> [!important]+ They are different in three major ways.
+> 1. **Usage**
+>     - Memory is *much* bigger
+>         - Houses most of the long-term values being used by a program
+>     - Registers are local data values
+>         - Used *internally* by processor to perform an operation
+>         - Like scrap paper for a calculation
+>             - Discarded when calculation is complete (with some notable exceptions)
+> 2. **Access**
+>     - Register access is immediate
+>     - Memory units are separate from the main processor
+>         - Requires more time for a single access
+>         - i.e., Several clock cycles
+> 3. **Physical structure**
+>     - Registers are stored apart from each other
+>         - ![](https://i.imgur.com/Rlhc4aQ.png)
+>     - Memory is one large block of space where addresses refer to locations within that block
+>         - ![](https://i.imgur.com/h09JOcj.png)
+>     - Each register address refers to a single 32-bit register
+>     - Each memory address refers to an 8-bit location (one **byte**)
