@@ -1,0 +1,32 @@
+/* General list styling fixes */
+
+/* Fix for paragraphs in list items */
+li {
+  > p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /* When a list item only has a single paragraph, remove all margins */
+  > p:only-child {
+    margin: 0;
+  }
+}
+
+/* Fix spacing for nested lists */
+ul, ol {
+  ul, ol {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+}

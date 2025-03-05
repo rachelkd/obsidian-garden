@@ -8,6 +8,7 @@
 @use 'alt-checkboxes';
 @use 'callouts-primary';
 @use 'ulysses_highlight';
+@use 'lists';
 
 body {
 	/***
@@ -39,6 +40,10 @@ body {
 	--h6-size: 1em;
 
 	font-family: var(--font-text);
+
+	// Set text to black
+	--text-normal: black !important;
+	--code-normal: black !important;
 
 	// Rose Pine Colours for bold and italic text
 	--rose-pine-love: 180, 100, 123;
@@ -142,8 +147,12 @@ body {
 	code {
 		text-shadow: none !important;
 		font-family: 'JetBrains Mono', 'Cascadia Code', monospace !important;
-		background-color: transparent !important;
+		// background-color: transparent !important;
 		font-feature-settings: var(--mono-font-features);
+	}
+
+	pre > code {
+		background-color: transparent !important;
 	}
 
 	#tooltip-content {
