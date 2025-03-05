@@ -437,7 +437,7 @@ module.exports = function (eleventyConfig) {
                 let titleDiv = '';
                 let calloutType = '';
                 let calloutMetaData = '';
-                let isCollapsable = false;
+                let isCollapsible = false;
                 let isCollapsed = false;
 
                 // Extract the callout type and metadata
@@ -455,7 +455,7 @@ module.exports = function (eleventyConfig) {
                     ? calloutTypeMatch[2].substring(1)
                     : '';
                 const collapseMarker = calloutTypeMatch[3] || '';
-                isCollapsable =
+                isCollapsible =
                     collapseMarker === '+' || collapseMarker === '-';
                 isCollapsed = collapseMarker === '-';
 
@@ -488,7 +488,7 @@ module.exports = function (eleventyConfig) {
                 }
 
                 // Create the title div
-                const fold = isCollapsable
+                const fold = isCollapsible
                     ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
                     : ``;
 
@@ -502,7 +502,7 @@ module.exports = function (eleventyConfig) {
                 // Update the blockquote
                 blockquote.tagName = 'div';
                 blockquote.classList.add('callout');
-                blockquote.classList.add(isCollapsable ? 'is-collapsible' : '');
+                blockquote.classList.add(isCollapsible ? 'is-collapsible' : '');
                 blockquote.classList.add(isCollapsed ? 'is-collapsed' : '');
                 blockquote.setAttribute(
                     'data-callout',
