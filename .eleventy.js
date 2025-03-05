@@ -496,8 +496,8 @@ module.exports = function (eleventyConfig) {
 
                 // Set the content
                 let contentDiv = remainingContent
-                    ? `\n<div class="callout-content">${remainingContent}</div>`
-                    : `\n<div class="callout-content"><p></p></div>`;
+                    ? `\n<div class="callout-content"><p>${remainingContent}</p></div>`
+                    : `\n<div class="callout-content"></div>`;
 
                 // Update the blockquote
                 blockquote.tagName = 'div';
