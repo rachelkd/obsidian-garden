@@ -308,12 +308,66 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter('taggify', function (str) {
-        return (
-            str &&
-            str.replace(tagRegex, function (match, precede, tag) {
-                return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-            })
-        );
+        if (!str) return str;
+
+        // Split the string by <code> and </code> tags
+        const parts = [];
+        let isInCodeBlock = false;
+        let currentPart = '';
+
+        // Simple state machine to split by code blocks
+        for (let i = 0; i < str.length; i++) {
+            // Check for opening code tag
+            if (str.substring(i, i + 6) === '<code>') {
+                if (!isInCodeBlock) {
+                    // End of non-code part
+                    parts.push({ type: 'text', content: currentPart });
+                    currentPart = '<code>';
+                    isInCodeBlock = true;
+                    i += 5; // Skip the tag
+                    continue;
+                }
+            }
+
+            // Check for closing code tag
+            if (str.substring(i, i + 7) === '</code>') {
+                if (isInCodeBlock) {
+                    // End of code part
+                    currentPart += '</code>';
+                    parts.push({ type: 'code', content: currentPart });
+                    currentPart = '';
+                    isInCodeBlock = false;
+                    i += 6; // Skip the tag
+                    continue;
+                }
+            }
+
+            // Add character to current part
+            currentPart += str[i];
+        }
+
+        // Add the last part
+        if (currentPart) {
+            parts.push({
+                type: isInCodeBlock ? 'code' : 'text',
+                content: currentPart,
+            });
+        }
+
+        // Process only the text parts
+        for (let i = 0; i < parts.length; i++) {
+            if (parts[i].type === 'text') {
+                parts[i].content = parts[i].content.replace(
+                    tagRegex,
+                    function (match, precede, tag) {
+                        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+                    }
+                );
+            }
+        }
+
+        // Join all parts back together
+        return parts.map((part) => part.content).join('');
     });
 
     eleventyConfig.addFilter('searchableTags', function (str) {
@@ -375,59 +429,77 @@ module.exports = function (eleventyConfig) {
 
                 let content = blockquote.innerHTML;
 
-                let titleDiv = '';
-                let calloutType = '';
-                let calloutMetaData = '';
-                let isCollapsable;
-                let isCollapsed;
-                const calloutMeta =
-                    /\[!([\w-]*)\|?(\s?.*)\](\+|\-){0,1}(\s?.*)/;
-                if (!content.match(calloutMeta)) {
+                // First, check if this is a callout by looking for the [! pattern
+                if (!content.includes('[!')) {
                     continue;
                 }
 
-                content = content.replace(
-                    calloutMeta,
-                    function (
-                        metaInfoMatch,
-                        callout,
-                        metaData,
-                        collapse,
-                        title
-                    ) {
-                        isCollapsable = Boolean(collapse);
-                        isCollapsed = collapse === '-';
-                        const titleText = title.replace(/(<\/{0,1}\w+>)/, '')
-                            ? title
-                            : `${callout.charAt(0).toUpperCase()}${callout
-                                  .substring(1)
-                                  .toLowerCase()}`;
-                        const fold = isCollapsable
-                            ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
-                            : ``;
+                let titleDiv = '';
+                let calloutType = '';
+                let calloutMetaData = '';
+                let isCollapsable = false;
+                let isCollapsed = false;
 
-                        calloutType = callout;
-                        calloutMetaData = metaData;
-                        titleDiv = `<div class="callout-title"><div class="callout-title-inner">${titleText}</div>${fold}</div>`;
-                        return '';
-                    }
+                // Extract the callout type and metadata
+                const calloutTypeMatch = content.match(
+                    /\[!([\w-]+)(\|?[^\]]*)?](\+|\-)?/
                 );
 
-                /* Hacky fix for callouts with only a title:
-        This will ensure callout-content isn't produced if
-        the callout only has a title, like this:
-        ```md
-        > [!info] i only have a title
-        ```
-        Not sure why content has a random <p> tag in it,
-        */
-                if (content === '\n<p>\n') {
-                    content = '';
+                if (!calloutTypeMatch) {
+                    continue;
                 }
-                let contentDiv = content
-                    ? `\n<div class="callout-content">${content}</div>`
-                    : '';
 
+                // Extract components
+                calloutType = calloutTypeMatch[1];
+                calloutMetaData = calloutTypeMatch[2]
+                    ? calloutTypeMatch[2].substring(1)
+                    : '';
+                const collapseMarker = calloutTypeMatch[3] || '';
+                isCollapsable =
+                    collapseMarker === '+' || collapseMarker === '-';
+                isCollapsed = collapseMarker === '-';
+
+                // Get the title - everything after the callout marker until the first newline
+                const fullMatch = calloutTypeMatch[0];
+                const matchIndex = content.indexOf(fullMatch);
+                const afterMatch = content.substring(
+                    matchIndex + fullMatch.length
+                );
+
+                // Extract title - everything until the first paragraph break
+                let title = '';
+                let remainingContent = afterMatch;
+
+                // If there's a paragraph break, split the title and content
+                const firstParaBreak = afterMatch.indexOf('\n');
+                if (firstParaBreak !== -1) {
+                    title = afterMatch.substring(0, firstParaBreak).trim();
+                    remainingContent = afterMatch.substring(firstParaBreak + 1);
+                } else {
+                    title = afterMatch.trim();
+                    remainingContent = '';
+                }
+
+                // If title is empty, use the callout type
+                if (!title) {
+                    title = `${calloutType.charAt(0).toUpperCase()}${calloutType
+                        .substring(1)
+                        .toLowerCase()}`;
+                }
+
+                // Create the title div
+                const fold = isCollapsable
+                    ? `<div class="callout-fold"><i icon-name="chevron-down"></i></div>`
+                    : ``;
+
+                titleDiv = `<div class="callout-title"><div class="callout-title-inner">${title}</div>${fold}</div>`;
+
+                // Set the content
+                let contentDiv = remainingContent
+                    ? `\n<div class="callout-content">${remainingContent}</div>`
+                    : `\n<div class="callout-content"><p></p></div>`;
+
+                // Update the blockquote
                 blockquote.tagName = 'div';
                 blockquote.classList.add('callout');
                 blockquote.classList.add(isCollapsable ? 'is-collapsible' : '');
