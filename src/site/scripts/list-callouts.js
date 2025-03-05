@@ -53,11 +53,25 @@ function initListCallouts() {
         // Find where the first line ends (before any nested lists)
         const nestedList = li.querySelector('ul, ol');
         let firstLineContent = [];
-        let node = li.firstChild;
 
-        while (node && node !== nestedList) {
-            firstLineContent.push(node);
-            node = node.nextSibling;
+        // Check if the first child is a paragraph
+        const firstParagraph = li.querySelector('p:first-child');
+        let node;
+
+        if (firstParagraph) {
+            // If there's a paragraph, use its content
+            node = firstParagraph.firstChild;
+            while (node) {
+                firstLineContent.push(node);
+                node = node.nextSibling;
+            }
+        } else {
+            // Original behavior for non-paragraph content
+            node = li.firstChild;
+            while (node && node !== nestedList) {
+                firstLineContent.push(node);
+                node = node.nextSibling;
+            }
         }
 
         // Get the first text node's content
@@ -68,6 +82,8 @@ function initListCallouts() {
 
         const text = textNodes[0].textContent;
         const trimmedText = text.trim();
+        if (!trimmedText.length) return;
+
         const firstChar = trimmedText.charAt(0);
 
         const calloutConfig = LIST_CALLOUT_CONFIG.find(
@@ -107,11 +123,23 @@ function initListCallouts() {
             leadingSpaces + text.slice(contentStartIndex);
 
         // Move all first line content into the wrapper
-        firstLineContent.forEach((node) => {
-            if (node.parentNode === li) {
-                contentWrapper.appendChild(node);
+        if (firstParagraph) {
+            // For paragraph content, handle differently
+            while (firstParagraph.firstChild) {
+                contentWrapper.appendChild(firstParagraph.firstChild);
             }
-        });
+            // Remove the empty paragraph
+            if (firstParagraph.parentNode) {
+                firstParagraph.parentNode.removeChild(firstParagraph);
+            }
+        } else {
+            // Original behavior for non-paragraph content
+            firstLineContent.forEach((node) => {
+                if (node.parentNode === li) {
+                    contentWrapper.appendChild(node);
+                }
+            });
+        }
 
         // Add the content wrapper to the line wrapper
         lineWrapper.appendChild(contentWrapper);
@@ -133,6 +161,12 @@ document.addEventListener('DOMContentLoaded', () => {
     initListCallouts();
     // Re-run after any MathJax rendering
     if (window.MathJax) {
-        MathJax.Hub.Queue(() => initListCallouts());
+        if (window.MathJax.Hub) {
+            // MathJax v2
+            MathJax.Hub.Queue(() => initListCallouts());
+        } else if (window.MathJax.startup) {
+            // MathJax v3
+            MathJax.startup.promise.then(() => initListCallouts());
+        }
     }
 });
