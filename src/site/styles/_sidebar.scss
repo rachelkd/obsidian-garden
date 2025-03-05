@@ -11,7 +11,7 @@
 	width: 32px;
 	height: 32px;
 	padding: 0;
-	
+
 	&:hover {
 		background: var(--background-secondary);
 	}
@@ -53,6 +53,7 @@
 	transform: translateX(100%);
 	transition: transform 0.3s ease;
 	border-left: 1px solid var(--background-secondary);
+	font-family: var(--font-default);
 
 	.sidebar-lock-close {
 		display: block;
@@ -198,7 +199,7 @@
 		top: 0;
 		right: 0;
 		padding: 60px 20px 20px 20px;
-		
+
 		&.active {
 			transform: translateX(0);
 		}
@@ -215,4 +216,4 @@
 		padding: 0 20px;
 		margin: 90px auto 0;
 	}
-} 
+}

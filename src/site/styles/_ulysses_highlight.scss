@@ -1,6 +1,6 @@
 body {
     --text-highlight-bg-rgb: 248, 197, 46;
-    --text-highlight-bg-opacity: 0.3;
+    --text-highlight-bg-opacity: 0.25;
 
     --text-highlight-border-width: 0.5px;
     --text-highlight-border-opacity: 1;
@@ -17,6 +17,8 @@ body {
     --bold-italic-highlight-color: var(--rose-pine-foam);
     --bold-italic-highlight-bg: var(--rose-pine-foam);
 
+    --text-highlight-bg: rgba(var(--text-highlight-bg-rgb), var(--text-highlight-bg-opacity)) !important;
+
     // Base highlight styles
     mark {
         border-radius: var(--text-highlight-border-radius);
@@ -30,14 +32,14 @@ body {
     // Bold Highlight
     strong mark {
         color: rgb(var(--bold-highlight-color)) !important;
-        background-color: rgba(var(--bold-highlight-bg), 0.35) !important;
+        background-color: rgba(var(--bold-highlight-bg), var(--text-highlight-bg-opacity)) !important;
         border-color: rgba(var(--bold-highlight-bg), var(--text-highlight-border-opacity)) !important;
     }
 
     // Italic Highlight
     em mark {
         color: rgb(var(--italic-highlight-color)) !important;
-        background-color: rgba(var(--italic-highlight-bg), 0.35) !important;
+        background-color: rgba(var(--italic-highlight-bg), var(--text-highlight-bg-opacity)) !important;
         border-color: rgba(var(--italic-highlight-bg), var(--text-highlight-border-opacity)) !important;
     }
 

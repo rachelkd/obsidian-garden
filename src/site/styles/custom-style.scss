@@ -39,11 +39,14 @@ body {
 	--h5-size: 1.125em;
 	--h6-size: 1em;
 
+	padding-bottom: 1rem !important;
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+
 	font-family: var(--font-text);
 
 	// Set text to black
 	--text-normal: black !important;
-	--code-normal: black !important;
 
 	// Rose Pine Colours for bold and italic text
 	--rose-pine-love: 180, 100, 123;
@@ -147,12 +150,13 @@ body {
 	code {
 		text-shadow: none !important;
 		font-family: 'JetBrains Mono', 'Cascadia Code', monospace !important;
-		// background-color: transparent !important;
 		font-feature-settings: var(--mono-font-features);
+		color: black !important;
 	}
 
 	pre > code {
 		background-color: transparent !important;
+		color: inherit !important;
 	}
 
 	#tooltip-content {
