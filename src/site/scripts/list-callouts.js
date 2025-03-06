@@ -32,12 +32,12 @@ const LIST_CALLOUT_CONFIG = [
     {
         color: '158, 158, 158',
         char: '%',
-        icon: 'lucide-folder-heart',
+        icon: 'lucide-sticker',
     },
     {
         color: '176, 146, 226',
         char: '$',
-        icon: 'lucide-binoculars',
+        icon: 'lucide-glasses',
     },
     {
         color: '255, 168, 168',
