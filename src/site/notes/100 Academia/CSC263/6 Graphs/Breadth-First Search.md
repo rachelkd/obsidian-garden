@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T03:04:28.202-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T15:56:24.285-05:00"}
 ---
 
 
@@ -42,6 +42,8 @@ NotYetBFS(T, root):
         for each child v of u:
             Enqueue(Q, v)
 ```
+{ #cfb9e1}
+
 
 ### Example with a Graph that is a Tree
 
@@ -71,7 +73,7 @@ NotYetBFS(T, root):
 > - **White**
 >     - *Unvisited* (undiscovered) vertices
 >     - Have not been enqueued
-> - **Gray**
+> - **Grey**
 >     - *Encountered* (discovered) vertices
 >     - Have been enqueued
 > - **Black**
@@ -80,9 +82,9 @@ NotYetBFS(T, root):
 
 - Initially:
     - All vertices are *white*
-- & Change a vertex’s colour to *gray* the first time *visiting* (enqueuing) it
+- & Change a vertex’s colour to *grey* the first time *visiting* (enqueuing) it
 - & Change a vertex’s colour to *black* when all its *neighbours* have been *encountered* (enqueued)
-- & Avoid visiting (enqueuing) *gray* or *black* vertices
+- & Avoid visiting (enqueuing) *grey* or *black* vertices
 - In the end:
     - All vertices that are reachable from the source are *black*
 
@@ -96,6 +98,8 @@ NotYetBFS(T, root):
 
 ## Breadth-First Search
 
+### Pseudocode
+
 ```python
 BFS(G, s):
     for each vertex v in V - {s}:  # Initialize vertices
@@ -104,7 +108,7 @@ BFS(G, s):
         v.p = NIL
     
     Q = ∅
-    s.colour = Gray  # Start BFS by encountering the source vertex
+    s.colour = Grey  # Start BFS by encountering the source vertex
     s.d = 0  # Distance from s to s is 0
     
     Enqueue(Q, s)
@@ -113,7 +117,7 @@ BFS(G, s):
         u = Dequeue(Q)
         for each v in G.adj[u]:
             if v.colour == White  # Only visit unvisited vertices
-                v.colour = Gray
+                v.colour = Grey
                 v.d = u.d + 1  # v is "1-level" farther from s than u
                 v.p = u
                 Enqueue(Q, v)

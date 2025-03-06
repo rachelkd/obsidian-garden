@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-04T23:05:19.465-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T17:54:26.373-05:00"}
 ---
 
 
@@ -184,7 +184,7 @@ See [[100 Academia/CSC263/6 Graphs/Discover Graphs\|Discover Graphs]] for defini
 > [!def]+ Sparse graph
 > A graph is a **sparse** graph if:
 > - $m = |E|$ is much less than $n^{2} = |V|^{2}$
->     - $m \ll n$
+>     - $m \ll n^{2}$
 > - i.e., $m$ is at most $\mathcal{O}(n)$
 
 ### Time Analysis
