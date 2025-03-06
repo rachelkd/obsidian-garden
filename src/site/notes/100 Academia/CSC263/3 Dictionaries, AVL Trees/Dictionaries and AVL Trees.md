@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-02-17T06:23:32.720-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/3 Dictionaries, AVL Trees/Dictionaries and AVL Trees.md","permalink":"/academia/csc-263/3-dictionaries-avl-trees/dictionaries-and-avl-trees/","tags":["cs","lecture","note","university"],"created":"2025-01-21T14:18:43.095-05:00","updated":"2025-03-05T17:35:22.557-05:00"}
 ---
 
 
