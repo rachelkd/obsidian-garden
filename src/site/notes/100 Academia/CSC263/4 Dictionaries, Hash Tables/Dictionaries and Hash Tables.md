@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables.md","permalink":"/academia/csc-263/4-dictionaries-hash-tables/dictionaries-and-hash-tables/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:44:37.505-05:00","updated":"2025-02-26T02:35:07.142-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables.md","permalink":"/academia/csc-263/4-dictionaries-hash-tables/dictionaries-and-hash-tables/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:44:37.505-05:00","updated":"2025-03-05T17:35:15.664-05:00"}
 ---
 
 
@@ -165,7 +165,7 @@ Recall from [[100 Academia/CSC263/3 Dictionaries, AVL Trees/Dictionaries and AVL
 
 - `HashSearch(flow)`:
     - $h(flow) = 0$ → Look in $T[0]$ ✅
-- `HashSearch(key)`:
+- `HashSearch(hey)`:
     - $h(hey) = 2$ → Look in $T[2]$ → Not found! ❌
 
 #### Implementing `HashDelete(k)`
@@ -270,7 +270,7 @@ Let $S_{i}$ denote the ==expected number of steps== to find $k_{i}$.
 > $$
 
 Let $X_{i}$ be the expected number of keys that has the same as $k_{i}$.
-Define indicate random variables for $X_{i}$:
+Define indicator random variables for $X_{i}$:
 $$
 X_{i, j} = \begin{cases}
 1 & \text{if }h(k_{i}) = h(k_{j}) \\
@@ -430,7 +430,7 @@ Let $c_{1}, c_{2} = 1$.
 
 ##### Problems with Quadratic Probing
 
-> [!danger]+ Programs
+> [!danger]+ Problems
 > - Collisions still cause a *milder* form of **clustering**
 > - ! Need to be careful with the values of $c_{1}, c_{2}$
 >     - Could jump in such a way that some of the buckets are never *reachable*

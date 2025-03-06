@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2025-02-06T17:51:39.841-05:00"}
+{"dg-publish":true,"permalink":"/900-archive/y2-fall-24/sta-237/03-discrete-random-variables/hypergeometric-distribution/","tags":["lecture","note","stats","university"],"created":"2024-10-09T23:59:37.321-04:00","updated":"2025-03-05T20:45:02.000-05:00"}
 ---
 
 
@@ -7,7 +7,7 @@
 
 > Counting the number of successes when sampling without replacement from a finite population
 
-### Example. Capture Recapture
+## Example. Capture Recapture
 
 - We are trying to study an extremely endangered species
 - 10 living members of this species left
@@ -26,7 +26,7 @@ We want to model the number of marked animals (out of 4) in the second sample
         - “Choose any 4 animals out of the 10 in total”
     - `choose(5, 3) * choose(5, 1) / choose(10, 4)` returns `0.2380952`
 
-## Definitions
+# Definitions
 
 > [!def]- Hypergeometric Experiment
 >
