@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T21:47:51.317-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T23:04:57.968-05:00"}
 ---
 
 
@@ -123,6 +123,8 @@ BFS(G, s):
                 Enqueue(Q, v)
             u.colour = Black  # u is explored as all its neighbours have been encountered
 ```
+{ #6434ac}
+
 
 - Lines that are the same as `NotYetBFS`:
     - 7, 11, 13, 14, 15, 20
@@ -304,3 +306,73 @@ Which is a contraction.
 
 All cases contradict $v.d > \sigma(s, v)$, so $v.d = \sigma(s, v)$.
 <div class="right-align">■</div>
+
+## Course Note Exercises
+
+> [!question]+ Build on our BFS algorithm to visit every vertex in a graph, even if the graph is not connected. Hint: you’ll need to use a BFS more than once.
+>
+> > [!info]- `BFS` implementation
+> > 
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/academia/csc-263/6-graphs/breadth-first-search/#6434ac" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+```python
+BFS(G, s):
+    for each vertex v in V - {s}:  # Initialize vertices
+        v.colour = White
+        v.d = +infty
+        v.p = NIL
+    
+    Q = ∅
+    s.colour = Grey  # Start BFS by encountering the source vertex
+    s.d = 0  # Distance from s to s is 0
+    
+    Enqueue(Q, s)
+    
+    while Q not empty:
+        u = Dequeue(Q)
+        for each v in G.adj[u]:
+            if v.colour == White  # Only visit unvisited vertices
+                v.colour = Grey
+                v.d = u.d + 1  # v is "1-level" farther from s than u
+                v.p = u
+                Enqueue(Q, v)
+            u.colour = Black  # u is explored as all its neighbours have been encountered
+```
+
+</div></div>
+
+>
+> ```python
+> BFS-Visit-All(G):
+>     for each v ∈ G.V:  # Initialize vertices
+>             v.colour = White
+>             v.d = +infty
+>             v.p = NIL
+>         
+>     for each s ∈ G.V:
+>         if s.colour == White  # Make sure NO vertex is left unvisited
+>             BFS-Modified(G, s)
+> ```
+>
+> ```python
+> BFS-Modified(G, s):
+>     # Do not have to initialize vertices here anymore
+>     
+>     Q = ∅
+>     s.colour = Grey  # Start BFS by encountering the source vertex
+>     s.d = 0  # Distance from s to s is 0
+>     
+>     Enqueue(Q, s)
+>     
+>     while Q not empty:
+>      u = Dequeue(Q)
+>      for each v in G.adj[u]:
+>          if v.colour == White  # Only visit unvisited vertices
+>              v.colour = Grey
+>              v.d = u.d + 1  # v is "1-level" farther from s than u
+>              v.p = u
+>              Enqueue(Q, v)
+>          u.colour = Black  # u is explored as all its neighbours have been encountered
+> ```

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T22:44:03.273-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T23:39:48.735-05:00"}
 ---
 
 
@@ -199,42 +199,44 @@ Let $|E| = m$.
 > > [!idea]- My idea
 > > - Use a **[[100 Academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables\|hash table]]** that maps a vertex $v$ (its label attribute to identify the vertex) to the *position* in the *array*, which points to a linked lists of its (out-)neighbours i.e., vertices that are adjacent to $v$
 
-|                     | Adjacency Matrix | Adjacency Lists                                                                                |
-| ------------------- | ---------------- | ---------------------------------------------------------------------------------------------- |
-| Space Complexity    | $\Theta(n^{2})$  | Undirected: $\Theta(n + 2m) = \Theta(n + m)$<br><br>Directed: $\Theta(n + m)$                  |
-| Add/Remove a Vertex | $\Theta(n)$      | Add: $\Theta(1)$<br><br>Remove (undirected): $\Theta(m)$<br>Remove (directed): $\Theta(n + m)$ |
-| Edge Query          | $\Theta(1)$      | $\Theta(\text{min}(n, m))$                                                                     |
-| Neighbourhood       | $\Theta(n)$      | Undirected: $\Theta(\text{min}(n, m))$<br><br>Directed: $\Theta(n + m)$                        |
+|                     | Adjacency Matrix | Adjacency Lists                                                                                                                                                                 |
+| ------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Space Complexity    | $\Theta(n^{2})$  | Undirected: $\Theta(n + 2m) = \Theta(n + m)$<br><br>Directed: $\Theta(n + m)$                                                                                                   |
+| Add/Remove a Vertex | $\Theta(n)$      | Add: $\Theta(1)$<br><br>Remove (undirected): $\Theta(m)$<br>Remove (directed): $\Theta(n + m)$                                                                                  |
+| Edge Query          | $\Theta(1)$      | $\Theta(\text{min}(n, m))$                                                                                                                                                      |
+| Neighbourhood       | $\Theta(n)$      | Undirected: $\Theta(\text{min}(n, m))$<br><br>Directed (in): $\Theta(n + m)$<br>Out-neighbourhood would be the same algorithm as undirected graphs: $\Theta(\text{min}(n, m))$. |
 
-- Removing a vertex:
-    - Suppose we want to remove $v_{i}$
-    - **Adjacency matrix**:
-        - Have to set all entries in the $i$-th row and the $i$-th column to zero
-            - Deleting column will delete all edges *incident to* $v_{i}$
-            - → Removes $v_{i}$ from the graph
-        - Iterate over $2n$ cells in total
-        - → $\Theta(n)$
-    - **Adjacency list**:
-        - To remove all outgoing edges:
-            - Set pointer to $v_{i}$‘s list, $L_{i}$, to `NIL`
-        - To delete all occurrences of $v_{i}$ from other node’s lists:
-            - Iterate over all the other lists
-        - Undirected:
-            - Know which vertices share an edge with $v_{i}$ because of the list that $L[i]$ points to
-            - $\Theta(m)$ on average
-        - Directed:
-            - Must traverse entire graph to find vertices that have edges incident to $v_{i}$
-            - $\Theta(n + m)$
-                - Check each vertex and its edges to identify and remove references to $v_{i}$
-- Edge query (checking if an edge exists between two vertices):
-    - **Adjacency matrix**:
-        - Accessing the matrix at position $A[i][j]$ allows for constant-time edge existence checks
-        - → $\Theta(1)$ time complexity
-    - **Adjacency list**:
-        - Requires traversing the adjacency list of a vertex to check for the presence of an edge
-        - Each vertex maintains a linked list of its adjacent vertices
-        - Time complexity of this search depends on the length of $u$‘s adjacency list
-            - & Equal to the *degree* of vertex $u$
+> [!info]+ Removing a vertex
+> Suppose we want to remove $v_{i}$
+> - **Adjacency matrix**:
+>     - Have to set all entries in the $i$-th row and the $i$-th column to zero
+>         - Deleting column will delete all edges *incident to* $v_{i}$
+>         - → Removes $v_{i}$ from the graph
+>     - Iterate over $2n$ cells in total
+>     - → $\Theta(n)$
+> - **Adjacency list**:
+>     - To remove all outgoing edges:
+>         - Set pointer to $v_{i}$‘s list, $L_{i}$, to `NIL`
+>     - To delete all occurrences of $v_{i}$ from other node’s lists:
+>         - Iterate over all the other lists
+>     - Undirected:
+>         - Know which vertices share an edge with $v_{i}$ because of the list that $L[i]$ points to
+>         - $\Theta(m)$ on average
+>     - Directed:
+>         - Must traverse entire graph to find vertices that have edges incident to $v_{i}$
+>         - $\Theta(n + m)$
+>             - Check each vertex and its edges to identify and remove references to $v_{i}$
+>     - See the discussion about [[100 Academia/CSC263/6 Graphs/Graph Representations#^c4167d\|neighbourhood]] running time for a more detailed explanation
+
+> [!info]+ Edge query (checking if an edge exists between two vertices):
+> - **Adjacency matrix**:
+>     - Accessing the matrix at position $A[i][j]$ allows for constant-time edge existence checks
+>     - → $\Theta(1)$ time complexity
+> - **Adjacency list**:
+>     - Requires traversing the adjacency list of a vertex to check for the presence of an edge
+>     - Each vertex maintains a linked list of its adjacent vertices
+>     - Time complexity of this search depends on the length of $u$‘s adjacency list
+>         - & Equal to the *degree* of vertex $u$
 
 > [!question]+ What are the bounds for the *degree* of vertex $u$ in a graph $G = \langle V,E \rangle$?
 > - If there are $n$ vertices in the graph, then $u$ can have at most $n - 1$ (out-)neighbours
@@ -257,6 +259,22 @@ Let $|E| = m$.
 > >     - Cannot have duplicate edges
 > >
 > > Both these examples are bounded by $\Theta(\text{min}(n, m))$.
+
+> [!info]+ Neighbourhood
+> - **Adjacency list**:
+>     - The number of neighbours (in undirected graphs) and out-neighbours (in directed graphs) is bounded by a vertex’s (out-)*degree*
+>         - Similar to edge queries
+>         - The justification for the $\Theta(\text{min}(n, m))$ bounds are the same for edge queries
+>     - & However, to find the in-neighbourhood of a vertex, the running time is $\Theta(n + m)$
+>         - Each vertex stores a list of its *outgoing* edges (i.e., out-neighbours it points to, or a list of vertices *adjacent* to a vertex $u$)
+>             - % Hence the name *adjacency lists*
+>         - Incoming edges (edges incident to $u$) are not stored
+>     - To find all in-neighbours of $u$:
+>         - Must iterate over *every* vertex $v$ in the graph → $\Theta(n)$
+>         - For each $v$, scan its adjacency list to check if $u$ is present → $\Theta(\text{out-degree}(v))$
+>         - Then, the total work is $$\sum\limits_{v\in V} \left( 1 + \text{out-degree}(v) \right) = n + m = \Theta(n + m) $$
+{ #c4167d}
+
 
 > [!tip]+ Choose the more appropriate implementation depending on the problem.
 > - Use *adjacency matrix* if:
