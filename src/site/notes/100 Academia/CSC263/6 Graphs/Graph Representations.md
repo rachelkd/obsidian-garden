@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T22:36:03.638-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T22:44:03.273-05:00"}
 ---
 
 
@@ -232,9 +232,9 @@ Let $|E| = m$.
         - → $\Theta(1)$ time complexity
     - **Adjacency list**:
         - Requires traversing the adjacency list of a vertex to check for the presence of an edge
-        - Each vertex maintains a list of its adjacent vertices
+        - Each vertex maintains a linked list of its adjacent vertices
         - Time complexity of this search depends on the length of $u$‘s adjacency list
-            - Equal to the *degree* of vertex $u$
+            - & Equal to the *degree* of vertex $u$
 
 > [!question]+ What are the bounds for the *degree* of vertex $u$ in a graph $G = \langle V,E \rangle$?
 > - If there are $n$ vertices in the graph, then $u$ can have at most $n - 1$ (out-)neighbours
@@ -251,7 +251,12 @@ Let $|E| = m$.
 > > - The maximum number of neighbours is then $m = 2$
 > >     - We know we have 2 total edges, but we do not know *which* edges; however, we know that every vertex cannot have more than 2 neighbours
 > >
-> > Consider a complete graph with
+> > Consider a complete graph with $m = \frac{n(n-1)}{2} = \Theta(n^{2})$ edges.
+> >
+> > - The maximum number of neighbours is then $n - 1$ (undirected) or $n$ (directed)
+> >     - Cannot have duplicate edges
+> >
+> > Both these examples are bounded by $\Theta(\text{min}(n, m))$.
 
 > [!tip]+ Choose the more appropriate implementation depending on the problem.
 > - Use *adjacency matrix* if:
