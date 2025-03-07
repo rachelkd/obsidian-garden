@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T23:39:48.735-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T23:59:47.810-05:00"}
 ---
 
 
@@ -267,7 +267,6 @@ Let $|E| = m$.
 >         - The justification for the $\Theta(\text{min}(n, m))$ bounds are the same for edge queries
 >     - & However, to find the in-neighbourhood of a vertex, the running time is $\Theta(n + m)$
 >         - Each vertex stores a list of its *outgoing* edges (i.e., out-neighbours it points to, or a list of vertices *adjacent* to a vertex $u$)
->             - % Hence the name *adjacency lists*
 >         - Incoming edges (edges incident to $u$) are not stored
 >     - To find all in-neighbours of $u$:
 >         - Must iterate over *every* vertex $v$ in the graph → $\Theta(n)$
