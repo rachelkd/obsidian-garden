@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables.md","permalink":"/academia/csc-263/4-dictionaries-hash-tables/dictionaries-and-hash-tables/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:44:37.505-05:00","updated":"2025-03-05T17:35:15.664-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables.md","permalink":"/academia/csc-263/4-dictionaries-hash-tables/dictionaries-and-hash-tables/","tags":["cs","lecture","note","university"],"created":"2025-02-11T00:44:37.505-05:00","updated":"2025-03-06T21:30:14.356-05:00"}
 ---
 
 
@@ -611,3 +611,92 @@ Under **Simple Uniform Hashing Assumption** (SUHA):
 - Exercises in Chapter 4 of the course notes
 - Problems 11.1-1, 11.2-1, 11.2-2 in CLRS
 - Optional Readings: CLRS Sections 11.1, 11.2, 11.3 (except 11.3.3)
+
+## Pseudocode
+
+### `HashInsert` Using Open Addressing
+
+From CLRS 11.4.
+
+`HashInsert` procedure below assumes that the element sin the hash table $T$ are keys with no satellite information.
+
+- Key $k$ is identical to the element containing key $k$
+- Each slot contains either a key or `NIL` (if the slot is empty)
+- `HashInsert` takes as input:
+    - Hash table $T$
+    - Key $k$ that is assumed to not already be present in the hash table
+- `HashInsert` returns:
+    - Slot number where it stores $k$, or
+    - Flags an error because hash table is already full
+
+```python
+HashInsert(T, k):
+    i = 0
+    repeat
+        q = h(k, i)
+        if T[q] == NIL
+            T[q] = k
+            return q
+        else i = i + 1
+    until i == m
+    error "hash table overflow"
+```
+
+> [!note]- David Liu’s notes
+>
+> ```python
+> def Insert(hash_table, key, value):
+>     i = 0
+>     while hash_table[h(key, i)] is not None:
+>         i = i + 1
+>     hash_table[h(key, i)].key = key
+>     hash_table[h(key, i)].value = value
+> ```
+> - For simplicity:
+>     - Omitted bounds check $i < m$
+>     - Necessary in practice to ensure that code does not enter into an infinite loop
+
+### `HashSearch`
+
+- Inputs:
+    - Hash table $T$
+    - Key $k$
+- Returns:
+    - $q$ if it finds that slot $q$ contains key $k$, or
+    - `NIL` if key $k$ is not present in table $T$
+
+```python
+HashSearch(T, k):
+    i = 0
+    repeat
+        q = h(k, i)
+        if T[q] == k
+            return q
+        i = i + 1
+    until T[q] == NIL or i == m
+    return NIL
+```
+
+- Algorithm for searching for key $k$ probes the same sequence of slots that insertion algorithm examined when key $k$ was inserted
+    - Search can terminate (unsuccessfully) when it finds an empty slot
+        - Since $k$ would have been inserted there and not later in its probe sequence
+
+## Notes on `HashDelete`
+
+Open-addressing:
+
+- When you delete a key from slot $q$:
+    - ! Mistake to mark slot as empty by storing `NIL` in it
+    - Might be unable to retrieve any key $k$ for which slot $q$ was probed and found occupied when $k$ was inserted
+
+> [!success]+ Solution
+> - Mark the slot
+>     - Store a special value `Deleted` instead of `NIL`
+
+- `HashInsert` treats such a slot as empty
+    - Can insert a new key there
+- `HashSearch` passes over `Deleted` values while searching
+    - Since slots containing `Deleted` were filled when the key being searched for was inserted
+
+> [!important]+ Search times no longer depend on the load factor $\alpha$!
+> - For this reason, *chaining* is frequently selected as a collision resolution technique when keys must be deleted

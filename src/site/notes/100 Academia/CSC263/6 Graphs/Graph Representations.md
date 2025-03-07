@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T17:54:26.373-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T22:36:03.638-05:00"}
 ---
 
 
@@ -192,6 +192,13 @@ See [[100 Academia/CSC263/6 Graphs/Discover Graphs\|Discover Graphs]] for defini
 Let $|V| = n$.
 Let $|E| = m$.
 
+> [!important]+ We assume that looking up a vertex in $V$ takes constant time.
+> - This is true if an array is used
+> - David Liu’s notes leave it as an exercise to think about other implementations of this attribute
+>
+> > [!idea]- My idea
+> > - Use a **[[100 Academia/CSC263/4 Dictionaries, Hash Tables/Dictionaries and Hash Tables\|hash table]]** that maps a vertex $v$ (its label attribute to identify the vertex) to the *position* in the *array*, which points to a linked lists of its (out-)neighbours i.e., vertices that are adjacent to $v$
+
 |                     | Adjacency Matrix | Adjacency Lists                                                                                |
 | ------------------- | ---------------- | ---------------------------------------------------------------------------------------------- |
 | Space Complexity    | $\Theta(n^{2})$  | Undirected: $\Theta(n + 2m) = \Theta(n + m)$<br><br>Directed: $\Theta(n + m)$                  |
@@ -227,7 +234,24 @@ Let $|E| = m$.
         - Requires traversing the adjacency list of a vertex to check for the presence of an edge
         - Each vertex maintains a list of its adjacent vertices
         - Time complexity of this search depends on the length of $u$‘s adjacency list
-            - Equal to the degree of vertex $u$
+            - Equal to the *degree* of vertex $u$
+
+> [!question]+ What are the bounds for the *degree* of vertex $u$ in a graph $G = \langle V,E \rangle$?
+> - If there are $n$ vertices in the graph, then $u$ can have at most $n - 1$ (out-)neighbours
+>     - i.e., There are at most $n - 1$ vertices adjacent to $u$
+> - It is tempting to say that this is $\mathcal{O}(n)$
+>     - ! But there are *two* measures of the size of the graph: $n = |V|, m = |E|$
+> - If the graph has $m$ edges in total, then $m$ is also an upper bound on the number of neighbours that $u$ can have
+>
+> > [!info] The degree of a vertex $u$ is $\Theta(\text{min}(n, m))$
+>
+> > [!example]-
+> > Consider a graph $G$ with $n = 1000$ nodes and $m = 2$ edges.
+> >
+> > - The maximum number of neighbours is then $m = 2$
+> >     - We know we have 2 total edges, but we do not know *which* edges; however, we know that every vertex cannot have more than 2 neighbours
+> >
+> > Consider a complete graph with
 
 > [!tip]+ Choose the more appropriate implementation depending on the problem.
 > - Use *adjacency matrix* if:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Graphs.md","permalink":"/academia/csc-263/6-graphs/discover-graphs/","tags":["cs","lecture","note","university"],"created":"2025-02-25T03:37:40.030-05:00","updated":"2025-03-04T00:01:01.735-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Graphs.md","permalink":"/academia/csc-263/6-graphs/discover-graphs/","tags":["cs","lecture","note","university"],"created":"2025-02-25T03:37:40.030-05:00","updated":"2025-03-06T22:41:00.978-05:00"}
 ---
 
 
@@ -90,6 +90,8 @@
 
 *Graph 3: Weighted undirected graph*
 
+### Path and Distance
+
 - **Path**
     - *Sequence* of edges connected to each other
     - $(v, u_{1}), (u_{1}, u_{2}), \dots, (u_{k - 1}, x)$
@@ -109,6 +111,8 @@
     - In a directed graph:
         - Sum of the weights of the edges on the shortest path connecting them
 
+### Cycles
+
 - **Cycle**
     - A path with the same starting and ending vertex
     - Undirected graph:
@@ -126,6 +130,8 @@
 - **Acyclic**
     - A graph is **acyclic** if it contains no cycles
 
+### Connectedness
+
 - **Connected**
     - An *undirected* graph is **connected** if it contains a path between any two vertices
     - Graph 4 has 8 vertices and 5 edges
@@ -136,6 +142,8 @@
 ![|400](https://i.imgur.com/vYT4Sk8.png)
 
 *Graph 4: Graph with three connected components*
+
+### Trees and Forests
 
 - **Tree**
     - A **tree** is an *undirected connected* graph that is *acyclic*
@@ -148,3 +156,10 @@
 - **Forest**
     - A collection of (zero or more) disjoint trees
     - e.g., Graph 4 is a forest that comprises 3 trees
+
+### Complete Graphs
+
+- **Complete graph** $K_{n}$
+    - Undirected graph on $n$ vertices in which every pair of vertices is joined by an edge
+    - $m = |E| = \frac{n(n-1)}{2} = \sum\limits_{i=1}^{n-1}i = (n-1)+\dots+1$
+    - See [[100 Academia/CSC263/6 Graphs/Graph Representations#Minimum and Maximum Number of Edges in an Undirected Connected Graph\|Graph Representations#Minimum and Maximum Number of Edges in an Undirected Connected Graph]]

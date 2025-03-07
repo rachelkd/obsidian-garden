@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T15:56:24.285-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T21:47:51.317-05:00"}
 ---
 
 
@@ -243,7 +243,6 @@ Define $\sigma(s, v)$ to be the minimum distance from $s$ to $v$.
 > Enqueue: $Q = [v_{1}, v_{2}, \dots, v_{r}, v_{r+1}]$
 > Let $u$ be the last vertex dequeued i.e., the vertex that triggered new enqueues.
 > So, when we discovered $v_{r + 1}$, we took edge $(u, v_{r + 1})$.
-> By Lemma 1,
 > $$v_{r+1}.d = u.d + 1$$
 > Before dequeuing: we had $Q = [u, v_{1}, \dots, v_{r}]$.
 > By IH,
