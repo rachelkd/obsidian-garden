@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Depth-First Search.md","permalink":"/academia/csc-263/6-graphs/depth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-04T13:22:20.482-05:00","updated":"2025-03-06T17:41:54.230-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Depth-First Search.md","permalink":"/academia/csc-263/6-graphs/depth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-04T13:22:20.482-05:00","updated":"2025-03-08T15:21:54.520-05:00"}
 ---
 
 
@@ -125,10 +125,10 @@ DFSVisit(G, s):
     s.d = time
     s.colour = Grey
     
-    for each t ∈ G.adj[s]:
+    for each t ∈ G.adj[s]:  # Line 6
         if t.colour == White  # Only visit unvisited vertices
             t.p = s
-            DFSVisit(G, t)
+            DFSVisit(G, t)  # Line 9
     
     s.colour = Black  # s is explored as all its neighbours have been encountered
     time = time + 1
@@ -138,16 +138,194 @@ DFSVisit(G, s):
 - ? What lines are the same as `NotYetDFSRec`?
     - Lines 6, 9
 
-#todo
+### Example
 
-## Edge Classification in the DFS Forest
+Suppose we call `DFS(G)` on the graph below:
 
-![](https://thealgoristsblob.blob.core.windows.net/thealgoristsimages/dfs_edges.png)
+![|300](https://i.imgur.com/NYl7X9X.png)
+
+- $\text{time} = 0$
+---
+Suppose DFS calls `DFSVisit(G, u)` first.
+
+- Encounter the **source** vertex of `DFSVisit`
+- $\text{time} = 1$
+
+![|300](https://i.imgur.com/KgqelaN.png)
+
+---
+Suppose we then call `DFSVisit` on vertex $v$.
+At level two of the recursive call:
+
+- $\text{time} = 2$
+
+![|300](https://i.imgur.com/pGBxlZc.png) ![|400](https://i.imgur.com/QbHA9ch.png)
+
+| Call stack at $\text{time} = 2$ |
+| ------------------------------- |
+| `DFSVisit(G, v)`                |
+| `DFSVisit(G, u)`                |
+
+Node $v$ has one neighbour, $y$, so it calls `DFSVisit(G, y)`.
+
+---
+
+At level three of the recursive call:
+
+- $\text{time} = 3$
+
+![|300](https://i.imgur.com/EsWw7OL.png)
+
+| Call stack at $\text{time} = 3$ |
+| ------------------------------- |
+| `DFSVisit(G, y)`                |
+| `DFSVisit(G, v)`                |
+| `DFSVisit(G, u)`                |
+
+Call `DFSVisit` on node $x$.
+
+---
+
+At level four of the recursive call:
+
+- $\text{time} = 4$
+
+![|300](https://i.imgur.com/08XZ1wZ.png)
+
+| Call stack at $\text{time} = 4$ |
+| ------------------------------- |
+| `DFSVisit(G, x)`                |
+| `DFSVisit(G, y)`                |
+| `DFSVisit(G, v)`                |
+| `DFSVisit(G, u)`                |
+
+---
+
+Node $x$ has no white out-neighbours, so we exit the for loop.
+We are still at level four of the recursive call:
+
+- $\text{time} = 5$
+- Set $x$ to black
+    - Vertex $x$ is finished
+
+![|300](https://i.imgur.com/ZLx8Tnj.png)
+
+| Call stack at $\text{time} = 5$ |
+| ------------------------------- |
+| ~~`DFSVisit(G, x)`~~            |
+| `DFSVisit(G, y)`                |
+| `DFSVisit(G, v)`                |
+| `DFSVisit(G, u)`                |
+
+- % Can pop `DFSVisit(G, x)` off the stack (when finished operations on $x$)
+
+---
+
+Recursion goes back to level three:
+
+- $\text{time} = 6$
+- Vertex $y$ is finished
+
+![|300](https://i.imgur.com/mtiFYcP.png)
+
+| Call stack at $\text{time} = 6$ |
+| ------------------------------- |
+| ~~`DFSVisit(G, y)`~~            |
+| `DFSVisit(G, v)`                |
+| `DFSVisit(G, u)`                |
+
+---
+
+Recursion back to level two:
+
+- $\text{time} = 7$
+- Vertex $v$ is finished
+
+![|300](https://i.imgur.com/0wHWVQ4.png)
+
+| Call stack at $\text{time} = 7$ |
+| ------------------------------- |
+| ~~`DFSVisit(G, v)`~~            |
+| `DFSVisit(G, u)`                |
+
+---
+
+Recursion back to level one:
+
+- $\text{time} = 8$
+- Vertex $u$ finished
+
+![|300](https://i.imgur.com/0g2e5ZJ.png)
+
+---
+
+- & DFS visits all vertices
+    - Whereas BFS only visits all reachable vertices from the source vertex
+
+Suppose we call `DFSVisit(G, w)` from `DFS(G)`.
+
+- Encounter the *source* vertex of `DFSVisit`
+- $\text{time} = 9$
+
+![|300](https://i.imgur.com/kIUSf8Y.png)
+
+| Call stack at $\text{time} = 9$ |
+| ------------------------------- |
+| `DFSVisit(G, w)`                |
+
+---
+
+At level two of the recursive call:
+
+- $\text{time} = 10$
+
+![|300](https://i.imgur.com/suzoxpQ.png)
+
+| Call stack at $\text{time} = 10$ |
+| -------------------------------- |
+| `DFSVisit(G, z)`                 |
+| `DFSVisit(G, w)`                 |
+
+---
+
+Node $z$ has no white out-neighbours.
+We are still at level two of the recursive call:
+
+- $\text{time} = 11$
+- Vertex $z$ finished
+
+![|300](https://i.imgur.com/ArerhZk.png)
+
+| Call stack at $\text{time} = 11$ |
+| -------------------------------- |
+| ~~`DFSVisit(G, z)`~~             |
+| `DFSVisit(G, w)`                 |
+
+---
+
+Recursion back to level one:
+
+- $\text{time} = 12$
+- Vertex $w$ finished
+
+![|300](https://i.imgur.com/x0L4vTh.png)
+
+| Call stack at $\text{time} = 12$ |
+| -------------------------------- |
+| ~~`DFSVisit(G, w)`~~             |
+
+## DFS Forest
+
+![|400](https://i.imgur.com/F7BPgci.png)
 
 > [!note]+ Depth-first search creates DFS *forests*
 > - Unlike BFS, which creates BFS trees
 > - DFS searches *all* vertices
 >     - While BFS only explores vertices that are reachable
+
+### Edge Classification in the DFS Forest
+
+![](https://thealgoristsblob.blob.core.windows.net/thealgoristsimages/dfs_edges.png)
 
 - **Tree edges**
     - An edge $(u, v)$ in the DFS forest such that $v$ is *white* when edge $(u, v)$ is examined
@@ -165,3 +343,144 @@ DFSVisit(G, s):
     - Can think of as doing a BFS search on the source node, and $u,v$ are on the same level
 
 ![](https://i.imgur.com/PKqsxDl.png)
+
+## DFS Running Time
+
+Assuming that we are using *adjacency lists*, the total amount of work is:
+
+1. & Visit each vertex once → $\Theta(n)$
+    - Assign values to $v.colour, v.d, v.p$, etc.
+2. & At each vertex, check all its neighbours (i.e., all its incident edges) → $\Theta(m)$
+    - Each edge is checked at most twice (by the two end vertices, in an undirected graph)
+
+> [!thm]+ Total running time for DFS
+> $$\Theta(n + m)$$
+
+> [!question]- What is the DFS worst-case running time when using an adjacency matrix?
+> $$\Theta(n^{2})$$
+
+## DFS Properties
+
+> [!note] DFS can be performed on both *directed* and *undirected* graphs.
+
+- $ *Timestamps* generated by the DFS algorithm have **parenthesis structure**
+
+> [!info]+ Parenthesis Structure
+> - Either one pair *contains* another pair, or
+> - One pair is *disjoint* from another
+
+![|200](https://i.imgur.com/vj7sI2v.png)
+
+- This is a valid type of parenthesis
+
+![|150](https://i.imgur.com/ddIR2jK.png)
+
+- Overlapping *never* happens
+
+Consider the DFS forest from earlier:
+
+![|400](https://i.imgur.com/F7BPgci.png) ![|300](https://i.imgur.com/IQiNg0r.png)
+
+- $v$ interval completely included in $u$
+- $y$ is a predecessor of $x$
+
+### Parenthesis Theorem
+
+> [!thm]+ Parenthesis Theorem
+> In any depth-first search of a graph $G$, for any two vertices $u$ and $v$,
+> 1. Interval $[v.d, v.f]$ contains interval $[u.d, u.f]$
+> 2. Interval $[u.d, u.f]$ contains interval $[v.d, v.f]$
+> 3. $[v.d, v.f]$ and $[u.d, u.f]$ are disjoint i.e., no overlap
+>
+> (Theorem 22.7 of CLRS)
+
+> [!thm]+ Nesting of Descendants’ Intervals
+> In the depth-first forest for a graph $G$,
+> - Vertex $v$ is a proper *descendant* of vertex $u$ if and only if the interval $[u.d, u.f]$ *contains* $[v.d, v.f]$
+> That is,
+> $$u.d < v.d < v.f < u.f$$
+>
+> (Corollary 22.8 of CLRS)
+
+## Applications of DFS
+
+> [!info]+ Applications of DFS
+> 1. Detecting cycles in graphs
+> 2. Topological sort
+> 3. Finding strongly connected components
+>     - Section 22.5 of CLRS, optional
+
+> [!question]+ For each of the following graphs, can you order the vertices such that for every edge $(u, v)$ in the graph, $u$ comes before $v$ in your ordering?
+> 1. ![|200](https://i.imgur.com/TAH1Sou.png)
+> 2. ![|200](https://i.imgur.com/wCFLmoC.png)
+> 3. ![|200](https://i.imgur.com/ugzuSNT.png)
+> 4. ![|400](https://i.imgur.com/sDZELWE.png)
+>
+> > [!check]- Graph 1
+> > ![|200](https://i.imgur.com/wfZ1RYB.png)
+>
+> > [!check]- Graph 2
+> > ![|200](https://i.imgur.com/GauDgzf.png)
+>
+> > [!check]+ Graph 3
+> > - $a$ needs to come before $b$
+> > - $b$ needs to come before $c$
+> > - $c$ needs to come before $a$
+> >     - ! But $a$ needs to come before $b$, and $b$ needs to come before $c$
+> >
+> > If there is a *cycle*, linearizing the graph will *not* work.
+
+### Detecting Cycles
+
+Recall the definition of [[100 Academia/CSC263/6 Graphs/Discover Graphs\|cycles]] in graphs.
+
+> [!def]+ Cycle
+> In a graph, a **cycle** is a path from a vertex $u$ to *itself*.
+
+- If we know that there exists an edge between $v$ and $u$, $(v, u)$, and there exists *another* path between $u$ and $v$ (other than the edge $(v, u)$), we can say:
+    - There exists a *path* from $u$ to itself
+    - → Graph has a cycle
+
+> [!info]+ General case (directed and undirected graphs)
+> Consider a graph $G$.
+>
+> Suppose $u$ is an *ancestor* of $v$ in a DFS forest of $G$.
+> This means that there exists a **path** from $u$ to $v$.
+>
+> Assume that there is an edge from $v$ to $u$. Note that this is a **back edge**.
+> Then, we can say that a **cycle** is detected.
+
+- **Tree edge**
+    - An edge in the DFS forest
+- **Back edge**
+    - A non-tree edge pointing from a vertex to its *ancestor* in the DFS forest
+
+> [!thm]+ Lemma 22.11 of CLRS
+> A graph contains a **cycle** if and only if DFS yields a **back edge**.
+
+![|400](https://i.imgur.com/x0L4vTh.png)
+
+- Edge $(x, v)$ is a *back edge*
+    - There is a cycle starting at vertex $v$
+    - Path is $(v, y), (y, x), (x, v)$ (length 3)
+
+> [!question]+ How do we identify a *back edge*?
+> - When performing DFS, look for edges to *grey* vertices
+>     - If such an edge exists, it is a **back edge**
+> - & In DFS, ancestors of the vertex being visited are grey
+>
+> ![|300](https://i.imgur.com/AuBdmCv.png)
+
+> [!question]+ Why do we care about detecting cycles?
+> - **Topological sort**
+> - If edges represent dependency relations, then having a cycle implies **cyclic dependency**
+
+#### Example: Course Prerequisite Graph
+
+If the graph has a cycle, then all courses in the cycle become impossible to take.
+
+![|300](https://i.imgur.com/2YdCG83.png)
+
+### Topological Sort
+
+[[100 Academia/CSC263/6 Graphs/Topological Sort\|Topological Sort]]

@@ -22,6 +22,6 @@
 - [[100 Academia/CSC258/6 Processors/Multiplication\|Multiplication]]
 
 - [[100 Academia/CSC258/6 Processors/The Storage Unit\|The Storage Unit]]
-- [[000 Notes/Memory Timing Issues\|Memory Timing Issues]]
+- [[100 Academia/CSC258/6 Processors/Memory Timing Issues\|Memory Timing Issues]]
 - [[The Control Unit\|The Control Unit]]
 - [[Instruction Architecture\|Instruction Architecture]]
