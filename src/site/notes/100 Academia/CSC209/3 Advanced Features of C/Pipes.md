@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Pipes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/pipes/","tags":["cs","lecture","note","university"],"created":"2025-03-04T05:43:09.326-05:00","updated":"2025-03-04T15:16:05.585-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Pipes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/pipes/","tags":["cs","lecture","note","university"],"created":"2025-03-04T05:43:09.326-05:00","updated":"2025-03-07T19:48:28.942-05:00"}
 ---
 
 

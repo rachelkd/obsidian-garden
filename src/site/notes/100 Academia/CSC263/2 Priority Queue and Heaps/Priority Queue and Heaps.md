@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-02-13T07:43:53.564-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/2 Priority Queue and Heaps/Priority Queue and Heaps.md","permalink":"/academia/csc-263/2-priority-queue-and-heaps/priority-queue-and-heaps/","tags":["cs","lecture","note","university"],"created":"2025-01-14T14:12:42.147-05:00","updated":"2025-03-07T00:54:34.939-05:00"}
 ---
 
 

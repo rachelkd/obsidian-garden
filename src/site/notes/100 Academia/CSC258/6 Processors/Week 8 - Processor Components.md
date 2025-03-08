@@ -18,6 +18,6 @@
 ![|400](https://i.imgur.com/82C1JnT.png)
 
 - [[100 Academia/CSC258/6 Processors/The Storage Unit\|The Storage Unit]]
-- [[Memory Timing Issues\|Memory Timing Issues]]
+- [[000 Notes/Memory Timing Issues\|Memory Timing Issues]]
 - [[The Control Unit\|The Control Unit]]
 - [[Instruction Architecture\|Instruction Architecture]]

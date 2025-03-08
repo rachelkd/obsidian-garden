@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-06T23:59:47.810-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Graph Representations.md","permalink":"/academia/csc-263/6-graphs/graph-representations/","tags":["cs","lecture","note","university"],"created":"2025-02-26T02:37:27.180-05:00","updated":"2025-03-07T16:30:12.037-05:00"}
 ---
 
 
@@ -274,6 +274,8 @@ Let $|E| = m$.
 >         - Then, the total work is $$\sum\limits_{v\in V} \left( 1 + \text{out-degree}(v) \right) = n + m = \Theta(n + m) $$
 { #c4167d}
 
+
+> [!important] If we need to traverse the entire list, it is $\Theta(n + m)$. If we need to traverse a constant number, $c$, of adjacency lists for $c$ different vertices, it is $\Theta(\text{min}(n, m))$.
 
 > [!tip]+ Choose the more appropriate implementation depending on the problem.
 > - Use *adjacency matrix* if:
