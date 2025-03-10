@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Files.md","permalink":"/academia/csc-209/3-advanced-features-of-c/files/","tags":["cs","lecture","note","university"],"created":"2025-01-21T03:00:24.622-05:00","updated":"2025-02-06T17:56:15.237-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Files.md","permalink":"/academia/csc-209/3-advanced-features-of-c/files/","tags":["cs","lecture","note","university"],"created":"2025-01-21T03:00:24.622-05:00","updated":"2025-03-10T02:12:13.429-04:00"}
 ---
 
 
@@ -122,7 +122,7 @@ Andrew 1337
 
 - Parameters:
     - `s`: Pointer to memory where the read data is stored
-        - e.g., `char array`)
+        - e.g., `char array`
     - `n`: Maximum number of characters to read
         - Including `\0`
     - `stream`: Source of data (e.g., file pointer or `stdin`)

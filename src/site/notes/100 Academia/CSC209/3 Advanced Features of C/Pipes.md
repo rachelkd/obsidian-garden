@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Pipes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/pipes/","tags":["cs","lecture","note","university"],"created":"2025-03-04T05:43:09.326-05:00","updated":"2025-03-07T19:48:28.942-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Pipes.md","permalink":"/academia/csc-209/3-advanced-features-of-c/pipes/","tags":["cs","lecture","note","university"],"created":"2025-03-04T05:43:09.326-05:00","updated":"2025-03-09T20:37:46.972-04:00"}
 ---
 
 
@@ -949,7 +949,7 @@ Now all of the file descriptors are correctly set up in the parent and the child
 > [!question]- It is important to close all file descriptors for writing on a pipe except the one that we plan to use because…
 > - the read end of the pipe won’t know when all the data has been sent until all write descriptors are closed.
 
-> [!question]- Follow-up Question 5V
+> [!question]- Follow-up Question 5B
 > - Open file descriptors are inherited across the fork call.
 > - We have to call `fork` after pipe for the pipe to have the right file descriptors open in both processes.
 

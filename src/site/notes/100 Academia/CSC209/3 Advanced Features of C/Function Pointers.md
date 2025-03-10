@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Function Pointers.md","permalink":"/academia/csc-209/3-advanced-features-of-c/function-pointers/","tags":["cs","lecture","note","university"],"created":"2025-02-14T15:05:35.980-05:00","updated":"2025-03-09T18:18:21.638-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Function Pointers.md","permalink":"/academia/csc-209/3-advanced-features-of-c/function-pointers/","tags":["cs","lecture","note","university"],"created":"2025-02-14T15:05:35.980-05:00","updated":"2025-03-09T18:19:47.272-04:00"}
 ---
 
 

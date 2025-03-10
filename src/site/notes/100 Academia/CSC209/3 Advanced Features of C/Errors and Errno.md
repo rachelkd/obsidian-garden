@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Errors and Errno.md","permalink":"/academia/csc-209/3-advanced-features-of-c/errors-and-errno/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:48:01.878-05:00","updated":"2025-02-11T04:18:53.012-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Errors and Errno.md","permalink":"/academia/csc-209/3-advanced-features-of-c/errors-and-errno/","tags":["cs","lecture","note","university"],"created":"2025-02-11T03:48:01.878-05:00","updated":"2025-03-10T16:00:05.900-04:00"}
 ---
 
 
@@ -102,11 +102,11 @@ void perror(const char *s);
 > - Message includes argument `s`, followed by `:` and then the error message that corresponds to the current value of `errno`
 
 - Useful for when a system call has failed
-- ! Do not use `perror` as a generic error message reporting fuinction
+- ! Do not use `perror` as a generic error message reporting function
     - Real purpose is to display an error message for the current value of `errno`
 - For other error messages, you should still use `fprintf` to `stderr`
 
-### Example: `perror` Vs `fprintf`
+### Example: `perror` vs. `fprintf`
 
 ```c title:show_fopen.c
 #include <stdio.h>
@@ -297,14 +297,13 @@ int main(int argc, char **argv) {
 >             exit(1);
 >         }
 > 
-> 	while (strchr(buf, '\n') == NULL) {
->         if ((fgets(buf, BUFSIZE, fp)) == NULL) {
->             fprintf(stderr, "ERROR: not enough lines in the file\n");
->             exit(1);
->         }
-> 
->         printf("%s", buf);
-> 	}
+>     	while (strchr(buf, '\n') == NULL) {
+>             if ((fgets(buf, BUFSIZE, fp)) == NULL) {
+>                 fprintf(stderr, "ERROR: not enough lines in the file\n");
+>                 exit(1);
+>             }
+>             printf("%s", buf);
+>     	}
 > 
 >         printf("%s", buf);
 >     }

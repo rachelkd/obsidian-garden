@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-02-23T19:44:17.248-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-03-10T04:09:50.831-04:00"}
 ---
 
 
@@ -478,6 +478,8 @@ int main(int argc, char *argv[]) {
     - i.e., `static` used in a definition of a local variable rather than global variable
 
 ```c
+#include <stdio.h>
+
 void function_example() {
     static int x = 3;
     printf("%d\n", x);
@@ -562,7 +564,7 @@ sorts.o: sorts.c sorts.h
     gcc -c sorts.c -o sorts.o
 
 compare_sorts: compare_sorts.o sorts.o
-    gcc compare_sorts.c sorts.c -o compare_sorts
+    gcc compare_sorts.o sorts.o -o compare_sorts
 ```
 
 - $ Only the first rule gets built when `make` is run without arguments because make evaluates only the first rule in the Makefile by default

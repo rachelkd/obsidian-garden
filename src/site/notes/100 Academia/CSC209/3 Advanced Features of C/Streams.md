@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams.md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:50:45.436-05:00","updated":"2025-02-06T17:24:06.618-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Streams.md","permalink":"/academia/csc-209/3-advanced-features-of-c/streams/","tags":["cs","lecture","note","university"],"created":"2025-01-21T02:50:45.436-05:00","updated":"2025-03-10T01:46:58.839-04:00"}
 ---
 
 
@@ -57,7 +57,7 @@
 
 int main() {
     // Normal output to stdout
-    printf(“This is normal output.\n”);
+    printf("This is normal output.\n");
     
     // Error message to stderr
     fprintf(stderr, "This is an error message.\n");
@@ -84,7 +84,9 @@ int main() {
 ### Input Redirection
 
 - Standard input refers to the ==keyboard== by default
-- Input redirection allows reading from a ==file== instead of the keyboard
+- **Input redirection**
+    - Allows reading from a ==file== instead of the keyboard
+    - e.g., Redirecting standard input to read from a file, instead of the keyboard
 - Use the `<` symbol followed by the filename to redirect input
 
     ```bash
@@ -110,7 +112,8 @@ int main() {
 ### Output Redirection
 
 - Standard output refers to the ==screen== by default
-- Output redirection allows writing to a ==file== instead of the screen
+- **Output redirection**
+    - Allows writing to a ==file== instead of the screen
 - Use the `>` symbol followed by the filename to redirect output
 
     ```bash
@@ -131,7 +134,7 @@ int main() {
 - When output is redirected:
     - Output is not displayed on the ==screen==
     - Saved to the specified file instead
-- **Warning**: If the file already exists, it will be ==overwritten==
+- ! If the file already exists, it will be ==overwritten==
 
 ### Summary
 
