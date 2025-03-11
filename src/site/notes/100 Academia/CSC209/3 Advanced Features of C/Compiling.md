@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-03-10T04:09:50.831-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Compiling.md","permalink":"/academia/csc-209/3-advanced-features-of-c/compiling/","tags":["cs","lecture","note","university"],"created":"2025-02-06T00:05:52.233-05:00","updated":"2025-03-10T22:56:50.361-04:00"}
 ---
 
 
