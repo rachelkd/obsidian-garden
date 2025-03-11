@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Process Models.md","permalink":"/academia/csc-209/3-advanced-features-of-c/process-models/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:14:30.154-05:00","updated":"2025-03-04T15:21:42.660-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Process Models.md","permalink":"/academia/csc-209/3-advanced-features-of-c/process-models/","tags":["cs","lecture","note","university"],"created":"2025-02-25T15:14:30.154-05:00","updated":"2025-03-10T22:24:08.830-04:00"}
 ---
 
 
@@ -358,7 +358,7 @@ Modify our example program so that each child process exits with a different val
     - If child terminated because of a signal, lowest 8 bits tells us *which* signal
 - ? Where is the exit value of the child process located?
     - In the next 8 bits
-    - Process that exited with a 1 has `status == 258`
+    - Process that exited with a 1 has `status == 256`
         - $2^{8}$
     - Process that exited with a 2 has `status == 512`
         - $2^{8} \times 2 = 2^{9} = 512$
