@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Arithmetic Unit.md","permalink":"/academia/csc-258/6-processors/the-arithmetic-unit/","tags":["cs","lecture","note","university"],"created":"2025-02-28T04:15:29.982-05:00","updated":"2025-03-01T16:53:12.583-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Arithmetic Unit.md","permalink":"/academia/csc-258/6-processors/the-arithmetic-unit/","tags":["cs","lecture","note","university"],"created":"2025-02-28T04:15:29.982-05:00","updated":"2025-03-11T20:09:41.646-04:00"}
 ---
 
 

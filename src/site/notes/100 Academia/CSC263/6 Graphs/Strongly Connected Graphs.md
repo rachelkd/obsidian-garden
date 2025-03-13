@@ -1,46 +1,80 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Strongly Connected Graphs.md","permalink":"/academia/csc-263/6-graphs/strongly-connected-graphs/","tags":["cs","lecture","note","university"],"created":"2025-03-08T15:48:03.263-05:00","updated":"2025-03-08T16:06:13.339-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Strongly Connected Graphs.md","permalink":"/academia/csc-263/6-graphs/strongly-connected-graphs/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-11T19:53:27.452-04:00"}
 ---
 
 
 # Strongly Connected Graphs
 
-We previously defined **[[100 Academia/CSC263/6 Graphs/Discover Graphs\|connected]]** for *undirected* graphs.
+## Strongly Connected Directed Graph
 
-> [!def]+ Connected
-> An undirected graph is **connected** if:
-> - Every vertex $v$ is reachable from every other vertex $u$
-> - For every pair of vertices $u, v$, there exists a path from $u$ to $v$ and $v$ to $u$
+- **Connected**
+    - An *undirected* graph is **connected** if:
+        - Every vertex $v$ is reachable from every other vertex
+        - For every pair of vertices $\{ u, v \}$, there is a path that goes from $u \leadsto v$ and $v \leadsto u$
 
-We did not define “connected” for a *directed* graph.
+> [!def]+ Strongly connected
+> A **strongly connected component** in a *directed* graph means that:
+> For every vertex pair $\{ u, v \}$ in $G$,
+> - $v$ is reachable from $u$, and
+>     - $u \leadsto v$
+> - $u$ is reachable from $v$
+>     - $v \leadsto u$
 
-> [!def]+ Strongly connected component
-> A **strongly connected component**, $C$, in a directed graph, $G$, means that:
-> - For every vertex pair $(u, v)$ in $C$:
->     - $v$ is reachable from $u$, and
->         - i.e., $\exists$ path $u \to v$
->     - $u$ is reachable from $v$
->         - i.e., $\exists$ path $v \to u$
+> [!goal]+ How do you write an efficient algorithm given a graph to decide if its strongly connected?
+> - Obvious answers seem to be to do a [[100 Academia/CSC263/6 Graphs/Breadth-First Search\|BFS]] or [[100 Academia/CSC263/6 Graphs/Depth-First Search\|DFS]]
 
-## Algorithm
+Steps
 
-- Pick $s \in V$
-- Call `DFSVisit(G, s)`
-    - If $s.f = 2 \cdot |V|$, then we have a path $s \to v$ for all $v \in V$
+1. Pick a vertex $s$
+2. BFS or DFS
+    - Finish time will be double the number of nodes
+    - If $f[s] = 2|V|$, then every vertex is reachable from $s$
+    - @ Need to show that from anywhere, we can get to $s$
+3. Create $G'$: take every edge in $G$ and turn it around
+4. Run $DFS(G')$ on $s$
+    - If $f[s] == 2|V|$ in $G'$, then every vertex is reachable from $s$ in $G'$
+    - $\implies$ $s$ is reachable from every vertex in $G$
 
-We need to check if we can get to $s$ from any value.
+## Minimum Spanning Trees
 
-- & Reverse order of all edges in $G$ to make $G'$
-- Then, call `DFSVisit(G', s)`
+- **Minimum spanning tree**
+    - Minimum: edges are minimized
+    - Spanning: includes every vertex in $G$
+    - Tree: no cycles
 
-## After Lecture
+> [!question] How do we find an algorithm that gives us a minimum spanning tree?
 
-- Chapter 6 of course notes
-- Worksheet from Week 8
-- Optional readings:
-    - CLRS 22.1 - 22.4
-- Problems (CLRS):
-    - 22.1-1
-    - 22.1-2
-    - 22.2-1
-    - 22.3-2
+- Two options:
+    - Take a graph and remove expensive edges until we have a MST
+    - & Start with nothing but the vertices, and add edges from graph, making a forest or tree as we go, until we have a MST
+        - This algorithm is more efficient
+
+### Greedy MST
+
+```pseudocode
+Greedy-MST(G = (V, E), w: E -> R):
+    T <- {}  # Invariant: T is a subset of G
+    while T is not a spanning tree:
+        find e "safe for T"
+        T <- T ∪ {e}
+```
+
+- **Greedy algorithm**
+    - A problem-solving approach that chooses the best option at each step
+        - Without considering the future
+    - Often used to solve optimization problems
+- % **Greedy** algorithms do not always work, but it does for MST
+    - Do not always work because they make local, immediate decisions without considering the global optimal solution
+    - Fails when locally optimal $\neq$ globally optimal
+    - Algorithm does not backtrack or reconsider past choices, which can be a problem in cases where an earlier suboptimal decision affects the final outcome
+    - ? Why does greedy work for MST? #office-hours
+
+### Theorem: “Safe for $T$”
+
+> [!thm]+ Theorem
+> If:
+> 1. $G$ is a connected, undirected, weighted graph, and
+> 2. $e$ is an edge of minimum weight whose end points are in different connected components of $T$
+>
+> Then:
+> - $e$ is *safe* for $T$

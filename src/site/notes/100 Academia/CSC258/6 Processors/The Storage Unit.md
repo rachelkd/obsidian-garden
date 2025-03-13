@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Storage Unit.md","permalink":"/academia/csc-258/6-processors/the-storage-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-03T13:14:18.693-05:00","updated":"2025-03-05T03:38:14.609-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Storage Unit.md","permalink":"/academia/csc-258/6-processors/the-storage-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-03T13:14:18.693-05:00","updated":"2025-03-11T20:09:34.300-04:00"}
 ---
 
 

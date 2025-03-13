@@ -226,4 +226,4 @@ Writing is even more interesting.
 We now know how computation *works*, but:
 
 > [!question]+ How does it know what computations to do? What controls the memory, registers, and ALU?
-> - [[The Control Unit\|The Control Unit]]
+> - [[100 Academia/CSC258/6 Processors/The Control Unit\|The Control Unit]]
