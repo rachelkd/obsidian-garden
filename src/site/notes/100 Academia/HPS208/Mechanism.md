@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Mechanism.md","permalink":"/academia/hps-208/mechanism/","tags":["hps","lecture","note","university"],"created":"2025-03-08T16:09:57.913-05:00","updated":"2025-03-14T21:59:56.315-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Mechanism.md","permalink":"/academia/hps-208/mechanism/","tags":["hps","lecture","note","university"],"created":"2025-03-08T16:09:57.913-05:00","updated":"2025-03-15T18:10:37.581-04:00"}
 ---
 
 
@@ -422,6 +422,7 @@ If you are going to explain or understand anything, according to Aristotle, you 
     - Colonialist project of Europe kicked off too
     - Trade becomes much more important
     - People are no longer settled in the way it was before this
+- Go from being the center of everything (worst place to be, but the center) to spinning, slightly off-center
 
 ## Copernicus (1473-1543)
 
@@ -437,7 +438,7 @@ If you are going to explain or understand anything, according to Aristotle, you 
 
 - **Galileo**
     - Starts using mathematics do to terrestrial physics
-    - Aristotle's physics had no math whatsoever
+    - Aristotle’s physics had no math whatsoever
         - Believed that the earthly world was too much of a mess for math to apply
 - Not yet at the point where we are creating clear quantitative measures of motion
     - But getting there
@@ -462,16 +463,285 @@ If you are going to explain or understand anything, according to Aristotle, you 
 
 ## Mechanical Worldview
 
-- The stripping away of things we thought were maybe in our world to maybe just our senses
+- This stripping away of things we thought were maybe in our world to being just our senses
     - → Comes ahead in the mechanical worldview/philosophy
     - Philosophy of the scientific revolution
 - & Scientific revolution introduces the idea that the world is just **mechanical**
     - It has no purposes in it; no meaning
-        - Purpose is a thing a person can have, but nothing in the world has purpose
+        - *Purpose* is a thing a person can have, but nothing in the world has purpose
     - Our *minds* are the only place those things live
+        - Meaning, purpose
 - & The world has *shape* and *extension*
 
 ## Mere Extension
+
+> [!important]+ The mechanical philosophy reduces explanation of physical phenomena to just efficient *causation*.
+> - Pushing and pulling
+>     - The only thing you get to invoke
+
+- Matter has *one* primary property:
+    - & Extension
+        - Shape and size
+- Matter has exactly one power:
+    - Excluding other matter
+    - All that matter can do is bump into other matter
+        - If it is the appropriate shape, it can hook onto other matter
+        - But still just bumping
+
+## Four ‘Causes’
+
+- Only one kind of stuff in the world:
+    - Matter
+    - Matter only has one type:
+        - The type that excludes other matter
+- Three of Aristotle’s [[100 Academia/HPS208/Mechanism#Four ‘Causes’\|four causes]] gets dumped under mechanical worldview:
+    - ~~Material~~
+        - This explanation is kind of just utterly impoverished
+        - Woven into efficient causation
+    - & Efficient
+    - ~~Formal~~
+        - No form
+    - ~~Final~~
+        - No purposes in the world
+- We can have an idea of a form or purpose, but those are just in our minds
+    - Secondary qualities
+
+## Descartes-Hobbes Debate
+
+- Might take this explanation all the way:
+    - **Hobbes**
+        - Believes we ourselves are just mechanical
+        - We are just meat machines
+        - If you have seen a horse and a person, by the operation of *addition*, your mind comes up with the idea of a centaur
+            - Take human torso and horse body
+            - The addition is centaur
+        - Sketches it out as all reasoning is just mechanical operations happening in the brain and heart
+- Descartes
+    - Goes most of the way of this conclusion
+    - But stops at the rational human being
+    - Meat machines cannot think
+
+## Cartesian Dualism
+
+This leads Descartes to **Cartesian dualism**.
+
+- Descartes
+    - Argues that it is ==impossible for something mechanical to think and speak== in the way humans do
+    - But he does accept that the ==physical world is governed by mechanical principles==
+- & → The mind must not be a physical thing
+    - Every thing physical is mechanical
+    - Mechanical things cannot think
+    - Humans can think
+    - Therefore, human minds must not be physical
+
+### What Substance Dualism is not
+
+- Duncan MacDougall
+    - Physician
+    - Tried to measure the weight of the soul (in 1901)
+    - Put a dying person on a scale
+        - Watched what scale said before and after
+    - Thought that he measured a small change
+        - Was incorrect
+- & If the soul has *weight*, then it is a *physical* thing
+    - Not that substance dualism thinks
+    - Not that there is a physical thing that has weight and shape and extension
+- Or if there is a ‘soul particle’ that physics just has not discovered yet, then it is physical
+    - Not what substance dualism thinks
+    - Just believing in spirits and ghosts
+
+### Substance Dualism
+
+- **Substance dualist**
+    - Thinks that minds have no weight, location, size, shape, etc.
+    - For them:
+        - & Minds are totally *non-physical*
+
+### Paradox of Mechanical Reasoning
+
+Descartes has a couple arguments for this.
+
+- **Paradox of mechanical reasoning**
+    - Reasoning is truth-tracking
+        - If you are reasoning, then that has something to do with what is true
+        - But understanding what is true, knowing what is true, working with what is true, and caring about what is true requires knowing that the symbols you are manipulating mean
+    - Evaluating truth requires understanding meaning
+    - But if the scientific revolution showed anything, it is that:
+        - & ‘Meaning’ is not in the world
+        - Meaning is not a property of physical things
+    - → Reasoning cannot be mechanical
+
+<!-- break -->
+- You have a computer
+    - It is operating on some kind of physical tokens
+        - Pushing 1s and 0s around
+- If it is really reasoning, it has to understand what it is doing
+    - Can do something that simulates reasoning
+        - Be fairly convincing under a wide variety of circumstances
+- But if it is truly reasoning, it has to reason about what it thinks it is the truth
+    - Understanding the meaning of the tokens
+- & Meaning is not a physical property
+    - ? What physical property corresponds with the “meaning of a sentence”?
+        - If evaluating an argument; a bunch of sentences
+        - Such that a computer could encode this
+
+> [!quote]+ It is not conceivable that such a machine should produce different arrangements of words so as to give an appropriately meaningful answer to whatever is said in its presence, as the dullest of men can do.
+> Descartes, *Discourse on Method*
+
+### The Argument from Doubt
+
+- Another line of argument Descartes develops in the meditations:
+    - Focuses on how we know about minds and bodies
+    - Doubt everything, and try to build his way back to what he knew before
+- We know our mind directly, immediately, and certainly
+    - But he finds he can doubt that he has a particular body, or any body at all
+- Found that anything that comes to his senses can be doubted
+- If what you want is certainty, forget about the senses
+- ? How do you know about the body?
+    - Know about the body through your senses
+        - I think I have hands, I think I have legs, I know about that because I can feel them in a sensory way
+- ? How do you know that you have a mind?
+    - I just know (in this direct way)
+    - ; “I think, therefore I am”
+- ? Can I doubt that even I exist?
+    - No
+    - Doubting is only a thing you can do if you exist
+    - Delivers a certainty about you as a *thinking* thing
+    - No certainty about your body
+
+## Descartes on Animals
+
+> [!tldr]+ Main reading
+> - Chapter from *Anthropocentrism and its Discontents*
+>     - Steiner, 2010
+
+> [!important] Descartes’ views about mechanism, bodies, and minds, entails that he thought animals should get essentially ==no moral consideration==.
+
+- Standard view of Descartes:
+    - Animals do not have the “thinking” bit
+    - **Dualism**
+        - There is a fundamental metaphysical distinction between our bodies and our minds
+    - Animals have a body
+        - ! But do not have *minds*
+    - & And you really should only care about minds
+
+> [!summary]+ Steiner first goes through some scholarly debates about exactly what Descartes thought
+> - Some have argued that he attributed *some* moral weight to animal suffering
+
+> [!warning]+ Steiner thinks this is wrong
+>
+> > “It is as though current defenders of Descartes simply cannot believe that he held a view that is repugnant by contemporary standards, so they attempt to revise Descartes to make his views acceptable by those standards.”
+> > (p. 134)
+
+### Animals Spirits
+
+- Recall [[100 Academia/HPS208/Mechanism#Monotheisms\|monotheisms]]:
+    - Hierarchy, but some sense of responsibility
+    - Christians seem to have the most relatively indifferent take on this
+- Descartes is a step beyond that:
+    - Do not have to care about animals at all, because they literally do not feel anything
+        - No mind; just reflexes, governed by animal spirits
+    - & Regards all animal movement, and some of our own (reflexes), as driven by ‘animal spirits’
+        - That is, ‘spirits’ in the sense of alcohol, not spirits in the sense of ghosts
+    - Believed a subtle fluid in the nervous system transmits sense data
+
+> “When people take a fall, and stick out their hands so as to protect their head, it is not reason that instructs them to do this; it is simply that the sight of the impending fall reaches the brain and sends the animal spirits into the nerves in the manner necessary to produce the movement even without any mental volition, just as it would be produced in a machine. And since our own experience reliably informs us that this is so, why should we be so amazed that the ‘light reflected from the body of a wolf onto the eyes of a sheep’ should be equally capable of arousing the movements of light in the sheep?”
+>
+> (Descartes, quoted in Steiner, p.146)
+
+- When you stick out your hands to prevent a fall, your body is acting *mechanistically*
+    - Body is just programmed that way
+- We know that we have some reflexes that are mechanistic; do not involve reason
+    - Why not just say what a sheep is like?
+    - Light hits its eyes
+    - Sends animal spirits moving
+    - Responds as a machine
+- Therefore, do not have to care about animals at all
+
+## Problems for Cartesian Dualism
+
+- **Elisabeth of Bohemia** (1618-1680)
+    - Wrote Descartes a letter
+    - ; “tell me please how the soul of a human being (it being only a thinking substance) can determine the bodily spirits and so bring about voluntary actions”
+- Minds have no place, weight, location
+- I am rationally choosing to raise my hand right now as a physical movement
+- ? How did a mind with no weight, place, space cause that to happen?
+    - Sometimes called the **Interaction Problem**
+- & If the mind is purely non-physical, how does it cause anything physical to happen?
+    - Presumably, stuff happening in the world causes events in my mind
+        - I sense the world
+    - My mind makes decisions and chooses voluntary actions, then causes stuff in the world
+    - There is causal interaction
+    - If the mind is purely non-physical, how is it causing anything physical?
+    - How is anything physical causing anything mental?
+    - That makes no sense
+
+### Descartes’ Response
+
+![](https://i.imgur.com/uwirk23.png)
+
+- Descartes
+    - Suggests that the mind and body interact via the pineal gland in the brain
+        - Chose pineal gland because one of the only parts in the brain where there is only one
+        - Nice and symmetrical, in the middle
+- ‘Animal spirits’
+    - Very subtle matter
+    - Fill the nerves
+    - Which transmit signals to the pineal glands, and then to the soul
+- Response does not answer the question at all!
+    - ? Question was: How can something physical interact with something non-physical?
+    - ? In fact: How does your mind know to connect to your body?
+        - Not anywhere in particular
+        - How does it know which body it is supposed to run?
+
+## Parallelism
+
+- Recall the two options:
+    - Reasoning is fully mechanical
+        - Therefore, we are just machines
+        - Hobbes; a bit of a cynic
+    - If you are convinced of Descartes’ arguments:
+        - Have to preserve some mind independent of the mechanical world
+        - Have to say: mind is still somewhere
+        - Could look into **parallelism**
+
+<!-- break -->
+- **Parallelism**
+    - Proposed by Leibniz
+    - & Mind and body are separate substances
+    - & But minds and bodies do *not* interact
+    - & Rather, both perfectly set up to look like they are coordinated
+- e.g., If you stub your toe:
+    - You have the experience of stubbing your toe
+    - But that is because God set the world up just right such that mind has the toe-stubbing experience just when my body stubbed the toe
+    - One did not cause the other
+        - Just like two clocks in perfect sync
+        - Might look like one clock is influencing the other, but they are just in sync
+
+## Occasionalism
+
+![](https://i.imgur.com/fCFpwwn.png)
+
+- Malebranche defends **occasionalism**
+    - Minds and bodies are separate substances
+    - Whenever it seems like a physical event causes a mental event (or vice versa), that is God stepping in
+    - % This is what [[100 Academia/HPS208/Mechanism#Al-Ghazali (1058-1111)\|Al-Ghazali]] ended up defending
+- M1, M2, M3 are mental states
+- P1, P2, P3 are physical states
+- Anytime something physical seems to cause something mental, God does it
+- e.g., My body stubs its toe
+    - God causes the mental experience of toe-stubbing
+- Parallelism vs. Occasionalism:
+    - & Parallelism has *no* causal relationship
+    - & Occasionalism has a cause. God causes it
+
+## Mechanical Life
+
+- Next week:
+    - Talk about another type of problem for mechanism
+
+> [!question]+ How can you explain living things mechanically?
+> - People realize pretty quickly that mechanism is going to do a poor job of explaining how living things go from a fertilized egg to an adult, for example
 
 ## Key Terms
 
