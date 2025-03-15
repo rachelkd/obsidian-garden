@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Strongly Connected Graphs.md","permalink":"/academia/csc-263/6-graphs/strongly-connected-graphs/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-11T19:53:27.452-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Strongly Connected Graphs.md","permalink":"/academia/csc-263/6-graphs/strongly-connected-graphs/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-13T15:07:01.956-04:00"}
 ---
 
 
@@ -78,3 +78,5 @@ Greedy-MST(G = (V, E), w: E -> R):
 >
 > Then:
 > - $e$ is *safe* for $T$
+
+#todo

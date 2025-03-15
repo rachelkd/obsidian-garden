@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Control Unit.md","permalink":"/academia/csc-258/6-processors/the-control-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-11T19:57:20.201-04:00","updated":"2025-03-12T01:10:37.767-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/The Control Unit.md","permalink":"/academia/csc-258/6-processors/the-control-unit/","tags":["cs","lecture","note","university"],"created":"2025-03-11T19:57:20.201-04:00","updated":"2025-03-13T13:33:21.478-04:00"}
 ---
 
 
@@ -155,11 +155,11 @@ Isolate the control unit from the rest of the processor datapath:
 
 Of the *thirteen* signals shown here, you should be familiar with:
 
-- `MemRead`
+- ==`MemRead`==
     - Read from memory
-- `MemWrite`
+- ==`MemWrite`==
     - Write to memory
-- `MemToReg`
+- ==`MemToReg`==
     - Is the register value coming from the memory of the ALU?
     - Says: “I need whatever is coming from memory to go into my registers”
     - Could it go somewhere else?
@@ -168,9 +168,9 @@ Of the *thirteen* signals shown here, you should be familiar with:
         - Need a signal to say that value fetching from memory (could go to multiple places);
         - Turn this signal high if destination needs to be register
         - i.e., Fetching memory values → Putting it into registers
-- `ALUOp` (3 wires)
+- ==`ALUOp`== (3 wires)
     - ALU operation
-- `ALUSrcA`
+- ==`ALUSrcA`==
     - ALU source A
     - The select bits that go into the muxes
     - Muxes feed into ALU
@@ -179,14 +179,14 @@ Of the *thirteen* signals shown here, you should be familiar with:
     - Same thing here:
         - & ALU could be getting stuff from registers, but could be getting from other places too
         - → Need muxes to say what ALU inputs are going to be
-- `ALUSrcB`
+- ==`ALUSrcB`==
     - ALU source B
-- `RegWrite`
+- ==`RegWrite`==
     - There is always some binary value going into data input for register file
     - Does not mean that we want to be writing all the time
     - Need a signal that says:
         - Whatever value is there, is one that I intentionally mean to write into one of my registers
-    - When `RegWrite == 1`: Loads one register with new value
+    - When `RegWrite = 1`: Loads one register with new value
 
 ## Control Unit Input: Opcode
 
@@ -251,4 +251,5 @@ Before we discuss the rest of the output signals, we should return to the **opco
 - → There is a logical set of *dependencies* that results in:
     - Having to store a bunch of instructions somewhere, which
     - Will provide the FSM the information it needs to perform each operation in the sequence
-- See [[100 Academia/CSC258/6 Processors/Instruction Architecture\|Instruction Architecture]]
+
+See [[100 Academia/CSC258/6 Processors/Instruction Architecture\|Instruction Architecture]].
