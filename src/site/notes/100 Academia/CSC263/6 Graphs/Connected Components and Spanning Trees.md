@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-17T14:57:46.221-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-17T14:59:16.454-04:00"}
 ---
 
 
@@ -259,6 +259,10 @@ MST-Kruskal(G = (V, E), w: E -> R):
 
 - ? How many steps to sort the edges?
     - Using heapsort → $m \log m$
+
+> [!note]- Kruskal’s algorithm is $\mathcal{O}(E \lg V)$.
+> - Using disjoint sets
+> - Was not stated in lecture slides, but is in CLRS 21.2
 
 > [!question]+ What is the hard part of executing this efficiently?
 > - Check $u_{i}, v_{i}$ are in different connected components of $T$
