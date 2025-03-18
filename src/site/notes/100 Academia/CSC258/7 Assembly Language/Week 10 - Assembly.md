@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/6 Processors/Week 9 - Processor Components, Assembly.md","permalink":"/academia/csc-258/6-processors/week-9-processor-components-assembly/","tags":["cs","lecture","note","university"],"created":"2025-03-11T19:56:30.468-04:00","updated":"2025-03-17T15:09:03.032-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Week 10 - Assembly.md","permalink":"/academia/csc-258/7-assembly-language/week-10-assembly/","tags":["cs","lecture","note","university"],"created":"2025-03-17T15:07:40.398-04:00","updated":"2025-03-17T15:08:52.018-04:00"}
 ---
 
 

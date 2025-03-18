@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-17T14:59:16.454-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-17T15:04:22.903-04:00"}
 ---
 
 
@@ -228,7 +228,6 @@ We implement $Q$ with a binary [[100 Academia/CSC263/2 Priority Queue and Heaps/
         - Finding an edge $(u, v)$ with the lowest weight
             - Of all the edges that connect any two trees in the forest
 
-<!-- break -->
 Let $C_{1}, C_{2}$ denote the two trees that are connected by $(u, v)$.
 
 - $(u, v)$ must be a light edge connecting $C_{1}$ to some other tree
