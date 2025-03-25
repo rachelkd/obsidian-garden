@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/discover-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T03:04:05.415-04:00","updated":"2025-03-11T03:57:04.436-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Discover Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/discover-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T03:04:05.415-04:00","updated":"2025-03-18T02:01:09.464-04:00"}
 ---
 
 

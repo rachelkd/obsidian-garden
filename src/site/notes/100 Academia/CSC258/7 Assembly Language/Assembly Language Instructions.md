@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly Language Instructions.md","permalink":"/academia/csc-258/7-assembly-language/assembly-language-instructions/","tags":["cs","lecture","note","university"],"created":"2025-03-17T15:09:56.191-04:00","updated":"2025-03-17T18:21:07.460-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly Language Instructions.md","permalink":"/academia/csc-258/7-assembly-language/assembly-language-instructions/","tags":["cs","lecture","note","university"],"created":"2025-03-17T15:09:56.191-04:00","updated":"2025-03-24T23:48:25.663-04:00"}
 ---
 
 
 # Assembly Language Instructions
 
 > [!summary]- Last time
+>
 > - Introduced the idea of assembly language
 > - Talking first about machine code
 > - Machine code
@@ -54,10 +55,12 @@
     - Second column is the function (last 6 bits in machine code instruction)
 
 > [!note]- Syntax
+>
 > - Expecting those arguments (separated with space) after the instruction and space
 >     - e.g., `add $d $s $t`
 
 > [!note]+
+>
 > - **hi:lo**
 >     - Refer to the *high* and *low* bits referred to in the register slide
 >     - Multiplication:
@@ -228,11 +231,319 @@ These are the **R-type** instructions for operating on the HI and LO registers d
 ## ALU Instructions
 
 > [!note]+ Most ALU instructions are *R-type* instructions.
+>
 > - Six-digit codes in the tables are therefore the function codes
 >     - Opcodes are $000000$
 > - *Exceptions* are the **I-type** instructions
 >     - `addi`, `andi`, `ori`, etc.
 
 > [!important]+ Not all R-type instructions have an I-type equivalent.
+>
 > - RISC architectures dictate that an operation does not need an instruction if it can be performed through multiple existing operations
 > - e.g., `addi + div -> divi`
+
+### Example: Fibonacci
+
+> [!question]+ How would you convert this into assembly?
+>
+> - Ignore function arguments, return call for now
+
+```c
+int fib(void) {
+    int n = 10;
+    int f1 = 1, f2 = -1;
+
+    while (n != 0) {
+        f1 = f1 + f2;
+        f2 = f1 - f2;
+        n = n - 1;
+    }
+    return f1;
+}
+```
+
+- % Not a particular good implementation
+    - More to illustrate how things work in assembly
+
+<!-- break -->
+- Initialize some variables
+    - `n`, `f1`, `f2`
+    - Always happens in the beginning
+- Each iteration of `while` loop:
+    - Decrement `n` so loop eventually loops stops
+    - Updating `n`, `f1`, `f2`
+
+#### Assembly Code
+
+```assembly
+# fib.asm
+# register usage: $t3=n, $t4=f1, $t5=f2
+#
+FIB:    addi $t3, $zero, 10     # initialize n=10
+        addi $t4, $zero, 1      # initialize f1=1
+        addi $t5, $zero, -1     # initialize f2=-1
+LOOP:   beq $t3, $zero, END     # done loop if n==0
+        add $t4, $t4, $t5       # f1 = f1 + f2
+        sub $t5, $t4, $t5       # f2 = f1 - f2
+        addi $t3, $t3, -1       # n = n - 1
+        j LOOP                  # repeat until done
+END:    sb $t4, 0($sp)          # store result
+```
+
+- `FIB`:
+    - Initialize `$t3` which is `n`
+        - Take `$t3` (destination) to be equal to `0 + 10`
+        - Use `addi` since we are using a constant `10`
+        - & Whenever we want to set a register to some constant, we use `addi` on the `$zero` register and the constant
+            - This is why we need `$zero` to always have the 0 value!
+    - Do the same for `$t4`, `$t5`
+        - For each one, we use `addi` on 0 and the constant
+        - % If we used `add`, we need a way to put the constant in some register, then add two registers
+            - And the only way you can do that is use `addi` first
+            - So might as well just use `addi` to initialize registers
+- `LOOP`:
+    - % `beq` means **branch if equal**
+        - Checks whether two registers have the same value and, if they do, it branches to a specified label
+            - Changing the program’s execution flow
+        - e.g., Test if `$t3` and `$zero` are equal
+            - If equal, jump to `END`
+    - Need to take `f1`; make it equal to `f1 + f2`
+        - `f1` is stored in `$t4`
+        - `f2` is stored in `$t5`
+        - `add $t4, $t4, $t5`
+    - `f2 = f1 - f2`
+        - `f1` is still `$t4`
+        - `f2` is still `$t5`
+        - `sub $t5, $t4, $t5`
+    - `n = n - 1`
+        - % We do not have a `subi`
+            - & Use `addi` on a negative constant
+        - `addi $t3, $t3, -1`
+    - % `j` is a **jump** operation
+
+> [!obs]+ There is not a lot of structure.
+> - Not a lot of indenting
+>     - Going to look like a long line of text
+> - ! Except **labels**
+
+- **Label**
+    - Put a name on a particular line to indicate that this line has a name
+        - e.g., Can see it starts at `FIB`, where the `LOOP` is, and where the `END` is
+    - Useful for humans, but also needed for *code* as well
+        - Labels used for `beq` and `j` operations
+
+> [!info]+ At the end, we have `sb`
+> - **==`sb`==**
+>     - **Store byte**
+>     - Memory operation
+>         - There’s ALU operations, branch/jump operations, and *memory* operations
+>         - Have to be able to store and fetch things in memory
+
+## Making an Assembly Program
+
+> [!info]+ Assembly language programs typically have structure similar to simple Python or C programs
+> - Set aside registers to store data
+> - Have sections of instructions that manipulate this data
+
+> [!tip]+ It is always good to decide at the beginning which registers will be used for what purposes.
+> - More on this later
+
+> [!question]+ How to make an assembly program?
+> Have to figure out:
+> - ? What is the high-level code?
+>     - ? What does that translate into?
+>     - ? What kind of operations do you need to do?
+
+## Control Flow in Assembly
+
+> [!important]+ Not all programs follow a linear set of instructions.
+> - Some operations require the code to **branch** to one section of code or another
+>     - `if`/`else`
+> - Some require the code to *jump* back and repeat a section of code again
+>     - `for`
+>     - `while`
+> - Need to be able to move to different parts in memory
+
+> [!important]+ We have **labels** on the left-hand side that indicate the points that the program flow might need to jump to
+> - Labels
+>     - Partly for humans to organize code
+>         - Can have, even if not jumping
+>     - ! But you *need* labels if you are jumping
+>         - To know where it is supposed to go
+> - References to these points in the assembly code are *==resolved at compile time==*
+>     - To offset values for the *program counter*
+
+## Jump Instructions
+
+![](https://i.imgur.com/UIJOhy9.png)
+
+- `j`
+    - The main one you want to know
+    - Goes straight to the label
+- `jal`
+    - Jump and link
+    - Indicates that you are going to jump to another line of code, but that code is a function
+        - → Jump to that location
+            - Execute some stuff
+            - Come *back*
+        - % `j` does not come back
+    - & Register `$31` i.e., `$ra` stores the address that is used when returning from a subroutine
+        - i.e., the next instruction to run
+- `jalr`
+    - Not used very much
+- `jr`
+    - Jump register
+    - Jump to an address stored in a register e.g., `$ra`
+
+> [!note]+ `jr` and `jlr` are jumps, but *not* [[100 Academia/CSC258/7 Assembly Language/Machine Code Instructions\|J-type instructions]]
+> - Both do not use labels, but *registers*
+> - → R-type instructions
+
+### Calling Functions
+
+- ? How do you **call a function**?
+    - & `jal` stores the address of where you came from (program counter value) in `$31`
+        - Return address register
+    - & Once done that function, you call `jr`
+        - Jump to register
+        - Put in return address register `$s`
+        - → Take you back to whatever called this function
+- Think of `jal label` as invoking the **function call**
+- Think of `jr $ra` as the **return statement**
+
+### `jr` And `jalr` (Jump to Register)
+
+For the following instructions:
+
+```assembly
+jr $ra
+```
+
+```assembly
+jalr $t0
+```
+
+- `$ra` and `$t0` hold address
+- Processor moves the *address* stored in `$ra` and `$t0` into the *program counter*
+    - Next instruction to be fetched will be at this new address
+    - Program will continue from there
+- Jump to register is easy
+    - Register value is 32 bits (4 bytes)
+    - Program counter is 32 bits
+    - Take whatever is in the register → Dump it in the program counter
+
+> [!question]+ What happens in the other cases, when the destination address is stored in the instruction?
+> - `j` and `jal` (jump to label)
+
+### `j` And `jal` (Jump to Label)
+
+- `j` and `jal` instructions
+    - & Address is supplied by the instruction
+        - ! Potential problem
+
+![](https://i.imgur.com/JWM2h6z.png)
+
+- J-type instruction
+    - 6 digit opcode at front
+    - 26 bit address at the back
+- If the first 6 bits are occupied by the opcode:
+    - ! Remaining bits are *not enough* for a full 32-bit address
+
+> [!question] How do you get around this?
+> - No elegant solution
+> - Have to take 26-bit value and stick it in a 32-bit register
+
+#### Solution 1: Trailing Zeros
+
+- Jump instructions load new addresses into the program counter
+    - *Values* being loaded ==must be divisible by 4==
+        - & Every address (binary value) that the program counter might be set to ends with `00`
+        - & $\therefore$ No point in storing the last two bits of the address in the instruction
+
+> [!check]+ Solution
+> User the 26 bits in the J-type instructions to store the new PC address, minus the last two zeroes at the end
+
+- Now, we have 28 bits
+    - Still not 32!
+
+#### Solution 2: Leading Bits
+
+- Have a 28-bit address
+    - 26 bits from instruction + `00` at the end
+
+> [!question]+ What should we use for the first four bits?
+> - Several solutions exist
+> - MIPS:
+>     - & Keep the ==first four bits of the *previous* PC value==
+
+> [!thm]+ Formula
+> $$\texttt{pc} = \left( \texttt{pc \& 0xF0000000} \right) | (\texttt{i << 2})$$
+
+- Use the same first four bits from PC
+    - To fill up the missing first 4 bits
+- New PC value will have:
+    - Same first four bits as the original
+    - 26 bits from the jump instruction
+    - $+2$ bits for shifting it
+- When we do `pc & 0xF0000000`:
+    - `0xF0000000` is a *mask*
+        - When you `&` with zeros, everything is going to be zero
+        - Top four bits are ANDed with $1111$
+        - Going to zero out the entire `pc` value, except the first four bits
+        - Will keep the same first four bits
+        - Take that and join it with whatever was in the jump instruction, shifted by 2
+
+![](https://i.imgur.com/jSKtdr9.png)
+
+## Branch Instructions
+
+> [!question]+ How does a branch instruction work?
+
+![](https://i.imgur.com/h2JwMDK.png)
+
+- Control flow statements
+    - Instead of code in assembly running one line at a time, you have the ability to “direct traffic”
+        - Redo this section
+        - Skip over this section
+        - Jump into a function
+            - Execute that, then
+            - Jump back
+    - Need to be able to change what program counter is pointing to
+        - To jump to another location in memory
+- Previously talked about `j` and `jal`
+    - To *jump* to a *function*
+- & **Branches** are another aspect of control flow
+    - Similar to jump instructions
+        - Go to another line of code
+        - But only if a condition is satisfied
+        - Helps implement things like:
+            - `if` statements
+            - Condition that causes you to stop a `for`/`while` loop
+
+![](https://i.imgur.com/h2JwMDK.png)
+
+- `beq`
+    - Branch if equal
+    - Tests a condition
+    - If condition is satisfied, then go to the label
+- Example:
+    - Check if `$t0 == $t1`
+    - If they are equal, then jump down to the function `end`
+
+### List of Branch Instructions
+
+![](https://i.imgur.com/vaZGP9h.png)
+
+- `bne`
+    - Check to see if two provided registers are *not equal* to each other
+    - If not equal, then jump down to `label`
+    - Otherwise, go to the next instruction
+- `bgtz`
+    - Branch if greater than zero
+- `blez`
+    - Branch if less than or equal to zero
+- $ `bgtz` and `blez` just use *one* register
+
+> [!tip]+ Branch operations are key when implementing `if` statements and `while` loops
+> - **Labels** are (addresses of) memory locations
+>     - Assigned to each label at compiled time

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Introduction to Assembly Language.md","permalink":"/academia/csc-258/7-assembly-language/introduction-to-assembly-language/","tags":["cs","lecture","note","university"],"created":"2025-03-14T13:16:42.416-04:00","updated":"2025-03-16T00:14:37.844-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Introduction to Assembly Language.md","permalink":"/academia/csc-258/7-assembly-language/introduction-to-assembly-language/","tags":["cs","lecture","note","university"],"created":"2025-03-14T13:16:42.416-04:00","updated":"2025-03-19T11:39:35.041-04:00"}
 ---
 
 
@@ -96,13 +96,3 @@ MIPS provides 32 registers (with *numerical* and *label* names).
         - At *compile-time*
 
 ![](https://i.imgur.com/tW3L95f.png)
-
-## Assembly Language Overview
-
-### Assembly Language
-
-### A Little about MIPS
-
-### MIPS Instructions
-
-### Frequency of Instructions
