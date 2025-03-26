@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Shell Programming.md","permalink":"/academia/csc-209/3-advanced-features-of-c/shell-programming/","tags":["cs","lecture","note","university"],"created":"2025-03-24T23:50:25.943-04:00","updated":"2025-03-25T04:43:03.214-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Shell Programming.md","permalink":"/academia/csc-209/3-advanced-features-of-c/shell-programming/","tags":["cs","lecture","note","university"],"created":"2025-03-24T23:50:25.943-04:00","updated":"2025-03-25T04:47:15.268-04:00"}
 ---
 
 

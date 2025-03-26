@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-25T02:30:38.363-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Connected Components and Spanning Trees.md","permalink":"/academia/csc-263/6-graphs/connected-components-and-spanning-trees/","tags":["cs","lecture","note","university"],"created":"2025-03-11T13:10:21.541-04:00","updated":"2025-03-26T00:07:38.623-04:00"}
 ---
 
 

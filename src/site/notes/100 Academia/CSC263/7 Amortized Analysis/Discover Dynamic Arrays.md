@@ -112,4 +112,4 @@ $$
 >         - The whole point of this application is to be able to handle insertion into arrays of any length
 > - ? What do we do instead?
 
-During this week’s lectures, we will learn about [[000 Notes/Amortized Analysis\|amortized analysis]] and explore a few basic techniques in this area.
+During this week’s lectures, we will learn about [[100 Academia/CSC263/7 Amortized Analysis/Amortized Analysis\|amortized analysis]] and explore a few basic techniques in this area.
