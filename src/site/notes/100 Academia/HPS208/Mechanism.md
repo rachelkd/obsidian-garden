@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/HPS208/Mechanism.md","permalink":"/academia/hps-208/mechanism/","tags":["hps","lecture","note","university"],"created":"2025-03-08T16:09:57.913-05:00","updated":"2025-03-15T18:10:37.581-04:00"}
+{"dg-publish":true,"dg-path":"academia/HPS208/Mechanism.md","permalink":"/academia/hps-208/mechanism/","tags":["hps","lecture","note","university"],"created":"2025-03-08T16:09:57.913-05:00","updated":"2025-03-26T03:20:02.785-04:00"}
 ---
 
 

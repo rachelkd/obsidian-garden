@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/7 Amortized Analysis/Amortized Analysis.md","permalink":"/academia/csc-263/7-amortized-analysis/amortized-analysis/","tags":["cs","lecture","note","university"],"created":"2025-03-25T02:59:20.936-04:00","updated":"2025-03-26T01:51:17.460-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/7 Amortized Analysis/Amortized Analysis.md","permalink":"/academia/csc-263/7-amortized-analysis/amortized-analysis/","tags":["cs","lecture","note","university"],"created":"2025-03-25T02:59:20.936-04:00","updated":"2025-03-27T21:16:31.637-04:00"}
 ---
 
 
@@ -48,7 +48,7 @@
 Suppose we are counting up with a binary counter.
 
 - ? When does 1‘s digit get flipped?
-    - $m$; every time
+    - $m$, every time
 - ? When does the 2’s digit get flipped?
     - $\frac{m}{2}$
 - ? When does the 4‘s digit get flipped?
