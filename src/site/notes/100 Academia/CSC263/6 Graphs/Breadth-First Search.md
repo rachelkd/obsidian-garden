@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-06T23:04:57.968-05:00"}
+{"dg-publish":true,"dg-path":"academia/CSC263/6 Graphs/Breadth-First Search.md","permalink":"/academia/csc-263/6-graphs/breadth-first-search/","tags":["cs","lecture","note","university"],"created":"2025-03-06T03:00:19.721-05:00","updated":"2025-03-27T22:19:16.052-04:00"}
 ---
 
 
@@ -121,7 +121,7 @@ BFS(G, s):
                 v.d = u.d + 1  # v is "1-level" farther from s than u
                 v.p = u
                 Enqueue(Q, v)
-            u.colour = Black  # u is explored as all its neighbours have been encountered
+        u.colour = Black  # u is explored as all its neighbours have been encountered
 ```
 { #6434ac}
 
@@ -338,7 +338,7 @@ BFS(G, s):
                 v.d = u.d + 1  # v is "1-level" farther from s than u
                 v.p = u
                 Enqueue(Q, v)
-            u.colour = Black  # u is explored as all its neighbours have been encountered
+        u.colour = Black  # u is explored as all its neighbours have been encountered
 ```
 
 </div></div>
