@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Shell Programming.md","permalink":"/academia/csc-209/3-advanced-features-of-c/shell-programming/","tags":["cs","lecture","note","university"],"created":"2025-03-24T23:50:25.943-04:00","updated":"2025-04-02T21:50:42.655-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC209/3 Advanced Features of C/Shell Programming.md","permalink":"/academia/csc-209/3-advanced-features-of-c/shell-programming/","tags":["cs","lecture","note","university"],"created":"2025-03-24T23:50:25.943-04:00","updated":"2025-04-03T00:21:34.541-04:00"}
 ---
 
 
@@ -22,8 +22,9 @@
     - Terminal program runs a *shell*
 
 > [!info]+ The **shell** is a big loop.
+>
 > - Prints a prompt
->     - Traditionally `$ `
+>     - Traditionally `$`
 > - → Reads a command
 > - → Parses the command
 > - → Executes the command
@@ -58,6 +59,7 @@
 ### Command-line Substitutions
 
 > [!info]+ When shell parses command-line, it performs many **command-line substitutions**
+>
 > - e.g., File name wildcards are substituted for the matching list of file names by the shell
 >     - Before executing command!
 
@@ -119,8 +121,8 @@ a.c b.c
     - Command-line substitutions are involved in using variables
 
 ```sh
-$ i=3
-$ i = 3
+i=3
+i = 3
 ```
 
 - Assignment statement
@@ -193,6 +195,7 @@ cat: 4: No such file or directory
 ![](https://i.imgur.com/JFIYAK6.png)
 
 > [!question]+ How do we apply this to `i`, to add `1` to `i` and put it back into `i`?
+>
 > - Need another category of command-line substitutions
 >     - Invoked with the character backquote \`
 >     - & What is inside backquotes is interpreted as a command from scratch
@@ -203,7 +206,7 @@ cat: 4: No such file or directory
 ### Backquotes \`
 
 ```sh
-$ i=`expr 4 + 1`
+i=`expr 4 + 1`
 ```
 
 - Runs `expr` command
@@ -217,13 +220,13 @@ $ i=`expr 4 + 1`
 - ? How to increment `i` again?
 
 ```sh
-$ i=`expr 5 + 1`
+i=`expr 5 + 1`
 ```
 
 More generally,
 
 ```sh
-$ i=`expr $i + 1`
+i=`expr $i + 1`
 ```
 
 - Shell executes `expr`
@@ -237,6 +240,7 @@ $ i=`expr $i + 1`
 ![](https://i.imgur.com/PCd1ZIp.png)
 
 > [!important]+
+>
 > - `expr $i + 1`
 >     - Separate command
 >     - Executes that commands
@@ -277,10 +281,12 @@ bar baz
     - Subsequent variables are assigned to be the *empty string*
 
 > [!info]+ Your `sh` program can include any `sh` command — including any useful little utilities you write in C
+>
 > - Common for a complex package to include some C code and some shell scripts
 >     - Shell scripts invoke C program as needed
 
 > [!question]+ Where does the shell find these commands?
+>
 > - & Looks for a list of directories specified by `PATH`
 
 ### `PATH`
@@ -298,6 +304,7 @@ bar baz
 
 > [!question]+ Question 1a
 > Assume the following code fragment has executed:
+>
 > ```
 > d=31
 > ```
@@ -335,12 +342,14 @@ bar baz
         - `grep ern students` fails
 
 > [!question]+ How do we tell when a command succeeds or fails?
+>
 > - For interactive explorations:
 >     - & Special variable `$?`
 >         - Tells us the exit status of the last command
 >
 > > [!tip]+ Use `echo $?` to see value of this variable
 > > In Unix,
+> >
 > > - `0` is success exit status
 > > - Anything non-zero indicates a failure
 
@@ -388,6 +397,7 @@ We have:
     - % To make it uniquely parsable, we have to put `then` on the next line
 
 > [!note]+ Most normal modern programming languages are *free-format*
+>
 > - Any white space counts as the same
 >     - Spaces, tabs, newlines
 > - ! Python is not like that
@@ -408,7 +418,7 @@ We have:
     - General testing command
     - Exists for this purpose
     - Produces no output
-    - But *succeeds* because $2 < 3$ is true
+    - But $2 < 3$ is true
 
 ![](https://i.imgur.com/1ItaiVn.png)
 
@@ -446,6 +456,7 @@ if [ $x -lt 3 ]
             - No output → Files are identical
 
 > [!important]+ You can write test, or you can writ `[`
+>
 > - & But what follows `if` is a **command**
 >     - Command is executed and has all the effects it has from executing
 > - & Success or failure exit status determines whether we take then `then` or the `else` clause in the `if`
@@ -606,6 +617,7 @@ fi
 - Also gets error-prone
 
 > [!tip]+ Special combined else-if keyword
+>
 > - `elif`
 > - Combined else-if keyword does *not* introduce an additional nesting level
 >     - → Only have one `fi` on the end
@@ -641,7 +653,7 @@ Do not do this:
 ```sh
 foo
 if test $? -eq 0
-then 
+then
     something
 fi
 ```
@@ -689,6 +701,7 @@ fi
         - Preface with `$` e.g., `$ls`
 
 > [!abstract]+ Good compromise for something which is both a programming language and the way we type commands daily
+>
 > - But it has some odd consequences
 > - ! Need a way to *suppress* the special interpretation of interesting characters
 
@@ -701,6 +714,7 @@ print 'To forward your mail to user@host, type:  echo user@host >.forward'
 ```
 
 > [!danger]+ In `sh`, we cannot just type `echo Fwd to user@host, type:  echo user@host >.forward`.
+>
 > - Output went into file `.forward`
 
 ![](https://i.imgur.com/AmiwnMJ.png)
@@ -765,22 +779,23 @@ Suppose we have a file named `hello world`, with a space in the file name.
     - & → Have to use quotes
 
 ```sh
-$ cat 'hello world'
+cat 'hello world'
 ```
 
 > [!warning]+ If we wanted to use the variable, we cannot write `cat $filename`
+>
 > - Shell interpolates the variable value
 > - Takes the spaces as separating arguments
 
 ```sh
-$ cat '$filename'
+cat '$filename'
 ```
 
 - Single quotes suppress too much
 - & → Want to use double quotes
 
 ```sh
-$ cat "$filename"
+cat "$filename"
 ```
 
 - Double quotes
@@ -819,11 +834,11 @@ $ seq 1 4
     - Using backquotes \`
 
 ```sh
-$ for i in `seq 1 4`
+for i in `seq 1 4`
 ```
 
 - Runs `seq 1 4`
-- `seq`‘s output will be captured
+- `seq`’s output will be captured
 - Output will be substituted in the command line
 - Will be the same as writing `for i in 1 2 3 4`
 
@@ -867,8 +882,250 @@ $ for i in `seq 1 4`
 
 ## Video 4
 
+### File Descriptors
+
 > [!info]+ A running program in Unix has a certain set of *open files* at any one time.
+>
 > - Open files are identified by small *integers*
 >     - **File descriptors**
 
-- Normally. when program is started
+- Normally. when program is started:
+    - Already has *three* files open
+
+> [!question]+ What file descriptor do most programs *read* from?
+>
+> - File descriptor 0
+> - i.e., **standard input**
+
+> [!question]+ What file descriptor do most programs *write* to?
+>
+> - File descriptor 1
+> - i.e., **standard output**
+
+- & Terminal in Unix is also a file
+    - By default:
+        - These two files are both the terminal
+    - When program reads input from standard input:
+        - Reads from terminal
+    - When outputs on standard output:
+        - Writes to terminal
+
+### I/O Redirection
+
+- & Input and output can be *redirected*
+
+```bash
+foo <file1 >file2
+bar >>file2
+```
+
+- Shell opens file `file1` for *input* on file descriptor 0
+    - Opens file `file2` for output on file descriptor 1
+- % Happens all before shell executes program named `foo`
+
+> [!idea]+ Think of the operators as arrows
+>
+> - `<`: **direct in**
+> - `>`: **direct out**
+
+> [!info]+ `>>`
+>
+> - Opens the file for **append**
+>     - Instead of overwrite
+
+- Command runs `bar` with its output redirected to `file2`, but appending to what is already there in `file2`
+
+#### `<<`
+
+![](https://i.imgur.com/LTLZpKD.png)
+
+- **`<<`**
+    - Takes input right from shell script text
+- $ Command outputs `7`
+    - 7 lines as counted by the `wc -l` command
+- % `<<` is followed by an **arbitrary token**
+    - When it appears later — alone on a line
+    - → Terminates the input
+    - Called the **here-is** or **here** test
+
+> [!important]+ `<< EOF … EOF`
+>
+> - Dollar signs and backquotes inside the here-is text are **interpreted**
+>     - Just like inside double quotes
+
+- To get behaviour more like single quotes:
+    - Quote the original mention of the end-of-file word like this:
+        - `wc -l <<\EOF`
+        - % Any dollar signs or backslashes or backquotes inside the here-is text are taken literally
+            - Do not have their special meaning
+- % Bash shell also has triple-character redirection operations
+    - ! Should not be used because resulting program will then not work under other versions of sh
+
+#### Standard Error
+
+- Third file is open on file descriptor 2
+    - Open for output
+    - Also connected to terminal by default
+        - Like file descriptor 1
+    - Called **standard error**
+        - & Used for error messages
+- ? Why have two standard file descriptors for output?
+    - Consider `cat file | grep blof`
+        - If file exists, but does not contain string `blof`:
+            - No output
+        - If file does not exist or is unreadable:
+            - `cat` will give an error message
+        - & Do not want this error message to go down to the pipe
+            - Where `grep` will read and discard it because it does not contain the string `blof`
+        - ! Need to see this error message on the terminal
+            - → Want this error message to bypass the pipe
+    - & → Write error messages to file descriptor 2 — standard error channel
+        - Instead of FD 1
+        - Which is mixed in with normal output
+- When you redirect standard output:
+    - (with a pipe `|` or redirect into file with `>`)
+    - & Messages to standard error will still be seen on screen
+        - Rather than going into the pipe or into file on disk
+
+### Managing File Descriptors in Shell
+
+![](https://i.imgur.com/hxc6sh2.png)
+
+- & Can manage file descriptors fully in the shell
+- `cat >file`
+    - Redirects file descriptor 1 into file
+- ? How to redirect file descriptor 2?
+    - `cat 2>file`
+
+> [!important]+ Must be no space between `2` and `>`
+>
+> - → Still possible to do `cat 2 >file`
+>     - Cats a file named 2 and redirects standard output to file
+> - Whereas `cat 2>file` runs cat with no arguments but with file descriptor 2 redirected into the file
+>     - File descriptor 1 left as is
+
+- Can also do both for same command
+    - e.g., `cmd >file1 2>file2`
+- Can also redirect file descriptors to each other
+- To specify which file descriptor to redirect:
+    - Put number on left of symbol
+- To redirect *to* a file descriptor:
+    - Put number on the right of the symbol, prefaced by `&`
+    - e.g., `foo >&2`
+        - Redirect standard output to standard error
+
+### Command-line Arguments
+
+![](https://i.imgur.com/p8xozvO.png)
+
+- Consider `cat file`:
+    - `file` is an argument to `cat`
+    - `cat` program has to be able to get that string to be able to open the appropriate file
+- ? How does shell script get the two command-line arguments?
+    - `$` followed by a single character for special variable name
+        - e.g., `$1`, `$2`
+    - Can only go up to `$9`
+        - % If we are going that high, we would want to be doing this in a loop anyway
+
+<!-- break -->
+- @ Check if user supplied enough arguments before you start accessing them
+
+![](https://i.imgur.com/hkHYDEq.png)
+
+> [!tip]+ Access name of program by using argument zero `$0`
+> ![](https://i.imgur.com/xfBKMqL.png)
+>
+> - % Can also do this in C
+
+> [!question]+ How do we access all arguments?
+>
+> - Special variable `$*`
+>
+> ![](https://i.imgur.com/u7kaEcO.png)
+
+> [!warning]+ When argument is interpolated with `$*`, there is *no* quoting
+>
+> - Space still separates the words
+> ![](https://i.imgur.com/PH85Vl1.png)
+
+- Double quotes allow interpretation of `$` while suppressing interpretation of space
+    - -> Creates a conflict:
+        - Sometimes need to avoid quotes
+            - To preserve argument separation
+        - Sometimes need quotes
+            - To preserve spaces in file names
+
+#### `$@` Syntax
+
+> [!important]+ `$@` solves this problem
+>
+> - Outside double quotes:
+>     - `$@` behaves exactly like `$*`
+> - Inside double quotes:
+>     - Double quotes are considered to cease between arguments, while still operating within each argument
+
+![](https://i.imgur.com/NP2jqPi.png)
+
+> [!tip]+ Use `$@` inside double quotes when we want to pass all command-line arguments to another program.
+
+#### Processing Command-Line Arguments
+
+- Loops aren’t always needed for command-line argument processing
+- Good practice:
+    - & Leverage existing tools rather than writing custom code
+- Many shell scripts take the form:
+    - & `cat "$@" | …`
+- Processes zero or more filename arguments without loops
+- Handles zero-filename case correctly (reads standard input)
+
+![](https://i.imgur.com/wX4h0gi.png)
+
+#### Simplified For-Loop for Arguments
+
+```sh
+for variable
+do
+    commands
+done
+```
+
+- Implicitly loops through all command-line arguments
+
+#### `shift` Command
+
+> [!info]+ `shift` moves all command-line arguments down one position
+>
+> - `$3` becomes `$2`
+> - `$2` becomes `$1`
+> - `$1` is discarded
+
+- Useful when “consuming” arguments in a loop
+- Example: Processing a category name followed by filenames:
+
+  ```sh
+  category="$1"
+  shift
+  cat-$category "$@"
+  ```
+
+- After `shift`, `"$@"` contains all remaining arguments
+
+#### Special Variable Interpolation
+
+- `${variable}` syntax allows unambiguous variable interpolation
+- Same meaning as `$variable` but useful in specific cases
+- Example with `sed`:
+
+  ```sh
+  # This doesn't work - "ip" is treated as variable name
+  sed -n $ip file
+
+  # This works - "i" is the variable name, followed by "p"
+  sed -n ${i}p file
+  ```
+
+#### Comments in Shell Scripts
+
+> [!tip]+ The comment character in `sh` is the number sign (`#`)
+>
+> - Comments extend to the end of the line

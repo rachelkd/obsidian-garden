@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/7 Surface Integrals and The Divergence Theorem/Coordinates and Parametrized Surfaces.md","permalink":"/academia/mat-235/7-surface-integrals-and-the-divergence-theorem/coordinates-and-parametrized-surfaces/","tags":["lecture","math","note","university"],"created":"2025-03-14T00:16:44.523-04:00","updated":"2025-03-14T16:40:23.603-04:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/7 Surface Integrals and The Divergence Theorem/Coordinates and Parametrized Surfaces.md","permalink":"/academia/mat-235/7-surface-integrals-and-the-divergence-theorem/coordinates-and-parametrized-surfaces/","tags":["lecture","math","note","university"],"created":"2025-03-14T00:16:44.523-04:00","updated":"2025-04-09T04:26:45.938-04:00"}
 ---
 
 
@@ -66,7 +66,7 @@ In [[100 Academia/MAT235/5 Double and Triple Integrals/Double Integrals in Polar
     - Same circle in the $xy$-plane has parametric equations $$x = \cos t, \quad y = \sin t, \quad z = 0$$
     - Add $z = 0$ equation to specify that circle is in the $xy$-plane
     - ? What if we want circle in the plane $z = 3$?
-        - Use equations $$x = \cos t,\;y = \sin t,\;z = 3$$
+        - Use equations $$x = \cos t,\quad y = \sin t,\quad z = 3$$
     - ? What if we let $z$ vary freely, as well as $t$?
         - & Circles in every horizontal plane
         - Forms a cylinder
@@ -211,3 +211,189 @@ Recall the [[100 Academia/MAT235/5 Double and Triple Integrals/Integrals in Cyli
 ![](https://i.imgur.com/qzsLyB9.png)
 
 *Figure 21.6: Parameterizing the sphere by $\phi$ and $θ$*
+
+### Parameterizing a Sphere Using Spherical Coordinates
+
+> [!info]+ Sphere with radius 1 centered at the origin is parameterized by
+> $$x = \sin \phi \cos \theta, \quad y = \sin \phi \sin \theta, \quad z = \cos \phi,$$
+> where $0 \leq \theta \leq 2\pi$ and $0 \leq \phi \leq \pi$
+>
+> ![](https://i.imgur.com/X7zi5DC.png)
+>
+> *Figure 21.8: The relationship between $x, y, z$ and $ϕ, θ$ on a sphere of radius $1$*
+>
+> > [!note]+ We can also write these equations in vector form
+> > $$\vec{r}(\theta, \phi) = \sin \phi \cos \theta \vec{i} + \sin \phi \sin \theta \vec{j} + \cos \phi \vec{k}$$
+
+Then,
+$$
+\begin{align}
+x^{2} + y^{2} + z ^{2}  & = \sin ^{2}\phi(\cos ^{2}\theta + \sin ^{2}\theta) + \cos ^{2}\phi \\
+ & = \sin ^{2}\phi + \cos ^{2}\phi \\
+ & = 1
+\end{align}
+$$
+- $ Verifies that the point with position vector $\vec{r}(\theta,\phi)$ lies on the sphere of radius 1
+- $ Notice that $z$-coordinate depends only on the parameter $\phi$
+    - → All points on the same *latitude* have the same $z$-coordinate
+
+> [!example]+ Example 5
+> Find parametric equations for the following spheres:
+> 1. Center at origin and radius 2
+> 2. Center at point with Cartesian coordinates $(2, -1, 3)$ and radius 2
+>
+> > [!check]+ Solution
+> >
+> > > [!note]+ 1
+> > > - Must scale distance from origin by 2
+> > >
+> > > $$x = 2 \sin \phi \cos \theta, \quad y = 2 \sin \phi \sin \theta, z = 2 \cos \phi,$$
+> > > where $0\leq 2 \leq 2\pi$ and $0 \leq \phi \leq \pi$.
+> > > In vector form:
+> > > $$\vec{r}(\theta, \phi) = 2 \sin \phi \cos \theta \vec{i} + 2 \sin \phi \sin \theta \vec{j} + 2 \cos \phi \vec{k}$$
+> >
+> > > [!note]+ 2
+> > > - To shift center of sphere from origin to point $(2, -1, 3)$:
+> > >     - Add vector parameterization we found in part 1. to position vector of $(2, -1, 3)$
+> > >
+> > > $$
+> > > \begin{align}
+> > > \vec{r}(\theta, \phi) & = 2 \vec{i} - \vec{j} + 3\vec{k} + (2 \sin \phi \cos \theta \vec{i} + 2 \sin \phi \sin \theta \vec{j} + 2 \cos \phi \vec{k}) \\
+> > > & =(2 + 2 \sin \phi \cos \theta) \vec{i} + (-1 + 2 \sin \phi \sin \theta) \vec{k} + (3 + 2 \cos \phi) \vec{k},
+> > >\end{align}
+> > > $$
+> > > where $0 \leq \theta \leq 2\pi$ and $0 \leq \phi \leq \pi$.
+> > > Alternatively,
+> > > $$x = 2 + 2 \sin \phi \cos \theta, \quad y = - 1 + 2 \sin \phi \sin \theta, \quad z = 3 + 2 \cos \phi.$$
+> > >
+> > > ![](https://i.imgur.com/zFkxoen.png)
+> > > *Figure 21.9: Sphere with center at the point $(2, –1, 3)$ and radius 2*
+
+## Parameterizing Surfaces of Revolution
+
+- Many surfaces have an axis of rotational symmetry and circular cross sections perpendicular to that axis
+    - & Surfaces are referred to as **surfaces of revolution**
+
+> [!example]+ Example 6
+> Find a parameterization of the cone whose base is the circle $x^{2} + y^{2} = a^{2}$ in the $xy$-plane and whose vertex is at height $h$ above the $xy$-plane.
+>
+> ![](https://i.imgur.com/Qs0qcFw.png)
+>
+> *Figure 21.10: The cone whose base is the circle $x^{2} + y^{2} = a^{2}$ in the $xy$-plane and whose vertex is at the point $(0, 0, h)$ and the vertical cross section through the cone*
+>
+> > [!check]+ Solution
+> > - Use cylindrical coordinates $r, \theta, z$
+> > - In $xy$-plane:
+> >     - Radius vector $\vec{r}_{0}$ from $z$-axis to a point on the cone in the $xy$-plane is $$\vec{r}_{0} = a \cos \theta \vec{i} + a \sin \theta \vec{j}$$
+> > - Above $xy$-plane:
+> >     - Radius of the circular cross section $r$ decreases linearly from $r = a$ when $z = 0$ to $r = 0$ when $z = h$
+> >     - By similar triangles: $$\frac{a}{h} = \frac{r}{h - z}$$
+> > - Solving for $r$: $$r = \left( 1 - \frac{z}{h} \right) a$$
+> > - Horizontal radius vector $\vec{r}_{1}$ at height $z$ has components similar to $\vec{r}_{0}$
+> >     - ! But with $a$ replaced by $r$
+> > $$\vec{r}_{1} = r \cos \theta \vec{i} + r \sin \theta \vec{j} = \left( 1 - \frac{z}{h} \right) a \cos \theta \vec{i} + \left( 1 - \frac{z}{h} \right) a \sin \theta \vec{j}$$
+> > - As $\theta$ goes from $0 \to 2\pi$:
+> >     - $\vec{r}_{1}$ traces out the horizontal circle in Figure 21.10
+> >     - → Get the position vector $\vec{r}$ of a point on the cone by adding the vector $z\vec{k}$
+> >
+> > Then, we get:
+> > $$\vec{r} = \vec{r}_{1} + z\vec{k} = a \left( 1 - \frac{z}{h} \right) \cos \theta \vec{i} + a \left( 1 - \frac{z}{h} \right) \sin \theta \vec{j} + z\vec{k},$$
+> > for $0 \leq z \leq h$ and $0 \leq \theta \leq 2\pi$
+> > These equations can be written as:
+> > $$x = \left( 1 - \frac{z}{h} \right) a \cos \theta, \quad y = \left( 1 - \frac{z}{h} \right) a \sin \theta, \quad z = z$$
+> > The parameters are $\theta$ and $z$.
+
+> [!example]+ Example 7
+> Consider the bell of a trumpet. A model for the radius $z = f(x)$ of the horn (in cm) at a distance $x$ cm from the large open end is given by the function
+> $$f(x) = \frac{6}{(x + 1)^{0.7}}.$$
+> The bell is obtained by rotating the graph of $f$ about the $x$-axis. Find a parameterization for the first 24 cm of the bell.
+>
+> ![](https://i.imgur.com/efnPsk6.png)
+> *Figure 21.11: The bell of a trumpet obtained by rotating the graph of $z = f(x)$ about the $x$-axis*
+>
+> > [!check]+ Solution
+> > - At distance $x$ from large open end of horn:
+> >     - Cross section parallel to the $yz$-plane is a *circle* of radius $f(x)$ with center on $x$-axis
+> >     - Such a circle can be parameterized by $$y = f(x) \cos \theta, \quad z = f(x) \sin \theta$$
+> >
+> > Thus, we have the parameterization
+> > $$x = x, \quad y = \left( \frac{6}{(x + 1)^{0.7}} \right) \cos \theta, \quad z = \left( \frac{6}{(x + 1)^{0.7}} \right) \sin \theta, \quad 0 \leq x \leq 24, \quad 0 \leq \theta \leq 2\pi.$$
+> > The parameters are $x$ and $\theta$.
+
+## Parameter Curves
+
+> [!def]+ Parameter cruves
+> On a *parameterized surface*, the curve obtained by setting one of the parameters equal to a *constant* and letting the other vary is called a **parameter curve**.
+
+> [!info]+ Families of parameterized curves
+> If surface is parameterized by:
+> $$
+> \vec{r}(s, t) = f_{1}(s, t) \vec{i} + f_{2}(s, t) \vec{j} + f_{3}(s, t) \vec{k},
+> $$
+> there are *two* families of parameter curves on the surface: one family with $t$ constant and the other with $s$ constant.
+
+> [!example]+ Example 8
+> Consider the vertical cylinder:
+> $$x = \cos t, \quad y = \sin t, \quad z = z.$$
+>
+> 1. Describe the two parameter curves through the point $(0, 1, 1)$.
+> 2. Describe the family for parameter curves with $t$ constant and the family with $z$ constant
+>
+> > [!success]+ 1
+> > - Point $(0, 1, 1)$ corresponds to the parameter values $t = \frac{\pi}{2}$ and $z = 1$
+> > - → There are two parameter curves
+> >     - One with $t = \frac{\pi}{2}$
+> >     - One with $z = 1$
+> > - Parameter curve with $t = \frac{\pi}{2}$ has the parametric equations $$x = \cos\left( \frac{\pi}{2} \right) = 0, \quad y = \sin \left( \frac{\pi}{2} \right) = 1, z = z,$$with parameter $z$
+> >     - $ Line through the point $(0, 1, 1)$ parallel to the $z$-axis
+> > - Parameter curve with $z = 1$ has parametric equations $$x = \cos t, \quad y = \sin t, \quad z = 1,$$with parameter $t$
+> >     - $ Unit circle parallel to and one unit above the $xy$-plane centered on the $z$-axis
+>
+> > [!check]+ 2
+> > - Fix $t = t_{0}$ for $t$ and let $z$ vary
+> >     - Curves parameterized by $z$ have equations $$x = \cos t_{0}, \quad y = \sin t_{0}, z=z.$$
+> >         - $ Vertical lines on the cylinder parallel to the $z$-axis
+> >             - ![](https://i.imgur.com/7b5hkPA.png)
+> >             *Figure 21.12: The family of parameter curves with $t = t_{0}$ for the cylinder $x = \cos t, y = \sin t, z = z$*
+> > - Fix $z = z_{0}$ and let $t$ vary
+> >     - Curves in this family are parameterized by $t$ and have equations $$x = \cos t, \quad y = \sin t, \quad z = z_{0}$$
+> >         - $ Circles of radius 1 parallel to the $xy$-plane centered on the $z$-axis
+> >             - ![](https://i.imgur.com/lUhYy9N.png)
+> >               *Figure 21.13: The family of parameter curves with $z = z_{0}$ for the cylinder $x = \cos t, y = \sin t, z = z$*
+
+> [!example]+ Example 9
+> Describe the families of parameter curves with $\theta = \theta_{0}$ and $\phi = \phi_{0}$ for the sphere
+> $$x = \sin \phi \cos \theta, \quad y = \sin \phi \sin \theta, \quad z = \cos \phi,$$
+> where $0 \leq \theta \leq 2\pi, 0 \leq \phi \leq \pi$.
+>
+> > [!check]+ Solution
+> > - $\phi$ measures latitude
+> >     - → Family with $\phi$ constant consists of circles of constant latitude
+> >         - ![](https://i.imgur.com/ZVpytPc.png)
+> >           *Figure 21.14: The family of parameter curves with $ϕ = \phi_{0}$ for the sphere parameterized by $(θ, ϕ)$*
+> > - Family with $\theta$ constant consists of the meridians (*semicircles*) running between the north and south poles
+> >     - ![](https://i.imgur.com/kO3w71S.png)
+> >       *Figure 21.15: The family of parameter curves with $θ = \theta_{0}$ for the sphere parameterized by $(θ, ϕ)$*
+
+## Summary
+
+- **Parameterized surfaces**
+    - In general:
+        - Express coordinates $(x, y, z)$ of a point on a *surface* $S$ in terms of *two* parameters, $s$ and $t$:$$x = f_{1}(s, t), \quad y = f_{2}(s, t), \quad z = f_{3}(s, t)$$
+- Using the **position vector**:
+- Can express a parameterization for a general surface $S$ as:$$\vec{r}(s, t) = f_{1}(s, t) \vec{i} + f_{2}(s, t) \vec{j} + f_{3}(s, t) \vec{k}$$
+
+> [!example]+ Examples of parameterized surfaces
+> - **Surface of the form $z = f(x, y)$**
+>     - Can be parameterized by $x = s, y = t, z = f(s, t)$
+> - **Plane** through the point with position vector $\vec{r}_{0}$ and containing the two nonparallel vectors $\vec{v}_{1}, \vec{v}_{2}$
+>     - Can be parameterized by $\vec{r}(s, t) = \vec{r}_{0} + s\vec{v}_{1} + t\vec{v}_{2}$
+> - **Cylinder** with radius 1 centered around the origin
+>     - Can be parameterized by $x = \cos t, y = \sin t, z = z$
+>         - $0 \leq t \leq 2\pi$ and $-\infty < z < \infty$
+> - **Sphere** with radius 1 centered at origin
+>     - Can be parameterized by $x = \sin \phi \cos \theta, y = \sin \phi \sin \theta, z = \cos \phi$
+>         - $0 \leq \theta \leq 2\pi$ and $0 \leq \phi \leq \pi$
+
+- **Parameter curves**
+    - Curve obtained by setting one of the parameters equal to a constant and letting other vary
