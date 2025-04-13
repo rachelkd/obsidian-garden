@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly Language Instructions.md","permalink":"/academia/csc-258/7-assembly-language/assembly-language-instructions/","tags":["cs","lecture","note","university"],"created":"2025-03-17T15:09:56.191-04:00","updated":"2025-03-24T23:48:25.663-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly Language Instructions.md","permalink":"/academia/csc-258/7-assembly-language/assembly-language-instructions/","tags":["cs","lecture","note","university"],"created":"2025-03-17T15:09:56.191-04:00","updated":"2025-04-12T01:52:32.115-04:00"}
 ---
 
 
@@ -161,7 +161,8 @@
     - Pad upper bits with 0 value
 - ? How to do NOT?
     - Use `nor` to do a NOT operation
-    - `X nor 1`
+    - `X nor 0` $= \neg(A + 0) = \neg A$
+    - `X nor X` $= \neg(A + A)$
 - % These are all *bitwise* operations
 
 ## Shift Instructions
@@ -461,7 +462,7 @@ jalr $t0
         - & $\therefore$ No point in storing the last two bits of the address in the instruction
 
 > [!check]+ Solution
-> User the 26 bits in the J-type instructions to store the new PC address, minus the last two zeroes at the end
+> Use the 26 bits in the J-type instructions to store the new PC address, minus the last two zeroes at the end
 
 - Now, we have 28 bits
     - Still not 32!
@@ -547,3 +548,180 @@ jalr $t0
 > [!tip]+ Branch operations are key when implementing `if` statements and `while` loops
 > - **Labels** are (addresses of) memory locations
 >     - Assigned to each label at compiled time
+
+> [!question]+ How does a branch instruction work?
+> ![](https://i.imgur.com/FXNXuSL.png)
+>
+> - Used to produce `if` statement behaviour
+> - If `$t0 == $t1`:
+>     - Go down to `end` label and execute code there
+> - Code right below `beq` handles what happens if they are *not* equal to each other
+> Alternate implementation using `bne`:
+> ![](https://i.imgur.com/3aNWSEB.png)
+> - Now does it the opposite way
+> - If `$t0 == $t1`:
+>     - Continue executing code right below `bne`
+> - Otherwise:
+>     - Code to execute is below where `end` label is
+
+### Branch’s Immediate (`i`) Value
+
+> [!question]+ How does a branch instruction get translated into machine code?
+
+![](https://i.imgur.com/juK4fd9.png)
+
+> [!info]+ Branch statements are **I-type instructions**
+> - % Different from the I-type instructions seen so far
+>     - Have been looking at I-type in an arithmetic context
+>         - `i` is the immediate, constant value which is added/subtracted/whatever to a register value
+>         - Something that is put into ALU to do an arithmetic operation
+> - & There is still an arithmetic computation happening
+>     - Now: `i` stores an *offset*
+
+> [!info]+ The immediate value `i` is a 16-bit **offset**
+> - i.e., ==*relative address* to *add to the current instruction*== if branch condition is satisfied
+>     - How much further in memory do I go from where the program counter currently is?
+> - ==Not the absolute address== (like with jumps)
+
+- & Calculated as the difference between the current PC value and address of the instruction you are branching to
+    - & Stored here as *# of instructions*
+        - Not # of bytes
+        - Instead: the difference in instructions
+            - How many instructions you want to go forward or back
+        - ? What is the difference between instructions and bytes?
+            - & One instruction is *4 bytes*
+                - e.g., if `i` is 4, then you go forward 4 instructions
+                    - Equal to 16 bytes
+    - & Does not store the trailing `00` if it is not necessary
+        - Similar to jump instructions
+        - Want to be able to go forwards or backwards some distance
+        - If you know that you are always going by a certain number of instructions
+            - Distance is always 4, 8, 12, 16 bytes
+                - A certain multiple of four
+            - Do not want to waste 2 bits storing `00`
+        - In the architecture:
+            - Right before going to ALU, there is a shift left by 2
+                - A mechanism in the datapath
+            - Used whenever trying to add this offset to PC
+            - If you branch by 1 instruction, the immediate value `i` would be 1
+                - After shifting left by 2 bits, the processor calculates a byte offset of 4
+                - → Moving the program counter to the next instruction
+- & `i` value can be *positive* or *negative*
+    - If you are jumping `i` instructions forward, or
+    - Jumping `i` instructions backward, respectively
+- % Number of instructions is the same as the *number of lines*
+    - Every line is occupied by a single instruction
+    - Can say how many lines forward you want to go
+    - Basically what is stored in the `i` value
+
+#### Calculating the `i` Value
+
+- Offset is computed differently *depending* on the implementation
+    - i.e., if PC is incremented by 4 *before* or *after* the branch offset calculation
+- Can either:
+    - Calculate distance by saying what is the location we are going to *minus* label location we are at right now
+        - Take that and distance will be measured in bytes
+        - (Arithmetic) shift right by 2 to get number of instructions, or
+    -  Look at the label of the next instruction (current PC + 4)
+        - Assume that we are going to the next instruction
+        - For calculating a branch:
+            - Subtract next instruction from label location we are going to
+
+> [!summary]+ Calculating the `i` value
+> - If PC is incremented first (and branch target address is relative to current PC):
+>     - `i = (label location - (current PC)) >> 2`
+> - If branch offset is calculated first (and relative to incremented PC):
+>     - `i = (label location - (current PC + 4)) >> 2`
+
+> [!note]+ Assumption for this course
+> `i` is computed as
+> ```assembly
+> i = (label - (current PC)) >> 2
+> ```
+> - Corresponds to simulator we use for course (MARS, Saturn)
+
+#### `i` In Simulation
+
+Use a simple program in MARS to confirm this:
+
+```assembly
+.text
+main:    addi $t0, $zero, 1
+         beq $t0, $zero, END  # Line 3
+         addi $t1, $zero, 1
+END:     addi $t3, $zero, 1
+```
+
+> [!question]+ What will `i` be for `beq`?
+> - When `beq` gets converted:
+>     - Converts value of `END` into an actual offset number
+> - `END` is *two* lines away
+>     - i.e., `END` is 2 instructions down from branch instruction
+> - In MARS:
+>     - 16 least significant bits of machine code instruction are $0000\,0000\,0000\,0010$
+
+> [!summary]+ This is the way these things store the value in machine code.
+> - First six bits are opcode for whatever branch instruction
+>     - Since all I-type instructions → first six bits are some non-zero value (reserved for R-type)
+> - Next 10 bits are for two register values
+>     - If instruction is `beq`:
+>         - Comparing two values
+>     - If `bgtz` for example:
+>         - Only needs one register
+> - Then, 16 bits at the end
+>     - Talking about an offset you need to add to current location to get to where you need to go if condition is satisfied
+
+### Conditional Branch Terms
+
+- The **branch is taken**
+    - When branch condition is met
+- The **branch is not taken**
+    - When branch condition is not met
+    - → Go to the next line
+    - ? What is the next PC in this case?
+        - The usual $\text{PC}+4$
+
+<!-- break -->
+- ? How far can a processor branch? Are there any constraints?
+    - Offset is 16 bits
+        - Split between going forwards and backwards
+        - i.e., signed
+    - & Can go forwards $2^{15} = 32,768$ instructions, or
+    - & Backwards $2^{15}$ instructions
+- ? How much is this in *bytes*?
+    - $2^{17}$ bytes forwards
+    - $2^{17}$ bytes backwards
+    - Bytes is just $4\times$ number of instructions
+
+## Comparison Instructions
+
+![](https://i.imgur.com/XN25Cm4.png)
+
+- Check to see if one register is greater than or less than another register
+    - Instead of having to compare if something is greater than zero or less than zero
+- Result gets put into a destination register
+- % Comparison operations store a `1` in the destination register if the less-than comparison is true
+    - Stores a zero in location otherwise
+- Useful in combination with branch instructions that only depend on one register
+    - e.g., `bgtz` (branch if something greater than zero — in this case, 1)
+- If you want to see if something is greater than or equal to a value:
+    - Can use one of these (in combination with `bgtz`), or
+    - Do a subtraction operation and then test and stop
+
+> [!note]+ There is a signal that goes to the program counter called `PCWrite`
+> - `PCWrite`
+>     - Writes a new value
+> - Another called `PCWriteConditional`
+>     - Writes a new value to the PC (calculated by ALU)
+>         - Only if particular condition you are testing ends up being satisfied
+
+- e.g., if you want to check if two things are equal:
+    - Processor takes both registers
+    - Puts it into ALU
+    - Subtracts one from the another
+        - (Calls a subtract operation)
+- Recall:
+    - & ALU has four signals: *overflow*, *carry*, *negative*, and *zero*
+    - Zero signal comes out of ALU and goes over into an AND gate with `PCWriteConditional`
+- If subtraction result is 0:
+    - Zero signal goes high

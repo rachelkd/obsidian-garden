@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/MAT235/7 Surface Integrals and The Divergence Theorem/Flux Integrals for Graphs, Cylinders, and Spheres.md","permalink":"/academia/mat-235/7-surface-integrals-and-the-divergence-theorem/flux-integrals-for-graphs-cylinders-and-spheres/","tags":["lecture","math","note","university"],"created":"2025-04-09T14:09:38.097-04:00","updated":"2025-04-10T04:18:39.729-04:00"}
+{"dg-publish":true,"dg-path":"academia/MAT235/7 Surface Integrals and The Divergence Theorem/Flux Integrals for Graphs, Cylinders, and Spheres.md","permalink":"/academia/mat-235/7-surface-integrals-and-the-divergence-theorem/flux-integrals-for-graphs-cylinders-and-spheres/","tags":["lecture","math","note","university"],"created":"2025-04-09T14:09:38.097-04:00","updated":"2025-04-10T04:28:18.748-04:00"}
 ---
 
 
@@ -281,8 +281,24 @@ $$
 
 > [!example]+ Example 2
 > Compute the surface area of a sphere of radius $a$.
-> 
+>
 > > [!check]+ Solution
 > > We take the sphere $S$ of a radius $a$ centered at the origin and parameterize it with the spherical coordinates $\phi$ and $\theta$.
 > > The parameterization is:
-> > $$x = a \sin \phi \cos \theta$$
+> > $$x = a \sin \phi \cos \theta, \quad y = a \sin \phi \sin \theta, \quad z = a \cos \phi, \quad \text{for } 0 \leq \theta \leq 2\pi, 0 \leq \phi \leq \phi$$
+> > We compute:
+> >
+> > $$
+> > \begin{align}
+> > \frac{ \partial \vec{r} }{ \partial \phi } \times \frac{ \partial \vec{r} }{ \partial \theta }  & = \left( a \cos \phi \cos \theta \vec{i} + a \cos \phi \sin \theta \vec{j} - a \sin \phi \vec{k} \right) \times \left( -a \sin \phi \sin \theta \vec{i} + a \sin \phi \cos \theta \vec{j} \right)  \\
+> >  & = a^{2} \left( \sin ^{2}\phi \cos \theta \vec{i} + \sin ^{2} \phi \sin \theta \vec{j} + \sin \phi \cos \phi \vec{k} \right) 
+> > \end{align}
+> > $$
+> > and so
+> > $$
+> > \left \| \frac{ \partial \vec{r} }{ \partial \phi } \times \frac{ \partial \vec{r} }{ \partial \theta } \right \| = a^{2} \sin \phi
+> > $$
+> > Thus, we see that the *surface area* of the sphere $S$ is given by
+> > $$
+> > \text{Surface area} = \int_{S}dA = \int_{R} \left \| \frac{ \partial \vec{r} }{ \partial \phi }  \times \frac{ \partial \vec{r} }{ \partial \theta } \right \| \, d\phi d \theta = \int_{\phi = 0}^{\pi} \int_{\theta = 0}^{2\pi} a^{2} \sin \phi \, d\theta \, d\phi = 4\pi a^{2}
+> > $$
