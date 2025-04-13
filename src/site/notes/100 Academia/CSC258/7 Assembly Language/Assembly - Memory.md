@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly - Memory.md","permalink":"/academia/csc-258/7-assembly-language/assembly-memory/","tags":["cs","lecture","note","university"],"created":"2025-04-12T02:43:34.782-04:00","updated":"2025-04-12T19:06:02.864-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Assembly - Memory.md","permalink":"/academia/csc-258/7-assembly-language/assembly-memory/","tags":["cs","lecture","note","university"],"created":"2025-04-12T02:43:34.782-04:00","updated":"2025-04-12T21:56:31.129-04:00"}
 ---
 
 
@@ -167,6 +167,8 @@ Say we want to read a word (4 bytes) starting from address $X$.
 > >
 > >
 > >
+> >
+> >
 > > Address | Value
 > > --------|-------
 > > 0x00    | 0x12   ← most significant byte
@@ -189,7 +191,11 @@ Say we want to read a word (4 bytes) starting from address $X$.
 > >
 > >
 > >
+> >
+> >
 > > Little endian stores it as:
+> >
+> >
 > >
 > >
 > >

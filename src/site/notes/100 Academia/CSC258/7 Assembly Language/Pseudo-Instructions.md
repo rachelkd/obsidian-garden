@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Pseudo-Instructions.md","permalink":"/academia/csc-258/7-assembly-language/pseudo-instructions/","tags":["cs","lecture","note","university"],"created":"2025-04-12T19:01:53.201-04:00","updated":"2025-04-12T19:35:15.812-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Pseudo-Instructions.md","permalink":"/academia/csc-258/7-assembly-language/pseudo-instructions/","tags":["cs","lecture","note","university"],"created":"2025-04-12T19:01:53.201-04:00","updated":"2025-04-12T21:56:39.630-04:00"}
 ---
 
 
@@ -39,3 +39,5 @@
         - `beq $at, $zero, label`
             - Branch if `$at == 0`
 - % Recall that `$at` register is reserved for the assembler
+
+![](https://i.imgur.com/I3LMrcy.png)
