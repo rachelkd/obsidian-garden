@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/The Stack.md","permalink":"/academia/csc-258/7-assembly-language/the-stack/","tags":["cs","lecture","note","university"],"created":"2025-04-12T23:07:14.219-04:00","updated":"2025-04-12T23:44:51.084-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/The Stack.md","permalink":"/academia/csc-258/7-assembly-language/the-stack/","tags":["cs","lecture","note","university"],"created":"2025-04-12T23:07:14.219-04:00","updated":"2025-04-12T23:54:25.499-04:00"}
 ---
 
 
@@ -64,4 +64,38 @@
     - & Update the stack pointer
         - Taken off a full word from stack
         - Update by ‘moving it back down’ four bytes i.e., add 4 to `$sp`
-            - Since ‘down’ corresponds to
+            - Since ‘down’ corresponds to higher address values
+
+### Popping Values off the Stack – After
+
+![](https://i.imgur.com/wLuMraJ.png)
+
+### Pushing Values to the Stack – Before
+
+![](https://i.imgur.com/HrhlAx3.png)
+
+### Pushing Values to the Stack – After
+
+![](https://i.imgur.com/eWiZowc.png)
+
+## Stack Usage
+
+- Whenever we refer to *pushing* and *popping* values:
+    - Pushing something onto the stack means
+        - *Allocate space* by ***decrementing*** the stack pointer by the appropriate number of bytes
+        - Do a store (or multiple stores as needed)
+    - Popping something from the stack means:
+        - Do a load (or multiple loads as needed)
+        - *De-allocate space* by ***incrementing*** the stack pointer by the appropriate number of bytes
+
+## Advice on Using the Stack
+
+- & Any space you allocate on the stack, you should later de-allocate
+- If you *push* items in a certain order:
+    - & Should *pop* items in *reverse order*
+- When pushing *more than one item* onto the stack, you can:
+    - Either allocate *all* the space in the beginning, or
+    - Allocate space as you go
+    - Same principle for popping
+
+> [!info]+ The other thing people use the stack for is [[100 Academia/CSC258/7 Assembly Language/Passing Function Parameters\|passing function parameters]].
