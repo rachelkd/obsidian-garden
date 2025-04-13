@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Week 11 - Assembly.md","permalink":"/academia/csc-258/7-assembly-language/week-11-assembly/","tags":["cs","lecture","note","university"],"created":"2025-04-12T21:53:01.342-04:00","updated":"2025-04-12T21:59:24.388-04:00"}
+{"dg-publish":true,"dg-path":"academia/CSC258/7 Assembly Language/Week 11 - Assembly.md","permalink":"/academia/csc-258/7-assembly-language/week-11-assembly/","tags":["cs","lecture","note","university"],"created":"2025-04-12T21:53:01.342-04:00","updated":"2025-04-12T23:07:42.266-04:00"}
 ---
 
 
@@ -22,3 +22,5 @@
 - [[100 Academia/CSC258/7 Assembly Language/Pseudo-Instructions\|Pseudo-Instructions]]
 - [[100 Academia/CSC258/7 Assembly Language/Arrays and Structs\|Arrays and Structs]]
 - [[100 Academia/CSC258/7 Assembly Language/Designing Assembly Code\|Designing Assembly Code]]
+- [[100 Academia/CSC258/7 Assembly Language/Functions in Assembly\|Functions in Assembly]]
+- [[100 Academia/CSC258/7 Assembly Language/The Stack\|The Stack]]
